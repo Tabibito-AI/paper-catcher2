@@ -1,0 +1,1974 @@
+=== Paper Catcher Starting ===
+Environment Variables Check:
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+GEMINI_API_KEY: AIzaSyAujp... (length: 39)
+KEYWORD1: TRE
+KEYWORD2: SDE
+SPRINGER_API_KEY: 6dbd920cb1...
+PUBMED_API_KEY: 672e439a19...
+================================
+=== Gemini Translator Initialization ===
+GEMINI_API_KEY exists: true
+GEMINI_API_KEY length: 39
+GEMINI_API_KEY preview: AIzaSyAujp...
+Translation enabled: true
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+arXiv initialized with query: abs:"TRE" OR "SDE" OR ti:"TRE" OR "SDE"
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+SemanticScholar initialized with query: "TRE" OR "SDE"
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+CrossRef initialized with query: "TRE" OR "SDE"
+=== Paper Catcher Started ===
+Using KEYWORD1 from .env file: TRE
+Using KEYWORD2 from .env file: SDE
+Keywords: "TRE" OR "SDE"
+Timestamp: 2025-05-30T23:05:11.641Z
+Translation enabled: true
+Environment variables check:
+- GEMINI_API_KEY: Set
+- KEYWORD1: Japan
+- KEYWORD2: TOKYO
+Starting paper collection...
+Fetching papers from arxiv...
+Fetched papers from arXiv: [
+  {
+    id: 'http://arxiv.org/abs/astro-ph/0605176v2',
+    title: 'Interested in observing TrES-Her0-07621?',
+    summary: 'TrES-Her0-07621 is a recently discovered detached M Dwarf eclipsing binary\n' +
+      'system. We present some follow-up observations of this system including new\n' +
+      'minima times and a refined orbital period. We have also obtained better\n' +
+      'estimates of the stellar radii and inclination.',
+    published: '2006-05-05T23:27:21Z',
+    updated: '2006-05-12T21:48:17Z',
+    authors: [
+      'O. L Creevey',
+      'T. M. Brown',
+      'S. Jiménez-Reyes',
+      'J. A. Belmonte'
+    ],
+    categories: [ 'astro-ph' ],
+    link: 'http://arxiv.org/abs/astro-ph/0605176v2'
+  },
+  {
+    id: 'http://arxiv.org/abs/1211.6828v1',
+    title: 'APOSTLE: Eleven Transit Observations of TrES-3b',
+    summary: 'The Apache Point Survey of Transit Lightcurves of Exoplanets (APOSTLE)\n' +
+      'observed eleven transits of TrES-3b over two years in order to constrain system\n' +
+      'parameters and look for transit timing and depth variations. We describe an\n' +
+      'updated analysis protocol for APOSTLE data, including the reduction pipeline,\n' +
+      'transit model and Markov Chain Monte Carlo analyzer. Our estimates of the\n' +
+      'system parameters for TrESb are consistent with previous estimates to within\n' +
+      'the 2\\sigma\\ confidence level. We improved the errors (by 10--30%) on system\n' +
+      'parameters like the orbital inclination ($i_{\\text{orb}}$), impact parameter\n' +
+      '(b) and stellar density (\\rho$_{\\star}$) compared to previous measurements. The\n' +
+      'near-grazing nature of the system, and incomplete sampling of some transits,\n' +
+      'limited our ability to place reliable uncertainties on individual transit\n' +
+      'depths and hence we do not report strong evidence for variability. Our analysis\n' +
+      'of the transit timing data show no evidence for transit timing variations and\n' +
+      'our timing measurements are able to rule out Super-Earth and Gas Giant\n' +
+      'companions in low order mean motion resonance with TrES-3b.',
+    published: '2012-11-29T07:28:59Z',
+    updated: '2012-11-29T07:28:59Z',
+    authors: [
+      'Praveen Kundurthy',
+      'Andrew C. Becker',
+      'Eric Agol',
+      'Rory Barnes',
+      'Benjamin F. Williams'
+    ],
+    categories: [ 'astro-ph.EP' ],
+    link: 'http://arxiv.org/abs/1211.6828v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1706.07801v1',
+    title: 'TRES Survey of Variable Diffuse Interstellar Bands',
+    summary: 'Diffuse interstellar bands (DIBs) are absorption features commonly observed\n' +
+      'in optical/near-infrared spectra of stars and thought to be associated with\n' +
+      'polyatomic molecules that comprise a significant reservoir of organic material\n' +
+      'in the universe. However, the central wavelengths of almost all DIBs do not\n' +
+      'correspond with electronic transitions of known atomic or molecular species and\n' +
+      'the specific physical nature of their carriers remains inconclusive despite\n' +
+      'decades of observational, theoretical, and experimental research. It is well\n' +
+      'established that DIB carriers are located in the interstellar medium, but the\n' +
+      'recent discovery of time-varying DIBs in the spectra of the extragalactic\n' +
+      'supernova SN2012ap suggests that some may be created in massive star\n' +
+      'environments. Here we report evidence of short time-scale (10-60 d) changes in\n' +
+      'DIB absorption line substructure toward 3 of 17 massive stars observed as part\n' +
+      'of a pathfinder survey of variable DIBs conducted with the 1.5-m Tillinghast\n' +
+      'telescope and Tillinghast Reflector Echelle Spectrograph (TRES) at Fred L.\n' +
+      'Whipple Observatory. The detections are made in high-resolution optical spectra\n' +
+      '(R = 44000) having signal-to-noise ratios of 5-15 around the 5797 and 6614\n' +
+      'angstrom features, and are considered significant but requiring further\n' +
+      'investigation. We find that these changes are potentially consistent with\n' +
+      'interactions between stellar winds and DIB carriers in close proximity. Our\n' +
+      'findings motivate a larger survey to further characterize these variations and\n' +
+      'may establish a powerful new method for probing the poorly understood physical\n' +
+      'characteristics of DIB carriers.',
+    published: '2017-06-23T18:00:00Z',
+    updated: '2017-06-23T18:00:00Z',
+    authors: [
+      'Charles J. Law',
+      'Dan Milisavljevic',
+      'Kyle N. Crabtree',
+      'Sommer L. Johansen',
+      'Daniel J. Patnaude',
+      'Raffaella Margutti',
+      'Jerod T. Parrent',
+      'Maria R. Drout',
+      'Nathan E. Sanders',
+      'Robert P. Kirshner',
+      'David W. Latham'
+    ],
+    categories: [ 'astro-ph.GA' ],
+    link: 'http://arxiv.org/abs/1706.07801v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1704.03697v1',
+    title: 'Photometric Investigation of Hot Exoplanets: TrES-3b and Qatar-1b',
+    summary: "New photometric follow-up observations of exoplanet transits of 'hot\n" +
+      "Jupiters' TrES-3b and Qatar-1b are presented. Weighted mean values of the\n" +
+      'solutions of light curves in R-fiter for both planetary systems are reported\n' +
+      'and compared with the previous results. The transit light curves were analysed\n' +
+      'using the WINFITTER code. The physical properties of the planets were\n' +
+      'estimated. The planet radii are found to be $R_p = 1.381 \\pm 0.033 R_J$ for\n' +
+      'TrES-3b and $R_p = 1.142 \\pm 0.025 R_J$ for Qatar-1b. Transit times and their\n' +
+      'uncertainties were also determined and a new linear ephemeris was computed for\n' +
+      'both systems. Analysis of transit times showed that a significant signal could\n' +
+      'not be determined for TrES-3b, while weak evidence was found for Qatar-1b,\n' +
+      'which might be tested using more precise future transit times.',
+    published: '2017-04-12T11:03:33Z',
+    updated: '2017-04-12T11:03:33Z',
+    authors: [
+      'Çağlar Püsküllü',
+      'Faruk Soydugan',
+      'Ahmet Erdem',
+      'Edwin Budding'
+    ],
+    categories: [ 'astro-ph.EP' ],
+    link: 'http://arxiv.org/abs/1704.03697v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1301.3989v1',
+    title: 'Tres lecciones en combinatoria algebraica. III. Arreglos de hiperplanos',
+    summary: 'In this series of three articles, we give an exposition of various results\n' +
+      'and open problems in three areas of algebraic and geometric combinatorics:\n' +
+      'totally non-negative matrices, representations of the symmetric group, and\n' +
+      'hyperplane arrangements. This first part is an introduction to hyperplane\n' +
+      'arrangements from a combinatorial point of view. ----- En esta serie de tres\n' +
+      'articulos, damos una exposicion de varios resultados y problemas abiertos en\n' +
+      'tres areas de la combinatoria algebraica y geometrica: las matrices totalmente\n' +
+      'no negativas, las representaciones del grupo simetrico, y los arreglos de\n' +
+      'hiperplanos. Esta tercera parte presenta una introduccion a los arreglos de\n' +
+      'hiperplanos desde un punto de vista combinatorio.',
+    published: '2013-01-17T05:34:02Z',
+    updated: '2013-01-17T05:34:02Z',
+    authors: [
+      'Federico Ardila',
+      'Emerson Leon',
+      'Mercedes Rosas',
+      'Mark Skandera'
+    ],
+    categories: [ 'math.CO' ],
+    link: 'http://arxiv.org/abs/1301.3989v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1108.5255v1',
+    title: 'New photometric observations of the transiting extrasolar planet TrES-3b',
+    summary: 'We present new transit observations of the transiting exoplanet TrES-3b\n' +
+      'obtained in the range 2009 -- 2011 at several observatories. The orbital\n' +
+      'parameters of the system were redetermined and the new linear ephemeris was\n' +
+      'calculated. We performed numerical simulations for studying the long-term\n' +
+      'stability of orbits.',
+    published: '2011-08-26T08:23:18Z',
+    updated: '2011-08-26T08:23:18Z',
+    authors: [
+      'M. Vaňko',
+      'M. Jakubík',
+      'T. Krejčová',
+      'G. Maciejewski',
+      'J. Budaj',
+      'T. Pribulla',
+      'J. Ohlert',
+      'St. Raetz',
+      'V. Krushevska',
+      'P. Dubovsky'
+    ],
+    categories: [ 'astro-ph.EP' ],
+    link: 'http://arxiv.org/abs/1108.5255v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/0912.4428v2',
+    title: 'Multi-band transit observations of the TrES-2b exoplanet',
+    summary: 'We present a new data set of transit observations of the TrES-2b exoplanet\n' +
+      'taken in spring 2009, using the 1.2m Oskar-Luhning telescope (OLT) of Hamburg\n' +
+      'Observatory and the 2.2m telescope at Calar Alto Observatory using BUSCA (Bonn\n' +
+      'University Simultaneous CAmera). Both the new OLT data, taken with the same\n' +
+      'instrumental setup as our data taken in 2008, as well as the simultaneously\n' +
+      'recorded multicolor BUSCA data confirm the low inclination values reported\n' +
+      'previously, and in fact suggest that the TrES-2b exoplanet has already passed\n' +
+      'the first inclination threshold (i_min,1 = 83.417) and is not eclipsing the\n' +
+      'full stellar surface any longer. Using the multi-band BUSCA data we demonstrate\n' +
+      'that the multicolor light curves can be consistently fitted with a given set of\n' +
+      'limb darkening coefficients without the need to adjust these coefficients, and\n' +
+      'further, we can demonstrate that wavelength dependent stellar radius changes\n' +
+      'must be small as expected from theory. Our new observations provide further\n' +
+      'evidence for a change of the orbit inclination of the transiting extrasolar\n' +
+      'planet TrES-2b reported previously. We examine in detail possible causes for\n' +
+      'this inclination change and argue that the observed change should be\n' +
+      'interpreted as nodal regression. While the assumption of an oblate host star\n' +
+      'requires an unreasonably large second harmonic coefficient, the existence of a\n' +
+      'third body in the form of an additional planet would provide a very natural\n' +
+      'explanation for the observed secular orbit change. Given the lack of clearly\n' +
+      'observed short-term variations of transit timing and our observed secular nodal\n' +
+      'regression rate, we predict a period between approximately 50 and 100 days for\n' +
+      'a putative perturbing planet of Jovian mass. Such an object should be\n' +
+      'detectable with present-day radial velocity (RV) techniques.',
+    published: '2009-12-22T15:49:58Z',
+    updated: '2009-12-23T13:27:55Z',
+    authors: [
+      'D. Mislis',
+      'S. Schroter',
+      'J. H. M. M. Schmitt',
+      'O. Cordes',
+      'K. Reif'
+    ],
+    categories: [ 'astro-ph.EP' ],
+    link: 'http://arxiv.org/abs/0912.4428v2'
+  },
+  {
+    id: 'http://arxiv.org/abs/2301.03842v1',
+    title: 'AstroGarden of Roma Tre University: from presence to online tour',
+    summary: 'The transition of teaching activities to online mode, forced by the Covid-19\n' +
+      'emergency, had also positive aspects, as it pushed to create new contents and\n' +
+      'use new approaches. An example is represented by our experience at the\n' +
+      'Department of Mathematics and Physics ofRoma Tre University, where we had to\n' +
+      'revolutionise an activity we carried on countless times over the years: the\n' +
+      'guided visit to our astronomical garden, the AstroGarden. In this paper, we\n' +
+      'analyse the new approach we used especially regarding the activities with the\n' +
+      'so-called oriented globe, the different audiences we reached and the positive\n' +
+      'feedback we received.',
+    published: '2023-01-10T08:20:22Z',
+    updated: '2023-01-10T08:20:22Z',
+    authors: [ 'Adriana Postiglione' ],
+    categories: [ 'physics.ed-ph' ],
+    link: 'http://arxiv.org/abs/2301.03842v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2111.05628v2',
+    title: 'Machine Learning Models Disclosure from Trusted Research Environments\n' +
+      '  (TRE), Challenges and Opportunities',
+    summary: 'Artificial intelligence (AI) applications in healthcare and medicine have\n' +
+      'increased in recent years. To enable access to personal data, Trusted Research\n' +
+      'environments (TREs) provide safe and secure environments in which researchers\n' +
+      'can access sensitive personal data and develop Artificial Intelligence (AI) and\n' +
+      'Machine Learning models. However currently few TREs support the use of\n' +
+      'automated AI-based modelling using Machine Learning. Early attempts have been\n' +
+      'made in the literature to present and introduce privacy preserving machine\n' +
+      'learning from the design point of view [1]. However, there exists a gap in the\n' +
+      'practical decision-making guidance for TREs in handling models disclosure.\n' +
+      'Specifically, the use of machine learning creates a need to disclose new types\n' +
+      'of outputs from TREs, such as trained machine learning models. Although TREs\n' +
+      'have clear policies for the disclosure of statistical outputs, the extent to\n' +
+      'which trained models can leak personal training data once released is not well\n' +
+      'understood and guidelines do not exist within TREs for the safe disclosure of\n' +
+      'these models.\n' +
+      '  In this paper we introduce the challenge of disclosing trained machine\n' +
+      'learning models from TREs. We first give an overview of machine learning models\n' +
+      'in general and describe some of their applications in healthcare and medicine.\n' +
+      'We define the main vulnerabilities of trained machine learning models in\n' +
+      'general. We also describe the main factors affecting the vulnerabilities of\n' +
+      'disclosing machine learning models. This paper also provides insights and\n' +
+      'analyses methods that could be introduced within TREs to mitigate the risk of\n' +
+      'privacy breaches when disclosing trained models.',
+    published: '2021-11-10T10:35:48Z',
+    updated: '2022-08-20T08:37:30Z',
+    authors: [
+      'Esma Mansouri-Benssassi',
+      'Simon Rogers',
+      'Jim Smith',
+      'Felix Ritchie',
+      'Emily Jefferson'
+    ],
+    categories: [ 'cs.CR', 'cs.AI', 'cs.CY' ],
+    link: 'http://arxiv.org/abs/2111.05628v2'
+  },
+  {
+    id: 'http://arxiv.org/abs/1006.5680v3',
+    title: "Analysis of Kepler's short-cadence photometry for TrES-2b",
+    summary: 'We present an analysis of 18 short-cadence (SC) transit lightcurves of\n' +
+      'TrES-2b using quarter 0 (Q0) and quarter 1 (Q1) from the Kepler Mission. The\n' +
+      'photometry is of unprecedented precision, 237ppm per minute, allowing for the\n' +
+      'most accurate determination of the transit parameters yet obtained for this\n' +
+      'system. Global fits of the transit photometry, radial velocities and known\n' +
+      'transit times are used to obtain a self-consistent set of refined parameters\n' +
+      'for this system, including updated stellar and planetary parameters. Special\n' +
+      'attention is paid to fitting for limb darkening and eccentricity. We place an\n' +
+      'upper limit on the occultation depth to be <72.9ppm to 3-sigma confidence,\n' +
+      'indicating TrES-2b has the lowest determined geometric albedo for an exoplanet,\n' +
+      "of Ag<0.146. We also produce a transit timing analysis using Kepler's\n" +
+      'short-cadence data and demonstrate exceptional timing precision at the level of\n' +
+      'a few seconds for each transit event. With 18 fully-sampled transits at such\n' +
+      'high precision, we are able to produce stringent constraints on the presence of\n' +
+      'perturbing planets, Trojans and extrasolar moons. We introduce the novel use of\n' +
+      'control data to identify phasing effects. We also exclude the previously\n' +
+      'proposed hypotheses of short-period TTV and additional transits but find the\n' +
+      'hypothesis of long-term inclination change is neither supported nor refuted by\n' +
+      'our analysis.',
+    published: '2010-06-29T17:10:47Z',
+    updated: '2011-03-10T15:31:43Z',
+    authors: [ 'David M. Kipping', 'Gáspár Á. Bakos' ],
+    categories: [ 'astro-ph.EP' ],
+    link: 'http://arxiv.org/abs/1006.5680v3'
+  }
+]
+Collected 10 papers from arxiv
+Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
+Rate limited. Retrying after 4000ms...
+Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:355:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1043:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:355:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1043:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+Fetching papers from springer...
+Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc &q=(keyword%3A%22TRE%22%20OR%20keyword%3A%22SDE%22)&p=10&s=1
+Error fetching Springer papers: Error: Springer API request failed with status 401
+    at SpringerClient.fetchSpringerPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:250:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1040:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+Error collecting papers from springer: Error: Springer API request failed with status 401
+    at SpringerClient.fetchSpringerPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:250:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1040:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+Fetching papers from pubmed...
+Fetched papers from PubMed: [
+  {
+    id: '40443246',
+    title: 'Role of late-night eating in circadian disruption and depression: a review of emotional health impacts.',
+    abstract: 'PURPOSE: Circadian rhythms regulate key physiological and behavioral processes. Modern lifestyles, characterized by irregular schedules, artificial lighting, and late-night eating disrupt these rhythms, leading to metabolic and emotional health disturbances. Latenight eating misaligns the circadian clock, affecting neurotransmitter function, hormonal rhythms, and inflammatory pathways, thereby increasing the risk of mood disorders.\n' +
+      'METHODS: This review synthesizes findings from human and animal studies that examined the effects of late-night eating on circadian misalignment and emotional health. Studies were selected on the basis of the ir relevance to circadian disruption and mood regulation. This review categorizes the physiological mechanisms involved and evaluates dietary timing interventions, such as time-restricted eating (TRE), earlier meal timing, and meal regularity as potential strategies to mitigate these effects.\n' +
+      'RESULTS: Late-night eating delayed melatonin onset, elevated nocturnal cortisol levels, disrupted serotonin and dopamine rhythms, and increased systemic inflammation, contributing to emotional instability. Aligning mealtimes with the circadian rhythm improves sleep quality, neurotransmitter balance, and stress resilience. TRE and earlier meal timing show promise in mitigating these effects, although further research is needed to optimize the strategies for different chronotypes and metabolic profiles.\n' +
+      'CONCLUSION: Circadian-aligned meal timing is a practical and noninvasive approach to mitigate the adverse effects of late-night eating on metabolic and emotional health. Future research should refine personalized chrononutrition interventions and assess their long-term effects on mood disorders. Implementing meal-timing strategies based on circadian science could serve as a crucial tool for improving public health and preventing diet-related emotional dysregulation.',
+    published: '2025-Mar',
+    authors: [ 'Kim Young-Im', 'Kim Eunbi', 'Lee Youngjun', 'Park Jonghoon' ],
+    journal: 'Physical activity and nutrition',
+    doi: '10.20463/pan.2025.0003',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40443246/'
+  },
+  {
+    id: '40438155',
+    title: 'Ab Initio Lattice Quantum Chromodynamics Calculations of Parton Physics in the Proton: Large-Momentum Effective Theory versus Short-Distance Expansion.',
+    abstract: 'Although equivalent in the infinite-momentum limit, large-momentum effective theory (LaMET) and short-distance operator product expansion (SDE) are 2 very different approaches to obtain parton distribution functions (PDFs) from coordinate-space correlation functions computed in a large-momentum proton through lattice quantum chromodynamics (QCD). LaMET implements a momentum-space expansion in  to directly calculate PDFs  in a middle region of Bjorken  . SDE applies perturbative QCD at small Euclidean distances  to extract a range  of leading-twist correlations,  , corresponding to the Fourier transformation of PDFs. An incomplete leading-twist correlation from SDE cannot be readily converted to a momentum-space distribution, and solving its constraints on the PDFs (or the so-called "inverse problem") involves phenomenological modeling of the missing information beyond  and has no systematic control of errors. I argue that the best use of short-distance correlations is to constrain the PDFs in the LaMET-complementary regions:  and  through expected end-point asymptotics, and use the results of the pion valence quark distribution from the ANL/BNL collaboration to demonstrate how this can be done.',
+    published: '2025',
+    authors: [ 'Ji Xiangdong' ],
+    journal: 'Research (Washington, D.C.)',
+    doi: '10.34133/research.0695',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40438155/'
+  },
+  {
+    id: '40436708',
+    title: 'Subdural effusion secondary to unilateral decompressive craniectomy in patients with traumatic brain injury: Incidence, clinical characteristics, predictors and outcomes.',
+    abstract: 'BACKGROUND: Currently, there is a lack of literature reporting on the risk factors associated with various types of subdural effusion (SDE). The purpose of this study is to investigate the incidence, risk factors, and prognosis of different types of SDE that occur secondary to unilateral decompressive craniectomy (DC) in patients with traumatic brain injury (TBI).\n' +
+      'METHODS: A total of 417 patients who met the inclusion criteria were analyzed. The incidence, treatment, and prognosis of various types of SDE were examined. Risk factors associated with different types of SDE were identified through univariate analysis followed by multivariable logistic regression analysis.\n' +
+      'RESULTS: The overall incidence of SDE was 50.6 %. There was no statistically significant difference in GOS scores among the various types of SDE (P = 0.511). Age (per 10-year increase) (OR, 1.471; 95 % CI, 1.201-1.802; P < 0.001), alcoholism (OR, 2.027; 95 % CI, 1.021-4.022; P = 0.043), combined with contralateral subdural hematoma (OR, 4.874; 95 % CI, 2.676-8.878; P < 0.001), and contralateral pneumocephalus after surgery (OR, 4.051; 95 % CI, 1.837-8.934; P = 0.001) were identified as independent risk factors for the occurrence of contralateral SDE. The type of injury (acute subdural hematoma, ASDH) (OR, 1.918; 95 % CI, 1.367-2.690; P <0.001), was an independent risk factor for the occurrence of ipsilateral SDE. Combined with contralateral subdural hematoma (OR, 2.669; 95 % CI, 1.161-6.139; P = 0.021) and contralateral pneumocephalus after surgery (OR, 2.271; 95 % CI, 1.177-4.381; P = 0.014) were independent risk factors for the occurrence of interhemispheric SDE.\n' +
+      'CONCLUSIONS: Various types of SDE do not significantly affect the prognosis of patients with traumatic brain injury (TBI). Independent risk factors for the occurrence of contralateral SDE include age, alcoholism, and the presence of contralateral subdural hematoma and contralateral pneumocephalus following surgery. The type of injury being ASDH is the only risk factor for ipsilateral SDE. Combined with contralateral subdural hematoma and contralateral pneumocephalus after surgery were independent risk factors for the occurrence of interhemispheric SDE.',
+    published: '2025-May-22',
+    authors: [
+      'Shen Jun',
+      'An Qian',
+      'Hu Guanjie',
+      'Jiang Xiaochun',
+      'Zhang Shaolin'
+    ],
+    journal: 'Injury',
+    doi: '10.1016/j.injury.2025.112446',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40436708/'
+  },
+  {
+    id: '40433908',
+    title: 'A novel approach to evaluate the therapeutic efficacy of durvalumab and tremelimumab combination therapy in hepatocellular carcinoma.',
+    abstract: 'AIM: This study aimed to evaluate the efficacy of durvalumab + tremelimumab (Dur + Tre) in real-world clinical practice, characterize "stable disease (SD)," and identify SD responders (SD-R) who benefit from Dur + Tre treatment.\n' +
+      'METHODS: This multicenter observational study included 212 patients with unresectable hepatocellular carcinoma (u-HCC) treated with Dur + Tre between March 2023 and November 2024. The patients were categorized into 95 first-line and 117 later-line cases, respectively. Sequential cutoff points for depth of response (DOR) and progression-free survival (PFS) were tested to identify subgroups with survival outcomes comparable to those of responders.\n' +
+      'RESULTS: Disease control rate (DCR) and PFS were significantly better in the first-line setting for both response evaluation criteria in solid tumors (RECIST) and modified RECIST (mRECIST) criteria. Patients who achieved PFS of ≥84 days or RECIST DOR of ≤-10% were classified as SD-R, as they had long-term survival outcomes similar to those with PR or CR. Furthermore, the CR + PR + SD-R group had significantly better survival outcomes than the other groups (p < 0.01), and multivariate analysis confirmed that SD-R was an independent prognostic factor with the strongest impact on survival outcomes (hazard ratio = 0.11).\n' +
+      'CONCLUSIONS: In real-world clinical practice, Dur + Tre is highly effective as a first-line treatment for u-HCC. Additionally, patients with SD who met the SD-R criteria (PFS ≥84 days or RECIST DOR ≤-10%) showed survival outcomes comparable to those of patients with PR or CR. These findings may help identify patients who are most likely to benefit from treatment and improve their prognoses.',
+    published: '2025-May-28',
+    authors: [
+      'Tomonari Tetsu',    'Shimose Shigeo',
+      'Saeki Issei',       'Tani Joji',
+      'Honma Yuichi',      'Ito Takanori',
+      'Takeuchi Mamiko',   'Naito Takehito',
+      'Takeuchi Yasuto',   'Sasaki Ryu',
+      'Sasaki Kyo',        'Hatanaka Takeshi',
+      'Kakizaki Satoru',   'Kanayama Yuki',
+      'Naganuma Atsushi',  'Tanabe Norikazu',
+      'Tanaka Hironori',   'Kawano Yutaka',
+      'Sato Yasushi',      'Nishina Sohji',
+      'Miyaaki Hisamitsu', 'Otsuka Motoyuki',
+      'Kawashima Hiroki',  'Harada Masaru',
+      'Kobara Hideki',     'Takami Taro',
+      'Kawaguchi Takumi',  'Takayama Tetsuji',
+      ''
+    ],
+    journal: 'Hepatology research : the official journal of the Japan Society of Hepatology',
+    doi: '10.1111/hepr.14212',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40433908/'
+  },
+  {
+    id: '40431429',
+    title: "The Effectiveness of Time-Restricted Eating as an Intermittent Fasting Approach on Shift Workers' Glucose Metabolism: A Systematic Review and Meta-Analysis.",
+    abstract: ": Shift workers face higher risks of impaired glucose metabolism due to irregular eating habits and circadian misalignment. Time-restricted eating (TRE) could improve glucose metabolism by aligning food intake with the circadian clock, but its effectiveness remains unclear. : Ten electronic databases (PubMed, EMBASE, Cochrane Library, CINAHL, PsycINFO, Scopus, Web of Science, ProQuest Dissertations and Theses, Science.gov, and ClinicalTrials.gov) were searched from journal inception to September 2024. Only randomized controlled trials (RCTs) involving shift workers were included. Meta-analyses with sensitivity analyses were conducted using a random-effects model to pool glucose metabolism and sleep outcomes, with heterogeneity and quality assessments performed. : Six RCTs were included. TRE demonstrated positive but non-significant effects on glucose metabolism outcomes: fasting blood glucose (weighted mean difference [WMD]: -0.02 mmol/L, 95% confidence interval [CI]: -0.13 to 0.10,  = 0%), fasting blood insulin (WMD: -5.77 pmol/L, 95% CI: -85.62 to 74.08,  = 92%), HOMA-IR (WMD: -0.50, 95% CI: -2.76 to 1.76,  = 82%), 2 h postprandial glucose (WMD: -0.65 mmol/L, 95% CI: -3.18 to 1.89,  = 86%), total sleep time ( = 0.07, 95% CI: -0.23 to 0.37,  = 0%), and sleep efficiency ( = -0.05, 95% CI: -0.63 to 0.53,  = 62%). Sensitivity analyses yielded similar findings, and overall certainty of evidence was rated 'very low'. : While TRE shows potential for improving the glucose metabolism in shift workers, current evidence remains inconclusive due to small sample sizes and study limitations. Future research should prioritize well-powered TRE RCTs in shift workers that adhere to a 6-10 h eating window. Incorporating early-TRE schedules with sleep hygiene may optimize metabolic outcomes, with circadian biomarkers analyzed to better elucidate the mechanistic pathway implicated.",
+    published: '2025-May-15',
+    authors: [
+      'Koh Jia Ying Jennell',
+      'Tan Celine Yu Han',
+      'Li Meng',
+      'Liu Mei Hui',
+      'Chew Han Shi Jocelyn'
+    ],
+    journal: 'Nutrients',
+    doi: '10.3390/nu17101689',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40431429/'
+  },
+  {
+    id: '40429523',
+    title: 'EEG Maturational Age Estimation: A Comparison of Visual and Automated Interpretation of the EEG in Preterm Infants.',
+    abstract: " To assess the inter-rater agreement and accuracy of human experts' estimate of EEG maturational age (EMA) and a computer algorithm's estimate of EMA over the first days after birth in a cohort of normally developing preterm infants. In addition, we explore the influence of post-natal age (PNA) on EMA estimates. : Analysis was performed on EEG records from newborns determined appropriate for gestational age (GA) with favorable neurodevelopment at 2 years of age and without significant neurological compromise at time of EEG monitoring. Three 1h epochs of EEG were selected from 29 newborns with GA ranging from 23 to <32 weeks, within 72 h of birth. EEG epochs were visually assessed by two pediatric neurologists and a computer algorithm. In addition, the full, long-duration EEG recording of each newborn was assessed by one pediatric neurologist. EMA estimates were compared to GA using Pearson's correlation coefficient () and bias and standard deviation of error (SDE). Intra-newborn agreements for the EMA estimates were assessed using standard deviation. Linear mixed-effects models were used to quantify the effect of PNA on EMA estimates. : The algorithm provides a more accurate estimate of GA using 1 h EEG epochs for correlation and bias: algorithm  = 0.83 vs. experts  = 0.60 and 0.66,  < 0.05 for  = 29; algorithm bias = -0.8 days vs. experts' bias = 3.6 and 7.0 days,  < 0.01 for  = 29. SDE of 8.7 days for the algorithm was not significantly lower compared to the experts' SDE = 12.4 and 13.2 days,  > 0.05. The algorithm has higher intra-newborn agreement compared to the experts: algorithm SDE = 4.9 days vs. experts SDE = 7.4 and 7.4 days,  = 0.027. For the two experts, increasing PNA is associated with an increase in EMA estimates of 6.6 days/days and 3.7 days/days. The assessment of full, long-duration EEG recordings improved the experts' estimate of EMA ( = 0.82; SDE = 9.2 days). : Automated analysis outperforms visual interpretation of the EEG at estimating EMA for short-duration EEG recordings. PNA is an important factor in EMA estimates.",
+    published: '2025-May-18',
+    authors: [
+      'Pavlidis Elena',
+      "O'Toole John M",
+      'Pisani Francesco',
+      'Boylan Geraldine B',
+      'Stevenson Nathan J'
+    ],
+    journal: 'Journal of clinical medicine',
+    doi: '10.3390/jcm14103528',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40429523/'
+  },
+  {
+    id: '40426692',
+    title: 'Image Fusion of High-Resolution DynaCT and T2-Weighted MRI for Image-Guided Programming of dDBS.',
+    abstract: ' This study aimed to develop a semi-automated registration method for aligning preoperative non-contrast T2-weighted MRI with postoperative high-resolution cone-beam CT (DynaCT) in patients undergoing directional deep brain stimulation (dDBS) surgery targeting the subthalamic nucleus (STN). The aim was to facilitate image-guided programming of DBS devices and postoperative verification of the alignment of segmented contacts.  A dataset of ten patients undergoing bilateral dDBS implantation was retrospectively collected, including DynaCT (acquired postoperatively) and non-contrast T2-weighted MRI (obtained preoperatively). A semi-automated registration method was used, employing manual initialization due to dissimilar anatomical information between DynaCT and T2-weighted MRI. Image visualization, initial alignment using a centered transformation initializer, and single-resolution image registration involving the Simple Insight Toolkit (SimpleITK) library were performed. Manual landmark-based alignment based on anatomical landmarks and evaluation metrics such as Target Registration Error (TRE) assessed alignment accuracy.  The registration method successfully aligned all images. Quantitative evaluation revealed an average of the mean TRE of 1.48 mm across all subjects, indicating satisfactory alignment quality. Multiplanar reformations (MPRs) based on electrode-oriented normal vectors visualized segmented contacts for accurate electrode placement.  The developed method demonstrated successful registration between preoperative non-contrast T2-weighted MRI and postoperative DynaCT, despite dissimilar anatomical information. This approach facilitates accurate alignment crucial for DBS programming and postoperative verification, potentially reducing the programming time of the DBS. The study underscores the importance of image quality, manual initialization and semi-automated registration methods for successful multimodal image registration in dDBS procedures targeting the STN.',
+    published: '2025-May-19',
+    authors: [
+      'Al-Jaberi Fadil',
+      'Moeskes Matthias',
+      'Skalej Martin',
+      'Fachet Melanie',
+      'Hoeschen Christoph'
+    ],
+    journal: 'Brain sciences',
+    doi: '10.3390/brainsci15050521',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40426692/'
+  },
+  {
+    id: '40425545',
+    title: 'China Protocol for early screening, precise diagnosis, and individualized treatment of lung cancer.',
+    abstract: 'Early screening, diagnosis, and treatment of lung cancer are pivotal in clinical practice since the tumor stage remains the most dominant factor that affects patient survival. Previous initiatives have tried to develop new tools for decision-making of lung cancer. In this study, we proposed the China Protocol, a complete workflow of lung cancer tailored to the Chinese population, which is implemented by steps including early screening by evaluation of risk factors and three-dimensional thin-layer image reconstruction technique for low-dose computed tomography (Tre-LDCT), accurate diagnosis via artificial intelligence (AI) and novel biomarkers, and individualized treatment through non-invasive molecule visualization strategies. The application of this protocol has improved the early diagnosis and 5-year survival rates of lung cancer in China. The proportion of early-stage (stage I) lung cancer has increased from 46.3% to 65.6%, along with a 5-year survival rate of 90.4%. Moreover, especially for stage IA1 lung cancer, the diagnosis rate has improved from 16% to 27.9%; meanwhile, the 5-year survival rate of this group achieved 97.5%. Thus, here we defined stage IA1 lung cancer, which cohort benefits significantly from early diagnosis and treatment, as the "ultra-early stage lung cancer", aiming to provide an intuitive description for more precise management and survival improvement. In the future, we will promote our findings to multicenter remote areas through medical alliances and mobile health services with the desire to move forward the diagnosis and treatment of lung cancer.',
+    published: '2025-May-27',
+    authors: [
+      'Wang Chengdi', 'Chen Bojiang',
+      'Liang Shufan', 'Shao Jun',
+      'Li Jingwei',   'Yang Liuqing',
+      'Ren Pengwei',  'Wang Zhoufeng',
+      'Luo Wenxin',   'Zhang Li',
+      'Liu Dan',      'Li Weimin'
+    ],
+    journal: 'Signal transduction and targeted therapy',
+    doi: '10.1038/s41392-025-02256-1',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40425545/'
+  },
+  {
+    id: '40425203',
+    title: 'Enabling health data analyses across multiple private datasets with no information sharing using secure multiparty computation.',
+    abstract: "The UK's health datasets are among the most comprehensive and inclusive globally, enabling groundbreaking research during the COVID-19 pandemic. However, restrictions on data sharing between secure data environments (SDEs) imposed limitations on the ability to carry out joint analyses across multiple separate datasets. There are currently significant efforts underway to enable such analyses using methods such as federated analytics (FA) and virtual SDEs. FA involves distributed data analysis without sharing raw data but does require sharing summary statistics. Virtual SDEs in principle allow researchers to access data across multiple SDEs, but in practice, data transfers may be restricted by information governance concerns.Secure multiparty computation (SMPC) is a cryptographic approach that allows multiple parties to perform joint analyses over private datasets with zero information sharing. SMPC may eliminate the need for data-sharing agreements and statistical disclosure control, offering a compelling alternative to FA and virtual SDEs. SMPC comes with a higher computational burden than traditional pooled analysis. However, efficient implementations of SMPC can enable a wide range of practical, secure analyses to be carried out.This perspective reviews the strengths and limitations of FA, virtual SDEs and SMPC as approaches to joint analyses across SDEs. We argue that while efforts to implement FA and virtual SDEs are ongoing in the UK, SMPC remains underexplored. Given its unique advantages, we propose that SMPC deserves greater attention as a transformative solution for enabling secure, cross-SDE analyses of private health data.",
+    published: '2025-May-26',
+    authors: [
+      'Kerr Steven',
+      'Robertson Chris',
+      'Sudlow Cathie',
+      'Sheikh Aziz'
+    ],
+    journal: 'BMJ health & care informatics',
+    doi: '10.1136/bmjhci-2024-101384',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40425203/'
+  },
+  {
+    id: '40413310',
+    title: 'Hippocampal ensembles regulate circuit-induced relapse of extinguished fear.',
+    abstract: 'Extinction learning is central to behavioral therapies for post-traumatic stress disorder (PTSD), but relapse poses a major challenge to this approach. Recent work has revealed a critical role for the thalamic nucleus reuniens (RE) in the suppression of extinguished fear memories. Silencing the RE yields a relapse of extinguished fear (i.e., "circuit-induced relapse"). Considerable work suggests that RE may contribute to extinction by inhibiting the retrieval of hippocampal (HPC)-dependent fear memories. To test this hypothesis, we first examined whether undermining the formation of contextual fear memories in the HPC would prevent circuit-induced relapse. Intra-hippocampal infusions of the NMDA receptor antagonist, APV, prior to auditory fear conditioning eliminated contextual fear memory and prevented the subsequent relapse of extinguished fear to the auditory conditioned stimulus (CS). In a second experiment, we used an activity-dependent labeling system (AAV-cFos-tTA; AAV-TRE-hM3Dq-mCherry) to express excitatory DREADDs in HPC neurons during fear conditioning. Chemogenetic reactivation of these ensembles after extinction was sufficient to drive relapse of fear to the extinguished CS. Lastly, in a third experiment, we expressed excitatory DREADDs in HPC ensembles captured during extinction learning and found that chemogenetic reactivation of this ensemble was sufficient to inhibit circuit-induced relapse. These results reveal that HPC-dependent ensembles play a critical role in regulating the expression and relapse of extinguished fear.',
+    published: '2025-May-24',
+    authors: [
+      'Hassell James E',
+      'Arellano Perez Angel D',
+      'Vasudevan Krithika',
+      'Ressler Reed L',
+      'Garcia Gabriela M',
+      'Parr Madison',
+      'Vierkant Valerie M',
+      'Bayer Hugo',
+      'Maren Stephen'
+    ],
+    journal: 'Molecular psychiatry',
+    doi: '10.1038/s41380-025-03064-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40413310/'
+  }
+]
+Collected 10 papers from pubmed
+Fetching papers from crossref...
+Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S0022247X25000988
+No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S0022247X25000988
+Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S277273782500015X
+No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S277273782500015X
+Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S0025326X25005570
+No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S0025326X25005570
+Scraping abstract from final URL: https://ieeexplore.ieee.org/document/10839558/
+Found abstract in meta tag: meta[property="og:description"]
+Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S0969806X25003032
+No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S0969806X25003032
+Scraping abstract from final URL: https://www.onlinescientificresearch.com/articles/clinical-use-of-loop-diuretics-acting-on-symporters.pdf
+No abstract found for URL: https://www.onlinescientificresearch.com/articles/clinical-use-of-loop-diuretics-acting-on-symporters.pdf
+Scraping abstract from final URL: https://www.arabjournalpp.org/article/2025/02/4558/
+Found abstract in meta tag: meta[property="og:description"]
+Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (original: https://doi.org/10.1093/9780197761373.003.0004): AxiosError: Request failed with status code 403
+    at settle (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher/paper-catcher/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1049:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.1093/9780197761373.003.0004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'academic.oup.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'academic.oup.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 10000,
+      parser: null,
+      _httpMessage: [Circular *1],
+      autoSelectFamilyAttemptedAddresses: [Array],
+      write: [Function: writeAfterFIN],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 3144,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 24694,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 3153,
+        [Symbol(triggerId)]: 3148
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 7025,
+      [Symbol(kBytesWritten)]: 312,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /book/59985/chapter/513443701 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: academic.oup.com\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/book/59985/chapter/513443701',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 403,
+      statusMessage: 'Forbidden',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://academic.oup.com/book/59985/chapter/513443701',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 46,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: [Function: emitRequestTimeout],
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'academic.oup.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://academic.oup.com/book/59985/chapter/513443701',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Object [AxiosHeaders] {
+      date: 'Fri, 30 May 2025 23:05:35 GMT',
+      'content-type': 'text/html; charset=UTF-8',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+      'cf-mitigated': 'challenge',
+      'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+      'cross-origin-embedder-policy': 'require-corp',
+      'cross-origin-opener-policy': 'same-origin',
+      'cross-origin-resource-policy': 'same-origin',
+      'origin-agent-cluster': '?1',
+      'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
+      'referrer-policy': 'same-origin',
+      'server-timing': 'chlray;desc="9481e08e9a7ec5ca"',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+      expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+      'set-cookie': [Array],
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'cf-ray': '9481e08e9a7ec5ca-ORD'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.1093/9780197761373.003.0004',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /book/59985/chapter/513443701 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: academic.oup.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/book/59985/chapter/513443701',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'academic.oup.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "academic.oup.com",cType: 'managed',cRay: '9481e08e9a7ec5ca',cH: 'SXGMJfjRgsuoeet5gk7eHIb40DsFMqvK.AEfTcuLG7Y-1748646335-1.2.1.1-B7cuxFbx_mao_e40HQponfgZqYg1hR9cxKdLNNZ1YyBw._x0m85OdTy9Iopi2Qbt',cUPMDTk: "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_tk=e1Y6es8m48YzAiPbemohGHT8C_1LzyG_6yoVX1m81Zg-1748646335-1.0.1.1-EEf4b6R5CfMg6vZcXA8tDvofJqxaOUxLhRrBOWzEGak",cFPWv: 'g',cITimeS: '1748646335',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_f_tk=e1Y6es8m48YzAiPbemohGHT8C_1LzyG_6yoVX1m81Zg-1748646335-1.0.1.1-EEf4b6R5CfMg6vZcXA8tDvofJqxaOUxLhRrBOWzEGak",md: "Lzey.4XWrKUs1VgifwJzD4zq9K3_ezVVpqVpK_605UM-1748646335-1.2.1.1-2B30SSvkwEFiIEtyyIYWgaNC7xeKCD_PXbEtUrN5UPK6dFq..Yig2w5eNUeJF7Lh1.D7Q1pd7nV4m4Uy0jKJRXrJxyNLaBoZbEDjIdIJIkZgVpj1AB6u_uzVihezBgWcc8ouDxEIhVfU7.pCv2tFi6c9iIz6DJE.i_lLEzrtMVOQpNwv09iV.7ruAOuvi7WnggfUwBvgd6yncl0270EKlsLRqE49.7AzcTeo8JoFSWHs5TlTPkdePEpDUGenMEb.7UBx2aQxaV2gae5tfrD7n7_7G2P.4pNPvMj7lr4zA15zBSxv9OdWiobIlr8hNZgB25Tko5w2l0TZn4pS74LQ2UubDU_xd8mCxw7x60hhBFA89EB0r.Y5UV2Mbq4_UIr.Cw6F.sVL6JiM9PXr4n459jpuLxA30IRpemCHw9vuLEFgzb8Q9kTt2W4h1KaPbk5ylrY0pUA_lMkjlVv6LyeSRuJ9meAsrKgAZ5amZwClI2cx4ZNSzhQgqNzqc2Y7cwLaLAVC9nDjO2fQ7APmZuz3i56gnX_Dpw2Eew8_MtK5pA0E2.YjRcWSElnRraeEr_l2U.iSp2gkoJLllwt3Mmv8AwO9Xdw9rQCN1m5bp_AVBrY6l0AJftnokpVfofPuxgzWDjWKadqFRD.V_Q7ia0cOAqlGN8liMDJ.CEHPI7k6xz8p7mT4NmKglRb3EZj5sf8G.JRWXtQ8hwxWnRR0LZcVa3YoSPPTgreOEWsNXBFKw5SNsyZZW76HlH3h2kEoTYV9Pgk4Oad8GovVkg.v02BDS3ImvwVz0r31Fomxxskp7DsFAtRxMi0XjtrH.2NROlhoBIViIPszt26.rFN86j9.UevBqqmr8SAxEz69xna4YKoaZe9yBd1OOzmvsLgyWqXU2LnYdMGG3WylPpjrT6eP4DZDep55v5PB305keVmclQ12cns6OnMeBLTqe7vhqz9z9cB7OGurUozQekn0wMscIwOXH.sXakLCp.yw7j6E5YqNJ8ECx5KoluHF6d3FdqI2OnlY5CumEt2_jlfjfpHhJY6m4x5Qz5qBWFA80YNLuUq6OS6TVA76qH.xeUUxde16aO9IyD1lP54R9GrVe5zcAg",mdrd: "FhK253qBzWFHcxuBBGpg8Hfx1QKrzG1gySndHDN7f1o-1748646335-1.2.1.1-EtHAZN2vCmtMwYGK.HdCCt5AJNYwQt43f2mSZC0uasARWGm.XXdi8_uNp7bHxfhDBqhH0RgjSxa9qdhlrQMQ6_YLnt5YklvMGFBSYVqalb5dG2JITthMKZ9eB0A8jniA3l8r.6LA0G5cI1DE.sQ18Zsr52B38vda.EKN3B_pgO7CCX15xLvoR.2LIqz927CAXGBliE3HCqUg5ymjR.5aF9_EUc6Lv8J9DGBV.xz1uQD37dtVO6ZpW_yaBSc5QEzj_4JeaDG7bNYPCNXhha0zFQrYr6x6bByYyjQuy84JjqwYliuWSqcBAGu0v9VYN_0xW7mqmlFLOZHKtHfL6Rrl_nCWtHKn3G3.VBYYLFSLGwDP8fPVYwhYx_TbuFLZYtW3Q5uZoxbJ9uBiQdBZWKec7Ura3dxZHMk1pnecmLpmPgmzUl1gh7iOqg3ZtZGslAA7o_GTw4POxVfT7ubgMGpMmZw9l0mlQ7gRkhu2LCqaHiuyrYQSC5c7INnJtkQUMhVUmcekvYiB8Ln4k7_REOIU3z1PTPHu7BLsaGDbS.nyZv.y_.4IhFVsZTSwR7h2Zh8iti0DDLL8y3jQzjK50KSWvWYAwhBTm3ZVWyNft0C9cFxQpTMvsDgjPoTMO7HXudTmGMv_Llo2wRRPkEZD.KL1FM7fPxJvsj58n9eGz8hqZuF1oBPeeYZPfSEt.G4t21yAdo.OWnrw_26.maaS3veCpde1dtTKS3dO9oG3Zeuwqn9c.6mZrjig1OK.k8FyQq6EAd24G7AwHhuia9FD82zNp7BmtVC5e3lz4MJqXRlLkFdPGylxw.66exeRwiNwtMtMrIn1614l04u0tW662wPv4zuP81LIpHat..Ql70xhH2bvtzb1DPq0__aSrjStzLXycux9HT1CeOmO2koiPyIB.hy_Wf1VwChQje5414vJmGb9E5ufT0wdD5eywZ5AEzAsXRFAq2U.v7UoBALtKcsUq3oJNF9sZnJd65Ov7XaQVu7rWLWF9QGSoyN.7R3ddmyp5PGhkA8UuUZJWOCl30ubetQkQItQFVCPNC5vSEhsAnUfAgQftt_unxrG05As5VqJvH4WXNrfzxITP5wV.ioUgfn2N1yf4hwrVxMwGTdESHJBh3ol4At1fwkUsfCUKSX9gvRe7HYPCJlT3rA5ZCYw1NXo56LeUPHjcojPNmnqs64LkZGKWItoe_oSixOt6qI6PqalrSkbgIB5tSq6JHjh.HhDyL7d7T48e.dx12fPaD06c8c3qM7fsk_sceszhccmYi.PeUb.jqiZuPdk.VngI4o0oA8RyDWjzoIsVDb63GB2C2d6RYTSdFy4hSnMVWRwHHyrUHIJBTsYgAYc1E1qDE92xpynk0WknC4xIlzlVHpMiuZW6qsqYL2QfDuzjuMI5FPovCOcgfzUhhjkdQgcAgy4qGerTDSjLFEL.jJZL_xbziESzQyhgZPbQOJiVDShOWPwnv1iwWfXVgRemtW7hinNyR.bP8t.6NyDS6.JQ2Nz4bZ9MdSDuEbBHTUXM47m9xbmv7ICM2Isn951Pw3NmP.B_UcTwHw_k8Yqc1QUcNZUoDWx3nhOBDKytRSqx5F6LOXOk6qqk5IEr1WK4I2TJHuzL_RhDS3bfj679zm.CXv9L_Zth8sCvGiOTKA7WixdpJimXqXw.3u4G66ST9dRlLZsuGJIgvoV_G0Nzifc1hZerrbd6vCmn6pGuikJhGdYKF_d4X9J_.7_TD7tChnvySnhH8RyUm0jxl7AWrDtWyvTUGiuYN.XhUQqdn_RFfu9Q0xBmJBZcvVaHiI_Dr2ASiLgtjqah7eNm6JGfIfB9NlSjD6Ju9wf5oqWPrUkd290JjqNwNoPOxkF3kj_PuNQNKNJUgUBmDC38QYNH7bdm0dDoazoX8jMJ1YCvv3ZxLCC8BeZ5qBDTSH4rr6TQZlgEJNZCUF6QTTsx4QShlwtwFbg4FQ7PG_226xNcj4LmvtwWmpKyutzajiVpZ.r5HrATNDL6.zmh6vs9wpA.lIuqA74AbAXEA5IX4c7GuVzJlfVfCTB7tScCGiOE7oNb2.rrMzahWJ15tt1y2IEgKXepVCHI1GEiQvagk1HWebOADrF.CVlNhleVPvMZErBBxzK3LSc2AkTvbtjMX0UrJuIvWNjM.wr6oI52W9n2u13VnRxCrJU6ORLthZjnn_AqczRjOrNfr28hsQqmogdezfOmw6WAh5RiJdUdKAVnwJqwqAJMoWZpw55BCpzBrXFyGT6ITX7UzIGBSq9pz9Us.wQyqGVGgG.E2cdQoNgpTTDEfBGR1wQi4l5Fz5fundWJj1AZ89sTQ5eEWAPwR0WKzyx4uSnreeDt1XyURoATgdt0kB3wfKftkLiQeEE5V5EBSdToDNGDw0wsEOZxL5GDHBI0zuesv2BnNAdZjnNutm9.0P7rLqpNsY4Is2nmltMNaaYLG4pHsVL5zzPem9vaOnyeHei_RmApRVmPQ22Ogv1Qo29tK1IsNK2qMRXIlqkL760rqoL7e07ecsVRsbd5UuSnasGBO4cH.ITptnr6upRt5P319i_Zh_P3PCz6pqJpka5hHStLpiUeUC83wgJqnnwBfJ1WJ4KRqHV1PPwchctw7qTtk875j55o5V1oC.aOev7Ky.5wyb9NKLohU4rnM2Uto4UtF_2lu6ZmnWr8.tGNquRUx75SRnQns773qHuGAkn1Pv2MP3I54lzS3gJ.21RXa6rLz3HUfy9wfc.QXx4T.XElfl78DAfjomzgelci88lizezHqCfUhv3GjmvEE.ad9NZL_KKg4B7Ctt1Ek8NPjxqcCojXHDhnBt8xw9C0Zoe05lUAGvr6_b0fLCgmha2i4g9ufy87yR0dHpF9s4Dnjww"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9481e08e9a7ec5ca';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_rt_tk=e1Y6es8m48YzAiPbemohGHT8C_1LzyG_6yoVX1m81Zg-1748646335-1.0.1.1-EEf4b6R5CfMg6vZcXA8tDvofJqxaOUxLhRrBOWzEGak" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
+  },
+  status: 403
+}
+Status: 403
+Headers: Object [AxiosHeaders] {
+  date: 'Fri, 30 May 2025 23:05:35 GMT',
+  'content-type': 'text/html; charset=UTF-8',
+  'transfer-encoding': 'chunked',
+  connection: 'close',
+  'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+  'cf-mitigated': 'challenge',
+  'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+  'cross-origin-embedder-policy': 'require-corp',
+  'cross-origin-opener-policy': 'same-origin',
+  'cross-origin-resource-policy': 'same-origin',
+  'origin-agent-cluster': '?1',
+  'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
+  'referrer-policy': 'same-origin',
+  'server-timing': 'chlray;desc="9481e08e9a7ec5ca"',
+  'x-content-type-options': 'nosniff',
+  'x-frame-options': 'SAMEORIGIN',
+  'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+  expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+  'set-cookie': [
+    '__cf_bm=aiYwKK.WU5mvabRAkyTFDRZ4lE8STawZNdq8zirfLHE-1748646335-1.0.1.1-E0NIriLZ15GEj2eRiuwvbNevjxlNBgSqtGTv3PIj0CYWS7KjArvDqrw3pCjrlNJAlEVaQw_aOc0NvdVKwfUvX5cu8HoE.RzQdWfFM7HEGt0; path=/; expires=Fri, 30-May-25 23:35:35 GMT; domain=.academic.oup.com; HttpOnly; Secure; SameSite=None'
+  ],
+  vary: 'Accept-Encoding',
+  server: 'cloudflare',
+  'cf-ray': '9481e08e9a7ec5ca-ORD'
+}
+Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (original: https://doi.org/10.1093/9780197761373.003.0005): AxiosError: Request failed with status code 403
+    at settle (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher/paper-catcher/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:621:37
+    at async Promise.all (index 7)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1049:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.1093/9780197761373.003.0005',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'academic.oup.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'academic.oup.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 10000,
+      parser: null,
+      _httpMessage: [Circular *1],
+      autoSelectFamilyAttemptedAddresses: [Array],
+      write: [Function: writeAfterFIN],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 3210,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 25079,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 3219,
+        [Symbol(triggerId)]: 3214
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 7046,
+      [Symbol(kBytesWritten)]: 312,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /book/59985/chapter/513443893 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: academic.oup.com\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/book/59985/chapter/513443893',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 403,
+      statusMessage: 'Forbidden',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://academic.oup.com/book/59985/chapter/513443893',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 46,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: [Function: emitRequestTimeout],
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'academic.oup.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://academic.oup.com/book/59985/chapter/513443893',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Object [AxiosHeaders] {
+      date: 'Fri, 30 May 2025 23:05:36 GMT',
+      'content-type': 'text/html; charset=UTF-8',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+      'cf-mitigated': 'challenge',
+      'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+      'cross-origin-embedder-policy': 'require-corp',
+      'cross-origin-opener-policy': 'same-origin',
+      'cross-origin-resource-policy': 'same-origin',
+      'origin-agent-cluster': '?1',
+      'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
+      'referrer-policy': 'same-origin',
+      'server-timing': 'chlray;desc="9481e091195122c7"',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+      expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+      'set-cookie': [Array],
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'cf-ray': '9481e091195122c7-ORD'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.1093/9780197761373.003.0005',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /book/59985/chapter/513443893 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: academic.oup.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/book/59985/chapter/513443893',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'academic.oup.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "academic.oup.com",cType: 'managed',cRay: '9481e091195122c7',cH: 'r8u4b.n4XkTuOo0hbmgtpd42FjthebaFT6Ue8zV0i4M-1748646336-1.2.1.1-8fq09RbZO3ItPiJj2wWQaVKl3dm82ieDQeJo9vDbh2HYm752DM7iMNfwmZyntgMM',cUPMDTk: "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_tk=LXailg6kisIgA6e7aDizHB3T2qQhnImFsY3WDJ.jQGE-1748646336-1.0.1.1-ANg1e49jIr5m_L8GoHH1Gt6cLuZxW2wjEs7PV8eLZDY",cFPWv: 'g',cITimeS: '1748646336',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_f_tk=LXailg6kisIgA6e7aDizHB3T2qQhnImFsY3WDJ.jQGE-1748646336-1.0.1.1-ANg1e49jIr5m_L8GoHH1Gt6cLuZxW2wjEs7PV8eLZDY",md: "6O7jjJ9KiXVx7HH2a7tUr8oEsmKYmaZux366XjHmsFw-1748646336-1.2.1.1-75oCebG9KnJEauyerQU9Alz3WPLp5uuCydW15N8mE.Oaulc9UZRl5MY8RF8x6NtSKIUWAzsENbVn6NubUFIk3O.PFG4dXTy0j_uxsd_2ec2b7axpKPlIMMYa3sdoM28np.tAAUG_mNJU53j.ZQSdzZ6kByGSsEvcrkRMdZeiPM_sE_O1DAlq271oX0eFJ4tgcY9jysxW5Qo_FBDUfXm_.X5rR_dvohP.LYh6IgKF9am4Sel2H1if4CstEZ_JSEg9V.nHwtD966BxdC4U4mmk8JIvHfHowKSb3QRYqGTFH89hH3SFB3Qyg.Qvv61gcADkAf1WLZVNSUMq3204hn50mgJnRvONeIpEb2UIFnrv.j2eFDZippHkzIkU73X9wijMqbO5IJCq8FyLC9v5FX1fkaBIoD.cj2JBEYcaHPxPehfKHazL.2lPc_8xCdAMAj3vfPUWTdNz2HJornGekveOse8OchaqxIfBocJ_czUUDKWbe99vJAaoGWhw4ZKqGXITasAHjXSLMWxQd4LInSI49uFLWEEmidPh.mTgsrUYieGTgAIc8TF7PrFSvSGvvg_GPWFcQ5sS5yqm9bVO_gQsEFf_bX3PA8rUfwGkR1EQwLsNDFu3OU0CrfvMlXb4Bt0naGVovnjIy92.FLxvTv8AyD_xTaAiONJB08bNtk.7Xj8N.Aw9HJCXXDSV1nWb5hTvmm08o_Vm6fEYzQz.fpkWsI4HNIx8Q3eF1uoB244xF8paZjU8nmScQ20bI355cRUt16JrNZRDANbOizK2MQdP54gT2GETLGwqMvv4zJ71z_mS51f21gjsoLld3CFR4dR4fVzSnk03fmpUskc28Q9jnz5WxFg.9YqGpGfoJe29fuzX_KLNjRzpwj._bmYSYkat7tKIPoAKhmwOlHtthdhZ1qFCSFfA_xOjg8vaQgCBQlW9E1Zp_to0lK6KbB.leGU7Abd87KbQ9DzkWAyQKVU8m_IveKvHZvpEpcoya3sclMVIZlz0_FGe7STohHLfFi_sE6SDZ4n6EnLbXB49njY7vUljctqjFyPgnNZDWoca8x1ARCjt5OA8eCKVKA8rIw1r2ShuqFf5pujhYKv2Srgs.g",mdrd: "92.VoBdp55PNY2at9O8xpTc.IqSorGKmJWoBrkuTwYY-1748646336-1.2.1.1-zU4xqsaZ5tvCrDedmfJbZCvVQLexz._q_4MjDBfJPTxiLwY2axmMEaMdXXz8bVrjWp0VrYMst7n5OL08F1b.EL4ytly5Ww04EJHFKs5gpOU2hA6CA0uOEdgWpI19USPRdy22xknG5i.JiVNBYdS2d4gCVyZk0BfXrQzab08A4IWAy8UMJoq6wJv38Pgp6BFNf0pMQTby74yCCnunYcjy7Rly1hbGP0eSSqo3_IGG6TAvNdDihFTkGd0R37GTLPnY4SNRUp1Za__Fmk.85dJ2K2bR1cvdyBrGBt0NAn9BO.9kqVq0zltoOMvtYIZoOXy7OmWiQdTTXBOJ5aV03nsWmW4SteGqvr48mi_svg5mn1u5DIOhBPxcQWyWvtd6zmlN10n7U7_jEm3oRTxxF_sXZEE5r2yMMB6ujLict1HM7U.feMob.iKCX8jlCUAFDmtSyC.Vn7mKpCPRZXf7DLlzx6BzSSbDTgXRKQNPfNkPXONtuBTPLRpjFu4S.H1YhCTD8JFeF7cXm3nPS_7_MUTPYW1.6YBiK10D2m0puw5vMCCY9NckWNSDc20vlQanrwwNQCooV5H2sxvElpYUmlgru7BQkpmz1DbBwJVTwailnRQDadVJMXFwbwrWIwgpodYUIt7aOSj7T3cpg9TnIIlD_WnAXUEV6OQWkOnv.BtNRieDH30bR0iu2CLqy0L1.fQ1qTpeEDmOicSF_kGMZKRe7PcRo0BVsPNOqKqqFC_cQ9PtU8R4VNUbs_BuNM3.5jcpCtUv39ggZUbtqesBQkHGukahdifTmZnzTRxI.Bp3utwqWFsBuY6b0k_dzeredxtQWJhMP3nqX64ZRFpzL8ceEs_ZoideQ2qhk..DKpRkmM1m_Z7YbAAsik43e9rhYrhiU3IvQhVPWQGt7vXYjNHYu6OopvOuAUkp.aNS4QR_2SnPJHUYmh.1Sw0XwrZJ4_McH_S6TMrFkyW_EIQGFMcAmt1_XdyomLr78t30MybeGoma5WSd4gu43kNJvZVryvdzE5TkPhGoq5jgpMuKbBvY1cKqjg8bP9pgZjexHiBFFijJLKh4ovEsBfMEcG0lHVIAcov0OdHIOSqizkxjONxrKMxCwtYaGIKGWwKF9Xw7p0UhNEuxeYXExRDXZH7Tcbr7CtaIXYRCv5zV3sQ7NJ5W8u0_CdW3TulW9rIPWASUt1mz3Y9zgBY3.Np4x5XDRczgNe9LFEysZ_NtUOi2T2r3sFFj7S3MaOWGOs.z5CuoFh1VamlMylqnTYR8hHgcIVRGA6uz71Kg6XfB2q.RAkkfSYD41lF_Te.dNG8OjkDK7Czl_CEkCQ2mA9dQYOOwQefC6tMMBkisZiLYQ3FwiiYZvwGKTQTJO4kFf9X1n0psN8DoQcnYvivmLdpQ37SyPW5r7sHI72CUvg9dUDk4TKxeEFCDmOSAhCbnLXqwIUNx3.9gEwN309oxCQj3v4rU6ZOUJTeU0PffxLWbKx9TiLzcRSt20xSnqFopDeBh8nMqHUvU9ljqK.stCcN5ZeDZ553nFUxEaGmePQTVlj_t.shVnvc0sB4DJOrnSK9ue..mzT8hkDEVNL6mV3VbX9t0jmTqhALIQwT31EJtvZsEWgJJjhHOrcdGldq5cH3F.o_IyPKsZLb8Z7cMmgq.W_QSjku8cKrp6NTjEqZ0ESFjsxU9OhKgBVY24v4xhxixFWbUOlZcBvqmYi.SZ2rpuxOVKg2_UsU3KJ9CcNLMTPPLzGq8zBWl46gwLSd9uSeVRpgzcEET5lbQY0kDlblCBNGig_XoH0HHc8zH1sYE3gT3Ehz19OJef999bIpqCOdoTzFal4wgK3Ii8VMnV.0QNWlba1hGnDHMHlpAltsNZWrnmtFjHGwhA5e_q908l1H_afNxGGpAm8xWlRdLJrhe3lJ0QN21tHBQ9.VeSXExpYgXz2UqJ_L.XM9.XsUxCgOSPGopjZgCsfzfPxs0_3FymYQTFl9qz6UGf3sC0jeQ.ntu.DiT86rKA_mb6GSk2vPGndJJQBS7AE1.wRRy1Btrym0ivFwhqUIBfDdXIb7ekIHOVdsQI4wyPj2EVgBawBJhQNSiPomV5xhbWDGwViw0ECcD769xV0FYr9HK3UcUIm0sQjIu8n8E7Q4_N4AC7EtEuFn6ECsl5kabJs3KFRSs5X2BSspyIWiysJTFLbpuBt_bwXT5IiyEOfVm5euCMvnX8L4fVtg4dYnU.nLVWKW..FZZuqNru7jjImb.tp8nLUnAq7Iofzs8BW9VAoTZ9ZHa.jYoPdmFPBYU5DnIu0hyoZeCXOp5KCp.OJgvA2vzc81J2xhtL1_7QAMg9jE7tOf7rVuZb7E9.YWJqjGaJpqC9zE23JqST0EJvQANOpWPoPxca.nxWOi3vz2HrYzzrZFn5rzliotW7HqdMKRkXeqZTneXGfnW9rnMarJWW6hXxsRP7nHBQ03tF1T.6IiEzXXg3YZfGue6tEZmMh97N9C_jJYAwhdxOYilxpN.KhtWQ1xaAeoBHzxRYLHmRrl10lOU2XufumQNOQIWReun0T6f9HMRLQ4ttgPL8JpvNoFIjgBGh46jDgm1ZpjHUriHWe1uUGSsyZ77iOw.QTta.RHmf6Ha77.n7f_7Fv.8fMEmkPzNew7.hAGb8fDz_ryU0NPax8msJJKJMuZeuJIVHDZxClEtkm0d0IuM7SbCmTUu0IPN3AcWaC9JTg885GMCNho.KV38d0CSaJf57ukD4W9rAaU5EF0fgmZZyTZHz0j9iQeZScmrKlMuDXLL3udf49_FxScsPFG09N.3OBPKuH_JELDTM.5FxafdiO7OtM9IEkquKxWAlIqTjCTrK.1LFYr75ov8U49TD6cFadVXCUgrPkTSJ4dy3w9KtlPZfR6ejKib89xxnQ"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9481e091195122c7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_rt_tk=LXailg6kisIgA6e7aDizHB3T2qQhnImFsY3WDJ.jQGE-1748646336-1.0.1.1-ANg1e49jIr5m_L8GoHH1Gt6cLuZxW2wjEs7PV8eLZDY" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
+  },
+  status: 403
+}
+Status: 403
+Headers: Object [AxiosHeaders] {
+  date: 'Fri, 30 May 2025 23:05:36 GMT',
+  'content-type': 'text/html; charset=UTF-8',
+  'transfer-encoding': 'chunked',
+  connection: 'close',
+  'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+  'cf-mitigated': 'challenge',
+  'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+  'cross-origin-embedder-policy': 'require-corp',
+  'cross-origin-opener-policy': 'same-origin',
+  'cross-origin-resource-policy': 'same-origin',
+  'origin-agent-cluster': '?1',
+  'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
+  'referrer-policy': 'same-origin',
+  'server-timing': 'chlray;desc="9481e091195122c7"',
+  'x-content-type-options': 'nosniff',
+  'x-frame-options': 'SAMEORIGIN',
+  'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+  expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+  'set-cookie': [
+    '__cf_bm=6zgD.eVi1K.I0OQfmpx6vf2eEcTgk1FUmmEBu29UDSM-1748646336-1.0.1.1-9qKg65ft3kWROAYt3OI__ORcp5ibkutUW0ZwHSKEXiS9Sy_UWKK4dUld35T6YfgXLj2ojyEj6P3CjuOWEBSXHLCZzrgivi4ozPD686VxjS8; path=/; expires=Fri, 30-May-25 23:35:36 GMT; domain=.academic.oup.com; HttpOnly; Secure; SameSite=None'
+  ],
+  vary: 'Accept-Encoding',
+  server: 'cloudflare',
+  'cf-ray': '9481e091195122c7-ORD'
+}
+Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320 (original: https://doi.org/10.1200/jco.2025.43.16_suppl.e23320): AxiosError: Request failed with status code 403
+    at settle (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/settle.js:19:12)
+    at BrotliDecompress.handleStreamEnd (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/adapters/http.js:599:11)
+    at BrotliDecompress.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher/paper-catcher/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:621:37
+    at async Promise.all (index 9)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1049:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.1200/jco.2025.43.16_suppl.e23320',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'ascopubs.org',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'ascopubs.org',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 10000,
+      parser: null,
+      _httpMessage: [Circular *1],
+      autoSelectFamilyAttemptedAddresses: [Array],
+      write: [Function: writeAfterFIN],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 3274,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 25436,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 3283,
+        [Symbol(triggerId)]: 3278
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 6910,
+      [Symbol(kBytesWritten)]: 319,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /doi/10.1200/JCO.2025.43.16_suppl.e23320 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: ascopubs.org\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/doi/10.1200/JCO.2025.43.16_suppl.e23320',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 403,
+      statusMessage: 'Forbidden',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.e23320',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 50,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: [Function: emitRequestTimeout],
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'ascopubs.org',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.e23320',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Object [AxiosHeaders] {
+      date: 'Fri, 30 May 2025 23:05:36 GMT',
+      'content-type': 'text/html; charset=UTF-8',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+      'cf-mitigated': 'challenge',
+      'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+      'cross-origin-embedder-policy': 'require-corp',
+      'cross-origin-opener-policy': 'same-origin',
+      'cross-origin-resource-policy': 'same-origin',
+      'origin-agent-cluster': '?1',
+      'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
+      'referrer-policy': 'same-origin',
+      'server-timing': 'chlray;desc="9481e0934fbb72e2"',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+      expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+      'set-cookie': [Array],
+      vary: 'Accept-Encoding',
+      'strict-transport-security': 'max-age=15552000',
+      server: 'cloudflare',
+      'cf-ray': '9481e0934fbb72e2-ORD',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.1200/jco.2025.43.16_suppl.e23320',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /doi/10.1200/JCO.2025.43.16_suppl.e23320 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: ascopubs.org\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/doi/10.1200/JCO.2025.43.16_suppl.e23320',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'ascopubs.org',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "ascopubs.org",cType: 'managed',cRay: '9481e0934fbb72e2',cH: 'ya_RbccmCMg7CvRzKvdwwblw6hRgPIkW5LKkaO6iiq8-1748646336-1.2.1.1-ec7QNJNGs_hfbd_AYxUAhHIkagLMP6yYA_a7KSMuCtC5S9sVuoV_S8ZgNKoOYpZv',cUPMDTk: "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_tk=EuFdW338Jkhlk4HHn0WxEXSm_o8AmYGMNmGQ1MLgUxY-1748646336-1.0.1.1-Oo9UlmzFmW2MYuY9g9xB0cN4nmxfmj.3iLvCcC7Vn08",cFPWv: 'g',cITimeS: '1748646336',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_f_tk=EuFdW338Jkhlk4HHn0WxEXSm_o8AmYGMNmGQ1MLgUxY-1748646336-1.0.1.1-Oo9UlmzFmW2MYuY9g9xB0cN4nmxfmj.3iLvCcC7Vn08",md: "OUu2HpBr5TlNPA2TCqn6cLd2yI5QMOv5Z8ALH0yehK4-1748646336-1.2.1.1-tVqPqUSKzd4mvBsseYWF05vPiYFXzcSeEy_JrLyNSoyosftKSBZK8b81ebMZrUg89CLXuHmz94ZEe5cE1FgzG0K1y9LX7JNtbXVpsjY3WiBnxNAU5FdmlrtssS3hU4_0784Xp3X7cdh.PJ8lRuKTY3nwI3bftAD8Nom3SYvmS6r6XuIo78tl.zm6cdfo7TEalvoBoGf_T4JsYIFQNDf2XHKUL7BWsBkFgW.7B_qFQh0RqtNPvqzKvALB6xhDN0XT_xrxixskfbNPPfAVfV47DRD66VHdtBt4_iJKbAP1xoPeIgNrFGeoc3N_9otQ7Y61Kse8EZXISywBX5arUDLRyOoP4aXMqMu4O9LyDhK3otnM3ZLyU0wMdC_c7N5OvL1At_SCqEVTRLu0pIk8nQnUyPF_r92zxInVxSc8sETr2zNFuHgDKnVB38Aay6t0U8RbDH78CPovfzKckS8qqK60iBjv6H1bNmmINIE7UeCtRY8jmLiiE9701.kLZhO2S4P9_6ArKW3F_zYDXCJ_bYRdqnKv_my8maQU5.t1nk2FIJCvL45NaKLKgh5lGekISuXpzGeWkwSGgPC3QE0E41L6X2rxgEJlfiLY60riaJOPU8USZe2Glp.MxYGhRM67Nk35fKHQaCrTBZfrOv_dLbu3th2DfbdhSe0dDNxfv7MIip66snR5XHww4httszUXEpxbZ2wu_h_Njmeg8yq0Zl94hSNwX3y194gmZVOjym8X2nLtetmNWEaSMlKh_nTFkeAxGlx4Me6P6w39EL7ofez148NAWP8eGoSMcMumbc0QGtASiKAOkN3EjGC1ZL9ZESA5MSYAat6MjjzcWgr4VK8WZuxc03sEpuzCCYWHpoIemyTCrD42Na2q.ulVCi97IfFW9wd.ee2fpQSELLmAEu0jB9RkBe_H5PtjlNnNukcqqy1vDLVEuvoHfcejN04zTPFOuUrWsWQxXh3PPcTI6cI6ivdnh6tH47X5tVNHRZYm46KOCo__EFnlSF1TkZIrS.9KTGgLPefcYD8Mihd9wMiUyeb.ciZIz_8dwZYZlhRkIP0J0b73.EBEajiHg8I15E21XU6gQsdwQkpsAN3OvEdD.l0mF2KV.be9gUnIbHWusiOS0cw5Wy9RZN6GozPPoPZ9",mdrd: "c5.yS9pfUxeEIq9NUzGo4p3tvtg.I.E8W9wsWoMZ4_0-1748646336-1.2.1.1-BEFQFnflJKKQ7ZIEtlNLa4zMpF_y69UTZfjPVYdFWqk6Kv6uwZpIGdddFDObwwYa5ejW5pznq1Ms0rwMvRNVqG0HSIqJ.cP0K7yZ0h_bjSeyx.XvRacEgiP6mC3gIrtCX4T4KwqDvdQ_6SAjpHBhZzrVEOXbrLudVmsNuaC1GuB44U3OiZ7GizgP4MZVkhbyTsXYVHslkH7OBZPB.qg5NUWI9gp1g8signUppGk2eUH0.5cjYVLkVTiY3wXNOhjSGQhvx5YVKgDTCY14K_.N9LcxnGhvheaetkX84e_YnRgUgQezYSzzs8Oo3L.8bpBTPENAoCL4GMh1RVXHpU0h3TCxI7ddDHC0kjlcUu3FIc1nYmrp1wZ7rbwUsfBHsXNos9O5gPBQ8leBGy68as8PF9YvKtpFH1gOpxQJ1LbStdSPpKbgLbEA3SUW1ozLeD9h4mt3eZ6MJ0PvIqCCDrdqL4doZmKUXQojQ6WUc85jMD4yTcvydWwD6NEgl2Ji5tR5l4JD2hhuUSfBYmE1rEl511OzvVa0Bo9NLWUNenNDWQvaFhPjDincq59uLSWMu4A81pC9jd.NUwy9eCIL0cVDQnRuG2GMrLsR_RHB1cycnZFktDuyen5uVc2O3n624eKfVNp7xQFhmx5oauPsjQ6cSJ8Gla.bgrTp5.67fBKB3.mIAnozWJsV65rDk7a9EcW5_Yk1Ml3PBk2GmgWxMF3YFhzwz6.IUgiAgrrKqqsMgYhqe1FzPYodoPlFpyF1SNqdjQ4uAfZ._ksXBAwPgzPW0OEONz713RO.7vSx_vRfgUd0UhG4c1amnL5q4oDiEyo0GGMW7ceUv_UHuDwTqT10c8Pfghj_Jh_MdnozynOZYmvSEM6OwJx_IngEBV6Yvr41Iz.ZpICG9.LVS8AMofAAlv2owb2ddrA21qcRpzSzasXhwyxwR7Oc9eiU6dDWSJ1IKwjEIbJympEn7.Ap1bTwc8fobNN0pJp2alFElOLrtOv89nJAm7XddUkzKgx_QvERyOysmbhwxEHsMjCUido6b6GrpnRqz4Y33gwyRVQDRjMjbI1GyiN.kQAiJHbfleMyMv6qt3rWiof.8C3NS.DSv0C4zHyVkmAHsU32OgQ_ASuWfbbxvBPBZeaEsgnle1.q2juMQDcpRZX8XGWX9Tk9UM3fabnNf4oBvKL3rTpbyNmk4a8QQxt6gURjfzLIhlwdRfI54WprxD.0ieOWBO.mf_pbOK_xW9lJjwWy0JAM030M5OLkvVvnLYW7zGUwxVk.BdRPqOt2Oh6G13zBOtdiJnCwzwnSl1u3ddODd9yqJRLuMdRgwlFQzFAyMKGXrJ0bTcwNRz4c9Bm_vgQqZ35E6jeJU6bPlMm1AGkl7q8vZgBqXRYojGHqlzix4xvdsdOiWIXcEEsQsRIFi7roTYBlBEXzP7i3CsAtWQwda4dV8FbJUg5H0H4sWik38IOh_WCzSk_KDUpePRpDxavCUM.MblxFH5u81eI3TOc4YldIfpN2R0fe1nlO0L9UGY00pb07IlOejyiXRgGnNBE7GHVUWt2B6wYSjGmugROfzlJ1qukmVUP_UojS4wh8rm1qsxFx2I1K9lVbBwTpKYshoaZnrG.me9hstAjAYTjeD1njfswepUsvP5vaF2pYlY3SNBjbxjEcnfcow03jcSKmoCPHouO0AcMJTIi7dJ4GRPNDL3vSe5V0NahFoZJZhV.vuGjKz_DRIJ53W3pie6u6PiXBMBxzsrXy159AYUqVQJAzYTCEH4ww1PkIeRhTC.Jz0GF10sYKNBL7pU079NxW4jt8rWIkE.e.QarzmQXaryJ6UBf9dLhrM1SOC7U5EA1_d.LUZSLYUEtwPmP2NowGKbEjoUqOcgT.fnNhqiv8k.I.2mn5tl0KFUoIZ054UihWNe2hEIlKXHU8B7U2XrJqq57MIphI2uOu7WiFBJC69GnIoRfn14vFaQNEqyY_BHPfS_247Ez2V1YkEG1Hmgg3AubKMkFsL5jNakCMO7ntiAkwEyBMCUdI5kbdJ3hYfoQFhi8nCFym9tldJMQdtLwHn1Mc7Hc51jTdgizL_x9WIazNKGk.6Ob_2JrYenGqU64764u4jQMOcMx73l.Sh7k4MLQRwtClsGK66Pf.m8clfyuosr18QLzBkg8OmdSIbHP2keixnzTyM.osy7Nrn75Tb.xZeJOFZ.F465luTMUlblF7gHy7Vjag73pvheURUXrgGEFbGurTEf0xeFxm7NK_hqpnzd88V1qEjZOuuBXVUQzgRBUx2FBxImQEJfk.6uT2VmYl7ksJhzOoXoLbkEJeBlUDteBu78YiVPfdr8d7byTuiLsBzhioH2I0fn_rJXvMPZxqeo2BVwhQHS.fxNLqrSrg1muYYtAkFbEe5N4T8CROiFWqsqhgBkS0NxK6V61YTuk8I_DnRtIf47ba33qgODEIXTMX0j4Eu4y8eCCD0_6_E72R2a7eP9EXJAJyyZ2l9vHlGek3gNP.xMytGbt6n87t2Q8HykMHZ1EIdunIGfx7JIlGWkRYGZHgNTjRzJa7Yum_aY3kSC6s012g3ByRegXwapSlbxCQwTnrWOLIWtc0Y4QEyh8ztCCRqNJats7ZTMAUd4vdRZKeYRtqsWV5N.9eaFYEE3cRp0e0q34VXfNx1zPg6nK1R5NE0xtMnKcsfMzOQMQy3D3i13HTnV.Mag2MfvxTlZIj9CDqb9X5OPU7liwAOdhcR8JaLjHzQEoicuJtsC87hfCwAUcu6m2bLgnZsmjhmDmODX8fwU3RWrnPLiijRVebSkbhLr48LejNiDC8A7iwuN_qrmlFnWM2po6dmyKg3YB1rTvEiO1dvmPFKhWaBSS00.ngKeqNNi4jkoH7it9C5CznWWykqe1USUINBA"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9481e0934fbb72e2';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_rt_tk=EuFdW338Jkhlk4HHn0WxEXSm_o8AmYGMNmGQ1MLgUxY-1748646336-1.0.1.1-Oo9UlmzFmW2MYuY9g9xB0cN4nmxfmj.3iLvCcC7Vn08" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
+  },
+  status: 403
+}
+Status: 403
+Headers: Object [AxiosHeaders] {
+  date: 'Fri, 30 May 2025 23:05:36 GMT',
+  'content-type': 'text/html; charset=UTF-8',
+  'transfer-encoding': 'chunked',
+  connection: 'close',
+  'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+  'cf-mitigated': 'challenge',
+  'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA',
+  'cross-origin-embedder-policy': 'require-corp',
+  'cross-origin-opener-policy': 'same-origin',
+  'cross-origin-resource-policy': 'same-origin',
+  'origin-agent-cluster': '?1',
+  'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
+  'referrer-policy': 'same-origin',
+  'server-timing': 'chlray;desc="9481e0934fbb72e2"',
+  'x-content-type-options': 'nosniff',
+  'x-frame-options': 'SAMEORIGIN',
+  'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+  expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
+  'set-cookie': [
+    '__cf_bm=De0OJoYp3zN0RDYRCahU5Cs3rAX4eQYA0cxVoD8FliY-1748646336-1.0.1.1-sbxXvjaT1bJhCsli1S8I5VOF0QpWBSQ4l.KbNbVDAMCqa5yhLbZCV3w462V7Vgms_kI1ofmkBOFSQtIAkhstzZ5tSYLaiQScszfPDfzs5nM; path=/; expires=Fri, 30-May-25 23:35:36 GMT; domain=.ascopubs.org; HttpOnly; Secure; SameSite=None'
+  ],
+  vary: 'Accept-Encoding',
+  'strict-transport-security': 'max-age=15552000',
+  server: 'cloudflare',
+  'cf-ray': '9481e0934fbb72e2-ORD',
+  'alt-svc': 'h3=":443"; ma=86400'
+}
+Fetched papers from CrossRef: [
+  {
+    id: '10.1016/j.horiz.2025.100145',
+    title: 'Characterization and evaluation of commercial biochar for surface water purification',
+    summary: 'No abstract available from web scraping',
+    published: '2025-9',
+    authors: [
+      'Animali, Lorenzo',
+      'Corrado, Sveva',
+      'Mitillo, Nicola',
+      'Tuccimei, Paola',
+      'Bartoli, Mattia',
+      'Mattei, Massimo',
+      'Giorcelli, Mauro'
+    ],
+    journal: 'Sustainable Horizons',
+    link: 'https://doi.org/10.1016/j.horiz.2025.100145'
+  },
+  {
+    id: '10.22268/ajpp-001333',
+    title: 'Occurrence of the Stem End Rot Disease in Pomelo, Citrus maxima Caused by Lasiodiplodia Species in Ben Tre Province, Vietnam',
+    summary: 'V.M. Thuan1, P.T.B. Quyen1, H.N.D. Khoa1, D.T. Xuan2, L.T. Quang1, L.N.T. Xuan3 and N.Q. Khuong1* (1) Faculty of Crop Science, College of Agriculture, Can Tho University, Can Tho 94115, Vietnam; (2) Institute of Food and Biotechnology, Can Tho University, Can Tho 94115, Vietnam; (3) Experimental and Practical Area, An Giang University, An Giang 90116, Vietnam,',
+    published: '2025-9',
+    authors: [
+      '',              'Thuan, V.M.',
+      'Quyen, P.T.B.', '',
+      'Khoa, H.N.D.',  '',
+      'Xuan, D.T.',    '',
+      'Quang, L.T.',   '',
+      'Xuan, L.N.T.',  '',
+      'Khuong, N.Q.',  ''
+    ],
+    journal: 'Arab Journal for Plant Protection',
+    link: 'https://doi.org/10.22268/ajpp-001333'
+  },
+  {
+    id: '10.1016/j.radphyschem.2025.112811',
+    title: 'Effects of Trace Rare Earth (TRE) additions on thermal, crystal structure, and radiation shielding properties of CuAlMn high-temperature S-M alloys: A closer look at Cerium effect',
+    summary: 'No abstract available from web scraping',
+    published: '2025-9',
+    authors: [
+      'Kalay, Ece',
+      'Özkul, İskender',
+      'Karaduman, Oktay',
+      'Kızılgün, Yasin',
+      'Güler, Ömer',
+      'Canbay, Canan Aksu',
+      'Kilic, G.',
+      'Baykal, Duygu Sen',
+      'ALMisned, Ghada',
+      'Tekin, H.O.'
+    ],
+    journal: 'Radiation Physics and Chemistry',
+    link: 'https://doi.org/10.1016/j.radphyschem.2025.112811'
+  },
+  {
+    id: '10.1016/j.marpolbul.2025.118082',
+    title: 'Eukaryotic phototrophs of the plastisphere in the Southeastern Black Sea',
+    summary: 'No abstract available from web scraping',
+    published: '2025-9',
+    authors: [ 'Aytan, Ülgen', 'Berezovska, Viktoriia' ],
+    journal: 'Marine Pollution Bulletin',
+    link: 'https://doi.org/10.1016/j.marpolbul.2025.118082'
+  },
+  {
+    id: '10.1016/j.jmaa.2025.129317',
+    title: "Nonlinear perturbations of Hill's systems and the pendulum with variable length",
+    summary: 'No abstract available from web scraping',
+    published: '2025-7',
+    authors: [ 'Bartuccelli, Michele V.', 'Gentile, Guido' ],
+    journal: 'Journal of Mathematical Analysis and Applications',
+    link: 'https://doi.org/10.1016/j.jmaa.2025.129317'
+  },
+  {
+    id: '10.1093/9780197761373.003.0004',
+    title: '“A real Italian music drama”',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2025-6-30',
+    authors: [ 'Chandler, David', 'Mellace, Raffaele' ],
+    journal: 'Succeeding Puccini',
+    link: 'https://doi.org/10.1093/9780197761373.003.0004'
+  },
+  {
+    id: '10.47363/jddt/2025(5)133',
+    title: 'Clinical use of Loop Diuretics Acting on Symporters',
+    summary: 'No abstract available from web scraping',
+    published: '2025-6-30',
+    authors: [ '', 'Liu, Pei-Chang' ],
+    journal: 'Journal of Diseases Disorders &amp; Treatments',
+    link: 'https://doi.org/10.47363/jddt/2025(5)133'
+  },
+  {
+    id: '10.1093/9780197761373.003.0005',
+    title: '“The name of Montemezzi”',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2025-6-30',
+    authors: [ 'Chandler, David', 'Mellace, Raffaele' ],
+    journal: 'Succeeding Puccini',
+    link: 'https://doi.org/10.1093/9780197761373.003.0005'
+  },
+  {
+    id: '10.1109/tbme.2025.3529198',
+    title: 'On the Impact of Microbeamformers in 3-D High Frame Rate Ultrasound Imaging: A Simulation Study',
+    summary: '<italic xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Background and objective</i>: three-dimensional ultrasound imaging is based on two-dimensional (2-D) arrays controlled by application-specific integrated circuits, which implement the so-called microbeamformer (µB) to reduce the channel count. µBs are designed for line-by-line scan sequences based on focused beams (FBs), providing low frame rates. On the other hand, high frame rate (HFR) imaging techniques using defocused beams are increasingly attractive for reconstructing detailed tissue and blood motion information. Although an increasing number of researchers works with µBs integrated into 2-D probes, there is limited literature on the influence of the µB on image quality in HFR imaging applications. <italic xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Methods</i>: This simulation work evaluates the µB impact on multi-plane HFR transthoracic echocardiography by considering a µB connected to sub-arrays of different sizes (from 2 × 2 to 8 × 8 elements). Scan sequences based on the transmission of FBs, focused wide beams (FWB), and planar diverging waves (PDW) were tested. B-Mode images were reconstructed and compared to the ideal case (no µB) to assess the image resolution and contrast loss due to the µB. <italic xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Results</i>: Compared to the ideal case, the µB presence can yield resolution and contrast deterioration up to 17.5% and −26 dB, respectively. Such a deterioration corresponds to the transmission of widest PDW, and can be partially recovered through the synthetic transmit beams technique. <italic xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Conclusion and significance</i>: A µB designed for FB applications can be used for HFR imaging, although with impaired imaging quality. Guidelines are provided to achieve a suitable trade-off among image quality, µB size, channel number and frame rate.',
+    published: '2025-6',
+    authors: [
+      'Castrignano, Lorenzo',
+      'Tortoli, Piero',
+      'Matrone, Giulia',
+      'Crocco, Marco',
+      'Savoia, Alessandro Stuart',
+      'Ramalli, Alessandro'
+    ],
+    journal: 'IEEE Transactions on Biomedical Engineering',
+    link: 'https://doi.org/10.1109/tbme.2025.3529198'
+  },
+  {
+    id: '10.1200/jco.2025.43.16_suppl.e23320',
+    title: 'Dynamic longitudinal patient cohorts using hospital electronic medical record (EMR) data via secure data environment (SDE) technology to generate real-world evidence (RWE).',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2025-6',
+    authors: [ 'Muthutantri, Anushini', 'Ide, Alexander' ],
+    journal: 'Journal of Clinical Oncology',
+    link: 'https://doi.org/10.1200/jco.2025.43.16_suppl.e23320'
+  }
+]
+Collected 10 papers from crossref
+Total papers collected: 30
+Removed duplicates: 30 -> 30
+Starting translation of 30 papers...
+Translating paper 1/30
+Translating paper: Interested in observing TrES-Her0-07621?...
+Translating paper 2/30
+Translating paper: APOSTLE: Eleven Transit Observations of TrES-3b...
+Translating paper 3/30
+Translating paper: TRES Survey of Variable Diffuse Interstellar Bands...
+Translating paper 4/30
+Translating paper: Photometric Investigation of Hot Exoplanets: TrES-...
+Translating paper 5/30
+Translating paper: Tres lecciones en combinatoria algebraica. III. Ar...
+Translating paper 6/30
+Translating paper: New photometric observations of the transiting ext...
+Translating paper 7/30
+Translating paper: Multi-band transit observations of the TrES-2b exo...
+Translating paper 8/30
+Translating paper: AstroGarden of Roma Tre University: from presence ...
+Translating paper 9/30
+Translating paper: Machine Learning Models Disclosure from Trusted Re...
+Translating paper 10/30
+Translating paper: Analysis of Kepler's short-cadence photometry for ...
+Translating paper 11/30
+Translating paper: Role of late-night eating in circadian disruption ...
+Translating paper 12/30
+Translating paper: Ab Initio Lattice Quantum Chromodynamics Calculati...
+Translating paper 13/30
+Translating paper: Subdural effusion secondary to unilateral decompre...
+Translating paper 14/30
+Translating paper: A novel approach to evaluate the therapeutic effic...
+Translating paper 15/30
+Translating paper: The Effectiveness of Time-Restricted Eating as an ...
+Translating paper 16/30
+Translating paper: EEG Maturational Age Estimation: A Comparison of V...
+Translating paper 17/30
+Translating paper: Image Fusion of High-Resolution DynaCT and T2-Weig...
+Translating paper 18/30
+Translating paper: China Protocol for early screening, precise diagno...
+Translating paper 19/30
+Translating paper: Enabling health data analyses across multiple priv...
+Translating paper 20/30
+Translating paper: Hippocampal ensembles regulate circuit-induced rel...
+Translating paper 21/30
+Translating paper: Characterization and evaluation of commercial bioc...
+Translating paper 22/30
+Translating paper: Occurrence of the Stem End Rot Disease in Pomelo, ...
+Translating paper 23/30
+Translating paper: Effects of Trace Rare Earth (TRE) additions on the...
+Translating paper 24/30
+Translating paper: Eukaryotic phototrophs of the plastisphere in the ...
+Translating paper 25/30
+Translating paper: Nonlinear perturbations of Hill's systems and the ...
+Translating paper 26/30
+Translating paper: “A real Italian music drama”...
+Translating paper 27/30
+Translating paper: Clinical use of Loop Diuretics Acting on Symporter...
+Translating paper 28/30
+Translating paper: “The name of Montemezzi”...
+Translating paper 29/30
+Translating paper: On the Impact of Microbeamformers in 3-D High Fram...
+Translating paper 30/30
+Translating paper: Dynamic longitudinal patient cohorts using hospita...
+Translation completed: 30 papers
+Generating HTML files...
+Generating index.html with 30 papers...
+Successfully generated index.html
+Generating archive.html with 30 papers...
+Successfully generated archive.html
+Generating journal.html with 30 papers...
+Successfully generated journal.html
+Generating acquisition.html with 30 papers...
+Successfully generated acquisition.html
+Generating publication.html with 30 papers...
+Successfully generated publication.html
+Generating registration.html with 30 papers...
+Successfully generated registration.html
+Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
+=== Paper Catcher Completed Successfully ===
+Processed 30 papers
+Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
