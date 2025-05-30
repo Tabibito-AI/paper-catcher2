@@ -83,9 +83,23 @@ jobs:
           set -ex
           echo "Starting paper collection and translation process..."
           echo "Environment variables check:"
-          echo "GEMINI_API_KEY: ${GEMINI_API_KEY:0:10}..."
+          if [ -n "$GEMINI_API_KEY" ]; then
+            echo "GEMINI_API_KEY: ${GEMINI_API_KEY:0:10}... (length: ${#GEMINI_API_KEY})"
+          else
+            echo "GEMINI_API_KEY: NOT SET"
+          fi
           echo "KEYWORD1: $KEYWORD1"
           echo "KEYWORD2: $KEYWORD2"
+          if [ -n "$SPRINGER_API_KEY" ]; then
+            echo "SPRINGER_API_KEY: ${SPRINGER_API_KEY:0:10}..."
+          else
+            echo "SPRINGER_API_KEY: NOT SET"
+          fi
+          if [ -n "$PUBMED_API_KEY" ]; then
+            echo "PUBMED_API_KEY: ${PUBMED_API_KEY:0:10}..."
+          else
+            echo "PUBMED_API_KEY: NOT SET"
+          fi
 
           # Create a log file for debugging
           node app.mjs > paper_collection.log 2>&1 || (echo "Paper collection failed. See log below:" && cat paper_collection.log && exit 1)

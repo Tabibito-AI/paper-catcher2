@@ -603,6 +603,14 @@ class GeminiTranslator {
         this.apiKey = process.env.GEMINI_API_KEY;
         this.translationEnabled = !!this.apiKey;
 
+        console.log('=== Gemini Translator Initialization ===');
+        console.log(`GEMINI_API_KEY exists: ${!!this.apiKey}`);
+        if (this.apiKey) {
+            console.log(`GEMINI_API_KEY length: ${this.apiKey.length}`);
+            console.log(`GEMINI_API_KEY preview: ${this.apiKey.substring(0, 10)}...`);
+        }
+        console.log(`Translation enabled: ${this.translationEnabled}`);
+
         if (!this.apiKey) {
             console.warn('GEMINI_API_KEY is not set in environment variables. Translation will be skipped.');
             return;
@@ -1142,6 +1150,15 @@ class PaperCatcher {
 // メイン実行部分
 async function main() {
     try {
+        console.log('=== Paper Catcher Starting ===');
+        console.log('Environment Variables Check:');
+        console.log(`GEMINI_API_KEY: ${process.env.GEMINI_API_KEY ? `${process.env.GEMINI_API_KEY.substring(0, 10)}... (length: ${process.env.GEMINI_API_KEY.length})` : 'NOT SET'}`);
+        console.log(`KEYWORD1: ${process.env.KEYWORD1 || 'NOT SET'}`);
+        console.log(`KEYWORD2: ${process.env.KEYWORD2 || 'NOT SET'}`);
+        console.log(`SPRINGER_API_KEY: ${process.env.SPRINGER_API_KEY ? `${process.env.SPRINGER_API_KEY.substring(0, 10)}...` : 'NOT SET'}`);
+        console.log(`PUBMED_API_KEY: ${process.env.PUBMED_API_KEY ? `${process.env.PUBMED_API_KEY.substring(0, 10)}...` : 'NOT SET'}`);
+        console.log('================================');
+
         const paperCatcher = new PaperCatcher();
         await paperCatcher.run();
     } catch (error) {
