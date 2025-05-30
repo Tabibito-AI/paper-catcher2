@@ -41,12 +41,46 @@ function getEnvWithFallback(key, fallbackValue = '') {
     return fallbackValue;
 }
 
+// キーワード専用の関数（.envファイルを優先）
+function getKeywordWithEnvPriority(key, fallbackValue = '') {
+    // まず.envファイルから読み込みを試行
+    try {
+        const envPath = path.join(process.cwd(), '.env');
+        if (fs.existsSync(envPath)) {
+            const envContent = fs.readFileSync(envPath, 'utf8');
+            const lines = envContent.split('\n');
+
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+                if (trimmedLine.startsWith(`${key}=`)) {
+                    const envValue = trimmedLine.substring(key.length + 1);
+                    if (envValue && envValue.trim() !== '') {
+                        console.log(`Using ${key} from .env file: ${envValue}`);
+                        return envValue;
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.warn(`Failed to read .env file for ${key}:`, error.message);
+    }
+
+    // .envファイルで見つからない場合は環境変数を確認
+    const value = process.env[key];
+    if (value && value.trim() !== '') {
+        console.log(`Using ${key} from environment variables: ${value}`);
+        return value;
+    }
+
+    return fallbackValue;
+}
+
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
 
-// キーワード管理のためのヘルパー関数
+// キーワード管理のためのヘルパー関数（.envファイルを優先）
 function getKeywordsQuery() {
-    const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
-    const keyword2 = getEnvWithFallback('KEYWORD2', '');
+    const keyword1 = getKeywordWithEnvPriority('KEYWORD1', 'machinelearning');
+    const keyword2 = getKeywordWithEnvPriority('KEYWORD2', '');
 
     if (keyword2) {
         return `"${keyword1}" OR "${keyword2}"`;
@@ -189,9 +223,9 @@ class SpringerClient {
     constructor() {
         this.apiKey = getEnvWithFallback('SPRINGER_API_KEY');
 
-        // .envファイルから共通キーワードを取得
-        const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
-        const keyword2 = getEnvWithFallback('KEYWORD2', '');
+        // .envファイルから共通キーワードを取得（.envファイル優先）
+        const keyword1 = getKeywordWithEnvPriority('KEYWORD1', 'machinelearning');
+        const keyword2 = getKeywordWithEnvPriority('KEYWORD2', '');
 
         if (keyword2) {
             this.searchQuery = `(keyword:"${keyword1}" OR keyword:"${keyword2}")`;
@@ -376,9 +410,9 @@ class PubMedClient {
     constructor() {
         this.apiKey = getEnvWithFallback('PUBMED_API_KEY');
 
-        // .envファイルから共通キーワードを取得
-        const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
-        const keyword2 = getEnvWithFallback('KEYWORD2', '');
+        // .envファイルから共通キーワードを取得（.envファイル優先）
+        const keyword1 = getKeywordWithEnvPriority('KEYWORD1', 'machinelearning');
+        const keyword2 = getKeywordWithEnvPriority('KEYWORD2', '');
 
         let searchTerms = '';
         if (keyword2) {
@@ -1188,8 +1222,8 @@ async function main() {
 
         // 環境変数とフォールバック値の両方をチェック
         const geminiKey = getEnvWithFallback('GEMINI_API_KEY');
-        const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
-        const keyword2 = getEnvWithFallback('KEYWORD2', '');
+        const keyword1 = getKeywordWithEnvPriority('KEYWORD1', 'machinelearning');
+        const keyword2 = getKeywordWithEnvPriority('KEYWORD2', '');
         const springerKey = getEnvWithFallback('SPRINGER_API_KEY');
         const pubmedKey = getEnvWithFallback('PUBMED_API_KEY');
 
