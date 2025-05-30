@@ -776,7 +776,7 @@ class HTMLGenerator {
                         data-journal="${this.escapeHtml(journal || 'Unknown')}"
                         data-date="${formattedDate}"
                         data-abstract="${this.escapeHtml(abstract || 'No abstract available')}"
-                        data-translated-abstract="${this.escapeHtml(displayAbstract)}"
+                        data-translated-abstract="${this.escapeHtml(translatedAbstract || '')}"
                         data-url="${this.escapeHtml(link || '#')}">詳細</button>
                 </div>
             </article>`;

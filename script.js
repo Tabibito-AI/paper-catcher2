@@ -49,50 +49,126 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Twitter/X share functionality
-    const twitterLinks = document.querySelectorAll('.twitter-link');
-    twitterLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            // Get paper title from the closest paper item
-            const paperItem = this.closest('.paper-item');
-            const title = paperItem.querySelector('.paper-title').textContent;
-            
-            // Create Twitter share URL
-            const tweetText = encodeURIComponent(`${title} - Paper Catcher で発見した論文`);
-            const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodeURIComponent(window.location.href)}`;
-            
-            // Open Twitter in new window
-            window.open(tweetUrl, '_blank', 'width=550,height=420');
-        });
-    });
+    // Initialize papers data on page load
+    loadPapersData();
+
+    // Store papers data globally
+    window.papersData = [];
 
     function handleViewChange(viewType) {
-        // This would typically load different data or filter existing data
-        // For now, we'll just show a message
         console.log(`Switching to view: ${viewType}`);
-        
-        // In a real implementation, you would:
-        // 1. Fetch data for the specific view
-        // 2. Update the main content area
-        // 3. Handle loading states
-        
-        // Placeholder for different view implementations
-        switch(viewType) {
-            case 'registration':
-                // Show papers sorted by registration date
-                break;
-            case 'journal':
-                // Show papers grouped by journal
-                break;
-            case 'publication':
-                // Show papers sorted by publication date
-                break;
-            case 'archive':
-                // Show archived papers
-                break;
+
+        // Load papers data if not already loaded
+        if (window.papersData.length === 0) {
+            loadPapersData().then(() => {
+                sortAndDisplayPapers(viewType);
+            });
+        } else {
+            sortAndDisplayPapers(viewType);
         }
+    }
+
+    function loadPapersData() {
+        return new Promise((resolve) => {
+            // Extract papers data from current page
+            const paperItems = document.querySelectorAll('.paper-item');
+            const papers = [];
+
+            paperItems.forEach(item => {
+                const titleElement = item.querySelector('.paper-title');
+                const authorElement = item.querySelector('.paper-author');
+                const journalElement = item.querySelector('.paper-journal');
+                const dateElement = item.querySelector('.publication-date');
+                const detailsBtn = item.querySelector('.details-btn');
+
+                if (titleElement && detailsBtn) {
+                    papers.push({
+                        title: titleElement.textContent.trim(),
+                        author: authorElement ? authorElement.textContent.trim() : 'Unknown',
+                        journal: detailsBtn.getAttribute('data-journal') || 'Unknown',
+                        publicationDate: detailsBtn.getAttribute('data-date') || '1900-01-01',
+                        abstract: detailsBtn.getAttribute('data-abstract') || '',
+                        translatedAbstract: detailsBtn.getAttribute('data-translated-abstract') || '',
+                        translatedTitle: detailsBtn.getAttribute('data-translated-title') || '',
+                        url: detailsBtn.getAttribute('data-url') || '#',
+                        element: item
+                    });
+                }
+            });
+
+            window.papersData = papers;
+            resolve();
+        });
+    }
+
+    function sortAndDisplayPapers(viewType) {
+        if (window.papersData.length === 0) return;
+
+        const sortedPapers = sortPapers(window.papersData, viewType);
+        displayPapers(sortedPapers);
+    }
+
+    function displayPapers(papers) {
+        const mainContent = document.querySelector('.main-content');
+        if (!mainContent) return;
+
+        // Clear current content
+        mainContent.innerHTML = '';
+
+        // Add papers in sorted order
+        papers.forEach(paper => {
+            if (paper.element) {
+                mainContent.appendChild(paper.element.cloneNode(true));
+            }
+        });
+
+        // Re-initialize UI enhancements for new elements
+        initializeUIEnhancements();
+
+        // Re-attach event listeners for new elements
+        attachEventListeners();
+    }
+
+    function attachEventListeners() {
+        // Re-attach Twitter share functionality
+        const twitterLinks = document.querySelectorAll('.twitter-link');
+        twitterLinks.forEach(link => {
+            link.removeEventListener('click', handleTwitterShare); // Remove existing
+            link.addEventListener('click', handleTwitterShare);
+        });
+
+        // Re-attach paper link loading animation
+        const paperLinks = document.querySelectorAll('.paper-link');
+        paperLinks.forEach(link => {
+            link.removeEventListener('click', handlePaperLinkClick); // Remove existing
+            link.addEventListener('click', handlePaperLinkClick);
+        });
+    }
+
+    function handleTwitterShare(e) {
+        e.preventDefault();
+
+        // Get paper title from the closest paper item
+        const paperItem = this.closest('.paper-item');
+        const title = paperItem.querySelector('.paper-title').textContent;
+
+        // Create Twitter share URL
+        const tweetText = encodeURIComponent(`${title} - Paper Catcher で発見した論文`);
+        const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodeURIComponent(window.location.href)}`;
+
+        // Open Twitter in new window
+        window.open(tweetUrl, '_blank', 'width=550,height=420');
+    }
+
+    function handlePaperLinkClick() {
+        // Add a small loading indicator
+        const originalText = this.textContent;
+        this.textContent = '読み込み中...';
+
+        // Restore original text after a short delay
+        setTimeout(() => {
+            this.textContent = originalText;
+        }, 1000);
     }
 
     function openModal(button) {
@@ -119,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Show/hide translation section based on availability
         const translationSection = document.getElementById('modal-translation-section');
-        if (translatedAbstract && translatedAbstract !== abstract) {
+        if (translatedAbstract && translatedAbstract.trim() && translatedAbstract !== abstract && translatedAbstract !== 'No translation available') {
             translationSection.style.display = 'block';
         } else {
             translationSection.style.display = 'none';
@@ -149,20 +225,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Add loading animation for paper links
-    const paperLinks = document.querySelectorAll('.paper-link');
-    paperLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            // Add a small loading indicator
-            const originalText = this.textContent;
-            this.textContent = '読み込み中...';
-            
-            // Restore original text after a short delay
-            setTimeout(() => {
-                this.textContent = originalText;
-            }, 1000);
-        });
-    });
+    // Initialize event listeners
+    attachEventListeners();
 
     // Initialize tooltips or other UI enhancements
     initializeUIEnhancements();
@@ -216,6 +280,44 @@ document.addEventListener('DOMContentLoaded', function() {
         // This would be implemented to search through papers
         // Could include filtering by title, author, journal, etc.
         console.log('Search functionality would be implemented here');
+    }
+
+    // Sort papers by different criteria
+    function sortPapers(papers, sortType) {
+        const sortedPapers = [...papers];
+
+        switch (sortType) {
+            case 'registration':
+                // Sort by registration date (newest first) - assuming papers are already in registration order
+                return sortedPapers;
+
+            case 'journal':
+                // Sort by journal name alphabetically
+                return sortedPapers.sort((a, b) => {
+                    const journalA = a.journal || 'Unknown';
+                    const journalB = b.journal || 'Unknown';
+                    return journalA.localeCompare(journalB);
+                });
+
+            case 'publication':
+                // Sort by publication date (newest first)
+                return sortedPapers.sort((a, b) => {
+                    const dateA = new Date(a.publicationDate || '1900-01-01');
+                    const dateB = new Date(b.publicationDate || '1900-01-01');
+                    return dateB - dateA;
+                });
+
+            case 'archive':
+                // Sort by publication date (oldest first) for archive view
+                return sortedPapers.sort((a, b) => {
+                    const dateA = new Date(a.publicationDate || '1900-01-01');
+                    const dateB = new Date(b.publicationDate || '1900-01-01');
+                    return dateA - dateB;
+                });
+
+            default:
+                return sortedPapers;
+        }
     }
 
     // Auto-refresh functionality (for live updates)
