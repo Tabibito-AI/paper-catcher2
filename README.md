@@ -4,7 +4,7 @@ Paper Catcherは、学術論文を自動的に収集し、日本語で翻訳・�
 
 ## ✨ 主な機能
 
-- **🔍 多源論文収集**: arXiv、Semantic Scholar、Springer、PubMedから論文を自動収集
+- **🔍 論文収集**: arXiv、Semantic Scholar、Springer、PubMedから論文を自動収集
 - **🌐 AI翻訳**: Google Gemini APIによる高品質な日本語翻訳（タイトル・抄録）
 - **📱 レスポンシブデザイン**: モバイル・タブレット・デスクトップ対応
 - **🔄 自動更新**: GitHub Actionsによる毎日の自動論文収集・更新
@@ -108,6 +108,22 @@ open index.html
 **手動実行**:
 - 「Actions」タブ→「Deploy static content to Pages」→「Run workflow」
 
+### 📚 論文蓄積システム
+
+**データ永続化**:
+- **増分更新**: 毎日新しい論文が既存データに追加
+- **重複排除**: DOI・論文IDによる自動重複除去
+- **データ保存**: `papers.json`ファイルに全論文データを蓄積
+
+**蓄積例**:
+```
+Day 1: 20論文収集 → papers.json (20論文)
+Day 2: 15論文収集 → papers.json (35論文、重複除く)
+Day 3: 18論文収集 → papers.json (53論文、重複除く)
+```
+
+**結果**: 時間経過とともに豊富な論文データベースが自動構築
+
 ## ⚙️ カスタマイズ
 
 ### 🔍 検索キーワード変更
@@ -195,6 +211,9 @@ bundle.js             # Webpackバンドル
 
 ### AI翻訳
 - **Google Gemini API**: 高品質日本語翻訳
+  - **使用モデル**: `gemini-1.5-flash-latest`
+  - **機能**: 論文タイトル・抄録の英日翻訳
+  - **特徴**: 学術用語に対応した高精度翻訳
 
 ## 🔧 トラブルシューティング
 
