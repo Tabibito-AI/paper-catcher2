@@ -686,7 +686,7 @@ class GeminiTranslator {
         try {
             this.genAI = new GoogleGenerativeAI(this.apiKey);
             this.model = this.genAI.getGenerativeModel({
-                model: "gemini-1.5-flash",
+                model: "gemini-2.5-flash-preview-05-20",
                 safetySettings: [
                     {
                         category: HarmCategory.HARM_CATEGORY_HARASSMENT,
@@ -706,6 +706,7 @@ class GeminiTranslator {
                     },
                 ],
             });
+            console.log('Gemini 2.5 Flash Preview 05-20 model initialized successfully');
         } catch (error) {
             console.warn('Failed to initialize Gemini API:', error.message);
             this.translationEnabled = false;
