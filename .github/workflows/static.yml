@@ -25,6 +25,7 @@ jobs:
   # Paper collection and processing job
   collect-papers:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
