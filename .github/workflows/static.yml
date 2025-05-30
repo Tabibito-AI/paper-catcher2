@@ -1,0 +1,151 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  schedule:
+   - cron: '0 15 * * *' # JSTの午前0時に実行
+   # - cron: '0 */3 * * *' # 3時間ごとに実行
+  workflow_dispatch: # 手動でのワークフロー実行を許可
+  # push:
+  #   branches: ["main"]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write # read -> write に変更して、コンテンツの更新を許可
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Paper collection and processing job
+  collect-papers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Check Node.js and npm versions
+        run: |
+          node --version
+          npm --version
+      
+      - name: Install dependencies
+        run: |
+          set -ex
+          npm ci || (echo "npm ci failed" && exit 1)
+          echo "Dependencies installed successfully"
+          npm list --depth=0
+      
+      - name: Check src directory
+        run: |
+          set -ex
+          echo "Checking src directory structure..."
+          ls -la
+          ls -la src/ || echo "src directory not found or empty"
+          
+          # Check if webScraper.js exists in the correct location
+          if [ -f "src/webScraper.js" ]; then
+            echo "src/webScraper.js exists."
+          elif [ -f "webScraper.js" ]; then
+            echo "webScraper.js exists in root directory."
+            # Fix import path if needed
+            if grep -q "import WebScraper from './src/webScraper.js'" app.mjs; then
+              echo "Fixing WebScraper import path in app.mjs..."
+              sed -i "s|import WebScraper from './src/webScraper.js'|import WebScraper from './webScraper.js'|g" app.mjs
+            fi
+          else
+            echo "ERROR: webScraper.js not found!"
+            exit 1
+          fi
+      
+      - name: Run paper collection and translation
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          KEYWORD1: ${{ secrets.KEYWORD1 }}
+          KEYWORD2: ${{ secrets.KEYWORD2 }}
+          SPRINGER_API_KEY: ${{ secrets.SPRINGER_API_KEY }}
+          PUBMED_API_KEY: ${{ secrets.PUBMED_API_KEY }}
+        run: |
+          set -ex
+          echo "Starting paper collection and translation process..."
+          echo "Environment variables check:"
+          echo "GEMINI_API_KEY: ${GEMINI_API_KEY:0:10}..."
+          echo "KEYWORD1: $KEYWORD1"
+          echo "KEYWORD2: $KEYWORD2"
+
+          # Create a log file for debugging
+          node app.mjs > paper_collection.log 2>&1 || (echo "Paper collection failed. See log below:" && cat paper_collection.log && exit 1)
+          echo "Paper collection completed successfully"
+          # Show the log even on success for debugging
+          echo "=== Paper Collection Log ==="
+          cat paper_collection.log
+          echo "=== End of Log ==="
+
+          # Check if any HTML files were updated
+          echo "Checking for updated HTML files..."
+          git status -s
+      
+      - name: Commit and push changes
+        run: |
+          set -ex
+          echo "Committing and pushing changes..."
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+          # Check if there are any changes to commit
+          if git status --porcelain | grep -q .; then
+            echo "Changes detected, committing..."
+            git add .
+            git commit -m "Auto-update papers $(date +'%Y-%m-%d')"
+            git push
+            echo "Changes pushed successfully"
+          else
+            echo "No changes to commit"
+          fi
+
+  # Deployment job
+  deploy:
+    needs: collect-papers
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main # 最新のコミットを取得
+          fetch-depth: 0 # 全履歴を取得して最新の変更を確実に反映
+      
+      - name: Pull latest changes
+        run: |
+          git pull --ff-only
+          echo "Current commit after pull:"
+          git rev-parse HEAD
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

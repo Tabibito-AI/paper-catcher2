@@ -1,0 +1,41 @@
+{
+  "name": "paper-catcher",
+  "version": "1.0.0",
+  "description": "論文を自動収集・翻訳して提供するウェブアプリケーション",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.mjs",
+    "build": "webpack --config webpack.config.cjs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "ci": "npm install && git add package.json package-lock.json && git commit -m 'Update package.json and package-lock.json' || echo 'No changes to commit'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomoto0/econ-paper-catcher.git"
+  },
+  "author": "Tomoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomoto0/econ-paper-catcher/issues"
+  },
+  "homepage": "https://tomoto0.github.io/econ-paper-catcher/",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "aws-sdk": "^2.814.0",
+    "axios": "^1.9.0",
+    "dotenv": "^10.0.0",
+    "jsdom": "^25.0.1",
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.2",
+    "gh-pages": "^6.3.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
