@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import fetch from 'node-fetch';
 import fs from 'fs';
+import path from 'path';
 import axios from 'axios';
 import { JSDOM } from 'jsdom';
 import { parseStringPromise } from 'xml2js';
@@ -8,13 +9,45 @@ import WebScraper from './webScraper.js';
 
 dotenv.config();
 
+// 環境変数のフォールバック機能
+function getEnvWithFallback(key, fallbackValue = '') {
+    const value = process.env[key];
+    if (value && value.trim() !== '') {
+        return value;
+    }
+
+    // .envファイルから直接読み込みを試行
+    try {
+        const envPath = path.join(process.cwd(), '.env');
+        if (fs.existsSync(envPath)) {
+            const envContent = fs.readFileSync(envPath, 'utf8');
+            const lines = envContent.split('\n');
+
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+                if (trimmedLine.startsWith(`${key}=`)) {
+                    const envValue = trimmedLine.substring(key.length + 1);
+                    if (envValue && envValue.trim() !== '') {
+                        console.log(`Using fallback value for ${key} from .env file`);
+                        return envValue;
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.warn(`Failed to read .env file for ${key}:`, error.message);
+    }
+
+    return fallbackValue;
+}
+
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
 
 // キーワード管理のためのヘルパー関数
 function getKeywordsQuery() {
-    const keyword1 = process.env.KEYWORD1 || 'machinelearning';
-    const keyword2 = process.env.KEYWORD2 || '';
-    
+    const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
+    const keyword2 = getEnvWithFallback('KEYWORD2', '');
+
     if (keyword2) {
         return `"${keyword1}" OR "${keyword2}"`;
     }
@@ -154,12 +187,12 @@ class ArxivClient {
 
 class SpringerClient {
     constructor() {
-        this.apiKey = process.env.SPRINGER_API_KEY;
-        
+        this.apiKey = getEnvWithFallback('SPRINGER_API_KEY');
+
         // .envファイルから共通キーワードを取得
-        const keyword1 = process.env.KEYWORD1 || 'machinelearning';
-        const keyword2 = process.env.KEYWORD2 || '';
-        
+        const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
+        const keyword2 = getEnvWithFallback('KEYWORD2', '');
+
         if (keyword2) {
             this.searchQuery = `(keyword:"${keyword1}" OR keyword:"${keyword2}")`;
         } else {
@@ -167,7 +200,7 @@ class SpringerClient {
         }
 
         if (!this.apiKey) {
-            console.warn('Warning: SPRINGER_API_KEY not set in environment variables');
+            console.warn('Warning: SPRINGER_API_KEY not set in environment variables or .env file');
             throw new Error('Springer API key is not set');
         }
     }
@@ -341,19 +374,19 @@ class SemanticScholarClient {
 
 class PubMedClient {
     constructor() {
-        this.apiKey = process.env.PUBMED_API_KEY;
-        
+        this.apiKey = getEnvWithFallback('PUBMED_API_KEY');
+
         // .envファイルから共通キーワードを取得
-        const keyword1 = process.env.KEYWORD1 || 'machinelearning';
-        const keyword2 = process.env.KEYWORD2 || '';
-        
+        const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
+        const keyword2 = getEnvWithFallback('KEYWORD2', '');
+
         let searchTerms = '';
         if (keyword2) {
             searchTerms = `("${keyword1}"[Title/Abstract] OR "${keyword2}"[Title/Abstract])`;
         } else {
             searchTerms = `("${keyword1}"[Title/Abstract])`;
         }
-        
+
         this.searchQuery = `${searchTerms} AND ("2023"[Date - Publication] : "3000"[Date - Publication])`;
     }
 
@@ -600,7 +633,7 @@ class ScopusClient {
 // Gemini翻訳クライアント
 class GeminiTranslator {
     constructor() {
-        this.apiKey = process.env.GEMINI_API_KEY;
+        this.apiKey = getEnvWithFallback('GEMINI_API_KEY');
         this.translationEnabled = !!this.apiKey;
 
         console.log('=== Gemini Translator Initialization ===');
@@ -612,7 +645,7 @@ class GeminiTranslator {
         console.log(`Translation enabled: ${this.translationEnabled}`);
 
         if (!this.apiKey) {
-            console.warn('GEMINI_API_KEY is not set in environment variables. Translation will be skipped.');
+            console.warn('GEMINI_API_KEY is not set in environment variables or .env file. Translation will be skipped.');
             return;
         }
 
@@ -1152,11 +1185,19 @@ async function main() {
     try {
         console.log('=== Paper Catcher Starting ===');
         console.log('Environment Variables Check:');
-        console.log(`GEMINI_API_KEY: ${process.env.GEMINI_API_KEY ? `${process.env.GEMINI_API_KEY.substring(0, 10)}... (length: ${process.env.GEMINI_API_KEY.length})` : 'NOT SET'}`);
-        console.log(`KEYWORD1: ${process.env.KEYWORD1 || 'NOT SET'}`);
-        console.log(`KEYWORD2: ${process.env.KEYWORD2 || 'NOT SET'}`);
-        console.log(`SPRINGER_API_KEY: ${process.env.SPRINGER_API_KEY ? `${process.env.SPRINGER_API_KEY.substring(0, 10)}...` : 'NOT SET'}`);
-        console.log(`PUBMED_API_KEY: ${process.env.PUBMED_API_KEY ? `${process.env.PUBMED_API_KEY.substring(0, 10)}...` : 'NOT SET'}`);
+
+        // 環境変数とフォールバック値の両方をチェック
+        const geminiKey = getEnvWithFallback('GEMINI_API_KEY');
+        const keyword1 = getEnvWithFallback('KEYWORD1', 'machinelearning');
+        const keyword2 = getEnvWithFallback('KEYWORD2', '');
+        const springerKey = getEnvWithFallback('SPRINGER_API_KEY');
+        const pubmedKey = getEnvWithFallback('PUBMED_API_KEY');
+
+        console.log(`GEMINI_API_KEY: ${geminiKey ? `${geminiKey.substring(0, 10)}... (length: ${geminiKey.length})` : 'NOT SET'}`);
+        console.log(`KEYWORD1: ${keyword1}`);
+        console.log(`KEYWORD2: ${keyword2 || 'NOT SET'}`);
+        console.log(`SPRINGER_API_KEY: ${springerKey ? `${springerKey.substring(0, 10)}...` : 'NOT SET'}`);
+        console.log(`PUBMED_API_KEY: ${pubmedKey ? `${pubmedKey.substring(0, 10)}...` : 'NOT SET'}`);
         console.log('================================');
 
         const paperCatcher = new PaperCatcher();
