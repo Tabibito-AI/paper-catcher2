@@ -13,6 +13,7 @@ GEMINI_API_KEY exists: true
 GEMINI_API_KEY length: 39
 GEMINI_API_KEY preview: AIzaSyAujp...
 Translation enabled: true
+Gemini 2.5 Flash Preview 05-20 model initialized successfully
 Using KEYWORD1 from .env file: TRE
 Using KEYWORD2 from .env file: SDE
 arXiv initialized with query: abs:"TRE" OR "SDE" OR ti:"TRE" OR "SDE"
@@ -30,7 +31,7 @@ CrossRef initialized with query: "TRE" OR "SDE"
 Using KEYWORD1 from .env file: TRE
 Using KEYWORD2 from .env file: SDE
 Keywords: "TRE" OR "SDE"
-Timestamp: 2025-05-30T23:05:11.641Z
+Timestamp: 2025-05-30T23:40:01.818Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
@@ -331,36 +332,147 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1043:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1043:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '5f2a19bf47fba04e1a5d2af4e6ea0ff1b09faa60',
+    title: 'E-learning ed equità. Un’analisi dei risultati formativi nei CdL in SdE in presenza e a distanza dell’Università Roma Tre',
+    abstract: 'No abstract available',
+    published: '2009-01-01T00:00:00.000Z',
+    authors: [ 'A. Ciraci' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/5f2a19bf47fba04e1a5d2af4e6ea0ff1b09faa60'
+  },
+  {
+    id: 'b30bb1d002a2011c2ee910a8e39820f39d3e0537',
+    title: 'Intraoperative CT as a registration benchmark for intervertebral motion compensation in image-guided open spinal surgery',
+    abstract: 'No abstract available',
+    published: '2015-01-01T00:00:00.000Z',
+    authors: [
+      'Songbai Ji',
+      'Xiaoyao Fan',
+      'K. Paulsen',
+      'D. Roberts',
+      'S. Mirza',
+      'S. Lollis'
+    ],
+    journal: 'International Journal of Computer Assisted Radiology and Surgery',
+    doi: '10.1007/s11548-015-1255-5',
+    link: 'https://www.semanticscholar.org/paper/b30bb1d002a2011c2ee910a8e39820f39d3e0537'
+  },
+  {
+    id: '308aa4848fdd8bcc0a309b44c7d5e5f15e11642f',
+    title: 'Medio ambiente urbano',
+    abstract: 'El es t u dio y a n a li sis d e l a s i n te r ac c i o n e s e n tre a m b i ente y d e sa r ro l lo y su in s ercion en los p r o c e s os d e pla n ific a cion d el c r e c i m i e n t o s o c i a l y e c ono m i c o de l o s p a i s es d e A me rica L a t i na, re vi st e e spec i a l in tere s p a r a propo n e r a l ter n at iv a s d e acc i o n que co n d uz ca n a l lo gr o d e una mejo r cal i d a d d e v i d a . E l i m p a c t o q ue la s c o n f e r e n c i a s so b r e e l Me d io Am bient e Hu ma no E s toc o l m o (1 9 72 ) , C ocoyoc (19 7 4) o de d o c u me n t o s c o m o "Nuest r o F u t u r o C o mu n " o " N u es t ra P r opia A g e n d a " han t e ni d o e n s u s p r oc e s o s d e p l an i f i c a c i o n , d e be ser eval u a d o. En es t e e n sayo s e a n a l i z an l as t e n denc i a s c o n c e ptua l es d e sde l as q u e se v ie n e ab o rdando l a r e l a c i o n e n t r e M e d i o A mb i e n te y De s a r rol l o, c o n el pr o p o s i t o d e o rie n tar l a r e f l e x i o n c on j u n t a s o bre l a s i tuacion e n A m erica Lati n a res p ec t o de l as r e l acio n e s entre el a mb i e n t e y de s ar r o ll o y s u in se r c i o n e n l o s p r oce s o s d e p l a n i f ic ac i o n y r ea li z a r u n e j e rc i c i o p r ospe c t iv o , de s t in a do a e s tablec e r p a u t a s d ese a b l e s y po s i b l e s p ara in c or p orar l a te m atica am bie n t a l a l a s a c c i o n es de p l a n i f i ca ci o n de su d es a r r o l l o e co n om i c o y s o c ial.',
+    published: '2008-01-01T00:00:00.000Z',
+    authors: [ 'A. A. Maya' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/308aa4848fdd8bcc0a309b44c7d5e5f15e11642f'
+  },
+  {
+    id: '826735fdefe3f1cdf54a3f736a9d2b0c875af8bf',
+    title: 'Les centres de numerisation : Des usines pour traiter les documents',
+    abstract: "Les technique sde numerisation deviennent a la portee de tous. Le scanner fera bientot partie integrante d'un environnement bureatique classique. Des docuemnts sont couramment scannes pour etre integres tels que dans une base image, ou traites grâce a un logiciel de reconnaissance optique de caracteres (OCR). Aujourd'hui, ceratines societes ont fait de la numerisatio une activite a part entiere: c'est le cas de Jouve SI, de Kodak et de la Librairie Electronique d'OR Telematique. Trois reportages sur place ont permis de mieux connai$tre les methodes de travail dan sun centre de numerisaiton, veritables usines de traitement de documents. Les scanners haut-debit permettent d'avaler entre 1800 et 5000 pages en une heure. ces materiels performants et rapides ont permis a ces prestataires de decrocher quelques gros marches: la Bibliotheque Nationale de France, l'Office europeen des brevets ou encore l'INPI.",
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'I. Perriault' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/826735fdefe3f1cdf54a3f736a9d2b0c875af8bf'
+  },
+  {
+    id: '7da6cb74cd6912fc3c5f71b467af40b2c2f971f4',
+    title: 'Costo de la calidad del servicio técnico desde la percepción de usuarios residenciales en sistemas de distribución eléctrica',
+    abstract: 'En este trabajo se propone una novedosa metodología para estimar el costo de la calidad de servicio técnico (CST) desde la percepción de los clientes residenciales en un sistema de distribución eléctrica (SDE). Es introducido el concepto de Costo Intrínseco de Falla (CiFa), a partir de tres indicadores empleados internacionalmente: la Energía No Suministrada, el Número de Clientes Afectados y el Tiempo de Interrupción no programado del suministro. El SDE se diseña ubicando óptimamente cierto número de equipos de protección (EPr) para aumentar la confiabilidad, minimizando una Función Objetivo compuesta por los Costos de los EPr instalados, y los tres indicadores anteriores, empleando la técnica de Programación Dinámica Posibilista o Difusa. Tal diseño óptimo es presentado por el planificador del SDE al regulador, para su control y reconocimiento de los costos trasladados a los precios en el esquema tarifario.  Estos costos CiFa asociados a la CST, pueden interpretarse como óptimos del Lado de la Oferta (CiFaOf). Adoptándonos como referencia, son calculados los puntajes factoriales para el constructo dependiente CST desde la estimación de un modelo de ecuaciones estructurales PLS-SEM solidario. Los mismos permiten calcular el CiFa interpretado como del Lado de la Demanda (CiFaDe). Se propone que el regulador considere toda diferencia en exceso del CiFaDe respecto del CiFaOf como una penalización monetaria aplicable a la distribuidora por incumplir el nivel de CST comprometido. Los datos empleados en las simulaciones y los resultados obtenidos corresponden al sistema de distribución de la ciudad de Bariloche, Argentina, para el año 2021.',
+    published: '2024-01-01T00:00:00.000Z',
+    authors: [ 'G. Schweickardt' ],
+    journal: 'LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades',
+    doi: '10.56712/latam.v5i1.1584',
+    link: 'https://www.semanticscholar.org/paper/7da6cb74cd6912fc3c5f71b467af40b2c2f971f4'
+  },
+  {
+    id: 'e45e23c07d7703a1b268906516bbe3e90e414894',
+    title: 'The challenges of replication: a worked example of methods reproducibility using routinely collected healthcare data',
+    abstract: `The ability to reproduce the work of others is an essential part of the scientific disciplines. However, in practice it is hard, with several authors describing a "replication crisis" in research. For observational studies using routinely collected healthcare data replication is also important. Observational research is typically given less weight in systematic reviews and clinical guidelines, in favour of higher quality research such as randomised control trials. Observational research that is replicated has more impact. In this study we aimed to replicate a previous paper that had examined the risk of hospitalisation following a positive COVID-19 test in patients with diabetes. The original study used data from Greater Manchester (a large urban region in the UK, population 2.9m), while the replication study used data from the NHS England's Secure Data Environment with data covering the whole of England, UK (population 57m). Both analyses were conducted in Trusted Research Environments (TREs) or Secure Data Environments (SDEs), containing similar data. However, the small differences between the environments and the data sources led to several challenges in assessing reproducibility. In this paper we describe the differences between the environments, reflect on the challenges faced, and produce a list of recommendations for TREs and SDEs to assist future replication studies.`,
+    published: '2024-01-01T00:00:00.000Z',
+    authors: [
+      'R. Williams',
+      'T. Bolton',
+      'D. Jenkins',
+      'M. Mizani',
+      'M. Sperrin',
+      'C. Sudlow',
+      'A. Wood',
+      'A. Heald',
+      'N. Peek',
+      'CVD-COVID-UK consortium'
+    ],
+    journal: 'medRxiv',
+    doi: '10.1101/2024.08.06.24311535',
+    link: 'https://www.semanticscholar.org/paper/e45e23c07d7703a1b268906516bbe3e90e414894'
+  },
+  {
+    id: '6716420f08fe74d8044cc1597677b31ac4a56687',
+    title: 'Triosonate in Es-Dur für Flöte, Violine und Basso continuo = Sonata a tre in E-flat major for flute, violin and basso continuo',
+    abstract: 'No abstract available',
+    published: '2014-01-01T00:00:00.000Z',
+    authors: [ 'Johann Gottlieb or Graun', 'Y. Morgan', 'Wolfgang Kostujak' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/6716420f08fe74d8044cc1597677b31ac4a56687'
+  },
+  {
+    id: 'fa070c42fd6de5d3f2f80ca5f6a3d2461685bd01',
+    title: 'COMPARACIÓN DE LA COMPOSICIÓN QUÍMICA Y DE LA ACTIVIDAD ANTIOXIDANTE IN VITRO DE LOS METABOLITOS SECUNDARIOS VOLÁTILES DE PLANTAS DE LA FAMILIA VERBENACEAE',
+    abstract: 'En el trabajo se estudiaron metabolitos secundarios volátiles, obtenidos por diferentes técnicas de extracción, de tres plantas de la familia Verbenaceae, cultivadas en la región Nororiental de Colombia. Lippia alba fue un quimiotipo nuevo, no descrito previamente en la literatura; contiene la carvona (40-57%) como el componente mayoritario en los aceites, obtenidos por hidrodestilación (HD) e hidrodestilación asistida por microondas (MWHD) y en los extractos, aislados por destilación – extracción simultánea (SDE) y por extracción con fluido supercrítico (SFE), seguido del limoneno (24-37%), el biciclosesquifelandreno (2-22%), la piperitenona (1-2%), la piperitona (0.8-1.2%) y el ß–burboneno (0.6-1.5%). El compuesto principal en las fracciones volátiles, obtenidas por métodos headspace estático (S-HS), dinámico de purga y trampa (P & T) o por microextracción en fase sólida en modo headspace (HS-SPME) fue el limoneno (27-77%), seguido de la carvona (14-30%), el biciclosesquifelandreno (1-33%) y el ß–burboneno (0.5-6.5%). Los componentes mayoritarios en los aceites esenciales (HD, MWHD) y en los extractos (SDE, SFE) de la Aloysia triphylla, fueron el neral (19-22%) y el geranial (33-38%), seguidos del nerol (2-5%) y el geraniol (2-6%), los sesquiterpenoides ar-curcumeno (3-4%), biciclosesquifelandreno (2-3%), espatulenol (2-4%), nerolidol (ca. 2%), ßburboneno (1-2%), ß-cariofileno (3-5%) y su óxido (1-1.5%). El aceite esencial de Lantana camara fue de tipo sesquiterpenoide; más del 60% de la mezcla lo representan hidrocarburos sesquiterpénicos, C15H24, y ca. 30% sus análogos oxigenados. El trans-ß-cariofileno (14-15%) y su óxido (4-9%), el biciclosesquifelandreno (16-18%), el α-zingibereno (5-6%), el E,E-α-farneseno (3-4%) y el γbisaboleno (3-4%) fueron los sesquiterpenos mayoritarios aislados de L. camara. La fracción de monoterpenos, C10H16, en L. camara no alcanzó un 10%; entre éstos, el ß-pineno (0.2-3%) y el ßmirceno (2-4%) fueron hidrocarburos mayoritarios. En la L. alba predominaron monoterpenos (>30%) y mo oterpenos oxigenados (ca. 55%); para la A. triphylla, la familia de compuestos mayoritarios fue la de monoterpenos oxigenados (>70%), de los cuales, ca. 60% correspondieron al citral; mientras que la L. camara fue pobre en monoterpenos y sus análogos oxigenados; la mayoría de sus metabolitos secundarios fueron hidrocarburos sesquiterpénicos (ca. 60%) y sus derivados oxigenados (ca. 30%). Los aceites esenciales de las tres plantas de la familia Verbenaceae mostraron un efecto protector antioxidante in vitro, medido en un sistema lipídico modelo (emulsión del ácido linoleico), a la misma concentración, e.g. 10 g/L, igual o mayor que la vitamina E y el BHA, siendo el aceite de L. camara el más activo de todos, seguido del aceite de L. alba.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'Elena E. Stashenko', 'B. E. Jaramillo', 'J. Martínez' ],
+    journal: 'Revista de la Academia Colombiana de Ciencias Exactas Físicas y Naturales',
+    doi: '10.18257/raccefyn.27(105).2003.2094',
+    link: 'https://www.semanticscholar.org/paper/fa070c42fd6de5d3f2f80ca5f6a3d2461685bd01'
+  },
+  {
+    id: '68f76bc21cdef3169398445a228edb591c262d0c',
+    title: 'SONOLÊNCIA DIURNA EXCESSIVA EM INTERNOS DE UMA UNIVERSIDADE BRASILEIRA: PREVALÊNCIA E FATORES ASSOCIADOS',
+    abstract: 'A privação do sono pela que o interno do curso de medicinas se submete é interpretada como símbolo de dedicação a profissão, o que, em curto prazo, parece até aumentar a produtividade, porém, pode levar a deterioração mental, física e psicológica, gerando falhas de memória e transtornos do sono como a sonolência diurna excessiva (SDE). Esta é caracterizada como uma sensação aumentada da necessidade de sono e diminuição do estado de alerta, sendo um dos principais efeitos da duração reduzida de sono. O objetivo do presente estudo será analisar a SDE em internos da Faculdade de Medicina da Universidade de Rio Verde, em Rio Verde – GO, Brasil. Foi coletado o perfil sociodemográfico, de saúde e estilo de vida dos estudantes e ainda o grau de sonolência diurna através da escala de sonolência de Epworth (ESE). Os dados obtidos foram inseridos no programa estatístico Statistical Package for Social Science (SPSS) para se estabelecer correlações entre os escores obtidos de sonolência diurna e as variáveis independentes analisadas neste estudo através do teste do Qui-Quadrado. A prevalência de sonolência diurna excessiva na amostra foi de 65,5% e foi encontrada associação estatisticamente significativa com a presença de depressão, o fato de estudar nos três turnos do dia e a baixa qualidade do sono nos acadêmicos investigados.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'Giulia Ugucioni Garbelini',
+      'André Vinícius de Oliveira',
+      'M. Júdice',
+      'Ana Paula Pereira Arantes',
+      'R. C. D. D. Silva'
+    ],
+    journal: 'Revista Ibero-Americana de Humanidades, Ciências e Educação',
+    doi: '10.51891/rease.v9i4.9320',
+    link: 'https://www.semanticscholar.org/paper/68f76bc21cdef3169398445a228edb591c262d0c'
+  },
+  {
+    id: '1215de81dd9035bfd9ca41584ea3548ee3a6e0be',
+    title: 'Les lHa srin sde brgyad et le probleme de leur categorisation - Une interpretation',
+    abstract: 'Position du problème : le cadre épistémologique e champ d’apparition des classes de dieux appelés lha srin sde brgyad, est très large en Himalaya. On peut le constater à travers récits, analyses, mythes et histoires : il recouvre en fait le domaine entier de la religion. Soit que, sous la forme de ces êtres surnaturels catégorisés ensemble, l’on ait à faire à des catégorisations1 réelles de la pratique sociale, de véritables structures sociales inconscientes et rendues manifestes dans les rituels, par exemple sous la forme de la fabrication de diverses effigies de dieux et de démons (figures de fil nam mkha’ ) destinées à indiquer la présence réelle de ces entités divines ou démoniaques dans le champ de la pratique sociale; soit que l’on ait à faire à de simples dispositifs permettant de matérialiser les relations entre hommes et dieux en termes d’échanges, de procédures de rançonnement et d’exorcismes auprès de démons (bdud, ma mo, rgyal po), mais là également, rendus visibles pour la circonstance (voire même devenus les “ termes de l’échange ”); soit qu’enfin, l’on ait simplement à faire à des classifications ou à des taxinomies, comparables à celles des sciences naturelles, pour parler de l’environnement ; dans tous les cas, une première question se pose : ces catégories ou classes appelées lha srin sde brgyad entraînent-elles ou non une façon de se comporter et de penser ? Nous allons d’abord discuter du mode même d’intelligibilité du réel que le recours à ces êtres surnaturels suppose, aussi bien dans la vie quotidienne des Tamang bouddhistes que dans la vie religieuse, avant d’examiner les diverses modalités de leurs manifestations, de leurs actions et de leurs désignations. En quoi peut-on donc parler de catégories au sujet des lha srin sde brgyad ? Si l’on se réfère à la théorie pure des catégories de type aristotélicien ou kantien2, on peut bien évidemment distinguer, au sujet des lha srin, le souci qu’auraient eu les docteurs du bouddhisme de décrire à partir de listes d’êtres surnaturels, certaines modalités d’être, des quantités, des qualités, des relations. Les lha srin ne seraient pas ce qu’ils sont de manière catégorique, mais de manière “ hypothétique ”. On aurait à faire non pas à de véritables concepts, mais à des cadres vides, des “ règles d’opérations ” suggérées par ces listes d’êtres conditionnés, et conditionnant à leur tour des procédures rituelles correctes. Le mode d’action rituel dépendrait donc directement de la “ forme ” de l’existant en question, au sujet duquel on voit définies dans les ouvrages rnyingmapa la couleur que doivent avoir les fils',
+    published: '2003-01-01T00:00:00.000Z',
+    authors: [ 'B. Steinmann' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/1215de81dd9035bfd9ca41584ea3548ee3a6e0be'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc &q=(keyword%3A%22TRE%22%20OR%20keyword%3A%22SDE%22)&p=10&s=1
 Error fetching Springer papers: Error: Springer API request failed with status 401
     at SpringerClient.fetchSpringerPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:250:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1040:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1041:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1194:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1239:9)
 Error collecting papers from springer: Error: Springer API request failed with status 401
     at SpringerClient.fetchSpringerPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:250:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1040:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1041:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1194:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1239:9)
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
@@ -539,14 +651,14 @@ Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S0022247X25000988
 No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S0022247X25000988
-Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S277273782500015X
-No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S277273782500015X
 Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S0025326X25005570
 No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S0025326X25005570
-Scraping abstract from final URL: https://ieeexplore.ieee.org/document/10839558/
-Found abstract in meta tag: meta[property="og:description"]
 Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S0969806X25003032
 No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S0969806X25003032
+Scraping abstract from final URL: https://linkinghub.elsevier.com/retrieve/pii/S277273782500015X
+No abstract found for URL: https://linkinghub.elsevier.com/retrieve/pii/S277273782500015X
+Scraping abstract from final URL: https://ieeexplore.ieee.org/document/10839558/
+Found abstract in meta tag: meta[property="og:description"]
 Scraping abstract from final URL: https://www.onlinescientificresearch.com/articles/clinical-use-of-loop-diuretics-acting-on-symporters.pdf
 No abstract found for URL: https://www.onlinescientificresearch.com/articles/clinical-use-of-loop-diuretics-acting-on-symporters.pdf
 Scraping abstract from final URL: https://www.arabjournalpp.org/article/2025/02/4558/
@@ -564,9 +676,9 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
     at async file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:621:37
     at async Promise.all (index 5)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1049:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9) {
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1050:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1194:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1239:9) {
   code: 'ERR_BAD_REQUEST',
   config: {
     transitional: {
@@ -670,22 +782,22 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
       [Symbol(res)]: null,
       [Symbol(verified)]: true,
       [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: 3144,
+      [Symbol(async_id_symbol)]: 3458,
       [Symbol(kHandle)]: null,
       [Symbol(lastWriteQueueSize)]: 0,
       [Symbol(timeout)]: Timeout {
         _idleTimeout: -1,
         _idlePrev: null,
         _idleNext: null,
-        _idleStart: 24694,
+        _idleStart: 22235,
         _onTimeout: null,
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: true,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 3153,
-        [Symbol(triggerId)]: 3148
+        [Symbol(asyncId)]: 3467,
+        [Symbol(triggerId)]: 3462
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -695,7 +807,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
       [Symbol(kSetNoDelay)]: false,
       [Symbol(kSetKeepAlive)]: true,
       [Symbol(kSetKeepAliveInitialDelay)]: 60,
-      [Symbol(kBytesRead)]: 7025,
+      [Symbol(kBytesRead)]: 7066,
       [Symbol(kBytesWritten)]: 312,
       [Symbol(connect-options)]: [Object]
     },
@@ -717,14 +829,14 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
       sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
       keepAliveMsecs: 1000,
       keepAlive: true,
       maxSockets: Infinity,
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 1,
+      totalSocketCount: 0,
       maxCachedSessions: 100,
       _sessionCache: [Object],
       [Symbol(shapeMode)]: false,
@@ -817,7 +929,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Fri, 30 May 2025 23:05:35 GMT',
+      date: 'Fri, 30 May 2025 23:40:23 GMT',
       'content-type': 'text/html; charset=UTF-8',
       'transfer-encoding': 'chunked',
       connection: 'close',
@@ -830,7 +942,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
       'origin-agent-cluster': '?1',
       'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
       'referrer-policy': 'same-origin',
-      'server-timing': 'chlray;desc="9481e08e9a7ec5ca"',
+      'server-timing': 'chlray;desc="948213856c8c6b77"',
       'x-content-type-options': 'nosniff',
       'x-frame-options': 'SAMEORIGIN',
       'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
@@ -838,7 +950,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
       'set-cookie': [Array],
       vary: 'Accept-Encoding',
       server: 'cloudflare',
-      'cf-ray': '9481e08e9a7ec5ca-ORD'
+      'cf-ray': '948213856c8c6b77-DFW'
     },
     config: {
       transitional: [Object],
@@ -923,13 +1035,13 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0004 (ori
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "academic.oup.com",cType: 'managed',cRay: '9481e08e9a7ec5ca',cH: 'SXGMJfjRgsuoeet5gk7eHIb40DsFMqvK.AEfTcuLG7Y-1748646335-1.2.1.1-B7cuxFbx_mao_e40HQponfgZqYg1hR9cxKdLNNZ1YyBw._x0m85OdTy9Iopi2Qbt',cUPMDTk: "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_tk=e1Y6es8m48YzAiPbemohGHT8C_1LzyG_6yoVX1m81Zg-1748646335-1.0.1.1-EEf4b6R5CfMg6vZcXA8tDvofJqxaOUxLhRrBOWzEGak",cFPWv: 'g',cITimeS: '1748646335',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_f_tk=e1Y6es8m48YzAiPbemohGHT8C_1LzyG_6yoVX1m81Zg-1748646335-1.0.1.1-EEf4b6R5CfMg6vZcXA8tDvofJqxaOUxLhRrBOWzEGak",md: "Lzey.4XWrKUs1VgifwJzD4zq9K3_ezVVpqVpK_605UM-1748646335-1.2.1.1-2B30SSvkwEFiIEtyyIYWgaNC7xeKCD_PXbEtUrN5UPK6dFq..Yig2w5eNUeJF7Lh1.D7Q1pd7nV4m4Uy0jKJRXrJxyNLaBoZbEDjIdIJIkZgVpj1AB6u_uzVihezBgWcc8ouDxEIhVfU7.pCv2tFi6c9iIz6DJE.i_lLEzrtMVOQpNwv09iV.7ruAOuvi7WnggfUwBvgd6yncl0270EKlsLRqE49.7AzcTeo8JoFSWHs5TlTPkdePEpDUGenMEb.7UBx2aQxaV2gae5tfrD7n7_7G2P.4pNPvMj7lr4zA15zBSxv9OdWiobIlr8hNZgB25Tko5w2l0TZn4pS74LQ2UubDU_xd8mCxw7x60hhBFA89EB0r.Y5UV2Mbq4_UIr.Cw6F.sVL6JiM9PXr4n459jpuLxA30IRpemCHw9vuLEFgzb8Q9kTt2W4h1KaPbk5ylrY0pUA_lMkjlVv6LyeSRuJ9meAsrKgAZ5amZwClI2cx4ZNSzhQgqNzqc2Y7cwLaLAVC9nDjO2fQ7APmZuz3i56gnX_Dpw2Eew8_MtK5pA0E2.YjRcWSElnRraeEr_l2U.iSp2gkoJLllwt3Mmv8AwO9Xdw9rQCN1m5bp_AVBrY6l0AJftnokpVfofPuxgzWDjWKadqFRD.V_Q7ia0cOAqlGN8liMDJ.CEHPI7k6xz8p7mT4NmKglRb3EZj5sf8G.JRWXtQ8hwxWnRR0LZcVa3YoSPPTgreOEWsNXBFKw5SNsyZZW76HlH3h2kEoTYV9Pgk4Oad8GovVkg.v02BDS3ImvwVz0r31Fomxxskp7DsFAtRxMi0XjtrH.2NROlhoBIViIPszt26.rFN86j9.UevBqqmr8SAxEz69xna4YKoaZe9yBd1OOzmvsLgyWqXU2LnYdMGG3WylPpjrT6eP4DZDep55v5PB305keVmclQ12cns6OnMeBLTqe7vhqz9z9cB7OGurUozQekn0wMscIwOXH.sXakLCp.yw7j6E5YqNJ8ECx5KoluHF6d3FdqI2OnlY5CumEt2_jlfjfpHhJY6m4x5Qz5qBWFA80YNLuUq6OS6TVA76qH.xeUUxde16aO9IyD1lP54R9GrVe5zcAg",mdrd: "FhK253qBzWFHcxuBBGpg8Hfx1QKrzG1gySndHDN7f1o-1748646335-1.2.1.1-EtHAZN2vCmtMwYGK.HdCCt5AJNYwQt43f2mSZC0uasARWGm.XXdi8_uNp7bHxfhDBqhH0RgjSxa9qdhlrQMQ6_YLnt5YklvMGFBSYVqalb5dG2JITthMKZ9eB0A8jniA3l8r.6LA0G5cI1DE.sQ18Zsr52B38vda.EKN3B_pgO7CCX15xLvoR.2LIqz927CAXGBliE3HCqUg5ymjR.5aF9_EUc6Lv8J9DGBV.xz1uQD37dtVO6ZpW_yaBSc5QEzj_4JeaDG7bNYPCNXhha0zFQrYr6x6bByYyjQuy84JjqwYliuWSqcBAGu0v9VYN_0xW7mqmlFLOZHKtHfL6Rrl_nCWtHKn3G3.VBYYLFSLGwDP8fPVYwhYx_TbuFLZYtW3Q5uZoxbJ9uBiQdBZWKec7Ura3dxZHMk1pnecmLpmPgmzUl1gh7iOqg3ZtZGslAA7o_GTw4POxVfT7ubgMGpMmZw9l0mlQ7gRkhu2LCqaHiuyrYQSC5c7INnJtkQUMhVUmcekvYiB8Ln4k7_REOIU3z1PTPHu7BLsaGDbS.nyZv.y_.4IhFVsZTSwR7h2Zh8iti0DDLL8y3jQzjK50KSWvWYAwhBTm3ZVWyNft0C9cFxQpTMvsDgjPoTMO7HXudTmGMv_Llo2wRRPkEZD.KL1FM7fPxJvsj58n9eGz8hqZuF1oBPeeYZPfSEt.G4t21yAdo.OWnrw_26.maaS3veCpde1dtTKS3dO9oG3Zeuwqn9c.6mZrjig1OK.k8FyQq6EAd24G7AwHhuia9FD82zNp7BmtVC5e3lz4MJqXRlLkFdPGylxw.66exeRwiNwtMtMrIn1614l04u0tW662wPv4zuP81LIpHat..Ql70xhH2bvtzb1DPq0__aSrjStzLXycux9HT1CeOmO2koiPyIB.hy_Wf1VwChQje5414vJmGb9E5ufT0wdD5eywZ5AEzAsXRFAq2U.v7UoBALtKcsUq3oJNF9sZnJd65Ov7XaQVu7rWLWF9QGSoyN.7R3ddmyp5PGhkA8UuUZJWOCl30ubetQkQItQFVCPNC5vSEhsAnUfAgQftt_unxrG05As5VqJvH4WXNrfzxITP5wV.ioUgfn2N1yf4hwrVxMwGTdESHJBh3ol4At1fwkUsfCUKSX9gvRe7HYPCJlT3rA5ZCYw1NXo56LeUPHjcojPNmnqs64LkZGKWItoe_oSixOt6qI6PqalrSkbgIB5tSq6JHjh.HhDyL7d7T48e.dx12fPaD06c8c3qM7fsk_sceszhccmYi.PeUb.jqiZuPdk.VngI4o0oA8RyDWjzoIsVDb63GB2C2d6RYTSdFy4hSnMVWRwHHyrUHIJBTsYgAYc1E1qDE92xpynk0WknC4xIlzlVHpMiuZW6qsqYL2QfDuzjuMI5FPovCOcgfzUhhjkdQgcAgy4qGerTDSjLFEL.jJZL_xbziESzQyhgZPbQOJiVDShOWPwnv1iwWfXVgRemtW7hinNyR.bP8t.6NyDS6.JQ2Nz4bZ9MdSDuEbBHTUXM47m9xbmv7ICM2Isn951Pw3NmP.B_UcTwHw_k8Yqc1QUcNZUoDWx3nhOBDKytRSqx5F6LOXOk6qqk5IEr1WK4I2TJHuzL_RhDS3bfj679zm.CXv9L_Zth8sCvGiOTKA7WixdpJimXqXw.3u4G66ST9dRlLZsuGJIgvoV_G0Nzifc1hZerrbd6vCmn6pGuikJhGdYKF_d4X9J_.7_TD7tChnvySnhH8RyUm0jxl7AWrDtWyvTUGiuYN.XhUQqdn_RFfu9Q0xBmJBZcvVaHiI_Dr2ASiLgtjqah7eNm6JGfIfB9NlSjD6Ju9wf5oqWPrUkd290JjqNwNoPOxkF3kj_PuNQNKNJUgUBmDC38QYNH7bdm0dDoazoX8jMJ1YCvv3ZxLCC8BeZ5qBDTSH4rr6TQZlgEJNZCUF6QTTsx4QShlwtwFbg4FQ7PG_226xNcj4LmvtwWmpKyutzajiVpZ.r5HrATNDL6.zmh6vs9wpA.lIuqA74AbAXEA5IX4c7GuVzJlfVfCTB7tScCGiOE7oNb2.rrMzahWJ15tt1y2IEgKXepVCHI1GEiQvagk1HWebOADrF.CVlNhleVPvMZErBBxzK3LSc2AkTvbtjMX0UrJuIvWNjM.wr6oI52W9n2u13VnRxCrJU6ORLthZjnn_AqczRjOrNfr28hsQqmogdezfOmw6WAh5RiJdUdKAVnwJqwqAJMoWZpw55BCpzBrXFyGT6ITX7UzIGBSq9pz9Us.wQyqGVGgG.E2cdQoNgpTTDEfBGR1wQi4l5Fz5fundWJj1AZ89sTQ5eEWAPwR0WKzyx4uSnreeDt1XyURoATgdt0kB3wfKftkLiQeEE5V5EBSdToDNGDw0wsEOZxL5GDHBI0zuesv2BnNAdZjnNutm9.0P7rLqpNsY4Is2nmltMNaaYLG4pHsVL5zzPem9vaOnyeHei_RmApRVmPQ22Ogv1Qo29tK1IsNK2qMRXIlqkL760rqoL7e07ecsVRsbd5UuSnasGBO4cH.ITptnr6upRt5P319i_Zh_P3PCz6pqJpka5hHStLpiUeUC83wgJqnnwBfJ1WJ4KRqHV1PPwchctw7qTtk875j55o5V1oC.aOev7Ky.5wyb9NKLohU4rnM2Uto4UtF_2lu6ZmnWr8.tGNquRUx75SRnQns773qHuGAkn1Pv2MP3I54lzS3gJ.21RXa6rLz3HUfy9wfc.QXx4T.XElfl78DAfjomzgelci88lizezHqCfUhv3GjmvEE.ad9NZL_KKg4B7Ctt1Ek8NPjxqcCojXHDhnBt8xw9C0Zoe05lUAGvr6_b0fLCgmha2i4g9ufy87yR0dHpF9s4Dnjww"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9481e08e9a7ec5ca';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_rt_tk=e1Y6es8m48YzAiPbemohGHT8C_1LzyG_6yoVX1m81Zg-1748646335-1.0.1.1-EEf4b6R5CfMg6vZcXA8tDvofJqxaOUxLhRrBOWzEGak" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
+    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "academic.oup.com",cType: 'managed',cRay: '948213856c8c6b77',cH: 'ZSGxljFF.PfuGj3mqBBUB62ksokIYGm.Rh8e9xgtWP4-1748648423-1.2.1.1-RPtXFu05QOInXj4Fl4nKTlZKRxIMlT4EdTZMjKUGhhBXzJNxuxlmoS0N88yTRCFG',cUPMDTk: "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_tk=peb0NqIULghatWz0XisnH6nzKs4WiutiyAlNir2ZEaI-1748648423-1.0.1.1-EnJxNPP5Uk0sP6siYXZcheSYK9w0IQ.z7bG8e71.6Xw",cFPWv: 'g',cITimeS: '1748648423',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_f_tk=peb0NqIULghatWz0XisnH6nzKs4WiutiyAlNir2ZEaI-1748648423-1.0.1.1-EnJxNPP5Uk0sP6siYXZcheSYK9w0IQ.z7bG8e71.6Xw",md: "XBU8spbrNJgXBSOsu__CmTheEJ0bg.QHF1p4wrFEaKE-1748648423-1.2.1.1-TOdtk4dcYkDdqVPSoeVUUS7v82KbaY4HCjRC7R736xRRuTSeEI4CJfiOIhtWFBcQF7hGtT7Bz5DcdGAR42K.Z1hyu0b00qytYhITddMErBEuUk7yUuz6IYMFKEHdE.mLxBS0fcB2OSvDnPi9RTBdpwx.zX5HNVcJjurCQZWWNaV77xrwPPf19BcevjYOQRzxRldN1pWAl6cBlBydzrwfJDjA73HgKRHYmA_2YVwnFQOD.Pt3ECa7coQNDlLhoyymkqpyeQQszqc5kCByEyHNt5j1EiV5neOWlqc39iqUGamCXPuY83YYGHMcBXoFQZC1yQNfuA7PEwNRp5QY5_D0giIhE1KY76bYCZZMpEZkfEpCuXsHFcEIe7UMO46EfRSZyoQIZqdILVe5eFQTZO4vZ88zXUV.CU_e506rUtTrKSPWufYZ43xKs79Cd1GqyVv2U20hP2F2cEwz4GXS59FXGyNmhQhBPdaotSAG3xgWjX7GLuIfWgTaP9b2K_J81Mc.NVVGNSqQuwUqoAv5C5QmetaKEkKPv8j465m6BkUByeyP1agPZOhubnXn.1wWTCPBF23dsGRanivn66kOS0W18slrshrTM2vUqZ7PDWIYQes8R7C2YaLzJA7tGDHiXXfTtuDnQKw.R8IKkZsNDhj4urPbN2PHxcENWh.g_UB6TsvKharOD8IWj9utv1JVgfAXpZJQ2EtNFkOwAQbBTE1Q62C8xOC5NFRu8pPY_Tc7hRJODjPv1vDtyocNrIKUoElCyYyNcTYJTg11dDfs2Gs7iXekrtpahRbXLhzxlCUpIe4kKPZzL4fAyqVFZPHBrSqYGs0NN5fBYVOMuVtdzHktquaj3tVeflurVbxzhNZj7R4G84Ff_7_ICFSg0gcDMG7rBYcPFnQg2HX9T1kxMqUT7qprPHV1pLrc7zqExChuyaaKIXcXt9e4846iPyD5ZsjNqSSDO8baicLu_xvQK6izyAw78yTntagdXmdGM5fkNjq2ICHzvPtB7zvQMPG9c5mC6mFDA_SyduWqIOF3OKwxGr6qXX2Saa3sxZDW8vIczYjlA4oYsb9SmrBy07JNaSJKAvjAgU1sK4oM7uT8KizPFA",mdrd: "oO4xDbdKSAUERk9XP7fbiPMT5GHj01bXRK54YskHqNQ-1748648423-1.2.1.1-tFEHBCv1jtLsyNqrAc2iZrzL95AycMi9NCCNhMfczd2nIYCmTXV728m7ilG61tyHjiM3EFD.rpmFLbQDKpEMB5m4uh.IJ88js2v_j_cP_OjjNFEzTVQBqIMXL8AXLKmoTstJtyUOqzPWOKCrUgy0_y4it4TChQYc8DYk61slgGSFJfkxI_W6.ry_txYMSsySGYfiokV8r0bElfMQa3cJDmxgDiUmvXMNv4ouBpeYTLn3YF9ggh14xR0JuaXI6vswQz.AbaPfEV8lbeaZCa1zGk0r.jQKxwMlu.Da7LjKvqgiD_usxQCjcTZtb7RAYQUPY9UIWKRms.vT9lMSiga83Uj4XM5mJp6qAVZxouHTD0GpeeQgcrmr8cIgEILgDDdVo8hLiinwyhToEp.fMXKOttTu_t06ft9s55QQNvuFbnWNFrekd2Xi2gLHiTqEZvspV0C8NiQkbA.hKQldAGGW0mv3tfeg6kuNn_4XbxZiB_h8j_T9gyxFylDU20QnVORLe6JjRD9Y4TdWPohqakk9a5N9OTRPZAZHFmfmFPx09hZYc6iayoFIlWgIeNb94XoIkLX0OEZnGPwcnNx_mM.sDxB9powS9Sy434eJ6tBXm1NIYzLElhpgSa3Bexnc.efnSuEK2XhaOQdtLTkCJlOFiT_5OYHQOuq.ZklFw5WzeJBqqdKp4tj_syX_OhCL06eH8QTiY25mBwM_rARthYn2I6RZBTV5DcTYRY4.Tby5KLkOlgXxioTwhGVuLEj_cqbLXvJ0mO1RO12IWn7Rw07r2wqJHMwik0fywn493sZS6hHlx_.WFL0C2Ka.Fmvna2eA3yfFE_zf36vwhSeh9s6.g.v6bDmd_e02V1Pgl6bIZ9WrZy9BeTFDW_JVHt6lvxwkfEzPzVXK3cGFkTQJC.PJpPxYq2F7WV41_1wuuSFYPmLV7UNYZB.2DSHjYsY_yFqWp.4HdOZCjpZa7C1VehvVqKXF0phkabe7aYKUQ01W_tcUK4LCNiOE2dG_nPOa7DMSwe9DyheCYPn.bM9XLa6Z1EvcZbiO4VtB_R9aIUT8_hwCUaC.YCG9qq._mPrFW.GNEtQejNlLFa6gP0UkPjV60JWmvaxvmQAveIXEBIQiw2r4oB3wMHhLx816BC5yXOejrxpa150MS6M9YaXfSVcuwsLt3p8usvXxzUQXS2amyOOCiQzjK4EQlOEgEtkgINDuLkGbCZ0LDC0ehPcUUpZY.gK6BKv7xQVpQRnyuLNWwRfejEy7Gs4caCuqwfkOg4GH6i7dy6fK1kjOG6_u9wEDejAIPGOvS26JGRGY.TRwJk7pUYEj9VbJ90yecXUImMmEkitQXqGCdJk0Kq7tmatD7ShRLy3ZSOAUyo_FnOH0U8TTwgM.rYjVN7l5W5RbAomMzpWIfmEMIoVSyA2c0O8h8i60W1aKoHBiTqupfIyDp7K9GIZbwpk_ClEKHGrPo0byCE86Sc3Onc1JKodGRMWLIWs6eyN5_WS4ScquRJBCZS.BDaWxt5jgjKEIVX2ti7FyDKJEXYm7_Kc6ztStgimO6QxLGXzVV6tq7cdgbQ3CDeAWuLRvWnDVP_HkJnftgH8vtKOgXpk4IK8hGRxoxFHnHeLp6aD9Y4g4S0AG83k3WbF1TiKfkyVDmSzHuIjhtfEhFlW5oXrXkCnWxZWwk9kKAkhu4Ks.qoBPB86hOsKAZ_F0lD90y2VqgLY0n13QL.wNVVogMe5s_j1wFa8FZwxW1L9KqVU6xDtftqn8cPEwDEj2x0J09krMD8FWGLn2JNb.dTdQ1JwQZJ8cf7rQt.bOGQiC9X7CeUvfhmxaUNTE6yMSTHN6sIwYAqC0_KBmJoPOEVS9aRC5LpCBDk0_g8yDhzeW.mFrhNetHs4QcAKP.na5H._ILv5LZMwD6StACqnCwTJpwWKFDYV36OxXf.Wu92f_6tCQpWOagY8nz0GMmW7.ie9g.xfJ.4sHNUQoBCLH0q8TfkQ07ufOBy40pb_Ov9.znJ19bVR57cjl0DxI9ONFaxs8o0bYPvAsB6xHjkahW6w6QD6T5k3HNPxcW6XRY4raeBI9Ivbr2D.Gkyce4rmyPTAe1ysgxgbzFgq2rxBXge52NNAMF4tD6Wtl5MN8ir9PJoNM07S40wgqa_pnL15xmWjsBaCBh9U_l3Wz0GDJyz8tOLaz9aimesVcaroDDAlDX1r1YrPsJBiNbse8eQuofNGfxz_g9Y_uXGq7AhDPBjzHKOtjOy9Dgkf3YsczIytvKHaiauu8ZZVzQWc.dY_B4pk8AxlTO33S6JuV6f3rPpWR8cV90sSp52mvLg4WUyzDACdKjI8EgQkFDRC2uErucv1L2jWAToass1VYatS9G0OPWjF0hipqOgzIFyhy12PLQYKjxBdRkUkBwP0g5D43KSPcTW_PYsXm_68XyqtESFL.rJcnehzwjTGg_ERu.OAqpfuqj82yk0XI4fCx8xhJijwC9zI09Y7IsxTbjl.v51Oj4uzhVSXMBIQG2f3nHw3IJlsaxU7pqb9eUarOTCWC0xBk7zryGLBRTbK9zo6Vnx2U5i80UTqWUWv7d8ydqeqIE_kcAm9NT3Dr63mfwdj6FCiTNok52fUk0N9HQ9jqUoMbcvSX1M2Aq5ZYlohTq1cWrnvzAkOS4sJOI3mMVZW3wTzRCFh1UtNluZkKBVt_p_.0mhWUDS5xvnEvPWwh0UqZHQZ7TGIZEoopdh2rfK9xbXbby1lSgp3bXUpHI_P6pZWNQ3Bdxx6mOFj98YTQmjy.wg45XIlUTqqo4iHUmnJbq_SeDgH1hJEbZAKBXYdmlP.VRXrLsuI7_aF_EaTRxt53RyAnikQI0GbnnIH35mdMaoGIA2_Kxid4Q4ESZ1jGjFI3kEWtDWvyJUug5ab6lelT9G8eEsYq6gRmIpv80Ck"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=948213856c8c6b77';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/book\\/59985\\/chapter\\/513443701?__cf_chl_rt_tk=peb0NqIULghatWz0XisnH6nzKs4WiutiyAlNir2ZEaI-1748648423-1.0.1.1-EnJxNPP5Uk0sP6siYXZcheSYK9w0IQ.z7bG8e71.6Xw" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Fri, 30 May 2025 23:05:35 GMT',
+  date: 'Fri, 30 May 2025 23:40:23 GMT',
   'content-type': 'text/html; charset=UTF-8',
   'transfer-encoding': 'chunked',
   connection: 'close',
@@ -942,17 +1054,17 @@ Headers: Object [AxiosHeaders] {
   'origin-agent-cluster': '?1',
   'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
   'referrer-policy': 'same-origin',
-  'server-timing': 'chlray;desc="9481e08e9a7ec5ca"',
+  'server-timing': 'chlray;desc="948213856c8c6b77"',
   'x-content-type-options': 'nosniff',
   'x-frame-options': 'SAMEORIGIN',
   'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
   expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
   'set-cookie': [
-    '__cf_bm=aiYwKK.WU5mvabRAkyTFDRZ4lE8STawZNdq8zirfLHE-1748646335-1.0.1.1-E0NIriLZ15GEj2eRiuwvbNevjxlNBgSqtGTv3PIj0CYWS7KjArvDqrw3pCjrlNJAlEVaQw_aOc0NvdVKwfUvX5cu8HoE.RzQdWfFM7HEGt0; path=/; expires=Fri, 30-May-25 23:35:35 GMT; domain=.academic.oup.com; HttpOnly; Secure; SameSite=None'
+    '__cf_bm=MHroLyoMPWgR2eGt3Lwieci9_J3ZZKR_3.VUkclLoSE-1748648423-1.0.1.1-xtYXPr9Z67O3HWhzwRey5uWLKQo0M_WeZXO9Jax44PYS0aXWi4N1XVM.NGpgITetkko6.44VYiOlevUWNDliTct9IpXrN1Aokn9XwnVeMEo; path=/; expires=Sat, 31-May-25 00:10:23 GMT; domain=.academic.oup.com; HttpOnly; Secure; SameSite=None'
   ],
   vary: 'Accept-Encoding',
   server: 'cloudflare',
-  'cf-ray': '9481e08e9a7ec5ca-ORD'
+  'cf-ray': '948213856c8c6b77-DFW'
 }
 Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (original: https://doi.org/10.1093/9780197761373.003.0005): AxiosError: Request failed with status code 403
     at settle (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/settle.js:19:12)
@@ -967,9 +1079,9 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
     at async file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:621:37
     at async Promise.all (index 7)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1049:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9) {
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1050:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1194:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1239:9) {
   code: 'ERR_BAD_REQUEST',
   config: {
     transitional: {
@@ -1073,22 +1185,22 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       [Symbol(res)]: null,
       [Symbol(verified)]: true,
       [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: 3210,
+      [Symbol(async_id_symbol)]: 3522,
       [Symbol(kHandle)]: null,
       [Symbol(lastWriteQueueSize)]: 0,
       [Symbol(timeout)]: Timeout {
         _idleTimeout: -1,
         _idlePrev: null,
         _idleNext: null,
-        _idleStart: 25079,
+        _idleStart: 22473,
         _onTimeout: null,
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: true,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 3219,
-        [Symbol(triggerId)]: 3214
+        [Symbol(asyncId)]: 3531,
+        [Symbol(triggerId)]: 3526
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1098,7 +1210,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       [Symbol(kSetNoDelay)]: false,
       [Symbol(kSetKeepAlive)]: true,
       [Symbol(kSetKeepAliveInitialDelay)]: 60,
-      [Symbol(kBytesRead)]: 7046,
+      [Symbol(kBytesRead)]: 7047,
       [Symbol(kBytesWritten)]: 312,
       [Symbol(connect-options)]: [Object]
     },
@@ -1119,7 +1231,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       protocol: 'https:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
+      sockets: [Object: null prototype],
       freeSockets: [Object: null prototype] {},
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1127,7 +1239,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 0,
+      totalSocketCount: 1,
       maxCachedSessions: 100,
       _sessionCache: [Object],
       [Symbol(shapeMode)]: false,
@@ -1220,7 +1332,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Fri, 30 May 2025 23:05:36 GMT',
+      date: 'Fri, 30 May 2025 23:40:23 GMT',
       'content-type': 'text/html; charset=UTF-8',
       'transfer-encoding': 'chunked',
       connection: 'close',
@@ -1233,7 +1345,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       'origin-agent-cluster': '?1',
       'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
       'referrer-policy': 'same-origin',
-      'server-timing': 'chlray;desc="9481e091195122c7"',
+      'server-timing': 'chlray;desc="94821387195235a2"',
       'x-content-type-options': 'nosniff',
       'x-frame-options': 'SAMEORIGIN',
       'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
@@ -1241,7 +1353,7 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       'set-cookie': [Array],
       vary: 'Accept-Encoding',
       server: 'cloudflare',
-      'cf-ray': '9481e091195122c7-ORD'
+      'cf-ray': '94821387195235a2-DFW'
     },
     config: {
       transitional: [Object],
@@ -1326,13 +1438,13 @@ Error scraping abstract from https://doi.org/10.1093/9780197761373.003.0005 (ori
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "academic.oup.com",cType: 'managed',cRay: '9481e091195122c7',cH: 'r8u4b.n4XkTuOo0hbmgtpd42FjthebaFT6Ue8zV0i4M-1748646336-1.2.1.1-8fq09RbZO3ItPiJj2wWQaVKl3dm82ieDQeJo9vDbh2HYm752DM7iMNfwmZyntgMM',cUPMDTk: "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_tk=LXailg6kisIgA6e7aDizHB3T2qQhnImFsY3WDJ.jQGE-1748646336-1.0.1.1-ANg1e49jIr5m_L8GoHH1Gt6cLuZxW2wjEs7PV8eLZDY",cFPWv: 'g',cITimeS: '1748646336',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_f_tk=LXailg6kisIgA6e7aDizHB3T2qQhnImFsY3WDJ.jQGE-1748646336-1.0.1.1-ANg1e49jIr5m_L8GoHH1Gt6cLuZxW2wjEs7PV8eLZDY",md: "6O7jjJ9KiXVx7HH2a7tUr8oEsmKYmaZux366XjHmsFw-1748646336-1.2.1.1-75oCebG9KnJEauyerQU9Alz3WPLp5uuCydW15N8mE.Oaulc9UZRl5MY8RF8x6NtSKIUWAzsENbVn6NubUFIk3O.PFG4dXTy0j_uxsd_2ec2b7axpKPlIMMYa3sdoM28np.tAAUG_mNJU53j.ZQSdzZ6kByGSsEvcrkRMdZeiPM_sE_O1DAlq271oX0eFJ4tgcY9jysxW5Qo_FBDUfXm_.X5rR_dvohP.LYh6IgKF9am4Sel2H1if4CstEZ_JSEg9V.nHwtD966BxdC4U4mmk8JIvHfHowKSb3QRYqGTFH89hH3SFB3Qyg.Qvv61gcADkAf1WLZVNSUMq3204hn50mgJnRvONeIpEb2UIFnrv.j2eFDZippHkzIkU73X9wijMqbO5IJCq8FyLC9v5FX1fkaBIoD.cj2JBEYcaHPxPehfKHazL.2lPc_8xCdAMAj3vfPUWTdNz2HJornGekveOse8OchaqxIfBocJ_czUUDKWbe99vJAaoGWhw4ZKqGXITasAHjXSLMWxQd4LInSI49uFLWEEmidPh.mTgsrUYieGTgAIc8TF7PrFSvSGvvg_GPWFcQ5sS5yqm9bVO_gQsEFf_bX3PA8rUfwGkR1EQwLsNDFu3OU0CrfvMlXb4Bt0naGVovnjIy92.FLxvTv8AyD_xTaAiONJB08bNtk.7Xj8N.Aw9HJCXXDSV1nWb5hTvmm08o_Vm6fEYzQz.fpkWsI4HNIx8Q3eF1uoB244xF8paZjU8nmScQ20bI355cRUt16JrNZRDANbOizK2MQdP54gT2GETLGwqMvv4zJ71z_mS51f21gjsoLld3CFR4dR4fVzSnk03fmpUskc28Q9jnz5WxFg.9YqGpGfoJe29fuzX_KLNjRzpwj._bmYSYkat7tKIPoAKhmwOlHtthdhZ1qFCSFfA_xOjg8vaQgCBQlW9E1Zp_to0lK6KbB.leGU7Abd87KbQ9DzkWAyQKVU8m_IveKvHZvpEpcoya3sclMVIZlz0_FGe7STohHLfFi_sE6SDZ4n6EnLbXB49njY7vUljctqjFyPgnNZDWoca8x1ARCjt5OA8eCKVKA8rIw1r2ShuqFf5pujhYKv2Srgs.g",mdrd: "92.VoBdp55PNY2at9O8xpTc.IqSorGKmJWoBrkuTwYY-1748646336-1.2.1.1-zU4xqsaZ5tvCrDedmfJbZCvVQLexz._q_4MjDBfJPTxiLwY2axmMEaMdXXz8bVrjWp0VrYMst7n5OL08F1b.EL4ytly5Ww04EJHFKs5gpOU2hA6CA0uOEdgWpI19USPRdy22xknG5i.JiVNBYdS2d4gCVyZk0BfXrQzab08A4IWAy8UMJoq6wJv38Pgp6BFNf0pMQTby74yCCnunYcjy7Rly1hbGP0eSSqo3_IGG6TAvNdDihFTkGd0R37GTLPnY4SNRUp1Za__Fmk.85dJ2K2bR1cvdyBrGBt0NAn9BO.9kqVq0zltoOMvtYIZoOXy7OmWiQdTTXBOJ5aV03nsWmW4SteGqvr48mi_svg5mn1u5DIOhBPxcQWyWvtd6zmlN10n7U7_jEm3oRTxxF_sXZEE5r2yMMB6ujLict1HM7U.feMob.iKCX8jlCUAFDmtSyC.Vn7mKpCPRZXf7DLlzx6BzSSbDTgXRKQNPfNkPXONtuBTPLRpjFu4S.H1YhCTD8JFeF7cXm3nPS_7_MUTPYW1.6YBiK10D2m0puw5vMCCY9NckWNSDc20vlQanrwwNQCooV5H2sxvElpYUmlgru7BQkpmz1DbBwJVTwailnRQDadVJMXFwbwrWIwgpodYUIt7aOSj7T3cpg9TnIIlD_WnAXUEV6OQWkOnv.BtNRieDH30bR0iu2CLqy0L1.fQ1qTpeEDmOicSF_kGMZKRe7PcRo0BVsPNOqKqqFC_cQ9PtU8R4VNUbs_BuNM3.5jcpCtUv39ggZUbtqesBQkHGukahdifTmZnzTRxI.Bp3utwqWFsBuY6b0k_dzeredxtQWJhMP3nqX64ZRFpzL8ceEs_ZoideQ2qhk..DKpRkmM1m_Z7YbAAsik43e9rhYrhiU3IvQhVPWQGt7vXYjNHYu6OopvOuAUkp.aNS4QR_2SnPJHUYmh.1Sw0XwrZJ4_McH_S6TMrFkyW_EIQGFMcAmt1_XdyomLr78t30MybeGoma5WSd4gu43kNJvZVryvdzE5TkPhGoq5jgpMuKbBvY1cKqjg8bP9pgZjexHiBFFijJLKh4ovEsBfMEcG0lHVIAcov0OdHIOSqizkxjONxrKMxCwtYaGIKGWwKF9Xw7p0UhNEuxeYXExRDXZH7Tcbr7CtaIXYRCv5zV3sQ7NJ5W8u0_CdW3TulW9rIPWASUt1mz3Y9zgBY3.Np4x5XDRczgNe9LFEysZ_NtUOi2T2r3sFFj7S3MaOWGOs.z5CuoFh1VamlMylqnTYR8hHgcIVRGA6uz71Kg6XfB2q.RAkkfSYD41lF_Te.dNG8OjkDK7Czl_CEkCQ2mA9dQYOOwQefC6tMMBkisZiLYQ3FwiiYZvwGKTQTJO4kFf9X1n0psN8DoQcnYvivmLdpQ37SyPW5r7sHI72CUvg9dUDk4TKxeEFCDmOSAhCbnLXqwIUNx3.9gEwN309oxCQj3v4rU6ZOUJTeU0PffxLWbKx9TiLzcRSt20xSnqFopDeBh8nMqHUvU9ljqK.stCcN5ZeDZ553nFUxEaGmePQTVlj_t.shVnvc0sB4DJOrnSK9ue..mzT8hkDEVNL6mV3VbX9t0jmTqhALIQwT31EJtvZsEWgJJjhHOrcdGldq5cH3F.o_IyPKsZLb8Z7cMmgq.W_QSjku8cKrp6NTjEqZ0ESFjsxU9OhKgBVY24v4xhxixFWbUOlZcBvqmYi.SZ2rpuxOVKg2_UsU3KJ9CcNLMTPPLzGq8zBWl46gwLSd9uSeVRpgzcEET5lbQY0kDlblCBNGig_XoH0HHc8zH1sYE3gT3Ehz19OJef999bIpqCOdoTzFal4wgK3Ii8VMnV.0QNWlba1hGnDHMHlpAltsNZWrnmtFjHGwhA5e_q908l1H_afNxGGpAm8xWlRdLJrhe3lJ0QN21tHBQ9.VeSXExpYgXz2UqJ_L.XM9.XsUxCgOSPGopjZgCsfzfPxs0_3FymYQTFl9qz6UGf3sC0jeQ.ntu.DiT86rKA_mb6GSk2vPGndJJQBS7AE1.wRRy1Btrym0ivFwhqUIBfDdXIb7ekIHOVdsQI4wyPj2EVgBawBJhQNSiPomV5xhbWDGwViw0ECcD769xV0FYr9HK3UcUIm0sQjIu8n8E7Q4_N4AC7EtEuFn6ECsl5kabJs3KFRSs5X2BSspyIWiysJTFLbpuBt_bwXT5IiyEOfVm5euCMvnX8L4fVtg4dYnU.nLVWKW..FZZuqNru7jjImb.tp8nLUnAq7Iofzs8BW9VAoTZ9ZHa.jYoPdmFPBYU5DnIu0hyoZeCXOp5KCp.OJgvA2vzc81J2xhtL1_7QAMg9jE7tOf7rVuZb7E9.YWJqjGaJpqC9zE23JqST0EJvQANOpWPoPxca.nxWOi3vz2HrYzzrZFn5rzliotW7HqdMKRkXeqZTneXGfnW9rnMarJWW6hXxsRP7nHBQ03tF1T.6IiEzXXg3YZfGue6tEZmMh97N9C_jJYAwhdxOYilxpN.KhtWQ1xaAeoBHzxRYLHmRrl10lOU2XufumQNOQIWReun0T6f9HMRLQ4ttgPL8JpvNoFIjgBGh46jDgm1ZpjHUriHWe1uUGSsyZ77iOw.QTta.RHmf6Ha77.n7f_7Fv.8fMEmkPzNew7.hAGb8fDz_ryU0NPax8msJJKJMuZeuJIVHDZxClEtkm0d0IuM7SbCmTUu0IPN3AcWaC9JTg885GMCNho.KV38d0CSaJf57ukD4W9rAaU5EF0fgmZZyTZHz0j9iQeZScmrKlMuDXLL3udf49_FxScsPFG09N.3OBPKuH_JELDTM.5FxafdiO7OtM9IEkquKxWAlIqTjCTrK.1LFYr75ov8U49TD6cFadVXCUgrPkTSJ4dy3w9KtlPZfR6ejKib89xxnQ"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9481e091195122c7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_rt_tk=LXailg6kisIgA6e7aDizHB3T2qQhnImFsY3WDJ.jQGE-1748646336-1.0.1.1-ANg1e49jIr5m_L8GoHH1Gt6cLuZxW2wjEs7PV8eLZDY" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
+    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "academic.oup.com",cType: 'managed',cRay: '94821387195235a2',cH: 'eh4N7vfY_sG6plLQDDXWZef8OlzH6Eaf4c8rP4sCWIE-1748648423-1.2.1.1-3YlLi8AaJ7FpINrs6BGq3z95ZEEdnk2hzWmNFi4EdcGZBpCKsLV6Oca03dVelNCa',cUPMDTk: "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_tk=iVKH6Hiu26Gqzu2HRyAQkcr6Z8yRqInlaFlxY8kKEas-1748648423-1.0.1.1-jYjpyZxXRWH0VwBxGCCwBw9anhBEi8FWmyXGIcype00",cFPWv: 'g',cITimeS: '1748648423',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_f_tk=iVKH6Hiu26Gqzu2HRyAQkcr6Z8yRqInlaFlxY8kKEas-1748648423-1.0.1.1-jYjpyZxXRWH0VwBxGCCwBw9anhBEi8FWmyXGIcype00",md: "w04tjmo8dzlv2qKnjEw64RvLQy8WU6lh.6GBSJD4F4k-1748648423-1.2.1.1-BcLjKANJ5tkj5j0kDEHi1W6uqFgbglBAcNSTc_JL5YjurltdKoAfv_LEXagQE2iWdTBVKyNewOjZnJBc9_0hMBm7Q6HMwZBwevPW62YGC_2lQnW7b2NjPITks5xyWSxEmEkQ0hyf72BrQaA6TNQUO2opFl5a1nezWt6wDSFr_ebx69pBOnq7gSr2o_8iFMTiPp1VIu.MgBxZNh1gBC.87fo8QoBA7Ijf7SEB9OKQG.qzLmytfnaZxmM008mRYchENACWUVovQWjK3cO8ZgGRCiYnxSbT15D5Vlb3Y6GLO0WqaMN6K9WqgAHDIl4tBvV6t36FI9OfP1ysCe22t3VNFwWGwWCUcfnPHS.SmAnvr7M1nvz0QyRstIiC8hpjuc9rgwrrKeV4keWaPKRnnYtujSioHC9u56HaBNTH77cq1yr4yDLUmsEis2rQlDBTM2M5698s7LftaxABEAwsCY3iK8Q7tIbSQ1Xp.EGB8JK5Q0BBA8IbWF2rAbvr5pE0wFLs2P2EfqRLw.zSGn0HnGCDCdV0k5ZIYuJZKweKrf0Hd45.zQ.5YyxiYKJDdT56.COH1Mt.iRe3VxRx6Q5ucM3ICRJNZUPRDTo6YtobiDyjIyHJKJWw5wTTYSrAbg2SkB5OeeEsmT4hxeqFYnwTmE8oAsT6OoSi7SFdI.v8VZZwmjsCx52SxnvrzqLR2MDPVAV.bmtRi9Mbuya7GTBaEOR6dVFQ1eUj_1Zf7GuEHHYmN0sQh9FSghVyzUluE2iCB7kxrcvEAmW6Guv8cDo6AZXZSSphIJu10_kUj_0nEZYKYBHBiCD_NIuWNLdLT0as_r9tK43LhNRXba6DQIU9cyjd438ucamNsvQbgsmbBK1LohufgphaOEeKqKu7QY8b_kjoviDVs6SAu5gXEx.WZC6mz4RFr7NIpnVVpLDr87UQACy8YiDjjBRSmT9tYgEDiPun0lAHZpPLASZMWK2I_su4t.b9cwEkFw0kwv3Ubdz0s68ij.WLylcJnqLOxACfSz2RD1oxTAxuIF.hp4Iu76p5gSvzU3hpHLQOr8t.uaD06DJ3jh_ZdXyjD6W5PgNSIXr0KEGqLr0kL5OSku6w0eWb9A",mdrd: "PdsYax.mSBOwp2H4Q3NRopaXsF5EmhnERhZD97hTQ8I-1748648423-1.2.1.1-J7L0kasqc1y34M5JKLmFh9KdTnQp6HEG.NrsQcZspk4Yw1Ec.YWtHrPVNSAbxyiEGIBH1m1icAB4OKprim8PIBUvgnTJYyMmGZ_PYsoU0a.vfVrIukUWC_BD9mKCJyvibrJaXBj5zmtNLe2nnijBd7.dE6Ya_yNfyR4b3MVW4G6DBCTH.IIvpv8b.sib6eUF34M5vF8AcHOJHLj7rFQRkdlPmvg8pMJapDPWJ26pTL4vwvoOpIq00l_zCg7.uZ9OCB8DRcB1_bTmW0G.sh_N_iGsoLHO7TgjeAxvDM8MyVFzjTQZgcw3CJgZjpoT5o1.tXkqDhyoyHmw8rA_RasvGvHvf_0iYck_hIw8Xyd4aEjpw4hvQ_pDHtB64L35Tkm.2LOnCUVeJyAbvzMQneNbDqKg_qqwxKpCVLm.maGvny2CJ.Bp3mnqYGVIN_4aGT8P3vpDeKpH8eaobzX4vAAL1Lczxef63daxsCPK8hja.UwvK5R2tRUP0LFaXlq8a.f_A4e_6pXlbgM15Telx.03GUO8.hNsFkx4KYyzpqFNyunpfOOg2mzAPMJIEAbdQxT1R5791U0cP1mOfpypX7TcnGyYLI9C7Bna7H3k8yz7bRTVJC8TiAtr.iYajnpcDzU0zRFQpxSbxHfAo.0ZJrBeQdgGb8vPtfygoPB0sJNZp6WwnlRJoG_M.DvsfDeo6NpHVz5NHyIOlut7DxpMWcVyi9Z4yAdXhFHKLmtySPf1xhSZwRo0U22dFMl_.biaPvzV6eOeajIQO9U8RYM5bgrHau99TQ78dGcKyJhvvwuynmPlWBJfXFhGPNnJY7Mq6PkGdR9Qnvlyg9dgXB6Cvmmwbp0tkgu7izokPVp.p.hQ.y6q6iyQhpmW2UN2I9EfEuLIkJUpLFjtSw5Kf_jq73L3OWAKv2EBapiQPJVdvzszW9MzgP0lQuUPokRJgG4hctcZH7ZyXyZcyIC4DTLMkxyPoSQORN8lUMNWZX8ulaaCov7w2.3XKEDPINvPNqcZoUhUGAA4RDGL0B5003_BErwzAi.bm_XgdQy336ZOM_te_tC6xIY80Rrnaq0fZW8dIih_pdNXe_zQF6lIlb8szycsLoahuo2M_8AY3oy3SVsmU8lj4y6Z.jY6Esj_9GvyAG0F6.gRwz2x0wGLsl3cBqVBPf3bO.iLDWh1VLzmjRIfmiHqPCiFRbR.Fi7POAgDyy5_8I4pjyZzB2kd8dJrZzD5KTkkflDBIdiNEKbs5rImZDddE4k1WID50CbRsZ5B7EFjpmT5O58yMC1Ks5f.Rg6UGST.4rNS.oCQ15zH1pbVxlXs1e86ETwdWAg1Jnrz7eXBft32IPOHTfgPMIkjMaCk8j3oXRXac7iz8QvtZOpARGCyc1wedWYW.3_YJ4FrYgCsZwv874izJf_wCcVMIYfhr2B7KtCd2zv8RPkdGNWgUfsXCj7QLup1HKHQVpt_mCwQpt8FRwQVQXfKfCqjMcBsc8.NGxmOFuEQW.jptorUucVIZqEe0.Q.z9jxZMbSnyTY1Z_e2Vr713qb4me3Cl3oqQpxwTla4SUQGTSRfT8f557CN9cqFxvqCE53Ls6R7hKaJE.tBpIU1wABUATDjtX3kHiAL4ggT2zjWbeIMni8LBaeieWCpVkueAZGnX1JOB.uqT4B_yfA4LRf7h_jff7_7iA5j5SG._EpRCyl.fI7R0.RQcj6l9U1dxQE9q4.dmlv4rbLmWhG0zP4UgEF_MwbC_ollli4Gy9woLaydPueu5L4lDAmPCny55cyqUjeCrjjnUky25e3.dpKwRrDGrKh8TV5H_Btne10NZMAorraP5.r.Tc318UMDNXg47Hk7XHfWDEtzXqARs9JwEWZPJRZy_FhynVkKig9H2sB.x7Iy9n85x5cWZWPgvC_kb2QRuvVMEiSpOk6CsPgm1W805K_41.le1CF0kKcZxIj6GuqdsepN6dkts2AAyh9NMZdq3lG29GqJPkivd3zbd0OyerlXm.Zhg1HnwytjCwuabfUz2_._Di155qeHKCCBbar2a15as0FVuRrPF3dvwn.gCS2LmdYWSe6UNXVWPPYaHqAsxfzQJqdlvL6r4Qb7CaL9ikCJzqe0yohR5AQ_x7TNdnBdZuYZY8hcgiFe._JxXwU1wRdRm03CmwXY2dTaFiqpzr.AZpSgp1mgbF4gkOYF0_Mkaud722CxYTPTMD2FYaBrT.cqxBfNj7ShfOs2JAY1gKklyB4n5B6qmiK2OKL0zTAHwW3RWkwcM2oj0ISKEN_2CTrbdQ9rtQW20C1ISseSfVPUODIgcABdDG716fG4jmRkkiHUhEMF9mdNMZK_k_JUUOgLaCow7cDbVsGoFeRwR2TwjlB_co48lTlYM7QXcC6L8Y6VTPco3nuVBknydCNJz6bKEUUOsxYQ6wq22o7m_kdqQ7mQe665vpHY48WtuCxWIDyV5uAvirYpCPvWX3ByTOcFeAr5L7pBQIgjN2XL1HINRBY4GvPfHe64X_sTDOhh1WmLzYJ5tAHqmM1QNSbt0KW3Y30U3vjRxIcay8tYvzRrJGki4Li1ypB_s6YCKducZIzxW9AnotlaKZo8PhMuGVGfSYRhDhbO5gbxauvasaG_IhRky8WYYnd_ikKmgdl_2s8SvGPWgqo2oRIkxL11dw9FnvjE1gmV4U5xstL4xYxw1Q1rboi5w07zu2TuOneIpx56AjIt7qeMFKjd6TyUoH7oyZ6TicemycH8cUNEOnCtQwuE5vWCJUgXWpSrQ8B.ikNnqqVSBeM6XDCt0PV0apdvVxBp.CwwKhWSl7X1QrYM5jBApyyrRmWGLjeTxJMeP5W1xlFDWqAxG8ChKqaB.vQfO_2kuyDRFlz.V4jmau5tDOjTADx01G_NoHiqCcQGA"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=94821387195235a2';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/book\\/59985\\/chapter\\/513443893?__cf_chl_rt_tk=iVKH6Hiu26Gqzu2HRyAQkcr6Z8yRqInlaFlxY8kKEas-1748648423-1.0.1.1-jYjpyZxXRWH0VwBxGCCwBw9anhBEi8FWmyXGIcype00" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Fri, 30 May 2025 23:05:36 GMT',
+  date: 'Fri, 30 May 2025 23:40:23 GMT',
   'content-type': 'text/html; charset=UTF-8',
   'transfer-encoding': 'chunked',
   connection: 'close',
@@ -1345,17 +1457,17 @@ Headers: Object [AxiosHeaders] {
   'origin-agent-cluster': '?1',
   'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
   'referrer-policy': 'same-origin',
-  'server-timing': 'chlray;desc="9481e091195122c7"',
+  'server-timing': 'chlray;desc="94821387195235a2"',
   'x-content-type-options': 'nosniff',
   'x-frame-options': 'SAMEORIGIN',
   'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
   expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
   'set-cookie': [
-    '__cf_bm=6zgD.eVi1K.I0OQfmpx6vf2eEcTgk1FUmmEBu29UDSM-1748646336-1.0.1.1-9qKg65ft3kWROAYt3OI__ORcp5ibkutUW0ZwHSKEXiS9Sy_UWKK4dUld35T6YfgXLj2ojyEj6P3CjuOWEBSXHLCZzrgivi4ozPD686VxjS8; path=/; expires=Fri, 30-May-25 23:35:36 GMT; domain=.academic.oup.com; HttpOnly; Secure; SameSite=None'
+    '__cf_bm=aUNbG5NU5DnxeoCrBMfQWa4e8RzCjmPWW7d9NxjFUFs-1748648423-1.0.1.1-fBybYw5WhdLobpEv.en6osJUsTBiqv8r2nyfp7_q448O5V76mckmmy3mexKniWoFuV5kbPzueogpRwM1B9p8jve14EwKRXZlukBi4sizcxA; path=/; expires=Sat, 31-May-25 00:10:23 GMT; domain=.academic.oup.com; HttpOnly; Secure; SameSite=None'
   ],
   vary: 'Accept-Encoding',
   server: 'cloudflare',
-  'cf-ray': '9481e091195122c7-ORD'
+  'cf-ray': '94821387195235a2-DFW'
 }
 Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320 (original: https://doi.org/10.1200/jco.2025.43.16_suppl.e23320): AxiosError: Request failed with status code 403
     at settle (file:///home/runner/work/paper-catcher/paper-catcher/node_modules/axios/lib/core/settle.js:19:12)
@@ -1370,9 +1482,9 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
     at async file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:621:37
     at async Promise.all (index 9)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1049:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1193:28)
-    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1238:9) {
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1050:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1194:28)
+    at async main (file:///home/runner/work/paper-catcher/paper-catcher/app.mjs:1239:9) {
   code: 'ERR_BAD_REQUEST',
   config: {
     transitional: {
@@ -1476,22 +1588,22 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
       [Symbol(res)]: null,
       [Symbol(verified)]: true,
       [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: 3274,
+      [Symbol(async_id_symbol)]: 3586,
       [Symbol(kHandle)]: null,
       [Symbol(lastWriteQueueSize)]: 0,
       [Symbol(timeout)]: Timeout {
         _idleTimeout: -1,
         _idlePrev: null,
         _idleNext: null,
-        _idleStart: 25436,
+        _idleStart: 22755,
         _onTimeout: null,
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: true,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 3283,
-        [Symbol(triggerId)]: 3278
+        [Symbol(asyncId)]: 3595,
+        [Symbol(triggerId)]: 3590
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1501,7 +1613,7 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
       [Symbol(kSetNoDelay)]: false,
       [Symbol(kSetKeepAlive)]: true,
       [Symbol(kSetKeepAliveInitialDelay)]: 60,
-      [Symbol(kBytesRead)]: 6910,
+      [Symbol(kBytesRead)]: 6950,
       [Symbol(kBytesWritten)]: 319,
       [Symbol(connect-options)]: [Object]
     },
@@ -1623,7 +1735,7 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Fri, 30 May 2025 23:05:36 GMT',
+      date: 'Fri, 30 May 2025 23:40:23 GMT',
       'content-type': 'text/html; charset=UTF-8',
       'transfer-encoding': 'chunked',
       connection: 'close',
@@ -1636,7 +1748,7 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
       'origin-agent-cluster': '?1',
       'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
       'referrer-policy': 'same-origin',
-      'server-timing': 'chlray;desc="9481e0934fbb72e2"',
+      'server-timing': 'chlray;desc="94821388d8d02cae"',
       'x-content-type-options': 'nosniff',
       'x-frame-options': 'SAMEORIGIN',
       'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
@@ -1645,7 +1757,7 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
       vary: 'Accept-Encoding',
       'strict-transport-security': 'max-age=15552000',
       server: 'cloudflare',
-      'cf-ray': '9481e0934fbb72e2-ORD',
+      'cf-ray': '94821388d8d02cae-DFW',
       'alt-svc': 'h3=":443"; ma=86400'
     },
     config: {
@@ -1731,13 +1843,13 @@ Error scraping abstract from https://doi.org/10.1200/jco.2025.43.16_suppl.e23320
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "ascopubs.org",cType: 'managed',cRay: '9481e0934fbb72e2',cH: 'ya_RbccmCMg7CvRzKvdwwblw6hRgPIkW5LKkaO6iiq8-1748646336-1.2.1.1-ec7QNJNGs_hfbd_AYxUAhHIkagLMP6yYA_a7KSMuCtC5S9sVuoV_S8ZgNKoOYpZv',cUPMDTk: "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_tk=EuFdW338Jkhlk4HHn0WxEXSm_o8AmYGMNmGQ1MLgUxY-1748646336-1.0.1.1-Oo9UlmzFmW2MYuY9g9xB0cN4nmxfmj.3iLvCcC7Vn08",cFPWv: 'g',cITimeS: '1748646336',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_f_tk=EuFdW338Jkhlk4HHn0WxEXSm_o8AmYGMNmGQ1MLgUxY-1748646336-1.0.1.1-Oo9UlmzFmW2MYuY9g9xB0cN4nmxfmj.3iLvCcC7Vn08",md: "OUu2HpBr5TlNPA2TCqn6cLd2yI5QMOv5Z8ALH0yehK4-1748646336-1.2.1.1-tVqPqUSKzd4mvBsseYWF05vPiYFXzcSeEy_JrLyNSoyosftKSBZK8b81ebMZrUg89CLXuHmz94ZEe5cE1FgzG0K1y9LX7JNtbXVpsjY3WiBnxNAU5FdmlrtssS3hU4_0784Xp3X7cdh.PJ8lRuKTY3nwI3bftAD8Nom3SYvmS6r6XuIo78tl.zm6cdfo7TEalvoBoGf_T4JsYIFQNDf2XHKUL7BWsBkFgW.7B_qFQh0RqtNPvqzKvALB6xhDN0XT_xrxixskfbNPPfAVfV47DRD66VHdtBt4_iJKbAP1xoPeIgNrFGeoc3N_9otQ7Y61Kse8EZXISywBX5arUDLRyOoP4aXMqMu4O9LyDhK3otnM3ZLyU0wMdC_c7N5OvL1At_SCqEVTRLu0pIk8nQnUyPF_r92zxInVxSc8sETr2zNFuHgDKnVB38Aay6t0U8RbDH78CPovfzKckS8qqK60iBjv6H1bNmmINIE7UeCtRY8jmLiiE9701.kLZhO2S4P9_6ArKW3F_zYDXCJ_bYRdqnKv_my8maQU5.t1nk2FIJCvL45NaKLKgh5lGekISuXpzGeWkwSGgPC3QE0E41L6X2rxgEJlfiLY60riaJOPU8USZe2Glp.MxYGhRM67Nk35fKHQaCrTBZfrOv_dLbu3th2DfbdhSe0dDNxfv7MIip66snR5XHww4httszUXEpxbZ2wu_h_Njmeg8yq0Zl94hSNwX3y194gmZVOjym8X2nLtetmNWEaSMlKh_nTFkeAxGlx4Me6P6w39EL7ofez148NAWP8eGoSMcMumbc0QGtASiKAOkN3EjGC1ZL9ZESA5MSYAat6MjjzcWgr4VK8WZuxc03sEpuzCCYWHpoIemyTCrD42Na2q.ulVCi97IfFW9wd.ee2fpQSELLmAEu0jB9RkBe_H5PtjlNnNukcqqy1vDLVEuvoHfcejN04zTPFOuUrWsWQxXh3PPcTI6cI6ivdnh6tH47X5tVNHRZYm46KOCo__EFnlSF1TkZIrS.9KTGgLPefcYD8Mihd9wMiUyeb.ciZIz_8dwZYZlhRkIP0J0b73.EBEajiHg8I15E21XU6gQsdwQkpsAN3OvEdD.l0mF2KV.be9gUnIbHWusiOS0cw5Wy9RZN6GozPPoPZ9",mdrd: "c5.yS9pfUxeEIq9NUzGo4p3tvtg.I.E8W9wsWoMZ4_0-1748646336-1.2.1.1-BEFQFnflJKKQ7ZIEtlNLa4zMpF_y69UTZfjPVYdFWqk6Kv6uwZpIGdddFDObwwYa5ejW5pznq1Ms0rwMvRNVqG0HSIqJ.cP0K7yZ0h_bjSeyx.XvRacEgiP6mC3gIrtCX4T4KwqDvdQ_6SAjpHBhZzrVEOXbrLudVmsNuaC1GuB44U3OiZ7GizgP4MZVkhbyTsXYVHslkH7OBZPB.qg5NUWI9gp1g8signUppGk2eUH0.5cjYVLkVTiY3wXNOhjSGQhvx5YVKgDTCY14K_.N9LcxnGhvheaetkX84e_YnRgUgQezYSzzs8Oo3L.8bpBTPENAoCL4GMh1RVXHpU0h3TCxI7ddDHC0kjlcUu3FIc1nYmrp1wZ7rbwUsfBHsXNos9O5gPBQ8leBGy68as8PF9YvKtpFH1gOpxQJ1LbStdSPpKbgLbEA3SUW1ozLeD9h4mt3eZ6MJ0PvIqCCDrdqL4doZmKUXQojQ6WUc85jMD4yTcvydWwD6NEgl2Ji5tR5l4JD2hhuUSfBYmE1rEl511OzvVa0Bo9NLWUNenNDWQvaFhPjDincq59uLSWMu4A81pC9jd.NUwy9eCIL0cVDQnRuG2GMrLsR_RHB1cycnZFktDuyen5uVc2O3n624eKfVNp7xQFhmx5oauPsjQ6cSJ8Gla.bgrTp5.67fBKB3.mIAnozWJsV65rDk7a9EcW5_Yk1Ml3PBk2GmgWxMF3YFhzwz6.IUgiAgrrKqqsMgYhqe1FzPYodoPlFpyF1SNqdjQ4uAfZ._ksXBAwPgzPW0OEONz713RO.7vSx_vRfgUd0UhG4c1amnL5q4oDiEyo0GGMW7ceUv_UHuDwTqT10c8Pfghj_Jh_MdnozynOZYmvSEM6OwJx_IngEBV6Yvr41Iz.ZpICG9.LVS8AMofAAlv2owb2ddrA21qcRpzSzasXhwyxwR7Oc9eiU6dDWSJ1IKwjEIbJympEn7.Ap1bTwc8fobNN0pJp2alFElOLrtOv89nJAm7XddUkzKgx_QvERyOysmbhwxEHsMjCUido6b6GrpnRqz4Y33gwyRVQDRjMjbI1GyiN.kQAiJHbfleMyMv6qt3rWiof.8C3NS.DSv0C4zHyVkmAHsU32OgQ_ASuWfbbxvBPBZeaEsgnle1.q2juMQDcpRZX8XGWX9Tk9UM3fabnNf4oBvKL3rTpbyNmk4a8QQxt6gURjfzLIhlwdRfI54WprxD.0ieOWBO.mf_pbOK_xW9lJjwWy0JAM030M5OLkvVvnLYW7zGUwxVk.BdRPqOt2Oh6G13zBOtdiJnCwzwnSl1u3ddODd9yqJRLuMdRgwlFQzFAyMKGXrJ0bTcwNRz4c9Bm_vgQqZ35E6jeJU6bPlMm1AGkl7q8vZgBqXRYojGHqlzix4xvdsdOiWIXcEEsQsRIFi7roTYBlBEXzP7i3CsAtWQwda4dV8FbJUg5H0H4sWik38IOh_WCzSk_KDUpePRpDxavCUM.MblxFH5u81eI3TOc4YldIfpN2R0fe1nlO0L9UGY00pb07IlOejyiXRgGnNBE7GHVUWt2B6wYSjGmugROfzlJ1qukmVUP_UojS4wh8rm1qsxFx2I1K9lVbBwTpKYshoaZnrG.me9hstAjAYTjeD1njfswepUsvP5vaF2pYlY3SNBjbxjEcnfcow03jcSKmoCPHouO0AcMJTIi7dJ4GRPNDL3vSe5V0NahFoZJZhV.vuGjKz_DRIJ53W3pie6u6PiXBMBxzsrXy159AYUqVQJAzYTCEH4ww1PkIeRhTC.Jz0GF10sYKNBL7pU079NxW4jt8rWIkE.e.QarzmQXaryJ6UBf9dLhrM1SOC7U5EA1_d.LUZSLYUEtwPmP2NowGKbEjoUqOcgT.fnNhqiv8k.I.2mn5tl0KFUoIZ054UihWNe2hEIlKXHU8B7U2XrJqq57MIphI2uOu7WiFBJC69GnIoRfn14vFaQNEqyY_BHPfS_247Ez2V1YkEG1Hmgg3AubKMkFsL5jNakCMO7ntiAkwEyBMCUdI5kbdJ3hYfoQFhi8nCFym9tldJMQdtLwHn1Mc7Hc51jTdgizL_x9WIazNKGk.6Ob_2JrYenGqU64764u4jQMOcMx73l.Sh7k4MLQRwtClsGK66Pf.m8clfyuosr18QLzBkg8OmdSIbHP2keixnzTyM.osy7Nrn75Tb.xZeJOFZ.F465luTMUlblF7gHy7Vjag73pvheURUXrgGEFbGurTEf0xeFxm7NK_hqpnzd88V1qEjZOuuBXVUQzgRBUx2FBxImQEJfk.6uT2VmYl7ksJhzOoXoLbkEJeBlUDteBu78YiVPfdr8d7byTuiLsBzhioH2I0fn_rJXvMPZxqeo2BVwhQHS.fxNLqrSrg1muYYtAkFbEe5N4T8CROiFWqsqhgBkS0NxK6V61YTuk8I_DnRtIf47ba33qgODEIXTMX0j4Eu4y8eCCD0_6_E72R2a7eP9EXJAJyyZ2l9vHlGek3gNP.xMytGbt6n87t2Q8HykMHZ1EIdunIGfx7JIlGWkRYGZHgNTjRzJa7Yum_aY3kSC6s012g3ByRegXwapSlbxCQwTnrWOLIWtc0Y4QEyh8ztCCRqNJats7ZTMAUd4vdRZKeYRtqsWV5N.9eaFYEE3cRp0e0q34VXfNx1zPg6nK1R5NE0xtMnKcsfMzOQMQy3D3i13HTnV.Mag2MfvxTlZIj9CDqb9X5OPU7liwAOdhcR8JaLjHzQEoicuJtsC87hfCwAUcu6m2bLgnZsmjhmDmODX8fwU3RWrnPLiijRVebSkbhLr48LejNiDC8A7iwuN_qrmlFnWM2po6dmyKg3YB1rTvEiO1dvmPFKhWaBSS00.ngKeqNNi4jkoH7it9C5CznWWykqe1USUINBA"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9481e0934fbb72e2';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_rt_tk=EuFdW338Jkhlk4HHn0WxEXSm_o8AmYGMNmGQ1MLgUxY-1748646336-1.0.1.1-Oo9UlmzFmW2MYuY9g9xB0cN4nmxfmj.3iLvCcC7Vn08" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
+    data: `<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "ascopubs.org",cType: 'managed',cRay: '94821388d8d02cae',cH: '.O2lJwlLf.wXYUSlEfR8NWiqVYkuePbCd8yFmH4yFyc-1748648423-1.2.1.1-lszHY97s.ZDENKYIZPFw0F.mdT2ZdAAM69xDw0UQfxtHtdqck_at3R0bQkQ0tDyi',cUPMDTk: "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_tk=6yuUDFlUMx9mKBrinwFwTx8YG7r5AsILUBM0SGCzdNw-1748648423-1.0.1.1-cqPI7fAdVMPAl7VtiNh6qhkmuysRbxEpqVVZD2hqy7g",cFPWv: 'g',cITimeS: '1748648423',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_f_tk=6yuUDFlUMx9mKBrinwFwTx8YG7r5AsILUBM0SGCzdNw-1748648423-1.0.1.1-cqPI7fAdVMPAl7VtiNh6qhkmuysRbxEpqVVZD2hqy7g",md: "fbiLSEdWSHa6UvAQk9iPkZCbii_VsMoCUnKH9GUeg0Y-1748648423-1.2.1.1-8svTi4hKt_7rAIjU3xLp5_Ko6f68ymljVIx2FThuXy4kPv67GpuKdeh.TynxZiSnZm27vyFaRUgoji5GLp87PtEYBWSUR4FOQvDa4ilzb4eqKnf.OoJz3RZuyebsnmHYd2u9lT4VphhLzoYPcv5FX0TTsqR7TimEw3J70OKeYH1Xp6tLgnaJusRM7S6jlpcuZa2OINgUF2HNcivryAe6cCmqJp.xgLl8HNm3_x8tsqkEZUJZwUruuBcnR8edV2BzNWi4bhh0hMHTeDaij.UzypoGqeShCtsUbre8sw_yeWcXjL8zjiapl2zD4EhGHwtLcoR2w6MsvZeb5zTpIzs31OhnAGV9ZZx9AP1FgfnNwGqV2pxUH4bfoJGCtutfQo3Y6iDTgqP0KteXrkdglxahjmr1aC3yH82lsZzr_PZMCyjtlIkMW6s40rO2BasTh7b6IP7C61fhQZheukFx2tH3_NJFeyL2onnAErSL2D2VvpFF2ydUTmKJ1PRuoJDj3nh_DbyRNndgbAp7uUsXGFl6eZ.e8I3tWaqzOZSIejmhVNvf00NFpPvb.YSqqetF59iGWGM8de8UBq30mXllh.368RVg477rboOqffAh1P4ZN0yXeAOXQhNCP51eVrCoGY5Fwe66MN5szzMC5t1HnpEhrxM9DzyiA5q4hJE_bxe7Cgxz9nzuU7b_Wv2aNAoNeeLUOgrk5hJYrvwe5mUiVIEeXFlSxxyqMmw1q_YaT4zpFWCWH31zjNzmSGgx9h8yozRjvF7KYpf.1kQHX6Zb5_C7JtvViiYTJ0Cx29bAiwL5kCrcwV2C5DyNasQ0u6owGAlPsNHDiBLWISttpK7DsAQaQfdsnxn4qlH3aeffel5ubAMUKrjx.vllIKAVDUVIGVESvkYy2n1VyJVaB5oNva49RjKf_.nP6ve20Lry8TTRX9xqIwtel0Rqgl0o0BEYtHtSQGY7zg5pQlctrA88OaezdpG4R3EyP91_3aBGjcjhz7oxUHby3hRdrGDSGLihELLsN5IWobXh2Gim.fLvxhm1WDVXtEP.9sa.TbIh1U721O0.7NWPXfjKsfjZZXbOGQOL8fPAGKn7ObUBxbsS_.cW90mSK3m0QwliPfzYxU2CTO8",mdrd: "prHh2ZYA13OwAF8_wKlbVYd75tBnoZGivXflEm2IBZU-1748648423-1.2.1.1-wmoLruPkiVhexHmUVbRmaS.jq6twYVG8whXLxL.NGInwNkaMSl5yWzUtCex9mkCg62hDVAR2Cx0SNCNfGufmE8AhnT2wDSeA2m0ZxmdRDe.jNNZPNm3LXLIMWLG5ZZk10jmTKxWSEzPs4biZnxfhT8wsSUSzRla11qUAL5wCGnuJFR2GC6mBROZv7eQzZM5lgyIu0VaMmkJ7t0xmA7H4iXhUjQFYOUYjBGAIX2eDkpFGi5BQBfEgbQu322g_WFerM5EuGoUY13pi972lYh9q1kSBUwT2o3ikjqA3KloPYUI.YqiLgS4bnjXEOu_otrBmts7ARgXKPeBSn_JZXXT4Len36iQDs.W70GxoEWhY2seFNX7FMtfivGVl4ic4p4hKdDlRHi7V_6pzzChCX_UnQR1KFFVatGQNjMxSalnkv8v2jEGNcYWlBvLTxUcV5ZqzZA8C4bmkhJVxNLE4fyjxGoWVMgJu3044iptp3OUSQOcoaYho1Ok2x3415WdrBrssieqfND3zKY6eDWeVxSWV1DPvm1Ag7Fy.MtPwyo1a6TNfAYaIPau72nHUgn54ukPQbgwW_DkBhJccTQILgQ3aA02VzJ3FTj35XDd_bcedksy63J5rJ2PUXADG3Wq8M7nvL7soEiUCFSMHeq6Sd_3FsaOODnpiBF4y3.aaAy6JEI14vriuVJVu8rLRjg5nlHT4NqC_VFRN7jGdMkBss8XIlbIiPJyiKX2w4KdlBgfKaOgjHF3OjV8BS5n1S1dlEv11sS2ObEYCNZTziGE5UGD1fvmXCHgKJn3TzegjtmY3Vgo_W5S5keOd7Am.7rDN.sAtgdbQC6LdXnwHyTiYYUQwWcgadspEPl62UJF19jVe4Vev2_d4cUwbiAgvBHZg3iXiykeJnoMOCjwUhSTkGLY5cHlvDyjSYdnj3J_unXJb8k0sBqcbK5SglPyBDKjyAAR4.GbmajwT0LhPJnrQJmvxTfuPJWiFtF4UknOhwpOXa1hy9kznDId0gHJrdOoq9BkMQFsLqbGp.K2dX9GDBmET_syV3ITpaQa2gPHhf9_ja95219tFHuvsSnLOCSfemf.1dmedap2a6zVGbiCe5BPN_tSL59FuWhVdKYHfZkU4ToSMo4tBsuSgIOo7tkn33vqYW7tyfKEp1Dn0us2fcpsOL1LxrD6tvymSrK5O2FS3u7VCcySJ6TT0xtzc9ofq.KTlHj3ZLBDau77mSwuMdL2a_IndKNPFhJY3MOgPtN4WLImMQm7_kAlz8zn7ZPq397kHnCenA9A89XaPt2HTbPwhAdNBkhnFQgDbLkGxXUSrQ7kC2r3YC6sBT9zE45VuNv0aYqxSO2c_fRUW4NBeDwIta5Dw4cp9AT9tZFsJuCRKpyIReuoLxUTThAZACFJKfEaA15pbG1_CjQQ33lS_D7POhsLsVNh4KQZDGtqNA0aiG0n7i2.N22cldqfXmrOLa6ARPzUSvvBilcEphbl.wvbI5b7gHoYn7ubnUCb80Fcu4T_cAhjXWkNJZ98m_33lJJCnPz0DBjtu1ngscmwORfBhzA339EE5SDxf52s2NDR.1xynmnNo8Mw9L_ZzRjPko_fN6R1dK0d3tBrfzHgiTyj1bTuxRJVLIXhQ4SMzpFqJg0ventHL8zxIYenA9vwJmqIqZOJ5IDNb3RLS3PIC_F1dA7ESF3k5mB0kUb75eMe9ZqRAIXz_GM28rPEnrW_a6Wy4h5CB5euH7eQIbHyrjaCGgRJZ.1QOmYksF1.uA8IWjGNECyOIxKNQ.Mm1IVJezN6gnF1KExETfIRVHgMoSBDrgou57y.8FIVMiCSjsDMF80tMxll8SFopBmS2bV0ufPr9C3fSAh._A1KmbUz0bYumeT2yioqtjtIwnPqHDNqchxCSjyjxl14GXGuur7MVn2phzN0IhCG398H9pwsMr_7ShVMWNH__Y1CeSM_9TrDw0GeJR7xB0gGl6rtUPOQYmtRA6siLpjwYXGsLXKC3_H8lUml8xIQC__J6J0Nb8COZXjfL6CVCyZ9IhyOdrBHZmBh2Zm5bCvPOlN9FKGJh33RfQda6ZgYqcrhu2WqnciWddwr9VHHU3_uJsWqXVFZ6Rd2Kdaip8.OjPZ6Yz2qctiXHjhcAJFUh1E2C__nz76qxJZmyL2sCscWN6DzN92Yj_bGJLDCbfeFlVVECNfv755NeyVweBIdtZgXcS8PBwUpcKUO8tKG90098c.AQiwurpdGwNT7_OaIr0Dk9Eyqrhj6FNVW83f0IhI1xTcZKa20cwbe5GN.RsJ4oSs8Vdd_H0KBYUx4RNIletaEFXdHnXVFAqHf6OjIuI2229kOZmX0LeoV0FkERA.hWoUUYeci4EFtitPIOHzIJc37QSmLKAhPiDGo3dEYaqRHCxM67EsSLPozOMZ__DzfFi68ncvqTAdO6FKlCC_fGoSdSIojfpGTxcr6XkqPiAuw9EMta80FSkTCFBvn_dxTlfAKXlViLs9PbdylYpDvjnKWfTUw9LHn.CT1f4qru2xzsMzOMfDAQjb4nKAmmAImwyFeFTocDTFpyqwuuX02GsaF2UMHL3d8ipIp2AWbgMUEfHSJUgtRh8dpcmPnT0.2su.Wy1stZoucVTMndwaXSwrVMxLnIA5ZmPeuNiyffq1cY7nBCJBR6kU.ei2SEpmyc970AsPgUYN8a7JZ6ATkRF29JWTF3hhJn2bsiDVlHuGBwLjC4pixYoDQYDvey.KdBJfj711TSpKsoEJjHOM5pE.B2jmIzbPjqqfaimKb1VyTKXjA2zE6M_k5A4IiXJGtFgDcvz1CwGYmIuGT2m7lCZqr6j1DB_hk7WpcHnqjJAiLqsXUe8yWcgwGJLqri6YT1.UTHRxwTh2cFVWFnr8fQL54i6JBTHz.4ay4BR7j_j1vk7caxu6udqZI"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=94821388d8d02cae';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/doi\\/10.1200\\/JCO.2025.43.16_suppl.e23320?__cf_chl_rt_tk=6yuUDFlUMx9mKBrinwFwTx8YG7r5AsILUBM0SGCzdNw-1748648423-1.0.1.1-cqPI7fAdVMPAl7VtiNh6qhkmuysRbxEpqVVZD2hqy7g" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>`
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Fri, 30 May 2025 23:05:36 GMT',
+  date: 'Fri, 30 May 2025 23:40:23 GMT',
   'content-type': 'text/html; charset=UTF-8',
   'transfer-encoding': 'chunked',
   connection: 'close',
@@ -1750,18 +1862,18 @@ Headers: Object [AxiosHeaders] {
   'origin-agent-cluster': '?1',
   'permissions-policy': 'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()',
   'referrer-policy': 'same-origin',
-  'server-timing': 'chlray;desc="9481e0934fbb72e2"',
+  'server-timing': 'chlray;desc="94821388d8d02cae"',
   'x-content-type-options': 'nosniff',
   'x-frame-options': 'SAMEORIGIN',
   'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
   expires: 'Thu, 01 Jan 1970 00:00:01 GMT',
   'set-cookie': [
-    '__cf_bm=De0OJoYp3zN0RDYRCahU5Cs3rAX4eQYA0cxVoD8FliY-1748646336-1.0.1.1-sbxXvjaT1bJhCsli1S8I5VOF0QpWBSQ4l.KbNbVDAMCqa5yhLbZCV3w462V7Vgms_kI1ofmkBOFSQtIAkhstzZ5tSYLaiQScszfPDfzs5nM; path=/; expires=Fri, 30-May-25 23:35:36 GMT; domain=.ascopubs.org; HttpOnly; Secure; SameSite=None'
+    '__cf_bm=uRFqQbgnVjESqDfWMCn9pJzpDZKnaTaZ1tqDW5GYdZo-1748648423-1.0.1.1-T8ZT4vrranhIEENpi69X7OcOrdVa6IwIywv375_pVPPoqBNACZVP_bZNInxTnY7jmNPnS29aKLzTtreAuHl.rILf.aVQsLfU000PeZPDSrg; path=/; expires=Sat, 31-May-25 00:10:23 GMT; domain=.ascopubs.org; HttpOnly; Secure; SameSite=None'
   ],
   vary: 'Accept-Encoding',
   'strict-transport-security': 'max-age=15552000',
   server: 'cloudflare',
-  'cf-ray': '9481e0934fbb72e2-ORD',
+  'cf-ray': '94821388d8d02cae-DFW',
   'alt-svc': 'h3=":443"; ma=86400'
 }
 Fetched papers from CrossRef: [
@@ -1891,84 +2003,104 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 30
-Removed duplicates: 30 -> 30
-Starting translation of 30 papers...
-Translating paper 1/30
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
 Translating paper: Interested in observing TrES-Her0-07621?...
-Translating paper 2/30
+Translating paper 2/40
 Translating paper: APOSTLE: Eleven Transit Observations of TrES-3b...
-Translating paper 3/30
+Translating paper 3/40
 Translating paper: TRES Survey of Variable Diffuse Interstellar Bands...
-Translating paper 4/30
+Translating paper 4/40
 Translating paper: Photometric Investigation of Hot Exoplanets: TrES-...
-Translating paper 5/30
+Translating paper 5/40
 Translating paper: Tres lecciones en combinatoria algebraica. III. Ar...
-Translating paper 6/30
+Translating paper 6/40
 Translating paper: New photometric observations of the transiting ext...
-Translating paper 7/30
+Translating paper 7/40
 Translating paper: Multi-band transit observations of the TrES-2b exo...
-Translating paper 8/30
+Translating paper 8/40
 Translating paper: AstroGarden of Roma Tre University: from presence ...
-Translating paper 9/30
+Translating paper 9/40
 Translating paper: Machine Learning Models Disclosure from Trusted Re...
-Translating paper 10/30
+Translating paper 10/40
 Translating paper: Analysis of Kepler's short-cadence photometry for ...
-Translating paper 11/30
+Translating paper 11/40
+Translating paper: E-learning ed equità. Un’analisi dei risultati for...
+Translating paper 12/40
+Translating paper: Intraoperative CT as a registration benchmark for ...
+Translating paper 13/40
+Translating paper: Medio ambiente urbano...
+Translating paper 14/40
+Translating paper: Les centres de numerisation : Des usines pour trai...
+Translating paper 15/40
+Translating paper: Costo de la calidad del servicio técnico desde la ...
+Translating paper 16/40
+Translating paper: The challenges of replication: a worked example of...
+Translating paper 17/40
+Translating paper: Triosonate in Es-Dur für Flöte, Violine und Basso ...
+Translating paper 18/40
+Translating paper: COMPARACIÓN DE LA COMPOSICIÓN QUÍMICA Y DE LA ACTI...
+Translating paper 19/40
+Translating paper: SONOLÊNCIA DIURNA EXCESSIVA EM INTERNOS DE UMA UNI...
+Translating paper 20/40
+Translating paper: Les lHa srin sde brgyad et le probleme de leur cat...
+Translating paper 21/40
 Translating paper: Role of late-night eating in circadian disruption ...
-Translating paper 12/30
+Translating paper 22/40
 Translating paper: Ab Initio Lattice Quantum Chromodynamics Calculati...
-Translating paper 13/30
+Translating paper 23/40
 Translating paper: Subdural effusion secondary to unilateral decompre...
-Translating paper 14/30
+Translating paper 24/40
 Translating paper: A novel approach to evaluate the therapeutic effic...
-Translating paper 15/30
+Translating paper 25/40
 Translating paper: The Effectiveness of Time-Restricted Eating as an ...
-Translating paper 16/30
+Translating paper 26/40
 Translating paper: EEG Maturational Age Estimation: A Comparison of V...
-Translating paper 17/30
+Translating paper 27/40
 Translating paper: Image Fusion of High-Resolution DynaCT and T2-Weig...
-Translating paper 18/30
+Translating paper 28/40
 Translating paper: China Protocol for early screening, precise diagno...
-Translating paper 19/30
+Translating paper 29/40
 Translating paper: Enabling health data analyses across multiple priv...
-Translating paper 20/30
+Translating paper 30/40
 Translating paper: Hippocampal ensembles regulate circuit-induced rel...
-Translating paper 21/30
+Translating paper 31/40
 Translating paper: Characterization and evaluation of commercial bioc...
-Translating paper 22/30
+Translating paper 32/40
 Translating paper: Occurrence of the Stem End Rot Disease in Pomelo, ...
-Translating paper 23/30
+Translating paper 33/40
 Translating paper: Effects of Trace Rare Earth (TRE) additions on the...
-Translating paper 24/30
+Translating paper 34/40
 Translating paper: Eukaryotic phototrophs of the plastisphere in the ...
-Translating paper 25/30
+Translating paper 35/40
 Translating paper: Nonlinear perturbations of Hill's systems and the ...
-Translating paper 26/30
+Translating paper 36/40
 Translating paper: “A real Italian music drama”...
-Translating paper 27/30
+Translating paper 37/40
 Translating paper: Clinical use of Loop Diuretics Acting on Symporter...
-Translating paper 28/30
+Translating paper 38/40
 Translating paper: “The name of Montemezzi”...
-Translating paper 29/30
+Translating paper 39/40
 Translating paper: On the Impact of Microbeamformers in 3-D High Fram...
-Translating paper 30/30
+Translating paper 40/40
 Translating paper: Dynamic longitudinal patient cohorts using hospita...
-Translation completed: 30 papers
+Translation completed: 40 papers
 Generating HTML files...
-Generating index.html with 30 papers...
+Generating index.html with 40 papers...
 Successfully generated index.html
-Generating archive.html with 30 papers...
+Generating archive.html with 40 papers...
 Successfully generated archive.html
-Generating journal.html with 30 papers...
+Generating journal.html with 40 papers...
 Successfully generated journal.html
-Generating acquisition.html with 30 papers...
+Generating acquisition.html with 40 papers...
 Successfully generated acquisition.html
-Generating publication.html with 30 papers...
+Generating publication.html with 40 papers...
 Successfully generated publication.html
-Generating registration.html with 30 papers...
+Generating registration.html with 40 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Processed 30 papers
+Processed 40 papers
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
