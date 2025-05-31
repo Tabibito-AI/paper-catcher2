@@ -83,8 +83,8 @@ open index.html
    - 以下のシークレットを追加：
    ```
    GEMINI_API_KEY=your_gemini_api_key
-   KEYWORD1=TRE
-   KEYWORD2=SDE
+   KEYWORD1=Economics
+   KEYWORD2=Labour
    SPRINGER_API_KEY=your_springer_api_key
    PUBMED_API_KEY=your_pubmed_api_key
    ```
