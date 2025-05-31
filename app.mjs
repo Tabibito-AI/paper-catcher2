@@ -999,6 +999,7 @@ class PaperCatcher {
     constructor() {
         this.translator = new GeminiTranslator();
         this.htmlGenerator = new HTMLGenerator();
+        this.papersDataFile = 'papers.json';
         this.clients = {
             arxiv: new ArxivClient(),
             semanticScholar: new SemanticScholarClient(),
@@ -1022,6 +1023,33 @@ class PaperCatcher {
         }
 
         this.clients.crossref = new CrossRefClient();
+    }
+
+    // 既存の論文データを読み込む
+    loadExistingPapers() {
+        try {
+            if (fs.existsSync(this.papersDataFile)) {
+                const data = fs.readFileSync(this.papersDataFile, 'utf8');
+                const existingPapers = JSON.parse(data);
+                console.log(`Loaded ${existingPapers.length} existing papers from ${this.papersDataFile}`);
+                return existingPapers;
+            }
+        } catch (error) {
+            console.warn('Failed to load existing papers:', error.message);
+        }
+        console.log('No existing papers found, starting fresh');
+        return [];
+    }
+
+    // 論文データをJSONファイルに保存
+    savePapersData(papers) {
+        try {
+            const data = JSON.stringify(papers, null, 2);
+            fs.writeFileSync(this.papersDataFile, data, 'utf8');
+            console.log(`Saved ${papers.length} papers to ${this.papersDataFile}`);
+        } catch (error) {
+            console.error('Failed to save papers data:', error.message);
+        }
     }
 
     async collectPapers(maxResults = 10) {
@@ -1190,22 +1218,40 @@ class PaperCatcher {
             console.log(`- KEYWORD1: ${process.env.KEYWORD1 || 'Not set'}`);
             console.log(`- KEYWORD2: ${process.env.KEYWORD2 || 'Not set'}`);
 
-            // 1. 論文収集
-            const papers = await this.collectPapers(10); // 各ソースから10件ずつ収集
-            if (papers.length === 0) {
-                console.log('No papers collected. Exiting...');
-                return;
+            // 0. 既存の論文データを読み込み
+            const existingPapers = this.loadExistingPapers();
+
+            // 1. 新しい論文収集
+            const newPapers = await this.collectPapers(10); // 各ソースから10件ずつ収集
+            if (newPapers.length === 0) {
+                console.log('No new papers collected.');
+                if (existingPapers.length === 0) {
+                    console.log('No existing papers either. Exiting...');
+                    return;
+                }
+                console.log(`Using ${existingPapers.length} existing papers for HTML generation.`);
             }
 
-            // 2. 論文翻訳
-            const translatedPapers = await this.translatePapers(papers);
+            // 2. 新しい論文の翻訳
+            const translatedNewPapers = await this.translatePapers(newPapers);
 
-            // 3. HTMLファイル生成
-            const generatedFiles = await this.generateHTMLFiles(translatedPapers);
+            // 3. 既存の論文と新しい論文を統合（重複除去）
+            const allPapers = [...existingPapers, ...translatedNewPapers];
+            const uniquePapers = this.removeDuplicates(allPapers);
+
+            console.log(`Total papers after merging: ${uniquePapers.length} (${existingPapers.length} existing + ${translatedNewPapers.length} new)`);
+
+            // 4. 統合された論文データを保存
+            this.savePapersData(uniquePapers);
+
+            // 5. HTMLファイル生成（統合された全論文データを使用）
+            const generatedFiles = await this.generateHTMLFiles(uniquePapers);
 
             console.log('=== Paper Catcher Completed Successfully ===');
-            console.log(`Processed ${translatedPapers.length} papers`);
+            console.log(`Total papers in database: ${uniquePapers.length}`);
+            console.log(`New papers processed: ${translatedNewPapers.length}`);
             console.log(`Generated files: ${generatedFiles.join(', ')}`);
+            console.log(`Timestamp: ${new Date().toISOString()}`);
 
         } catch (error) {
             console.error('=== Paper Catcher Failed ===');
