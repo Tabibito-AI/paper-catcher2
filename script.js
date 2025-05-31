@@ -199,9 +199,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalPaperLink = document.getElementById('modal-paper-link');
         if (paperUrl && paperUrl !== '#') {
             modalPaperLink.href = paperUrl;
+            modalPaperLink.target = '_blank';
             modalPaperLink.style.display = 'inline-block';
         } else {
             modalPaperLink.href = '#';
+            modalPaperLink.removeAttribute('target');
             modalPaperLink.style.display = 'none';
         }
 
