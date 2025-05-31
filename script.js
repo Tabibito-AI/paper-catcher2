@@ -148,13 +148,16 @@ document.addEventListener('DOMContentLoaded', function() {
     function handleTwitterShare(e) {
         e.preventDefault();
 
-        // Get paper title from the closest paper item
+        // Get paper title and URL from the closest paper item
         const paperItem = this.closest('.paper-item');
         const title = paperItem.querySelector('.paper-title').textContent;
+        const paperLink = paperItem.querySelector('.paper-link');
+        const paperUrl = paperLink ? paperLink.href : '';
 
-        // Create Twitter share URL
-        const tweetText = encodeURIComponent(`${title} - Paper Catcher で発見した論文`);
-        const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodeURIComponent(window.location.href)}`;
+        // Create Twitter share URL with paper URL instead of site URL
+        const tweetText = encodeURIComponent(title);
+        const shareUrl = paperUrl || window.location.href;
+        const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodeURIComponent(shareUrl)}`;
 
         // Open Twitter in new window
         window.open(tweetUrl, '_blank', 'width=550,height=420');
@@ -191,7 +194,28 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('modal-date').textContent = date || 'Unknown';
         document.getElementById('modal-abstract-text').textContent = abstract || 'No abstract available';
         document.getElementById('modal-translation-text').textContent = translatedAbstract || 'No translation available';
-        document.getElementById('modal-paper-link').href = paperUrl || '#';
+
+        // Set paper link URL
+        const modalPaperLink = document.getElementById('modal-paper-link');
+        if (paperUrl && paperUrl !== '#') {
+            modalPaperLink.href = paperUrl;
+            modalPaperLink.style.display = 'inline-block';
+        } else {
+            modalPaperLink.href = '#';
+            modalPaperLink.style.display = 'none';
+        }
+
+        // Set up Twitter share button
+        const modalTwitterBtn = document.querySelector('#modal .btn-secondary');
+        if (modalTwitterBtn) {
+            modalTwitterBtn.onclick = function(e) {
+                e.preventDefault();
+                const tweetText = encodeURIComponent(title);
+                const shareUrl = paperUrl || window.location.href;
+                const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${encodeURIComponent(shareUrl)}`;
+                window.open(tweetUrl, '_blank', 'width=550,height=420');
+            };
+        }
 
         // Show/hide translation section based on availability
         const translationSection = document.getElementById('modal-translation-section');
