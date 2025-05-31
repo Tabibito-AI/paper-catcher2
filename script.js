@@ -185,6 +185,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const translatedAbstract = button.getAttribute('data-translated-abstract');
         const paperUrl = button.getAttribute('data-url');
 
+        // Debug logging
+        console.log('Modal opening with data:', {
+            title,
+            paperUrl,
+            hasUrl: !!paperUrl,
+            urlNotEmpty: paperUrl !== '#'
+        });
+
         // Populate modal content - show original title, with translated title if available
         const displayTitle = translatedTitle && translatedTitle.trim() ?
             `${title} (${translatedTitle})` : title;
@@ -197,14 +205,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Set paper link URL
         const modalPaperLink = document.getElementById('modal-paper-link');
-        if (paperUrl && paperUrl !== '#') {
+        console.log('Setting modal paper link:', paperUrl);
+
+        if (paperUrl && paperUrl !== '#' && paperUrl.trim() !== '') {
             modalPaperLink.href = paperUrl;
             modalPaperLink.target = '_blank';
             modalPaperLink.style.display = 'inline-block';
+            console.log('Modal paper link set to:', modalPaperLink.href);
+
+            // Add click event listener as backup
+            modalPaperLink.onclick = function(e) {
+                e.preventDefault();
+                console.log('Modal paper link clicked, opening:', paperUrl);
+                window.open(paperUrl, '_blank');
+                return false;
+            };
         } else {
             modalPaperLink.href = '#';
             modalPaperLink.removeAttribute('target');
+            modalPaperLink.onclick = null;
             modalPaperLink.style.display = 'none';
+            console.log('Modal paper link hidden (no valid URL)');
         }
 
         // Set up Twitter share button
