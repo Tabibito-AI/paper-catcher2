@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Labour"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Labour
 Keywords: "Economics" OR "Labour"
-Timestamp: 2025-05-31T03:29:10.589Z
+Timestamp: 2025-05-31T15:09:30.523Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 80 existing papers from papers.json
+Loaded 130 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -372,7 +372,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: 'c30fbe9f6f6d0b4dc7165acf729c1c8a4c3b7334',
@@ -635,6 +634,45 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
+    id: '40448150',
+    title: 'Molecular detection and identification of Trichobilharzia: development of a LAMP, qPCR, and multiplex PCR toolkit.',
+    abstract: "BACKGROUND: Cercarial dermatitis (CD), or swimmer's itch, is a water-borne allergic skin reaction caused by the penetration of the larval stages of bird schistosomes (cercariae) into the skin. Members of the genus Trichobilharzia are the primary causative agents of CD worldwide. Due to the increasing number of cases, CD is regarded as a (re)emerging disease. Outbreaks in recreational waters can significantly impact public health and local economies. Environmental monitoring of Trichobilharzia is crucial for outbreak prediction and public health management. However, conventional methods, such as cercarial shedding and snail dissections, are labour-intensive and lack sensitivity. To overcome these limitations, we present a molecular toolkit that combines loop-mediated isothermal amplification (LAMP), quantitative polymerase chain reaction (qPCR), and multiplex PCR for rapid, sensitive, and accurate detection and identification of Trichobilharzia spp. from various biological samples.\n" +
+      'METHODS: Tricho-LAMP and Tricho-qPCR were designed and optimised for Trichobilharzia DNA detection. A multiplex PCR assay was also developed and optimised to identify the three main species causing CD in Europe (Trichobilharzia franki, T. szidati, and T. regenti).\n' +
+      'RESULTS: Tricho-LAMP specifically detected T. regenti and T. franki at 10 ng, and T. szidati at 10 ng per reaction with genomic DNA. Using gBlocks synthetic DNA, Tricho-LAMP achieved 100% amplification at 10,000 copies and 85% amplification at 1000 copies, with decreasing success at lower concentrations. Tricho-qPCR showed the highest sensitivity, detecting all species down to 10 ng per reaction and showing a limit of detection at 10 copies of synthetic DNA in the reaction. Multiplex PCR allowed reliable species differentiation via gel electrophoresis of the PCR products, but the assay had the lowest sensitivity.\n' +
+      'CONCLUSIONS: We provide a molecular toolkit consisting of LAMP, qPCR, and multiplex PCR. By exhibiting high sensitivity, Tricho-LAMP and Tricho-qPCR assays are potentially suitable for environmental DNA (eDNA)-based environmental monitoring of bird schistosomes, by both researchers and public health authorities. Multiplex PCR can be used for species determination without the need for further sequencing.',
+    published: '2025-May-30',
+    authors: [
+      'Procházka Jan',
+      'Bartoníček Zikmund',
+      'Leontovyč Roman',
+      'Horák Petr',
+      'Macháček Tomáš'
+    ],
+    journal: 'Parasites & vectors',
+    doi: '10.1186/s13071-025-06822-y',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40448150/'
+  },
+  {
+    id: '40446777',
+    title: 'Balancing the ban: Navigating the economic and environmental trade-offs of single-use plastics in Ghana.',
+    abstract: "As bans on single-use plastics gain momentum as a policy tool to combat plastic pollution, debates continue among scholars and policymakers regarding their environmental efficacy and economic consequences. This paper empirically examines the socio-economic and environmental trade-offs of a potential single-use plastic ban in Ghana, guided by the central research question: What are the key considerations and implications of such a policy? Employing a mixed-methods approach, the study draws on quantitative and qualitative data from plastic manufacturers, retailers and households across Accra, Kumasi, Sekondi-Takoradi, and Tamale. The findings reveal a stark divide in stakeholder perspectives: while households overwhelmingly support the ban, citing perceived environmental, aesthetic, and public health benefits, manufacturers and retailers oppose it, pointing to the absence of viable alternatives, weak regulatory enforcement, a thriving black market, and the economic significance of the plastic industry. A ban could lead to significant economic disruptions, including an estimated GHC3.5 million ($648,148) in weekly labour income losses, translating to over GHC14.4 million ($2.6 million) monthly, and an estimated GHC5.4 million ($1 million) in weekly tax revenue losses. These disruptions risk undermining export volumes, foreign exchange earnings, and overall economic stability by decreasing the production and export of plastic-related products while increasing dependence on more expensive imported alternatives, ultimately straining Ghana's trade balance and fiscal space. Rather than an outright ban, the paper recommends a multi-pronged, cross-sectoral policy approach that prioritizes circular economy principles, incentivizes sustainable business innovation, and fosters community-driven voluntary initiatives that promote environmental stewardship. This balanced strategy offers a more economically viable and environmentally sustainable pathway for managing single-use plastics in Ghana.",
+    published: '2025-May-29',
+    authors: [ 'Amankwaa Ebenezer F', 'Danquah Michael' ],
+    journal: 'Journal of environmental management',
+    doi: '10.1016/j.jenvman.2025.126020',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40446777/'
+  },
+  {
+    id: '40446674',
+    title: 'An institutional analysis of performance and impact of farmer producer organizations using PLS path modeling.',
+    abstract: 'Farmer Producer Organizations (FPOs) have been seen as an effective strategy by most developing countries to address the problems of small and marginal holdings, necessitating policy inputs for their enhanced performance. This paper analyses the institutional features using principles of new institutional economics and management science; evaluates their effect on the performance and impact of FPOs. Partial Least Squares Path Modeling (PLS-PM) and Ordered Probit regression analysis were used to examine the data of members of FPOs from Andhra Pradesh and the Telangana state of India. A positive and significant relationship was observed among the institutional features, rationalities, performance and overall impact, with a complementary mediation role. The study suggests improving the identified parameters of institutional features, rationalities for better performance of these institutions, and augmented impact on the farming community.',
+    published: '2025-May-23',
+    authors: [ 'Veesam Haripriya', 'Nikam Vinayak', 'Ray Mrinmoy' ],
+    journal: 'Evaluation and program planning',
+    doi: '10.1016/j.evalprogplan.2025.102609',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40446674/'
+  },
+  {
     id: '40446070',
     title: 'Long-run causal impact of the 2011 Economic Adjustment Programme on Portuguese population health.',
     abstract: 'In 2011, Portugal signed a bailout programme to be implemented over a 3-year period, from 2011 to mid-2014. This programme included a set of measures to control and reduce the public sector, which included interventions in areas such as public spending and financing, the labour market, education, and health, among other structural budget measures. The aim of this research is to determine the long-run causal impact of implementing this Economic Adjustment Programme on several population health outcomes. Data was collected for the period 1990-2019 for Portugal. Health outcome indicators account for DALY and HLY, among other general health indicators, but also for some specific mortality rates like those for stroke and cancer. Control variables include percentage of population older than 65, percentage of people with a university degree, CO2 emissions for Portugal, and also health outcomes data for Denmark, Netherlands, Norway and Sweden. The analytical method used is based on a Bayesian structural time series model, which builds a contrafactual scenario representing the absence of the Economic Adjustment Programme for comparison with observed data. The most significant result is the negative long-run causal impact arising from the implementation of the Economic Adjustment Programme in 2011 in Portugal; in other words, health improvements would have been better and faster had the bailout programme not been implemented, despite some level of uncertainty regarding the results. Findings reinforce the idea for the implementation of social and health policies that complement IMF bailout programmes to mitigate negative impacts on population health in the long-run.',
@@ -724,55 +762,6 @@ Fetched papers from PubMed: [
     journal: 'Frontiers in public health',
     doi: '10.3389/fpubh.2025.1588270',
     link: 'https://pubmed.ncbi.nlm.nih.gov/40443926/'
-  },
-  {
-    id: '40443691',
-    title: 'One Health Economics 2.0 - commentary.',
-    abstract: 'No abstract available',
-    published: '2025',
-    authors: [ 'Lederman Zohar' ],
-    journal: 'Global bioethics = Problemi di bioetica',
-    doi: '10.1080/11287462.2025.2511517',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40443691/'
-  },
-  {
-    id: '40443577',
-    title: 'A structured comparison and reflection on international position statements and professional guidance for the management of periviable infants.',
-    abstract: 'BACKGROUND: Survival rates and clinical approach to periviable infants are rapidly evolving at certain centres, but there remains variation in definition, approach and management of these infants worldwide. This review aims to narratively review and discuss professional guidelines, position statements and frameworks for management of periviable infants (22 + 0-25 + 0 weeks gestation) born in countries with the highest relative spending on healthcare.\n' +
-      'METHODS: Eligible countries were determined using the Organisation for Economic Co-operation and Development database. The top 10 countries with highest spend on healthcare as a proportion of their gross domestic profit were selected. A comprehensive search of relevant databases and search engines (MEDLINE, Embase, CINAHL, PsycINFO, Google Scholar) was performed to identify professional guidance documents for each eligible country. The primary outcome was the delivery room management recommendation (survival-focused or end of life care). The secondary outcomes were survival rates, disability rates and whether shared decision-making with parents was recommended.\n' +
-      'RESULTS: There was variation in definition of periviable and approach to management across the 10 professional guidelines. There was a four-week difference across countries for where the limits of viability lie (22 + 0-25 + 6 weeks). At 22-weeks, eight guidelines recommended comfort care and only one country recommending active care as the default management position at birth. By 24-weeks gestation, no country recommended comfort care as the standard approach at birth.\n' +
-      'DISCUSSION: Despite the included countries having the highest spend on healthcare as a proportion of their GDP, there is marked international variation in recommended practice in relation to the definition of and management for periviable infants. The majority of included guidelines recommended a shared decision-making approach between professionals and parents facing periviable birth, however, there were scant details about how this should be actualized and only two guidelines included decision-making aids for use with parents. The pre-birth discussion between perinatal professionals and parents facing periviable labour is complex and challenging for all involved. Further research is required to explore how best to facilitate parental understanding and involvement in these discussions to ensure parents are empowered to make the most appropriate decisions for their baby and their family.',
-    published: '2025',
-    authors: [
-      'Peterson J',
-      'Southwood G',
-      'Smith D M',
-      'Johnstone E D',
-      'Mahaveer A'
-    ],
-    journal: 'Frontiers in pediatrics',
-    doi: '10.3389/fped.2025.1553033',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40443577/'
-  },
-  {
-    id: '40442543',
-    title: 'Feasibility and Acceptability of a Novel Behavioral Economic Coaching Session to Address Physical Activity and TV Watching: An Open Pilot Trial.',
-    abstract: 'BACKGROUND: Behavioral economics (BE) suggests that adults are more likely to engage in enjoyable behaviors that are easily available and accessible (e.g., TV watching) compared to less enjoyable and available alternatives (physical activity). This feasibility trial of a 4-week telehealth program aimed to increase physical activity and reduce TV watching.\n' +
-      'METHOD: Healthy but insufficiently active adults who watched TV for at least 15 h/week (N = 33) were recruited via ResearchMatch and completed a baseline coaching session (~ 30 min), a booster session (week 2, ~ 15 min), and an exit interview via video conference (~ 15 min), as well as online questionnaires. The coaching session included common physical activity promotion strategies and two novel BE components to (1) increase the availability and enjoyment of physical activity, and (2) use TV watching as a reward for physical activity (i.e., contingent TV).\n' +
-      'RESULTS: Most participants who attended the follow-up (87.5% out of n = 24) rated component 1 as "useful" or "very useful" and 45.8% rated contingent TV (component 2) as such. Four weeks post coaching session, participants reported an increase in vigorous physical activity (+ 13.9 min/day) and walking (+ 12.1 min/day), and a decrease in sedentary behavior other than TV watching (- 3.5 h/day).\n' +
-      'CONCLUSION: This feasibility trial suggests that an individualized discussion on enjoyable physical activity and contingent TV watching are two behavioral economic approaches that may support behavior change in adults. Future research is needed to replicate these findings in a larger sample using a randomized controlled trial.',
-    published: '2025-May-29',
-    authors: [
-      'Foxx Ricarda K',
-      'Jake-Schoffman Danielle E',
-      'Lavoie Hannah',
-      'Mathews Anne E',
-      'Cheong JeeWon',
-      'Yurasek Ali M'
-    ],
-    journal: 'International journal of behavioral medicine',
-    doi: '10.1007/s12529-025-10368-9',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40442543/'
   }
 ]
 Collected 10 papers from pubmed
@@ -909,15 +898,15 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0177 (original: htt
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [Timeout],
-        _idleStart: 29655,
+        _idleStart: 28694,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4109,
-        [Symbol(triggerId)]: 4107
+        [Symbol(asyncId)]: 3830,
+        [Symbol(triggerId)]: 3828
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -948,7 +937,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0177 (original: htt
       protocol: 'https:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
+      sockets: [Object: null prototype],
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -956,7 +945,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0177 (original: htt
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 5,
+      totalSocketCount: 6,
       maxCachedSessions: 100,
       _sessionCache: [Object],
       [Symbol(shapeMode)]: false,
@@ -1049,14 +1038,14 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0177 (original: htt
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Sat, 31 May 2025 03:29:39 GMT',
+      date: 'Sat, 31 May 2025 15:09:58 GMT',
       server: 'Apache',
       'x-datadome': 'protected',
       'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
       charset: 'utf-8',
       'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
       pragma: 'no-cache',
-      'x-datadome-cid': 'AHrlqAAAAAMAGfDuhz_qq9AAFPFoEQ==',
+      'x-datadome-cid': 'AHrlqAAAAAMAFSilqSI9Hg4AFDOEsA==',
       'x-dd-b': '3',
       'set-cookie': [Array],
       'content-length': '460',
@@ -1147,411 +1136,25 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0177 (original: htt
       [Symbol(kUniqueHeaders)]: null
     },
     data: {
-      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAGfDuhz_qq9AAFPFoEQ==&cid=tocw7iFKsomhT8dzbbtiWDC4T2b7x_hWtIsG0v6b0TJkN4TYA9ehfD67LSh7SDlbNx1x3hjWHUy1qaeUZFcvAkVRIAX825pKqCuKfGZwDFeDKBasp9oexzfhNwwEgrSO&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I177%3Fsite_lang%3Dfr&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=a6e73a716ac5266db2009a3e53a6448d6ea3f204cb63db1364776ee502fb32a9'
+      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAFSilqSI9Hg4AFDOEsA==&cid=xdRQe9~1zZ6u6b7yUMh5gcfk~59oKehLomdOuGgetqls50d9gv1eoJZphAPbpN9NgERBQwbTLu41F99LdWFvfQyWxzSuwZb1X~8RnQiBhyzW0KOqjONr7BQCJbPT32Ux&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I177%3Fsite_lang%3Dfr&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=fede1404f5ef1275a82208e644d43184fd4ed09cc6d3b649f0529c2e5178e3d4'
     }
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Sat, 31 May 2025 03:29:39 GMT',
+  date: 'Sat, 31 May 2025 15:09:58 GMT',
   server: 'Apache',
   'x-datadome': 'protected',
   'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
   charset: 'utf-8',
   'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
   pragma: 'no-cache',
-  'x-datadome-cid': 'AHrlqAAAAAMAGfDuhz_qq9AAFPFoEQ==',
+  'x-datadome-cid': 'AHrlqAAAAAMAFSilqSI9Hg4AFDOEsA==',
   'x-dd-b': '3',
   'set-cookie': [
-    'datadome=tocw7iFKsomhT8dzbbtiWDC4T2b7x_hWtIsG0v6b0TJkN4TYA9ehfD67LSh7SDlbNx1x3hjWHUy1qaeUZFcvAkVRIAX825pKqCuKfGZwDFeDKBasp9oexzfhNwwEgrSO; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
-    'SERVER_USED=cairnweb4; path=/'
-  ],
-  'content-length': '460',
-  'access-control-allow-origin': '*',
-  'content-type': 'application/json;charset=utf-8'
-}
-Error scraping abstract from https://doi.org/10.3917/jie.pr1.0181 (original: https://doi.org/10.3917/jie.pr1.0181): AxiosError: Request failed with status code 403
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at IncomingMessage.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at IncomingMessage.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 8)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.3917/jie.pr1.0181',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: TLSSocket {
-      _tlsOptions: [Object],
-      _secureEstablished: true,
-      _securePending: false,
-      _newSessionPending: false,
-      _controlReleased: true,
-      secureConnecting: false,
-      _SNICallback: null,
-      servername: 'shs.cairn.info',
-      alpnProtocol: false,
-      authorized: true,
-      authorizationError: null,
-      encrypted: true,
-      _events: [Object: null prototype],
-      _eventsCount: 9,
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'shs.cairn.info',
-      _closeAfterHandlingError: false,
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: undefined,
-      _server: null,
-      ssl: [TLSWrap],
-      _requestCert: true,
-      _rejectUnauthorized: true,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(alpncallback)]: null,
-      [Symbol(res)]: [TLSWrap],
-      [Symbol(verified)]: true,
-      [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TLSWrap],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 30064,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4150,
-        [Symbol(triggerId)]: 4148
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: false,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(connect-options)]: [Object]
-    },
-    _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: shs.cairn.info\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 443,
-      protocol: 'https:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 3,
-      maxCachedSessions: 100,
-      _sessionCache: [Object],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 403,
-      statusMessage: 'Forbidden',
-      client: [TLSSocket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 28,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'shs.cairn.info',
-    protocol: 'https:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 403,
-    statusText: 'Forbidden',
-    headers: Object [AxiosHeaders] {
-      date: 'Sat, 31 May 2025 03:29:40 GMT',
-      server: 'Apache',
-      'x-datadome': 'protected',
-      'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
-      charset: 'utf-8',
-      'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
-      pragma: 'no-cache',
-      'x-datadome-cid': 'AHrlqAAAAAMAXpxln2xKQt4AFPFoEQ==',
-      'x-dd-b': '3',
-      'set-cookie': [Array],
-      'content-length': '460',
-      'access-control-allow-origin': '*',
-      'content-type': 'application/json;charset=utf-8'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.3917/jie.pr1.0181',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [TLSSocket],
-      _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: shs.cairn.info\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'shs.cairn.info',
-      protocol: 'https:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: {
-      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAXpxln2xKQt4AFPFoEQ==&cid=XmdBZfzPLxiWyDWYze13ksfNq6W6MOWU3Fm_6vSJSSGj6ya5zd0Nu0quE0EZH3EO0tc1KCT0OkdMP7VhNlPm1H6ENm8gHwXW5yf8fUSVd9TL1IezKWPtMAkpgKxlGvrO&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I181%3Fsite_lang%3Dfr&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=a6e73a716ac5266db2009a3e53a6448da6f59c983fd605c940ee8f71e1b9aa4a'
-    }
-  },
-  status: 403
-}
-Status: 403
-Headers: Object [AxiosHeaders] {
-  date: 'Sat, 31 May 2025 03:29:40 GMT',
-  server: 'Apache',
-  'x-datadome': 'protected',
-  'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
-  charset: 'utf-8',
-  'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
-  pragma: 'no-cache',
-  'x-datadome-cid': 'AHrlqAAAAAMAXpxln2xKQt4AFPFoEQ==',
-  'x-dd-b': '3',
-  'set-cookie': [
-    'datadome=XmdBZfzPLxiWyDWYze13ksfNq6W6MOWU3Fm_6vSJSSGj6ya5zd0Nu0quE0EZH3EO0tc1KCT0OkdMP7VhNlPm1H6ENm8gHwXW5yf8fUSVd9TL1IezKWPtMAkpgKxlGvrO; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
-    'SERVER_USED=cairnweb4; path=/'
+    'datadome=xdRQe9~1zZ6u6b7yUMh5gcfk~59oKehLomdOuGgetqls50d9gv1eoJZphAPbpN9NgERBQwbTLu41F99LdWFvfQyWxzSuwZb1X~8RnQiBhyzW0KOqjONr7BQCJbPT32Ux; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
+    'SERVER_USED=cairnweb3; path=/'
   ],
   'content-length': '460',
   'access-control-allow-origin': '*',
@@ -1681,15 +1284,15 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0180 (original: htt
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [Timeout],
-        _idleStart: 30287,
+        _idleStart: 28965,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4187,
-        [Symbol(triggerId)]: 4185
+        [Symbol(asyncId)]: 3925,
+        [Symbol(triggerId)]: 3923
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1821,14 +1424,14 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0180 (original: htt
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Sat, 31 May 2025 03:29:40 GMT',
+      date: 'Sat, 31 May 2025 15:09:58 GMT',
       server: 'Apache',
       'x-datadome': 'protected',
       'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
       charset: 'utf-8',
       'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
       pragma: 'no-cache',
-      'x-datadome-cid': 'AHrlqAAAAAMAN6LRZiN4MvwAFPFoEQ==',
+      'x-datadome-cid': 'AHrlqAAAAAMAx6DYY7E5GJ8AFDOEsA==',
       'x-dd-b': '3',
       'set-cookie': [Array],
       'content-length': '460',
@@ -1919,31 +1522,31 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0180 (original: htt
       [Symbol(kUniqueHeaders)]: null
     },
     data: {
-      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAN6LRZiN4MvwAFPFoEQ==&cid=Xk9CvK6n4HHgT9YEuBKZb7uXg2_drORulMG8ac63CiiCsQrDdaQberKqv4lPPhkI_ygiRjCNyH_6khAQzVhAufeL3pImXqH8GUkDIbX74AgAGnydiYHN339f7twUu82i&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I180%3Fsite_lang%3Dfr&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=a6e73a716ac5266db2009a3e53a6448d17cc5ae8c755ca9296f804f0f0469419'
+      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAx6DYY7E5GJ8AFDOEsA==&cid=1q4G9HClPKPOJ6GGNMt8dnOkthdEiNhTz1T_5bVnMcGWTHFCT33pgQGng02W4_E~Pjm4IGVQTZaVGG_RqqxOZid7P2xNaz3m0NGZfLyXvVCdbMFbhVjn~y99Da06nYDB&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I180%3Fsite_lang%3Dfr&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=fede1404f5ef1275a82208e644d43184a999676e738ed80e7cb6bb89561c0013'
     }
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Sat, 31 May 2025 03:29:40 GMT',
+  date: 'Sat, 31 May 2025 15:09:58 GMT',
   server: 'Apache',
   'x-datadome': 'protected',
   'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
   charset: 'utf-8',
   'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
   pragma: 'no-cache',
-  'x-datadome-cid': 'AHrlqAAAAAMAN6LRZiN4MvwAFPFoEQ==',
+  'x-datadome-cid': 'AHrlqAAAAAMAx6DYY7E5GJ8AFDOEsA==',
   'x-dd-b': '3',
   'set-cookie': [
-    'datadome=Xk9CvK6n4HHgT9YEuBKZb7uXg2_drORulMG8ac63CiiCsQrDdaQberKqv4lPPhkI_ygiRjCNyH_6khAQzVhAufeL3pImXqH8GUkDIbX74AgAGnydiYHN339f7twUu82i; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
-    'SERVER_USED=cairnweb4; path=/'
+    'datadome=1q4G9HClPKPOJ6GGNMt8dnOkthdEiNhTz1T_5bVnMcGWTHFCT33pgQGng02W4_E~Pjm4IGVQTZaVGG_RqqxOZid7P2xNaz3m0NGZfLyXvVCdbMFbhVjn~y99Da06nYDB; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
+    'SERVER_USED=cairnweb3; path=/'
   ],
   'content-length': '460',
   'access-control-allow-origin': '*',
   'content-type': 'application/json;charset=utf-8'
 }
-Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: https://doi.org/10.3917/jie.pr1.0168): AxiosError: Request failed with status code 403
+Error scraping abstract from https://doi.org/10.3917/jie.pr1.0181 (original: https://doi.org/10.3917/jie.pr1.0181): AxiosError: Request failed with status code 403
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at IncomingMessage.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
     at IncomingMessage.emit (node:events:536:35)
@@ -1954,7 +1557,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
+    at async Promise.all (index 8)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -1984,7 +1587,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
     },
     maxRedirects: 5,
     method: 'get',
-    url: 'https://doi.org/10.3917/jie.pr1.0168',
+    url: 'https://doi.org/10.3917/jie.pr1.0181',
     allowAbsoluteUrls: true,
     data: undefined
   },
@@ -2066,16 +1669,16 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 31303,
+        _idleNext: [Timeout],
+        _idleStart: 29407,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4281,
-        [Symbol(triggerId)]: 4279
+        [Symbol(asyncId)]: 3962,
+        [Symbol(triggerId)]: 3960
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -2089,7 +1692,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       [Symbol(kBytesWritten)]: 0,
       [Symbol(connect-options)]: [Object]
     },
-    _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi HTTP/1.1\r\n' +
+    _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr HTTP/1.1\r\n' +
       'Accept: application/json, text/plain, */*\r\n' +
       'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -2106,7 +1709,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       protocol: 'https:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
+      sockets: [Object: null prototype] {},
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -2114,7 +1717,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 3,
       maxCachedSessions: 100,
       _sessionCache: [Object],
       [Symbol(shapeMode)]: false,
@@ -2125,7 +1728,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
     maxHeaderSize: undefined,
     insecureHTTPParser: undefined,
     joinDuplicateHeaders: undefined,
-    path: '/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+    path: '/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
     _ended: true,
     res: IncomingMessage {
       _events: [Object],
@@ -2150,7 +1753,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
-      responseUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+      responseUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
       redirects: [],
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false,
@@ -2174,14 +1777,14 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       _options: [Object],
       _ended: true,
       _ending: true,
-      _redirectCount: 2,
+      _redirectCount: 1,
       _redirects: [],
       _requestBodyLength: 0,
       _requestBodyBuffers: [],
       _eventsCount: 3,
       _onNativeResponse: [Function (anonymous)],
       _currentRequest: [Circular *1],
-      _currentUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+      _currentUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
       _timeout: null,
       _isRedirect: true,
       [Symbol(shapeMode)]: true,
@@ -2207,17 +1810,17 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Sat, 31 May 2025 03:29:41 GMT',
+      date: 'Sat, 31 May 2025 15:09:59 GMT',
       server: 'Apache',
       'x-datadome': 'protected',
       'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
       charset: 'utf-8',
       'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
       pragma: 'no-cache',
-      'x-datadome-cid': 'AHrlqAAAAAMAudMtFEU8YqAAFPFoEQ==',
+      'x-datadome-cid': 'AHrlqAAAAAMA9Spt_oln74sAFDOEsA==',
       'x-dd-b': '3',
       'set-cookie': [Array],
-      'content-length': '464',
+      'content-length': '460',
       'access-control-allow-origin': '*',
       'content-type': 'application/json;charset=utf-8'
     },
@@ -2236,7 +1839,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       headers: [Object [AxiosHeaders]],
       maxRedirects: 5,
       method: 'get',
-      url: 'https://doi.org/10.3917/jie.pr1.0168',
+      url: 'https://doi.org/10.3917/jie.pr1.0181',
       allowAbsoluteUrls: true,
       data: undefined
     },
@@ -2266,7 +1869,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       _headerSent: true,
       _closed: true,
       socket: [TLSSocket],
-      _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi HTTP/1.1\r\n' +
+      _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr HTTP/1.1\r\n' +
         'Accept: application/json, text/plain, */*\r\n' +
         'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -2281,7 +1884,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+      path: '/revue-journal-of-innovation-economics-2024-0-page-I181?site_lang=fr',
       _ended: true,
       res: [IncomingMessage],
       aborted: false,
@@ -2305,27 +1908,27 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: htt
       [Symbol(kUniqueHeaders)]: null
     },
     data: {
-      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAudMtFEU8YqAAFPFoEQ==&cid=NJ4ciQt1R6uvcClFVQDqXXVqGPxDQipTXb68ZBqvvpMQbaUA8tO1QjMBOkbYdhDouTJJvjhX5k8GD88ZMOgTvv68eVmNZWi4TDC_Tj1vm4zRDNfUCgIOe6OfbO_tKRMp&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I%3Flang%3Dfr%26ref%3Ddoi&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=a6e73a716ac5266db2009a3e53a6448d93ed0210c54968085531469343309932'
+      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA9Spt_oln74sAFDOEsA==&cid=FXLxOgRondtDu3VY3WOjXdXMoHGJXkWvZj614w7qpoZmAktbPynFyU4m4MnwbNP2t9cmwyh2wkAHQXbFAD0D90Kjp8cUMAum7FRfx78cxV1ixo229G1fLC1Yk5VSLLyy&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I181%3Fsite_lang%3Dfr&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=fede1404f5ef1275a82208e644d431849f8594355bd685a7786d206a47b2abff'
     }
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Sat, 31 May 2025 03:29:41 GMT',
+  date: 'Sat, 31 May 2025 15:09:59 GMT',
   server: 'Apache',
   'x-datadome': 'protected',
   'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
   charset: 'utf-8',
   'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
   pragma: 'no-cache',
-  'x-datadome-cid': 'AHrlqAAAAAMAudMtFEU8YqAAFPFoEQ==',
+  'x-datadome-cid': 'AHrlqAAAAAMA9Spt_oln74sAFDOEsA==',
   'x-dd-b': '3',
   'set-cookie': [
-    'datadome=NJ4ciQt1R6uvcClFVQDqXXVqGPxDQipTXb68ZBqvvpMQbaUA8tO1QjMBOkbYdhDouTJJvjhX5k8GD88ZMOgTvv68eVmNZWi4TDC_Tj1vm4zRDNfUCgIOe6OfbO_tKRMp; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
+    'datadome=FXLxOgRondtDu3VY3WOjXdXMoHGJXkWvZj614w7qpoZmAktbPynFyU4m4MnwbNP2t9cmwyh2wkAHQXbFAD0D90Kjp8cUMAum7FRfx78cxV1ixo229G1fLC1Yk5VSLLyy; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
     'SERVER_USED=cairnweb4; path=/'
   ],
-  'content-length': '464',
+  'content-length': '460',
   'access-control-allow-origin': '*',
   'content-type': 'application/json;charset=utf-8'
 }
@@ -2453,15 +2056,15 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0164 (original: htt
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 31592,
+        _idleStart: 31196,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4309,
-        [Symbol(triggerId)]: 4307
+        [Symbol(asyncId)]: 4070,
+        [Symbol(triggerId)]: 4068
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -2492,7 +2095,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0164 (original: htt
       protocol: 'https:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
+      sockets: [Object: null prototype],
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -2500,7 +2103,7 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0164 (original: htt
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 1,
+      totalSocketCount: 2,
       maxCachedSessions: 100,
       _sessionCache: [Object],
       [Symbol(shapeMode)]: false,
@@ -2593,14 +2196,14 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0164 (original: htt
     status: 403,
     statusText: 'Forbidden',
     headers: Object [AxiosHeaders] {
-      date: 'Sat, 31 May 2025 03:29:41 GMT',
+      date: 'Sat, 31 May 2025 15:10:01 GMT',
       server: 'Apache',
       'x-datadome': 'protected',
       'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
       charset: 'utf-8',
       'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
       pragma: 'no-cache',
-      'x-datadome-cid': 'AHrlqAAAAAMAofEJBhe5NikAFPFoEQ==',
+      'x-datadome-cid': 'AHrlqAAAAAMA9pUpvMN1SOQAFDOEsA==',
       'x-dd-b': '3',
       'set-cookie': [Array],
       'content-length': '467',
@@ -2691,27 +2294,413 @@ Error scraping abstract from https://doi.org/10.3917/jie.pr1.0164 (original: htt
       [Symbol(kUniqueHeaders)]: null
     },
     data: {
-      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAofEJBhe5NikAFPFoEQ==&cid=6aN8pNhgAnUpbUiWcLoH1MYtfCGmLJRoETqVzidrw9CSRwcLYLT3BJLYz4zrA0yit3Gy3zVMmyZjFIuQxskdSTpsb9pChTO3z24SeeV2SYT7InNCkkZHqDyGtF4Aq0UL&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I164%3Flang%3Dfr%26ref%3Ddoi&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=a6e73a716ac5266db2009a3e53a6448dcdde40aa08e212b21d1d3e9f5e009c15'
+      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA9pUpvMN1SOQAFDOEsA==&cid=Aq4~FDSUH9MJz3kJHNFS26kPyLNERA1iu17H~_xELw09ENF73cnWCN8tx5jOtmae2FNTCTVvCWyhCioZ2oHza_osHpCfZBMMSKkq7yPOUVs~1MmlDSWBF9xat18pSZPl&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I164%3Flang%3Dfr%26ref%3Ddoi&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=fede1404f5ef1275a82208e644d431841ca7e60e50940af9b8245886ba00e166'
     }
   },
   status: 403
 }
 Status: 403
 Headers: Object [AxiosHeaders] {
-  date: 'Sat, 31 May 2025 03:29:41 GMT',
+  date: 'Sat, 31 May 2025 15:10:01 GMT',
   server: 'Apache',
   'x-datadome': 'protected',
   'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
   charset: 'utf-8',
   'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
   pragma: 'no-cache',
-  'x-datadome-cid': 'AHrlqAAAAAMAofEJBhe5NikAFPFoEQ==',
+  'x-datadome-cid': 'AHrlqAAAAAMA9pUpvMN1SOQAFDOEsA==',
   'x-dd-b': '3',
   'set-cookie': [
-    'datadome=6aN8pNhgAnUpbUiWcLoH1MYtfCGmLJRoETqVzidrw9CSRwcLYLT3BJLYz4zrA0yit3Gy3zVMmyZjFIuQxskdSTpsb9pChTO3z24SeeV2SYT7InNCkkZHqDyGtF4Aq0UL; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
-    'SERVER_USED=cairnweb3; path=/'
+    'datadome=Aq4~FDSUH9MJz3kJHNFS26kPyLNERA1iu17H~_xELw09ENF73cnWCN8tx5jOtmae2FNTCTVvCWyhCioZ2oHza_osHpCfZBMMSKkq7yPOUVs~1MmlDSWBF9xat18pSZPl; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
+    'SERVER_USED=cairnweb4; path=/'
   ],
   'content-length': '467',
+  'access-control-allow-origin': '*',
+  'content-type': 'application/json;charset=utf-8'
+}
+Error scraping abstract from https://doi.org/10.3917/jie.pr1.0168 (original: https://doi.org/10.3917/jie.pr1.0168): AxiosError: Request failed with status code 403
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.3917/jie.pr1.0168',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'shs.cairn.info',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'shs.cairn.info',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 31198,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4082,
+        [Symbol(triggerId)]: 4080
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: shs.cairn.info\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 2,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 403,
+      statusMessage: 'Forbidden',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 28,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'shs.cairn.info',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 2,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://shs.cairn.info/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Object [AxiosHeaders] {
+      date: 'Sat, 31 May 2025 15:10:01 GMT',
+      server: 'Apache',
+      'x-datadome': 'protected',
+      'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
+      charset: 'utf-8',
+      'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
+      pragma: 'no-cache',
+      'x-datadome-cid': 'AHrlqAAAAAMAwlcjRU-kc4UAFDOEsA==',
+      'x-dd-b': '3',
+      'set-cookie': [Array],
+      'content-length': '464',
+      'access-control-allow-origin': '*',
+      'content-type': 'application/json;charset=utf-8'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.3917/jie.pr1.0168',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: shs.cairn.info\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/revue-journal-of-innovation-economics-2024-0-page-I?lang=fr&ref=doi',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'shs.cairn.info',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      url: 'https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAwlcjRU-kc4UAFDOEsA==&cid=UURMv_SpUPEox4bvfq8f5uWawwnNANYp4R83GM0KWDmIAGMw8VzOYITLyo~t33ys9pISpUGESBkoAVG2MneavnSVi6so~uw2OfV1R7BdeGOgr1emZZwjjgFmKRlqadw9&referer=https%3A%2F%2Fshs.cairn.info%2Frevue-journal-of-innovation-economics-2024-0-page-I%3Flang%3Dfr%26ref%3Ddoi&hash=9E3A8A2A4B1B6523B8B3953E2C0374&t=it&s=45004&e=fede1404f5ef1275a82208e644d4318468daf32baad215cf0c46504339e8dbf1'
+    }
+  },
+  status: 403
+}
+Status: 403
+Headers: Object [AxiosHeaders] {
+  date: 'Sat, 31 May 2025 15:10:01 GMT',
+  server: 'Apache',
+  'x-datadome': 'protected',
+  'accept-ch': 'Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory',
+  charset: 'utf-8',
+  'cache-control': 'max-age=0, private, no-cache, no-store, must-revalidate',
+  pragma: 'no-cache',
+  'x-datadome-cid': 'AHrlqAAAAAMAwlcjRU-kc4UAFDOEsA==',
+  'x-dd-b': '3',
+  'set-cookie': [
+    'datadome=UURMv_SpUPEox4bvfq8f5uWawwnNANYp4R83GM0KWDmIAGMw8VzOYITLyo~t33ys9pISpUGESBkoAVG2MneavnSVi6so~uw2OfV1R7BdeGOgr1emZZwjjgFmKRlqadw9; Max-Age=31536000; Domain=.cairn.info; Path=/; Secure; SameSite=None',
+    'SERVER_USED=cairnweb3; path=/'
+  ],
+  'content-length': '464',
   'access-control-allow-origin': '*',
   'content-type': 'application/json;charset=utf-8'
 }
@@ -3028,6 +3017,7 @@ Translating paper 14/50
 Translating paper: The future of the standard employment relationship...
 Translating paper 15/50
 Translating paper: The Capability Approach and the Economics of Labou...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.860439005935994 seconds...
 Translating paper 16/50
 Translating paper: The new economics of labour migration and the role...
 Translating paper 17/50
@@ -3059,25 +3049,25 @@ Translating paper: Unveiling the Economic Determinants of Child Labou...
 Translating paper 30/50
 Translating paper: The Effect of Emotional Labour on Job Dedication A...
 Translating paper 31/50
-Translating paper: Long-run causal impact of the 2011 Economic Adjust...
+Translating paper: Molecular detection and identification of Trichobi...
 Translating paper 32/50
-Translating paper: Socio-medical factors associated with neurodevelop...
+Translating paper: Balancing the ban: Navigating the economic and env...
 Translating paper 33/50
-Translating paper: Estimating wage disparities using foundation model...
+Translating paper: An institutional analysis of performance and impac...
 Translating paper 34/50
-Translating paper: Experiences of vaginal examination by pregnant wom...
+Translating paper: Long-run causal impact of the 2011 Economic Adjust...
 Translating paper 35/50
-Translating paper: There's never been a better time to be a STEM educ...
+Translating paper: Socio-medical factors associated with neurodevelop...
 Translating paper 36/50
-Translating paper: Community-level determinants of loneliness and soc...
+Translating paper: Estimating wage disparities using foundation model...
 Translating paper 37/50
-Translating paper: Economic implications of artificial intelligence-d...
+Translating paper: Experiences of vaginal examination by pregnant wom...
 Translating paper 38/50
-Translating paper: One Health Economics 2.0 - commentary....
+Translating paper: There's never been a better time to be a STEM educ...
 Translating paper 39/50
-Translating paper: A structured comparison and reflection on internat...
+Translating paper: Community-level determinants of loneliness and soc...
 Translating paper 40/50
-Translating paper: Feasibility and Acceptability of a Novel Behaviora...
+Translating paper: Economic implications of artificial intelligence-d...
 Translating paper 41/50
 Translating paper: A criticism of the paradigm of rational choice in ...
 Translating paper 42/50
@@ -3099,25 +3089,25 @@ Translating paper: Sustainability Transformations and the Transformat...
 Translating paper 50/50
 Translating paper: Entrepreneurship versus Intrapreneurship: Are the ...
 Translation completed: 50 papers
-Removed duplicates: 130 -> 130
-Total papers after merging: 130 (80 existing + 50 new)
-Saved 130 papers to papers.json
+Removed duplicates: 180 -> 133
+Total papers after merging: 133 (130 existing + 50 new)
+Saved 133 papers to papers.json
 Generating HTML files...
-Generating index.html with 130 papers...
+Generating index.html with 133 papers...
 Successfully generated index.html
-Generating archive.html with 130 papers...
+Generating archive.html with 133 papers...
 Successfully generated archive.html
-Generating journal.html with 130 papers...
+Generating journal.html with 133 papers...
 Successfully generated journal.html
-Generating acquisition.html with 130 papers...
+Generating acquisition.html with 133 papers...
 Successfully generated acquisition.html
-Generating publication.html with 130 papers...
+Generating publication.html with 133 papers...
 Successfully generated publication.html
-Generating registration.html with 130 papers...
+Generating registration.html with 133 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 130
+Total papers in database: 133
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-05-31T03:58:43.387Z
+Timestamp: 2025-05-31T15:39:03.453Z
