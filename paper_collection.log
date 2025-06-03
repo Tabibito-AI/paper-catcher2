@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-02T15:12:08.024Z
+Timestamp: 2025-06-03T15:12:43.057Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 50 existing papers from papers.json
+Loaded 70 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -299,376 +299,413 @@ Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
 Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  },
+  {
+    id: '35d0ead88e9bd727c16459e785358b0050e54514',
+    title: 'Economics of education',
+    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
+    journal: 'No journal available',
+    doi: '10.12737/17661',
+    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
+  },
+  {
+    id: '0e83f229b9de199453823283d9550e10e0e5b00f',
+    title: 'Teaching climate complacency: mainstream economics textbooks and the need for transformation in economics education',
+    abstract: 'ABSTRACT In this paper we ask, what is mainstream economics education conveying to its students? Standard mainstream economics textbooks treat the environment as a specialist issue in addition to standard concerns and based on solutions that conform to those standard concerns. When viewed as socialisation for students this is a major problem. To illustrate the problems we set out key aspects of the standard format, and draw attention to the structure and contents from two well-known textbooks. Standard textbooks convey the impression that the ‘environmental issue’ is appropriately incorporated and exhibit two complacency-creating features. First, fundamental problems (acute global ecological breakdown, biodiversity loss, climate change crisis etc), issues and urgency cannot be adequately conveyed to students within this way of framing economics. Second, specific theory and policy solutions suggest that the problem is well in hand. We illustrate using the theory of negative externalities.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'B. Gills', 'J. Morgan' ],
+    journal: 'Globalizations',
+    doi: '10.1080/14747731.2020.1808413',
+    link: 'https://www.semanticscholar.org/paper/0e83f229b9de199453823283d9550e10e0e5b00f'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
   {
-    id: '10.1007/s40670-025-02429-1',
-    title: 'Surveying Health Professions Students’ Use of Generative AI Applications',
-    summary: 'While there has been an explosion of interest in the use of generative AI (GenAI) applications in medical education over the past 2 years, relatively little is understood about how health professions students are using this technology. This study aimed to answer these questions by surveying students about their GenAI use. Unsurprisingly, this survey revealed that many students were indeed using these applications, most often for information retrieval.',
-    published: '2025-06-02',
-    authors: [
-      'Harris, Emily C.',
-      'Baldwin, Amy',
-      'Davies, Kathy',
-      'Gaines, Julie K.',
-      'Hill, Janette',
-      'Tharrington, Shafer',
-      'Sperr, Edwin V., Jr'
-    ],
-    categories: [ undefined, undefined ],
+    id: '10.1007/s43995-025-00136-x',
+    title: 'Developing a multi-layer agent framework to enhance AI-generated educational questions for cybersecurity',
+    summary: 'This study evaluates the quality of questions generated by large language models, such as ChatGPT, in the context of cybersecurity education, using the CompTIA Security + certification as a case study. By analyzing 360 human-authored questions across 17 chapters and comparing them with AI-generated counterparts, the study employs Bloom’s Taxonomy to assess the cognitive levels achieved. The results reveal that AI-generated questions are predominantly limited to lower-order cognitive tasks, such as remembering and understanding, with significant gaps in addressing higher-order cognitive tasks, including applying, analyzing, evaluating, and creating. To address these limitations, a multi-layer agent framework was developed and implemented on a website. This framework integrates the ChatGPT API and processes the generated questions through multiple stages of evaluation, aligning them with Bloom’s Taxonomy and enhancing their quality. The framework includes scenario-based refinements, domain-specific fine-tuning, and a feedback mechanism to iteratively improve the cognitive depth of the questions. The agent systematically aligns AI-generated content with higher Bloom’s levels, making the questions more robust and applicable to real-world contexts. Evaluation of the framework demonstrates notable advancements in the quality of AI-generated questions, achieving closer alignment with human-authored content in terms of cognitive complexity, scenario depth, and relevance. The agent achieved substantial improvements in generating higher-order cognitive tasks, addressing the limitations of baseline AI performance. This study provides a scalable foundation for leveraging large language models in high-stakes educational assessments, with implications for adaptive learning and enhanced question design across diverse domains.',
+    published: '2025-06-03',
+    authors: [ 'Alshehri, Aziz' ],
+    categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Medical Science Educator'
+    journal: 'Journal of Umm Al-Qura University for Engineering and Architecture'
   },
   {
-    id: '10.1186/s12889-025-23313-y',
-    title: 'The effect of simulation-based breast health education on breast cancer awareness and breast self-examination skills of Afghan refugee women: a randomized controlled trial',
-    summary: "Objectives The aim of this study was to examine the effects of simulation-based breast health education on Afghan women's awareness of breast cancer, including knowledge of its risk factors, signs, and symptoms, as well as to improve their breast self-examination skills. Study design This study was a pre-test, post-test, parallel-arm randomized controlled trial. Methods The study sample consisted of 46 Afghan women, with 23 participants assigned to each of the intervention and control groups using block randomization. This study was conducted at the Social Development and Aid Mobilization (SGDD-ASAM) in Ankara, Türkiye. The intervention group received simulation-based breast health training. Each session of breast health education was 180 min. The simulation used a one-to-one show-and-do technique, which took approximately 120 min. Data were collected using the Breast Cancer Awareness Measure and the Breast Self-Examination Skill Assessment Form. The data were analyzed with the IBM SPSS 26 program. Descriptive statistics were used to evaluate the study data, including mean, standard deviation, percentage, and frequency distribution. The Shapiro–Wilk normality test was applied for further analysis. The Chi-Square (X 2 ) Test was used to compare outcomes between groups. The significance level of p  < 0.05 was considered. Results After the simulation-based training, there was a significant increase in confidence, skills, and behavior awareness among participants in the intervention group compared to the control group ( p  < 0.001). While there was no change in the control group, awareness of breast cancer, knowledge, and skills in the intervention group were predominantly rated as sufficient. Conclusions The simulation-based breast health education intervention for Afghan refugee women was found to be a practical and innovative approach to raising breast cancer awareness and providing breast self-examination skills. This intervention may play a significant role in identifying at-risk individuals and raising their awareness. If sustained, this could potentially increase future screening participation and early detection, ultimately contributing to improved patient outcomes. It is recommended that policymakers and health professionals prioritize the integration of simulation-based health education into prevention and health promotion strategies targeting disadvantaged populations, such as refugees and migrants, to improve early diagnosis and advance health equity. Trial registration Clinical Trials Number is NCT06051331. Registration date is 22.11.2023.",
-    published: '2025-06-02',
-    authors: [
-      'Kuru Alici, Nilgün',
-      'Arikan Dönmez, Ayşe',
-      'Aktaş, Okşan',
-      'Zeytun, Zeybek'
-    ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
+    id: '10.1007/s40839-025-00259-2',
+    title: 'Exploring the interplay of religion and spirituality: an Islamic perspective on spiritual seeking and human existence',
+    summary: 'This article explores the integral role of Islamic spirituality in addressing diverse life challenges, with a focus on the pursuit of meaning, purpose, and healing and its connection with Islamic education. It investigates how spiritual awareness within Islam aids individuals in coping with difficulties related to health, wealth, work, and family by providing a comprehensive framework for understanding and overcoming these adversities. Through an extensive literature review and synthesis of previous research, the study demonstrates that spiritual with seeking frequently arises in response to personal crises, establishing this quest for meaning as a fundamental aspect of spiritual development. Additionally, it highlights the role of Islamic religious education (IRE) in fostering resilience and moral integrity, equipping humans with the spiritual tools necessary to navigate life’s challenges. The discussion emphasizes how facing adversity can enhance one’s spiritual connection to God (Allah) and examines Islamic teachings on patience, gratitude, and perseverance. Additionally, the article analyzes the process of spiritual healing in the context of critical illness, highlighting how practices such as prayer, remembrance, and supplication offer psychological comfort and strengthen faith. By integrating the concepts of tazkiyat al-nafs (self-purification) and the holistic interplay between spiritual and physical aspects of life, the study portrays Islamic spirituality as a vital tool for personal growth and emotional resilience. Ultimately, it argues that Islamic spirituality provides a holistic approach to discovering life’s meaning, managing challenges, and achieving both temporal and eternal well-being. This research contributes to a deeper understanding of the therapeutic potential of spirituality, particularly within Islamic contexts, and offers valuable insights for its application in contemporary settings.',
+    published: '2025-06-03',
+    authors: [ 'Ayob, Mohd Annas Shafiq', 'Sham, Fariza Md', 'Alias, Jamsari' ],
+    categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'BMC Public Health'
+    journal: 'Journal of Religious Education'
   },
   {
-    id: '10.1007/s44248-025-00061-3',
-    title: 'Multilingual competency and academic performance: a machine learning-based analysis of the 2022/2023 Somaliland national primary exam data',
-    summary: 'This study investigated how proficiency in Somali, Arabic, and English predicts academic success of primary school students within Somaliland’s trilingual educational context. This research addresses a gap in large-scale, data-driven studies using advanced analytics. The study analyzed national examination data from 20,638 students who participated in the 2022/2023 Grade 8 national exams, sourced from the Somaliland National Examination and Certification Board (NECB). Methods included descriptive statistics, correlation analysis, multiple linear regression (MLR), and comparison of ten machine learning (ML) regression models—Linear, Polynomial, Robust, Partial Least Squares (PLS), Support Vector Regression (SVR), Principal Component Regression (PCR), Quantile, Ridge, Lasso, and Elastic Net Regression. Models were evaluated using Mean Absolute Percentage Error (MAPE), Root Mean Squared Percentage Error (RMSPE), Root Mean Squared Logarithmic Error (RMSLE), and Relative Root Squared Error (RRSE) to assess predictive accuracy. Findings showed that proficiency scores in Somali, Arabic, and English were significant positive predictors of overall academic performance, explaining 79.4% of the variance (R 2 ≈ 0.794, F (3, 20,602) = 26,407.88, p < 0.001). English proficiency showed the strongest predictive coefficient (B = 2.34, p < 0.001), followed by Arabic (B = 2.23, p < 0.001), and Somali (B = 1.63, p < 0.001), highlighting their differential impact within the assessment framework. The ML model analysis revealed Polynomial Regression provided the most accurate predictions (lowest MAPE = 8.68%, lowest RRSE = 44.24%), suggesting non-linear relationships between language skills and academic achievement that linear models may not capture. The analysis revealed demographic imbalances, with data predominantly from urban (90.8%) and private school (57.3%) students. Policy implications emphasize enhancing equitable access to language instruction across all three languages, focusing on rural and public school populations; evaluating assessment practices for linguistic fairness; and addressing resource allocation disparities using ML insights for targeted interventions. Future research recommendations include longitudinal studies to explore causality, integrating comprehensive language assessments and socioeconomic data, investigating multilingual classroom practices, applying Explainable AI (XAI) techniques, examining language-demographic interactions, and analyzing subject-specific outcomes. Clinical Trial Registration: This study does not involve a clinical trial requiring registration.',
-    published: '2025-06-02',
+    id: '10.1038/s41598-025-04616-x',
+    title: 'The green potential of the digital economy in balancing economic growth and carbon emissions',
+    summary: 'The imperative to mitigate carbon dioxide emissions is evident, given the escalating environmental challenges. The digital economy emerges as a pivotal agent for green solutions. Nonetheless, it is crucial to maintain a balance between emission reduction and economic growth, ensuring that efforts to curtail carbon output do not hinder economic development. This study aims to investigate the impact of digital economy on carbon efficiency across 287 Chinese cities from 2000 to 2021, based on benchmarks regression, threshold effect model, spatial effect regression, mechanism analysis, heterogeneity analysis, and difference-in-difference analysis. A key innovation of this study is the use of the Data Envelopment Analysis–Slack-Based Measure (DEA-SBM) model to measure carbon emission efficiency, addressing a major gap in existing research that primarily focuses on total emissions rather than efficiency. Compared with traditional efficiency measures, DEA-SBM captures the slack in both inputs and outputs, enabling a more realistic assessment of carbon efficiency under conditions of resource inefficiency and regulatory pressure in urban environments. Additionally, a structural equation model provides a multifaceted view of the digital economy’s influence on carbon efficiency, moving past conventional single-pathway mediation models. Empirical results show that a 1% increase in the Digital Economy Index leads to a 0.148% improvement in carbon emission efficiency. In high-GDP regions, this effect rises sharply to 3.624%. A mediation analysis further reveals that the digital economy also indirectly boosts carbon efficiency through economic growth, contributing an additional 0.47% improvement. These findings underscore the digital economy’s dual potential to foster both economic growth and carbon emissions. Based on the results, it is recommended that policymakers intensify digital economy development in undeveloped and resource-deteriorating regions, reduce taxes for green technology enterprises, and facilitate knowledge sharing from the more advanced eastern regions to enhance carbon emission efficiency.',
+    published: '2025-06-03',
+    authors: [ 'Bai, Conghui', 'Du, Xuyang', 'Chua, Soo Yean' ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Scientific Reports'
+  },
+  {
+    id: '10.1007/s11858-025-01703-1',
+    title: 'Geometry education at secondary level – a systematic literature review',
+    summary: 'This systematic literature review summarises research on geometry education published since 2013. It begins with a conceptualization of the geometry education using the didactic tetrahedron model. The PRISMA guidelines were used to search five databases, in addition to conference proceedings and journals. The keywords and abstracts from the articles were analyzed using the “Voyant Tool” that created a list of the frequencies of words and their possible relationships to each other. Based on this analysis, the articles were coded using the didactic tetrahedron model. This informed the development of codes that were analyzed to develop categories related to the process skills Arguing and Reasoning, Proving and Reasoning, Problem Solving, and Modeling; the content skills Plane Geometry, Spatial Geometry, and Measurement, including Area and Volume; concepts that include Assessment, Gamification and Computational Thinking; and finally Teaching Competencies and Teaching Theories. The results of this overview show trends and developments that should be considered in geometry research in the coming years.',
+    published: '2025-06-03',
     authors: [
-      'Ali, Jibril Abdikadir',
-      'Abdi, Mustafe Khadar',
-      'Ali, Tawakal Abdi',
-      'Muse, Abdisalan Hassan',
-      'Omar, Mukhtar Abdi',
-      'Cumar, Mukhtaar Axmed'
+      'Weigand, Hans-Georg',
+      'Hollebrands, Karen',
+      'Maschietto, Michela'
+    ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'ZDM – Mathematics Education'
+  },
+  {
+    id: '10.1186/s12909-025-07424-z',
+    title: 'Fostering collaboration: a controlled pilot study of interprofessional education for medical and pharmacy students',
+    summary: 'Background An increasingly ageing population and the resulting multimorbidity is a growing challenge for healthcare systems. A solution to tackle this problem is interprofessional collaboration. Interprofessional education, as an early meeting point, could foster a future successful interprofessional collaboration. So, the aim of our pilot study was to assess whether the “interprofessional collaboration between medical and pharmacy students to improve medication safety in polypharmacy” (PILLE) project changed the perception of medical and pharmacy students towards interprofessional collaboration. Methods PILLE consisted of three parts: (1) A mandatory 90-minutes interprofessional seminar; (2) A voluntary 120-minutes practical training; (3) A voluntary half-day interprofessional tandem work shadowing at a General Practitioner’s (GP) office. We used a controlled study design. Medical and pharmacy students from the intervention group attended the seminar (1). Medical students of the control group attended an interactive 90-minutes monoprofessional seminar only. Working together on cases was the similarity of both seminars. The students from the intervention group could attend (2) and (3). The outcome of interest was the change in students’ perception towards interprofessional collaboration after participating in PILLE, using pre- and post-questionnaires with the validated German version of Student Perceptions of Physician-Pharmacist Interprofessional Clinical Education (SPICE-2D) instrument. Descriptive and statistical evaluation was conducted. To assess if there is a significant pre-post-difference in the SPICE-2D overall score within the individual groups, paired t-tests were executed. To investigate if there is a significant change in SPICE-2D overall score difference between the medical students control and intervention group, an unpaired t-test was performed. Results In total, 436 students participated: 96 medical students and 116 pharmacy students in the intervention group, and 224 medical students in the control group. The participating students from both professions already had a pronounced positive perception at baseline. All pre-post-mean-differences within the individual groups and between the medical students control and intervention group were not statistically significant. Conclusion Participating medical and pharmacy students already had a positive perception at baseline. A one-time and short-term mandatory seminar of 90-minutes seems not to be sufficient to measure a change in perception. Future interprofessional education projects should focus on frequent meeting points between students.',
+    published: '2025-06-03',
+    authors: [
+      'Petersen, Maike',
+      'Gehrke-Beck, Sabine',
+      'Zimmermann, Nicole',
+      'Konrad, Amrei-Pauline',
+      'Behrend, Ronja',
+      'Peters, Harm',
+      'Schulz, Martin',
+      'Kloft, Charlotte',
+      'Herrmann, Wolfram J.'
+    ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'BMC Medical Education'
+  },
+  {
+    id: '10.1007/s43621-025-01388-2',
+    title: 'Navigating the future of higher education in Saudi Arabia: implementing AI, machine learning, and big data for sustainable university development',
+    summary: 'Higher education in the Gulf Cooperation Council (GCC) is going through big changes as universities try to meet the needs of 21st-century students and society. New technologies give both opportunities and challenges for Arab region universities to develop sustainably. This paper looks at ways to successfully use artificial intelligence (AI) and big data analytics in Saudi higher education while supporting long-term growth. First, it analyzes current trends in Saudi university enrollment, programs, and facilities to identify areas for improvement. It then explores the potential benefits of AI and big data, like personalized learning, better campus operations, and data-driven decision-making. However, there are also risks like high costs, privacy concerns, and lack of qualified people that need to be addressed. Recommendations are given for overcoming barriers to adopting these technologies including getting stakeholders involved, developing customized AI solutions, and starting tech-focused academic programs. The paper also discusses long-term impacts on faculty roles, student experiences, and financial sustainability. In the end, carefully implemented AI and big data can improve learning, and student services, and cut costs but require careful change management. By balancing cutting-edge tech with local needs, GCC universities can provide innovative education while upholding traditions and values. This study explores how AI, Machine Learning, and Big Data can enhance sustainability and effectiveness in Saudi higher education, aligning with relevant UN Sustainable Development Goals. Results highlight AI-driven insights that improve institutional decision-making and educational equity. Results indicate that among the predictive models tested, Random Forest achieved the highest accuracy in student performance prediction, with an R 2 score of 0.85.',
+    published: '2025-06-03',
+    authors: [
+      'Khan, Muhammad Adnan',
+      'Rehman, Abdur',
+      'Shah, Asghar Ali',
+      'Abbas, Sagheer',
+      'Alharbi, Meshal',
+      'Ahmad, Munir',
+      'Ghazal, Taher M.'
+    ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Discover Sustainability'
+  },
+  {
+    id: '10.1007/s40647-025-00450-7',
+    title: 'International Student Mobility and Its Impact on Destination Countries',
+    summary: 'This article explores the impact of international student mobility on tourist destinations, specifically examining Erasmus students at Universidad de La Laguna in Tenerife. Recognizing the growing competition among Higher Education Institutions and the increasing economic importance of international students, this study addresses three main aspects: the factors influencing international students’ destination choice, their economic contribution, and their subsequent loyalty to host destinations. Through a comparative analysis of survey responses from 432 Erasmus students across two cohorts (2008–2012 and 2013–2019), the research finds that while academic reputation remains influential, students increasingly value the cultural characteristics, leisure opportunities, and affordability of the destination. Economically, international students provide substantial contributions to local economies via accommodation, food, and leisure expenditures, demonstrating broader regional economic benefits through their travel activities. The study also identifies high loyalty levels, revealing strong intentions among students to revisit their host locations, particularly as tourists, highlighting long-term economic and promotional advantages. These findings underline the dual importance of international students as both educational participants and valuable economic agents. The study contributes to the academic tourism literature by integrating the educational and tourism perspectives, highlighting the strategic need for enhanced collaboration between HEIs and destination managers. It emphasizes the importance of international students as economic actors and potential ambassadors, thereby providing a novel theoretical contribution by suggesting that strategies targeting international student attraction and retention should explicitly consider both academic and tourism-related factors.',
+    published: '2025-06-03',
+    authors: [
+      'Mendoza-Jiménez, Javier',
+      'García-Rodriguez, Francisco J.',
+      'García-González, Carlos Gustavo'
     ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Discover Data'
+    journal: 'Fudan Journal of the Humanities and Social Sciences'
   },
   {
-    id: '10.1007/s12232-025-00494-x',
-    title: 'The need for governance in blockchain dispute resolution (BDR): institutional possibilities frontier (IPF) perspective',
-    summary: 'Blockchain, as a decentralized ledger technology, has been applied in various domains, including dispute resolution for issues arising from blockchain and smart contract transactions. Blockchain-based dispute resolution platforms claim to operate free from central authority, eschewing traditional procedural and substantive rules. However, these platforms have raised concerns among legal scholars regarding their potential to undermine fundamental rights, prompting calls for governance in blockchain-based dispute resolution (BDR). Allen et al. proposed the Dispute Resolution Possibilities Frontier (DRPF), inspired by the Institutional Possibilities Frontier (IPF) from new comparative economics. The DRPF highlights blockchain’s potential to reduce disorder and dictatorship costs in dispute resolution. This study analyzes BDR processes across the dispute resolution spectrum through normative and doctrinal legal research, further refining the DRPF framework. The analysis reveals that while BDR may increase efficiency, as suggested by Allen et al., by reducing dictatorship and disorder costs up to a certain point, it does not entirely transform the dispute resolution framework. To achieve the loss-minimizing point—where dictatorship and disorder costs are optimized—some form of governance or order is necessary. Consensual methods like negotiation and mediation pose minimal risks, while adjudicative mechanisms, such as self-enforcing crowd voting and on-chain arbitration that enforce outcomes via smart contracts, lack adequate safeguards. To address these challenges, we propose governance strategies that incorporate design elements safeguarding disputants’ rights. By balancing efficiency and fairness, such measures can optimize BDR processes, ensuring they remain effective and compliant with essential legal standards.',
-    published: '2025-06-02',
-    authors: [ 'Kadıoğlu Kumtepe, Cemre Çise' ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'International Review of Economics'
-  },
-  {
-    id: '10.1186/s43093-025-00552-4',
-    title: 'Nexus between institutional quality, economic openness, and environmental quality: New evidence from the MENA region',
-    summary: 'The paper uses the CS-ARDL approach to analyze the impact of institutional quality, economic openness, population growth, and GDP per capita on environmental quality in 12 countries of the MENA region for the period of 1997–2023. We find that institutional quality, economic openness, and environmental quality move together in both the short and long term, but with different speeds of adjustment. The results show that economic openness, population growth, and gross domestic product per capita strongly affect environmental quality in the MENA region. In contrast, economic openness in developed economies has a positive impact on environmental quality in both the short and long term. However, population growth and gross domestic product per capita have a strong impact on environmental quality in both developed and developing countries in the short and long term. Additionally, results for the North and Middle East regions remain robust. The heterogeneity of results for developed, developing, North, and Middle East regions suggests strong policy recommendations for improving the environmental quality to achieve sustainable development.',
-    published: '2025-06-02',
-    authors: [ 'Abbas, Faisal', 'Malik, Umer Iftikhar', 'Abdul Rahman, Aisyah' ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Future Business Journal'
-  },
-  {
-    id: '10.1007/s10143-025-03624-9',
-    title: 'Comparing surgical outcomes of the semisitting versus lateral position in large vestibular schwannoma surgery: a randomized clinical trial',
-    summary: 'The choice between the semisitting position (SSP) and the lateral position (LP) for vestibular schwannoma (VS) surgery remains a topic of debate, particularly for large tumors, and high-quality evidence is limited. This study aimed to prospectively determine the optimal surgical position for VS with a diameter of ≥ 3 cm. This analysis is based on a randomized clinical trial assessing the efficacy and safety of VS surgery in SSP versus LP. Outcomes included the extent of resection, functional results, complications, and health economics. A total of 115 consecutive patients with large VS were prospectively enrolled between December 2019 and November 2023 (SSP: 58, LP: 57). The gross-total resection (GTR) rate was significantly higher in the SSP group compared to the LP group ( P  = 0.026). There was no significant difference in facial nerve (FN) function between the groups 7 days post-operation; however, FN function was superior in the LP group after 1 year. Preoperative preparation duration and craniotomy durations in the SSP group were significantly longer, while overall operative time, tumor resection, and cranial closure durations showed no significant differences between the groups. In terms of health economics, patients in the SSP group had longer hospital stays and higher hospitalization costs. This study demonstrated that SSP offers advantages in achieving higher GTR rates. However, it does not provide any significant benefit in preserving facial nerve function. Given the elevated risks of VAE, SSP should primarily be considered for patients in good physical condition. Furthermore, patients in the SSP group required more extensive preoperative evaluations and intensive monitoring, resulting in longer hospital stays and increased costs. The financial implications of hospitalization should also be taken into account. This study is a registered clinical trial. It was prospectively registered in the Chinese Clinical Trial Registry (ChiCTR1900027550) on November 17, 2019.',
-    published: '2025-06-02',
+    id: '10.1186/s13731-025-00523-7',
+    title: 'Stimulating innovative learning practices with tech: artefacts influence learners’ actions',
+    summary: 'Recently, there has been a transformation in the teaching and learning methods at universities, with nearly all higher education institutions using Learning Management System (LMS) platforms for course delivery and learning activities. These digital learning environments exhibit limited innovative learning methods, including a deficiency in appropriate artefacts and tools, as well as a lack of personalization and assistance. One of the reasons why Sustainable Development Goal (SDG) goal 4 is important is because it highlights the need to invest resources for advancement of educational tools and facilities towards sustainable development education. The literature indicates a lack of equilibrium between the functions of artefacts, actions, and pedagogy in the ever-changing technology-enhanced learning environment. Therefore, this study aims to examine the relationship between the adoption of artefacts and their impact on innovative learning practices. It integrates Vygotsky’s concept of mediating human activity through the use of artefacts, as well as two foundational theories: connectivism learning theory and growth mindset theory. The data for this quantitative study were obtained through survey. An analysis was conducted on a total of 350 questionnaires, resulting in 241 responses. The survey was conducted among undergraduate students who are currently enrolled at Prince Mohammad bin Fahd University (PMU). The data were analyzed using SmartPLS. Findings: This study addresses the clear correlation of artefacts actions on learners that facilitates innovative learning practices in the context of Saudi Arabia. Students’ innovative learning experiences are defined by their independence and are facilitated by tangible actions. Students valued the inclusion of creative artefacts that promote problem-solving, facilitate student-centered learning, and incorporate gamified components which is essential for scholarly communication within and beyond the classroom. It is important to note that the inclusion of artefacts should not be solely for the sake of showcasing innovation without any meaningful influence on digital acceleration. In order to assess the applicability of these findings, it is recommended that future research be conducted in higher education institutions (HEIs) in other regions of Saudi Arabia or other Gulf Cooperation Council (GCC) countries. Additionally, further investigation should explore the impact of integrating virtual reality and augmented reality as tools, as well as incorporating various pedagogical approaches to test the effectiveness of the innovation in the learning process.',
+    published: '2025-06-03',
     authors: [
-      'Song, Gang',
-      'Zhang, Binghan',
-      'Tang, Yuanchen',
-      'Geng, Haoming',
-      'Wu, Xiaolong',
-      'Zhou, Yiqiang',
-      'Liang, Jiantao'
+      'Velu, Shubashini',
+      'Wahid, Ishraat Saira',
+      'Tabianan, Kayalvily'
     ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Neurosurgical Review'
-  },
-  {
-    id: '10.1007/s11115-025-00866-5',
-    title: 'The Economic Contribution of Religious Charities to New Zealand',
-    summary: 'This article considers religious charities from an original perspective, that of their economic contributions to society as an alternative argument to those who wish to see religious charities struck from the charity sector. This is timely because of recent national and international changes to charity law legislation and policies. In essence, the article has demonstrated that religious charities contribute significantly in economic terms to New Zealand society generally, and further, measuring the public benefit of religious charities through an economic lens may assist in determining the differing ways in which religious charities contribute to, and benefit, society.',
-    published: '2025-06-02',
-    authors: [ 'Chevalier-Watts, Juliet', 'Scrimgeour, Frank' ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'Public Organization Review'
-  },
-  {
-    id: '10.1007/s42438-025-00551-2',
-    title: 'Postdigital Dissensus: On the Complexity of Debating Technology in Higher Education Futures',
-    summary: 'The adoption of new technologies often concerns a range of people across and around higher education (HE) institutions, spurring the need for various, possibly dissenting voices to be heard. This paper explores the complexity of this issue through the concept of postdigital dissensus. I examine how sociotechnical stances and discourses regarding digitalisation and artificial intelligence (AI) in HE relate to dissensus and lack of sociotechnical closure. I argue that technology perceptions in HE are diversified beyond easily resolvable differences such as educators’ competences or presumptions. Rather, a more complex and nuanced perspective is needed to recognise and work with postdigital dissensus. Drawing on constructivist and critical theories of technology and recent literature on issues in technology adoption in HE, I examine what may constitute ‘points of dissensus’ regarding digitalisation of HE. The complexity of postdigital dissensus is illustrated through the concepts of asymmetries in knowledge, domains and scales, roles and standpoints, expectations and metanarratives. I argue the need to construct fuller theories of the nature and dynamics of postdigital dissensus, as well as to utilise explicitly future-oriented, imaginative and collective working methods to engage in multi-voice discussions around digitalisation.',
-    published: '2025-06-02',
-    authors: [ 'Rasa, Tapio' ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Postdigital Science and Education'
+    journal: 'Journal of Innovation and Entrepreneurship'
   },
   {
-    id: '10.1007/s00261-025-05010-x',
-    title: 'Revolutionizing radiology education: exploring innovative teaching methods',
-    summary: 'The field of radiology education is undergoing a paradigm shift due to technological advancements and the increasing complexity of medical imaging. Traditional didactic teaching methods are progressively being supplemented or replaced by innovative pedagogical approaches that enhance engagement, competency, and clinical preparedness. This review examines the evolution of radiology education, highlighting novel teaching methodologies such as simulation-based training, artificial intelligence assisted learning, virtual and augmented reality, flipped classrooms, and case-based learning. Furthermore, this manuscript discusses the challenges of integrating these methodologies into radiology curricula and explores potential future directions in radiology education.',
-    published: '2025-06-02',
-    authors: [ 'Altun, Izzet', 'Turan, Ozerk', 'Awan, Omer' ],
-    categories: [ undefined, undefined, undefined, undefined ],
+    id: '10.1007/s41701-025-00196-3',
+    title: 'Appraising Feedback Stance in Higher Education: A Corpus-Assisted Discourse Study of Student and Academic Perceptions, Perspectives and Preferences',
+    summary: 'Feedback is a complex dialogic, sociomaterial practice that is shaped by digital affordances, institutional norms and various contextual factors. Even though it is widely recognised as crucial to academic development, student perspectives on the practice of feedback remain underexplored. This study examines appraisal strategies in social media discourse and academic writing by analysing the use of attitude, engagement and graduation markers in over 5,000 posts and comments on r/college and 100 research articles on feedback. Using a mixed-methods approach that combines advanced statistical modelling and qualitative appraisal analysis, the study identifies prominent register-specific patterns. Students’ reflections and comments are predominantly attitude-driven due to the prolific use of attitude markers and upscaling to engage in joint emotion regulation when processing past feedback experiences. This appraisal strategy encourages affiliative alignment and reflects the interactive and affective nature of online discussions. In contrast, academic writing is characterised by engagement-driven variation, with scholars employing contractive and expansive appraisal resources to negotiate disciplinary interpretations. Educational researchers favour entertain, appreciation and focus markers to evaluate conceptualisations and processes of feedback. The findings confirm the emotional impact of critique and reveal students’ preference for clear, empathetic, actionable feedback, while frustration arises from vagueness, unfairness or excessive criticism. Academics view feedback as a structured, discursive process that should be constructive, evidence-based and compliant with disciplinary norms, recommending transparency, justification and cultural responsiveness. Recognising the students’ standpoint and suggestions can inform the co-design of more effective feedback practices that combine emotional responsiveness and goal-oriented guidance for self-development.',
+    published: '2025-06-03',
+    authors: [ 'Poucke, Margo Van' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Abdominal Radiology'
+    journal: 'Corpus Pragmatics'
   },
   {
-    id: '10.1007/s44217-025-00573-9',
-    title: 'Enhancing entrepreneurial skills through experiential learning in IoT, AI, and cybersecurity',
-    summary: 'The integration of Internet of Things (IoT), Artificial Intelligence (AI), and cybersecurity presents new opportunities for innovation and entrepreneurship, yet traditional educational approaches often lack the interdisciplinary and applied focus required to develop these competencies. This study evaluates the impact of an experiential learning workshop that integrated IoT prototyping, AI-based anomaly detection, and cybersecurity principles to promote technical understanding, entrepreneurial thinking, and ethical awareness. Conducted at Godfrey Okoye University, Nigeria, the workshop engaged 476 undergraduate students from diverse academic disciplines in project-based learning activities and collaborative design challenges. Statistical analysis of matched pre- and post-assessments revealed a mean increase of 25.5 percentage points (95% confidence intervals $$\\pm 4.2\\%$$ ± 4.2 % , $$p < 0.001$$ p < 0.001 ) in quiz performance across all three domains. Regression and exploratory mediation analysis indicated that prior knowledge and engagement with hands-on tasks were significant predictors of learning gains. Qualitative feedback highlighted the perceived value of real-world application, teamwork, and ethical reflection. The findings demonstrate the efficacy of experiential and interdisciplinary educational models in fostering future-ready skills and responsible innovation. This study offers actionable guidance for designing inclusive, scalable technology learning interventions and contributes to advancing Sustainable Development Goal 4 on equitable quality education.',
-    published: '2025-06-02',
+    id: '10.1007/s10671-025-09395-w',
+    title: 'Soft skills and the corporate social dimension: the perspective of university graduate employers',
+    summary: 'Today’s job market is characterised by intense competition among young graduates with the same qualifications. Consequently, soft skills have become particularly important in the processes of attracting and recruiting talent because they allow improvements in productivity, innovation, and internationalisation within businesses. This study aims to determine the soft skills that Spanish employers demand most from university graduates within the Spanish context. More specifically, it seeks to provide evidence related to the demand for these skills according to variables such as Corporate Social Responsibility, employers’ social engagement, and candidates’ participation in non-formal education activities. To this end, a quantitative methodology was applied, using a sample of 83 employers from different businesses. The results show that the soft skills in most demand were related to interpersonal relationships, self-management, and entrepreneurship. Furthermore, there were differences in this assessment related to employers’ social engagement and graduate participation in non-formal education activities. The study has implications for higher education institutions’ strategies and for students’ academic and professional development, contributing to a better fit between education and business.',
+    published: '2025-06-03',
     authors: [
-      'Nweke, Livinus Obiora',
-      'Okebanama, Uchenna Franklin',
-      'Mba, Gibson Uwaezuoke'
+      'Vázquez-Rodríguez, Ana',
+      'Quiroga-Carrillo, Anaïs',
+      'García-Álvarez, Jesús',
+      'Sáez-Gambín, Daniel'
     ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Discover Education'
+    journal: 'Educational Research for Policy and Practice'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40454426',
-    title: 'Speed of Processing Training for Stress Adaptation in Caregivers of a Family Member With Dementia: A Randomized Controlled Trial.',
-    abstract: "BACKGROUND AND OBJECTIVES: The chronic stress of caregiving for a family member with Alzheimer's disease and related dementias (ADRD) is associated with a host of health risks, including accelerated cognitive aging and poor emotional well-being. Despite known links between cognitive and emotion regulatory pathways, cognitive training has not been tested in ADRD caregivers as a means to strengthen cognitive capacity and concomitant emotion regulation, domains undergirding stress adaptation. This study aimed to identify effects of computerized cognitive training on cognitive and emotion indicators of caregivers' capacity for stress adaptation, a key mechanism for healthy aging.\n" +
-      'RESEARCH DESIGN AND METHODS: ADRD family caregivers ( = 195; ages 55-85 years) enrolled in a 2-arm randomized controlled trial were assigned (1:1) to engage in a vision-based speed of processing and attention (VSOP/A) training or video education (VE). Processing speed and attention, working memory under stress, and emotion reactivity to laboratory and caregiving stressors were measured at baseline, following an 8-week intervention, and 6 months and 12 months postintervention. Intent-to-treat analyses using mixed models for repeated measures tested effects of VSOP/A training on these outcomes.\n' +
-      'RESULTS: The VSOP/A group had significantly improved processing speed and attention performance compared to the VE group, and these differences persisted through 6 months postintervention. At 6 months postintervention only, working memory performance under stress was significantly better among the VSOP/A compared to VE group. At 12 months, caregivers in the VSOP/A group reported less negative emotion in response to ADRD-related behavioral symptoms of their care recipient. There were no group differences in acute emotion reactivity to the laboratory stressor at any time point.\n' +
-      "DISCUSSION AND IMPLICATIONS: Findings from this study suggest that targeted cognitive training should be further developed as an efficacious strategy to strengthen ADRD family caregivers' stress adaptation capacity and healthy aging.  NCT03036423.",
-    published: '2025',
-    authors: [
-      'Heffner Kathi L',
-      'Crean Hugh F',
-      'Gallegos Autumn M',
-      'Quiñones-Cordero Maria M',
-      'Weber Miriam T',
-      'Sörensen Silvia',
-      'Lin Rose S Y',
-      'Podgorski Carol A',
-      'Lin Feng V'
-    ],
-    journal: 'Innovation in aging',
-    doi: '10.1093/geroni/igaf033',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454426/'
+    id: '40458887',
+    title: 'Association of the Campus Program Grant and Institutional Characteristics on Reporting of On-Campus Sexual Violence Crimes.',
+    abstract: "The Office on Violence Against Women's Grants to Reduce Sexual Assault, Domestic Violence, Dating Violence, and Stalking on Campus Program (Campus Program) grants provide higher education institutions with funding, technical training, and support to address sexual violence on college campuses. The aim of this investigation is to determine the association between the implementation of the Campus Program grants on reporting Clery Act Forcible Sex offenses (rape and fondling) and Violence Against Women Act offenses (domestic violence, dating violence, and stalking). A secondary aim is to examine the institutional characteristics related to incidents of reporting. The sample of institutions included grant recipients from fiscal years 2015, 2016, and 2017 with less than 10,000 students and a Carnegie classification as baccalaureate colleges or master's colleges and universities ( = 63). Linear regression models controlling for institutional variables were used to estimate the Campus Program grant implementation's causal effects on crime reporting from 2014 to 2021. The sample institutions experienced a significant increase in reports of rape ( = .003), fondling ( = .001), and dating violence ( < .001) during grant implementation years. In addition, all institutional characteristics used as covariates significantly affected one or more reported sexual violence crimes. Institutions should expect an increase in sexual violence reporting during the Campus Program grant implementation years. In addition, the study adds to the limited research on the institutional characteristics associated with sexual violence crime reporting. The results support that when addressing sexual violence, institutions need to consider the individual and campus-level factors, the inclusion of a diverse group of campus partners, and crime-specific interventions.",
+    published: '2025-Jun-03',
+    authors: [ 'McElveen Michael' ],
+    journal: 'Journal of interpersonal violence',
+    doi: '10.1177/08862605251343198',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458887/'
   },
   {
-    id: '40454391',
-    title: '"Helpful help" in vocational support for emerging adults not in education, employment, or training. Staff and participant perspectives.',
-    abstract: 'INTRODUCTION: Aiding emergent adults not in education, employment, or training (NEET) presents a profound challenge.\n' +
-      "METHODS: This article, based on reflective lifeworld research, explores the defining elements of helpful help within two art-based vocational rehabilitation programs in the context of the Norway's Labor and Welfare Service (NAV). Interviews were conducted with 11 emerging adults with social and mental health issues and three NAV staff members skilled in art-based vocational rehabilitation.\n" +
-      'RESULTS: "Helpful help" is a dynamic, multifaceted phenomenon involving the three defining elements: balancing demands and support for personal growth, a healing environment with supportive staff, and tailored facilities.\n' +
-      "DISCUSSION: These three elements intertwine within the individual's lifeworld, emphasizing that help unfold through their personal progression, shaped by staff attunement and a nurturing atmosphere. This phenomenon flourishes in environments of optimism and nurturance, where staff engage authentically, fostering supportive and non-judgmental relationships. By embracing a strength-based approach, these spaces become welcoming and enhance well-being. Emergent adults with social and mental health issues need ongoing and personalized support that emphasizes peer interactions and focuses on building self-belief and social skills, beyond job opportunities.",
+    id: '40458884',
+    title: 'The Effectiveness of Affirmative Sexual Consent Cues.',
+    abstract: 'Despite the growing literature related to sexual consent, most research has focused on female victims, indicating a significant need for more research focusing on consent and victim blame with male victims. The current study investigated whether male victims are blamed for sexual assault where the perpetrator is a female, using traditional sexual script theory as a framework. The study investigated whether participants could clearly differentiate between consent and non-consent scenarios when ambiguous nonverbal cues were presented. Participants ( = 167) were randomly assigned to one of three vignettes in a between-subjects experimental design: (a) A neutral control condition with no clear cues, (b) implicit nonverbal non-consent cues, and (c) explicit nonverbal non-consent cues. Participants were asked to rate consent and victim blame. Overall, the findings indicated that male participants placed more blame on victims and rated all scenarios (regardless of implicit or explicit cues) as more consensual than female participants. Furthermore, the findings of this study suggest that participants can identify non-consent, if any sort of cue (implicit or explicit) is presented. Nonetheless, participants believe that explicit cues, rather than implicit cues, would be the most effective method of communicating non-consent. These findings suggest that education campaigns may benefit from incorporating ambiguous non-consent cues in discussions about how consent is communicated.',
+    published: '2025-Jun-03',
+    authors: [ 'Upadhyay Krusha', 'Lavis Tiffany', 'Proeve Michael' ],
+    journal: 'Journal of interpersonal violence',
+    doi: '10.1177/08862605251343200',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458884/'
+  },
+  {
+    id: '40458880',
+    title: 'Recommendations for Enhancing Oral Health Professional Education Through the Student Voice: The ADEE-EDSA Partnership in Action.',
+    abstract: 'The student voice plays a crucial role in shaping the curriculum and learning outcomes by providing unique insights into teaching and learning experiences. This paper has been written collaboratively with the Association for Dental Education in Europe (ADEE) Curriculum Taskforce and the European Dental Students Association (EDSA) following a number of years of collaborative working. The paper discusses the increasing focus on, and importance of, involving Oral Health Professional (OHP) students as partners-and ways of recognising and jointly acting on student feedback and ideas. The paper describes various collaborative projects between ADEE and EDSA and makes recommendations for areas that would merit further exploration with students and educators alike.',
+    published: '2025-Jun-03',
+    authors: [
+      'Field James',
+      'Sabev Bogomil',
+      'Davies Julia',
+      'Dixon Jonathan',
+      'Murphy Denis',
+      'Vital Sibylle',
+      'Kennedy Joshua'
+    ],
+    journal: 'European journal of dental education : official journal of the Association for Dental Education in Europe',
+    doi: '10.1111/eje.13123',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458880/'
+  },
+  {
+    id: '40458874',
+    title: 'Breaking the Silence: The Role of Screening in Physician-Initiated Firearm Safety Conversations.',
+    abstract: "This article expands and investigates what physicians perceive as facilitators and barriers to initiating preventive health education, also called anticipatory guidance or medical education, around secure firearm storage in the home (safe storage) and outside the home (Emergency Risk Protection Orders [ERPO]). We employ in-depth qualitative interviews with 36 New Jersey physicians randomly selected from two national physician panels. Participants were screened for inclusions based on their specialty (family medicine or internist, obstetrics/gynecology, or pediatrics), practice setting (office-based rather than hospital-based), and time spent (80% or more) on direct patient care. Based on interviews, we identify five physician-perceived barriers to providing secure firearm storage counseling: inadequate screening mechanisms to prompt conversations, physician perceptions of who is at risk for firearm injury, time pressures, concerns about patient receptivity, and a need for physician training. Our findings indicate that there are structural barriers to physician-initiated firearm safety guidance. Interventions designed to increase physicians' willingness to have these conversations must first address why these conversations fail to occur. Physician participants expressed the need for revised patient screening tools, training on approaching conversations about secure firearm storage, and a mechanism to allocate sufficient time in a well-visit, among the many other topics they must discuss. Interview participants had minimal understanding of ERPO and how to counsel patients on petitioning for ERPO.",
+    published: '2025-Jun-03',
+    authors: [
+      'Dineen Jennifer Necci',
+      'Grasso Damion',
+      'Hoey Amanda',
+      'Kahn Amanda Rae',
+      'Raissian Kerri M'
+    ],
+    journal: 'Health education & behavior : the official publication of the Society for Public Health Education',
+    doi: '10.1177/10901981251338864',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458874/'
+  },
+  {
+    id: '40458872',
+    title: 'Diet Habits, Smoking, and Alcohol Consumption Among Chinese Patients with Cancer.',
+    abstract: 'BACKGROUND: Cancer remains a significant public health problem in China, with new cases and cancer-related deaths increasing in recent years. This study examines the dietary habits, smoking, and alcohol consumption patterns among Chinese patients with cancer, and explores factors influencing these lifestyle behaviors.\n' +
+      'METHODS: Secondary data analysis was conducted on a cross-sectional survey of 287 cancer patients from an oncology outpatient clinic in central China. Patients self-reported their current dietary habits, smoking, and alcohol use and recalled their habits prior to their cancer diagnosis. Responses were assessed using a Likert scale ranging from "never = 0" to "often = 3." The survey specifically measured the frequency of consuming red meat, seafood, milk, tofu, spicy foods, and "balanced yin-yang foods," as well as alcohol consumption and smoking. Data were analyzed using descriptive statistics, Wilcoxon signed rank tests, and logistic regression.\n' +
+      'RESULTS: Patients reported significant reductions in smoking and alcohol consumption post-diagnosis, with a 60% decrease compared to pre-diagnosis levels. Dietary changes included reduced intake of red meat, seafood, tofu, spicy foods, and milk, alongside increased adherence to a balanced yin-yang diet. Both Cultural/TCM beliefs and symptom-related factors significantly shape those lifestyle behaviors. The influence of TCM was particularly notable. Patients with strong TCM beliefs were associated with reduced alcohol consumption and decreased intake of seafood, tofu, and milk.\n' +
+      'CONCLUSIONS: Following a cancer diagnosis, Chinese patients made significantnotable changes to their smoking, alcohol consumption, and dietary habits; adopting healthier lifestyle behaviors. Oncology physicians and nurses should adhere to updated clinical guidelines on nutrition in cancer survivorship and integrate TCM principles to provide tailored lifestyle education and support.',
     published: '2025',
-    authors: [ 'Ørjasæter Kristin Berre' ],
+    authors: [ 'Liu Shan', 'Liu Jia', 'He Jun' ],
+    journal: 'Integrative cancer therapies',
+    doi: '10.1177/15347354251343004',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458872/'
+  },
+  {
+    id: '40458864',
+    title: 'Stepping Up Informed Consent: Navigating Foot and Ankle Orthopedics.',
+    abstract: 'Orthopaedic foot and ankle surgeons have an ethical obligation to obtain proper informed consent, ensuring that their patients are thoroughly educated about their diagnosis, risks, benefits, and alternatives of all possible treatment options. This study explores several critical aspects of the informed consent process in foot and ankle orthopedics, including: (1) its current state; (2) barriers that hinder the acquisition of adequate informed consent; and (3) potential solutions based on these identified barriers. The current literature suggests effective approaches to improve the quality of informed consent include using patient-appropriate language, standardized education materials, extended physician-patient visit times, and translation assistance. Utilizing plain language and supplemental materials, such as animated videos and standardized reading materials, enhance patient comprehension and decision-making. Integrating these methods with personalized patient-surgeon discussions results in optimal informed consent quality and patient satisfaction. Additionally, extended visit times, ideally 15 to 30 minutes, improve understanding, while interpreter services ensure clear communication for nonnative speakers. The findings of this study reveal significant deficiencies in the current informed consent process for foot and ankle orthopaedic surgery, which compromise patient autonomy. Implementing solutions to improve the quality of informed consent is necessary to protect patient autonomy and protect surgeons from litigation. IV.',
+    published: '2025-Jun-03',
+    authors: [
+      'Jain Suraj',
+      'Chanmin Zachary',
+      'Havasy Janice',
+      'Hershfeld Benjamin',
+      'Klein Brandon',
+      'Cohn Randy M',
+      'Bitterman Adam D'
+    ],
+    journal: 'Foot & ankle specialist',
+    doi: '10.1177/19386400251336807',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458864/'
+  },
+  {
+    id: '40458852',
+    title: 'Effectively Maintained Inequality in Canada Revisited.',
+    abstract: `The mass expansion of higher education (HE) systems during the 20th century pushed social scientists to theorize how high participation systems continued to reproduce inequalities across socio-economic lines. One popular theory in sociology, dubbed effectively maintained inequality (EMI), suggests that families from the upper economic strata would maintain their competitive advantage by not only acquiring increasing amounts of education, but also gravitating toward the most prestigious tracks within HE. Despite the "flatter" status structure of Canada's HE system vis-à-vis international counterparts, this is a theory that has received empirical support from several domestic studies. Through this study, we re-examine the EMI hypothesis using the 2005 Ontario University Applicant Survey (OUAS), a little-known and thus far unexamined dataset that offers notable advantages relative to those historically analyzed in the Canadian EMI literature, including representative coverage of applicants to Ontario universities, holistic coverage of academic and demographic controls, and the ability to analyze both within- and between-sector forms of status-seeking. Our statistical analyses suggest that applicants from privileged socio-economic backgrounds behave in ways consistent with EMI, gravitating towards more prestigious HE options. We conclude by sketching a path forward for social stratification research in Canadian HE.`,
+    published: '2025-Jun-03',
+    authors: [ 'Pizarro Milian Roger', 'Zarifa David' ],
+    journal: 'Canadian review of sociology = Revue canadienne de sociologie',
+    doi: '10.1111/cars.70006',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458852/'
+  },
+  {
+    id: '40458832',
+    title: 'Exploring Post-Traumatic Stress Disorder and Hygiene Patterns in Adiyaman, Türkiye after the Türkiye and Syria Earthquake.',
+    abstract: 'OBJECTIVES: On February 6, 2023, seismic activity struck Kahramanmaraş, with earthquakes of magnitudes 7.7 and 7.6. The study aimed to determine the effect of the presence of PTSD and its scores on hygiene behaviors.\n' +
+      "METHODS: This cross-sectional study was conducted in Adıyaman, Türkiye, between September and October 2023. The study population comprised individuals aged 18 and above who had experienced the earthquake. The PTSD Checklist-Civilian (PCL-C) scale was used to evaluate PTSD, and the Hygiene Inventory was used to evaluate the participants' hygiene behaviors.\n" +
+      'RESULTS: Females, those with lower levels of education, the unemployed, singles, those living in tents, individuals who lost a loved one in the earthquake, and those with PTSD had worse hygiene behaviors compared to other groups. In the multivariate model of linear regression analysis of hygiene total score, only the PTSD score retained its predictive significance for hygiene behavior. More than 50% of the participants had scores meeting PTSD. The total PTSD score and the prevalence of PTSD among women was notably greater.\n' +
+      "CONCLUSIONS: Mental health plays a pivotal role in shaping individuals' hygiene practices and behavior patterns post-disaster. Swift implementation of mental health interventions is crucial for the prevention of behavioral pathologies.",
+    published: '2025-Jun-03',
+    authors: [
+      'Küçükkelepçe Osman',
+      'Konyalıoğlu Fatma Sena',
+      'Kurt Osman',
+      'Öz Erdoğan'
+    ],
+    journal: 'Disaster medicine and public health preparedness',
+    doi: '10.1017/dmp.2025.10078',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458832/'
+  },
+  {
+    id: '40458786',
+    title: 'Bridging Bioscience to Practice: The Significance of Clinical Simulation Training for Novice Nursing Students.',
+    abstract: 'PURPOSE: This study aims to investigate clinical simulation as a learning method to enhance the relevance of bioscience in nursing practice for novice nursing students.\n' +
+      "METHODS: This study utilizes a semi-experimental multi-method design involving 194 novice bachelor nursing students at a Norwegian university college, marking the program's inaugural simulation training. The students were divided into Group 1 and Group 2. Both groups underwent simulation-based training, but Group 2 received an additional extended debriefing where a bioscience specialist linked patient observations with physiological processes. Data collection occurred in two phases: quantitative data were collected on simulation day through a questionnaire and structured observation, and qualitative data from two reflection questions, supplemented with quantitative data from a questionnaire, were collected one week later.\n" +
+      "RESULTS: The findings revealed that students' emotional states are highly activated during simulation training. Despite this, the students reported that their overall simulation experience was positive. A deficiency in the use of bioscience terminology was identified during debriefing to explain observations, assessments, and actions. The students' reflections on the benefits from simulation training showed that it provides them with practical experience in visualizing real-world scenarios, fostering readiness for action as a nurse, and metacognition of their learning process. Moreover, the findings indicated that students in Group 2 (extended debriefing) were more inclined to incorporate bioscience terminology in their reflective responses, particularly considering the impact of bioscience knowledge on nursing practice.\n" +
+      'CONCLUSION: Clinical simulation training provides novice nursing students with clinical experience and an opportunity to connect bioscience with practice. Although the students insufficiently used bioscientific concepts during debriefing, they evaluated the relevance of bioscience in practice highly. Our findings carry significant implications for structuring simulation training, emphasizing the necessity of specialists in both debriefing techniques and bioscience to bridge the gap between theory and practice.',
+    published: '2025',
+    authors: [
+      'Grønlien Heidi Kristine',
+      'Wevling Astrid',
+      'Arntsen Marian Bringa',
+      'Haug Erna'
+    ],
+    journal: 'Advances in medical education and practice',
+    doi: '10.2147/AMEP.S482384',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458786/'
+  },
+  {
+    id: '40458785',
+    title: 'Three decades of neuroscience research using animal models of ADHD and ASD: a bibliometric analysis.',
+    abstract: 'INTRODUCTION: Attention-deficit/hyperactivity disorder (ADHD) and autism spectrum disorders (ASD) are two increasingly prevalent neurodevelopmental disorders (NDDs), often accompanied by significant daily-life challenges. Animal models play a crucial role in studying these conditions, and recent advances have highlighted the potential of animal models such as mice, rat, zebrafish,  or  for investigating NDDs. However, despite growing interest, a complete understanding of these disorders has yet to be achieved. We believe that to properly address these NDDs, it is important to analyze the heterogeneity of ADHD and ASD research.\n' +
+      'METHODS: This study comprehensively analyzes ADHD and ASD-related scientific publications from January 1990 to December 2023 using data from the Web of Science (WoS), exploring trends in global research output, impact factors, citation metrics, the predominant use of animal models, the contribution of major countries and funding information.\n' +
+      "RESULTS: Out of the 10,844 papers from WoS, we curated 5,883 papers and identify mice and rat as the primarily used animal models, and a progressive use of zebrafish,  and  since the early 2000s. The countries conducting research on ADHD and ASD were principally the United States (3,059 articles), followed by China (487 articles), the United Kingdom (459 articles), Japan (440 articles), Germany (413 articles). We further show that impact factors and journal citations were relatively similar among the major publishing countries. Interestingly, key research funders were the National Institute of Health (NIH), the National Institute of Mental Health (NIMH), and the Japanese Ministry of Education Culture Sports Science and Technology (MEXT), making important contributions to their respective countries' publications. Of note, Africa and Oceania have a lower volume of publication; however, our network analysis indicates a recent peak in research interest and ADHD/ASD awareness in some countries like Ghana or Portugal.\n" +
+      'CONCLUSION: The findings highlight significant advancements and collaborative efforts in ADHD and ASD research over the last three decades, underscoring the importance of international cooperation in addressing these complex neurodevelopmental disorders.',
+    published: '2025',
+    authors: [ 'Dougnon Godfried', 'Matsui Hideaki' ],
     journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1511255',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454391/'
-  },
-  {
-    id: '40454387',
-    title: 'Social jet lag is associated with core symptoms in 2-3-year-old children with autism spectrum disorders.',
-    abstract: 'BACKGROUND: Social jet lag (SJL) is a form of circadian rhythm misalignment caused by the mismatch between social schedules and biological clocks, which is associated with cognition, behavior, and emotion in children. However, social jet lag among children with autism spectrum disorders (ASD) and its impacts are unknown.\n' +
-      "METHODS: This cross-sectional study recruited 2-7-year-old children with ASD from special education institutions and outpatient clinics. The Children's Sleep Habits Questionnaire (CSHQ) assessed children's sleep. SJL was calculated as |weekend sleep midpoint - weekday sleep midpoint|. Sleep adequacy was determined based on the National Sleep Foundation's recommendations. Core symptoms were evaluated using the Childhood Autism Rating Scale (CARS), Social Responsiveness Scale (SRS), and Autism Behavior Checklist (ABC). Developmental level was assessed using the Gesell Developmental Scale.\n" +
-      'RESULTS: 1) The prevalence of sleep problems was 49.8% and the mean CSHQ total score was 48.04 in ASD. There are significant differences in sleep patterns between weekends and weekdays, characterized by later bedtimes, delayed wake-up times, increased total sleep duration, and reduced prevalence of sleep deficiency during weekends. 2) The 2-3-year-old group had the highest rates of sleep insufficiency (80.77% on weekdays; 82.17% on weekends). There were no significant differences in sleep duration across different age groups, with the median sleep duration ranging from 9.5 to 10 hours. 3) Median SJL in each age group was 0.25 h (2-3 years), 0.5 h (3-4 years), 0.42 h (4-5 years), and 0.5 h (≥5 years), respectively. In children aged 2-3 years, SJL was significantly positively correlated with core symptoms 4) SJL was observed to be weakly associated with developmental level of personal-social only in the ≥ 3-year-old group ( = 0.100,  = 0.042).\n' +
-      'CONCLUSION: Our study found for the first time a correlation between SJL and core symptoms in 2-3-year-old children with ASD. This finding suggests that SJL may have a potentially negative impact on core symptoms in ASD. Therefore, it is crucial to emphasize the importance of regular routines for ASD, especially in younger children.',
-    published: '2025',
-    authors: [
-      'Chen Hongyu', 'Yang Ting',
-      'Chen Jie',    'Ding Yuan',
-      'Xiang Xueli', 'Wei Qiuhong',
-      'Mou Qiuhong', 'Yuan Binlin',
-      'Hu Binyue',   'Zhang Danyang',
-      'Ai Dan',      'Li Tingyu'
-    ],
-    journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1574814',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454387/'
-  },
-  {
-    id: '40454349',
-    title: 'Psychometric Properties of the Barriers to and Facilitators of Implementing the Sepsis Six Care Bundle (BLISS-1) Questionnaire.',
-    abstract: "BACKGROUND: Sepsis, a severe medical condition caused by a dysregulated host response to infection, accounts for 20% of global fatalities. While simplifying early sepsis treatment with the Sepsis Six care bundle has been shown to reduce mortality by 46.6%, multiple barriers often prevent clinical nurses from adhering to sepsis care recommendations. Identifying these barriers is essential to eliminating them, and thus the Sepsis Six Care bundle (BLISS-1) questionnaire was developed to identify the barriers to and facilitators of nurses' implementation of the Sepsis Six care bundle while caring for sepsis patients. The current study assessed the psychometric properties of the BLISS-1 questionnaire to evaluate its validity and reliability.\n" +
-      'PURPOSE: This study assessed the psychometric properties of the BLISS-1 questionnaire.\n' +
-      "METHODS: A total of 180 clinical nurses working in different critical care units at a selected University Hospital participated in a cross-sectional, descriptive study. Data were collected using the BLISS-1 Questionnaire, used to assess the perceived barriers to and facilitators of Sepsis Six performance. Descriptive statistics, Cronbach's alpha reliability analysis, and Promax rotation EFA were performed to assess the validity and reliability of the questionnaire.\n" +
-      "RESULTS: The BLISS-1 questionnaire has strong internal consistency, with Cronbach's alpha values of 0.978 for perceived barriers and 0.976 for perceived importance. Factor analysis revealed that key barriers included skepticism about the protocol's clinical efficacy and operational challenges such as limited training and insufficient resources.\n" +
-      "CONCLUSION: This study revealed the BLISS-1 questionnaire to be highly reliable. Focused education, appropriate resource allocation, and supporting policies are needed to increase nurses' adherence to the Sepsis Six protocol and, hence, improve patient outcomes.",
-    published: '2025',
-    authors: [
-      'Bani Hamad Dania',
-      'Rababa Mohammad',
-      'Abu Ali Raeda',
-      'ALeasa Hala'
-    ],
-    journal: 'Risk management and healthcare policy',
-    doi: '10.2147/RMHP.S517386',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454349/'
-  },
-  {
-    id: '40454301',
-    title: 'Characterizing the Optimal Diversity Training Programs for Physicians: A Survey sponsored by Pacific Spine and Pain Society.',
-    abstract: 'INTRODUCTION: Recently, increasing research has shown inferior outcomes in patients with respect to specific social determinants of health. Therefore, optimizing diversity training given to pain management providers is imperative for physicians to provide culturally competent healthcare and to improve patient outcomes. In this paper, we attempt to describe trends in the Pacific Spine and Pain Society (PSPS) membership to help discover optimal diversity education paradigms for pain management providers by performing a survey on behalf PSPS.\n' +
-      "METHODS: A survey was disseminated to all members of the PSPS at the 2022 annual meeting. Opinions were solicited with respect to respondents' demographics, diversity training type, diversity training timing, and how this correlates with a respondent's self-reported confidence in navigating diversity issues in the workplace. Cronbach's alpha test was used to rate internal consistency while logistic regression models were used for statistical analysis.\n" +
-      "RESULTS: Cronbach's alpha produced a rating of 0.91. A total of 164 individuals responded to the survey, with 115 (70%) being male and 98 (60%) did not consider themselves to be under-represented in medicine. Survey respondents who obtained diversity training post-fellowship (p = 0.004) and with interactive training type (p = 0.010) self-reported to be more confident in handling matters of diversity in the workplace. Respondents who were underrepresented (p = 0.018), females (p = 0.033), practice in the west coast (p = 0.036), academic practice (p=0.031), and non-rural areas (p = 0.033) were also found to be more confident in handling matters of diversity.\n" +
-      'CONCLUSION: Practitioners who received diversity training post-fellowship and with interactive and role model formats felt most confident to handle matters of diversity. Underrepresented groups, females, individuals from non-rural practices and individuals from academic practices appear to feel more confident in handling these issues.',
-    published: '2025',
-    authors: [
-      'Gendreau Julian L',
-      'Bauman Megan M J',
-      'Brown Nolan J',
-      'Alfonzo Horowitz Melanie',
-      'Chakravarti Sachiv',
-      'Mehkri Yusuf',
-      'Grovey Brittany',
-      'Lee Eric',
-      'Lee Gemayel',
-      'Cornidez Eric',
-      'Bhandal Harjot S',
-      'Pope Jason E'
-    ],
-    journal: 'Journal of pain research',
-    doi: '10.2147/JPR.S512263',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454301/'
-  },
-  {
-    id: '40454300',
-    title: 'Examining the Effects of Interventional Pain Management Staff Controlled Substance Agreement Education for Patients with Chronic Non-Cancer Intrathecal Drug Delivery Device Opioid Therapy: A Retrospective Review.',
-    abstract: 'BACKGROUND: Intrathecal drug delivery systems (IDDS) are effective tools for the management of chronic non-cancer pain, cancer-associated pain, and spasticity. Given the overall risks of opioid medications, it is imperative that IDDS opioid-infusion patients receive education regarding the risks versus benefits of their intrathecal opioid medications and that controlled substance agreements (CSAs) are utilized to both educate patients and hold them accountable for keeping IDDS programming visits, refill appointments, or other IDDS maintenance appointments.\n' +
-      'METHODS: A retrospective electronic medical record (EMR) review study was conducted at an interventional pain management practice, quantifying the number of non-cancer chronic pain IDDS opioid therapy patients with signed CSAs. An educational intervention was conducted to increase staff awareness regarding compliance with CSAs and the location of proper CSA documentation within the EMR. Follow-up EMR review and provider knowledge assessment surveys were deployed to assess the success of the intervention.\n' +
-      'RESULTS: Staff knowledge of CSAs increased from 14.3% (3/21) to 45.5% (10/22) following CSA education while their ability to locate CSAs within the EMR also increased from 38.1% (8/21) to 40.9% (9/22). Post-education intervention, rates of CSA documentation improved from 4.5% to 74.5%. Lastly, there was a 39.5% reduction in rescheduled IDDS appointments within the patient population studied.\n' +
-      'CONCLUSION: The results of this study suggest potentially profound impacts that a simple education intervention can have on staff knowledge and compliance with CSA documentation for patients receiving IDDS opioid therapy for chronic non-cancer pain. Furthermore, implementation of CSAs for this patient population may be associated with a decrease in the number of missed, no-show, or rescheduled IDDS maintenance appointments, which have important patient safety implications. Further research is warranted to investigate the impact of CSA compliance on adverse patient outcomes and the potential cost-savings practices with required CSAs.',
-    published: '2025',
-    authors: [
-      'Hoffmann Chelsey',
-      'McDonald Trina',
-      'Gladis Becky',
-      'Schatman Michael E',
-      'Pittelkow Thomas P'
-    ],
-    journal: 'Journal of pain research',
-    doi: '10.2147/JPR.S521458',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454300/'
-  },
-  {
-    id: '40454294',
-    title: 'The State of Telemedicine, Telerehabilitation, and Virtual Care in Musculoskeletal Health: A Narrative Review.',
-    abstract: "Telemedicine has become an increasingly important component of musculoskeletal care, with recent advances in virtual physical examinations, enhanced patient education, and expanded access to treatment and telerehabilitation. Emerging applications of artificial intelligence, including virtual triaging and remote patient monitoring, promise to further augment telemedicine's effectiveness and scope. Despite limitations and a continued preference for in-person visits among some patients, telemedicine can be a valuable tool for musculoskeletal health practitioners, offering new ways to deliver high-quality, timely, and cost-effective care.",
-    published: '2025-May-28',
-    authors: [
-      'Johnson Mitchell A',
-      'Khilnani Tyler',
-      'Hyun Abigail',
-      'Amen Troy B',
-      'Varady Nathan H',
-      'Nwachukwu Benedict U',
-      'Dines Joshua S'
-    ],
-    journal: 'HSS journal : the musculoskeletal journal of Hospital for Special Surgery',
-    doi: '10.1177/15563316251341229',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454294/'
-  },
-  {
-    id: '40454293',
-    title: 'Orthopedic Residency Programs: What are Our Current Goals? An International Society of Orthopedic Centers (ISOC) Delphi Consensus.',
-    abstract: 'No abstract available',
-    published: '2025-May-28',
-    authors: [
-      'Figueroa David',     'Moya Luis',
-      'Arteaga José',       'Vaisman Alex',
-      'Bostrom Mathias',    'Acuña Carolina',
-      'Alesi Domenico',     'Radice Fernando',
-      'Figueroa Francisco', 'Toro Felipe',
-      'Liebergall Meir',    'Stegeman Mark',
-      'Tagil Magnus',       'Lenza Mario',
-      'Sancheti Parag',     'Ranawat Amar',
-      'Calvo Rafael',       'Guiloff Rodrigo',
-      'Robbins Laura',      'Irarrazaval Sebastian',
-      'Zaffagnini Stefano', 'Jung Tobias',
-      'Winkler Tobias'
-    ],
-    journal: 'HSS journal : the musculoskeletal journal of Hospital for Special Surgery',
-    doi: '10.1177/15563316251337359',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454293/'
-  },
-  {
-    id: '40454291',
-    title: 'Large Language Models in Spine Surgery: A Promising Technology.',
-    abstract: 'Large language models (LLMs) offer potential applications across medical specialties; in spine surgery, opportunities exist to enhance patient care, streamline research, and improve clinical practice. This review explores the current and potential applications of LLMs in spine surgery, assessing their possibilities and limitations across patient education, research, clinical practice, and perioperative assistance.',
-    published: '2025-May-29',
-    authors: [ 'Shah Romil', 'Schwab Joseph H' ],
-    journal: 'HSS journal : the musculoskeletal journal of Hospital for Special Surgery',
-    doi: '10.1177/15563316251340696',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454291/'
-  },
-  {
-    id: '40454260',
-    title: 'Mission and Future of World Federation of Interventional and Therapeutic Neuroradiology (WFITN).',
-    abstract: "Interventional and therapeutic neuroradiology offers minimally invasive treatments for neurological disorders, and the World Federation of Interventional and Therapeutic Neuroradiology (WFITN) plays a crucial role in advancing this field globally. This article discusses WFITN's mission to promote education, research, and collaboration among practitioners, establish clinical standards, and embrace technological innovations. It highlights the Federation Assembly's role in governance and policy-making, as well as initiatives like mentorship programs aimed at empowering women in neurointerventional radiology. Facing challenges such as rapid technological changes and healthcare disparities, WFITN is committed to expanding its global impact and fostering an inclusive, innovative community to enhance patient outcomes worldwide.",
-    published: '2025',
-    authors: [ 'Tanaka Michihiro' ],
-    journal: 'Journal of neuroendovascular therapy',
-    doi: '10.5797/jnet.ra.2024-0101',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40454260/'
+    doi: '10.3389/fpsyt.2025.1528205',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40458785/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
@@ -1506,109 +1543,175 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
 Translating paper: Big data in economics...
-Translating paper 2/40
+Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/40
+Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/40
+Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/40
+Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/40
+Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/40
+Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/40
+Translating paper 8/50
 Translating paper: A physical theory of economic growth...
-Translating paper 9/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1854347147270117 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"49s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '49s'
+    }
+  ]
+}
+Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/40
+Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/40
-Translating paper: Surveying Health Professions Students’ Use of Gene...
-Translating paper 12/40
-Translating paper: The effect of simulation-based breast health educa...
-Translating paper 13/40
-Translating paper: Multilingual competency and academic performance: ...
-Translating paper 14/40
-Translating paper: The need for governance in blockchain dispute reso...
-Translating paper 15/40
-Translating paper: Nexus between institutional quality, economic open...
-Translating paper 16/40
-Translating paper: Comparing surgical outcomes of the semisitting ver...
-Translating paper 17/40
-Translating paper: The Economic Contribution of Religious Charities t...
-Translating paper 18/40
-Translating paper: Postdigital Dissensus: On the Complexity of Debati...
-Translating paper 19/40
-Translating paper: Revolutionizing radiology education: exploring inn...
-Translating paper 20/40
-Translating paper: Enhancing entrepreneurial skills through experient...
-Translating paper 21/40
-Translating paper: Speed of Processing Training for Stress Adaptation...
-Translating paper 22/40
-Translating paper: "Helpful help" in vocational support for emerging ...
-Translating paper 23/40
-Translating paper: Social jet lag is associated with core symptoms in...
-Translating paper 24/40
-Translating paper: Psychometric Properties of the Barriers to and Fac...
-Translating paper 25/40
-Translating paper: Characterizing the Optimal Diversity Training Prog...
-Translating paper 26/40
-Translating paper: Examining the Effects of Interventional Pain Manag...
-Translating paper 27/40
-Translating paper: The State of Telemedicine, Telerehabilitation, and...
-Translating paper 28/40
-Translating paper: Orthopedic Residency Programs: What are Our Curren...
-Translating paper 29/40
-Translating paper: Large Language Models in Spine Surgery: A Promisin...
-Translating paper 30/40
-Translating paper: Mission and Future of World Federation of Interven...
-Translating paper 31/40
+Translating paper 11/50
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/50
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 13/50
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 14/50
+Translating paper: Experience and education...
+Translating paper 15/50
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 16/50
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 17/50
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 18/50
+Translating paper: The Effect of Using Simulation on Developing Stude...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1178514290126906 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '48s'
+    }
+  ]
+}
+Translating paper 19/50
+Translating paper: Economics of education...
+Translating paper 20/50
+Translating paper: Teaching climate complacency: mainstream economics...
+Translating paper 21/50
+Translating paper: Developing a multi-layer agent framework to enhanc...
+Translating paper 22/50
+Translating paper: Exploring the interplay of religion and spirituali...
+Translating paper 23/50
+Translating paper: The green potential of the digital economy in bala...
+Translating paper 24/50
+Translating paper: Geometry education at secondary level – a systemat...
+Translating paper 25/50
+Translating paper: Fostering collaboration: a controlled pilot study ...
+Translating paper 26/50
+Translating paper: Navigating the future of higher education in Saudi...
+Translating paper 27/50
+Translating paper: International Student Mobility and Its Impact on D...
+Translating paper 28/50
+Translating paper: Stimulating innovative learning practices with tec...
+Translating paper 29/50
+Translating paper: Appraising Feedback Stance in Higher Education: A ...
+Translating paper 30/50
+Translating paper: Soft skills and the corporate social dimension: th...
+Translating paper 31/50
+Translating paper: Association of the Campus Program Grant and Instit...
+Translating paper 32/50
+Translating paper: The Effectiveness of Affirmative Sexual Consent Cu...
+Translating paper 33/50
+Translating paper: Recommendations for Enhancing Oral Health Professi...
+Translating paper 34/50
+Translating paper: Breaking the Silence: The Role of Screening in Phy...
+Translating paper 35/50
+Translating paper: Diet Habits, Smoking, and Alcohol Consumption Amon...
+Translating paper 36/50
+Translating paper: Stepping Up Informed Consent: Navigating Foot and ...
+Translating paper 37/50
+Translating paper: Effectively Maintained Inequality in Canada Revisi...
+Translating paper 38/50
+Translating paper: Exploring Post-Traumatic Stress Disorder and Hygie...
+Translating paper 39/50
+Translating paper: Bridging Bioscience to Practice: The Significance ...
+Translating paper 40/50
+Translating paper: Three decades of neuroscience research using anima...
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 32/40
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 33/40
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 34/40
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 35/40
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 36/40
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 37/40
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 38/40
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 39/40
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 40/40
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 40 papers
-Removed duplicates: 90 -> 70
-Total papers after merging: 70 (50 existing + 40 new)
-Saved 70 papers to papers.json
+Translation completed: 50 papers
+Removed duplicates: 120 -> 90
+Total papers after merging: 90 (70 existing + 50 new)
+Saved 90 papers to papers.json
 Generating HTML files...
-Generating index.html with 70 papers...
+Generating index.html with 90 papers...
 Successfully generated index.html
-Generating archive.html with 70 papers...
+Generating archive.html with 90 papers...
 Successfully generated archive.html
-Generating journal.html with 70 papers...
+Generating journal.html with 90 papers...
 Successfully generated journal.html
-Generating acquisition.html with 70 papers...
+Generating acquisition.html with 90 papers...
 Successfully generated acquisition.html
-Generating publication.html with 70 papers...
+Generating publication.html with 90 papers...
 Successfully generated publication.html
-Generating registration.html with 70 papers...
+Generating registration.html with 90 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 70
-New papers processed: 40
+Total papers in database: 90
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-02T15:35:40.148Z
+Timestamp: 2025-06-03T15:42:53.764Z
