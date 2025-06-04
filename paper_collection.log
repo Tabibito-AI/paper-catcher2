@@ -31,274 +31,44 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-03T15:12:43.057Z
+Timestamp: 2025-06-04T15:36:03.550Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 70 existing papers from papers.json
+Loaded 90 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
-Fetched papers from arXiv: [
-  {
-    id: 'http://arxiv.org/abs/2406.11913v1',
-    title: 'Big data in economics',
-    summary: 'The term of big data was used since 1990s, but it became very popular around\n' +
-      '2012. A recent definition of this term says that big data are information\n' +
-      'assets characterized by high volume, velocity, variety and veracity that need\n' +
-      'special analytical methods and software technologies to extract value form\n' +
-      'them. While big data was used at the beginning mostly in information technology\n' +
-      'field, now it can be found in every area of activity: in governmental\n' +
-      'decision-making processes, manufacturing, education, healthcare, economics,\n' +
-      'engineering, natural sciences, sociology. The rise of Internet, mobile phones,\n' +
-      'social media networks, different types of sensors or satellites provide\n' +
-      'enormous quantities of data that can have profound effects on economic\n' +
-      'research. The data revolution that we are facing transformed the way we measure\n' +
-      'the human behavior and economic activities. Unemployment, consumer price index,\n' +
-      'population mobility, financial transactions are only few examples of economic\n' +
-      'phenomena that can be analyzed using big data sources. In this paper we will\n' +
-      'start with a taxonomy of big data sources and show how these new data sources\n' +
-      'can be used in empirical analyses and to build economic indicators very fast\n' +
-      'and with reduced costs.',
-    published: '2024-06-16T18:37:42Z',
-    updated: '2024-06-16T18:37:42Z',
-    authors: [ 'Bogdan Oancea' ],
-    categories: [ 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2406.11913v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/0807.3534v1',
-    title: 'Learning from Physics Education Research: Lessons for Economics\n' +
-      '  Education',
-    summary: 'We believe that economists have much to learn from educational research\n' +
-      'practices and related pedagogical innovations in other disciplines, in\n' +
-      'particular physics education. In this paper we identify three key features of\n' +
-      'physics education research that distinguish it from economics education\n' +
-      'research - (1) the intentional grounding of physics education research in\n' +
-      'learning science principles, (2) a shared conceptual research framework focused\n' +
-      'on how students learn physics concepts, and (3) a cumulative process of\n' +
-      'knowledge-building in the discipline - and describe their influence on new\n' +
-      'teaching pedagogies, instructional activities, and curricular design in physics\n' +
-      'education. In addition, we highlight four specific examples of successful\n' +
-      'pedagogical innovations drawn from physics education - context-rich problems,\n' +
-      'concept tests, just-in-time teaching, and interactive lecture demonstrations -\n' +
-      'and illustrate how these practices can be adapted for economic education.',
-    published: '2008-07-22T18:07:29Z',
-    updated: '2008-07-22T18:07:29Z',
-    authors: [ 'Scott P. Simkins', 'Mark H. Maier' ],
-    categories: [ 'physics.ed-ph' ],
-    link: 'http://arxiv.org/abs/0807.3534v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2501.12639v1',
-    title: 'Enhancing Economic Literacy through Causal Diagrams',
-    summary: 'A literacy-targeted approach to economic instruction draws on insights from\n' +
-      'cognitive science. It highlights that students process complex economic\n' +
-      'information by constructing and modifying schemas that represent economic\n' +
-      'material. Following this approach, we developed a set of instructional\n' +
-      'activities centered around causal diagrams that promote a deeper understanding\n' +
-      'of economic topics beyond the traditional lecture-based methods. Our results\n' +
-      'show that structural debriefing activities can be used effectively to introduce\n' +
-      'students to the causal diagrams that explain key economic relationships in the\n' +
-      'national income model, government-purchases multiplier and tax multiplier.',
-    published: '2025-01-22T04:58:09Z',
-    updated: '2025-01-22T04:58:09Z',
-    authors: [ 'Oleg V. Pavlov', 'Natalia V. Smirnova', 'Elena V. Smirnova' ],
-    categories: [ 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2501.12639v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2209.00057v1',
-    title: 'Molecular genetics and mid-career economic mobility',
-    summary: 'Reductions in the cost of genetic sequencing have enabled the construction of\n' +
-      'large datasets including both genetic and phenotypic data. Based on these\n' +
-      "datasets, polygenic scores (PGSs) summarizing an individual's genetic\n" +
-      'propensity for educational attainment have been constructed. It is by now well\n' +
-      'established that this PGS predicts wages, income, and occupational prestige and\n' +
-      'occupational mobility across generations. It is unknown whether a PGS for\n' +
-      'educational attainment can predict upward income and occupational mobility even\n' +
-      'within the peak earning years of an individual. Using data from the Wisconsin\n' +
-      'Longitudinal Study (WLS), I show that: (i) a PGS for educational attainment\n' +
-      'predicts wage, income and occupational prestige mobility between 1974 (when\n' +
-      'respondents were about 36 years of age) and 1992 (when respondents were about\n' +
-      '53 years of age), conditional on 1974 values of these variables and a range of\n' +
-      'covariates; (ii) the effect is not mediated by parental socioeconomic status,\n' +
-      'is driven primarily by respondents with only a high school education, and is\n' +
-      'replicated in a within sibling-pair design; (iii) conditional on 1974 outcomes,\n' +
-      'higher PGS individuals surveyed in 1975 aspired to higher incomes and more\n' +
-      'prestigious jobs 10 years hence, an effect driven primarily by respondents with\n' +
-      'more than a high school education; (iv) throughout their employment history,\n' +
-      'high PGS individuals were more likely to undertake on the job training, and\n' +
-      'more likely to change job duties during tenure with an employer; and (v) though\n' +
-      'no more likely to change employers or industries during their careers, high PGS\n' +
-      'individuals were more likely in 1974 to be working in industries which would\n' +
-      'experience high wage growth in subsequent decades. These results contribute to\n' +
-      'our understanding of longitudinal inequality and shed light on the sources of\n' +
-      'heterogeneity in responses to economic shocks and policy.',
-    published: '2022-08-31T18:25:08Z',
-    updated: '2022-08-31T18:25:08Z',
-    authors: [ 'Paul Minard' ],
-    categories: [ 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2209.00057v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/1804.10037v2',
-    title: 'Quantifier Elimination for Reasoning in Economics',
-    summary: 'We consider the use of Quantifier Elimination (QE) technology for automated\n' +
-      "reasoning in economics. QE dates back to Tarski's work in the 1940s with\n" +
-      'software to perform it dating to the 1970s. There is a great body of work\n' +
-      'considering its application in science and engineering but we show here how it\n' +
-      'can also find application in the social sciences. We explain how many suggested\n' +
-      'theorems in economics could either be proven, or even have their hypotheses\n' +
-      'shown to be inconsistent, automatically; and describe the application of this\n' +
-      'in both economics education and research. We describe a bank of QE examples\n' +
-      'gathered from economics literature and note the structure of these are, on\n' +
-      'average, quite different to those occurring in the computer algebra literature.\n' +
-      'This leads us to suggest a new incremental QE approach based on result\n' +
-      'memorization of commonly occurring generic QE results.',
-    published: '2018-04-26T13:05:16Z',
-    updated: '2018-05-15T10:30:31Z',
-    authors: [
-      'Casey B. Mulligan',
-      'Russell Bradford',
-      'James H. Davenport',
-      'Matthew England',
-      'Zak Tonks'
-    ],
-    categories: [ 'cs.SC', '68W30, 03C10, 91-04', 'I.1.2; J.4' ],
-    link: 'http://arxiv.org/abs/1804.10037v2'
-  },
-  {
-    id: 'http://arxiv.org/abs/1807.07051v1',
-    title: 'A New Index of Human Capital to Predict Economic Growth',
-    summary: 'The accumulation of knowledge required to produce economic value is a process\n' +
-      'that often relates to nations economic growth. Such a relationship, however, is\n' +
-      'misleading when the proxy of such accumulation is the average years of\n' +
-      'education. In this paper, we show that the predictive power of this proxy\n' +
-      'started to dwindle in 1990 when nations schooling began to homogenized. We\n' +
-      'propose a metric of human capital that is less sensitive than average years of\n' +
-      'education and remains as a significant predictor of economic growth when tested\n' +
-      'with both cross-section data and panel data. We argue that future research on\n' +
-      'economic growth will discard educational variables based on quantity as\n' +
-      'predictor given the thresholds that these variables are reaching.',
-    published: '2018-07-18T17:34:27Z',
-    updated: '2018-07-18T17:34:27Z',
-    authors: [ 'Henry Laverde', 'Juan C. Correa', 'Klaus Jaffe' ],
-    categories: [ 'econ.EM' ],
-    link: 'http://arxiv.org/abs/1807.07051v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2008.02581v1',
-    title: 'Teaching Economics with Interactive Browser-Based Models',
-    summary: 'Interactive simulation toolkits come in handy when teaching macroeconomic\n' +
-      'models by facilitating an easy understanding of underlying economic concepts\n' +
-      "and offering an intuitive approach to the models' comparative statics. Based on\n" +
-      'the example of the IS-LM model, this paper demonstrates innovative\n' +
-      'browser-based features well-suited for the shift in education to online\n' +
-      'platforms accelerated by COVID-19. The free and open-source code can be found\n' +
-      'alongside the standalone HTML files for the AD-AS and the Solow growth model at\n' +
-      'https://gitlab.tu-berlin.de/chair-of-macroeconomics/.',
-    published: '2020-08-06T11:24:46Z',
-    updated: '2020-08-06T11:24:46Z',
-    authors: [ 'Juan Dominguez-Moran', 'Rouven Geismar' ],
-    categories: [ 'q-fin.GN', 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2008.02581v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/1206.2494v1',
-    title: 'A physical theory of economic growth',
-    summary: 'Economic growth is unpredictable unless demand is quantified. We solve this\n' +
-      'problem by introducing the demand for unpaid spare time and a user quantity\n' +
-      'named human capacity. It organizes and amplifies spare time required for\n' +
-      'enjoying affluence like physical capital, the technical infrastructure for\n' +
-      'production, organizes and amplifies working time for supply. The sum of annual\n' +
-      'spare and working time is fixed by the universal flow of time. This yields the\n' +
-      'first macroeconomic equilibrium condition. Both storable quantities form\n' +
-      'stabilizing feedback loops. They are driven with the general and technical\n' +
-      'knowledge embodied with parts of the supply by education and construction.\n' +
-      'Linear amplification yields S-functions as only analytic solutions.\n' +
-      'Destructible physical capital controls medium-term recoveries from disaster.\n' +
-      'Indestructible human capacity controls the collective long-term industrial\n' +
-      'evolution. It is immune even to world wars and runs from 1800 to date parallel\n' +
-      'to the unisex life expectancy in the pioneering nations. This is the first\n' +
-      'quantitative information on long-term demand. The theory is self-consistent. It\n' +
-      'reproduces all peaceful data from 1800 to date without adjustable parameter. It\n' +
-      'has full forecasting power since the decisive parameters are constants of the\n' +
-      'human species. They predict an asymptotic maximum for the economic level per\n' +
-      'capita. Long-term economic growth appears as a part of natural science.',
-    published: '2012-06-12T11:33:19Z',
-    updated: '2012-06-12T11:33:19Z',
-    authors: [ 'Hans G. Danielmeyer', 'Thomas Martinetz' ],
-    categories: [ 'q-fin.GN', 'physics.soc-ph' ],
-    link: 'http://arxiv.org/abs/1206.2494v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/1106.3455v1',
-    title: 'Applications of a constrained mechanics methodology in economics',
-    summary: 'The paper presents instructive interdisciplinary applications of constrained\n' +
-      'mechanics calculus in economics on a level appropriate for the undergraduate\n' +
-      'physics education. The aim of the paper is: 1. to meet the demand for\n' +
-      'illustrative examples suitable for presenting the background of the highly\n' +
-      'expanding research field of econophysics even on the undergraduate level and 2.\n' +
-      'to enable the students to understand deeper the principles and methods\n' +
-      'routinely used in mechanics by looking at the well known methodology from the\n' +
-      'different perspective of economics. Two constrained dynamic economic problems\n' +
-      'are presented using the economic terminology in an intuitive way. First, the\n' +
-      'Phillips model of business cycle is presented as a system of forced\n' +
-      'oscillations and the general problem of two interacting economies is solved by\n' +
-      'the nonholonomic dynamics approach. Second, the Cass-Koopmans-Ramsey model of\n' +
-      'economical growth is solved as a variational problem with a velocity dependent\n' +
-      'constraint using the vakonomic approach. The specifics of the solution\n' +
-      'interpretation in economics compared to mechanics is discussed in detail, a\n' +
-      'discussion of the nonholonomic and vakonomic approaches to constrained problems\n' +
-      'in mechanics and economics is provided and an economic interpretation of the\n' +
-      'Lagrange multipliers (possibly surprising for the students of physics) is\n' +
-      'carefully explained. The paper can be used by the undergraduate students of\n' +
-      'physics interested in interdisciplinary physics applications to get in touch\n' +
-      'with current scientific approach to economics based on a physical background or\n' +
-      'by university teachers as an attractive supplement to the classical mechanics\n' +
-      'lessons.',
-    published: '2011-06-17T11:57:09Z',
-    updated: '2011-06-17T11:57:09Z',
-    authors: [ 'Jitka Janová' ],
-    categories: [
-      'physics.ed-ph',
-      'physics.class-ph',
-      'physics.soc-ph',
-      'q-fin.GN',
-      '70 F25'
-    ],
-    link: 'http://arxiv.org/abs/1106.3455v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2006.03977v1',
-    title: 'IP Geolocation Underestimates Regressive Economic Patterns in MOOC Usage',
-    summary: 'Massive open online courses (MOOCs) promise to make rigorous higher education\n' +
-      'accessible to everyone, but prior research has shown that registrants tend to\n' +
-      'come from backgrounds of higher socioeconomic status. We study geographically\n' +
-      'granular economic patterns in about 76,000 U.S. registrations for about 600\n' +
-      "HarvardX and MITx courses between 2012 and 2018, identifying registrants'\n" +
-      'locations using both IP geolocation and user-reported mailing addresses. By\n' +
-      'either metric, we find higher registration rates among postal codes with\n' +
-      'greater prosperity or population density. However, we also find evidence of\n' +
-      'bias in IP geolocation: it makes greater errors, both geographically and\n' +
-      'economically, for users from more economically distressed areas; it\n' +
-      'disproportionately places users in prosperous areas; and it underestimates the\n' +
-      'regressive pattern in MOOC registration. Researchers should use IP geolocation\n' +
-      'in MOOC studies with care, and consider the possibility of similar economic\n' +
-      'biases affecting its other academic, commercial, and legal uses.',
-    published: '2020-06-06T21:13:14Z',
-    updated: '2020-06-06T21:13:14Z',
-    authors: [ 'Daniela Ganelin', 'Isaac Chuang' ],
-    categories: [ 'cs.CY', 'cs.NI' ],
-    link: 'http://arxiv.org/abs/2006.03977v1'
-  }
-]
-Collected 10 papers from arxiv
+Error fetching arXiv papers: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/node-fetch/src/index.js:108:11)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET',
+  erroredSysCall: 'read'
+}
+Error collecting papers from arxiv: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/node-fetch/src/index.js:108:11)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET',
+  erroredSysCall: 'read'
+}
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -411,488 +181,323 @@ Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
   {
-    id: '10.1007/s43995-025-00136-x',
-    title: 'Developing a multi-layer agent framework to enhance AI-generated educational questions for cybersecurity',
-    summary: 'This study evaluates the quality of questions generated by large language models, such as ChatGPT, in the context of cybersecurity education, using the CompTIA Security + certification as a case study. By analyzing 360 human-authored questions across 17 chapters and comparing them with AI-generated counterparts, the study employs Bloom’s Taxonomy to assess the cognitive levels achieved. The results reveal that AI-generated questions are predominantly limited to lower-order cognitive tasks, such as remembering and understanding, with significant gaps in addressing higher-order cognitive tasks, including applying, analyzing, evaluating, and creating. To address these limitations, a multi-layer agent framework was developed and implemented on a website. This framework integrates the ChatGPT API and processes the generated questions through multiple stages of evaluation, aligning them with Bloom’s Taxonomy and enhancing their quality. The framework includes scenario-based refinements, domain-specific fine-tuning, and a feedback mechanism to iteratively improve the cognitive depth of the questions. The agent systematically aligns AI-generated content with higher Bloom’s levels, making the questions more robust and applicable to real-world contexts. Evaluation of the framework demonstrates notable advancements in the quality of AI-generated questions, achieving closer alignment with human-authored content in terms of cognitive complexity, scenario depth, and relevance. The agent achieved substantial improvements in generating higher-order cognitive tasks, addressing the limitations of baseline AI performance. This study provides a scalable foundation for leveraging large language models in high-stakes educational assessments, with implications for adaptive learning and enhanced question design across diverse domains.',
-    published: '2025-06-03',
-    authors: [ 'Alshehri, Aziz' ],
+    id: '10.1038/d41586-025-01667-y',
+    title: 'How I’m bringing the voices of local fishers into ocean policies',
+    summary: 'Fishing communities know what sustainability means. They must be at the decision table. Fishing communities know what sustainability means. They must be at the decision table.',
+    published: '2025-06-05',
+    authors: [ 'Gueye, Gaoussou' ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Nature'
+  },
+  {
+    id: '10.1007/s12111-025-09701-z',
+    title: 'Revisiting Watkins’ Black Curriculum Orientations: Building on Curricular Contributions of Historically Black Colleges and Universities',
+    summary: 'Abstract Watkins’,  Harvard Educational Review, 63 (3), 321–339 ( 1993 ) Black curriculum orientations challenge us to explore education—why we teach, what we teach—in its sociopolitical context, the way it is politically brokered and negotiated, the political ideology to which it tends, the ways it curates our identities, and is responsive to our lived experiences. This study revisits Watkin’s ( 1993 ) conceptualizations of Black curriculum orientations and draws from literature that (1) nuances and complicates these conversations and contentious debates, (2) situates and contextualizes these conversations within the sociopolitical realities of the Black community, and (3) includes and amplifies the voices of HBCU administrators, faculty, and students whose curricular contributions have been historically silenced. To distill the extant literature on Black curriculum orientations, this study surveys peer-reviewed journal articles, scholarly books, memoirs, and archival data that captures conversations from faculty, administrators, and students at historically Black colleges and universities (HBCUs) about the purpose, meaning, and value of education. ',
+    published: '2025-06-04',
+    authors: [ 'Tillis, Gina English' ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Journal of Umm Al-Qura University for Engineering and Architecture'
+    journal: 'Journal of African American Studies'
   },
   {
-    id: '10.1007/s40839-025-00259-2',
-    title: 'Exploring the interplay of religion and spirituality: an Islamic perspective on spiritual seeking and human existence',
-    summary: 'This article explores the integral role of Islamic spirituality in addressing diverse life challenges, with a focus on the pursuit of meaning, purpose, and healing and its connection with Islamic education. It investigates how spiritual awareness within Islam aids individuals in coping with difficulties related to health, wealth, work, and family by providing a comprehensive framework for understanding and overcoming these adversities. Through an extensive literature review and synthesis of previous research, the study demonstrates that spiritual with seeking frequently arises in response to personal crises, establishing this quest for meaning as a fundamental aspect of spiritual development. Additionally, it highlights the role of Islamic religious education (IRE) in fostering resilience and moral integrity, equipping humans with the spiritual tools necessary to navigate life’s challenges. The discussion emphasizes how facing adversity can enhance one’s spiritual connection to God (Allah) and examines Islamic teachings on patience, gratitude, and perseverance. Additionally, the article analyzes the process of spiritual healing in the context of critical illness, highlighting how practices such as prayer, remembrance, and supplication offer psychological comfort and strengthen faith. By integrating the concepts of tazkiyat al-nafs (self-purification) and the holistic interplay between spiritual and physical aspects of life, the study portrays Islamic spirituality as a vital tool for personal growth and emotional resilience. Ultimately, it argues that Islamic spirituality provides a holistic approach to discovering life’s meaning, managing challenges, and achieving both temporal and eternal well-being. This research contributes to a deeper understanding of the therapeutic potential of spirituality, particularly within Islamic contexts, and offers valuable insights for its application in contemporary settings.',
-    published: '2025-06-03',
-    authors: [ 'Ayob, Mohd Annas Shafiq', 'Sham, Fariza Md', 'Alias, Jamsari' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Journal of Religious Education'
-  },
-  {
-    id: '10.1038/s41598-025-04616-x',
-    title: 'The green potential of the digital economy in balancing economic growth and carbon emissions',
-    summary: 'The imperative to mitigate carbon dioxide emissions is evident, given the escalating environmental challenges. The digital economy emerges as a pivotal agent for green solutions. Nonetheless, it is crucial to maintain a balance between emission reduction and economic growth, ensuring that efforts to curtail carbon output do not hinder economic development. This study aims to investigate the impact of digital economy on carbon efficiency across 287 Chinese cities from 2000 to 2021, based on benchmarks regression, threshold effect model, spatial effect regression, mechanism analysis, heterogeneity analysis, and difference-in-difference analysis. A key innovation of this study is the use of the Data Envelopment Analysis–Slack-Based Measure (DEA-SBM) model to measure carbon emission efficiency, addressing a major gap in existing research that primarily focuses on total emissions rather than efficiency. Compared with traditional efficiency measures, DEA-SBM captures the slack in both inputs and outputs, enabling a more realistic assessment of carbon efficiency under conditions of resource inefficiency and regulatory pressure in urban environments. Additionally, a structural equation model provides a multifaceted view of the digital economy’s influence on carbon efficiency, moving past conventional single-pathway mediation models. Empirical results show that a 1% increase in the Digital Economy Index leads to a 0.148% improvement in carbon emission efficiency. In high-GDP regions, this effect rises sharply to 3.624%. A mediation analysis further reveals that the digital economy also indirectly boosts carbon efficiency through economic growth, contributing an additional 0.47% improvement. These findings underscore the digital economy’s dual potential to foster both economic growth and carbon emissions. Based on the results, it is recommended that policymakers intensify digital economy development in undeveloped and resource-deteriorating regions, reduce taxes for green technology enterprises, and facilitate knowledge sharing from the more advanced eastern regions to enhance carbon emission efficiency.',
-    published: '2025-06-03',
-    authors: [ 'Bai, Conghui', 'Du, Xuyang', 'Chua, Soo Yean' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Scientific Reports'
-  },
-  {
-    id: '10.1007/s11858-025-01703-1',
-    title: 'Geometry education at secondary level – a systematic literature review',
-    summary: 'This systematic literature review summarises research on geometry education published since 2013. It begins with a conceptualization of the geometry education using the didactic tetrahedron model. The PRISMA guidelines were used to search five databases, in addition to conference proceedings and journals. The keywords and abstracts from the articles were analyzed using the “Voyant Tool” that created a list of the frequencies of words and their possible relationships to each other. Based on this analysis, the articles were coded using the didactic tetrahedron model. This informed the development of codes that were analyzed to develop categories related to the process skills Arguing and Reasoning, Proving and Reasoning, Problem Solving, and Modeling; the content skills Plane Geometry, Spatial Geometry, and Measurement, including Area and Volume; concepts that include Assessment, Gamification and Computational Thinking; and finally Teaching Competencies and Teaching Theories. The results of this overview show trends and developments that should be considered in geometry research in the coming years.',
-    published: '2025-06-03',
+    id: '10.1007/s44217-025-00558-8',
+    title: 'Navigating racism: A scoping review of barriers in the experiences of Black Health Professions students',
+    summary: "This manuscript examines the racism experienced by Black students in health professions through a scoping review of 33 articles. The analysis reveals significant gaps in the literature across multiple dimensions of racism, including interpersonal, community, institutional and systemic levels. Interpersonal racism, identified in 30% of the studies, demonstrates how discriminatory interactions negatively affect students' academic performance and overall well-being. Community racism, addressed in 24% of the studies, highlights the role of community norms in fostering exclusion and stereotype threat. Institutional racism was minimally addressed, appearing in only 3% of the studies, and focusing primarily on barriers posed by standardized testing. Systemic racism and historical factors received limited attention, with 52% of the studies failing to adequately connect these broader forces to the racialized experiences of Black students. Addressing these gaps is essential for shaping policies that dismantle structural barriers, promote equitable admissions, and expand funding for initiatives that support Black students pursuing health professions. Prioritizing these efforts is critical to creating a more inclusive educational environment, improving student outcomes, and reducing health disparities.",
+    published: '2025-06-04',
     authors: [
-      'Weigand, Hans-Georg',
-      'Hollebrands, Karen',
-      'Maschietto, Michela'
+      'Miles, Monica L.',
+      'Morton, Terrell R.',
+      'Pettis, Philip',
+      'Henderson, Ramar',
+      'Frizell, Carl A.',
+      'Bester, Vanessa S.',
+      'O’Mally, Aisha K.',
+      'Trevino-Fica, Logan'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Discover Education'
+  },
+  {
+    id: '10.1186/s12889-025-23169-2',
+    title: 'More than movement: a systematic review of moral and social development in adolescents physical education',
+    summary: 'Background This paper investigates the dimensions of moral and social development within physical education (PE) programs for adolescents, examining theoretical foundations, empirical evidence, and practical implementations. The review highlights the role of PE in fostering moral and social development and explores how cultural contexts may influence research and practice. By integrating these dimensions, the study provides a comprehensive understanding of how PE contributes to adolescent development while accounting for cultural variability. Methods A systematic review was conducted using Web of Science, EBSCO, and Scopus databases. The final search was performed in July 2024. A total of 3,114 non-duplicate articles were identified. After screening titles, abstracts, and full texts, 44 studies met the inclusion criteria. Studies were assessed based on methodologies, program structures, findings, and alignment with cultural values. Results The review indicates that PE programs integrating moral education contribute to the development of students’ moral and social competencies. Programs appeared to be designed that align with prevailing cultural values and traditions, which may enhance their perceived relevance and acceptance. However, due to the methodological diversity of included studies, direct comparisons across studies were limited. Conclusions The findings suggest that PE-based programs promoting moral and social development are generally effective. Further research, including meta-analyses, is recommended to compare different program approaches systematically. Future studies should also aim to standardize evaluation methods to improve comparability and explicitly consider cultural context as an important factor influencing program design and outcomes.',
+    published: '2025-06-04',
+    authors: [
+      'Jadwiszczak, Magdalena',
+      'Wawrzyniak, Sara',
+      'Pezdek, Krzysztof'
+    ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'BMC Public Health'
+  },
+  {
+    id: '10.1007/s42330-025-00364-2',
+    title: 'Strengthening the Kindergarten Teacher’s Manual Based on the NCTM Standards: Proposed Amendments',
+    summary: 'There is a prominent and steadily growing interest in mathematics learning in early childhood education. Teaching mathematics is dependent not only on the teachers’ competencies and characteristics but also on the quality of the curricular resources they use, including manuals. In the Palestinian education system, the kindergarten teacher’s manual is the sole official written curriculum resource available for kindergarten education. The purpose of this study is to analyze and strengthen the kindergarten teacher’s manual based on the Standards of the National Council of Teachers of Mathematics by proposing developmental amendments to it. To achieve this purpose, two methods were used: quantitative content analysis of the Kindergarten Teacher’s Manual based on the National Council of Teachers of Mathematics Standards and qualitative analysis of semi-structured interviews with Palestinian early childhood professionals. The results showed that although the Manual was a strong first-draft document; the mathematics content is incomplete, as it does not include all the standards’ expectations for kindergarten; and the sequencing is not logically aligned with children’s developmental progression. This study proposes amendments which are emphasizing early childhood development; re-arranging the Manual to reflect a logical sequence of mathematical skills; adding the complete mathematics content; and a restructuring of the activities themselves. The intended amended manual will have clear and compelling implications in the field and will empower kindergarten teachers to become more confident in teaching and developing the early childhood curriculum in the Palestinian education system. L’apprentissage des mathématiques dans l’éducation de la petite enfance suscite un intérêt croissant. L’enseignement des mathématiques dépend non seulement des compétences et des caractéristiques des enseignants, mais aussi de la qualité des ressources pédagogiques utilisées, y compris les manuels. Dans le système éducatif palestinien, le manuel de l’enseignant de maternelle représente la seule ressource pédagogique officielle écrite disponible pour l’enseignement de la maternelle. L’objectif de cette étude est d’analyser et de renforcer le manuel de l’enseignant de maternelle sur la base des normes du « Conseil national des enseignants de mathématiques» (NCTM, en anglais) en y proposant des modifications en matière de développement. Pour atteindre ce but, nous avons utilisé deux méthodes: une analyse quantitative du contenu du manuel de l’enseignant de maternelle en nous appuyant sur les normes du « Conseil national des enseignants de mathématiques» et une analyse qualitative fondée sur des entrevues semi-structurées avec des professionnels palestiniens de la petite enfance. Les résultats ont montré que, bien que le manuel constitue un document initial de qualité, son contenu en mathématiques est incomplet, car il n’inclut pas toutes les attentes normatives pour la maternelle, et son enchaînement n’est pas aligné de manière logique sur la progression du développement de l’enfant. Dans cette étude, nous proposons les amendements suivants: mettre l’accent sur le développement de la petite enfance, réorganiser le manuel pour offrir une séquence logique de compétences mathématiques, ajouter la totalité du contenu mathématique et restructurer les activités elles-mêmes. Une fois modifié, le manuel attendu aura des implications claires et convaincantes sur le terrain et permettra aux enseignants de maternelle d’être plus confiants dans l’enseignement et le développement du programme destiné à la petite enfance dans le système éducatif palestinien.',
+    published: '2025-06-04',
+    authors: [ 'Elyan, Rabiha M. I.', 'Harb, Najah M. K.' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Canadian Journal of Science, Mathematics and Technology Education'
+  },
+  {
+    id: '10.1007/s10459-025-10444-5',
+    title: 'An evaluation of programmatic assessment across health professions education using contribution analysis',
+    summary: 'Programmatic assessment is gaining traction in health professions education. Despite this popularity, educators continue to grapple with complex contextual factors that impact implementation and outcome attainment. We used contribution analysis, a theory-informed evaluation method, to understand the mechanisms underpinning successful implementation. Applying the six steps of contribution analysis, we developed a postulated theory of change (ToC) and then conducted a qualitative study with programmatic assessment stakeholders (graduates n = 15, supervisors n = 32, faculty n = 19) from four Australian dietetic programs. These data were analysed using the Framework Analysis method and integrated with data derived from a literature review across health disciplines, to assemble contribution claims and the story, and verify the ToC. Impact pathways for programmatic assessment from inception to implementation, and contribution to outcomes were articulated in the ToC. Leaders drove implementation using compromise and worked with a design team to apply the versatile principles. All people required training, and purposefully designed tools were implemented within an ideologically aligned system. Re-orientation of responsibilities situated learners as leaders, contributing to a psychologically safe environment which promoted growth mindsets. Credible high-stakes progression decisions were enabled, people experienced less stress, and derived gratification from assessment. External factors (institutional and accreditation requirements) and threats (resource mismatches, ideological misalignments, and capabilities of the people) were identified. Contribution analysis revealed mechanisms that educators can apply to implement a contextually responsive programmatic assessment across diverse settings.',
+    published: '2025-06-04',
+    authors: [
+      'Jamieson, Janica',
+      'Palermo, Claire',
+      'Hay, Margaret',
+      'Bacon, Rachel',
+      'Lutze, Janna',
+      'Gibson, Simone'
+    ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Advances in Health Sciences Education'
+  },
+  {
+    id: '10.1007/s11858-025-01692-1',
+    title: 'The role of textbooks in the implementation of curriculum development: a comparative study through the lens of Chinese and Indonesian teachers’ views',
+    summary: 'Textbooks are an essential source for the implementation of new curriculum in many countries. However, the role of textbooks in the process is not a fixed entity, as it is shaped by individual teachers’ practices. This study aims to investigate, through the lens of teachers’ views, what role textbooks play in the implementation of curriculum development in two educational settings, Shanghai, China and Central Java, Indonesia. Using a mixed-methods approach, including surveys and interviews, to collect data from 84 mathematics teachers in both countries, the study examined the interplay between curriculum development with a focus on three dimensions - teaching strategies, content, and assessment - and the role of textbooks in its implementation. The results showed that overall textbooks play an important role in the implementation of curriculum development in both Chinese and Indonesian educational settings, but differences were also found about the role of textbooks in different dimensions of the implementation; while Chinese teachers view the content of teaching, Indonesian teachers chose teaching strategies as the most important aspects of textbooks in implementing new curriculum, and the differences are related to the fact that curriculum reform in each country has different characteristics, and in particular, Indonesian teachers are more encouraged to construct their content according to the needs of their students, allowing for differentiated learning, which contributes to the discretionary use of textbooks by both teachers and students. The paper argues that these characteristics should be supported by textbooks that are aligned with curriculum reform in different educational settings.',
+    published: '2025-06-04',
+    authors: [
+      'Fan, Lianghuo',
+      'Wijayanti, Dyana',
+      'Meng, Danyang',
+      'Li, Kunli',
+      'Mailizar, Mailizar'
     ],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'ZDM – Mathematics Education'
   },
   {
-    id: '10.1186/s12909-025-07424-z',
-    title: 'Fostering collaboration: a controlled pilot study of interprofessional education for medical and pharmacy students',
-    summary: 'Background An increasingly ageing population and the resulting multimorbidity is a growing challenge for healthcare systems. A solution to tackle this problem is interprofessional collaboration. Interprofessional education, as an early meeting point, could foster a future successful interprofessional collaboration. So, the aim of our pilot study was to assess whether the “interprofessional collaboration between medical and pharmacy students to improve medication safety in polypharmacy” (PILLE) project changed the perception of medical and pharmacy students towards interprofessional collaboration. Methods PILLE consisted of three parts: (1) A mandatory 90-minutes interprofessional seminar; (2) A voluntary 120-minutes practical training; (3) A voluntary half-day interprofessional tandem work shadowing at a General Practitioner’s (GP) office. We used a controlled study design. Medical and pharmacy students from the intervention group attended the seminar (1). Medical students of the control group attended an interactive 90-minutes monoprofessional seminar only. Working together on cases was the similarity of both seminars. The students from the intervention group could attend (2) and (3). The outcome of interest was the change in students’ perception towards interprofessional collaboration after participating in PILLE, using pre- and post-questionnaires with the validated German version of Student Perceptions of Physician-Pharmacist Interprofessional Clinical Education (SPICE-2D) instrument. Descriptive and statistical evaluation was conducted. To assess if there is a significant pre-post-difference in the SPICE-2D overall score within the individual groups, paired t-tests were executed. To investigate if there is a significant change in SPICE-2D overall score difference between the medical students control and intervention group, an unpaired t-test was performed. Results In total, 436 students participated: 96 medical students and 116 pharmacy students in the intervention group, and 224 medical students in the control group. The participating students from both professions already had a pronounced positive perception at baseline. All pre-post-mean-differences within the individual groups and between the medical students control and intervention group were not statistically significant. Conclusion Participating medical and pharmacy students already had a positive perception at baseline. A one-time and short-term mandatory seminar of 90-minutes seems not to be sufficient to measure a change in perception. Future interprofessional education projects should focus on frequent meeting points between students.',
-    published: '2025-06-03',
+    id: '10.1007/s11096-025-01936-w',
+    title: 'Students’ acceptance and use of generative AI in pharmacy education: international cross-sectional survey based on the extended unified theory of acceptance and use of technology',
+    summary: 'Background Generative artificial intelligence (GenAI) has significant potential implications for pharmacy education, but its ethical, practical, and pedagogical implications have not been fully explored. Aim This international study evaluated pharmacy students’ acceptance and use of GenAI tools using the Extended Unified Theory of Acceptance and Use of Technology (UTAUT). Method A cross-sectional survey of pharmacy students from nine countries during the first half of 2024 assessed GenAI usage patterns, curricular integration, and acceptance via the Extended UTAUT framework. After appropriate translation and cultural adaptation, exploratory factor analysis (EFA) identified key adoption factors. Results A total of 2009 responses were received. ChatGPT and Quillbot were the tools most frequently utilised. EFA identified three key dimensions: Utility-Driven Adoption, Affordability and Habitual Integration, and Social Influence. Students rated performance and effort expectancy highly, highlighting their perceived usefulness and ease of use of GenAI tools. In contrast, habit and price value received lower ratings, indicating barriers to habitual use and affordability concerns. Gender disparities were noted, with males demonstrating significantly higher acceptance ( p  < 0.001). Additionally, country-specific differences were evident, as Malaysia reported a high performance expectancy, while Egypt exhibited low facilitating conditions. Over 20% indicated an over-reliance on GenAI for assignments, raising ethical concerns. Significant gaps were observed, such as limited ethical awareness—only 10% prioritised legal and ethical training—and uneven curricular integration, with 60% reporting no formal exposure to Generative AI. Conclusion Findings reveal critical gaps in ethical guidance, equitable access, and structured GenAI integration in pharmacy education. A proactive, context-specific strategy is essential to align technological innovation with pedagogical integrity.',
+    published: '2025-06-04',
     authors: [
-      'Petersen, Maike',
-      'Gehrke-Beck, Sabine',
-      'Zimmermann, Nicole',
-      'Konrad, Amrei-Pauline',
-      'Behrend, Ronja',
-      'Peters, Harm',
-      'Schulz, Martin',
-      'Kloft, Charlotte',
-      'Herrmann, Wolfram J.'
+      'Elnaem, Mohamed Hassan',
+      'Okuyan, Betul',
+      'Mubarak, Naeem',
+      'Thabit, Abrar K.',
+      'AbouKhatwa, Merna Mahmoud',
+      'Ramatillah, Diana Laila',
+      'Isah, AbdulMuminu',
+      'Al-Jumaili, Ali Azeez',
+      'Nazar, Nor Ilyani Mohamed'
     ],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'BMC Medical Education'
+    journal: 'International Journal of Clinical Pharmacy'
   },
   {
-    id: '10.1007/s43621-025-01388-2',
-    title: 'Navigating the future of higher education in Saudi Arabia: implementing AI, machine learning, and big data for sustainable university development',
-    summary: 'Higher education in the Gulf Cooperation Council (GCC) is going through big changes as universities try to meet the needs of 21st-century students and society. New technologies give both opportunities and challenges for Arab region universities to develop sustainably. This paper looks at ways to successfully use artificial intelligence (AI) and big data analytics in Saudi higher education while supporting long-term growth. First, it analyzes current trends in Saudi university enrollment, programs, and facilities to identify areas for improvement. It then explores the potential benefits of AI and big data, like personalized learning, better campus operations, and data-driven decision-making. However, there are also risks like high costs, privacy concerns, and lack of qualified people that need to be addressed. Recommendations are given for overcoming barriers to adopting these technologies including getting stakeholders involved, developing customized AI solutions, and starting tech-focused academic programs. The paper also discusses long-term impacts on faculty roles, student experiences, and financial sustainability. In the end, carefully implemented AI and big data can improve learning, and student services, and cut costs but require careful change management. By balancing cutting-edge tech with local needs, GCC universities can provide innovative education while upholding traditions and values. This study explores how AI, Machine Learning, and Big Data can enhance sustainability and effectiveness in Saudi higher education, aligning with relevant UN Sustainable Development Goals. Results highlight AI-driven insights that improve institutional decision-making and educational equity. Results indicate that among the predictive models tested, Random Forest achieved the highest accuracy in student performance prediction, with an R 2 score of 0.85.',
-    published: '2025-06-03',
-    authors: [
-      'Khan, Muhammad Adnan',
-      'Rehman, Abdur',
-      'Shah, Asghar Ali',
-      'Abbas, Sagheer',
-      'Alharbi, Meshal',
-      'Ahmad, Munir',
-      'Ghazal, Taher M.'
-    ],
+    id: '10.1038/s41598-025-05363-9',
+    title: 'Validating ajzen’s theory of planned behavior in Saudi translation education programs using a reflective structural equation model',
+    summary: 'Translation education is essential for global communication but remains under-researched. This study revisits Ajzen’s Theory of Planned Behavior (TPB) to explore how students’ beliefs influence their engagement in translation programs using a new model. A new TPB questionnaire was developed and validated using a Reflective-Reflective Higher-Order Construct (R-R HOC) model. Data were collected from 45 undergraduate and graduate students across ten Saudi universities. Partial Least Squares Structural Equation Modeling (PLS-SEM) was used to assess both measurement and structural models. Bootstrapping with 5,000 subsamples supported the statistical significance of all path relationships. The results confirmed strong reliability and validity for the four TPB constructs—intention, attitude toward behavior (AB), subjective norm (SN), and perceived behavioral control (PBC). These constructs collectively predicted students’ planned behavior beliefs. No significant differences were found by gender or education level, suggesting similar beliefs across groups. Thematic analysis of open-ended responses highlighted students’ calls for practical training, specialized courses, and better integration of technology in translation programs. This study demonstrates the value of combining social psychology with translation education and offers a validated model for future research. It encourages curriculum designers and policymakers to consider psychological constructs when shaping translation education programs.',
+    published: '2025-06-04',
+    authors: [ 'Alhamami, Munassir' ],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Discover Sustainability'
+    journal: 'Scientific Reports'
   },
   {
-    id: '10.1007/s40647-025-00450-7',
-    title: 'International Student Mobility and Its Impact on Destination Countries',
-    summary: 'This article explores the impact of international student mobility on tourist destinations, specifically examining Erasmus students at Universidad de La Laguna in Tenerife. Recognizing the growing competition among Higher Education Institutions and the increasing economic importance of international students, this study addresses three main aspects: the factors influencing international students’ destination choice, their economic contribution, and their subsequent loyalty to host destinations. Through a comparative analysis of survey responses from 432 Erasmus students across two cohorts (2008–2012 and 2013–2019), the research finds that while academic reputation remains influential, students increasingly value the cultural characteristics, leisure opportunities, and affordability of the destination. Economically, international students provide substantial contributions to local economies via accommodation, food, and leisure expenditures, demonstrating broader regional economic benefits through their travel activities. The study also identifies high loyalty levels, revealing strong intentions among students to revisit their host locations, particularly as tourists, highlighting long-term economic and promotional advantages. These findings underline the dual importance of international students as both educational participants and valuable economic agents. The study contributes to the academic tourism literature by integrating the educational and tourism perspectives, highlighting the strategic need for enhanced collaboration between HEIs and destination managers. It emphasizes the importance of international students as economic actors and potential ambassadors, thereby providing a novel theoretical contribution by suggesting that strategies targeting international student attraction and retention should explicitly consider both academic and tourism-related factors.',
-    published: '2025-06-03',
-    authors: [
-      'Mendoza-Jiménez, Javier',
-      'García-Rodriguez, Francisco J.',
-      'García-González, Carlos Gustavo'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Fudan Journal of the Humanities and Social Sciences'
-  },
-  {
-    id: '10.1186/s13731-025-00523-7',
-    title: 'Stimulating innovative learning practices with tech: artefacts influence learners’ actions',
-    summary: 'Recently, there has been a transformation in the teaching and learning methods at universities, with nearly all higher education institutions using Learning Management System (LMS) platforms for course delivery and learning activities. These digital learning environments exhibit limited innovative learning methods, including a deficiency in appropriate artefacts and tools, as well as a lack of personalization and assistance. One of the reasons why Sustainable Development Goal (SDG) goal 4 is important is because it highlights the need to invest resources for advancement of educational tools and facilities towards sustainable development education. The literature indicates a lack of equilibrium between the functions of artefacts, actions, and pedagogy in the ever-changing technology-enhanced learning environment. Therefore, this study aims to examine the relationship between the adoption of artefacts and their impact on innovative learning practices. It integrates Vygotsky’s concept of mediating human activity through the use of artefacts, as well as two foundational theories: connectivism learning theory and growth mindset theory. The data for this quantitative study were obtained through survey. An analysis was conducted on a total of 350 questionnaires, resulting in 241 responses. The survey was conducted among undergraduate students who are currently enrolled at Prince Mohammad bin Fahd University (PMU). The data were analyzed using SmartPLS. Findings: This study addresses the clear correlation of artefacts actions on learners that facilitates innovative learning practices in the context of Saudi Arabia. Students’ innovative learning experiences are defined by their independence and are facilitated by tangible actions. Students valued the inclusion of creative artefacts that promote problem-solving, facilitate student-centered learning, and incorporate gamified components which is essential for scholarly communication within and beyond the classroom. It is important to note that the inclusion of artefacts should not be solely for the sake of showcasing innovation without any meaningful influence on digital acceleration. In order to assess the applicability of these findings, it is recommended that future research be conducted in higher education institutions (HEIs) in other regions of Saudi Arabia or other Gulf Cooperation Council (GCC) countries. Additionally, further investigation should explore the impact of integrating virtual reality and augmented reality as tools, as well as incorporating various pedagogical approaches to test the effectiveness of the innovation in the learning process.',
-    published: '2025-06-03',
-    authors: [
-      'Velu, Shubashini',
-      'Wahid, Ishraat Saira',
-      'Tabianan, Kayalvily'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Journal of Innovation and Entrepreneurship'
-  },
-  {
-    id: '10.1007/s41701-025-00196-3',
-    title: 'Appraising Feedback Stance in Higher Education: A Corpus-Assisted Discourse Study of Student and Academic Perceptions, Perspectives and Preferences',
-    summary: 'Feedback is a complex dialogic, sociomaterial practice that is shaped by digital affordances, institutional norms and various contextual factors. Even though it is widely recognised as crucial to academic development, student perspectives on the practice of feedback remain underexplored. This study examines appraisal strategies in social media discourse and academic writing by analysing the use of attitude, engagement and graduation markers in over 5,000 posts and comments on r/college and 100 research articles on feedback. Using a mixed-methods approach that combines advanced statistical modelling and qualitative appraisal analysis, the study identifies prominent register-specific patterns. Students’ reflections and comments are predominantly attitude-driven due to the prolific use of attitude markers and upscaling to engage in joint emotion regulation when processing past feedback experiences. This appraisal strategy encourages affiliative alignment and reflects the interactive and affective nature of online discussions. In contrast, academic writing is characterised by engagement-driven variation, with scholars employing contractive and expansive appraisal resources to negotiate disciplinary interpretations. Educational researchers favour entertain, appreciation and focus markers to evaluate conceptualisations and processes of feedback. The findings confirm the emotional impact of critique and reveal students’ preference for clear, empathetic, actionable feedback, while frustration arises from vagueness, unfairness or excessive criticism. Academics view feedback as a structured, discursive process that should be constructive, evidence-based and compliant with disciplinary norms, recommending transparency, justification and cultural responsiveness. Recognising the students’ standpoint and suggestions can inform the co-design of more effective feedback practices that combine emotional responsiveness and goal-oriented guidance for self-development.',
-    published: '2025-06-03',
-    authors: [ 'Poucke, Margo Van' ],
+    id: '10.1007/s10803-025-06907-8',
+    title: 'Music Education for Autistic Children with Intellectual Disability: Parental Attitudes and Support',
+    summary: 'This study aimed to investigate differences in parental attitudes toward music and support for music education between typically developing children and autistic children with mild or borderline intellectual disability (ID) in Hong Kong. While research highlights the developmental benefits of music for autistic children with ID, few studies explore formal music training in this population, particularly within the context of cultural influences. The study included 148 participants, consisting of 84 parents of typically developing children and 64 parents of autistic children with ID. A questionnaire was used to assess parental attitudes toward music and their decisions regarding formal music training enrollment for their children. Covariates such as family income, child executive function, and parental expectations were analyzed to identify potential predictors. Parents of autistic children with ID held more positive attitudes toward music compared to parents of typically developing children when controlling for covariates. However, only 14.1% of autistic children with ID were enrolled in formal music training, in contrast to 40.4% of typically developing children. Family income and child executive function emerged as significant barriers to enrollment decisions. The findings highlight a disparity between positive parental attitudes toward music and pursuit of music education among autistic children with ID, highlighting systemic and financial barriers. Accessible music programs, adjustments in parental expectations, and inclusive policies may bridge the gap between parental attitudes and actual support. These insights call for targeted interventions to ensure that autistic children with ID can access the developmental benefits of music education.',
+    published: '2025-06-04',
+    authors: [ 'Liang, Di Chao', 'Yum, Yen Na' ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Corpus Pragmatics'
-  },
-  {
-    id: '10.1007/s10671-025-09395-w',
-    title: 'Soft skills and the corporate social dimension: the perspective of university graduate employers',
-    summary: 'Today’s job market is characterised by intense competition among young graduates with the same qualifications. Consequently, soft skills have become particularly important in the processes of attracting and recruiting talent because they allow improvements in productivity, innovation, and internationalisation within businesses. This study aims to determine the soft skills that Spanish employers demand most from university graduates within the Spanish context. More specifically, it seeks to provide evidence related to the demand for these skills according to variables such as Corporate Social Responsibility, employers’ social engagement, and candidates’ participation in non-formal education activities. To this end, a quantitative methodology was applied, using a sample of 83 employers from different businesses. The results show that the soft skills in most demand were related to interpersonal relationships, self-management, and entrepreneurship. Furthermore, there were differences in this assessment related to employers’ social engagement and graduate participation in non-formal education activities. The study has implications for higher education institutions’ strategies and for students’ academic and professional development, contributing to a better fit between education and business.',
-    published: '2025-06-03',
-    authors: [
-      'Vázquez-Rodríguez, Ana',
-      'Quiroga-Carrillo, Anaïs',
-      'García-Álvarez, Jesús',
-      'Sáez-Gambín, Daniel'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Educational Research for Policy and Practice'
+    journal: 'Journal of Autism and Developmental Disorders'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40458887',
-    title: 'Association of the Campus Program Grant and Institutional Characteristics on Reporting of On-Campus Sexual Violence Crimes.',
-    abstract: "The Office on Violence Against Women's Grants to Reduce Sexual Assault, Domestic Violence, Dating Violence, and Stalking on Campus Program (Campus Program) grants provide higher education institutions with funding, technical training, and support to address sexual violence on college campuses. The aim of this investigation is to determine the association between the implementation of the Campus Program grants on reporting Clery Act Forcible Sex offenses (rape and fondling) and Violence Against Women Act offenses (domestic violence, dating violence, and stalking). A secondary aim is to examine the institutional characteristics related to incidents of reporting. The sample of institutions included grant recipients from fiscal years 2015, 2016, and 2017 with less than 10,000 students and a Carnegie classification as baccalaureate colleges or master's colleges and universities ( = 63). Linear regression models controlling for institutional variables were used to estimate the Campus Program grant implementation's causal effects on crime reporting from 2014 to 2021. The sample institutions experienced a significant increase in reports of rape ( = .003), fondling ( = .001), and dating violence ( < .001) during grant implementation years. In addition, all institutional characteristics used as covariates significantly affected one or more reported sexual violence crimes. Institutions should expect an increase in sexual violence reporting during the Campus Program grant implementation years. In addition, the study adds to the limited research on the institutional characteristics associated with sexual violence crime reporting. The results support that when addressing sexual violence, institutions need to consider the individual and campus-level factors, the inclusion of a diverse group of campus partners, and crime-specific interventions.",
-    published: '2025-Jun-03',
-    authors: [ 'McElveen Michael' ],
-    journal: 'Journal of interpersonal violence',
-    doi: '10.1177/08862605251343198',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458887/'
-  },
-  {
-    id: '40458884',
-    title: 'The Effectiveness of Affirmative Sexual Consent Cues.',
-    abstract: 'Despite the growing literature related to sexual consent, most research has focused on female victims, indicating a significant need for more research focusing on consent and victim blame with male victims. The current study investigated whether male victims are blamed for sexual assault where the perpetrator is a female, using traditional sexual script theory as a framework. The study investigated whether participants could clearly differentiate between consent and non-consent scenarios when ambiguous nonverbal cues were presented. Participants ( = 167) were randomly assigned to one of three vignettes in a between-subjects experimental design: (a) A neutral control condition with no clear cues, (b) implicit nonverbal non-consent cues, and (c) explicit nonverbal non-consent cues. Participants were asked to rate consent and victim blame. Overall, the findings indicated that male participants placed more blame on victims and rated all scenarios (regardless of implicit or explicit cues) as more consensual than female participants. Furthermore, the findings of this study suggest that participants can identify non-consent, if any sort of cue (implicit or explicit) is presented. Nonetheless, participants believe that explicit cues, rather than implicit cues, would be the most effective method of communicating non-consent. These findings suggest that education campaigns may benefit from incorporating ambiguous non-consent cues in discussions about how consent is communicated.',
-    published: '2025-Jun-03',
-    authors: [ 'Upadhyay Krusha', 'Lavis Tiffany', 'Proeve Michael' ],
-    journal: 'Journal of interpersonal violence',
-    doi: '10.1177/08862605251343200',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458884/'
-  },
-  {
-    id: '40458880',
-    title: 'Recommendations for Enhancing Oral Health Professional Education Through the Student Voice: The ADEE-EDSA Partnership in Action.',
-    abstract: 'The student voice plays a crucial role in shaping the curriculum and learning outcomes by providing unique insights into teaching and learning experiences. This paper has been written collaboratively with the Association for Dental Education in Europe (ADEE) Curriculum Taskforce and the European Dental Students Association (EDSA) following a number of years of collaborative working. The paper discusses the increasing focus on, and importance of, involving Oral Health Professional (OHP) students as partners-and ways of recognising and jointly acting on student feedback and ideas. The paper describes various collaborative projects between ADEE and EDSA and makes recommendations for areas that would merit further exploration with students and educators alike.',
-    published: '2025-Jun-03',
+    id: '40464147',
+    title: 'Enhancing Neurocognitive Health via Activity, Nutrition and Cognitive Exercise (ENHANCE): A Randomized Controlled Trial.',
+    abstract: 'BACKGROUND: While multidomain interventions show promise for promoting healthy aging, their impact on brain structure remains unclear. This randomized controlled trial (ENHANCE) assessed the efficacy of a 12-month group-based multidomain intervention on brain structure and function in community-dwelling older adults, with particular attention to urban-rural disparities.\n' +
+      'METHODS: The ENHANCE trial delivered twice-weekly group-based multidomain sessions (physical exercise, cognitive training and nutrition education) in urban and rural communities for 12 months, while the control group received quarterly telephone education. A total of 88 participants completed the trial (attendance rates > 60% across all sites), with 76 completing longitudinal MRI assessments (intervention: n = 35; control: n = 41). The intervention group (n = 44; 75.0% female) was significantly older than the control group (n = 44; 70.5% female) (75.0 ± 6.6 vs. 72.3 ± 5.0 years, p = 0.035) and had lower BMI (23.4 vs. 25.2 kg/m, p = 0.016) at baseline. The primary outcomes were brain structures (voxel-based changes in brain grey matter volume [GMV]), while secondary outcomes were functional outcomes (physical performance, nutritional status, cognitive function, psychosocial assessments and cardiometabolic biomarkers).\n' +
+      'RESULTS: Using two-stage tensor-based morphometry analysis, the intervention group demonstrated significantly less GMV reduction in regions over the left inferior temporal lobe compared with controls over 12 months (p < 0.05). Using generalized estimating equation (GEE) model, the intervention group showed enhanced physical performance at 6 months (5-time chair rise test: -1.19 s; 95% CI, -2.24 to -0.13; p = 0.028) and improved cognitive function by 12 months (Montreal Cognitive Assessment: +1.32 points; 95% CI, 0.10-2.54; p = 0.034). Cardiometabolic improvements included increased HDL-C (+6.65 mg/dL, p < 0.001) and decreased triglycerides (-16.07 mg/dL, p = 0.025) at 12 months in GEE models. In subgroup analyses, rural participants showed preserved GMV in additional regions including the cerebellum (Crus I and II) and occipital cortex with greater cognitive improvements (MoCA: +3.06 points; 95% CI, 0.84-5.27; p = 0.007), while urban participants showed greater GMV reduction in the left temporal-occipital fusiform cortex but achieved superior physical performance gains (5-time chair rise test: -1.85 s; 95% CI, -3.07 to -0.64; p = 0.003).\n' +
+      'CONCLUSIONS: This study demonstrates that multidomain interventions can induce neuroplasticity in older adults, with differential effects on brain structure and function between urban and rural participants, emphasizing the need for tailored approaches that consider sociocultural factors to optimize healthy aging across diverse populations.',
+    published: '2025-Jun',
     authors: [
-      'Field James',
-      'Sabev Bogomil',
-      'Davies Julia',
-      'Dixon Jonathan',
-      'Murphy Denis',
-      'Vital Sibylle',
-      'Kennedy Joshua'
+      'Peng Li-Ning',
+      'Lee Pei-Lin',
+      'Chou Kun-Hsien',
+      'Lee Wei-Ju',
+      'Lin Ching-Po',
+      'Chang Chih-Wen',
+      'Liang Chih-Kuang',
+      'Chung Chih-Ping',
+      'Hsiao Fei-Yuan',
+      'Chen Liang-Kung'
     ],
-    journal: 'European journal of dental education : official journal of the Association for Dental Education in Europe',
-    doi: '10.1111/eje.13123',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458880/'
+    journal: 'Journal of cachexia, sarcopenia and muscle',
+    doi: '10.1002/jcsm.13830',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40464147/'
   },
   {
-    id: '40458874',
-    title: 'Breaking the Silence: The Role of Screening in Physician-Initiated Firearm Safety Conversations.',
-    abstract: "This article expands and investigates what physicians perceive as facilitators and barriers to initiating preventive health education, also called anticipatory guidance or medical education, around secure firearm storage in the home (safe storage) and outside the home (Emergency Risk Protection Orders [ERPO]). We employ in-depth qualitative interviews with 36 New Jersey physicians randomly selected from two national physician panels. Participants were screened for inclusions based on their specialty (family medicine or internist, obstetrics/gynecology, or pediatrics), practice setting (office-based rather than hospital-based), and time spent (80% or more) on direct patient care. Based on interviews, we identify five physician-perceived barriers to providing secure firearm storage counseling: inadequate screening mechanisms to prompt conversations, physician perceptions of who is at risk for firearm injury, time pressures, concerns about patient receptivity, and a need for physician training. Our findings indicate that there are structural barriers to physician-initiated firearm safety guidance. Interventions designed to increase physicians' willingness to have these conversations must first address why these conversations fail to occur. Physician participants expressed the need for revised patient screening tools, training on approaching conversations about secure firearm storage, and a mechanism to allocate sufficient time in a well-visit, among the many other topics they must discuss. Interview participants had minimal understanding of ERPO and how to counsel patients on petitioning for ERPO.",
-    published: '2025-Jun-03',
-    authors: [
-      'Dineen Jennifer Necci',
-      'Grasso Damion',
-      'Hoey Amanda',
-      'Kahn Amanda Rae',
-      'Raissian Kerri M'
-    ],
-    journal: 'Health education & behavior : the official publication of the Society for Public Health Education',
-    doi: '10.1177/10901981251338864',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458874/'
+    id: '40464081',
+    title: 'The health economics of insulin therapy: How do we address the rising demands, costs, inequalities and barriers to achieving optimal outcomes.',
+    abstract: `The health economic value of insulin is usually expressed within a cost-effectiveness framework providing an estimated incremental cost per quality-adjusted life year (QALY) gained. Insulin clinical trials adopt a treat-to-target design in which both intervention and control arms aim to achieve similar levels of glycaemic control thereby allowing a comparison of secondary safety outcomes such as hypoglycaemia and weight gain. While of use to inform clinicians about the new insulin's tolerability, it is of limited use for an economic evaluation. An insulin's true potential value requires an assessment of the relationship between the benefits of attaining individualised glycaemic goals versus the factors known to act as barriers to the initiation/intensification of insulin and that also contribute to poor adherence in clinical practice. Addressing the rising demands that diabetes will impose upon the healthcare system will require the simultaneous execution of multiple strategies that acknowledge population dynamics, healthcare delivery constraints, the role of innovation and funding requirements. Accounting for patient-specific characteristics to develop individualised plans and utilising technologies that address relevant barriers to care will require a whole-system perspective on healthcare value and an appreciation of the interconnectivity of stakeholder needs. Importantly, convenience and treatment satisfaction are often not considered valuable features of insulin therapy; not only do they have value, but they are essential to addressing rising demands. PLAIN LANGUAGE SUMMARY: More people around the world are living with diabetes. This is because people are living longer, populations are getting older, and more people are developing the disease. Clinicians will have to prescribe insulin for more people. To make well-informed decisions about how to spend money on diabetes care, we need to understand how much therapies costs and how well they work. In healthcare, people often talk about "value for money." This means getting better results without spending more money, or saving money without making things worse. However, it's not always easy to figure out the value of new types of insulin. The way insulin is studied in clinical trials doesn't always relate well to how it works, and is used, in real-life clinical practice. Many studies don't look at all the things that matter, like how easy it is for people to use the insulin or how it affects their daily lives. When two types of insulin have comparable efficacy in terms of lowering blood sugar, other things - like side effects, how easy it is to use, and how well people stick to their treatment - become important drivers of value. These things are different for each person, may be left out of studies and may not considered to be important by decision makers. In this paper, we first discuss how the health economics of insulin has traditionally been studied, and look at the findings, advantages and disadvantages of these approaches. We also describe how tools like continuous glucose monitors (which track blood sugar all the time) can help people improve outcomes. We introduce what we call the "insulin value system." This looks at how the features of the insulin, the patient's circumstances, and the state of the healthcare system interact to determine the value of a new therapy. In the case of insulin therapies, traditional approaches to value assessment don't always capture the full picture. Our second goal is to talk about the big challenges in diabetes care, for which there are no easy solutions. More people are getting diabetes, and more money will be needed for treatment and disease management. We believe that to really help make a difference, we need to consider the whole healthcare system, how everything is connected, and not just focus on one part. We believe it's important to look at how people live and work, their personal circumstances and how they and the healthcare system interact when assessing the value of insulin. That way, we can better understand how new treatments can help both people and the wider healthcare system.`,
+    published: '2025-Jun-04',
+    authors: [ 'McEwan Phil', 'Evans Marc' ],
+    journal: 'Diabetes, obesity & metabolism',
+    doi: '10.1111/dom.16488',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40464081/'
   },
   {
-    id: '40458872',
-    title: 'Diet Habits, Smoking, and Alcohol Consumption Among Chinese Patients with Cancer.',
-    abstract: 'BACKGROUND: Cancer remains a significant public health problem in China, with new cases and cancer-related deaths increasing in recent years. This study examines the dietary habits, smoking, and alcohol consumption patterns among Chinese patients with cancer, and explores factors influencing these lifestyle behaviors.\n' +
-      'METHODS: Secondary data analysis was conducted on a cross-sectional survey of 287 cancer patients from an oncology outpatient clinic in central China. Patients self-reported their current dietary habits, smoking, and alcohol use and recalled their habits prior to their cancer diagnosis. Responses were assessed using a Likert scale ranging from "never = 0" to "often = 3." The survey specifically measured the frequency of consuming red meat, seafood, milk, tofu, spicy foods, and "balanced yin-yang foods," as well as alcohol consumption and smoking. Data were analyzed using descriptive statistics, Wilcoxon signed rank tests, and logistic regression.\n' +
-      'RESULTS: Patients reported significant reductions in smoking and alcohol consumption post-diagnosis, with a 60% decrease compared to pre-diagnosis levels. Dietary changes included reduced intake of red meat, seafood, tofu, spicy foods, and milk, alongside increased adherence to a balanced yin-yang diet. Both Cultural/TCM beliefs and symptom-related factors significantly shape those lifestyle behaviors. The influence of TCM was particularly notable. Patients with strong TCM beliefs were associated with reduced alcohol consumption and decreased intake of seafood, tofu, and milk.\n' +
-      'CONCLUSIONS: Following a cancer diagnosis, Chinese patients made significantnotable changes to their smoking, alcohol consumption, and dietary habits; adopting healthier lifestyle behaviors. Oncology physicians and nurses should adhere to updated clinical guidelines on nutrition in cancer survivorship and integrate TCM principles to provide tailored lifestyle education and support.',
+    id: '40464043',
+    title: 'Developmental characteristics of orientation and differentiation abilities in the control of jumping distance in preschool children.',
+    abstract: 'INTRODUCTION: The development of coordination abilities and fundamental motor skills in early childhood plays a crucial role in promoting physical activity and preventing obesity. However, only a few studies have investigated the developmental characteristics of coordination abilities during early childhood. Therefore, we used jumping distance control as a motor task to examine the developmental characteristics of orientation and differentiation abilities in early childhood.\n' +
+      'METHODS: We included 318 children aged 3.5-6 years. The motor task was a box target jump test in which the participants jumped from a box approximately 30 cm in height, such that their heels were aligned with a target line 40 cm away. Each participant performed the test two times. The performance results from the two box jump test trials were analyzed by comparing the mean errors of the first and second trials, along with a more detailed examination through the analysis of the performance level ratios between the two trials.\n' +
+      'RESULTS: While the participants aged 3.5 years displayed insufficient accuracy and a strong tendency toward underdevelopment (low-performance percentage for 3.5 years: 1st = 38.3%, 2nd = 38.3%,  < 0.001), immediate feedback effects began to appear at the age of 4 years (low-performance percentage for 4 years: 1st = 21.3%, 2nd = 14.9%). Behavioral changes, such as improved accuracy between trials, became more evident from 4.5 years of age. These results suggest an emerging capacity for motor adjustment or imagery, although no direct assessment of motor imagery was conducted in this study, and such interpretations remain speculative. By approximately 5 years of age, participants obtained a certain level of immediate feedback effect.\n' +
+      'CONCLUSION: These findings provide insight into the developmental characteristics of coordination abilities in early childhood and could help inform age-appropriate physical education approaches that support movement awareness and adaptive motor control.',
     published: '2025',
-    authors: [ 'Liu Shan', 'Liu Jia', 'He Jun' ],
-    journal: 'Integrative cancer therapies',
-    doi: '10.1177/15347354251343004',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458872/'
+    authors: [ 'Kano Hirohisa', 'Kuga Alexander' ],
+    journal: 'Frontiers in pediatrics',
+    doi: '10.3389/fped.2025.1365323',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40464043/'
   },
   {
-    id: '40458864',
-    title: 'Stepping Up Informed Consent: Navigating Foot and Ankle Orthopedics.',
-    abstract: 'Orthopaedic foot and ankle surgeons have an ethical obligation to obtain proper informed consent, ensuring that their patients are thoroughly educated about their diagnosis, risks, benefits, and alternatives of all possible treatment options. This study explores several critical aspects of the informed consent process in foot and ankle orthopedics, including: (1) its current state; (2) barriers that hinder the acquisition of adequate informed consent; and (3) potential solutions based on these identified barriers. The current literature suggests effective approaches to improve the quality of informed consent include using patient-appropriate language, standardized education materials, extended physician-patient visit times, and translation assistance. Utilizing plain language and supplemental materials, such as animated videos and standardized reading materials, enhance patient comprehension and decision-making. Integrating these methods with personalized patient-surgeon discussions results in optimal informed consent quality and patient satisfaction. Additionally, extended visit times, ideally 15 to 30 minutes, improve understanding, while interpreter services ensure clear communication for nonnative speakers. The findings of this study reveal significant deficiencies in the current informed consent process for foot and ankle orthopaedic surgery, which compromise patient autonomy. Implementing solutions to improve the quality of informed consent is necessary to protect patient autonomy and protect surgeons from litigation. IV.',
-    published: '2025-Jun-03',
-    authors: [
-      'Jain Suraj',
-      'Chanmin Zachary',
-      'Havasy Janice',
-      'Hershfeld Benjamin',
-      'Klein Brandon',
-      'Cohn Randy M',
-      'Bitterman Adam D'
-    ],
-    journal: 'Foot & ankle specialist',
-    doi: '10.1177/19386400251336807',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458864/'
-  },
-  {
-    id: '40458852',
-    title: 'Effectively Maintained Inequality in Canada Revisited.',
-    abstract: `The mass expansion of higher education (HE) systems during the 20th century pushed social scientists to theorize how high participation systems continued to reproduce inequalities across socio-economic lines. One popular theory in sociology, dubbed effectively maintained inequality (EMI), suggests that families from the upper economic strata would maintain their competitive advantage by not only acquiring increasing amounts of education, but also gravitating toward the most prestigious tracks within HE. Despite the "flatter" status structure of Canada's HE system vis-à-vis international counterparts, this is a theory that has received empirical support from several domestic studies. Through this study, we re-examine the EMI hypothesis using the 2005 Ontario University Applicant Survey (OUAS), a little-known and thus far unexamined dataset that offers notable advantages relative to those historically analyzed in the Canadian EMI literature, including representative coverage of applicants to Ontario universities, holistic coverage of academic and demographic controls, and the ability to analyze both within- and between-sector forms of status-seeking. Our statistical analyses suggest that applicants from privileged socio-economic backgrounds behave in ways consistent with EMI, gravitating towards more prestigious HE options. We conclude by sketching a path forward for social stratification research in Canadian HE.`,
-    published: '2025-Jun-03',
-    authors: [ 'Pizarro Milian Roger', 'Zarifa David' ],
-    journal: 'Canadian review of sociology = Revue canadienne de sociologie',
-    doi: '10.1111/cars.70006',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458852/'
-  },
-  {
-    id: '40458832',
-    title: 'Exploring Post-Traumatic Stress Disorder and Hygiene Patterns in Adiyaman, Türkiye after the Türkiye and Syria Earthquake.',
-    abstract: 'OBJECTIVES: On February 6, 2023, seismic activity struck Kahramanmaraş, with earthquakes of magnitudes 7.7 and 7.6. The study aimed to determine the effect of the presence of PTSD and its scores on hygiene behaviors.\n' +
-      "METHODS: This cross-sectional study was conducted in Adıyaman, Türkiye, between September and October 2023. The study population comprised individuals aged 18 and above who had experienced the earthquake. The PTSD Checklist-Civilian (PCL-C) scale was used to evaluate PTSD, and the Hygiene Inventory was used to evaluate the participants' hygiene behaviors.\n" +
-      'RESULTS: Females, those with lower levels of education, the unemployed, singles, those living in tents, individuals who lost a loved one in the earthquake, and those with PTSD had worse hygiene behaviors compared to other groups. In the multivariate model of linear regression analysis of hygiene total score, only the PTSD score retained its predictive significance for hygiene behavior. More than 50% of the participants had scores meeting PTSD. The total PTSD score and the prevalence of PTSD among women was notably greater.\n' +
-      "CONCLUSIONS: Mental health plays a pivotal role in shaping individuals' hygiene practices and behavior patterns post-disaster. Swift implementation of mental health interventions is crucial for the prevention of behavioral pathologies.",
-    published: '2025-Jun-03',
-    authors: [
-      'Küçükkelepçe Osman',
-      'Konyalıoğlu Fatma Sena',
-      'Kurt Osman',
-      'Öz Erdoğan'
-    ],
-    journal: 'Disaster medicine and public health preparedness',
-    doi: '10.1017/dmp.2025.10078',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458832/'
-  },
-  {
-    id: '40458786',
-    title: 'Bridging Bioscience to Practice: The Significance of Clinical Simulation Training for Novice Nursing Students.',
-    abstract: 'PURPOSE: This study aims to investigate clinical simulation as a learning method to enhance the relevance of bioscience in nursing practice for novice nursing students.\n' +
-      "METHODS: This study utilizes a semi-experimental multi-method design involving 194 novice bachelor nursing students at a Norwegian university college, marking the program's inaugural simulation training. The students were divided into Group 1 and Group 2. Both groups underwent simulation-based training, but Group 2 received an additional extended debriefing where a bioscience specialist linked patient observations with physiological processes. Data collection occurred in two phases: quantitative data were collected on simulation day through a questionnaire and structured observation, and qualitative data from two reflection questions, supplemented with quantitative data from a questionnaire, were collected one week later.\n" +
-      "RESULTS: The findings revealed that students' emotional states are highly activated during simulation training. Despite this, the students reported that their overall simulation experience was positive. A deficiency in the use of bioscience terminology was identified during debriefing to explain observations, assessments, and actions. The students' reflections on the benefits from simulation training showed that it provides them with practical experience in visualizing real-world scenarios, fostering readiness for action as a nurse, and metacognition of their learning process. Moreover, the findings indicated that students in Group 2 (extended debriefing) were more inclined to incorporate bioscience terminology in their reflective responses, particularly considering the impact of bioscience knowledge on nursing practice.\n" +
-      'CONCLUSION: Clinical simulation training provides novice nursing students with clinical experience and an opportunity to connect bioscience with practice. Although the students insufficiently used bioscientific concepts during debriefing, they evaluated the relevance of bioscience in practice highly. Our findings carry significant implications for structuring simulation training, emphasizing the necessity of specialists in both debriefing techniques and bioscience to bridge the gap between theory and practice.',
+    id: '40464036',
+    title: 'Patient-Centered Care: A Qualitative Analysis of Patient and Caregiver Experiences in a Hospital at Home Program.',
+    abstract: 'UNLABELLED: This descriptive qualitative study aimed to address a gap in the literature by exploring the experiences of Hospital at Home (HaH) patients and caregivers. HaH programs, which deliver hospital-level care to patients in their homes, are increasingly popular outside the United States. Yet, there is less emphasis on understanding the experiences of patients and caregivers while actively receiving hospital-level care in the home and how their insights can enhance care delivery. A purposeful sample of 12 patients and five caregivers participated in semistructured interviews during the acute care stage and 30 days after their discharge from hospital-level care in the home. Thematic analysis revealed three main themes: (1) patient-centered communication and education, (2) differences in medical care at home, and (3) the impact of technology on the overall experience. These themes provide valuable insights into the factors that patients and caregivers believe positively and negatively influence their experiences within the HaH program. Moreover, the themes highlight aspects of the HaH model that are important to patients/caregivers and those that can be improved.\n' +
+      'CLINICAL TRIALSGOV: Number: NCT05952999Analysis of the Virtual Acute Care at Home Experience (HaH)URL: https://www.clinicaltrials.gov/search?term = NCT05952999.',
     published: '2025',
     authors: [
-      'Grønlien Heidi Kristine',
-      'Wevling Astrid',
-      'Arntsen Marian Bringa',
-      'Haug Erna'
+      'Dalstrom Matthew D',
+      'Klein Colleen J',
+      'Rothrock-Magana Meagan',
+      'Cooling Melinda'
     ],
-    journal: 'Advances in medical education and practice',
-    doi: '10.2147/AMEP.S482384',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458786/'
+    journal: 'Journal of patient experience',
+    doi: '10.1177/23743735251347706',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40464036/'
   },
   {
-    id: '40458785',
-    title: 'Three decades of neuroscience research using animal models of ADHD and ASD: a bibliometric analysis.',
-    abstract: 'INTRODUCTION: Attention-deficit/hyperactivity disorder (ADHD) and autism spectrum disorders (ASD) are two increasingly prevalent neurodevelopmental disorders (NDDs), often accompanied by significant daily-life challenges. Animal models play a crucial role in studying these conditions, and recent advances have highlighted the potential of animal models such as mice, rat, zebrafish,  or  for investigating NDDs. However, despite growing interest, a complete understanding of these disorders has yet to be achieved. We believe that to properly address these NDDs, it is important to analyze the heterogeneity of ADHD and ASD research.\n' +
-      'METHODS: This study comprehensively analyzes ADHD and ASD-related scientific publications from January 1990 to December 2023 using data from the Web of Science (WoS), exploring trends in global research output, impact factors, citation metrics, the predominant use of animal models, the contribution of major countries and funding information.\n' +
-      "RESULTS: Out of the 10,844 papers from WoS, we curated 5,883 papers and identify mice and rat as the primarily used animal models, and a progressive use of zebrafish,  and  since the early 2000s. The countries conducting research on ADHD and ASD were principally the United States (3,059 articles), followed by China (487 articles), the United Kingdom (459 articles), Japan (440 articles), Germany (413 articles). We further show that impact factors and journal citations were relatively similar among the major publishing countries. Interestingly, key research funders were the National Institute of Health (NIH), the National Institute of Mental Health (NIMH), and the Japanese Ministry of Education Culture Sports Science and Technology (MEXT), making important contributions to their respective countries' publications. Of note, Africa and Oceania have a lower volume of publication; however, our network analysis indicates a recent peak in research interest and ADHD/ASD awareness in some countries like Ghana or Portugal.\n" +
-      'CONCLUSION: The findings highlight significant advancements and collaborative efforts in ADHD and ASD research over the last three decades, underscoring the importance of international cooperation in addressing these complex neurodevelopmental disorders.',
+    id: '40463997',
+    title: "Efficacy of United States' federally-funded interventions in increasing school capacities to improve student mental health and education outcomes in Tennessee.",
+    abstract: "About two in five children and adolescents will meet the criteria for a mental disorder by age 18, and more than half of youth who are accessing mental health services receive them in an educational setting. Yet there is limited evidence on the effectiveness of school-based interventions on children's mental health and education outcomes. We examine the effectiveness of two key United States' federally-funded interventions for expanding school-based capacities to improve children's health and education outcomes-School-Based Health Centers (SBHCs) and Advancing Wellness and Resiliency in Education (AWARE) grants-in a mixed method, longitudinal study of low-income, Tennessee children. We linked health insurance claims data for children enrolled in Tennessee's Medicaid program with administrative education records for students attending Tennessee public schools between 2006 and 2019. We also implemented a census of Tennessee school districts to determine which had SBHCs and AWARE grants and their start years, and we conducted semi-structured interviews with each treated district to assess their infrastructure, programs, staffing, partnerships, health services offered, and more. We estimated effects of SBHCs and AWARE grants on school-level rates of mental health conditions, behavioral health conditions, preventive health care visits, absences, chronic absences, and disciplinary incidents using a staggered adoption, difference-indifferences (DiD) approach. We found a statistically significant reduction in diagnosed mental health conditions among treated schools of 6 percent relative to their baseline prevalence, which our qualitative findings suggest might be related to increased health staffing in schools, earlier detection of mental health needs, and greater use of prevention strategies. We saw larger effects in some school districts with more extensive mental health infrastructure. We did not satisfy model assumptions for estimating causal effects on preventive health care visits, absences, chronic absences, and disciplinary incidents, although associations were in the expected direction.",
+    published: '2025-Jun',
+    authors: [ 'Heinrich Carolyn J', 'Shero Mason', 'Fry Carrie E' ],
+    journal: 'SSM. Mental health',
+    doi: '10.1016/j.ssmmh.2025.100421',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40463997/'
+  },
+  {
+    id: '40463986',
+    title: 'Assessment of health information in Chinese atopic dermatitis-related videos: A cross-sectional study.',
+    abstract: 'BACKGROUND: Atopic dermatitis (AD) is prevalent worldwide. People are increasingly obtaining health information through social videos. In China, the quality, reliability, understandability, and actionability of AD-related videos have yet to be fully studied.\n' +
+      'OBJECTIVE: This study proposed to analyze AD-related videos on Chinese video-sharing platforms.\n' +
+      `METHODS: Three keywords "" (atopic dermatitis) or "" (eczema) or "" (atopic eczema) were used on Bilibili and Douyin (Chinese version of TikTok) to retrieve videos from May 25 to November 25, 2024. Included videos' reliability was evaluated by the Journal of American Medical Association (JAMA) criteria and modified DISCERN (mDISCERN), quality was evaluated by Global Quality Scale (GQS), and understandability and actionability were evaluated by Patient Education Materials Assessment Tool (PEMAT). Spearman correlation was used to explore the correlation among different variables.\n` +
+      "RESULTS: 368 videos were included, and the activity on Douyin was higher than that on Bilibili ( < .001). Although Douyin's AD videos were rated higher than Bilibili's in reliability and understandability (all  < .001), neither of them was satisfactory. Medical practitioners were the main source of videos ( = 326, 88.59%), mostly conveying treatment ( = 159, 43.21%). The videos they uploaded had higher ratings in the JAMA, mDISCERN and understandability, and were also more popular (all  < .05). There were more videos on Bilibili that involved traditional Chinese medicine (TCM) ( = 81, 52.60%); however, the ratings of such videos were lower than those without TCM on any platform (all  < .001). Videos about treatment and prevention were almost the best two categories in terms of actionability (all  < .05). The number of likes, shares, comments, collections, fans, the JAMA score, and understandability were positively correlated (all  < .05).\n" +
+      'CONCLUSIONS: The assessment of AD-related videos flooding social media is suboptimal. Videos from professionals are more reliable and should be promoted. The public should exercise caution when searching for healthcare information on video platforms.',
     published: '2025',
-    authors: [ 'Dougnon Godfried', 'Matsui Hideaki' ],
-    journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1528205',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40458785/'
+    authors: [ 'Yang Gongrui', 'Li Xiaoting', 'Duan Xingwu' ],
+    journal: 'Digital health',
+    doi: '10.1177/20552076251346579',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40463986/'
+  },
+  {
+    id: '40463973',
+    title: 'Editorial: Innovations in teaching and learning for Health Professions Educators.',
+    abstract: 'No abstract available',
+    published: '2025',
+    authors: [ 'Edwards Roger A', 'White Bobbie Ann Adair', 'Findyartini Ardi' ],
+    journal: 'Frontiers in medicine',
+    doi: '10.3389/fmed.2025.1611578',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40463973/'
+  },
+  {
+    id: '40463941',
+    title: 'Evolution of a Training Program for Pediatric Faculty and Trainee Wellbeing.',
+    abstract: 'OBJECTIVES: High rates of distress and burnout continue to plague physicians. The Sustaining and Training for Resilience, Engagement and Meaning (STREAM) curriculum is a Health Resources and Services Administration (HRSA) funded program, developed by experts in faculty and trainee wellbeing from 7 academic institutions, to help address this ongoing and pervasive issue.\n' +
+      "METHODS: We used Kern's 6-step model to develop the STREAM program. STREAM content was developed and iteratively revised to highlight evidence-informed methods to improve wellbeing. STREAM content is grounded in the PERMA-H framework and highlights 4 pillars: Optimizing your Well-Being, Building Resilience, Collaborative Engagement to Improve your Work, and Connecting with Joy and Meaning in Medicine. Within sessions, implementation of skills was discussed at the individual level and within the work environment. This manuscript describes the process of development, implementation, and pilot program evaluation for the STREAM curriculum for the first 2 years.\n" +
+      'RESULTS: Based on review and assessment of year 1, we made multiple revisions of the curriculum. We revised the original four pillars and strengthened connection with the PERMA-H model. We transitioned from synchronous virtual model to in-person sessions to enhance engagement, buy-in, and meaning. We further increased time with interactive elements and limited didactic content. We deepened content related to equity and inclusion. We separated faculty and resident sessions to improve community-building and group dynamics. Additionally, we provided the option for sessions to be delivered "a la carte," depending on the needs of the institution and participants.\n' +
+      'CONCLUSIONS: The STREAM wellbeing curriculum is a promising model to promote positive behavior change in pediatric academic medicine. Curricular activities related to wellness may require adjustment and modifications while in process to improve delivery and participation-and enhance chances of successful education/training. We must continue to build evidence for the effectiveness of STREAM and other wellness interventions.',
+    published: '2025',
+    authors: [
+      'Reed Suzanne',
+      'Young Julie A',
+      'Enciso Josephine',
+      'Omoruyi Emma',
+      'Cramton Rachel',
+      'Hurtubise Larry',
+      'Allison Katherine',
+      'Mahan John'
+    ],
+    journal: 'Journal of medical education and curricular development',
+    doi: '10.1177/23821205251348515',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40463941/'
+  },
+  {
+    id: '40463922',
+    title: 'Performance of ChatGPT on the Plastic Surgery In-Training Examination.',
+    abstract: "BACKGROUND: Recently, the artificial intelligence chatbot Chat Generative Pre-Trained Transformer (ChatGPT) performed well on all United States Medical Licensing Examinations (USMLE), demonstrating a high level of insight into a physician's knowledge base and clinical reasoning ability. This study aims to evaluate the performance of ChatGPT on the American Society of Plastic Surgeons (ASPS) Plastic Surgery In-Training Examination (PSITE) to assess its clinical reasoning and decision-making ability and investigate its legitimacy related to plastic surgery competencies.\n" +
+      'METHODS: PSITE questions from 2015 to 2023 were included in this study. Questions with images, charts, and graphs were excluded. ChatGPT 3.5 was prompted to provide the best single letter answer choice. Performance was analyzed across test years, question area of content, taxonomy, and core competency via chi-square analysis. Multivariable logistic regression was performed to identify predictors of ChatGPT performance.\n' +
+      'RESULTS: In this study, 1850 of 2097 multiple choice questions were included. ChatGPT answered 845 (45.7%) questions correctly, performing the highest on breast/cosmetic topics (49.6%) ( = .070). ChatGPT performed significantly better on questions requiring the lowest level of reasoning (knowledge, 55.1%) compared with more complex questions such as analysis (41.4%) ( = .001). Multivariable analysis identified negative predictors of performance including the hand/lower extremity topic (OR = 0.73,  = .038) and taxonomy levels beyond knowledge ( < .05). Performance on the 2023 exam (53.4%) corresponded to a 4th percentile score when compared with all plastic surgery residents.\n' +
+      "CONCLUSIONS: While ChatGPT's performance has shown promise in other medical domains, our results indicate it may not be a reliable source of information for plastic surgery-related questions or decision-making.",
+    published: '2024',
+    authors: [
+      'Raine Brielle E',
+      'Kozlowski Katherine A',
+      'Fowler Cody C',
+      'Frey Jordan D'
+    ],
+    journal: 'Eplasty',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40463922/'
+  },
+  {
+    id: '40463896',
+    title: 'Associated factors, emergency department visits, and hospitalization days of receiving adjunctive Chinese herbal medicine therapy for patients with non-small cell lung cancer: a nationwide cohort study in Taiwan.',
+    abstract: 'INTRODUCTION: Cancer prevention and treatment, particularly lung cancer, remain major healthcare challenges in Taiwan and globally. This study investigates factors and healthcare utilization patterns associated with adjunctive Chinese herbal medicine (CHM) therapy in non-small cell lung cancer (NSCLC) patients.\n' +
+      "METHODS: Using Taiwan's National Health Insurance Research Database and the Taiwan Cancer Registry, we conducted a retrospective cohort study of non-small cell lung cancer patients diagnosed between 2007 and 2013. Descriptive analysis, propensity score matching, and regression models were employed to assess CHM therapy utilization and its impact on emergency department visits and hospitalization days.\n" +
+      'RESULTS: Among 43,122 non-small cell lung cancer patients, 5.76% received adjunctive CHM therapy, with the majority at stage IV cancer. Factors such as cancer stage, age, gender, marital status, education level, monthly salary, degree of urbanization, severity of comorbidity, comorbid diseases, hospital ownership, experience of using Chinese medicine, chemotherapy status, and years of diagnosis are significantly associated with whether NSCLC patients receive adjunctive CHM therapy. Patients receiving adjunctive CHM therapy for 181-365 days reduced emergency department visits by 16% (OR = 0.84, 95%CI: 0.74-0.95) and shortened hospitalization days by 17% (Ratio = 0.83, 95%CI: 0.75-0.91).\n' +
+      'CONCLUSION: Prolonged adjunctive CHM therapy, particularly for 181-365 days, is associated with decreased healthcare utilization among non-small cell lung cancer patients. These findings suggest a potential role for extended CHM therapy in managing NSCLC and warrant consideration by clinical teams.',
+    published: '2025',
+    authors: [
+      'Tang Meng-Bin',
+      'Kuo Wei-Yin',
+      'Kung Pei-Tseng',
+      'Tsai Wen-Chen'
+    ],
+    journal: 'Frontiers in pharmacology',
+    doi: '10.3389/fphar.2025.1435541',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40463896/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1076,6 +681,191 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     code: 'ENOTFOUND',
     syscall: 'getaddrinfo',
     hostname: 'kahualike.manoa.hawaii.edu'
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
@@ -1543,70 +1333,45 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 50
-Removed duplicates: 50 -> 50
-Starting translation of 50 papers...
-Translating paper 1/50
-Translating paper: Big data in economics...
-Translating paper 2/50
-Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
-Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/50
-Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
-Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
-Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/50
-Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/50
-Translating paper: A physical theory of economic growth...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1854347147270117 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"49s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '49s'
-    }
-  ]
-}
-Translating paper 9/50
-Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/50
-Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/50
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
 Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/50
+Translating paper 2/40
 Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 13/50
+Translating paper 3/40
 Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 14/50
+Translating paper 4/40
 Translating paper: Experience and education...
-Translating paper 15/50
+Translating paper 5/40
 Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 16/50
+Translating paper 6/40
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 17/50
+Translating paper 7/40
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 18/50
+Translating paper 8/40
 Translating paper: The Effect of Using Simulation on Developing Stude...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1178514290126906 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
+Translating paper 9/40
+Translating paper: Economics of education...
+Translating paper 10/40
+Translating paper: Teaching climate complacency: mainstream economics...
+Translating paper 11/40
+Translating paper: How I’m bringing the voices of local fishers into ...
+Translating paper 12/40
+Translating paper: Revisiting Watkins’ Black Curriculum Orientations:...
+Translating paper 13/40
+Translating paper: Navigating racism: A scoping review of barriers in...
+Translating paper 14/40
+Translating paper: More than movement: a systematic review of moral a...
+Translating paper 15/40
+Translating paper: Strengthening the Kindergarten Teacher’s Manual Ba...
+Translating paper 16/40
+Translating paper: An evaluation of programmatic assessment across he...
+Translating paper 17/40
+Translating paper: The role of textbooks in the implementation of cur...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0645455488997735 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"12s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1624,94 +1389,77 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '48s'
+      retryDelay: '12s'
     }
   ]
 }
-Translating paper 19/50
-Translating paper: Economics of education...
-Translating paper 20/50
-Translating paper: Teaching climate complacency: mainstream economics...
-Translating paper 21/50
-Translating paper: Developing a multi-layer agent framework to enhanc...
-Translating paper 22/50
-Translating paper: Exploring the interplay of religion and spirituali...
-Translating paper 23/50
-Translating paper: The green potential of the digital economy in bala...
-Translating paper 24/50
-Translating paper: Geometry education at secondary level – a systemat...
-Translating paper 25/50
-Translating paper: Fostering collaboration: a controlled pilot study ...
-Translating paper 26/50
-Translating paper: Navigating the future of higher education in Saudi...
-Translating paper 27/50
-Translating paper: International Student Mobility and Its Impact on D...
-Translating paper 28/50
-Translating paper: Stimulating innovative learning practices with tec...
-Translating paper 29/50
-Translating paper: Appraising Feedback Stance in Higher Education: A ...
-Translating paper 30/50
-Translating paper: Soft skills and the corporate social dimension: th...
-Translating paper 31/50
-Translating paper: Association of the Campus Program Grant and Instit...
-Translating paper 32/50
-Translating paper: The Effectiveness of Affirmative Sexual Consent Cu...
-Translating paper 33/50
-Translating paper: Recommendations for Enhancing Oral Health Professi...
-Translating paper 34/50
-Translating paper: Breaking the Silence: The Role of Screening in Phy...
-Translating paper 35/50
-Translating paper: Diet Habits, Smoking, and Alcohol Consumption Amon...
-Translating paper 36/50
-Translating paper: Stepping Up Informed Consent: Navigating Foot and ...
-Translating paper 37/50
-Translating paper: Effectively Maintained Inequality in Canada Revisi...
-Translating paper 38/50
-Translating paper: Exploring Post-Traumatic Stress Disorder and Hygie...
-Translating paper 39/50
-Translating paper: Bridging Bioscience to Practice: The Significance ...
-Translating paper 40/50
-Translating paper: Three decades of neuroscience research using anima...
-Translating paper 41/50
+Translating paper 18/40
+Translating paper: Students’ acceptance and use of generative AI in p...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1256842013026196 seconds...
+Translating paper 19/40
+Translating paper: Validating ajzen’s theory of planned behavior in S...
+Translating paper 20/40
+Translating paper: Music Education for Autistic Children with Intelle...
+Translating paper 21/40
+Translating paper: Enhancing Neurocognitive Health via Activity, Nutr...
+Translating paper 22/40
+Translating paper: The health economics of insulin therapy: How do we...
+Translating paper 23/40
+Translating paper: Developmental characteristics of orientation and d...
+Translating paper 24/40
+Translating paper: Patient-Centered Care: A Qualitative Analysis of P...
+Translating paper 25/40
+Translating paper: Efficacy of United States' federally-funded interv...
+Translating paper 26/40
+Translating paper: Assessment of health information in Chinese atopic...
+Translating paper 27/40
+Translating paper: Editorial: Innovations in teaching and learning fo...
+Translating paper 28/40
+Translating paper: Evolution of a Training Program for Pediatric Facu...
+Translating paper 29/40
+Translating paper: Performance of ChatGPT on the Plastic Surgery In-T...
+Translating paper 30/40
+Translating paper: Associated factors, emergency department visits, a...
+Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 42/50
+Translating paper 32/40
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 43/50
+Translating paper 33/40
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 44/50
+Translating paper 34/40
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 45/50
+Translating paper 35/40
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 46/50
+Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 47/50
+Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 48/50
+Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 49/50
+Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
+Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 50 papers
-Removed duplicates: 120 -> 90
-Total papers after merging: 90 (70 existing + 50 new)
-Saved 90 papers to papers.json
+Translation completed: 40 papers
+Removed duplicates: 130 -> 110
+Total papers after merging: 110 (90 existing + 40 new)
+Saved 110 papers to papers.json
 Generating HTML files...
-Generating index.html with 90 papers...
+Generating index.html with 110 papers...
 Successfully generated index.html
-Generating archive.html with 90 papers...
+Generating archive.html with 110 papers...
 Successfully generated archive.html
-Generating journal.html with 90 papers...
+Generating journal.html with 110 papers...
 Successfully generated journal.html
-Generating acquisition.html with 90 papers...
+Generating acquisition.html with 110 papers...
 Successfully generated acquisition.html
-Generating publication.html with 90 papers...
+Generating publication.html with 110 papers...
 Successfully generated publication.html
-Generating registration.html with 90 papers...
+Generating registration.html with 110 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 90
-New papers processed: 50
+Total papers in database: 110
+New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-03T15:42:53.764Z
+Timestamp: 2025-06-04T15:59:46.132Z
