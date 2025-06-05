@@ -31,44 +31,273 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-04T15:36:03.550Z
+Timestamp: 2025-06-05T15:11:51.581Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 90 existing papers from papers.json
+Loaded 110 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
-Error fetching arXiv papers: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
-    at ClientRequest.<anonymous> (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/node-fetch/src/index.js:108:11)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-  type: 'system',
-  errno: 'ECONNRESET',
-  code: 'ECONNRESET',
-  erroredSysCall: 'read'
-}
-Error collecting papers from arxiv: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
-    at ClientRequest.<anonymous> (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/node-fetch/src/index.js:108:11)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-  type: 'system',
-  errno: 'ECONNRESET',
-  code: 'ECONNRESET',
-  erroredSysCall: 'read'
-}
+Fetched papers from arXiv: [
+  {
+    id: 'http://arxiv.org/abs/2406.11913v1',
+    title: 'Big data in economics',
+    summary: 'The term of big data was used since 1990s, but it became very popular around\n' +
+      '2012. A recent definition of this term says that big data are information\n' +
+      'assets characterized by high volume, velocity, variety and veracity that need\n' +
+      'special analytical methods and software technologies to extract value form\n' +
+      'them. While big data was used at the beginning mostly in information technology\n' +
+      'field, now it can be found in every area of activity: in governmental\n' +
+      'decision-making processes, manufacturing, education, healthcare, economics,\n' +
+      'engineering, natural sciences, sociology. The rise of Internet, mobile phones,\n' +
+      'social media networks, different types of sensors or satellites provide\n' +
+      'enormous quantities of data that can have profound effects on economic\n' +
+      'research. The data revolution that we are facing transformed the way we measure\n' +
+      'the human behavior and economic activities. Unemployment, consumer price index,\n' +
+      'population mobility, financial transactions are only few examples of economic\n' +
+      'phenomena that can be analyzed using big data sources. In this paper we will\n' +
+      'start with a taxonomy of big data sources and show how these new data sources\n' +
+      'can be used in empirical analyses and to build economic indicators very fast\n' +
+      'and with reduced costs.',
+    published: '2024-06-16T18:37:42Z',
+    updated: '2024-06-16T18:37:42Z',
+    authors: [ 'Bogdan Oancea' ],
+    categories: [ 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2406.11913v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/0807.3534v1',
+    title: 'Learning from Physics Education Research: Lessons for Economics\n' +
+      '  Education',
+    summary: 'We believe that economists have much to learn from educational research\n' +
+      'practices and related pedagogical innovations in other disciplines, in\n' +
+      'particular physics education. In this paper we identify three key features of\n' +
+      'physics education research that distinguish it from economics education\n' +
+      'research - (1) the intentional grounding of physics education research in\n' +
+      'learning science principles, (2) a shared conceptual research framework focused\n' +
+      'on how students learn physics concepts, and (3) a cumulative process of\n' +
+      'knowledge-building in the discipline - and describe their influence on new\n' +
+      'teaching pedagogies, instructional activities, and curricular design in physics\n' +
+      'education. In addition, we highlight four specific examples of successful\n' +
+      'pedagogical innovations drawn from physics education - context-rich problems,\n' +
+      'concept tests, just-in-time teaching, and interactive lecture demonstrations -\n' +
+      'and illustrate how these practices can be adapted for economic education.',
+    published: '2008-07-22T18:07:29Z',
+    updated: '2008-07-22T18:07:29Z',
+    authors: [ 'Scott P. Simkins', 'Mark H. Maier' ],
+    categories: [ 'physics.ed-ph' ],
+    link: 'http://arxiv.org/abs/0807.3534v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2501.12639v1',
+    title: 'Enhancing Economic Literacy through Causal Diagrams',
+    summary: 'A literacy-targeted approach to economic instruction draws on insights from\n' +
+      'cognitive science. It highlights that students process complex economic\n' +
+      'information by constructing and modifying schemas that represent economic\n' +
+      'material. Following this approach, we developed a set of instructional\n' +
+      'activities centered around causal diagrams that promote a deeper understanding\n' +
+      'of economic topics beyond the traditional lecture-based methods. Our results\n' +
+      'show that structural debriefing activities can be used effectively to introduce\n' +
+      'students to the causal diagrams that explain key economic relationships in the\n' +
+      'national income model, government-purchases multiplier and tax multiplier.',
+    published: '2025-01-22T04:58:09Z',
+    updated: '2025-01-22T04:58:09Z',
+    authors: [ 'Oleg V. Pavlov', 'Natalia V. Smirnova', 'Elena V. Smirnova' ],
+    categories: [ 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2501.12639v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2209.00057v1',
+    title: 'Molecular genetics and mid-career economic mobility',
+    summary: 'Reductions in the cost of genetic sequencing have enabled the construction of\n' +
+      'large datasets including both genetic and phenotypic data. Based on these\n' +
+      "datasets, polygenic scores (PGSs) summarizing an individual's genetic\n" +
+      'propensity for educational attainment have been constructed. It is by now well\n' +
+      'established that this PGS predicts wages, income, and occupational prestige and\n' +
+      'occupational mobility across generations. It is unknown whether a PGS for\n' +
+      'educational attainment can predict upward income and occupational mobility even\n' +
+      'within the peak earning years of an individual. Using data from the Wisconsin\n' +
+      'Longitudinal Study (WLS), I show that: (i) a PGS for educational attainment\n' +
+      'predicts wage, income and occupational prestige mobility between 1974 (when\n' +
+      'respondents were about 36 years of age) and 1992 (when respondents were about\n' +
+      '53 years of age), conditional on 1974 values of these variables and a range of\n' +
+      'covariates; (ii) the effect is not mediated by parental socioeconomic status,\n' +
+      'is driven primarily by respondents with only a high school education, and is\n' +
+      'replicated in a within sibling-pair design; (iii) conditional on 1974 outcomes,\n' +
+      'higher PGS individuals surveyed in 1975 aspired to higher incomes and more\n' +
+      'prestigious jobs 10 years hence, an effect driven primarily by respondents with\n' +
+      'more than a high school education; (iv) throughout their employment history,\n' +
+      'high PGS individuals were more likely to undertake on the job training, and\n' +
+      'more likely to change job duties during tenure with an employer; and (v) though\n' +
+      'no more likely to change employers or industries during their careers, high PGS\n' +
+      'individuals were more likely in 1974 to be working in industries which would\n' +
+      'experience high wage growth in subsequent decades. These results contribute to\n' +
+      'our understanding of longitudinal inequality and shed light on the sources of\n' +
+      'heterogeneity in responses to economic shocks and policy.',
+    published: '2022-08-31T18:25:08Z',
+    updated: '2022-08-31T18:25:08Z',
+    authors: [ 'Paul Minard' ],
+    categories: [ 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2209.00057v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1804.10037v2',
+    title: 'Quantifier Elimination for Reasoning in Economics',
+    summary: 'We consider the use of Quantifier Elimination (QE) technology for automated\n' +
+      "reasoning in economics. QE dates back to Tarski's work in the 1940s with\n" +
+      'software to perform it dating to the 1970s. There is a great body of work\n' +
+      'considering its application in science and engineering but we show here how it\n' +
+      'can also find application in the social sciences. We explain how many suggested\n' +
+      'theorems in economics could either be proven, or even have their hypotheses\n' +
+      'shown to be inconsistent, automatically; and describe the application of this\n' +
+      'in both economics education and research. We describe a bank of QE examples\n' +
+      'gathered from economics literature and note the structure of these are, on\n' +
+      'average, quite different to those occurring in the computer algebra literature.\n' +
+      'This leads us to suggest a new incremental QE approach based on result\n' +
+      'memorization of commonly occurring generic QE results.',
+    published: '2018-04-26T13:05:16Z',
+    updated: '2018-05-15T10:30:31Z',
+    authors: [
+      'Casey B. Mulligan',
+      'Russell Bradford',
+      'James H. Davenport',
+      'Matthew England',
+      'Zak Tonks'
+    ],
+    categories: [ 'cs.SC', '68W30, 03C10, 91-04', 'I.1.2; J.4' ],
+    link: 'http://arxiv.org/abs/1804.10037v2'
+  },
+  {
+    id: 'http://arxiv.org/abs/1807.07051v1',
+    title: 'A New Index of Human Capital to Predict Economic Growth',
+    summary: 'The accumulation of knowledge required to produce economic value is a process\n' +
+      'that often relates to nations economic growth. Such a relationship, however, is\n' +
+      'misleading when the proxy of such accumulation is the average years of\n' +
+      'education. In this paper, we show that the predictive power of this proxy\n' +
+      'started to dwindle in 1990 when nations schooling began to homogenized. We\n' +
+      'propose a metric of human capital that is less sensitive than average years of\n' +
+      'education and remains as a significant predictor of economic growth when tested\n' +
+      'with both cross-section data and panel data. We argue that future research on\n' +
+      'economic growth will discard educational variables based on quantity as\n' +
+      'predictor given the thresholds that these variables are reaching.',
+    published: '2018-07-18T17:34:27Z',
+    updated: '2018-07-18T17:34:27Z',
+    authors: [ 'Henry Laverde', 'Juan C. Correa', 'Klaus Jaffe' ],
+    categories: [ 'econ.EM' ],
+    link: 'http://arxiv.org/abs/1807.07051v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2008.02581v1',
+    title: 'Teaching Economics with Interactive Browser-Based Models',
+    summary: 'Interactive simulation toolkits come in handy when teaching macroeconomic\n' +
+      'models by facilitating an easy understanding of underlying economic concepts\n' +
+      "and offering an intuitive approach to the models' comparative statics. Based on\n" +
+      'the example of the IS-LM model, this paper demonstrates innovative\n' +
+      'browser-based features well-suited for the shift in education to online\n' +
+      'platforms accelerated by COVID-19. The free and open-source code can be found\n' +
+      'alongside the standalone HTML files for the AD-AS and the Solow growth model at\n' +
+      'https://gitlab.tu-berlin.de/chair-of-macroeconomics/.',
+    published: '2020-08-06T11:24:46Z',
+    updated: '2020-08-06T11:24:46Z',
+    authors: [ 'Juan Dominguez-Moran', 'Rouven Geismar' ],
+    categories: [ 'q-fin.GN', 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2008.02581v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1206.2494v1',
+    title: 'A physical theory of economic growth',
+    summary: 'Economic growth is unpredictable unless demand is quantified. We solve this\n' +
+      'problem by introducing the demand for unpaid spare time and a user quantity\n' +
+      'named human capacity. It organizes and amplifies spare time required for\n' +
+      'enjoying affluence like physical capital, the technical infrastructure for\n' +
+      'production, organizes and amplifies working time for supply. The sum of annual\n' +
+      'spare and working time is fixed by the universal flow of time. This yields the\n' +
+      'first macroeconomic equilibrium condition. Both storable quantities form\n' +
+      'stabilizing feedback loops. They are driven with the general and technical\n' +
+      'knowledge embodied with parts of the supply by education and construction.\n' +
+      'Linear amplification yields S-functions as only analytic solutions.\n' +
+      'Destructible physical capital controls medium-term recoveries from disaster.\n' +
+      'Indestructible human capacity controls the collective long-term industrial\n' +
+      'evolution. It is immune even to world wars and runs from 1800 to date parallel\n' +
+      'to the unisex life expectancy in the pioneering nations. This is the first\n' +
+      'quantitative information on long-term demand. The theory is self-consistent. It\n' +
+      'reproduces all peaceful data from 1800 to date without adjustable parameter. It\n' +
+      'has full forecasting power since the decisive parameters are constants of the\n' +
+      'human species. They predict an asymptotic maximum for the economic level per\n' +
+      'capita. Long-term economic growth appears as a part of natural science.',
+    published: '2012-06-12T11:33:19Z',
+    updated: '2012-06-12T11:33:19Z',
+    authors: [ 'Hans G. Danielmeyer', 'Thomas Martinetz' ],
+    categories: [ 'q-fin.GN', 'physics.soc-ph' ],
+    link: 'http://arxiv.org/abs/1206.2494v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1106.3455v1',
+    title: 'Applications of a constrained mechanics methodology in economics',
+    summary: 'The paper presents instructive interdisciplinary applications of constrained\n' +
+      'mechanics calculus in economics on a level appropriate for the undergraduate\n' +
+      'physics education. The aim of the paper is: 1. to meet the demand for\n' +
+      'illustrative examples suitable for presenting the background of the highly\n' +
+      'expanding research field of econophysics even on the undergraduate level and 2.\n' +
+      'to enable the students to understand deeper the principles and methods\n' +
+      'routinely used in mechanics by looking at the well known methodology from the\n' +
+      'different perspective of economics. Two constrained dynamic economic problems\n' +
+      'are presented using the economic terminology in an intuitive way. First, the\n' +
+      'Phillips model of business cycle is presented as a system of forced\n' +
+      'oscillations and the general problem of two interacting economies is solved by\n' +
+      'the nonholonomic dynamics approach. Second, the Cass-Koopmans-Ramsey model of\n' +
+      'economical growth is solved as a variational problem with a velocity dependent\n' +
+      'constraint using the vakonomic approach. The specifics of the solution\n' +
+      'interpretation in economics compared to mechanics is discussed in detail, a\n' +
+      'discussion of the nonholonomic and vakonomic approaches to constrained problems\n' +
+      'in mechanics and economics is provided and an economic interpretation of the\n' +
+      'Lagrange multipliers (possibly surprising for the students of physics) is\n' +
+      'carefully explained. The paper can be used by the undergraduate students of\n' +
+      'physics interested in interdisciplinary physics applications to get in touch\n' +
+      'with current scientific approach to economics based on a physical background or\n' +
+      'by university teachers as an attractive supplement to the classical mechanics\n' +
+      'lessons.',
+    published: '2011-06-17T11:57:09Z',
+    updated: '2011-06-17T11:57:09Z',
+    authors: [ 'Jitka Janová' ],
+    categories: [
+      'physics.ed-ph',
+      'physics.class-ph',
+      'physics.soc-ph',
+      'q-fin.GN',
+      '70 F25'
+    ],
+    link: 'http://arxiv.org/abs/1106.3455v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2006.03977v1',
+    title: 'IP Geolocation Underestimates Regressive Economic Patterns in MOOC Usage',
+    summary: 'Massive open online courses (MOOCs) promise to make rigorous higher education\n' +
+      'accessible to everyone, but prior research has shown that registrants tend to\n' +
+      'come from backgrounds of higher socioeconomic status. We study geographically\n' +
+      'granular economic patterns in about 76,000 U.S. registrations for about 600\n' +
+      "HarvardX and MITx courses between 2012 and 2018, identifying registrants'\n" +
+      'locations using both IP geolocation and user-reported mailing addresses. By\n' +
+      'either metric, we find higher registration rates among postal codes with\n' +
+      'greater prosperity or population density. However, we also find evidence of\n' +
+      'bias in IP geolocation: it makes greater errors, both geographically and\n' +
+      'economically, for users from more economically distressed areas; it\n' +
+      'disproportionately places users in prosperous areas; and it underestimates the\n' +
+      'regressive pattern in MOOC registration. Researchers should use IP geolocation\n' +
+      'in MOOC studies with care, and consider the possibility of similar economic\n' +
+      'biases affecting its other academic, commercial, and legal uses.',
+    published: '2020-06-06T21:13:14Z',
+    updated: '2020-06-06T21:13:14Z',
+    authors: [ 'Daniela Ganelin', 'Isaac Chuang' ],
+    categories: [ 'cs.CY', 'cs.NI' ],
+    link: 'http://arxiv.org/abs/2006.03977v1'
+  }
+]
+Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -191,6 +420,79 @@ Fetched papers from Springer: [
     journal: 'Nature'
   },
   {
+    id: '10.1007/s00442-025-05734-z',
+    title: 'Leaf economics of deciduous and evergreen plants: how do they exhibit trait optimization under resource variations and environmental constraints',
+    summary: 'Leaf habit, whether a plant is deciduous or evergreen, is one of the most conspicuous traits in plant species, ecosystems, and biomes. In this review, we discuss theories and empirical patterns of deciduous and evergreen habits with a focus on the optimal strategies. Historically, optimal leaf habits and leaf lifespans (LL) have been explained from the viewpoints of carbon economy and nutrient use. In the leaf economics spectrum, deciduous and evergreen species are positioned at the resource-acquisitive and resource-conservative sides of the spectrum, respectively. Seasonal variations in leaf traits of deciduous species could be understood simply as optimization of carbon economy in relation to the progress of the growth season. Evergreen species, however, exhibit more complex patterns, which could be understood as acclimation to seasonal environmental changes or resource allocation to leaf replacement and reproduction. Optimal timing of leaf shedding in evergreen species varies depending on the limiting factor for leaf retention. The return on investment (RI) through the lifetime of a leaf should be greater in evergreen species when there is no environmental suppression. However, RI of evergreen species is often suppressed by seasonal environment or species interaction. Deciduous species can have comparable RIs with evergreen species when they can occupy better environment such as gaps in forests. In conclusion, which leaf habit is advantageous can be understood from trait optimization perspectives. Such knowledge should help forecast how forest ecosystems will respond to changing climate and other anthropogenic environmental impacts.',
+    published: '2025-06-05',
+    authors: [ 'Hikosaka, Kouki', 'Onoda, Yusuke', 'Kitajima, Kaoru' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Oecologia'
+  },
+  {
+    id: '10.1007/s10639-025-13627-0',
+    title: 'Total reaction time can explain the performance on the literacy and numeracy skills of young people with intellectual disabilities using an augmented reality game',
+    summary: 'Evidence suggests a relationship between literacy and numeracy skills and cognitive abilities, which could be improved by augmented reality (AR) games. This study aimed to investigate to what degree the performance in a literacy and numeracy skills AR game explains associations between total reaction time (TRT) and educational achievement measures. Eighty-three participants with intellectual disabilities, aged 6 to 17 (with and without Down syndrome), and 37 participants from public schools with typical development participated in a cross-sectional study. TRT was measured using the TRT_S 2012 software, and performance on AR tasks was assessed with the MoviLetrando game. The analysis of variance revealed that the improvement in TRT overall performance on the second attempt (M = 1.70) compared to the first (M = 1.85) was not significant, with F(1,99.00) = 0.76, p  =.39, ŋ 2 =0.01. Post hoc comparisons indicated that the group with typical development performed significantly faster in overall scores on the TRT scale when compared to the groups with Down syndrome and intellectual disabilities ( p  <.001). These two groups reported similar performances (M = 2.65ms; M = 1.87ms, respectively) in the TRT task after performing the AR game, but both showed lower performance compared to the typical development group (M = 0.59ms), the main effect for group was F(2,99) = 14.04, p  <.01, ŋ 2 =0.22. Educational achievement measures were strongly correlated with TRT and each MoviLetrando subscale. The group with Down syndrome was able to achieve the average time in the most complex task. The performance of participants with intellectual disabilities was delayed compared to their peers with typical development. Educational achievement measures and TRT explain the associations between these performances.',
+    published: '2025-06-05',
+    authors: [
+      'Guarnieri, Regiani',
+      'Crocetta, Tania Brusque',
+      'Lima Antão, Jennifer Yohanna Ferreira',
+      'Guarnieri, Celia',
+      'Antunes, Thaiany Pedrozo Campos',
+      'Almeida Barbosa, Renata Thaís',
+      'Abreu, Luiz Carlos',
+      'Mello Monteiro, Carlos Bandeira'
+    ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'Education and Information Technologies'
+  },
+  {
+    id: '10.1186/s12954-025-01255-3',
+    title: 'Broad-scale overdose education and naloxone distribution– 5-year follow-up of a regional program in Skåne County, Sweden',
+    summary: 'Background Opioid use disorder is a chronic disorder with a high risk of overdose-related morbidity and mortality where a large proportion of these can be averted by timely administration of the antidote naloxone. For naloxone to be present when and where overdoses occur, broad-scale overdose education and naloxone distribution (OEND) must be established. A regional naloxone program was implemented in 2018, in Skåne County, Sweden. This five-year follow-up aims to describe all naloxone-related lay-person events, whether recommendations previously described in the literature were met, and to further investigate events conducted by individuals reporting overdose reversals with naloxone on three or more occasions (‘Supersavers’). Methods Between June 2018 and June 2023, data was collected in six-month intervals from 52 participating units, containing information on trained individuals, gender, year of birth and distributed naloxone kits. Upon naloxone replenishment, patients were asked whether previous naloxone had been used for overdose reversals on someone else, or themselves, had been lost, stolen, or given to someone else. Targets for naloxone distribution and program enrolment were set to a minimum of 20 kits per annual opioid overdose death, and 100 individuals at-risk per 100,000 inhabitants, respectively. Results Training and initial kits were provided to 2685 individuals at risk of own opioid overdose. Upon refill ( n  = 2,364), naloxone had been used for overdose reversal in 39% ( n  = 926) situations. In total, 5900 naloxone kits were distributed. Distribution target in relation to opioid overdose mortality was met annually, while the enrolment target was first met during the second year. The core group of Supersavers represent 9% ( n  = 50) of participants returning for refill while reporting 54.5% ( n  = 292) of all overdose reversals. Conclusions Broad-scale naloxone training and distribution reaches a large proportion of individuals at risk of opioid overdose. A continuous focus and priority in supporting units with a high prevalence of individuals witnessing overdose events is of great importance as these individuals report a large proportion of overdose reversals. Likewise, it is of great importance to provide these individuals, i.e. Supersavers, with needed and sufficient support for their continued essential work intervening in overdose situations. Trial registration Naloxone Treatment in Skåne County– Effect on Drug-related Mortality and Overdose-related Complications, NCT03570099, registered 26 June 2018.',
+    published: '2025-06-05',
+    authors: [
+      'Troberg, Katja',
+      'Isendahl, Pernilla',
+      'Dahlman, Disa',
+      'Håkansson, Anders'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Harm Reduction Journal'
+  },
+  {
+    id: '10.1186/s13017-025-00623-5',
+    title: 'How confident are the general surgeons in Hokkaido region in performing essential trauma skills: a cross-sectional questionnaire survey',
+    summary: 'Background In Japan—particularly in the Hokkaido region—a limited number of dedicated trauma surgeons often compels general surgeons to serve as frontline providers of trauma care. However, their ability to perform critical trauma procedures and their level of confidence remain unclear. Understanding this gap is vital for guiding targeted training programs aimed at improving patient outcomes. Although conducted in one region, these findings may inform strategies in other remote or resource-limited settings worldwide, where timely surgical intervention significantly affects survival. Therefore, the objective of this study was to evaluate the experience and confidence of general surgeons in Hokkaido in performing 35 essential trauma procedures. Methods This prospective observational study surveyed all general surgeons and surgical residents working in hospitals that regularly perform surgical procedures in Hokkaido. Participants provided demographic information, trauma training history, and self-assessed confidence and experience in performing 35 procedures identified via a previous Delphi study. Confidence was defined as a Likert scale rating of 4 or 5. Comparisons were made between respondents with and without advanced trauma training (e.g., ATOM, DSTC) and between those who had managed more than 50 trauma cases versus fewer than 50. Results Of 730 eligible participants, 444 completed the survey (62.2%). Over half (57.9%) reported fewer than 10 lifetime trauma surgeries, and 64.4% had not managed a trauma case in the past year. Only six procedures were rated confidently (≥ 4) by more than half the respondents, including endotracheal intubation, chest tube placement, and selected gastrointestinal procedures. Subgroup analyses indicated that surgeons generally had higher confidence in procedures related to their subspecialty, whereas less frequent or advanced trauma skills remained areas of concern. Surgeons with advanced trauma training or a higher trauma case volume (> 50) demonstrated significantly greater confidence in multiple trauma-specific skills. Conclusion General surgeons in Hokkaido lack confidence in most essential trauma procedures, particularly those encountered infrequently. Although these findings originate from one region, they underscore training gaps potentially relevant to other remote or resource-limited areas, where frontline trauma care demands targeted, high-yield interventions to improve outcomes.',
+    published: '2025-06-05',
+    authors: [
+      'Hirose, Kazuyuki',
+      'Poudel, Saseem',
+      'Murakami, Soichi',
+      'Kurashima, Yo',
+      'Sato, Nagato',
+      'Tojima, Hiroyasu',
+      'Yokota, Isao',
+      'Okada, Kazufumi',
+      'Shichinohe, Toshiaki',
+      'Hirano, Satoshi'
+    ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'World Journal of Emergency Surgery'
+  },
+  {
     id: '10.1007/s12111-025-09701-z',
     title: 'Revisiting Watkins’ Black Curriculum Orientations: Building on Curricular Contributions of Historically Black Colleges and Universities',
     summary: 'Abstract Watkins’,  Harvard Educational Review, 63 (3), 321–339 ( 1993 ) Black curriculum orientations challenge us to explore education—why we teach, what we teach—in its sociopolitical context, the way it is politically brokered and negotiated, the political ideology to which it tends, the ways it curates our identities, and is responsive to our lived experiences. This study revisits Watkin’s ( 1993 ) conceptualizations of Black curriculum orientations and draws from literature that (1) nuances and complicates these conversations and contentious debates, (2) situates and contextualizes these conversations within the sociopolitical realities of the Black community, and (3) includes and amplifies the voices of HBCU administrators, faculty, and students whose curricular contributions have been historically silenced. To distill the extant literature on Black curriculum orientations, this study surveys peer-reviewed journal articles, scholarly books, memoirs, and archival data that captures conversations from faculty, administrators, and students at historically Black colleges and universities (HBCUs) about the purpose, meaning, and value of education. ',
@@ -199,6 +501,16 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Journal of African American Studies'
+  },
+  {
+    id: '10.1038/d41586-025-01726-4',
+    title: 'Stop ignoring small-scale fisheries in economic models',
+    summary: 'Economic policies are lacking in data on small-scale fisheries. A team of researchers is determined to change that. Economic policies are lacking in data on small-scale fisheries. A team of researchers is determined to change that.',
+    published: '2025-06-04',
+    authors: [],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Nature'
   },
   {
     id: '10.1007/s44217-025-00558-8',
@@ -250,439 +562,239 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Canadian Journal of Science, Mathematics and Technology Education'
-  },
-  {
-    id: '10.1007/s10459-025-10444-5',
-    title: 'An evaluation of programmatic assessment across health professions education using contribution analysis',
-    summary: 'Programmatic assessment is gaining traction in health professions education. Despite this popularity, educators continue to grapple with complex contextual factors that impact implementation and outcome attainment. We used contribution analysis, a theory-informed evaluation method, to understand the mechanisms underpinning successful implementation. Applying the six steps of contribution analysis, we developed a postulated theory of change (ToC) and then conducted a qualitative study with programmatic assessment stakeholders (graduates n = 15, supervisors n = 32, faculty n = 19) from four Australian dietetic programs. These data were analysed using the Framework Analysis method and integrated with data derived from a literature review across health disciplines, to assemble contribution claims and the story, and verify the ToC. Impact pathways for programmatic assessment from inception to implementation, and contribution to outcomes were articulated in the ToC. Leaders drove implementation using compromise and worked with a design team to apply the versatile principles. All people required training, and purposefully designed tools were implemented within an ideologically aligned system. Re-orientation of responsibilities situated learners as leaders, contributing to a psychologically safe environment which promoted growth mindsets. Credible high-stakes progression decisions were enabled, people experienced less stress, and derived gratification from assessment. External factors (institutional and accreditation requirements) and threats (resource mismatches, ideological misalignments, and capabilities of the people) were identified. Contribution analysis revealed mechanisms that educators can apply to implement a contextually responsive programmatic assessment across diverse settings.',
-    published: '2025-06-04',
-    authors: [
-      'Jamieson, Janica',
-      'Palermo, Claire',
-      'Hay, Margaret',
-      'Bacon, Rachel',
-      'Lutze, Janna',
-      'Gibson, Simone'
-    ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Advances in Health Sciences Education'
-  },
-  {
-    id: '10.1007/s11858-025-01692-1',
-    title: 'The role of textbooks in the implementation of curriculum development: a comparative study through the lens of Chinese and Indonesian teachers’ views',
-    summary: 'Textbooks are an essential source for the implementation of new curriculum in many countries. However, the role of textbooks in the process is not a fixed entity, as it is shaped by individual teachers’ practices. This study aims to investigate, through the lens of teachers’ views, what role textbooks play in the implementation of curriculum development in two educational settings, Shanghai, China and Central Java, Indonesia. Using a mixed-methods approach, including surveys and interviews, to collect data from 84 mathematics teachers in both countries, the study examined the interplay between curriculum development with a focus on three dimensions - teaching strategies, content, and assessment - and the role of textbooks in its implementation. The results showed that overall textbooks play an important role in the implementation of curriculum development in both Chinese and Indonesian educational settings, but differences were also found about the role of textbooks in different dimensions of the implementation; while Chinese teachers view the content of teaching, Indonesian teachers chose teaching strategies as the most important aspects of textbooks in implementing new curriculum, and the differences are related to the fact that curriculum reform in each country has different characteristics, and in particular, Indonesian teachers are more encouraged to construct their content according to the needs of their students, allowing for differentiated learning, which contributes to the discretionary use of textbooks by both teachers and students. The paper argues that these characteristics should be supported by textbooks that are aligned with curriculum reform in different educational settings.',
-    published: '2025-06-04',
-    authors: [
-      'Fan, Lianghuo',
-      'Wijayanti, Dyana',
-      'Meng, Danyang',
-      'Li, Kunli',
-      'Mailizar, Mailizar'
-    ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'ZDM – Mathematics Education'
-  },
-  {
-    id: '10.1007/s11096-025-01936-w',
-    title: 'Students’ acceptance and use of generative AI in pharmacy education: international cross-sectional survey based on the extended unified theory of acceptance and use of technology',
-    summary: 'Background Generative artificial intelligence (GenAI) has significant potential implications for pharmacy education, but its ethical, practical, and pedagogical implications have not been fully explored. Aim This international study evaluated pharmacy students’ acceptance and use of GenAI tools using the Extended Unified Theory of Acceptance and Use of Technology (UTAUT). Method A cross-sectional survey of pharmacy students from nine countries during the first half of 2024 assessed GenAI usage patterns, curricular integration, and acceptance via the Extended UTAUT framework. After appropriate translation and cultural adaptation, exploratory factor analysis (EFA) identified key adoption factors. Results A total of 2009 responses were received. ChatGPT and Quillbot were the tools most frequently utilised. EFA identified three key dimensions: Utility-Driven Adoption, Affordability and Habitual Integration, and Social Influence. Students rated performance and effort expectancy highly, highlighting their perceived usefulness and ease of use of GenAI tools. In contrast, habit and price value received lower ratings, indicating barriers to habitual use and affordability concerns. Gender disparities were noted, with males demonstrating significantly higher acceptance ( p  < 0.001). Additionally, country-specific differences were evident, as Malaysia reported a high performance expectancy, while Egypt exhibited low facilitating conditions. Over 20% indicated an over-reliance on GenAI for assignments, raising ethical concerns. Significant gaps were observed, such as limited ethical awareness—only 10% prioritised legal and ethical training—and uneven curricular integration, with 60% reporting no formal exposure to Generative AI. Conclusion Findings reveal critical gaps in ethical guidance, equitable access, and structured GenAI integration in pharmacy education. A proactive, context-specific strategy is essential to align technological innovation with pedagogical integrity.',
-    published: '2025-06-04',
-    authors: [
-      'Elnaem, Mohamed Hassan',
-      'Okuyan, Betul',
-      'Mubarak, Naeem',
-      'Thabit, Abrar K.',
-      'AbouKhatwa, Merna Mahmoud',
-      'Ramatillah, Diana Laila',
-      'Isah, AbdulMuminu',
-      'Al-Jumaili, Ali Azeez',
-      'Nazar, Nor Ilyani Mohamed'
-    ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'International Journal of Clinical Pharmacy'
-  },
-  {
-    id: '10.1038/s41598-025-05363-9',
-    title: 'Validating ajzen’s theory of planned behavior in Saudi translation education programs using a reflective structural equation model',
-    summary: 'Translation education is essential for global communication but remains under-researched. This study revisits Ajzen’s Theory of Planned Behavior (TPB) to explore how students’ beliefs influence their engagement in translation programs using a new model. A new TPB questionnaire was developed and validated using a Reflective-Reflective Higher-Order Construct (R-R HOC) model. Data were collected from 45 undergraduate and graduate students across ten Saudi universities. Partial Least Squares Structural Equation Modeling (PLS-SEM) was used to assess both measurement and structural models. Bootstrapping with 5,000 subsamples supported the statistical significance of all path relationships. The results confirmed strong reliability and validity for the four TPB constructs—intention, attitude toward behavior (AB), subjective norm (SN), and perceived behavioral control (PBC). These constructs collectively predicted students’ planned behavior beliefs. No significant differences were found by gender or education level, suggesting similar beliefs across groups. Thematic analysis of open-ended responses highlighted students’ calls for practical training, specialized courses, and better integration of technology in translation programs. This study demonstrates the value of combining social psychology with translation education and offers a validated model for future research. It encourages curriculum designers and policymakers to consider psychological constructs when shaping translation education programs.',
-    published: '2025-06-04',
-    authors: [ 'Alhamami, Munassir' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Scientific Reports'
-  },
-  {
-    id: '10.1007/s10803-025-06907-8',
-    title: 'Music Education for Autistic Children with Intellectual Disability: Parental Attitudes and Support',
-    summary: 'This study aimed to investigate differences in parental attitudes toward music and support for music education between typically developing children and autistic children with mild or borderline intellectual disability (ID) in Hong Kong. While research highlights the developmental benefits of music for autistic children with ID, few studies explore formal music training in this population, particularly within the context of cultural influences. The study included 148 participants, consisting of 84 parents of typically developing children and 64 parents of autistic children with ID. A questionnaire was used to assess parental attitudes toward music and their decisions regarding formal music training enrollment for their children. Covariates such as family income, child executive function, and parental expectations were analyzed to identify potential predictors. Parents of autistic children with ID held more positive attitudes toward music compared to parents of typically developing children when controlling for covariates. However, only 14.1% of autistic children with ID were enrolled in formal music training, in contrast to 40.4% of typically developing children. Family income and child executive function emerged as significant barriers to enrollment decisions. The findings highlight a disparity between positive parental attitudes toward music and pursuit of music education among autistic children with ID, highlighting systemic and financial barriers. Accessible music programs, adjustments in parental expectations, and inclusive policies may bridge the gap between parental attitudes and actual support. These insights call for targeted interventions to ensure that autistic children with ID can access the developmental benefits of music education.',
-    published: '2025-06-04',
-    authors: [ 'Liang, Di Chao', 'Yum, Yen Na' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Journal of Autism and Developmental Disorders'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
+Request failed. Retrying after 400ms...
+Request failed. Retrying after 400ms...
+Request failed. Retrying after 400ms...
+Request failed. Retrying after 400ms...
 Fetched papers from PubMed: [
   {
-    id: '40464147',
-    title: 'Enhancing Neurocognitive Health via Activity, Nutrition and Cognitive Exercise (ENHANCE): A Randomized Controlled Trial.',
-    abstract: 'BACKGROUND: While multidomain interventions show promise for promoting healthy aging, their impact on brain structure remains unclear. This randomized controlled trial (ENHANCE) assessed the efficacy of a 12-month group-based multidomain intervention on brain structure and function in community-dwelling older adults, with particular attention to urban-rural disparities.\n' +
-      'METHODS: The ENHANCE trial delivered twice-weekly group-based multidomain sessions (physical exercise, cognitive training and nutrition education) in urban and rural communities for 12 months, while the control group received quarterly telephone education. A total of 88 participants completed the trial (attendance rates > 60% across all sites), with 76 completing longitudinal MRI assessments (intervention: n = 35; control: n = 41). The intervention group (n = 44; 75.0% female) was significantly older than the control group (n = 44; 70.5% female) (75.0 ± 6.6 vs. 72.3 ± 5.0 years, p = 0.035) and had lower BMI (23.4 vs. 25.2 kg/m, p = 0.016) at baseline. The primary outcomes were brain structures (voxel-based changes in brain grey matter volume [GMV]), while secondary outcomes were functional outcomes (physical performance, nutritional status, cognitive function, psychosocial assessments and cardiometabolic biomarkers).\n' +
-      'RESULTS: Using two-stage tensor-based morphometry analysis, the intervention group demonstrated significantly less GMV reduction in regions over the left inferior temporal lobe compared with controls over 12 months (p < 0.05). Using generalized estimating equation (GEE) model, the intervention group showed enhanced physical performance at 6 months (5-time chair rise test: -1.19 s; 95% CI, -2.24 to -0.13; p = 0.028) and improved cognitive function by 12 months (Montreal Cognitive Assessment: +1.32 points; 95% CI, 0.10-2.54; p = 0.034). Cardiometabolic improvements included increased HDL-C (+6.65 mg/dL, p < 0.001) and decreased triglycerides (-16.07 mg/dL, p = 0.025) at 12 months in GEE models. In subgroup analyses, rural participants showed preserved GMV in additional regions including the cerebellum (Crus I and II) and occipital cortex with greater cognitive improvements (MoCA: +3.06 points; 95% CI, 0.84-5.27; p = 0.007), while urban participants showed greater GMV reduction in the left temporal-occipital fusiform cortex but achieved superior physical performance gains (5-time chair rise test: -1.85 s; 95% CI, -3.07 to -0.64; p = 0.003).\n' +
-      'CONCLUSIONS: This study demonstrates that multidomain interventions can induce neuroplasticity in older adults, with differential effects on brain structure and function between urban and rural participants, emphasizing the need for tailored approaches that consider sociocultural factors to optimize healthy aging across diverse populations.',
+    id: '40470586',
+    title: 'Reasons for Breastfeeding Avoidance: A Multicenter Insight in Mothers With Systemic Lupus Erythematosus.',
+    abstract: 'BACKGROUND: Limited research exists on breastfeeding among women with systemic lupus erythematosus, despite known benefits of human milk.\n' +
+      'RESEARCH AIM: To investigate reasons for breastfeeding avoidance among postpartum women with systemic lupus erythematosus.\n' +
+      'METHODS: This is a descriptive study, conducted in January 2023, combining retrospective pregnancy outcome data collection with a structured telephone questionnaire.\n' +
+      'RESULTS: Almost half of respondents ( = 22; 54.5%) experienced a disease flare within 24 months post-delivery. Reasons given by participants for breastfeeding avoidance included healthcare professional advice ( = 8; 36.4%), fear of medication harm ( = 5; 22.7%), and maternal/neonatal complications ( = 10; 45%). Most participants ( = 21; 95.5%) expressed a willingness to breastfeed if possible.\n' +
+      'CONCLUSION: Breastfeeding rates and breastfeeding specific care could be enhanced for patients with systemic lupus erythematosus through patient networks and appropriate practitioner education.',
+    published: '2025-Jun-05',
+    authors: [
+      'Radin Massimo',
+      'Foddai Silvia G',
+      'Schreiber Karen',
+      'Cecchi Irene',
+      'Signorelli Flavio',
+      'de Jesús Guilherme',
+      'Aso Kuniyuki',
+      'Kono Michihito',
+      'Urban Maria Letizia',
+      'Bacco Beatrice',
+      'Gallo Cassarino Silvia',
+      'Lo Sardo Luca',
+      'Arbrile Marta',
+      'Barinotti Alice',
+      'Gómez García Ignacio',
+      'Isabel Quaglia María',
+      'Tissera Yohana',
+      'Gervasoni Fiammetta',
+      'Aguirre-Zamorano María Ángeles',
+      'Alba Paula',
+      'Benedetto Chiara',
+      'Atsumi Tatsuya',
+      'Amengual Olga',
+      'Emmi Giacomo',
+      'Andrade Danieli',
+      'Marozio Luca',
+      'Roccatello Dario',
+      'Sciascia Savino'
+    ],
+    journal: 'Journal of human lactation : official journal of International Lactation Consultant Association',
+    doi: '10.1177/08903344251338242',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470586/'
+  },
+  {
+    id: '40470547',
+    title: 'Preferences for Nonpharmaceutical Interventions During the Endemic Phase of COVID-19: Discrete Choice Experiment.',
+    abstract: 'BACKGROUND: Nonpharmaceutical interventions (NPIs) are effective tools for pandemic containment but often impose significant socioeconomic consequences that intensify over time. Public support and compliance to NPIs are crucial to ensure their effectiveness.\n' +
+      'OBJECTIVES: This study aimed to elicit preferences of a Singaporean population for the reintroduction of NPIs in response to the emergence of a new SARS-CoV-2 variant during the COVID-19 endemic phase.\n' +
+      'METHODS: A web-based discrete choice experiment (DCE) was conducted. DCE attributes reflected key NPIs implemented in Singapore during the COVID-19 pandemic from 2020 to 2022, including mask wearing, dining restrictions, suspension of vocalization activities and large-scale events, quarantine after international travel, and mandatory vaccine boosters. Participants were recruited from a demographically representative online panel. Statistical analysis was performed using a mixed-logit model and mixed-mixed multinomial logit model.\n' +
+      `RESULTS: A total of 1552 participants were included in the analysis. Overall preferences from the mixed-logit model showed that mask wearing was valued, both in public and indoors. Dining restrictions allowing groups of up to 5 people were preferred, but stricter dining restrictions allowing up to 2 people or no dining out were not favored. Prohibiting large-scale events was not preferred. Participants accepted quarantine at home but opposed quarantine in government facilities. Two classes emerged from the mixed-mixed logit model: class 1 ("Prefer NPIs") and class 2 ("Prefer No NPIs"). While class 1 (39%) was only opposed to a complete prohibition on dining in at food and beverage establishments, no NPIs were preferred by class 2 (61%). Both classes were not opposed to mandatory mask wearing, dining restrictions allowing groups of up to 5 people, and mandatory vaccine boosters. Sex, age, education, employment status, the number of COVID-19 vaccine shots received, and risk attitude were associated with individuals' likelihood of belonging to a specific preference group.\n` +
+      'CONCLUSIONS: Following the emergence of a new SARS-CoV-2 variant after a prolonged period of restrictions, less disruptive NPIs such as mask wearing indoors were valued by the public and should be swiftly reinstated. Adaptive strategies should be adopted for more contentious NPIs, such as strict dining restrictions and quarantine policies. Public preferences should be considered in the design and selection of NPIs for future pandemic containment strategies to enhance compliance and effectiveness.',
+    published: '2025-Jun-04',
+    authors: [
+      'Wang Yi',
+      'Har Chee Ern',
+      'Tan Sharon Hui Xuan',
+      'Cheng Hooi Swang',
+      'Ang Ian Yi Han'
+    ],
+    journal: 'JMIR public health and surveillance',
+    doi: '10.2196/67725',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470547/'
+  },
+  {
+    id: '40470543',
+    title: 'Formal Education in Life.',
+    abstract: 'No abstract available',
+    published: '2025-Jun-05',
+    authors: [ 'Su Zhaohui' ],
+    journal: 'Academic emergency medicine : official journal of the Society for Academic Emergency Medicine',
+    doi: '10.1111/acem.70078',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470543/'
+  },
+  {
+    id: '40470524',
+    title: 'Quality of Care and Outcomes of Inpatients with COPD: A Multi-Center Study in China.',
+    abstract: 'OBJECTIVE: Hospitalization due to chronic obstructive pulmonary disease (COPD) exacerbation is linked to worse prognosis and increased healthcare burden, especially in low- and middle-income countries. This study aimed to evaluate the quality of care and outcomes among inpatients with COPD and to identify prognostic factors relate to healthcare quality indicators.\n' +
+      'METHODS: A multi-center, retrospective longitudinal study was conducted. Patients hospitalized for COPD exacerbations between January and December 2017 were randomly sampled from 16 secondary or tertiary public general hospitals in China. Healthcare quality process indicators and clinical outcomes were collected from medical records and patient questionnaires. The median follow-up period was 666 days. Multivariate logistic regression analysis was used to identify risk factors for readmission or death within 30 days after discharge and for one-year mortality.\n' +
+      'RESULTS: A total of 891 inpatients with COPD were included. Among them, 14.3% underwent post-bronchodilator spirometry. Documentation of exacerbation history and symptom scores was found in 16.8% and 1.2% of medical records, respectively. Long-acting bronchodilators (LABDs) were prescribed at discharge in 30.3% of cases. Verbal counseling was the primary approach to smoking cessation education, rather than the 5A method. The 30-day readmission rate was 7.1%. The average exacerbation rate was 0.94 per patient during the following year, and the one-year mortality rate was 7.2%. Prescription of inhaled LABDs at discharge was significantly associated with a lower risk of readmission or death within 30 days (HR 0.51, 95% CI 0.29-0.90, p=0.020). The presence of cardiovascular disease was associated with an increased risk of death within one year (HR 2.34, 95% CI 1.24-4.41, p=0.002).\n' +
+      'CONCLUSION: The quality of inpatient care for COPD in China showed deficiencies in diagnostics, disease assessment, and patient education. Prescription of inhaled LABDs at discharge was a key quality measure that significantly reduced short-term readmission or mortality, highlighting its importance. Standardized protocols and clinician training are essential to improve patient outcomes.',
+    published: '2025',
+    authors: [
+      'Wang Fengyan',   'Wang Mingdie',
+      'Chen Xiaoyan',   'Song Aiqi',
+      'Zeng Hui',       'Chen Jiawei',
+      'Wang Lingwei',   'Jiang Wanyi',
+      'Jiang Mei',      'Shi Weijuan',
+      'Li Yuqi',        'Zhong Heng',
+      'Chen Rongchang', 'Liang Zhenyu'
+    ],
+    journal: 'International journal of chronic obstructive pulmonary disease',
+    doi: '10.2147/COPD.S510613',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470524/'
+  },
+  {
+    id: '40470465',
+    title: 'Lessons Learned About the Education Needs of Kidney Transplant Recipients: A Mixed-Method Study.',
+    abstract: 'BACKGROUND: Much of the literature on kidney transplant education focuses on educating recipients prior to transplant or in the early postoperative period. It is unknown whether the information provided is meaningful to patients or whether the importance of education topics changes with time.\n' +
+      'OBJECTIVE: We sought to identify the learning needs of patients post-kidney transplant.\n' +
+      'DESIGN: Our multidisciplinary team conducted a mixed-method study to better understand the learning needs of patients; what is important to them in the early postoperative period and a year after transplant.\n' +
+      'SETTING: One urban academic hospital performing kidney transplant in Ontario, Canada. Data were collected between September 2019 and March 2021, including during the COVID-19 pandemic.\n' +
+      "PARTICIPANTS: A convenience sample of 20 participants in the post-kidney transplant clinic. Participants' mean age was 56 (SD ± 11) with 75% of participants male gender.\n" +
+      'METHODS: Twenty kidney transplant patients were recruited between 3 and 6 months post-transplant. Participants completed an initial demographic questionnaire. They completed the Learning Needs Inventory (LNI) and a one-on-one semi-structured interview at 2 time points: 3 to 6 months post-transplant and 12 to 18 months post-transplant.\n' +
+      `RESULTS: Patient interviews revealed that their access to a trustworthy health care team, support system, and reported challenges post-transplant shaped their ability to engage in learning. Patients shared that each aspect influences when and what topics were important to them, which allowed patients to obtain personalized education. A multidisciplinary team extending beyond physicians and nurses to include professionals such as pharmacists, dietitians, and social workers can best address patient-specific education needs post-transplant was highlighted in patients' comments. Patients revealed that their support system helps to develop self-reliance and support their transition after transplant to allow them to recover and manage challenges after transplant. Support systems varied from family, friends, colleagues and included social media and community organizations were helpful. Our study identified 3 realms of challenges post-transplant including: emotional, physical, and financial. Quantitative data showed significant findings on the level of importance regarding the use of alcohol, demonstrating a shift in median rating of "not important at all" to "not very important" ( = .016). A significant effect ( = .031) shifting the median rating of post-transplant dental care from of "a little important" to "very important."\n` +
+      'LIMITATIONS: The small convenience sample with only English-speaking patients used in this study may have affected our ability for generalizable results. Part of this study was completed during the COVID-19 pandemic, which may have led to individual responses to vary, as priorities may have been different during the pandemic.\n' +
+      "CONCLUSION: Only 2 topics (dental care and use of alcohol) shifted in importance. Most education topics (ie, rejection, infection) covered in 3 to 6 months post-transplant continued to be important for those that have had their transplant for more than a year suggesting the need for ongoing education post-transplant. Multidisciplinary care teams play an important role in providing personalized education to patients and help to address emotional, physical, and financial challenges after transplant. This study showed the importance of social media and community organizations in patients' education offering an additional avenue of support and to hear others, lived experiences.\n" +
+      'TRIAL REGISTRATION: Not registered.',
+    published: '2025',
+    authors: [
+      'Gabriel Michelle L',
+      'Chen Lucy',
+      'Lee Sharon',
+      'Accettura Jenny',
+      'Campbell Emily E',
+      'Dissanayake Melanie',
+      'Valenzano-Hacker Teresa J',
+      'Nash Michelle',
+      'Rapi Lindita',
+      'Dacouris Niki',
+      'Yuan Weiqiu',
+      'Thai Tiffany'
+    ],
+    journal: 'Canadian journal of kidney health and disease',
+    doi: '10.1177/20543581251338462',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470465/'
+  },
+  {
+    id: '40470451',
+    title: 'Osteopathic Manipulative Treatment for Chronic Low Back Pain and Musculoskeletal Pain in Remote Underserved Populations: A Systematic Literature Review.',
+    abstract: 'Chronic musculoskeletal pain, particularly chronic low back pain (CLBP), is a prevalent issue among rural populations, where limited access to healthcare exacerbates the condition and significantly impacts various aspects of daily life. The effects of chronic pain and healthcare barriers extend beyond physical health, influencing mental well-being, physical activity, and overall functionality as rural populations age. This complex healthcare challenge requires further investigation to identify effective, culturally relevant, and cost-efficient solutions. Proposed approaches include osteopathic manipulative treatment (OMT), telehealth, and alternative education models designed to incentivize healthcare professionals to serve these communities while respecting their cultural values and societal needs. Medical missions and volunteer healthcare efforts are already making strides in alleviating the impact of CLBP, which can lead to mental health decline, reduced mobility, and functional impairments. This systematic literature review synthesizes recent research on the effectiveness of OMT in managing chronic musculoskeletal pain, with a particular focus on low back pain (LBP) in underserved and rural populations. It examines how biopsychosocial factors and healthcare access influence treatment outcomes, while also proposing strategies for improving healthcare access through innovative education models and the use of technology. The review also considers the importance of community engagement and cultural sensitivity in these approaches. By analyzing research articles published between 2013 and 2023 from Google Scholar and PubMed, along with additional articles identified through a manual search of the  journal website, this review evaluates 26 relevant studies on the therapeutic benefits of OMT for CLBP. It aims to highlight the potential of OMT as an effective intervention for rural populations and to better understand the broader implications of chronic musculoskeletal pain on these communities.',
+    published: '2025-May',
+    authors: [ 'Friedman Arielle', 'Sheth Reena', 'Wallace-Ross Jill' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.83524',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470451/'
+  },
+  {
+    id: '40470413',
+    title: 'Effect of Health Education on Nutritional Status of Elderly Population in a Rural Area in Delhi: An Interventional Study.',
+    abstract: 'BACKGROUND: The health of the elderly is an important issue defining the health status of the population. Malnutrition significantly increases morbidity and mortality and compromises the outcomes of other underlying conditions and diseases. The malnourished elderly are more likely to require health and social services, have more hospitalizations, and cause a burden on caregivers.\n' +
+      'AIM: To study the effect of health education on the nutritional status of elderly aged 60 years and above in a rural area of Delhi.\n' +
+      'METHODOLOGY: A community-based interventional study was conducted in the Barwala village, which is a rural area in Delhi. A total of 205 elderly were assessed using the Mini Nutritional Assessment (MNA) Tool. Health education was provided as an intervention using poster presentation, audio-visual aids, and pamphlets distribution.\n' +
+      "STATISTICAL ANALYSIS: Quantitative data was expressed by mean and SD, and tested by Student's t-test (paired) or Mann-Whitney U test, while qualitative data was expressed in percentage and tested by chi-squared test or Fisher's exact test.  Results: 83 (40%) subjects were malnourished, and a similar number, i.e., 84 (41%), was at risk of malnutrition according to the MNA score. The prevalence of malnutrition before and after the intervention was 83 (40.5%) and 63 (30.7%), respectively, which showed a 24.1% decrease in the prevalence of malnutrition after the intervention.\n" +
+      'CONCLUSIONS: There was a high prevalence of malnutrition and risk of malnutrition among the elderly.',
+    published: '2025-May',
+    authors: [
+      'Meena Jeevan Jyoti',
+      'Singh Anshumali',
+      'Gupta Nidhi',
+      'Meena Gajendra S'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.83529',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470413/'
+  },
+  {
+    id: '40470401',
+    title: 'Online Educational Intervention on Research Protocol Competencies in Medical Residents: A Quasi-experimental Study.',
+    abstract: "Introduction Competence in research methodology and protocol development is essential for medical residents to integrate evidence-based medicine into clinical practice. Online Educational Interventions (OEIs) have been implemented as a structured approach to enhance these skills. This study assesses the impact of an OEI on research methodology knowledge and protocol development among first-year medical residents. Methods A quasi-experimental, prospective study was conducted from June 2022 to February 2023 at the Family Medicine Unit No. 1 of the Mexican Social Security Institute (IMSS) in Victoria, Mexico. First-year residents from multiple specialties participated in a structured OEI designed to strengthen competencies in research methodology. Pre- and post-intervention assessments were carried out using a custom-designed questionnaire validated through expert review. Data were analyzed using Wilcoxon signed-rank and paired Student's t-tests, with statistical significance set at p < 0.05. Results A total of 101 medical residents were enrolled in the study, of whom 65 completed the intervention. Among the completers, 39 (60.0%) were female residents, and 26 (40.0%) were male residents. Family Medicine was the most represented specialty, comprising 29 participants (44.6%). Post-intervention assessments demonstrated statistically significant improvements across all evaluated domains (p < 0.05), with the most pronounced gains observed in data collection procedures, participant selection, and study design. The assessment tool showed high internal consistency (Cronbach's alpha = 0.84). Conclusions Structured OEIs significantly improve research methodology knowledge and protocol development skills in medical residents. These findings support their integration into residency training programs to strengthen research capacity and advance evidence-based practice.",
+    published: '2025-May',
+    authors: [
+      'Segura-Chico Martín',
+      'Nava-Obregrón Nora Delia',
+      'Melgoza-Pelcastre Zaida Guadalupe',
+      'Barrón-Pérez Emmanuel Alejandro',
+      'González-Pérez Brian',
+      'Benítez-Trejo Iris Alejandra',
+      'Robles-Del Ángel Blanca Estela'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.83505',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470401/'
+  },
+  {
+    id: '40470393',
+    title: 'Artificial intelligence for predicting 30-day mortality after surgery for femoral shaft fractures: A retrospective study.',
+    abstract: 'BACKGROUND AND AIMS: Surgical repair of femoral shaft fractures continues to have notable perioperative morbidity and mortality. The purpose of this study is to assess whether artificial intelligence (AI)-driven models can be utilised to predict 30-day mortality after surgery for femoral shaft fractures and to identify patient risk factors for mortality using AI.\n' +
+      'METHODS: This retrospective study utilised data from the National Surgical Quality Improvement Program between 2015 and 2020. Five AI-driven models were developed and tested using patient clinical information to predict mortality within 30 days of surgery. Additionally, the most important variables for the best-performing model were identified.\n' +
+      'RESULTS: A total of 1720 patients were identified, and the 30-day mortality rate after femoral shaft fracture surgery was 3.4% (n = 58). XGBoost demonstrated the best predictive performance, with an area under the curve (AUC) of 0.83, a calibration intercept of -0.03, a calibration slope of 1.17, and a Brier score of 0.02. The most important variables for prediction were age, preoperative white blood cell count, creatinine, haematocrit, platelets, blood urea nitrogen, and body mass index.\n' +
+      'CONCLUSION: This study is the first to internally validate an AI-driven model for predicting mortality within 30 days of surgery in an isolated population of femoral shaft fracture patients, demonstrating good performance. Further research is needed to develop an excellent-performing, AI-driven model that is externally validated prior to clinical translation to support anaesthesiologists and orthopaedic surgeons in perioperative risk stratification and patient education.',
     published: '2025-Jun',
     authors: [
-      'Peng Li-Ning',
-      'Lee Pei-Lin',
-      'Chou Kun-Hsien',
-      'Lee Wei-Ju',
-      'Lin Ching-Po',
-      'Chang Chih-Wen',
-      'Liang Chih-Kuang',
-      'Chung Chih-Ping',
-      'Hsiao Fei-Yuan',
-      'Chen Liang-Kung'
+      'Gupta Puneet',
+      'Shen Hong-Jui',
+      'Patel Kunj',
+      'Guo Rui',
+      'Heinz Eric R',
+      'Manyam Rameshbabu'
     ],
-    journal: 'Journal of cachexia, sarcopenia and muscle',
-    doi: '10.1002/jcsm.13830',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40464147/'
+    journal: 'Indian journal of anaesthesia',
+    doi: '10.4103/ija.ija_1060_24',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470393/'
   },
   {
-    id: '40464081',
-    title: 'The health economics of insulin therapy: How do we address the rising demands, costs, inequalities and barriers to achieving optimal outcomes.',
-    abstract: `The health economic value of insulin is usually expressed within a cost-effectiveness framework providing an estimated incremental cost per quality-adjusted life year (QALY) gained. Insulin clinical trials adopt a treat-to-target design in which both intervention and control arms aim to achieve similar levels of glycaemic control thereby allowing a comparison of secondary safety outcomes such as hypoglycaemia and weight gain. While of use to inform clinicians about the new insulin's tolerability, it is of limited use for an economic evaluation. An insulin's true potential value requires an assessment of the relationship between the benefits of attaining individualised glycaemic goals versus the factors known to act as barriers to the initiation/intensification of insulin and that also contribute to poor adherence in clinical practice. Addressing the rising demands that diabetes will impose upon the healthcare system will require the simultaneous execution of multiple strategies that acknowledge population dynamics, healthcare delivery constraints, the role of innovation and funding requirements. Accounting for patient-specific characteristics to develop individualised plans and utilising technologies that address relevant barriers to care will require a whole-system perspective on healthcare value and an appreciation of the interconnectivity of stakeholder needs. Importantly, convenience and treatment satisfaction are often not considered valuable features of insulin therapy; not only do they have value, but they are essential to addressing rising demands. PLAIN LANGUAGE SUMMARY: More people around the world are living with diabetes. This is because people are living longer, populations are getting older, and more people are developing the disease. Clinicians will have to prescribe insulin for more people. To make well-informed decisions about how to spend money on diabetes care, we need to understand how much therapies costs and how well they work. In healthcare, people often talk about "value for money." This means getting better results without spending more money, or saving money without making things worse. However, it's not always easy to figure out the value of new types of insulin. The way insulin is studied in clinical trials doesn't always relate well to how it works, and is used, in real-life clinical practice. Many studies don't look at all the things that matter, like how easy it is for people to use the insulin or how it affects their daily lives. When two types of insulin have comparable efficacy in terms of lowering blood sugar, other things - like side effects, how easy it is to use, and how well people stick to their treatment - become important drivers of value. These things are different for each person, may be left out of studies and may not considered to be important by decision makers. In this paper, we first discuss how the health economics of insulin has traditionally been studied, and look at the findings, advantages and disadvantages of these approaches. We also describe how tools like continuous glucose monitors (which track blood sugar all the time) can help people improve outcomes. We introduce what we call the "insulin value system." This looks at how the features of the insulin, the patient's circumstances, and the state of the healthcare system interact to determine the value of a new therapy. In the case of insulin therapies, traditional approaches to value assessment don't always capture the full picture. Our second goal is to talk about the big challenges in diabetes care, for which there are no easy solutions. More people are getting diabetes, and more money will be needed for treatment and disease management. We believe that to really help make a difference, we need to consider the whole healthcare system, how everything is connected, and not just focus on one part. We believe it's important to look at how people live and work, their personal circumstances and how they and the healthcare system interact when assessing the value of insulin. That way, we can better understand how new treatments can help both people and the wider healthcare system.`,
-    published: '2025-Jun-04',
-    authors: [ 'McEwan Phil', 'Evans Marc' ],
-    journal: 'Diabetes, obesity & metabolism',
-    doi: '10.1111/dom.16488',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40464081/'
-  },
-  {
-    id: '40464043',
-    title: 'Developmental characteristics of orientation and differentiation abilities in the control of jumping distance in preschool children.',
-    abstract: 'INTRODUCTION: The development of coordination abilities and fundamental motor skills in early childhood plays a crucial role in promoting physical activity and preventing obesity. However, only a few studies have investigated the developmental characteristics of coordination abilities during early childhood. Therefore, we used jumping distance control as a motor task to examine the developmental characteristics of orientation and differentiation abilities in early childhood.\n' +
-      'METHODS: We included 318 children aged 3.5-6 years. The motor task was a box target jump test in which the participants jumped from a box approximately 30 cm in height, such that their heels were aligned with a target line 40 cm away. Each participant performed the test two times. The performance results from the two box jump test trials were analyzed by comparing the mean errors of the first and second trials, along with a more detailed examination through the analysis of the performance level ratios between the two trials.\n' +
-      'RESULTS: While the participants aged 3.5 years displayed insufficient accuracy and a strong tendency toward underdevelopment (low-performance percentage for 3.5 years: 1st = 38.3%, 2nd = 38.3%,  < 0.001), immediate feedback effects began to appear at the age of 4 years (low-performance percentage for 4 years: 1st = 21.3%, 2nd = 14.9%). Behavioral changes, such as improved accuracy between trials, became more evident from 4.5 years of age. These results suggest an emerging capacity for motor adjustment or imagery, although no direct assessment of motor imagery was conducted in this study, and such interpretations remain speculative. By approximately 5 years of age, participants obtained a certain level of immediate feedback effect.\n' +
-      'CONCLUSION: These findings provide insight into the developmental characteristics of coordination abilities in early childhood and could help inform age-appropriate physical education approaches that support movement awareness and adaptive motor control.',
-    published: '2025',
-    authors: [ 'Kano Hirohisa', 'Kuga Alexander' ],
-    journal: 'Frontiers in pediatrics',
-    doi: '10.3389/fped.2025.1365323',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40464043/'
-  },
-  {
-    id: '40464036',
-    title: 'Patient-Centered Care: A Qualitative Analysis of Patient and Caregiver Experiences in a Hospital at Home Program.',
-    abstract: 'UNLABELLED: This descriptive qualitative study aimed to address a gap in the literature by exploring the experiences of Hospital at Home (HaH) patients and caregivers. HaH programs, which deliver hospital-level care to patients in their homes, are increasingly popular outside the United States. Yet, there is less emphasis on understanding the experiences of patients and caregivers while actively receiving hospital-level care in the home and how their insights can enhance care delivery. A purposeful sample of 12 patients and five caregivers participated in semistructured interviews during the acute care stage and 30 days after their discharge from hospital-level care in the home. Thematic analysis revealed three main themes: (1) patient-centered communication and education, (2) differences in medical care at home, and (3) the impact of technology on the overall experience. These themes provide valuable insights into the factors that patients and caregivers believe positively and negatively influence their experiences within the HaH program. Moreover, the themes highlight aspects of the HaH model that are important to patients/caregivers and those that can be improved.\n' +
-      'CLINICAL TRIALSGOV: Number: NCT05952999Analysis of the Virtual Acute Care at Home Experience (HaH)URL: https://www.clinicaltrials.gov/search?term = NCT05952999.',
+    id: '40470311',
+    title: 'The Diverse Experiences and Challenges of Individuals With Alopecia Areata: Survey Results From Finland.',
+    abstract: 'Alopecia areata (AA) is a chronic disease that significantly impacts well-being and quality of life. Despite its burden, professional support and treatment utilization remain low. This study investigated the experiences of 226 individuals in Finland with AA through an online survey. Most (82.7%) had at least one comorbid condition, most commonly atopic dermatitis (45.1%) and allergic rhinitis (43.4%). Depression and anxiety were reported by 22.1% and 23.0% of respondents, respectively. Those with ≥50% hair loss were significantly less likely to report higher overall well-being (odds ratio 0.60; 95% CI 0.38-0.96;  = .03), and experienced a greater negative impact on their relationships and social situations compared to those with <50% hair loss. The majority (82.7%) had not received any treatment for AA during the past year. Social media and peer support were the most common information sources. These findings highlight the need for improved patient education, and professional support. Healthcare providers should proactively offer guidance on treatment options and assess comorbidities to improve individual well-being.',
     published: '2025',
     authors: [
-      'Dalstrom Matthew D',
-      'Klein Colleen J',
-      'Rothrock-Magana Meagan',
-      'Cooling Melinda'
+      'Mandelin Johanna M',
+      'Rehn Laura',
+      'Kosunen Mikko',
+      'Väkeväinen Merja',
+      'Rannanpää Saara'
     ],
     journal: 'Journal of patient experience',
-    doi: '10.1177/23743735251347706',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40464036/'
-  },
-  {
-    id: '40463997',
-    title: "Efficacy of United States' federally-funded interventions in increasing school capacities to improve student mental health and education outcomes in Tennessee.",
-    abstract: "About two in five children and adolescents will meet the criteria for a mental disorder by age 18, and more than half of youth who are accessing mental health services receive them in an educational setting. Yet there is limited evidence on the effectiveness of school-based interventions on children's mental health and education outcomes. We examine the effectiveness of two key United States' federally-funded interventions for expanding school-based capacities to improve children's health and education outcomes-School-Based Health Centers (SBHCs) and Advancing Wellness and Resiliency in Education (AWARE) grants-in a mixed method, longitudinal study of low-income, Tennessee children. We linked health insurance claims data for children enrolled in Tennessee's Medicaid program with administrative education records for students attending Tennessee public schools between 2006 and 2019. We also implemented a census of Tennessee school districts to determine which had SBHCs and AWARE grants and their start years, and we conducted semi-structured interviews with each treated district to assess their infrastructure, programs, staffing, partnerships, health services offered, and more. We estimated effects of SBHCs and AWARE grants on school-level rates of mental health conditions, behavioral health conditions, preventive health care visits, absences, chronic absences, and disciplinary incidents using a staggered adoption, difference-indifferences (DiD) approach. We found a statistically significant reduction in diagnosed mental health conditions among treated schools of 6 percent relative to their baseline prevalence, which our qualitative findings suggest might be related to increased health staffing in schools, earlier detection of mental health needs, and greater use of prevention strategies. We saw larger effects in some school districts with more extensive mental health infrastructure. We did not satisfy model assumptions for estimating causal effects on preventive health care visits, absences, chronic absences, and disciplinary incidents, although associations were in the expected direction.",
-    published: '2025-Jun',
-    authors: [ 'Heinrich Carolyn J', 'Shero Mason', 'Fry Carrie E' ],
-    journal: 'SSM. Mental health',
-    doi: '10.1016/j.ssmmh.2025.100421',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40463997/'
-  },
-  {
-    id: '40463986',
-    title: 'Assessment of health information in Chinese atopic dermatitis-related videos: A cross-sectional study.',
-    abstract: 'BACKGROUND: Atopic dermatitis (AD) is prevalent worldwide. People are increasingly obtaining health information through social videos. In China, the quality, reliability, understandability, and actionability of AD-related videos have yet to be fully studied.\n' +
-      'OBJECTIVE: This study proposed to analyze AD-related videos on Chinese video-sharing platforms.\n' +
-      `METHODS: Three keywords "" (atopic dermatitis) or "" (eczema) or "" (atopic eczema) were used on Bilibili and Douyin (Chinese version of TikTok) to retrieve videos from May 25 to November 25, 2024. Included videos' reliability was evaluated by the Journal of American Medical Association (JAMA) criteria and modified DISCERN (mDISCERN), quality was evaluated by Global Quality Scale (GQS), and understandability and actionability were evaluated by Patient Education Materials Assessment Tool (PEMAT). Spearman correlation was used to explore the correlation among different variables.\n` +
-      "RESULTS: 368 videos were included, and the activity on Douyin was higher than that on Bilibili ( < .001). Although Douyin's AD videos were rated higher than Bilibili's in reliability and understandability (all  < .001), neither of them was satisfactory. Medical practitioners were the main source of videos ( = 326, 88.59%), mostly conveying treatment ( = 159, 43.21%). The videos they uploaded had higher ratings in the JAMA, mDISCERN and understandability, and were also more popular (all  < .05). There were more videos on Bilibili that involved traditional Chinese medicine (TCM) ( = 81, 52.60%); however, the ratings of such videos were lower than those without TCM on any platform (all  < .001). Videos about treatment and prevention were almost the best two categories in terms of actionability (all  < .05). The number of likes, shares, comments, collections, fans, the JAMA score, and understandability were positively correlated (all  < .05).\n" +
-      'CONCLUSIONS: The assessment of AD-related videos flooding social media is suboptimal. Videos from professionals are more reliable and should be promoted. The public should exercise caution when searching for healthcare information on video platforms.',
-    published: '2025',
-    authors: [ 'Yang Gongrui', 'Li Xiaoting', 'Duan Xingwu' ],
-    journal: 'Digital health',
-    doi: '10.1177/20552076251346579',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40463986/'
-  },
-  {
-    id: '40463973',
-    title: 'Editorial: Innovations in teaching and learning for Health Professions Educators.',
-    abstract: 'No abstract available',
-    published: '2025',
-    authors: [ 'Edwards Roger A', 'White Bobbie Ann Adair', 'Findyartini Ardi' ],
-    journal: 'Frontiers in medicine',
-    doi: '10.3389/fmed.2025.1611578',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40463973/'
-  },
-  {
-    id: '40463941',
-    title: 'Evolution of a Training Program for Pediatric Faculty and Trainee Wellbeing.',
-    abstract: 'OBJECTIVES: High rates of distress and burnout continue to plague physicians. The Sustaining and Training for Resilience, Engagement and Meaning (STREAM) curriculum is a Health Resources and Services Administration (HRSA) funded program, developed by experts in faculty and trainee wellbeing from 7 academic institutions, to help address this ongoing and pervasive issue.\n' +
-      "METHODS: We used Kern's 6-step model to develop the STREAM program. STREAM content was developed and iteratively revised to highlight evidence-informed methods to improve wellbeing. STREAM content is grounded in the PERMA-H framework and highlights 4 pillars: Optimizing your Well-Being, Building Resilience, Collaborative Engagement to Improve your Work, and Connecting with Joy and Meaning in Medicine. Within sessions, implementation of skills was discussed at the individual level and within the work environment. This manuscript describes the process of development, implementation, and pilot program evaluation for the STREAM curriculum for the first 2 years.\n" +
-      'RESULTS: Based on review and assessment of year 1, we made multiple revisions of the curriculum. We revised the original four pillars and strengthened connection with the PERMA-H model. We transitioned from synchronous virtual model to in-person sessions to enhance engagement, buy-in, and meaning. We further increased time with interactive elements and limited didactic content. We deepened content related to equity and inclusion. We separated faculty and resident sessions to improve community-building and group dynamics. Additionally, we provided the option for sessions to be delivered "a la carte," depending on the needs of the institution and participants.\n' +
-      'CONCLUSIONS: The STREAM wellbeing curriculum is a promising model to promote positive behavior change in pediatric academic medicine. Curricular activities related to wellness may require adjustment and modifications while in process to improve delivery and participation-and enhance chances of successful education/training. We must continue to build evidence for the effectiveness of STREAM and other wellness interventions.',
-    published: '2025',
-    authors: [
-      'Reed Suzanne',
-      'Young Julie A',
-      'Enciso Josephine',
-      'Omoruyi Emma',
-      'Cramton Rachel',
-      'Hurtubise Larry',
-      'Allison Katherine',
-      'Mahan John'
-    ],
-    journal: 'Journal of medical education and curricular development',
-    doi: '10.1177/23821205251348515',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40463941/'
-  },
-  {
-    id: '40463922',
-    title: 'Performance of ChatGPT on the Plastic Surgery In-Training Examination.',
-    abstract: "BACKGROUND: Recently, the artificial intelligence chatbot Chat Generative Pre-Trained Transformer (ChatGPT) performed well on all United States Medical Licensing Examinations (USMLE), demonstrating a high level of insight into a physician's knowledge base and clinical reasoning ability. This study aims to evaluate the performance of ChatGPT on the American Society of Plastic Surgeons (ASPS) Plastic Surgery In-Training Examination (PSITE) to assess its clinical reasoning and decision-making ability and investigate its legitimacy related to plastic surgery competencies.\n" +
-      'METHODS: PSITE questions from 2015 to 2023 were included in this study. Questions with images, charts, and graphs were excluded. ChatGPT 3.5 was prompted to provide the best single letter answer choice. Performance was analyzed across test years, question area of content, taxonomy, and core competency via chi-square analysis. Multivariable logistic regression was performed to identify predictors of ChatGPT performance.\n' +
-      'RESULTS: In this study, 1850 of 2097 multiple choice questions were included. ChatGPT answered 845 (45.7%) questions correctly, performing the highest on breast/cosmetic topics (49.6%) ( = .070). ChatGPT performed significantly better on questions requiring the lowest level of reasoning (knowledge, 55.1%) compared with more complex questions such as analysis (41.4%) ( = .001). Multivariable analysis identified negative predictors of performance including the hand/lower extremity topic (OR = 0.73,  = .038) and taxonomy levels beyond knowledge ( < .05). Performance on the 2023 exam (53.4%) corresponded to a 4th percentile score when compared with all plastic surgery residents.\n' +
-      "CONCLUSIONS: While ChatGPT's performance has shown promise in other medical domains, our results indicate it may not be a reliable source of information for plastic surgery-related questions or decision-making.",
-    published: '2024',
-    authors: [
-      'Raine Brielle E',
-      'Kozlowski Katherine A',
-      'Fowler Cody C',
-      'Frey Jordan D'
-    ],
-    journal: 'Eplasty',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40463922/'
-  },
-  {
-    id: '40463896',
-    title: 'Associated factors, emergency department visits, and hospitalization days of receiving adjunctive Chinese herbal medicine therapy for patients with non-small cell lung cancer: a nationwide cohort study in Taiwan.',
-    abstract: 'INTRODUCTION: Cancer prevention and treatment, particularly lung cancer, remain major healthcare challenges in Taiwan and globally. This study investigates factors and healthcare utilization patterns associated with adjunctive Chinese herbal medicine (CHM) therapy in non-small cell lung cancer (NSCLC) patients.\n' +
-      "METHODS: Using Taiwan's National Health Insurance Research Database and the Taiwan Cancer Registry, we conducted a retrospective cohort study of non-small cell lung cancer patients diagnosed between 2007 and 2013. Descriptive analysis, propensity score matching, and regression models were employed to assess CHM therapy utilization and its impact on emergency department visits and hospitalization days.\n" +
-      'RESULTS: Among 43,122 non-small cell lung cancer patients, 5.76% received adjunctive CHM therapy, with the majority at stage IV cancer. Factors such as cancer stage, age, gender, marital status, education level, monthly salary, degree of urbanization, severity of comorbidity, comorbid diseases, hospital ownership, experience of using Chinese medicine, chemotherapy status, and years of diagnosis are significantly associated with whether NSCLC patients receive adjunctive CHM therapy. Patients receiving adjunctive CHM therapy for 181-365 days reduced emergency department visits by 16% (OR = 0.84, 95%CI: 0.74-0.95) and shortened hospitalization days by 17% (Ratio = 0.83, 95%CI: 0.75-0.91).\n' +
-      'CONCLUSION: Prolonged adjunctive CHM therapy, particularly for 181-365 days, is associated with decreased healthcare utilization among non-small cell lung cancer patients. These findings suggest a potential role for extended CHM therapy in managing NSCLC and warrant consideration by clinical teams.',
-    published: '2025',
-    authors: [
-      'Tang Meng-Bin',
-      'Kuo Wei-Yin',
-      'Kung Pei-Tseng',
-      'Tsai Wen-Chen'
-    ],
-    journal: 'Frontiers in pharmacology',
-    doi: '10.3389/fphar.2025.1435541',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40463896/'
+    doi: '10.1177/23743735251346633',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40470311/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at TLSSocket.socketErrorListener (node:_http_client:504:5)
-    at TLSSocket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 6)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'kahualike.manoa.hawaii.edu',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.31372/20190403.1059',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/apin/vol4/iss3/2/',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'kahualike.manoa.hawaii.edu',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/apin/vol4/iss3/2/',
-      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: kahualike.manoa.hawaii.edu\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/apin/vol4/iss3/2/',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'kahualike.manoa.hawaii.edu',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'kahualike.manoa.hawaii.edu'
-  }
-}
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -866,6 +978,191 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     code: 'ENOTFOUND',
     syscall: 'getaddrinfo',
     hostname: 'www.ijiim.net'
+  }
+}
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 6)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.31372/20190403.1059',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
@@ -1333,45 +1630,86 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
+Translating paper: Big data in economics...
+Translating paper 2/50
+Translating paper: Learning from Physics Education Research: Lessons ...
+Translating paper 3/50
+Translating paper: Enhancing Economic Literacy through Causal Diagram...
+Translating paper 4/50
+Translating paper: Molecular genetics and mid-career economic mobilit...
+Translating paper 5/50
+Translating paper: Quantifier Elimination for Reasoning in Economics...
+Translating paper 6/50
+Translating paper: A New Index of Human Capital to Predict Economic G...
+Translating paper 7/50
+Translating paper: Teaching Economics with Interactive Browser-Based ...
+Translating paper 8/50
+Translating paper: A physical theory of economic growth...
+Translating paper 9/50
+Translating paper: Applications of a constrained mechanics methodolog...
+Translating paper 10/50
+Translating paper: IP Geolocation Underestimates Regressive Economic ...
+Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 2/40
+Translating paper 12/50
 Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 3/40
+Translating paper 13/50
 Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 4/40
+Translating paper 14/50
 Translating paper: Experience and education...
-Translating paper 5/40
+Translating paper 15/50
 Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 6/40
+Translating paper 16/50
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 7/40
+Translating paper 17/50
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 8/40
+Translating paper 18/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
-Translating paper 9/40
+Translating paper 19/50
 Translating paper: Economics of education...
-Translating paper 10/40
+Translating paper 20/50
 Translating paper: Teaching climate complacency: mainstream economics...
-Translating paper 11/40
+Translating paper 21/50
 Translating paper: How I’m bringing the voices of local fishers into ...
-Translating paper 12/40
+Translating paper 22/50
+Translating paper: Leaf economics of deciduous and evergreen plants: ...
+Translating paper 23/50
+Translating paper: Total reaction time can explain the performance on...
+Translating paper 24/50
+Translating paper: Broad-scale overdose education and naloxone distri...
+Translating paper 25/50
+Translating paper: How confident are the general surgeons in Hokkaido...
+Translating paper 26/50
 Translating paper: Revisiting Watkins’ Black Curriculum Orientations:...
-Translating paper 13/40
+Translating paper 27/50
+Translating paper: Stop ignoring small-scale fisheries in economic mo...
+Translating paper 28/50
 Translating paper: Navigating racism: A scoping review of barriers in...
-Translating paper 14/40
+Translating paper 29/50
 Translating paper: More than movement: a systematic review of moral a...
-Translating paper 15/40
+Translating paper 30/50
 Translating paper: Strengthening the Kindergarten Teacher’s Manual Ba...
-Translating paper 16/40
-Translating paper: An evaluation of programmatic assessment across he...
-Translating paper 17/40
-Translating paper: The role of textbooks in the implementation of cur...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0645455488997735 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"12s"}]
+Translating paper 31/50
+Translating paper: Reasons for Breastfeeding Avoidance: A Multicenter...
+Translating paper 32/50
+Translating paper: Preferences for Nonpharmaceutical Interventions Du...
+Translating paper 33/50
+Translating paper: Formal Education in Life....
+Translating paper 34/50
+Translating paper: Quality of Care and Outcomes of Inpatients with CO...
+Translating paper 35/50
+Translating paper: Lessons Learned About the Education Needs of Kidne...
+Translating paper 36/50
+Translating paper: Osteopathic Manipulative Treatment for Chronic Low...
+Translating paper 37/50
+Translating paper: Effect of Health Education on Nutritional Status o...
+Translating paper 38/50
+Translating paper: Online Educational Intervention on Research Protoc...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1379,87 +1717,54 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
     at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
     at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '12s'
-    }
-  ]
+  status: 500,
+  statusText: 'Internal Server Error',
+  errorDetails: undefined
 }
-Translating paper 18/40
-Translating paper: Students’ acceptance and use of generative AI in p...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1256842013026196 seconds...
-Translating paper 19/40
-Translating paper: Validating ajzen’s theory of planned behavior in S...
-Translating paper 20/40
-Translating paper: Music Education for Autistic Children with Intelle...
-Translating paper 21/40
-Translating paper: Enhancing Neurocognitive Health via Activity, Nutr...
-Translating paper 22/40
-Translating paper: The health economics of insulin therapy: How do we...
-Translating paper 23/40
-Translating paper: Developmental characteristics of orientation and d...
-Translating paper 24/40
-Translating paper: Patient-Centered Care: A Qualitative Analysis of P...
-Translating paper 25/40
-Translating paper: Efficacy of United States' federally-funded interv...
-Translating paper 26/40
-Translating paper: Assessment of health information in Chinese atopic...
-Translating paper 27/40
-Translating paper: Editorial: Innovations in teaching and learning fo...
-Translating paper 28/40
-Translating paper: Evolution of a Training Program for Pediatric Facu...
-Translating paper 29/40
-Translating paper: Performance of ChatGPT on the Plastic Surgery In-T...
-Translating paper 30/40
-Translating paper: Associated factors, emergency department visits, a...
-Translating paper 31/40
+Translating paper 39/50
+Translating paper: Artificial intelligence for predicting 30-day mort...
+Translating paper 40/50
+Translating paper: The Diverse Experiences and Challenges of Individu...
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 32/40
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 33/40
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 34/40
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 35/40
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 36/40
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 37/40
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 38/40
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 39/40
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 40/40
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 40 papers
-Removed duplicates: 130 -> 110
-Total papers after merging: 110 (90 existing + 40 new)
-Saved 110 papers to papers.json
+Translation completed: 50 papers
+Removed duplicates: 160 -> 125
+Total papers after merging: 125 (110 existing + 50 new)
+Saved 125 papers to papers.json
 Generating HTML files...
-Generating index.html with 110 papers...
+Generating index.html with 125 papers...
 Successfully generated index.html
-Generating archive.html with 110 papers...
+Generating archive.html with 125 papers...
 Successfully generated archive.html
-Generating journal.html with 110 papers...
+Generating journal.html with 125 papers...
 Successfully generated journal.html
-Generating acquisition.html with 110 papers...
+Generating acquisition.html with 125 papers...
 Successfully generated acquisition.html
-Generating publication.html with 110 papers...
+Generating publication.html with 125 papers...
 Successfully generated publication.html
-Generating registration.html with 110 papers...
+Generating registration.html with 125 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 110
-New papers processed: 40
+Total papers in database: 125
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-04T15:59:46.132Z
+Timestamp: 2025-06-05T15:41:18.478Z
