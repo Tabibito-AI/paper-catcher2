@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-06T15:09:48.763Z
+Timestamp: 2025-06-07T15:10:02.627Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 125 existing papers from papers.json
+Loaded 145 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,8 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -409,556 +411,348 @@ Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
   {
-    id: '10.1007/s43621-025-01397-1',
-    title: 'Enhancing Sustainable Fintech Education: Investigating the Role of Smartphones in Empowering Economic Development in Jordan',
-    summary: 'This study investigates the transformative role of smartphones in the financial technology (Fintech) industry in Jordan, focusing on how mobile technology enhances financial education and promotes broader adoption of Fintech services. This adoption plays a vital role in advancing specific United Nations Sustainable Development Goals (SDGs), notably SDG 1 (No Poverty), SDG 4 (Quality Education), and SDG 8 (Decent Work and Economic Growth), by fostering financial inclusion, enhancing digital financial literacy, and enabling equitable access to Fintech education through smartphones. Qualitative data was collected via an online survey distributed through social media platforms and emails, allowing for a broad and inclusive reach. The questionnaire targeted the overall public, or mobile phone users in Jordan, with no age restriction, to achieve diverse opinions regarding mobile-based financial literacy and Fintech adoption. One hundred eighty-nine valid responses were obtained, forming the basis for statistical analysis. The study explores the direct correlations between educational initiatives facilitated by smartphones and the subsequent adoption of Fintech services, considering the moderating effects of digital literacy and the regulatory environment. The results show that increased digital literacy enhances the effectiveness of Fintech applications, thus promoting financial inclusivity and literacy. The structural model explains 75.4% of the variance in smartphone usage for financial education (R 2  = 0.754). Hypothesis testing confirms significant positive effects, with Fintech adoption (β = 0.033, p < 0.001), educational outreach (β = 0.040, p < 0.001), and innovation in educational Fintech products (β = 0.043, p < 0.001) associated with increased smartphone usage in education. The study highlights the need for advancements in user-friendly and accessible financial services, underlining the critical role of regulatory frameworks and digital literacy in fostering a secure and inclusive financial ecosystem. These findings are consistent with and support the SDGs, providing individuals with information and tools to maintain long-term financial stability.',
-    published: '2025-06-06',
-    authors: [ 'Alqirem, Raed', 'Al-Smadi, Raed Walid' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Discover Sustainability'
-  },
-  {
-    id: '10.1186/s40814-025-01663-z',
-    title: 'Education and Music Intervention to Reduce Anxiety (EMIRA) in cardiac catheterization: intervention development',
-    summary: 'Background Anxiety related to cardiac catheterization (ARCC) is highly prevalent and most severe in the immediate preoperative period. ARCC is associated with increased myocardial oxygen consumption, blood pressure variability, and increased risk of arrhythmias, leading to higher rates of intraoperative complications and worse physical, emotional, and cognitive functioning. Objective To describe a nurse-led complex intervention (CI) designed to reduce ARCC in adults before a cardiac catheterization (CC). Methods To design the intervention, a concept analysis yielded the identification of ARCC antecedents and attributes, based on which CI components and objectives were determined. For each component, CI procedures, mode of delivery, and dose were established based on empirical evidence. The CI was reported according to the Template for Intervention Description and Replication checklist. Results The Education and Music Intervention to Reduce Anxiety (EMIRA) consists of two components. The educational component provides the essential information regarding CC purpose, catheterization laboratory features, and what to expect before, during, and after the procedure. The musical component provides individuals with a feeling of comfort and relaxation. EMIRA is delivered in one 30-min session using an audiovisual format. EMIRA’s expected primary outcome is a decreased state anxiety level. Additionally, EMIRA might reduce blood pressure, heart and respiratory rates, and chest pain. Conclusions EMIRA is a CI developed with methodological rigor. Future studies should evaluate the acceptability, feasibility, and efficacy of EMIRA.',
-    published: '2025-06-06',
+    id: '10.1007/s10649-025-10389-x',
+    title: 'Mathematics education for sustainable futures: a strengths-based survey of the field to invite further research action',
+    summary: 'In this survey, we introduce and prompt an article collection—"Mathematics Education for Sustainable Futures"—which we are guest editing. The collection will comprise original research articles, written and published over a 2-year period. Recognising the collection title as making reference to what is an emerging area of research, in this introduction, we survey work that has been done. In the spirit of opening and inviting new questions and research directions, we focus on what it means to take mathematics education for sustainable futures seriously, for how we practise and imagine mathematics education, including established topics such as curriculum, knowledge, pedagogy, teacher education, language, modelling, and technology. We structure our review around eight invitations (here arranged into six sections) in the call for collection articles. Each section ends with further invitations for potential authors, or others, wanting to locate and chart their own work in the space. We end drawing out two themes that resonate across the invitations: attention to who and what is marginalised and the importance of a deep reflexivity in our choice/use of concepts. This text is part of the article collection entitled “Mathematics Education for Sustainable Futures” (available at https://link.springer.com/collections/acebaagbha ).',
+    published: '2025-07-01',
     authors: [
-      'Carvalho Batista, Letícia',
-      'Góes Salvetti, Marina',
-      'Cassia Gengo e Silva Butcher, Rita'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Pilot and Feasibility Studies'
-  },
-  {
-    id: '10.1186/s12877-025-06078-2',
-    title: 'Training for dementia care and support in rural and remote Australia: appraisals from a nationwide workforce survey',
-    summary: 'Background Dementia is a growing challenge to health and aged care worldwide and is the leading cause of disease burden in older Australians. High-quality person-centred care of people with dementia and support for their family caregivers require a trained multidisciplinary health and aged care workforce. Compared with major cities in Australia, rural and remote areas encounter greater challenges in workforce recruitment and retention. Moreover, these areas have distinctive distance-related barriers to workforce training and a higher proportion of aged and First Nations people at elevated risk of developing dementia. We designed and distributed a survey to investigate the perspectives on training among rural and remote health and aged care workers providing dementia care in diverse occupations and settings. Methods After piloting, the online survey was promoted to rural and remote organisations and professional networks nationwide. The instrument included multiple-choice and ordered-scale items on respondents’ dementia care self-rating and appraisal of their current workplace dementia care training, as well as items categorising their demographic characteristics, main work role, main workplace setting, and geographical site. Analysis incorporated description of respondent characteristics and estimation along with graphical presentation of response proportions for ordered-scale items, with differences among key respondent subgroups (i.e., workplace setting, remoteness, and main role) investigated using crude and multivariable robust Poisson regression models. Results There were 558 respondents from residential aged care, community/primary care and hospital settings across all Australian states and territories. The majority (61.7%) were from degree-requiring health professional/management positions, and 27.4% were certificate-requiring workers (predominantly personal care assistants and enrolled nurses). A majority considered that the dementia care provided in their current workplace was inadequate overall and specifically in relation to First Nations and culturally and linguistically diverse clients. Respondents noted organisational resource limitations impeding workers’ participation in training, and insufficient opportunities for input into determining priorities for training content and delivery. Hospital/acute care-based workers had the least favourable self-ratings and represented the highest proportion of respondents reporting shortcomings of training. Conclusions Health and aged care workers in rural and remote Australia perceive substantial shortcomings in the dementia care training provided by their workplace.',
-    published: '2025-06-06',
-    authors: [
-      'Woods, John A.',
-      'Valentine, Jessica',
-      'Gusterson, Kira',
-      'Fitzgerald, Kathryn W.',
-      'Fyfe, Katrina P.',
-      'Clarkson Fletcher, Myles',
-      'Hamiduzzaman, Mohammad',
-      'Dettwiller, Pascale',
-      'Fallon, Anthony B.',
-      'Dal Bon, Clare',
-      'Miles, Sarah E.',
-      'Rayner, Jo-Anne W.',
-      'Thompson, Sandra C.'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'BMC Geriatrics'
-  },
-  {
-    id: '10.1007/s42001-025-00394-8',
-    title: 'Use of brain-computer interface in educational paradigm',
-    summary: "Brain-computer interface (BCI) technology has been utilized in research for several decades. Using BCI, a person interacts with their environment by controlling it using their brain signals. Brain signals can also help determine the level of confusion among students. In this study, we discuss using BCI to measure students' concentration levels. Using student data obtained from Kaggle, a publicly accessible data source, we deployed a variety of deep learning and machine learning algorithms that include support vector machines, logistic regression, decision trees, random forests, multi-layer perceptron, deep neural networks, and bidirectional long short-term memory were used in our comparative analysis. We proposed 1D CNN and DNN models in this research study. Although LSTM performs better when time stamps are present in the data, our analysis of the findings revealed that deep neural networks performed better in this case, with an accuracy of 99%. Another 1D CNN model is proposed to compare its performance with the DNN model. We found that the 1DCNN model is more stable than the DNN model but has slightly lower accuracy, i.e., 95%. Additionally, deep learning algorithms typically employ the rectified linear unit (ReLU) to mitigate vanishing gradient issues, resulting in a well-performing model. In contrast, 'RELU' has reversed the findings of BiSTM in this investigation, reducing accuracy from 82 to 67%. We have also conducted numerous experiments to identify the optimal parameter values for deep neural networks (DNNs) that yield the highest accuracy, specifically 99.9%. Therefore, DNN can be utilized in a real-time setting for the development of a confusion detection system, and BCI can be incorporated into the educational paradigm to reap the benefits of technological progress.",
-    published: '2025-06-06',
-    authors: [
-      'Zaib-un-Nisa',
-      'Mazhar, Tehseen',
-      'Shahzad, Tariq',
-      'Ahmad, Wasim',
-      'Hamam, Habib'
-    ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'Journal of Computational Social Science'
-  },
-  {
-    id: '10.1007/s42438-025-00560-1',
-    title: 'Perspectives on AI literacy in Middle School Classrooms: An Integrative Review',
-    summary: 'AI literacy in school education is booming within the scientific discourse of AI in education. How AI literacy is currently being framed serves diverse educational, political, and commercial purposes influencing how we imagine postdigital classrooms today and in the future. More importantly, how AI literacy emerges in primary education notably impacts how children understand AI and their own agency in a society where AI is ubiquitous. This study reviews how scientific literature conceptualises AI literacy, focusing on middle school students. An AI-adapted literacy framework (GeST) is used in the analysis to distinguish three perspectives of AI literacy (Generic, Situated, and Transformative). Forty-four papers from 2016–2024 were included in the final descriptive and qualitative analysis, showing an exponential growth in scientific papers. While still vaguely defined and poorly theorised, AI literacy materialises into different AI curricula and technology-supported teaching activities. The GeST analysis indicates that AI literacy is primarily viewed as a set of measurable skills related to generalisable theoretical knowledge that is expected to make children more competitive in a globalised and technologised world. Although some papers consider empowering students with specific competencies to challenge the AI development, critical considerations of AI in education is less visible. The paper highlights the necessity to steer the conceptualisation of AI literacy to put a stronger emphasis on critical orientations that enable students as well as teachers to examine claims about AI, and pose ethical questions to its adoption and use in classrooms and beyond.',
-    published: '2025-06-06',
-    authors: [
-      'Sperling, Katarina',
-      'Stenliden, Linnéa',
-      'Mannila, Linda',
-      'Hallström, Jonas',
-      'Nordlöf, Charlotta',
-      'Heintz, Fredrik'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Postdigital Science and Education'
-  },
-  {
-    id: '10.1007/s13178-025-01127-2',
-    title: 'Sexuality Education Responding to the Same-Sex Marriage Policy: Attitudes Toward Same-Sex Parenting in a Taiwanese Undergraduate University Course',
-    summary: 'Introduction Research in Taiwan regarding courses promoting equality for same-sex family parenting is critical as Taiwan celebrates one year of legalising adoptions for same-sex couples and universities attempt to implement gender diversity initiatives. The purpose of this study was to examine how university students’ attitudes toward same-sex family parenting changed regarding individual and normative opposition, following a semester course in responding to the same-sex marriage policy. Methods Ninety-eight Taiwanese undergraduate students participated in a contact theory and self-reflection-driven course. They discussed gender equality and same-sex marriage policy, attended the Taipei LGBT + Pride Parade, and made public presentations regarding their reflections. The pre-test was administered in mid-September 2018, and the post-test was administered at the end of December 2018. Results The researchers identified that normative opposition was significantly stronger compared to individual opposition; following the course, both males and females’ individual and normative opposition significantly decreased. Conclusions This research emphasises the need for further development of courses focusing on attitudes toward parenting in same-sex families, to identify a curriculum which decreases stereotypes and develops support. Moreover, it is important to identify where gender and sexual orientation stereotypes overlap as both impact same-sex families. Policy Implications. This study highlights the need for integrating empathy-based gender and sexuality education into university curricula. Policies should support courses that include contact with same-sex families and reflective activities to reduce bias. Institutionalizing such programs can foster inclusive attitudes and strengthen support for same-sex parenting in Taiwan’s evolving social landscape.',
-    published: '2025-06-06',
-    authors: [
-      'Chang, Te-Sheng',
-      'Haynes, Alexander MacDonald',
-      'Kerdsomboon, Chakree'
+      'Makramalla, Mariam',
+      'Coles, Alf',
+      'Roux, Kate',
+      'Wagner, David'
     ],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Sexuality Research and Social Policy'
+    journal: 'Educational Studies in Mathematics'
   },
   {
-    id: '10.1007/s00148-025-01107-1',
-    title: 'What makes a classmate a peer? Examining which peers matter in NYC elementary schools',
-    summary: 'This paper identifies and estimates the effects of student-level social spillovers on standardized test performance in New York City (NYC) elementary schools. We leverage student demographic data to construct within-classroom social networks based on shared student characteristics, such as gender or ethnicity. Rather than aggregate shared characteristics into a single network matrix, we specify additively separate network matrices for each shared characteristic and estimate city-wide peer effects for each one. Our work is based on the common assumption that more shared characteristics between peers imply stronger network connections. We test this hypothesis using a collection of common and novel characteristics, answering which shared characteristics exhibit the strongest peer effects and by how much. Conditional on being in the same classroom, we find that the most influential networks are shared gender and primary language spoken at home. We show that altering classroom composition changes the impact of these networks. Particularly, low linguistic diversity is correlated with low impact for shared language. As the influence of the shared language network declines, the gender network becomes more influential, indicating that these networks are substitutes. We discuss identification of the model and its implications for within- and between-group test performance gaps along several demographic traits.',
-    published: '2025-06-06',
+    id: '10.1186/s13756-025-01585-8',
+    title: 'Virtual reality for education on infection prevention and control: the impact on medical students’ knowledge, attitudes and practices',
+    summary: 'Background This study aims to analyse the impact of a newly developed infection prevention and control (IPC) Virtual Reality (VR)-module on medical students’ IPC knowledge, attitudes and practices. Additionally, the impact of the module on students’ and healthcare professionals’ (HCPs) confidence regarding IPC decision-making and their insight into consequences of IPC decisions were analysed. Methods The IPC VR-module was developed using a cyclical design process consisting of a prototype, first and final version. Knowledge, attitudes and practices (KAP) regarding IPC were compared between two groups of medical students. The VR-module was added to the IPC program for the VR group. After completion of the program, students of both groups were asked to complete an online questionnaire. Scores were summated for each subscale of the KAP, a Mann-Whitney U test was performed to compare scores between groups. Student and HCP responses to VR-specific questions were dichotomized and a chi-square test was used to compare responses to different versions of the module. Results Students who completed the VR-module ( n  = 34) scored higher on IPC knowledge questions (score 8 / 10), than those who followed the regular program ( n  = 58; score 7/10; p  = 0.003). For the final version, the added value of the VR-module in the program was recognized by 95% of students and 90% of HCPs. Students and HCPs who completed the final version of the VR-module agreed more often with learning objectives of the VR-module than those who completed the first version. 100% vs. 80% for the statement on insight into consequences of choices ( p  < 0.001) and 89% vs. 73% for the statement on confidence taking IPC decisions ( p  < 0.001). Conclusions The innovative IPC VR-module positively impacted students IPC knowledge and was highly appreciated by students and HCPs. VR-specific learning objectives were achieved, especially for the final version of the VR-module, demonstrating the importance of a cyclical design process.',
+    published: '2025-06-07',
     authors: [
-      'Horrace, William C.',
-      'Jung, Hyunseok',
-      'Presler, Jonathan L.',
-      'Schwartz, Amy Ellen'
+      'Schippers, Bente',
+      'Coenen, Olga',
+      'Luk, Franka',
+      'Graner, Mark',
+      'Hoek, Frans',
+      'Stikkelbroeck, Nike',
+      'Dronkers, Machteld',
+      'Bowles, Edmée',
+      'Tostmann, Alma'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Antimicrobial Resistance & Infection Control'
+  },
+  {
+    id: '10.1007/s10798-025-10001-6',
+    title: 'Fostering students’ motivation and self-efficacy in science, technology, engineering, and design through design thinking and making in project-based learning: a gender-perspective study in primary education',
+    summary: 'This study examines the impact of integrating Design Thinking and Maker Education into project-based learning (PBL) activities on primary school students’ self-efficacy and motivation in Science, Technology, and Design. Drawing on Bandura’s social cognitive theory, the study addresses the gap in empirical research at the primary education level, particularly concerning gender disparities in STEM engagement. Over a three-year period, 12 public schools in Barcelona ( n  = 318 students in grades 4–6) participated in a five-session workshop where students created technological prototypes using tools like Scratch and Makey Makey. Pre- and post-intervention surveys measured changes in students’ self-efficacy, motivation, and prior behavior. Results revealed significant improvements in students’ self-efficacy, particularly among girls, with moderate to large effect sizes in key items related to confidence and active information-seeking. While most responses indicated high satisfaction, some challenges were noted in early phases of the design process. These findings suggest that early exposure to PBL approaches incorporating Design Thinking and Making can help foster positive attitudes toward STEM and reduce early gender disparities. The study highlights the value of inclusive, hands-on pedagogies and calls for extended interventions and further longitudinal research to assess long-term impact.',
+    published: '2025-06-07',
+    authors: [
+      'Santos, Patricia',
+      'El Aadmi, Khadija',
+      'Calvera-Isabal, Miriam',
+      'Rodríguez, Amaia'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'International Journal of Technology and Design Education'
+  },
+  {
+    id: '10.1186/s12904-025-01795-2',
+    title: 'Enhancing palliative care through university-community partnerships: a systematic review of models, impacts, and challenges',
+    summary: 'Background University-community partnerships (UCPs) represent a transformative model for integrating student experiential learning with community-based palliative care. These partnerships enhance empathy, interdisciplinary collaboration, and service delivery, while addressing gaps in end-of-life care. Aim This systematic review evaluated the effectiveness of UCPs in palliative care, focusing on their impact on student learning, community outcomes, and innovative practices. Methods Following the PRISMA 2020 guidelines, a systematic search was conducted across PubMed, Scopus, Web of Science, and CINAHL databases for studies published between January 2014 and March 2024. This search yielded 206 unique citations. Nine studies were included after the full-text screening. Grey literature sources (e.g., reports and web-based articles) were screened but excluded due to insufficient methodological rigor, and thematic synthesis was conducted using NVivo, with two independent reviewers performing data extraction. The Risk of bias was assessed using the ROBIS (qualitative) and RoB 2 (quantitative) tools. Results Of the 206 records screened, nine studies (eight qualitative and one quantitative) met the inclusion criteria. The identified UCP models include transactional, transformational, and community-based participatory research (CBPR), with CBPR noted for contextual adaptability. UCPs contributed to improving student empathy, interprofessional learning, and community empowerment. Barriers include limited resources, cultural mismatches, and inconsistent stakeholder alignments. Innovations, such as telehealth and virtual learning, were also observed. Conclusion UCPs have strong potential to enhance palliative care education and delivery. Scaling these models requires sustainable funding, culturally responsive approaches, and policy integration. Future research must emphasize longitudinal designs and standardized evaluation structures.',
+    published: '2025-06-07',
+    authors: [ 'Chandak, Alaka', 'Kulkarni, Priyadarshini Bhalchandra' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'BMC Palliative Care'
+  },
+  {
+    id: '10.1007/s00431-025-06223-4',
+    title: 'Developing the Spanish Physical Literacy Assessment for Children (SPLA-C): a delphi-based model for assessing physical literacy in schoolchildren aged 6–12 years',
+    summary: 'There are different recognized assessments of physical literacy (PL), with the Canadian Assessment of Physical Literacy-2 (CAPL-2) being the most widely recognized worldwide. Owing to sociocultural differences, creating a country-specific PL assessment becomes necessary. The aims of this study are 1) to develop an assessment model of the Spanish Physical Literacy Assessment for Children (SPLA-C) for Spanish schoolchildren aged 6–12 years and 2) to identify the assessment weights for each of the SPLA-C components, specifying the optimal tools. A documentary analysis was carried out in which experts were consulted, and the Delphi method was used. Twenty-eight experts took part in the Delphi process, and 23 experts completed all the rounds of the survey. Experts’ opinions are used to develop the assessment model of the SPLA-C and to identify the assessment weights for each component. A general consensus was obtained by the committee of experts for the proposed tools (85.2%). Conclusion :The SPLA-C could be considered a suitable method for assessing PL in Spanish children and adolescents and could be adapted to their educational-curricular and cultural context, after future studies analyze its psychometric properties, including the feasibility, reliability, and validity of each of the proposed instruments. What is Known : • PL supports lifelong physical activity. • No culturally adapted PL assessment exists for Spanish children. What is New : • The SPLA-C is a culturally adapted model for Spanish schoolchildren. • It defines five PL components and provides consensus-based assessment tools.',
+    published: '2025-06-07',
+    authors: [
+      'Pastor-Cisneros, Raquel',
+      'Mendoza-Muñoz, María',
+      'Carlos-Vivas, Jorge',
+      'Adsuar-Sala, José Carmelo',
+      'López-Gil, José Francisco',
+      'SPLA-C expert commitee'
+    ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'European Journal of Pediatrics'
+  },
+  {
+    id: '10.1186/s40991-025-00116-3',
+    title: 'Orchestration of corporate social responsibility in company law – reframing human security through education',
+    summary: 'The objective of this paper is to argue the fundamental significance of education in addressing notable gaps in the constitutive, performance and evaluation criteria for corporate social responsibility (CSR) and endeavours to showcase the complementarity between education, human security, sustainable human development, and the pursuit of CSR as an ideal normative paradigm. An abstractive approach to studying CSR, which is common with some authors engages with corporate philanthropy, which has not been helpful outside traditional CSR paradigms without looking at key dynamics that can robustly underpin successful CSR. The paper explores the systemic nexus between sustainable development as an educational externality when embedded in CSR, climate change and action competence and how it dovetails into ‘education for sustainable development’. Methodologically, this paper doctrinally relies on the systematic analysis of written data sources to theoretically explore the central significance, and complementarity between human security, education, and human dignity and how they can orchestrate a holistic CSR paradigm. In 1994, the United Nations Development Programme (UNDP) in formulating the human security doctrine recognised the syncretic correlation between human security, education, and sustainable human development as fundamental elements that should underpin CSR. This paper contends that these are necessary intrinsic components of human dignity as the central factor that justifies a multi-dimensional and proactive approach to CSR. Despite the criticisms against human security, this paper identifies it as an important concept that could instrumentally orchestrate a model of CSR that uniformly mainstreams sustainable human development and human dignity that leverages education which has routinely and traditionally been seen as a constitutive component of CSR. It reveals how a holistic path to CSR can reinvigorate the central pillars of human security and human dignity using education as a springboard and makes a compelling case for supporting explicit references to education in company law with appropriate human security informed constitutive, performance and evaluation criteria which are absent in existing legally orchestrated CSR.',
+    published: '2025-06-07',
+    authors: [ 'Osuji, Onyeka K.', 'Edeji, Obinna C.' ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Journal of Sustainable Business'
+  },
+  {
+    id: '10.1186/s40723-025-00146-1',
+    title: 'Practices and challenges of implementing early childhood care and education in Bahir Dar city administration, Ethiopia',
+    summary: 'Early childhood care and education (ECCE) is the basis for the enduring instillation of personal habits and societal ideals. Thus, the study aimed to investigate the practice and challenges of implementing ECCE in Bahir Dar city administration, Ethiopia. To this end, a qualitative research approach with a multiple case study design was used. Qualitative data were collected from 40 participants (ECCE teachers, caregivers, unit leaders, school principals, and Bahir Dar city administration education experts). Observation, interviewing, and focus group discussion were used as data collection instruments. As a result, ECCE was poorly implemented. By and large, the finding of this study identified many challenges that inhibit the successful implementation of ECCE, such as lack of teachers and caregivers’ training, poor physical environment, inadequate resources/facilities, inappropriate teacher–student ratio, and unrealistic demands of parents. These hindrances increase learning gaps that widen over time, contributing to higher dropout rates and reduced literacy levels. The study results would have important implications for the advancement of the ECCE program. Additionally, the findings might inform policymakers and educators on areas that require further development or intervention, ultimately contributing to improving of early childhood learning experiences.',
+    published: '2025-06-07',
+    authors: [ 'Wendie, Asmamaw Ashete', 'Berhanu, Kelemu Zelalem' ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'International Journal of Child Care and Education Policy'
+  },
+  {
+    id: '10.1007/s10755-025-09818-9',
+    title: 'Environmental Support or Just Greenwashing? Understanding the Impact of University Sustainability Programs on Students’ Eco-Behaviours in Turkey',
+    summary: 'This study examines the impact of university sustainability programs on students’ eco-behaviours in Turkey, focusing on the roles of perceived institutional support, personal environmental efficacy, and the potential for greenwashing. A total of 485 students from various Turkish universities participated in a quantitative survey which were selected through purposive sampling method. The analysis, conducted using Partial Least Squares Structural Equation Modeling (PLS-SEM), confirmed several hypotheses. The findings indicate that engagement in sustainability programs positively influences students’ eco-behavioural intentions, mediated by both environmental attitudes and personal efficacy. Our findings further revealed the significant impact of perceived institutional support on students’ eco-behavioural intentions, as well as its significant moderating role in the relationship between sustainability program engagement and students’ environmental attitudes. Our study suggests that perceived greenwashing can undermine trust and engagement. The study underscores the importance of transparency, comprehensive sustainability education, and robust institutional support to foster genuine eco-friendly behaviours among students. These insights contribute to enhancing the effectiveness of sustainability initiatives in higher education.',
+    published: '2025-06-07',
+    authors: [ 'Odugbesan, Jamiu Adetola', 'Aghazadeh, Sahar' ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Higher Education'
+  },
+  {
+    id: '10.1007/s13384-025-00852-2',
+    title: 'Teachers and sustainability education: exploring the views of Australian preservice and inservice teachers',
+    summary: 'Sustainability is crucial to the ongoing capability of Earth to sustain life. Although understood in several ways, such as climate change education , education for sustainable development and education for sustainability, international efforts have promoted sustainability as an important focus for education. In Australia, this focus is reflected in sustainability being embedded in the Australian Curriculum. Australian and international researchers have found that teachers generally understand sustainability and are favourably disposed toward it, but implementation remains an issue. This paper reports findings from an online survey administered to Australian preservice and in-service teachers. Echoing previous research with teachers, participants in this study had a positive attitude towards sustainability but lacked key knowledge and confidence to teach appropriate sustainability ideas within the Australian Curriculum. As such, the implementation of the sustainability cross-curriculum priority area seems inconsistent and there is a need to support teachers through curriculum resources, professional development, and ongoing mentoring.',
+    published: '2025-06-07',
+    authors: [
+      'Albion, Peter',
+      'Redmond, Petrea',
+      'Gharineiat, Zahra',
+      'Feldman, Jessica',
+      'Shelley, Tristan',
+      'Helwig, Andreas',
+      'Burey, Paulomi Polly'
     ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Journal of Population Economics'
+    journal: 'The Australian Educational Researcher'
   },
   {
-    id: '10.1007/s11165-025-10268-8',
-    title: 'What’s so Wrong with Personification? Toward a Theory of Personhood in Science Education',
-    summary: 'In this article, we revisit the contentious history of personification to explore its potential for shifting the aesthetics of science education. We argue that personification can act as a boundary object to open up new aesthetic possibilities for science and education, toward an aesthetics of personhood. Drawing on philosophy, Indigenous knowledge systems, feminist science studies, and emerging scientific fields, we propose a relational notion of personhood for science education that is inclusive of human and more-than-human beings. We position relational personhood in science education as an aesthetic shift that can reconfigure what is possible, visible, and say-able in science education, ultimately contributing to a science education that is ‘fit for the future’ and respons-able to the challenges of the Anthropocene.',
-    published: '2025-06-06',
-    authors: [
-      'Tolbert, Sara',
-      'Cowie, Bronwen',
-      'Hipkins, Rose',
-      'Waiti, Pauline'
-    ],
+    id: '10.1007/s11165-025-10267-9',
+    title: 'EcoHealth as a Curriculum Aim in Science Education',
+    summary: 'School science education needs to change its aims, content and pedagogies if it is to prepare students for the challenges of the Anthropocene. Climate change is the single biggest health threat facing people and other organisms. We argue for embedding EcoHealth as a curriculum aim within school science, as well as other subjects. Findings from a study undertaken in Egypt are presented, where a critical realist approach was employed, in part because of critical realism’s distinction between reality and our knowledge of reality, and in part because of its treatment of absence. A documentary analysis of the Egyptian school curriculum was conducted to examine how climate change and its health impacts are dealt with and 34 secondary students and seven teachers were interviewed across seven schools to explore their understandings of climate change and its health effects. The analysis shows stark absences in teaching and learning about climate change in Egyptian schools and little understanding or recognition of its health impacts. The findings are used to argue for a Vision III science education for climate change education in the face of environmental decline and future uncertainties. Limitations of the study include a relatively small sample size for the number of interviews undertaken, limited time to collect data due to bureaucratic delays in issuing official permissions to access schools and a paucity of existing research on this topic in Egypt. Future research could determine how the Egyptian curriculum and classroom practices are addressing the worsening climate emergency.',
+    published: '2025-06-07',
+    authors: [ 'Khazem, Dima', 'Reiss, Michael J.' ],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Research in Science Education'
-  },
-  {
-    id: '10.1007/s44217-025-00581-9',
-    title: 'NgodingSeru.com: an adaptive e-learning system with gamification to enhance programming problem-solving skills for vocational high school students',
-    summary: 'This study investigates the integration of adaptive e-learning and gamification through a platform called NgodingSeru.com to improve problem-solving skills in programming among vocational high school students. The adaptive system offers personalized learning by adjusting task difficulty to student’s proficiency levels, while gamification elements such as missions, points, rankings, and rewards aim to sustain student engagement. A mixed-methods design was applied using an explanatory sequential approach, combining quantitative and qualitative data. Quantitative findings show a statistically significant improvement in student’s problem-solving performance, with average scores increasing from 61.7 to 74.2—an improvement of approximately 20.2%. The effect size was large, with a Cohen’s d of 0.90, indicating a substantial practical impact of the adaptive gamification-based e-learning system. The qualitative phase revealed that students perceived the system as motivating, enjoyable, and supportive of their learning needs. Key gamification features and adaptive feedback mechanisms contributed significantly to student’s engagement and persistence in completing programming challenges. In particular, case-based challenges and logic-based problems effectively strengthen student’s analytical thinking and the application of programming concepts. These results highlight the effectiveness of integrating adaptive and gamified learning environments in fostering essential problem-solving skills in programming education.',
-    published: '2025-06-06',
-    authors: [
-      'Maryono, Dwi',
-      'Sajidan',
-      'Akhyar, Muhammad',
-      'Sarwanto',
-      'Wicaksono, Bayu Tri',
-      'Prakisya, Nurcahya Pradana Taufik'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Discover Education'
-  },
-  {
-    id: '10.1038/s41598-025-03734-w',
-    title: 'The effect of educational intervention based on the health action model on safe use of pesticides in Iranian farmers',
-    summary: 'The health risks associated with excessive pesticide use have adversely affected agricultural products and human health, raising global concerns about the safety of consumers and agricultural workers. Therefore, this study aimed to investigate the impact of an educational intervention based on the health action model (HAM) on summer workers’ safety behaviors regarding pesticide use. The present quasi-experimental study involved an experiment and a control group. A multi-stage random cluster sampling method was employed to select 100 farms from a total of 1000 summer vegetable farms in Mashhad through a simple randomization process. Then, 300 eligible workers were selected and allocated into an experimental group and a control group. The educational intervention consisted of two focus group discussion sessions and eight training sessions making educational training based on the HAM. Data analysis was conducted using SPSS 16, and tests were chosen based on the distribution of variables. Both parametric and equivalent non-parametric tests were applied at a significance level of 0.05. Following the intervention, the mean scores of all constructs in the experimental group improved significantly, with the exception of the normative system. The educational intervention-based HAM had a significant effect ( p  < 0.05) on safety behavior outcomes and all knowledge-related dimensions (safe place and pesticide use, personal safety during spraying, personal safety after spraying, pesticide side effects) in the intervention group compared with the control group after the intervention, and in their change from baseline to follow-up in all scores. The mean score of safety behavior in the pre-intervention increased from 5.2 ± 1.27 to 8.1 ± 0.82 in the follow-up. However, no statistically significant difference was found in the control group. The educational program based on HAM and knowledge-related dimensions significantly improved safety behaviors among farmers and agricultural workers regarding pesticide use. This study emphasizes the need for implementing theory based- educational programs for diverse agricultural workers to enhance safety practices and reduce health risks associated with pesticide exposure.',
-    published: '2025-06-06',
-    authors: [
-      'Nasrabadi, Maryam',
-      'Gholian Aval, Mahdi',
-      'Tajfard, Mohammad',
-      'Peyman, Nooshin',
-      'Tavakoly Sany, Seyedeh Belin',
-      'Khodadadi, Najmeh'
-    ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Scientific Reports'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40476273',
-    title: 'Mapping shifts in employment patterns in the Northern Gulf of Mexico due to sea-level rise.',
-    abstract: 'This paper investigates the far-reaching effects of climate change on coastal communities, focusing on sea-level rise (SLR) and its impact on housing stability and employment across diverse sectors and geographical areas. We examine the repercussions of varying SLR scenarios on the population and employment associated with various economic sectors in the Northern Gulf of Mexico (Gulf), a topic on which there are notable gaps in the literature. Our analysis predicts that 2.3% of current employees will become vulnerable by 2100 to SLR alone, increasing to 4% when coupled with a category 1 hurricane and 18% with a category 5 hurricane, assuming no adaptation measures. If urbanization, employment growth, and housing choices-driven by proximity to workplaces-remain unchanged, these percentages will be 8, 11, and 34% for projected employees. Industries such as construction, health care, and accommodation and food services are particularly at risk due to SLR alone along the Northern Gulf Coast. The threat extends to other sectors like retail trade, transportation, and education across Texas, Louisiana, Mississippi, and Florida, especially under category 5 hurricanes. Many employees in these sectors currently reside near shorelines, suggesting significant workforce relocation will be required. Vulnerability to economic losses will rise among individuals aged 30 to 54, with nearly half of at-risk projected employees belonging to higher earning groups. While these individuals may have resources to manage relocation, remaining elements of the population are socially vulnerable due to limited financial means and alternatives, highlighting the need for targeted support and equitable risk mitigation.',
-    published: '2025-Jun',
+    id: '40479578',
+    title: 'Using the hierarchy of intervention effectiveness to improve the quality of recommendations developed during critical patient safety incident reviews.',
+    abstract: 'Our Canadian multi-site academic health sciences centre uses a standardized process to review critical patient safety incidents and develop recommendations to prevent incident reoccurrence. We recognized an opportunity to enhance recommendation development by integrating the Hierarchy of Intervention Effectiveness (HIE), a human factors framework, into the incident review process. This project aimed to increase the proportion of system-focused recommendations from critical incident reviews from 16 to 30% over 16 months. A multi-intervention strategy included (1) standardizing the incident analysis review template; (2) earmarking time for recommendation development during reviews; (3) providing participants with just-in-time education and tools; and (4) initiating HIE-based recommendation classification during incident reviews. Statistical process control p-Chart analysis showed an increase in system-focused recommendations from 16 to 30% over 16 months. The HIE promotes system-level change to prevent critical incidents, which other organizations may benefit from incorporating in their patient safety reviews.',
+    published: '2025-Jun-06',
     authors: [
-      'Abdelhafez Mohamed A',
-      'Mahmoud Hussam N',
-      'Ellingwood Bruce R'
+      'Lan Melissa F',
+      'Weatherby Hilary',
+      'Chimonides Elisa',
+      'Chartier Lucas B',
+      'Pozzobon Laura D'
     ],
-    journal: 'PNAS nexus',
-    doi: '10.1093/pnasnexus/pgaf165',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476273/'
+    journal: 'Healthcare management forum',
+    doi: '10.1177/08404704251343260',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479578/'
   },
   {
-    id: '40476270',
-    title: 'Harnessing Advanced Imaging Technologies in Robotic Urological Surgery Requires Specialized and Structured Training.',
-    abstract: 'UNLABELLED: In recent years, the integration of advanced technologies in surgery has transformed health care, with urology consistently pioneering these innovations. Unlike the structured drug development process, surgical advancements follow a distinct pathway, exemplified by the Innovation, Development, Exploration, Assessment, and Long-term follow-up (IDEAL) framework, which supports safe, evidence-based innovation. Complementary technologies, including three-dimensional (3D) models and augmented reality (AR), have emerged as transformative tools in robotic urological surgery, particularly for complex cases. These technologies enhance surgical planning, intraoperative navigation, and postoperative outcomes, especially in kidney and prostate cancer surgeries. Despite growing adoption, structured training programs tailored to 3D and AR applications remain underdeveloped. To address this gap, we conducted an online survey of participants from the 12th Techno Urology Meeting (2024) to evaluate the current use and training needs for these technologies. Among 126 respondents, the majority utilized 3D models (64.5%) and AR (40.3%) in clinical practice, highlighting their role in robotic partial nephrectomy and radical prostatectomy. Respondents overwhelmingly emphasized the need for dedicated multidisciplinary courses with hands-on training and proficiency-based progression methodologies. This study underscores the necessity of structured, technology-specific training to maximize the potential of 3D models and AR in robotic urology, offering critical insights for advancing surgical education and improving patient care outcomes.\n' +
-      'PATIENT SUMMARY: This study highlights the increasing integration of advanced technologies such as three-dimensional models and augmented reality in urological surgery, and emphasizes the growing demand for proper training to maximize their potential. While demonstration of their direct impact on surgical precision and outcomes would require a different study design, this analysis primarily underscores the need to establish comprehensive training programs to ensure safer and more effective care for patients.',
-    published: '2025-Jun',
+    id: '40479547',
+    title: '"Modeling the Behaviors and the Interactions That We Value": Critical Care Attending Physician Perspectives on Interprofessional Teaching in Graduate Medical Education.',
+    abstract: ' Interprofessional teaching (IPT) has the potential to promote teamwork and collaborative patient care, but few studies have explored physician attitudes about the role of nonphysician clinical teachers in graduate medical education.  This study aimed to elucidate critical care attending physician perspectives about the role of nurses, pharmacists, and respiratory therapists in teaching medical residents.  Using a concurrent mixed methods approach, surveys and focus groups were administered to attendings in an urban tertiary academic medical center. Survey data were analyzed with descriptive statistics; focus group data were analyzed using the Framework method of content analysis.  Of attendings surveyed, 23/26 (88%) responded. Attendings reported positive attitudes about IPT; highly cited benefits included capitalizing on the unique expertise held by interprofessional providers (21/22, 95%), modeling respectful interprofessional relationships (21/22, 95%), and promoting collaborative patient care (20/22, 91%). Ten attendings participated in focus groups. Qualitative analysis revealed four major themes: overall low rates of IPT that vary by profession, potential role of attending as facilitator of IPT, multiple interpersonal and environmental characteristics that influence IPT, and impacts of IPT on education, patient care, and teamwork.  Study results suggest that attending physicians are enthusiastic about the concept of IPT and their potential role in its promotion.',
+    published: '2025-Jun-06',
     authors: [
-      'Checcucci Enrico',
-      'Puliatti Stefano',
-      'Volpi Gabriele',
-      'Bignante Gabriele',
-      'Porpiglia Francesco',
-      'Campi Riccardo',
-      'Amparore Daniele'
+      'Anandaiah Asha M',
+      'Petri Camille R',
+      'Beltran Christine P',
+      'Sullivan Amy M'
     ],
-    journal: 'European urology open science',
-    doi: '10.1016/j.euros.2025.04.006',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476270/'
+    journal: 'ATS scholar',
+    doi: '10.34197/ats-scholar.2024-0134OC',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479547/'
   },
   {
-    id: '40476186',
-    title: 'Safeguarding athletes and anti-doping: applying theories of vulnerability.',
-    abstract: "'Safeguarding' in sport has been a fast-growing movement, particularly in the past decade, which currently encompasses a field of study and a policy development strategy. Although it is greatly needed in all sectors of sport, the concept and application of safeguarding to anti-doping has been underexplored and under theorized. In this article, utilizing the method of critical philosophical and ethical analysis, we attempt to provide evidence regarding why the intersection between safeguarding and anti-doping is very important and requires critical analysis; moreover, we suggest that feminist bioethics reflections on vulnerability can offer unique insights into key issues related to safeguarding in sport, such as the autonomy of athletes and the concept of 'protected persons' and, most pertinent to this research, to the concepts of athlete vulnerability and anti-doping in sport. We explore the concept of vulnerability within the context of doping and anti-doping. We examine the etymology of vulnerability, discuss contemporary theories, particularly those based on biomedical ethics and feminist theories, and apply these ideas to context of anti-doping in sport. We also address the concept of safeguarding in sport, focusing on its current definitions and applications and identify gaps in the literature where doping is not yet considered a safeguarding issue. Through discussion, we link the concept of vulnerability with safeguarding by analyzing specific anti-doping cases where athlete vulnerability can, and has, resulted in significant harm to athletes' integrity and wellbeing. These cases are from situations with minors, and they serve as a platform to put forward an integrated approach for policy development that draws on feminist theories of vulnerability, safeguarding, and biomedical ethics principles. In the results presented in the summary and conclusions, we discuss how insights from feminist theories and biomedical ethics can contribute to more effective safeguarding policies, emphasizing the importance of prevention and education rather than just the current kind of safeguarding measures that are predominantly punitive. We conclude by advocating for the urgent implementation of comprehensive safeguarding measures that address the vulnerabilities associated with anti-doping amongst athletes at all levels. This approach should prioritize prevention, fostering a balanced system that emphasizes education and awareness; where education is not just solely related to individual agency and educating athletes, but also about educating all of the anti-doping movement stakeholders to understand the particular role they play in the circumstances that increase vulnerability so that the risks can be mitigated structurally as well. To achieve this end, it is essential to develop educational programs that not only inform athletes about the risks and consequences of doping, but also empowers them with knowledge about their rights and responsibilities within the sporting community and the responsibilities of other stakeholders within the anti-doing movement. These safeguarding programs should be designed not only to promote resilience against external pressures, but, in particular, to reduce vulnerability that is created structurally more broadly speaking in the anti-doping context.",
-    published: '2025',
-    authors: [
-      'Schneider Angela J',
-      'Morales Páez Nelson',
-      'Lezama Ramírez Yaneí',
-      'Butcher Loughran'
-    ],
-    journal: 'Frontiers in sports and active living',
-    doi: '10.3389/fspor.2025.1512541',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476186/'
+    id: '40479545',
+    title: "Don't Fear AI Replacing You as a Dentist-Yet.",
+    abstract: "The dental profession has evolved rapidly in recent years-from digital imaging and CAD/CAM restorations to the integration of artificial intelligence (AI) in diagnostics and treatment planning. Understandably, many dentists wonder whether AI could soon render years of education, experience, and skill obsolete. The good news? You don't need to fear redundancy-at least not yet. Here's why.",
+    published: '2025-May',
+    authors: [ 'Walther Cornelia C' ],
+    journal: 'Compendium of continuing education in dentistry (Jamesburg, N.J. : 1995)',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479545/'
   },
   {
-    id: '40476167',
-    title: "Determinants of Educational Technology Acceptance: Medical Teachers' Perception.",
-    abstract: 'BACKGROUND: Educational technology is becoming an additional tool for interaction between students and teachers, along with traditional systems, in developing and improving the quality of education. The activities of faculty members have a direct impact on the overall quality of the educational process. Therefore, this study aimed to determine factors affecting educational technology adoption in the medical education context.\n' +
-      "METHODS: A sequential qualitative-quantitative mixed-method approach was used for this research. Firstly, a scoping literature review on related studies was conducted to extract involved factors in the adaption of educational technology. Next, using the three-round Fuzzy Delphi method, experts' perspectives about these factors were obtained. The Fuzzy Decision-Making Trial and Evaluation Laboratory (F. DEMATEL) was applied to investigate the relationships among these factors, and the Analytic Network Process (ANP) method was used to rank them.\n" +
-      'RESULTS: Conducting the scoping review resulted in extracting the factors affecting educational technology adoption in education, which were organized into nine indicators and four categories, including perceived usefulness, improved performance, social benefit, and facilitating processes through a three-round Delphi. The weights of these indicators were determined in the third and fourth steps of the study.\n' +
-      'CONCLUSION: The findings of this study determined the most important factors affecting the acceptance of educational technologies, showed their relationship, and prioritized them. These findings can be used to integrate technology into the educational environment effectively. Investigating other factors according to the level of majors at the universities is recommended for future studies.',
-    published: '2024',
-    authors: [
-      'Khamesi Monirsadat',
-      'Mojtahedzadeh Rita',
-      'Bayazidi Snor',
-      'Mohammadi Aeen'
-    ],
-    journal: 'Medical journal of the Islamic Republic of Iran',
-    doi: '10.47176/mjiri.38.148',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476167/'
-  },
-  {
-    id: '40476163',
-    title: 'Analysis of Birth Growth: Using a Mixture Cure Frailty Model.',
-    abstract: 'BACKGROUND: The birth rate is important in population growth. Concerns are growing over declining birth rates in Iran, as a developing country in the past decade. The present study aimed to examine population growth in Hamadan and the factors influencing the birth rate.\n' +
-      'METHODS: This retrospective cohort study utilized data from 633 families with their first child in 2012 in Hamadan-information updated in 2022. The Kaplan-Meier plateau indicates a curing pattern; therefore, a mixture cure frailty model was employed to estimate the probability and hazard rate of having different numbers of children. This model comprises 2 components: the first estimates the probability of birth (or nonbirth, indicating cure), while the second component calculates the birth hazard rate for having different number of children.\n' +
-      'RESULTS: Mothers with high school diploma (odds ratio [OR], 0.049;  = 0.004) and under diploma (OR, 0.449;  < 0.001) education levels and fathers with under diploma (OR, 0.802;  = 0.021) education levels were linked to a lower risk of birth and a higher chance of a cure. Moreover, high school diploma (hazard ratio [HR] = 0.668;  < 0.001) and under diploma (HR = 0.821;  < 0.001) education levels in mothers significantly decreased the birth hazard rate. The shape parameter in the hazard function (μ = 0.933; SE = 0.049) indicates that the hazard rate of birth was decreasing during the follow-up time.\n' +
-      "CONCLUSION: The study found that the mixture cure frailty model was effective in analyzing birth rates, with couples showing a decreased inclination to have more than 2 children. One contributing factor to this trend is the mothers' education and employment.",
-    published: '2024',
-    authors: [
-      'Naderi Azadeh',
-      'Najafimehr Hadis',
-      'Azam Kamal',
-      'Rahimi Foroushani Abbas',
-      'Moghadas Jafari Ali',
-      'Ibrahim Gubari Mohammed',
-      'Sadeghi Hende',
-      'Hosseini Mostafa',
-      'Yaseri Mehdi'
-    ],
-    journal: 'Medical journal of the Islamic Republic of Iran',
-    doi: '10.47176/mjiri.38.142',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476163/'
-  },
-  {
-    id: '40476113',
-    title: 'Performance of ChatGPT-3.5 and ChatGPT-4 in Solving Questions Based on Core Concepts in Cardiovascular Physiology.',
-    abstract: "Background Medical students often struggle to apply previously learned concepts to new situations, such as cardiovascular physiology. ChatGPT, an AI chatbot trained through deep learning, can analyze basic problems and produce human-like language in various subjects. Multiple-choice questions (MCQs) are given to students by many medical schools before exams, but due to time constraints, instructors frequently lack the resources necessary to adequately explain the practice questions. Even when given, the explanations might not give students sufficient information to grasp the concepts completely. This study aimed to examine ChatGPT's ability to solve various reasoning problems based on the core concepts of cardiovascular physiology. Materials and methods Multiple-choice questions were presented manually to both chatbots (ChatGPT-4 and ChatGPT-3.5), and the answers generated were compared with the faculty-led answer key using various statistical tests. Results The accuracy rates of ChatGPT-4 and ChatGPT-3.5 were 83.33% and 60%, respectively, which were statistically significant. Compared to ChatGPT-3.5, ChatGPT-4's explanation of the response was substantially more appropriate. The execution of ChatGPT-4 was better than ChatGPT-3.5 in certain core concept areas like mass balance (75% vs. 50%), scientific reasoning (60% vs. 40%), and homeostasis (100% vs. 66.67%). Conclusion When it came to responding to concept-based questions about cardiovascular physiology, ChatGPT-4 outperformed ChatGPT-3.5. However, to ensure accuracy, faculty members should review the generated explanations, and thus, the growing application of generative AI in the form of virtual-assisted learning approaches in medical education needs to be carefully considered.",
+    id: '40479539',
+    title: 'The Integration of Artificial Intelligence and Augmented Reality in Dental Education: Current Applications and Future Potential.',
+    abstract: 'The integration of artificial intelligence (AI) and augmented reality (AR) in dental education is transforming how students acquire and refine clinical skills. This article explores current applications and the future potential of AI and AR in dental training. AI, defined as the simulation of human cognitive functions by machines, enhances diagnostics, treatment planning, patient management, and educational tools through subfields like machine learning, artificial neural networks, computational vision, robotics, and speech processing. These technologies enable personalized learning, can improve diagnostic accuracy, and streamline administrative tasks. AR, which overlays digital information onto real-world components, provides immersive and interactive learning experiences. In dental education, AR-based simulations enable risk-free environments for skill development, allowing students to practice procedures on virtual patients with real-time feedback. Applications of AR include simulation and training, patient education, endodontics, implantology, and local anesthetic training. These tools help enhance spatial understanding, reduce learning curves, and facilitate standardized training across institutions. Despite challenges such as high implementation costs and the need for faculty training, the potential benefits of AI and AR in dental education are significant. As these technologies continue to evolve, they promise to transform dental curricula, improve educational outcomes, and, ultimately, enhance patient care.',
     published: '2025-May',
     authors: [
-      'Banerjee Arijita',
-      'Chatterjee Mandrita',
-      'Goyal Kavita',
-      'Sarangi Pradosh Kumar'
+      'Perry Ronald',
+      'Singh Gursharanjit',
+      'Dame Anthony',
+      'Mohamed Samar A',
+      'Idiculla Angel Mary',
+      'Garg Ripple'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.83552',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476113/'
+    journal: 'Compendium of continuing education in dentistry (Jamesburg, N.J. : 1995)',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479539/'
   },
   {
-    id: '40476111',
-    title: 'The Burden of Dental Infections Among Hospitalized Patients With Rheumatoid Arthritis: A Cross-Sectional Analysis of the National Inpatient Sample Database.',
-    abstract: "Background Oral infections such as cellulitis and abscesses of the oral cavity present significant public health burdens, particularly when they result in hospitalization. Rheumatoid arthritis (RA) is a systemic autoimmune condition that presents with chronic inflammation and has been linked to poor oral health outcomes. The immunological pathway that RA shares with periodontal diseases explains its impact on oral health outcomes. This study investigates the association between RA and oral infection-related hospitalizations among U.S. adults, utilizing data from the Healthcare Cost and Utilization Project's (HCUP) National Inpatient Sample (NIS) from 2016 to 2022. Methods A cross-sectional, retrospective analysis was conducted on 14,975,196 adult inpatient records. This sample size was derived after filtering the total number of hospitalizations between 2016 and 2022 in the NIS dataset to include only adults (>18 years) with complete data for all the variables used in this analysis. The outcome variable was hospitalization for cellulitis or abscess of the mouth (CELL), identified using ICD-10-CM codes. The primary predictor was a diagnosis of RA. Covariates included age group, sex, race, length of hospital stays (LOS), smoking status (SMK), and the presence of systemic lupus erythematosus (SLE). Descriptive statistics, bivariate chi-square tests, and multivariate logistic regression were used to assess associations. Odds ratios (ORs) and 95% confidence intervals (CIs) were reported. Results Descriptive analysis indicated that only 10,710 (0.07%) of the total sample experienced oral infection-related hospitalizations. RA was present in 281,142 (1.88%) of patients. In bivariate analysis, RA was not significantly associated with CELL (p = 0.4306). However, when looking at multiple factors together, it was found that patients with RA were 40% more likely to be hospitalized for oral infections compared to those without RA. Other significant predictors included male sex (OR = 1.79), Black race (OR = 1.23), smoking (OR = 1.33), and longer LOS (OR = 1.44). Age was inversely related to oral infection risk, with patients aged 65 and older showing a 75% lower risk (OR = 0.25) compared to the 18-34-year-old reference group. Conclusion We found an independent link between RA and a higher likelihood of hospitalization for dental infections. This finding brings to light just how complex oral health disparities are driven not just by inflammation but also by factors like age, race, and health behaviors. These findings make a strong case for incorporating dental assessments into the routine care of RA patients and speak to the importance of focused prevention efforts. Future longitudinal research is recommended to establish causal relationships and to see how much of a difference approaches to collaborative care can make in cutting down hospitalizations related to oral infections.",
-    published: '2025-May',
+    id: '40479522',
+    title: 'Training Toward Health Justice: A Review of Community-Engaged Training in Primary Care Residency Programs in the United States.',
+    abstract: 'PURPOSE: A community-engaged approach to medicine, particularly primary care, is effective for health promotion. There is, however, limited evidence and no consensus on best training practices to ensure that physicians are trained adequately to practice community-engaged medicine. To define and determine how to fill this gap, the authors conducted a systematic review of literature on community-engaged activities in primary care resident training programs. The study sought to evaluate the quality of studied interventions and assess future research needs.\n' +
+      'METHOD: For this systematic review, the study team searched PubMed, MEDLINE, and PsycINFO using key search terms related to graduate medical education, community engagement activities, and potential outcomes. The team selected and reviewed all English-language articles published through December 2024 that described interventions in which primary care residents participated in activities that occurred in community-based settings. The team analyzed studies with quantitative and qualitative results. They assessed study quality using the Medical Education Research Study Quality Instrument (MERSQI) and assessed the quality of the community-engaged educational activity using a novel instrument called the Medical Education Engagement Quality Index (MEEQI).\n' +
+      'RESULTS: The study team identified and reviewed the full texts of 29 articles (10 quantitative, 10 qualitative, and 9 quantitative and qualitative articles). Interventions included community engagement activities with varied settings, study length, and learning objectives. Outcomes included a change in attitudes, knowledge, skills, and career choices. The mean MERSQI score was 9.0 (range, 5.5-11.5), and the mean MEEQI score was 6.2 (range, 4.0-10.0).\n' +
+      "CONCLUSIONS: The authors' findings revealed limited quality and substantial variability of the current literature. Future research should use more rigorous evaluation methods to determine which community-engaged curricular components can most effectively provide primary care resident physicians with the skills needed to provide high-quality primary care, particularly for vulnerable populations.",
+    published: '2025-Jun-06',
     authors: [
-      'Noah Gideon U',
-      'Ikwuka Obinna V',
-      'Nwadije Johncross C',
-      'Ogunmefun Memunat Y',
-      'Udeozor Ebube I',
-      'Unachukwu Vivian',
-      'Magacha Hezborn M'
+      'Klusaritz Heather A',
+      'Johnson Kara',
+      'Igarabuza Laura',
+      'Nguyen Giang T',
+      'Harmon Elizabeth',
+      'Bozzi Michael',
+      'Cronholm Peter F'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.83568',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476111/'
+    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
+    doi: '10.1097/ACM.0000000000006123',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479522/'
   },
   {
-    id: '40476038',
-    title: 'Volcanic eruptions and the global subsea telecommunications network.',
-    abstract: "UNLABELLED: When the first transoceanic telegraph cables were laid in the mid-1800s, rapid communication between continents became possible. The advent of fibre-optic submarine cables in the 1990s catalyzed a global digital revolution. Today, a network of > 1.7 million kilometres of fibre-optic cables crosses the oceans, carrying more than 99% of all digital data traffic worldwide and trillions of dollars in financial transactions. These arteries of the global internet underpin many aspects of our daily lives, and are particularly important for remote island communities that rely on submarine cables for telemedicine, e-commerce, and online education. However, these same remote communities are often in seismically and volcanically active regions and can be prone to natural hazards that threaten their critical subsea communication infrastructure. This vulnerability was acutely exposed in January 2022, when the collapse of the eruption plume of Hunga Volcano triggered fast-moving density currents that damaged Tonga's only international submarine cable, cutting off an entire nation from global communications in the midst of a volcanic crisis. Here, we present a new comprehensive analysis of damage to subsea communications cables by volcanic events from around the world, and document their diverse impacts. Examples include (i) severing of the telegraph cable crossing the Sunda Strait by a tsunami triggered by the 1883 Krakatau eruption, Indonesia; (ii) ocean-entering pyroclastic density currents, lahars, and landslides during the 1902 eruptions of Mount Pelée, Martinique, that damaged six telegraph cables; (iii) destruction of a cable landing station on Montserrat by a pyroclastic density current in 1997; (iv) submarine slope failure at Kick 'em Jenny, Grenada, that damaged two fibre-optic cables; (v) complete loss of the telecommunications network due to power outages following the 2000 eruption of Miyake-jima, Japan; and (vi) disruption to subsea cables resulting from the 2021 eruption of La Soufrière, St. Vincent. We find that the causes of damage typically relate to secondary hazards that occur not only at the same time as the eruption climax, but also some time after. There does not appear to be an explosivity intensity threshold for cable-damaging events; however, the extent of damage may be related to the original volcano morphology (e.g. steep slopes), spatial location (e.g. near the coast or partially/totally submerged), the eruption size or explosivity, and/or volcanic depositional processes involved. Based on these diverse case studies, we present lessons learned for enhancing telecommunications resilience, and discuss how subsea cables themselves can be used as sensors to improve understanding and early warning of volcanic hazards, potentially filling a monitoring gap for remote island communities.\n" +
-      'SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s00445-025-01832-1.',
+    id: '40479517',
+    title: 'Preparing Medical Students and Physicians to Cope With Their Medical Errors: A Scoping Review.',
+    abstract: 'PURPOSE: Many clinicians will experience feeling responsible for inadvertently harming a patient through medical error. These situations can be distressing, difficult to navigate, and career altering. In addition to aftermath support, there is a recognized need for preemptive education to better prepare clinicians to cope after such events. Little published guidance exists about how best to do this. This scoping review explores the current knowledge about educational programs and strategies to prepare medical students and physicians to cope effectively with their own medical errors.\n' +
+      'METHOD: Three online databases, MEDLINE, PsycINFO, and Scopus, were searched on January 3, 2025, for articles published from database inception to the search date that described programs designed to prepare medical students and/or physicians to cope better with personal involvement in patient harm from medical error. Eligibility screening and data recording were independently performed by 2 reviewers. Simple data were summarized and common pedagogical strategies were identified by inductive thematic analysis.\n' +
+      "RESULTS: The search yielded 5,359 unique articles for screening, of which 97 full-text articles were retrieved. Twelve articles met the eligibility criteria. The study interventions vary in structure and delivery methods but share similar rationale, key messages, and pedagogical strategies. Dominant pedagogical strategies were divided into 2 groups: (1) what students need to learn about coping after medical error (attend to emotions, universality of fallibility, helpful and unhelpful paths for coping, workplace culture, care for colleagues, transferal of learning to the workplace) and (2) ways to support students in this learning (actual cases, psychological safety and honest conversation, role-modeling, reflection and learning from others' experience).\n" +
+      "CONCLUSIONS: A constellation of pedagogical strategies synthesized from the literature provides program design ideas for education that targets the development of learners' capacity to cope with involvement in patient harm from medical error.",
+    published: '2025-Jun-06',
+    authors: [
+      'Harrison Julia',
+      'Ting Chee Yan',
+      'Leech Michelle',
+      'Molloy Elizabeth',
+      'Bearman Margaret'
+    ],
+    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
+    doi: '10.1097/ACM.0000000000006120',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479517/'
+  },
+  {
+    id: '40479516',
+    title: 'An Asynchronous Online Course to Introduce Interprofessional Education to Incoming Health Professions Students.',
+    abstract: 'PROBLEM: Interprofessional practice and education (IPE) (educators and learners from ≥2 health professions) can improve patient health outcomes and is required for most health professional program accreditation. Conflicting academic schedules and space limitations are obstacles to implementing interprofessional learning experiences that prepare future clinicians for team-based care.\n' +
+      'APPROACH: In February 2019, an asynchronous online course (eCUIMC) was created at Columbia University Irving Medical Center (CUIMC) to equip incoming health professions students to deliver team-based health care and engage in IPE without a shared space and time. eCUIMC oriented first-year students to the IPE core competencies: (1) values and ethics for interprofessional practice, (2) roles and responsibilities, (3) interprofessional communication, and (4) teams and teamwork. Participants were assigned to interprofessional teams of 8 students and 2 faculty. During a 5-day period in fall 2019 and 2020, participants completed interactive activities, performed a clinical case study, facilitated discussions, and completed a self-directed learning activity addressing structural determinants of health. Students completed a pre-post survey of beliefs and attitudes using the 21-item Interprofessional Socialization and Valuing Scale, which uses a 7-point scale to assess the change in interprofessional socialization after interprofessional education, with 1 indicating not at all and 7 indicating to a very great extent.\n' +
+      'OUTCOMES: A total of 1,345 participants, representing 10 different health professional programs, completed course evaluations and a pre-post survey of attitudes. Most students found the course engaging, relevant, and manageable, with 1,267 (94%) reporting increased understanding of other health professions. Mean Interprofessional Socialization and Valuing Scale scores increased from 4.5 to 5.8 (P < .001).\n' +
+      'NEXT STEPS: eCUIMC is a feasible and effective modality for uniting students from different health profession programs where time and space are barriers. eCUIMC is being integrated into the curriculum as an annual requirement for all 10 CUIMC health professions programs.',
+    published: '2025-Jun-04',
+    authors: [
+      'Abbruzzese Laurel Daniels',
+      'Desai Urmi A',
+      'Kingon Ashley',
+      'Skelton Michelle N',
+      'Simon Phyllis R',
+      'Churchill Jean N',
+      'Vanderselt Jordana',
+      'Moss-Salentijn Letty'
+    ],
+    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
+    doi: '10.1097/ACM.0000000000006121',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479516/'
+  },
+  {
+    id: '40479503',
+    title: "Macy Foundation Innovation Report Part II: From Hype to Reality: Innovators' Visions for Navigating AI Integration Challenges in Medical Education.",
+    abstract: 'PURPOSE: Artificial intelligence (AI) promises to significantly impact medical education, yet its implementation raises important questions about educational effectiveness, ethical use, and equity. In the second part of a 2-part innovation report, which was commissioned by the Josiah Macy Jr. Foundation to inform discussions at a conference on AI in medical education, the authors explore the perspectives of innovators actively integrating AI into medical education, examining their perceptions regarding the impacts, opportunities, challenges, and strategies for successful AI adoption and risk mitigation.\n' +
+      "METHOD: Semi-structured interviews were conducted with 25 medical education AI innovators-including learners, educators, institutional leaders, and industry representatives-from June to August 2024. Interviews explored participants' perceptions of AI's influence on medical education, challenges to integration, and strategies for mitigating challenges. Transcripts were analyzed using thematic analysis to identify themes and synthesize participants' recommendations for AI integration.\n" +
+      "RESULTS: Innovators' responses were synthesized into 2 main thematic areas: (1) AI's impact on teaching, learning, and assessment, and (2) perceived threats and strategies for mitigating them. Participants identified AI's potential to enact precision education through virtual tutors and standardized patients, support active learning formats, enable centralized teaching, and facilitate cognitive offloading. AI-enhanced assessments could automate grading, predict learner trajectories, and integrate performance data from clinical interactions. Yet, innovators expressed concerns over threats to transparency and validity, potential propagation of biases, risks of over-reliance and deskilling, and institutional disparities. Proposed mitigation strategies emphasized validating AI outputs, establishing foundational competencies, fostering collaboration and open-source sharing, enhancing AI literacy, and maintaining robust ethical standards.\n" +
+      'CONCLUSIONS: AI innovators in medical education envision transformative opportunities for individualized learning and precision education, balanced against critical threats. Realizing these benefits requires proactive, collaborative efforts to establish rigorous validation frameworks; uphold foundational medical competencies; and prioritize ethical, equitable AI integration.',
+    published: '2025-Jun-04',
+    authors: [
+      'Gin Brian C',
+      'LaForge Kate',
+      'Burk-Rafel Jesse',
+      'Boscardin Christy K'
+    ],
+    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
+    doi: '10.1097/ACM.0000000000006117',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40479503/'
+  },
+  {
+    id: '40478917',
+    title: 'Hiv and herpes simplex virus 2 incidence among adolescent girls and young women who sell sex (YWSS) in rural south africa: a population-based cohort study.',
+    abstract: 'OBJECTIVE: We investigate the risk of acquiring HIV or HSV-2 among young women who sell sex (YWSS) in rural South Africa.\n' +
+      'DESIGN: A representative population-based prospective cohort study of adolescent girls and young women (AGYW).\n' +
+      'METHODS: Between 2017 and 2019 we interviewed a random sample of AGYW (13-30 years) annually and collected dried blood spot samples for HIV and HSV-2 serology. YWSS were defined as engaging in transactional sex and/or sex work in the past 12 months. We used Cox regression to estimate the association between selling sex and incident HIV or HSV-2 infections, using inverse probability weighting to adjust for potential confounding (age, education, rural/urban locality, socioeconomic status, food insecurity, and pregnancy status).\n' +
+      'RESULTS: Among eligible AGYW (n = 3846), 89.2% provided responses for at least one follow-up time-point, of whom 17% reported selling sex in the past 12 months. HIV and HSV-2 prevalence at enrolment were 21% and 37.9% respectively and higher among YWSS at 42% and 69% respectively. HIV incidence was 3.4/100 person years(py) (95%CI: 2.6-4.2) higher among YWSS than others (8.2 vs 2.7/100py; Hazard Ratio [HR]: 2.70; 95%CI: 1.83-3.99). HSV-2 incidence was 18.4/100py (95%CI: 16.5-20.5), and was higher among YWSS than others (29.3 vs 17.2 100py; HR: 1.83; 95%CI 1.41-2.39). HSV-2 at baseline was associated with subsequent HIV infection (HR: 6.32; 95%CI 3.86-10.47, p<0.001).\n' +
+      'CONCLUSION: HIV and HSV-2 incidence was higher among AGYW selling sex compared those who did not sell sex. These findings highlight the need for PrEP and socio-economic support for this priority population of AGYW in rural settings.',
+    published: '2025-Jun-05',
+    authors: [
+      'Magut Faith',        'Mazibuko Lusanda',
+      'Mthiyane Nondumiso', 'Harling Guy',
+      'Baisley Kathy',      'Zuma Thembelihle',
+      'Dreyer Jaco',        'Okesola Nonhlanhla',
+      'Behuhuma Osee',      'Herbst Carina',
+      'Smit Theresa',       'Seeley Janet',
+      'Floyd Sian',         'Birdthistle Isolde',
+      'Cowan Frances',      'Hargreaves James R',
+      'Chimbindi Natsayi',  'Shahmanesh Maryam'
+    ],
+    journal: 'AIDS (London, England)',
+    doi: '10.1097/QAD.0000000000004255',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40478917/'
+  },
+  {
+    id: '40478910',
+    title: 'Predictors of metabolic syndrome among teachers in under-resourced schools in South Africa: Baseline findings from the KaziHealth workplace health intervention.',
+    abstract: "Non-communicable diseases (NCDs) account for most of global deaths, with rising prevalence in low-and middle-income countries. Metabolic syndrome (MetS) is a cluster of interrelated NCD risk factors, including obesity, dyslipidaemia, hypertension, and hyperglycaemia, that amplify NCD risk. Four leading modifiable factors driving NCDs are physical inactivity, tobacco and alcohol use, and an unhealthy diet. Teachers in under-resourced schools face significant health challenges, with their wellbeing often overlooked in South Africa. The prevalence and severity of MetS, adherence to physical activity guidelines, and associations with modifiable NCD risk factors were assessed. This study, part of the 'KaziBantu: Healthy Schools for Healthy Communities' project, included 168 teachers (aged 21-72, mean = 47 years) from 8 under-resourced schools in Gqeberha, South Africa. Data collection included MetS markers, device-measured physical activity, tobacco and alcohol use, and total fat, saturated fat, sugar, and sodium intake. Covariates included age, sex, race, education, and household income. MetS was observed in 58% of participants, with central obesity (79%) being the most prevalent component, followed by hypertension (59%). The largest proportion of participants (26%) had 3 MetS components, followed by 4 components (20%), while 12% had all 5 components. Nearly half (44%) of teachers were physically inactive and 53% exceeded total fat intake recommendations. Bayesian multilevel logistic regression revealed key predictors of MetS: age (per year increase; odds ratio[OR]=1.15, 95% credible interval[CrI] [1.07, 1.24]) and high daily total fat intake (OR=3.37, 95%CrI [1.03, 11.96]) were positively associated, while hours spent in moderate-to-vigorous intensity physical activity per week (OR=0.73, 95%CrI [0.55, 0.95]) and higher monthly household income (OR=0.14, 95%CrI [0.02, 0.72]) were protective. Addressing physical inactivity and unhealthy diets through tailored interventions is crucial to reducing MetS prevalence and improving the health of teachers working in low-resourced settings. Effective solutions should empower healthier lifestyles while tackling structural barriers to health equity.",
     published: '2025',
     authors: [
-      'Clare Michael A',     'Yeo Isobel A',
-      'Nash Jacob',          'Hunt James E',
-      'Panuve Semisi',       'Wilkie Alasdair',
-      'Williams Rebecca',    'Dowey Natasha',
-      'Rowley Peter',        'Barclay Jennifer',
-      'Phillips Jeremy',     'Scarlett Jazmin',
-      'Engwell Samantha',    'Henstock Timothy J',
-      'Seabrook Sarah',      'Watson Sally',
-      'Wysoczanski Richard', 'Ribo Marta',
-      'Cronin Shane',        'Talling Peter J',
-      'Cassidy Michael',     'Watt Sebastian',
-      'Robertson Richard'
+      'Joubert Nandi',
+      'Adams Larissa',
+      'Hattendorf Jan',
+      'Degen Jan',
+      'Dolley Danielle',
+      'Gresse Annelie',
+      'Müller Ivan',
+      'Nqweniso Siphesihle',
+      'Probst-Hensch Nicole',
+      'Seelig Harald',
+      'Steinmann Peter',
+      'Randt Rosa du',
+      'Pühse Uwe',
+      'Utzinger Jürg',
+      'Gerber Markus',
+      'Walter Cheryl'
     ],
-    journal: 'Bulletin of volcanology',
-    doi: '10.1007/s00445-025-01832-1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476038/'
-  },
-  {
-    id: '40476022',
-    title: 'Disparities in Access to Dental Care in San Francisco During COVID-19 Pandemic: Analysis of RAPID-SF Survey.',
-    abstract: 'BACKGROUND: Access to dental care can be influenced by various factors, including socioeconomic status, race, ethnicity, household language, education level, insurance, and emergency situations. This study aims to assess dental care access of children of San Francisco families during the COVID-19 pandemic and identify barriers to dental care access.\n' +
-      "METHODS: This cross-sectional study utilized data from the 2022 RAPID-SF Surveys conducted by the Stanford Early Childhood Center and the San Francisco Department of Public Health. The surveys, distributed across San Francisco, consisted of three baseline and three follow-up surveys. Associations between children's past-year dental visits during the pandemic and demographic factors such as race, ethnicity, language, insurance, financial status, and education were evaluated.\n" +
-      'RESULTS: A total of 680 families from San Francisco responded to baseline surveys (B1: 403, B2: 242, B3: 35). Follow-up surveys were excluded from analysis due to considerable loss to follow-up. About 34% reported difficulty accessing dental care for their children during COVID-19. Lower education, low income, and non-employer-based insurance were significantly associated with fewer dental visits ( < 0.05).\n' +
-      'CONCLUSIONS: The RAPID-SF survey identified significant oral health disparities in San Francisco during COVID-19, driven by income, education, and insurance type. Collaborative efforts by dentists, policymakers, and public health organizations are crucial to addressing these inequities. The RAPID-SF survey is a model for identifying disparities and guiding interventions to improve oral health outcomes during public health emergencies.\n' +
-      'PRACTICAL IMPLICATIONS: Strategies should be implemented to ensure San Francisco families have equitable access to dental services during public health emergencies.',
-    published: '2025',
-    authors: [ 'Shah Jay', 'Banava Sepideh' ],
-    journal: 'Journal of the California Dental Association',
-    doi: '10.1080/19424396.2025.2467368',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476022/'
-  },
-  {
-    id: '40476005',
-    title: 'Knowledge of HPV and its association with oropharyngeal cancer among dental students: a systematic review and meta-analysis.',
-    abstract: "BACKGROUND: Human papillomavirus (HPV) infection is a significant risk factor for oropharyngeal cancer (OPC), yet dental students' knowledge of this association varies widely. Given the critical role dentists play in early detection and prevention, understanding their level of knowledge is essential. This study systematically reviews existing research to assess dental students' awareness of HPV and its link to OPC.\n" +
-      'METHODS: A systematic review and meta-analysis were conducted following PRISMA guidelines. PubMed, ProQuest, and Web of Science databases were searched for studies published up to August 2023. The Newcastle-Ottawa Scale was used to evaluate study quality. A random effects model was applied to calculate pooled prevalence with 95% confidence intervals.\n' +
-      'RESULTS: Sixteen studies, comprising 6,345 participants, were included. The pooled analysis showed that 69% of dental students had general knowledge of HPV (range: 56%-96.5%; 95% CI: 0.56-0.81), while 77% recognized its association with OPC (range: 18%-96.4%; 95% CI: 0.63-0.89). Significant heterogeneity was observed across studies ( = 646.34,  < 0.001 for HPV;  = 804.07,  < 0.001 for HPV-OPC).\n' +
-      'CONCLUSION: Knowledge gaps among dental students may hinder prevention efforts. Standardized education in dental curricula is crucial to ensure future dentists are well-prepared to address HPV-related conditions and promote early detection in clinical practice.',
-    published: '2025',
-    authors: [
-      'Albusairi Khaled',
-      'Mandani Badriyah',
-      'Bouresly Ward',
-      'Brahmbhatt Yash',
-      'Alqaderi Hend',
-      'Alhazmi Hesham'
-    ],
-    journal: 'Frontiers in oral health',
-    doi: '10.3389/froh.2025.1604925',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40476005/'
+    journal: 'PLOS global public health',
+    doi: '10.1371/journal.pgph.0004681',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40478910/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at TLSSocket.socketErrorListener (node:_http_client:504:5)
-    at TLSSocket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 6)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'kahualike.manoa.hawaii.edu',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.31372/20190403.1059',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/apin/vol4/iss3/2/',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'kahualike.manoa.hawaii.edu',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/apin/vol4/iss3/2/',
-      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: kahualike.manoa.hawaii.edu\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/apin/vol4/iss3/2/',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'kahualike.manoa.hawaii.edu',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'kahualike.manoa.hawaii.edu'
-  }
-}
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1142,6 +936,191 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     code: 'ENOTFOUND',
     syscall: 'getaddrinfo',
     hostname: 'www.ijiim.net'
+  }
+}
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 6)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.31372/20190403.1059',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
@@ -1653,45 +1632,57 @@ Translating paper: Economics of education...
 Translating paper 20/50
 Translating paper: Teaching climate complacency: mainstream economics...
 Translating paper 21/50
-Translating paper: Enhancing Sustainable Fintech Education: Investiga...
+Translating paper: Mathematics education for sustainable futures: a s...
 Translating paper 22/50
-Translating paper: Education and Music Intervention to Reduce Anxiety...
+Translating paper: Virtual reality for education on infection prevent...
 Translating paper 23/50
-Translating paper: Training for dementia care and support in rural an...
+Translating paper: Fostering students’ motivation and self-efficacy i...
 Translating paper 24/50
-Translating paper: Use of brain-computer interface in educational par...
+Translating paper: Enhancing palliative care through university-commu...
 Translating paper 25/50
-Translating paper: Perspectives on AI literacy in Middle School Class...
+Translating paper: Developing the Spanish Physical Literacy Assessmen...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 500,
+  statusText: 'Internal Server Error',
+  errorDetails: undefined
+}
 Translating paper 26/50
-Translating paper: Sexuality Education Responding to the Same-Sex Mar...
+Translating paper: Orchestration of corporate social responsibility i...
 Translating paper 27/50
-Translating paper: What makes a classmate a peer? Examining which pee...
+Translating paper: Practices and challenges of implementing early chi...
 Translating paper 28/50
-Translating paper: What’s so Wrong with Personification? Toward a The...
+Translating paper: Environmental Support or Just Greenwashing? Unders...
 Translating paper 29/50
-Translating paper: NgodingSeru.com: an adaptive e-learning system wit...
+Translating paper: Teachers and sustainability education: exploring t...
 Translating paper 30/50
-Translating paper: The effect of educational intervention based on th...
+Translating paper: EcoHealth as a Curriculum Aim in Science Education...
 Translating paper 31/50
-Translating paper: Mapping shifts in employment patterns in the North...
+Translating paper: Using the hierarchy of intervention effectiveness ...
 Translating paper 32/50
-Translating paper: Harnessing Advanced Imaging Technologies in Roboti...
+Translating paper: "Modeling the Behaviors and the Interactions That ...
 Translating paper 33/50
-Translating paper: Safeguarding athletes and anti-doping: applying th...
+Translating paper: Don't Fear AI Replacing You as a Dentist-Yet....
 Translating paper 34/50
-Translating paper: Determinants of Educational Technology Acceptance:...
+Translating paper: The Integration of Artificial Intelligence and Aug...
 Translating paper 35/50
-Translating paper: Analysis of Birth Growth: Using a Mixture Cure Fra...
+Translating paper: Training Toward Health Justice: A Review of Commun...
 Translating paper 36/50
-Translating paper: Performance of ChatGPT-3.5 and ChatGPT-4 in Solvin...
+Translating paper: Preparing Medical Students and Physicians to Cope ...
 Translating paper 37/50
-Translating paper: The Burden of Dental Infections Among Hospitalized...
+Translating paper: An Asynchronous Online Course to Introduce Interpr...
 Translating paper 38/50
-Translating paper: Volcanic eruptions and the global subsea telecommu...
+Translating paper: Macy Foundation Innovation Report Part II: From Hy...
 Translating paper 39/50
-Translating paper: Disparities in Access to Dental Care in San Franci...
+Translating paper: Hiv and herpes simplex virus 2 incidence among ado...
 Translating paper 40/50
-Translating paper: Knowledge of HPV and its association with orophary...
+Translating paper: Predictors of metabolic syndrome among teachers in...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1713,25 +1704,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 175 -> 145
-Total papers after merging: 145 (125 existing + 50 new)
-Saved 145 papers to papers.json
+Removed duplicates: 195 -> 165
+Total papers after merging: 165 (145 existing + 50 new)
+Saved 165 papers to papers.json
 Generating HTML files...
-Generating index.html with 145 papers...
+Generating index.html with 165 papers...
 Successfully generated index.html
-Generating archive.html with 145 papers...
+Generating archive.html with 165 papers...
 Successfully generated archive.html
-Generating journal.html with 145 papers...
+Generating journal.html with 165 papers...
 Successfully generated journal.html
-Generating acquisition.html with 145 papers...
+Generating acquisition.html with 165 papers...
 Successfully generated acquisition.html
-Generating publication.html with 145 papers...
+Generating publication.html with 165 papers...
 Successfully generated publication.html
-Generating registration.html with 145 papers...
+Generating registration.html with 165 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 145
+Total papers in database: 165
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-06T15:40:53.538Z
+Timestamp: 2025-06-07T15:41:08.062Z
