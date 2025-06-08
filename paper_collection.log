@@ -31,382 +31,60 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-07T15:10:02.627Z
+Timestamp: 2025-06-08T15:10:09.261Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 145 existing papers from papers.json
+Loaded 165 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
-Fetched papers from arXiv: [
-  {
-    id: 'http://arxiv.org/abs/2406.11913v1',
-    title: 'Big data in economics',
-    summary: 'The term of big data was used since 1990s, but it became very popular around\n' +
-      '2012. A recent definition of this term says that big data are information\n' +
-      'assets characterized by high volume, velocity, variety and veracity that need\n' +
-      'special analytical methods and software technologies to extract value form\n' +
-      'them. While big data was used at the beginning mostly in information technology\n' +
-      'field, now it can be found in every area of activity: in governmental\n' +
-      'decision-making processes, manufacturing, education, healthcare, economics,\n' +
-      'engineering, natural sciences, sociology. The rise of Internet, mobile phones,\n' +
-      'social media networks, different types of sensors or satellites provide\n' +
-      'enormous quantities of data that can have profound effects on economic\n' +
-      'research. The data revolution that we are facing transformed the way we measure\n' +
-      'the human behavior and economic activities. Unemployment, consumer price index,\n' +
-      'population mobility, financial transactions are only few examples of economic\n' +
-      'phenomena that can be analyzed using big data sources. In this paper we will\n' +
-      'start with a taxonomy of big data sources and show how these new data sources\n' +
-      'can be used in empirical analyses and to build economic indicators very fast\n' +
-      'and with reduced costs.',
-    published: '2024-06-16T18:37:42Z',
-    updated: '2024-06-16T18:37:42Z',
-    authors: [ 'Bogdan Oancea' ],
-    categories: [ 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2406.11913v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/0807.3534v1',
-    title: 'Learning from Physics Education Research: Lessons for Economics\n' +
-      '  Education',
-    summary: 'We believe that economists have much to learn from educational research\n' +
-      'practices and related pedagogical innovations in other disciplines, in\n' +
-      'particular physics education. In this paper we identify three key features of\n' +
-      'physics education research that distinguish it from economics education\n' +
-      'research - (1) the intentional grounding of physics education research in\n' +
-      'learning science principles, (2) a shared conceptual research framework focused\n' +
-      'on how students learn physics concepts, and (3) a cumulative process of\n' +
-      'knowledge-building in the discipline - and describe their influence on new\n' +
-      'teaching pedagogies, instructional activities, and curricular design in physics\n' +
-      'education. In addition, we highlight four specific examples of successful\n' +
-      'pedagogical innovations drawn from physics education - context-rich problems,\n' +
-      'concept tests, just-in-time teaching, and interactive lecture demonstrations -\n' +
-      'and illustrate how these practices can be adapted for economic education.',
-    published: '2008-07-22T18:07:29Z',
-    updated: '2008-07-22T18:07:29Z',
-    authors: [ 'Scott P. Simkins', 'Mark H. Maier' ],
-    categories: [ 'physics.ed-ph' ],
-    link: 'http://arxiv.org/abs/0807.3534v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2501.12639v1',
-    title: 'Enhancing Economic Literacy through Causal Diagrams',
-    summary: 'A literacy-targeted approach to economic instruction draws on insights from\n' +
-      'cognitive science. It highlights that students process complex economic\n' +
-      'information by constructing and modifying schemas that represent economic\n' +
-      'material. Following this approach, we developed a set of instructional\n' +
-      'activities centered around causal diagrams that promote a deeper understanding\n' +
-      'of economic topics beyond the traditional lecture-based methods. Our results\n' +
-      'show that structural debriefing activities can be used effectively to introduce\n' +
-      'students to the causal diagrams that explain key economic relationships in the\n' +
-      'national income model, government-purchases multiplier and tax multiplier.',
-    published: '2025-01-22T04:58:09Z',
-    updated: '2025-01-22T04:58:09Z',
-    authors: [ 'Oleg V. Pavlov', 'Natalia V. Smirnova', 'Elena V. Smirnova' ],
-    categories: [ 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2501.12639v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2209.00057v1',
-    title: 'Molecular genetics and mid-career economic mobility',
-    summary: 'Reductions in the cost of genetic sequencing have enabled the construction of\n' +
-      'large datasets including both genetic and phenotypic data. Based on these\n' +
-      "datasets, polygenic scores (PGSs) summarizing an individual's genetic\n" +
-      'propensity for educational attainment have been constructed. It is by now well\n' +
-      'established that this PGS predicts wages, income, and occupational prestige and\n' +
-      'occupational mobility across generations. It is unknown whether a PGS for\n' +
-      'educational attainment can predict upward income and occupational mobility even\n' +
-      'within the peak earning years of an individual. Using data from the Wisconsin\n' +
-      'Longitudinal Study (WLS), I show that: (i) a PGS for educational attainment\n' +
-      'predicts wage, income and occupational prestige mobility between 1974 (when\n' +
-      'respondents were about 36 years of age) and 1992 (when respondents were about\n' +
-      '53 years of age), conditional on 1974 values of these variables and a range of\n' +
-      'covariates; (ii) the effect is not mediated by parental socioeconomic status,\n' +
-      'is driven primarily by respondents with only a high school education, and is\n' +
-      'replicated in a within sibling-pair design; (iii) conditional on 1974 outcomes,\n' +
-      'higher PGS individuals surveyed in 1975 aspired to higher incomes and more\n' +
-      'prestigious jobs 10 years hence, an effect driven primarily by respondents with\n' +
-      'more than a high school education; (iv) throughout their employment history,\n' +
-      'high PGS individuals were more likely to undertake on the job training, and\n' +
-      'more likely to change job duties during tenure with an employer; and (v) though\n' +
-      'no more likely to change employers or industries during their careers, high PGS\n' +
-      'individuals were more likely in 1974 to be working in industries which would\n' +
-      'experience high wage growth in subsequent decades. These results contribute to\n' +
-      'our understanding of longitudinal inequality and shed light on the sources of\n' +
-      'heterogeneity in responses to economic shocks and policy.',
-    published: '2022-08-31T18:25:08Z',
-    updated: '2022-08-31T18:25:08Z',
-    authors: [ 'Paul Minard' ],
-    categories: [ 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2209.00057v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/1804.10037v2',
-    title: 'Quantifier Elimination for Reasoning in Economics',
-    summary: 'We consider the use of Quantifier Elimination (QE) technology for automated\n' +
-      "reasoning in economics. QE dates back to Tarski's work in the 1940s with\n" +
-      'software to perform it dating to the 1970s. There is a great body of work\n' +
-      'considering its application in science and engineering but we show here how it\n' +
-      'can also find application in the social sciences. We explain how many suggested\n' +
-      'theorems in economics could either be proven, or even have their hypotheses\n' +
-      'shown to be inconsistent, automatically; and describe the application of this\n' +
-      'in both economics education and research. We describe a bank of QE examples\n' +
-      'gathered from economics literature and note the structure of these are, on\n' +
-      'average, quite different to those occurring in the computer algebra literature.\n' +
-      'This leads us to suggest a new incremental QE approach based on result\n' +
-      'memorization of commonly occurring generic QE results.',
-    published: '2018-04-26T13:05:16Z',
-    updated: '2018-05-15T10:30:31Z',
-    authors: [
-      'Casey B. Mulligan',
-      'Russell Bradford',
-      'James H. Davenport',
-      'Matthew England',
-      'Zak Tonks'
-    ],
-    categories: [ 'cs.SC', '68W30, 03C10, 91-04', 'I.1.2; J.4' ],
-    link: 'http://arxiv.org/abs/1804.10037v2'
-  },
-  {
-    id: 'http://arxiv.org/abs/1807.07051v1',
-    title: 'A New Index of Human Capital to Predict Economic Growth',
-    summary: 'The accumulation of knowledge required to produce economic value is a process\n' +
-      'that often relates to nations economic growth. Such a relationship, however, is\n' +
-      'misleading when the proxy of such accumulation is the average years of\n' +
-      'education. In this paper, we show that the predictive power of this proxy\n' +
-      'started to dwindle in 1990 when nations schooling began to homogenized. We\n' +
-      'propose a metric of human capital that is less sensitive than average years of\n' +
-      'education and remains as a significant predictor of economic growth when tested\n' +
-      'with both cross-section data and panel data. We argue that future research on\n' +
-      'economic growth will discard educational variables based on quantity as\n' +
-      'predictor given the thresholds that these variables are reaching.',
-    published: '2018-07-18T17:34:27Z',
-    updated: '2018-07-18T17:34:27Z',
-    authors: [ 'Henry Laverde', 'Juan C. Correa', 'Klaus Jaffe' ],
-    categories: [ 'econ.EM' ],
-    link: 'http://arxiv.org/abs/1807.07051v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2008.02581v1',
-    title: 'Teaching Economics with Interactive Browser-Based Models',
-    summary: 'Interactive simulation toolkits come in handy when teaching macroeconomic\n' +
-      'models by facilitating an easy understanding of underlying economic concepts\n' +
-      "and offering an intuitive approach to the models' comparative statics. Based on\n" +
-      'the example of the IS-LM model, this paper demonstrates innovative\n' +
-      'browser-based features well-suited for the shift in education to online\n' +
-      'platforms accelerated by COVID-19. The free and open-source code can be found\n' +
-      'alongside the standalone HTML files for the AD-AS and the Solow growth model at\n' +
-      'https://gitlab.tu-berlin.de/chair-of-macroeconomics/.',
-    published: '2020-08-06T11:24:46Z',
-    updated: '2020-08-06T11:24:46Z',
-    authors: [ 'Juan Dominguez-Moran', 'Rouven Geismar' ],
-    categories: [ 'q-fin.GN', 'econ.GN', 'q-fin.EC' ],
-    link: 'http://arxiv.org/abs/2008.02581v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/1206.2494v1',
-    title: 'A physical theory of economic growth',
-    summary: 'Economic growth is unpredictable unless demand is quantified. We solve this\n' +
-      'problem by introducing the demand for unpaid spare time and a user quantity\n' +
-      'named human capacity. It organizes and amplifies spare time required for\n' +
-      'enjoying affluence like physical capital, the technical infrastructure for\n' +
-      'production, organizes and amplifies working time for supply. The sum of annual\n' +
-      'spare and working time is fixed by the universal flow of time. This yields the\n' +
-      'first macroeconomic equilibrium condition. Both storable quantities form\n' +
-      'stabilizing feedback loops. They are driven with the general and technical\n' +
-      'knowledge embodied with parts of the supply by education and construction.\n' +
-      'Linear amplification yields S-functions as only analytic solutions.\n' +
-      'Destructible physical capital controls medium-term recoveries from disaster.\n' +
-      'Indestructible human capacity controls the collective long-term industrial\n' +
-      'evolution. It is immune even to world wars and runs from 1800 to date parallel\n' +
-      'to the unisex life expectancy in the pioneering nations. This is the first\n' +
-      'quantitative information on long-term demand. The theory is self-consistent. It\n' +
-      'reproduces all peaceful data from 1800 to date without adjustable parameter. It\n' +
-      'has full forecasting power since the decisive parameters are constants of the\n' +
-      'human species. They predict an asymptotic maximum for the economic level per\n' +
-      'capita. Long-term economic growth appears as a part of natural science.',
-    published: '2012-06-12T11:33:19Z',
-    updated: '2012-06-12T11:33:19Z',
-    authors: [ 'Hans G. Danielmeyer', 'Thomas Martinetz' ],
-    categories: [ 'q-fin.GN', 'physics.soc-ph' ],
-    link: 'http://arxiv.org/abs/1206.2494v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/1106.3455v1',
-    title: 'Applications of a constrained mechanics methodology in economics',
-    summary: 'The paper presents instructive interdisciplinary applications of constrained\n' +
-      'mechanics calculus in economics on a level appropriate for the undergraduate\n' +
-      'physics education. The aim of the paper is: 1. to meet the demand for\n' +
-      'illustrative examples suitable for presenting the background of the highly\n' +
-      'expanding research field of econophysics even on the undergraduate level and 2.\n' +
-      'to enable the students to understand deeper the principles and methods\n' +
-      'routinely used in mechanics by looking at the well known methodology from the\n' +
-      'different perspective of economics. Two constrained dynamic economic problems\n' +
-      'are presented using the economic terminology in an intuitive way. First, the\n' +
-      'Phillips model of business cycle is presented as a system of forced\n' +
-      'oscillations and the general problem of two interacting economies is solved by\n' +
-      'the nonholonomic dynamics approach. Second, the Cass-Koopmans-Ramsey model of\n' +
-      'economical growth is solved as a variational problem with a velocity dependent\n' +
-      'constraint using the vakonomic approach. The specifics of the solution\n' +
-      'interpretation in economics compared to mechanics is discussed in detail, a\n' +
-      'discussion of the nonholonomic and vakonomic approaches to constrained problems\n' +
-      'in mechanics and economics is provided and an economic interpretation of the\n' +
-      'Lagrange multipliers (possibly surprising for the students of physics) is\n' +
-      'carefully explained. The paper can be used by the undergraduate students of\n' +
-      'physics interested in interdisciplinary physics applications to get in touch\n' +
-      'with current scientific approach to economics based on a physical background or\n' +
-      'by university teachers as an attractive supplement to the classical mechanics\n' +
-      'lessons.',
-    published: '2011-06-17T11:57:09Z',
-    updated: '2011-06-17T11:57:09Z',
-    authors: [ 'Jitka Janová' ],
-    categories: [
-      'physics.ed-ph',
-      'physics.class-ph',
-      'physics.soc-ph',
-      'q-fin.GN',
-      '70 F25'
-    ],
-    link: 'http://arxiv.org/abs/1106.3455v1'
-  },
-  {
-    id: 'http://arxiv.org/abs/2006.03977v1',
-    title: 'IP Geolocation Underestimates Regressive Economic Patterns in MOOC Usage',
-    summary: 'Massive open online courses (MOOCs) promise to make rigorous higher education\n' +
-      'accessible to everyone, but prior research has shown that registrants tend to\n' +
-      'come from backgrounds of higher socioeconomic status. We study geographically\n' +
-      'granular economic patterns in about 76,000 U.S. registrations for about 600\n' +
-      "HarvardX and MITx courses between 2012 and 2018, identifying registrants'\n" +
-      'locations using both IP geolocation and user-reported mailing addresses. By\n' +
-      'either metric, we find higher registration rates among postal codes with\n' +
-      'greater prosperity or population density. However, we also find evidence of\n' +
-      'bias in IP geolocation: it makes greater errors, both geographically and\n' +
-      'economically, for users from more economically distressed areas; it\n' +
-      'disproportionately places users in prosperous areas; and it underestimates the\n' +
-      'regressive pattern in MOOC registration. Researchers should use IP geolocation\n' +
-      'in MOOC studies with care, and consider the possibility of similar economic\n' +
-      'biases affecting its other academic, commercial, and legal uses.',
-    published: '2020-06-06T21:13:14Z',
-    updated: '2020-06-06T21:13:14Z',
-    authors: [ 'Daniela Ganelin', 'Isaac Chuang' ],
-    categories: [ 'cs.CY', 'cs.NI' ],
-    link: 'http://arxiv.org/abs/2006.03977v1'
-  }
-]
-Collected 10 papers from arxiv
+Error fetching arXiv papers: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/node-fetch/src/index.js:108:11)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET',
+  erroredSysCall: 'read'
+}
+Error collecting papers from arxiv: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/node-fetch/src/index.js:108:11)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET',
+  erroredSysCall: 'read'
+}
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Fetched papers from Semantic Scholar: [
-  {
-    id: '220861296c6034a194f9c62612c12973a35b5c05',
-    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
-    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
-    published: '1996-01-01T00:00:00.000Z',
-    authors: [ 'Scott Key' ],
-    journal: 'No journal available',
-    doi: '10.1080/00221546.1996.11780256',
-    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
-  },
-  {
-    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
-    title: 'The New Economics for Industry, Government, Education',
-    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
-    published: '2018-01-01T00:00:00.000Z',
-    authors: [ 'A. Propst', 'W. Deming' ],
-    journal: 'No journal available',
-    doi: '10.2307/1270625',
-    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
-  },
-  {
-    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
-    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
-    abstract: 'No abstract available',
-    published: '2021-01-01T00:00:00.000Z',
-    authors: [ 'M. Roman', 'A. Plopeanu' ],
-    journal: 'International Review of Economic Education',
-    doi: '10.1016/j.iree.2021.100218',
-    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
-  },
-  {
-    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
-    title: 'Experience and education',
-    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
-    published: '2019-01-01T00:00:00.000Z',
-    authors: [ 'K. John-Alder' ],
-    journal: 'Ian McHarg and the Search for Ideal Order',
-    doi: '10.4324/9781315545639-2',
-    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
-  },
-  {
-    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
-    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
-    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci10080205',
-    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
-  },
-  {
-    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
-    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
-    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
-    published: '2023-01-01T00:00:00.000Z',
-    authors: [
-      'W. Geerling',
-      'G. D. Mateer',
-      'Jadrian Wooten',
-      'Nikhil Damodaran'
-    ],
-    journal: 'The American Economist',
-    doi: '10.1177/05694345231169654',
-    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
-  },
-  {
-    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
-    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
-    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
-    published: '2023-01-01T00:00:00.000Z',
-    authors: [ 'C. Lo' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci13040410',
-    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
-  },
-  {
-    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
-    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
-    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
-    journal: 'International Journal of Instruction',
-    doi: '10.29333/IJI.2020.13424A',
-    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
-  },
-  {
-    id: '35d0ead88e9bd727c16459e785358b0050e54514',
-    title: 'Economics of education',
-    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
-    published: '2016-01-01T00:00:00.000Z',
-    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
-    journal: 'No journal available',
-    doi: '10.12737/17661',
-    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
-  },
-  {
-    id: '0e83f229b9de199453823283d9550e10e0e5b00f',
-    title: 'Teaching climate complacency: mainstream economics textbooks and the need for transformation in economics education',
-    abstract: 'ABSTRACT In this paper we ask, what is mainstream economics education conveying to its students? Standard mainstream economics textbooks treat the environment as a specialist issue in addition to standard concerns and based on solutions that conform to those standard concerns. When viewed as socialisation for students this is a major problem. To illustrate the problems we set out key aspects of the standard format, and draw attention to the structure and contents from two well-known textbooks. Standard textbooks convey the impression that the ‘environmental issue’ is appropriately incorporated and exhibit two complacency-creating features. First, fundamental problems (acute global ecological breakdown, biodiversity loss, climate change crisis etc), issues and urgency cannot be adequately conveyed to students within this way of framing economics. Second, specific theory and policy solutions suggest that the problem is well in hand. We illustrate using the theory of negative externalities.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'B. Gills', 'J. Morgan' ],
-    journal: 'Globalizations',
-    doi: '10.1080/14747731.2020.1808413',
-    link: 'https://www.semanticscholar.org/paper/0e83f229b9de199453823283d9550e10e0e5b00f'
-  }
-]
-Collected 10 papers from semanticScholar
+Rate limited. Retrying after 4000ms...
+Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -424,6 +102,34 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Educational Studies in Mathematics'
+  },
+  {
+    id: '10.1007/s13384-025-00851-3',
+    title: 'Teacher agency and student diversity in reading education: What do Australian teachers think?',
+    summary: 'State-level governments across Australia have made a commitment via public announcements to ensuring that all schools are teaching reading using ‘consistent’, ‘compulsory’, ‘common practice’. Through a mixed-methods questionnaire with 51 schoolteachers from four states across Australia, this paper examines practitioner experiences of teacher agency and student diversity in reading education. The results reveal that teachers’ confidence in teaching reading often varied depending on their students’ reading proficiencies. High levels of confidence were often attributed to prior experience, professional knowledge, professional learning, access to resources, and/or relationships, while lack of confidence was often attributed to a lack of one or more of these factors. The study also found that while lack of agency did not necessarily equate to dissatisfaction with how teachers were expected to teach reading, primary school teachers had far less agency than cross-sector and secondary school teachers and were the most dissatisfied with their practice. The study highlights, at a time of workforce shortages, that teachers’ sense of agency, respectful relationships and professional learning remain problematic within reading education, especially in the primary sector and wherever student and teacher diversity is ignored.',
+    published: '2025-06-08',
+    authors: [ 'Nicholas, Maria', 'Rawolle, Shaun', 'Skourdoumbis, Andrew' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'The Australian Educational Researcher'
+  },
+  {
+    id: '10.1007/s13178-025-01128-1',
+    title: 'Parental Attitude Towards Sex Education: A Study of Demographic and Socio-Cultural Determinants in Rural Nigeria',
+    summary: 'Introduction In contemporary rural Nigeria, the level of engagement of teenagers (secondary school students) in risky sexual behaviours is growing, and it has been linked to the rising rate of teenage pregnancy and sexually transmitted diseases (STIs). While there are many studies on factors influencing the attitude of parents/guardians on the inclusion of sex education in secondary school curriculum, a research gap exists concerning the specific strengths of socio-cultural factors influencing parental attitude towards the teaching of sex education in secondary schools in rural Nigeria. Therefore, this study seeks to address this gap by investigating socio-cultural factors influencing parents/guardians’ attitude towards the adoption of sex education in secondary schools in rural Nigeria. Methods A cross-sectional survey design was adopted. Multi-stage sampling technique was adopted to select ( n  = 4620). The data were collected in the year 2023 using a questionnaire schedule. Data were analysed using both descriptive and inferential statistics. Descriptive analysis (frequency distribution tables and percentage) was done to describe and summarize the data. Also, inferential analysis (regressions) was done to test the formulated hypotheses. Results The results revealed that ethnicity (3.21 [2.54–6.57]; p  = 0.001), educational level (7.78 [7.29–13.11]; p  = 0.014), occupation (− 2.41 [(− 1.32)–(− 5.19)]; p  = 0.001), religiosity (5.34 [4.13–6.16]; p  = 0.001) and cultural belief (5.94 [5.18–8.47]; p  = 0.001) have significant effect on the parents/guardians attitudes towards the adoption of sex education in secondary schools in rural Nigeria. Conclusion and Recommendations. The factors influencing parental attitude towards the inclusion of sex education in secondary school curriculum include religiosity, cultural belief, level of education, ethnicity and occupation. Therefore, awareness programs about the importance of sex education for teens should be intensified at all levels. Policy Implications The findings of this study inform policy especially enlightenment programs for parents/guardians on the need and importance of sex education in reducing risky sexual behaviours among secondary school students in rural Nigeria. Most parents/guardians have negative attitudes towards it because of a lack of awareness. ',
+    published: '2025-06-07',
+    authors: [
+      'Raji, Abdullateef',
+      'Sulaiman, Lanre Abdul-Rasheed',
+      'Issa, Moshood',
+      'Muhammed, Abubakar Yunusa',
+      'Yusuff, Ridwan Olabisi',
+      'Abdulbaqi, Salihu Zakariyyah',
+      'Akor, Sunday Joseph'
+    ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Sexuality Research and Social Policy'
   },
   {
     id: '10.1186/s13756-025-01585-8',
@@ -471,6 +177,16 @@ Fetched papers from Springer: [
     journal: 'BMC Palliative Care'
   },
   {
+    id: '10.1007/s10758-025-09865-3',
+    title: 'ChatGPT Adoption in Higher Education: A Study of Faculty Generation Cohort, Self-Efficacy, and Innovativeness',
+    summary: 'Generative AI such as ChatGPT has become prevalent in teaching higher education courses. There is a need to examine the perceptions of faculty to understand their decision in using ChatGPT. To address this gap, this study examined the generation cohort differences in relation to generative AI using Generation Cohort Theory. Further, this study also examined self-efficacy and innovativeness as positive predictors of the use of ChatGPT, using the theoretical frameworks of Social Cognitive Theory and Diffusions of Innovation. This study recruited 150 faculty participants from higher institutions in Texas using a convenience sampling approach. Chi-square results indicated that Generation Y and Generation X faculty were more likely to use generative AI in comparison to other generation cohorts. Generation Y faculty were also the most likely to incorporate ChatGPT in their assignments than other cohorts. Regression results also showed that self-efficacy and innovativeness were positive predictors of the use of ChatGPT in the classroom. Implications are also offered for education stakeholders.',
+    published: '2025-06-07',
+    authors: [ 'Ramos Salazar, Leslie', 'Peeples, Shanna' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Technology, Knowledge and Learning'
+  },
+  {
     id: '10.1007/s00431-025-06223-4',
     title: 'Developing the Spanish Physical Literacy Assessment for Children (SPLA-C): a delphi-based model for assessing physical literacy in schoolchildren aged 6–12 years',
     summary: 'There are different recognized assessments of physical literacy (PL), with the Canadian Assessment of Physical Literacy-2 (CAPL-2) being the most widely recognized worldwide. Owing to sociocultural differences, creating a country-specific PL assessment becomes necessary. The aims of this study are 1) to develop an assessment model of the Spanish Physical Literacy Assessment for Children (SPLA-C) for Spanish schoolchildren aged 6–12 years and 2) to identify the assessment weights for each of the SPLA-C components, specifying the optimal tools. A documentary analysis was carried out in which experts were consulted, and the Delphi method was used. Twenty-eight experts took part in the Delphi process, and 23 experts completed all the rounds of the survey. Experts’ opinions are used to develop the assessment model of the SPLA-C and to identify the assessment weights for each component. A general consensus was obtained by the committee of experts for the proposed tools (85.2%). Conclusion :The SPLA-C could be considered a suitable method for assessing PL in Spanish children and adolescents and could be adapted to their educational-curricular and cultural context, after future studies analyze its psychometric properties, including the feasibility, reliability, and validity of each of the proposed instruments. What is Known : • PL supports lifelong physical activity. • No culturally adapted PL assessment exists for Spanish children. What is New : • The SPLA-C is a culturally adapted model for Spanish schoolchildren. • It defines five PL components and provides consensus-based assessment tools.',
@@ -506,253 +222,207 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'International Journal of Child Care and Education Policy'
-  },
-  {
-    id: '10.1007/s10755-025-09818-9',
-    title: 'Environmental Support or Just Greenwashing? Understanding the Impact of University Sustainability Programs on Students’ Eco-Behaviours in Turkey',
-    summary: 'This study examines the impact of university sustainability programs on students’ eco-behaviours in Turkey, focusing on the roles of perceived institutional support, personal environmental efficacy, and the potential for greenwashing. A total of 485 students from various Turkish universities participated in a quantitative survey which were selected through purposive sampling method. The analysis, conducted using Partial Least Squares Structural Equation Modeling (PLS-SEM), confirmed several hypotheses. The findings indicate that engagement in sustainability programs positively influences students’ eco-behavioural intentions, mediated by both environmental attitudes and personal efficacy. Our findings further revealed the significant impact of perceived institutional support on students’ eco-behavioural intentions, as well as its significant moderating role in the relationship between sustainability program engagement and students’ environmental attitudes. Our study suggests that perceived greenwashing can undermine trust and engagement. The study underscores the importance of transparency, comprehensive sustainability education, and robust institutional support to foster genuine eco-friendly behaviours among students. These insights contribute to enhancing the effectiveness of sustainability initiatives in higher education.',
-    published: '2025-06-07',
-    authors: [ 'Odugbesan, Jamiu Adetola', 'Aghazadeh, Sahar' ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Innovative Higher Education'
-  },
-  {
-    id: '10.1007/s13384-025-00852-2',
-    title: 'Teachers and sustainability education: exploring the views of Australian preservice and inservice teachers',
-    summary: 'Sustainability is crucial to the ongoing capability of Earth to sustain life. Although understood in several ways, such as climate change education , education for sustainable development and education for sustainability, international efforts have promoted sustainability as an important focus for education. In Australia, this focus is reflected in sustainability being embedded in the Australian Curriculum. Australian and international researchers have found that teachers generally understand sustainability and are favourably disposed toward it, but implementation remains an issue. This paper reports findings from an online survey administered to Australian preservice and in-service teachers. Echoing previous research with teachers, participants in this study had a positive attitude towards sustainability but lacked key knowledge and confidence to teach appropriate sustainability ideas within the Australian Curriculum. As such, the implementation of the sustainability cross-curriculum priority area seems inconsistent and there is a need to support teachers through curriculum resources, professional development, and ongoing mentoring.',
-    published: '2025-06-07',
-    authors: [
-      'Albion, Peter',
-      'Redmond, Petrea',
-      'Gharineiat, Zahra',
-      'Feldman, Jessica',
-      'Shelley, Tristan',
-      'Helwig, Andreas',
-      'Burey, Paulomi Polly'
-    ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'The Australian Educational Researcher'
-  },
-  {
-    id: '10.1007/s11165-025-10267-9',
-    title: 'EcoHealth as a Curriculum Aim in Science Education',
-    summary: 'School science education needs to change its aims, content and pedagogies if it is to prepare students for the challenges of the Anthropocene. Climate change is the single biggest health threat facing people and other organisms. We argue for embedding EcoHealth as a curriculum aim within school science, as well as other subjects. Findings from a study undertaken in Egypt are presented, where a critical realist approach was employed, in part because of critical realism’s distinction between reality and our knowledge of reality, and in part because of its treatment of absence. A documentary analysis of the Egyptian school curriculum was conducted to examine how climate change and its health impacts are dealt with and 34 secondary students and seven teachers were interviewed across seven schools to explore their understandings of climate change and its health effects. The analysis shows stark absences in teaching and learning about climate change in Egyptian schools and little understanding or recognition of its health impacts. The findings are used to argue for a Vision III science education for climate change education in the face of environmental decline and future uncertainties. Limitations of the study include a relatively small sample size for the number of interviews undertaken, limited time to collect data due to bureaucratic delays in issuing official permissions to access schools and a paucity of existing research on this topic in Egypt. Future research could determine how the Egyptian curriculum and classroom practices are addressing the worsening climate emergency.',
-    published: '2025-06-07',
-    authors: [ 'Khazem, Dima', 'Reiss, Michael J.' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Research in Science Education'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40479578',
-    title: 'Using the hierarchy of intervention effectiveness to improve the quality of recommendations developed during critical patient safety incident reviews.',
-    abstract: 'Our Canadian multi-site academic health sciences centre uses a standardized process to review critical patient safety incidents and develop recommendations to prevent incident reoccurrence. We recognized an opportunity to enhance recommendation development by integrating the Hierarchy of Intervention Effectiveness (HIE), a human factors framework, into the incident review process. This project aimed to increase the proportion of system-focused recommendations from critical incident reviews from 16 to 30% over 16 months. A multi-intervention strategy included (1) standardizing the incident analysis review template; (2) earmarking time for recommendation development during reviews; (3) providing participants with just-in-time education and tools; and (4) initiating HIE-based recommendation classification during incident reviews. Statistical process control p-Chart analysis showed an increase in system-focused recommendations from 16 to 30% over 16 months. The HIE promotes system-level change to prevent critical incidents, which other organizations may benefit from incorporating in their patient safety reviews.',
-    published: '2025-Jun-06',
+    id: '40483527',
+    title: 'Hemoglobin level, anemia, and obesity among pregnant women in Kigali, Rwanda: a hospital-based cross-sectional study.',
+    abstract: 'BACKGROUND: Globally, there is an increasing trend of obesity in pregnant women, and Sub-Saharan Africa is not an exception. Recently, hemoglobin and anemia have received more attention as predictors of maternal obesity. No such study exists in Rwanda. Thus, the current study aimed to investigate the prevalence and the factors associated with obesity, including hemoglobin and anemia, among pregnant women in Kigali, Rwanda.\n' +
+      'METHODS: A cross-sectional study was conducted in two hospitals in Kigali, Rwanda, from June to August 2024. A questionnaire was used to collect sociodemographic data. Weight, height, and hemoglobin were measured using standard procedures. Multinomial logistic regression analysis was performed.\n' +
+      'RESULTS: A total of 445 pregnant women were recruited. The median (interquartile range [IQR]) age and parity were 30.0 (26.0‒35.0) years and 1 (0‒3), respectively. Of the 445 women, 143 (32.1%), 249 (56.0%), and 53 (11.9%) were of normal weight, overweight, and obese, respectively. One hundred and seven (24.0%) pregnant women had anemia. In multivariate multinomial regression, no significant association was found between age, parity, residency, education, maternal occupation, hemoglobin level, anemia, and overweight status. Being from rural areas (adjusted odds ratio [AOR] = 2.54, 95% confidence interval [CI] 1.16‒5.56) and being a housewife (AOR = 4.34, 95% 1.42‒13.26) were significantly associated with obesity. While an increase in hemoglobin level was associated with obesity (AOR = 1.28, 95% CI 1.02‒1.60), anemia was inversely negatively associated with obesity (AOR = 0.33, 95% CI 0.12‒0.93).\n' +
+      'CONCLUSION: This study indicates that 12% of the pregnant women in Rwanda were obese. Hemoglobin and anemia are associated with maternal obesity in Rwanda. There is a need for more efforts in nutritional programs targeting pregnant women to combat maternal obesity in Rwanda. Future research is recommended to explore the impact of maternal obesity on maternal and perinatal health.',
+    published: '2025-Jun-07',
     authors: [
-      'Lan Melissa F',
-      'Weatherby Hilary',
-      'Chimonides Elisa',
-      'Chartier Lucas B',
-      'Pozzobon Laura D'
+      'Ahmed Mustafa I',
+      'Bashir Amal O',
+      'Hassan Ahmed A',
+      'Adam Ishag'
     ],
-    journal: 'Healthcare management forum',
-    doi: '10.1177/08404704251343260',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479578/'
+    journal: 'Journal of health, population, and nutrition',
+    doi: '10.1186/s41043-025-00938-8',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483527/'
   },
   {
-    id: '40479547',
-    title: '"Modeling the Behaviors and the Interactions That We Value": Critical Care Attending Physician Perspectives on Interprofessional Teaching in Graduate Medical Education.',
-    abstract: ' Interprofessional teaching (IPT) has the potential to promote teamwork and collaborative patient care, but few studies have explored physician attitudes about the role of nonphysician clinical teachers in graduate medical education.  This study aimed to elucidate critical care attending physician perspectives about the role of nurses, pharmacists, and respiratory therapists in teaching medical residents.  Using a concurrent mixed methods approach, surveys and focus groups were administered to attendings in an urban tertiary academic medical center. Survey data were analyzed with descriptive statistics; focus group data were analyzed using the Framework method of content analysis.  Of attendings surveyed, 23/26 (88%) responded. Attendings reported positive attitudes about IPT; highly cited benefits included capitalizing on the unique expertise held by interprofessional providers (21/22, 95%), modeling respectful interprofessional relationships (21/22, 95%), and promoting collaborative patient care (20/22, 91%). Ten attendings participated in focus groups. Qualitative analysis revealed four major themes: overall low rates of IPT that vary by profession, potential role of attending as facilitator of IPT, multiple interpersonal and environmental characteristics that influence IPT, and impacts of IPT on education, patient care, and teamwork.  Study results suggest that attending physicians are enthusiastic about the concept of IPT and their potential role in its promotion.',
-    published: '2025-Jun-06',
-    authors: [
-      'Anandaiah Asha M',
-      'Petri Camille R',
-      'Beltran Christine P',
-      'Sullivan Amy M'
-    ],
-    journal: 'ATS scholar',
-    doi: '10.34197/ats-scholar.2024-0134OC',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479547/'
+    id: '40483520',
+    title: 'Enhancing palliative care through university-community partnerships: a systematic review of models, impacts, and challenges.',
+    abstract: 'BACKGROUND: University-community partnerships (UCPs) represent a transformative model for integrating student experiential learning with community-based palliative care. These partnerships enhance empathy, interdisciplinary collaboration, and service delivery, while addressing gaps in end-of-life care.\n' +
+      'AIM: This systematic review evaluated the effectiveness of UCPs in palliative care, focusing on their impact on student learning, community outcomes, and innovative practices.\n' +
+      'METHODS: Following the PRISMA 2020 guidelines, a systematic search was conducted across PubMed, Scopus, Web of Science, and CINAHL databases for studies published between January 2014 and March 2024. This search yielded 206 unique citations. Nine studies were included after the full-text screening. Grey literature sources (e.g., reports and web-based articles) were screened but excluded due to insufficient methodological rigor, and thematic synthesis was conducted using NVivo, with two independent reviewers performing data extraction. The Risk of bias was assessed using the ROBIS (qualitative) and RoB 2 (quantitative) tools.\n' +
+      'RESULTS: Of the 206 records screened, nine studies (eight qualitative and one quantitative) met the inclusion criteria. The identified UCP models include transactional, transformational, and community-based participatory research (CBPR), with CBPR noted for contextual adaptability. UCPs contributed to improving student empathy, interprofessional learning, and community empowerment. Barriers include limited resources, cultural mismatches, and inconsistent stakeholder alignments. Innovations, such as telehealth and virtual learning, were also observed.\n' +
+      'CONCLUSION: UCPs have strong potential to enhance palliative care education and delivery. Scaling these models requires sustainable funding, culturally responsive approaches, and policy integration. Future research must emphasize longitudinal designs and standardized evaluation structures.',
+    published: '2025-Jun-07',
+    authors: [ 'Chandak Alaka', 'Kulkarni Priyadarshini Bhalchandra' ],
+    journal: 'BMC palliative care',
+    doi: '10.1186/s12904-025-01795-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483520/'
   },
   {
-    id: '40479545',
-    title: "Don't Fear AI Replacing You as a Dentist-Yet.",
-    abstract: "The dental profession has evolved rapidly in recent years-from digital imaging and CAD/CAM restorations to the integration of artificial intelligence (AI) in diagnostics and treatment planning. Understandably, many dentists wonder whether AI could soon render years of education, experience, and skill obsolete. The good news? You don't need to fear redundancy-at least not yet. Here's why.",
-    published: '2025-May',
-    authors: [ 'Walther Cornelia C' ],
-    journal: 'Compendium of continuing education in dentistry (Jamesburg, N.J. : 1995)',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479545/'
+    id: '40483476',
+    title: "Virtual reality for education on infection prevention and control: the impact on medical students' knowledge, attitudes and practices.",
+    abstract: "BACKGROUND: This study aims to analyse the impact of a newly developed infection prevention and control (IPC) Virtual Reality (VR)-module on medical students' IPC knowledge, attitudes and practices. Additionally, the impact of the module on students' and healthcare professionals' (HCPs) confidence regarding IPC decision-making and their insight into consequences of IPC decisions were analysed.\n" +
+      'METHODS: The IPC VR-module was developed using a cyclical design process consisting of a prototype, first and final version. Knowledge, attitudes and practices (KAP) regarding IPC were compared between two groups of medical students. The VR-module was added to the IPC program for the VR group. After completion of the program, students of both groups were asked to complete an online questionnaire. Scores were summated for each subscale of the KAP, a Mann-Whitney U test was performed to compare scores between groups. Student and HCP responses to VR-specific questions were dichotomized and a chi-square test was used to compare responses to different versions of the module.\n' +
+      'RESULTS: Students who completed the VR-module (n = 34) scored higher on IPC knowledge questions (score 8 / 10), than those who followed the regular program (n = 58; score 7/10; p = 0.003). For the final version, the added value of the VR-module in the program was recognized by 95% of students and 90% of HCPs. Students and HCPs who completed the final version of the VR-module agreed more often with learning objectives of the VR-module than those who completed the first version. 100% vs. 80% for the statement on insight into consequences of choices (p < 0.001) and 89% vs. 73% for the statement on confidence taking IPC decisions (p < 0.001).\n' +
+      'CONCLUSIONS: The innovative IPC VR-module positively impacted students IPC knowledge and was highly appreciated by students and HCPs. VR-specific learning objectives were achieved, especially for the final version of the VR-module, demonstrating the importance of a cyclical design process.',
+    published: '2025-Jun-07',
+    authors: [
+      'Schippers Bente',
+      'Coenen Olga',
+      'Luk Franka',
+      'Graner Mark',
+      'van Hoek Frans',
+      'Stikkelbroeck Nike',
+      'Dronkers Machteld',
+      'Bowles Edmée',
+      'Tostmann Alma'
+    ],
+    journal: 'Antimicrobial resistance and infection control',
+    doi: '10.1186/s13756-025-01585-8',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483476/'
   },
   {
-    id: '40479539',
-    title: 'The Integration of Artificial Intelligence and Augmented Reality in Dental Education: Current Applications and Future Potential.',
-    abstract: 'The integration of artificial intelligence (AI) and augmented reality (AR) in dental education is transforming how students acquire and refine clinical skills. This article explores current applications and the future potential of AI and AR in dental training. AI, defined as the simulation of human cognitive functions by machines, enhances diagnostics, treatment planning, patient management, and educational tools through subfields like machine learning, artificial neural networks, computational vision, robotics, and speech processing. These technologies enable personalized learning, can improve diagnostic accuracy, and streamline administrative tasks. AR, which overlays digital information onto real-world components, provides immersive and interactive learning experiences. In dental education, AR-based simulations enable risk-free environments for skill development, allowing students to practice procedures on virtual patients with real-time feedback. Applications of AR include simulation and training, patient education, endodontics, implantology, and local anesthetic training. These tools help enhance spatial understanding, reduce learning curves, and facilitate standardized training across institutions. Despite challenges such as high implementation costs and the need for faculty training, the potential benefits of AI and AR in dental education are significant. As these technologies continue to evolve, they promise to transform dental curricula, improve educational outcomes, and, ultimately, enhance patient care.',
-    published: '2025-May',
+    id: '40483448',
+    title: 'Effects of a single session of in-person and remote strength training on low back pain and disability outcomes in pregnant women: a randomized and controlled crossover clinical trial.',
+    abstract: 'BACKGROUND: The objective of the present study is to evaluate the effects of a single session of in-person and remote strength training on the outcomes of low back pain, functional disability, and enjoyment in pregnant women.\n' +
+      'METHODS: The methodology used was an approved controlled and randomized clinical trial by the Research Ethics Committee and registered in the Brazilian Clinical Trials Registry. The study involved seventeen pregnant women undergoing one in-person strength training session (IS), one remote strength training session (RS), and one control session (CS) in a randomly determined order. The team conducted assessments using questionnaires for low back pain, functional disability, and enjoyment. We compared the Generalized Estimating Equations (GEE) method with a Bonferroni complementary test (α = 0.05) and the Mann-Whitney U test.\n' +
+      'RESULTS: Reduced values of low back pain were found after the session for the SUM item in the in-person (Δ-2.06), remote (Δ-1.59), and control (Δ-2.17) sessions, as well as for the INTENSITY item in the in-person (Δ-0.23), remote (Δ-0.12), and control (Δ-0.3) sessions. Reductions in disability values 24 h after the session were observed for the remote (Δ-0.76) and control (Δ-1.59) sessions. Additionally, positive enjoyment values were noted after in-person (117) and remote (119) sessions.\n' +
+      'CONCLUSION: It is concluded that a strength training session can potentially improve or maintain the acute low back pain and disability scale without causing an increase in low back pain symptoms. Furthermore, it can promote a high level of enjoyment, regardless of whether it is conducted in person or remotely. Health education strategies, such as those proposed by the control session in this study, are also beneficial.',
+    published: '2025-Jun-07',
     authors: [
-      'Perry Ronald',
-      'Singh Gursharanjit',
-      'Dame Anthony',
-      'Mohamed Samar A',
-      'Idiculla Angel Mary',
-      'Garg Ripple'
+      'Pires Valéria Jardim',
+      'Miranda Camila',
+      'Fraga Bruna Sacchi',
+      'Führ Yasmin Bortoli',
+      'Silva Andressa Martins E',
+      'Kanitz Ana Carolina'
     ],
-    journal: 'Compendium of continuing education in dentistry (Jamesburg, N.J. : 1995)',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479539/'
+    journal: 'BMC musculoskeletal disorders',
+    doi: '10.1186/s12891-025-08544-9',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483448/'
   },
   {
-    id: '40479522',
-    title: 'Training Toward Health Justice: A Review of Community-Engaged Training in Primary Care Residency Programs in the United States.',
-    abstract: 'PURPOSE: A community-engaged approach to medicine, particularly primary care, is effective for health promotion. There is, however, limited evidence and no consensus on best training practices to ensure that physicians are trained adequately to practice community-engaged medicine. To define and determine how to fill this gap, the authors conducted a systematic review of literature on community-engaged activities in primary care resident training programs. The study sought to evaluate the quality of studied interventions and assess future research needs.\n' +
-      'METHOD: For this systematic review, the study team searched PubMed, MEDLINE, and PsycINFO using key search terms related to graduate medical education, community engagement activities, and potential outcomes. The team selected and reviewed all English-language articles published through December 2024 that described interventions in which primary care residents participated in activities that occurred in community-based settings. The team analyzed studies with quantitative and qualitative results. They assessed study quality using the Medical Education Research Study Quality Instrument (MERSQI) and assessed the quality of the community-engaged educational activity using a novel instrument called the Medical Education Engagement Quality Index (MEEQI).\n' +
-      'RESULTS: The study team identified and reviewed the full texts of 29 articles (10 quantitative, 10 qualitative, and 9 quantitative and qualitative articles). Interventions included community engagement activities with varied settings, study length, and learning objectives. Outcomes included a change in attitudes, knowledge, skills, and career choices. The mean MERSQI score was 9.0 (range, 5.5-11.5), and the mean MEEQI score was 6.2 (range, 4.0-10.0).\n' +
-      "CONCLUSIONS: The authors' findings revealed limited quality and substantial variability of the current literature. Future research should use more rigorous evaluation methods to determine which community-engaged curricular components can most effectively provide primary care resident physicians with the skills needed to provide high-quality primary care, particularly for vulnerable populations.",
-    published: '2025-Jun-06',
+    id: '40483436',
+    title: 'Characterizing the Venezuelan situation between 2014-2020 in a population-based study using seven key indicators.',
+    abstract: "BACKGROUND: Venezuela has faced a crisis over the past decade. This study aims to characterize the crisis and identify the population's most vulnerable subgroups.\n" +
+      'METHODS: Follow-up data (2018-2020) from 1,257 subjects (35% of the total) who participated in the nationally representative sample of the Venezuelan Study of Cardiometabolic Health (EVESCAM, 2014-2017) were analyzed. The distribution of seven crisis indicators- food insecurity, stressful life events, family separation, disruption in access to utilities (water, electricity, gas, or sanitation), lack of access to medications, lack of access to transportation, and disruption of childhood education- were analyzed across five subgroups (age, sex, ethnicity, socioeconomic status [SES], and education). Logistic regression adjusted by other socio-demographic variables was used to analyze associations among variables.\n' +
+      "RESULTS: Of the total sample, 71.8% were female, 67.0% ≥ 50 years old, 52% low SES, and 80.2% Mixed ethnicity. Overall, 77.3% reported disruption in access to at least one utility and 31.7% to two or more utilities. The former was higher in females (OR 1.46, 95% CI 1.08-1.98) and those with lower education (OR 2.03, 1.27-3.23). Lack of electricity (70.2%) was similar across subgroups. Lack of transportation (76.2%) affected females (OR 1.36, 1.10-1.67) and those of Mixed ethnicity more strongly. Disruption of children's education was reported more in homes with the youngest, Amerindian, low SES, and less educated participants. Family separation (49.2%) affected older and female participants more strongly. Food insecurity (60.2%) was more frequent in the low SES group compared with the high SES group (OR 2.17, 1.45-3.25). Stressful life events (67.2%) and lack of medications (43.8%) did not differ across subgroups.\n" +
+      'CONCLUSIONS: The Venezuelan humanitarian crisis has heightened vulnerability to crisis indicators among women, elders, those with low SES, and less educated subgroups of the population. These findings should prompt cost-effective programs targeted at those most vulnerable.',
+    published: '2025-Jun-07',
     authors: [
-      'Klusaritz Heather A',
-      'Johnson Kara',
-      'Igarabuza Laura',
-      'Nguyen Giang T',
-      'Harmon Elizabeth',
-      'Bozzi Michael',
-      'Cronholm Peter F'
+      'Nieto-Martínez Ramfis',
+      'Babagoli Masih A',
+      'Gonzalez-Rivas Juan Pablo',
+      'Ugel Eunice',
+      'Duran Maritza',
+      'Marulanda María Inés',
+      'Mechanick Jeffrey I',
+      'Danaei Goodarz'
     ],
-    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
-    doi: '10.1097/ACM.0000000000006123',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479522/'
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-23125-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483436/'
   },
   {
-    id: '40479517',
-    title: 'Preparing Medical Students and Physicians to Cope With Their Medical Errors: A Scoping Review.',
-    abstract: 'PURPOSE: Many clinicians will experience feeling responsible for inadvertently harming a patient through medical error. These situations can be distressing, difficult to navigate, and career altering. In addition to aftermath support, there is a recognized need for preemptive education to better prepare clinicians to cope after such events. Little published guidance exists about how best to do this. This scoping review explores the current knowledge about educational programs and strategies to prepare medical students and physicians to cope effectively with their own medical errors.\n' +
-      'METHOD: Three online databases, MEDLINE, PsycINFO, and Scopus, were searched on January 3, 2025, for articles published from database inception to the search date that described programs designed to prepare medical students and/or physicians to cope better with personal involvement in patient harm from medical error. Eligibility screening and data recording were independently performed by 2 reviewers. Simple data were summarized and common pedagogical strategies were identified by inductive thematic analysis.\n' +
-      "RESULTS: The search yielded 5,359 unique articles for screening, of which 97 full-text articles were retrieved. Twelve articles met the eligibility criteria. The study interventions vary in structure and delivery methods but share similar rationale, key messages, and pedagogical strategies. Dominant pedagogical strategies were divided into 2 groups: (1) what students need to learn about coping after medical error (attend to emotions, universality of fallibility, helpful and unhelpful paths for coping, workplace culture, care for colleagues, transferal of learning to the workplace) and (2) ways to support students in this learning (actual cases, psychological safety and honest conversation, role-modeling, reflection and learning from others' experience).\n" +
-      "CONCLUSIONS: A constellation of pedagogical strategies synthesized from the literature provides program design ideas for education that targets the development of learners' capacity to cope with involvement in patient harm from medical error.",
-    published: '2025-Jun-06',
-    authors: [
-      'Harrison Julia',
-      'Ting Chee Yan',
-      'Leech Michelle',
-      'Molloy Elizabeth',
-      'Bearman Margaret'
-    ],
-    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
-    doi: '10.1097/ACM.0000000000006120',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479517/'
+    id: '40483426',
+    title: 'Complex psychological responses to climate change: a longitudinal study exploring the interplay between climate change awareness and climate change anxiety among Chinese adolescents.',
+    abstract: 'BACKGROUND: Adolescents are increasingly recognized as important stakeholders in responding to the challenges of climate change, with their psychological responses shaping both mental health outcomes and behavioral choices. However, the intricate relationship between climate change awareness and climate change anxiety among adolescents, as significant manifestations of psychological reactions to climate change, has not yet been thoroughly investigated. Grounded in the Stress and Coping Theory, this study aimed to empirically investigate the bidirectional relationship between climate change awareness and climate change anxiety among Chinese adolescents.\n' +
+      'METHODS: Data were collected through a three-wave longitudinal survey (2022-2024) from 426 Chinese adolescents. We employed repeated measures ANOVA to examine developmental patterns and gender differences in climate change awareness and climate change anxiety, and constructed cross-lagged panel models, along with the calculation of feedback effects, to investigate their reciprocal relationships across time points.\n' +
+      'RESULTS: Results revealed significant increases in both climate change awareness and climate change anxiety over time, with females consistently exhibiting higher levels. Cross-lagged analyses demonstrated that climate change awareness significantly predicted an increase in climate change anxiety, and climate change anxiety, in turn, significantly enhanced climate change awareness. Furthermore, the feedback effect between climate change awareness and climate change anxiety was significant at both T1-T2 and T2-T3 intervals.\n' +
+      "CONCLUSION: This study demonstrates a bidirectional relationship between climate change awareness and anxiety among adolescents, providing a theoretical framework and empirical evidence for understanding adolescents' complex psychological responses to climate change. It also presents valuable suggestions for implementing targeted mental health interventions, and climate change education.",
+    published: '2025-Jun-07',
+    authors: [ 'Ge Jiahao', 'Pan Weihao', 'Liang Xiaoyu', 'Zhang Jianzhen' ],
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-23282-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483426/'
   },
   {
-    id: '40479516',
-    title: 'An Asynchronous Online Course to Introduce Interprofessional Education to Incoming Health Professions Students.',
-    abstract: 'PROBLEM: Interprofessional practice and education (IPE) (educators and learners from ≥2 health professions) can improve patient health outcomes and is required for most health professional program accreditation. Conflicting academic schedules and space limitations are obstacles to implementing interprofessional learning experiences that prepare future clinicians for team-based care.\n' +
-      'APPROACH: In February 2019, an asynchronous online course (eCUIMC) was created at Columbia University Irving Medical Center (CUIMC) to equip incoming health professions students to deliver team-based health care and engage in IPE without a shared space and time. eCUIMC oriented first-year students to the IPE core competencies: (1) values and ethics for interprofessional practice, (2) roles and responsibilities, (3) interprofessional communication, and (4) teams and teamwork. Participants were assigned to interprofessional teams of 8 students and 2 faculty. During a 5-day period in fall 2019 and 2020, participants completed interactive activities, performed a clinical case study, facilitated discussions, and completed a self-directed learning activity addressing structural determinants of health. Students completed a pre-post survey of beliefs and attitudes using the 21-item Interprofessional Socialization and Valuing Scale, which uses a 7-point scale to assess the change in interprofessional socialization after interprofessional education, with 1 indicating not at all and 7 indicating to a very great extent.\n' +
-      'OUTCOMES: A total of 1,345 participants, representing 10 different health professional programs, completed course evaluations and a pre-post survey of attitudes. Most students found the course engaging, relevant, and manageable, with 1,267 (94%) reporting increased understanding of other health professions. Mean Interprofessional Socialization and Valuing Scale scores increased from 4.5 to 5.8 (P < .001).\n' +
-      'NEXT STEPS: eCUIMC is a feasible and effective modality for uniting students from different health profession programs where time and space are barriers. eCUIMC is being integrated into the curriculum as an annual requirement for all 10 CUIMC health professions programs.',
-    published: '2025-Jun-04',
+    id: '40483414',
+    title: 'Predicting obesity at adolescence from an early age in a Dutch observational cohort study: the development and internal validation of a multivariable prediction model.',
+    abstract: "BACKGROUND: - Identifying children with a high risk of developing future obesity could enable timely targeted prevention strategies. The study's objective was to develop prediction models that could detect if young children at very early age, from birth to age six, have an increased risk of being obese in early adolescence.\n" +
+      'METHODS: - We analyzed a subset of data (N = 4,309) from the Generation R study, a population-based prospective cohort study of pregnant women and their children from fetal life to young adulthood in the Netherlands. Parental, household, and birth/child characteristics were considered as predictors. We developed separate models for children at age zero (three months), two, four, and six years that predict obesity at age 10 to 14 years. Per age we fitted an optimal prediction model (full model) and a more practical model with less predictors (restricted model). For the development of the prediction models we used regularized regression models with a least absolute shrinkage and selection operator (LASSO) penalty to avoid overfitting.\n' +
+      'RESULTS: - Parental body mass index (BMI), parental education level, latest child BMI measurements, ethnicity of the child, breakfast consumption, cholesterol, and low-density lipoprotein (LDL) of the child were included as predictors in all models when considered as candidate predictor. The models for all age groups performed well (lowest area under the curve (AUC) 0.872 for the age 0 restricted model), with the highest performance for the 6-year model (AUC 0.954 and 0.949, full and restricted model). Sensitivity and specificity of models varied between ages with ranges 0.80-0.90 (full model); 0.79-0.89 (restricted model) and 0.80-0.88 (full model); 0.79-0.87 (restricted model).\n' +
+      'CONCLUSIONS: - These obesity prediction models seem promising and could be used as valuable tools for early detection of children at increased risk of being obese at adolescence, even at an early age.',
+    published: '2025-Jun-07',
     authors: [
-      'Abbruzzese Laurel Daniels',
-      'Desai Urmi A',
-      'Kingon Ashley',
-      'Skelton Michelle N',
-      'Simon Phyllis R',
-      'Churchill Jean N',
-      'Vanderselt Jordana',
-      'Moss-Salentijn Letty'
+      'Huizing Arjan Henryk Jonathan',
+      'Welten Marieke',
+      'van der Pal Sylvia',
+      'Schönbeck Yvonne',
+      'van Empelen Pepijn',
+      'Gaillard Romy',
+      'Jaddoe Vincent W V',
+      'van Buuren Stef'
     ],
-    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
-    doi: '10.1097/ACM.0000000000006121',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479516/'
+    journal: 'BMC pediatrics',
+    doi: '10.1186/s12887-025-05661-1',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483414/'
   },
   {
-    id: '40479503',
-    title: "Macy Foundation Innovation Report Part II: From Hype to Reality: Innovators' Visions for Navigating AI Integration Challenges in Medical Education.",
-    abstract: 'PURPOSE: Artificial intelligence (AI) promises to significantly impact medical education, yet its implementation raises important questions about educational effectiveness, ethical use, and equity. In the second part of a 2-part innovation report, which was commissioned by the Josiah Macy Jr. Foundation to inform discussions at a conference on AI in medical education, the authors explore the perspectives of innovators actively integrating AI into medical education, examining their perceptions regarding the impacts, opportunities, challenges, and strategies for successful AI adoption and risk mitigation.\n' +
-      "METHOD: Semi-structured interviews were conducted with 25 medical education AI innovators-including learners, educators, institutional leaders, and industry representatives-from June to August 2024. Interviews explored participants' perceptions of AI's influence on medical education, challenges to integration, and strategies for mitigating challenges. Transcripts were analyzed using thematic analysis to identify themes and synthesize participants' recommendations for AI integration.\n" +
-      "RESULTS: Innovators' responses were synthesized into 2 main thematic areas: (1) AI's impact on teaching, learning, and assessment, and (2) perceived threats and strategies for mitigating them. Participants identified AI's potential to enact precision education through virtual tutors and standardized patients, support active learning formats, enable centralized teaching, and facilitate cognitive offloading. AI-enhanced assessments could automate grading, predict learner trajectories, and integrate performance data from clinical interactions. Yet, innovators expressed concerns over threats to transparency and validity, potential propagation of biases, risks of over-reliance and deskilling, and institutional disparities. Proposed mitigation strategies emphasized validating AI outputs, establishing foundational competencies, fostering collaboration and open-source sharing, enhancing AI literacy, and maintaining robust ethical standards.\n" +
-      'CONCLUSIONS: AI innovators in medical education envision transformative opportunities for individualized learning and precision education, balanced against critical threats. Realizing these benefits requires proactive, collaborative efforts to establish rigorous validation frameworks; uphold foundational medical competencies; and prioritize ethical, equitable AI integration.',
-    published: '2025-Jun-04',
+    id: '40483392',
+    title: 'Trends and pattern of contraceptive use among women attending a family planning clinic at a tertiary health facility in Ibadan, Nigeria.',
+    abstract: 'BACKGROUND: Despite consistent reporting of high fertility levels in Nigeria, contraceptive prevalence rates remain low. Information on the type of contraceptive uptake among women who visit family planning (FP) clinics is still sketchy in Ibadan. Therefore, we assessed the trend and pattern of contraceptive use among women attending a FP clinic at a tertiary health facility in Ibadan.\n' +
+      'METHODS: A mixed-method design was adopted for the study. Records of women (n = 1,619) who accessed FP services at the University College Hospital [UCH] from 2018 to 2022 were reviewed. The qualitative data included a key informant interview (KII) involving a senior officer of the FP Clinic and a focus group discussion (FGD) among high-fertility (≥ 4 living children) women. Data were analysed using a logistic regression model (α), and thematic analysis was used for the qualitative part of the study.\n' +
+      "RESULTS: The mean age of women was 33.8 ± 6.34 years, 87.7% were in monogamous marriages, 82.3% were Yoruba, and 47.2% did not intend to bear more children. The uptake of long-term and short-term contraceptive methods showed a declining (slope = -3.5) and increasing (slope = + 4.4) trend, respectively. The likelihood of non-use of a long-term contraceptive method was lower among women with ≥ 3 surviving children who had tertiary education (uOR = 0.539, 95% C.I = 0.338-0.859, p = 0.009) and were Christians (uOR = 0.410, 95% C.I = 0.258-0.652, p < 0.001) compared to their counterparts with at most secondary education and were Muslims, respectively. High fertility women who are not using Long-acting reversible contraceptive methods (LACMs) identified fear, partner's influence, misconceptions, cost, parity, privacy, and inconvenience as reasons for the non-use of the methods.\n" +
+      'CONCLUSIONS: Conceptive uptake at the UCH followed an increasing trend from 2018 to 2022. Sensitisation on the adoption of LACMs among high-fertility women might improve the use of such methods in the study area.',
+    published: '2025-Jun-07',
     authors: [
-      'Gin Brian C',
-      'LaForge Kate',
-      'Burk-Rafel Jesse',
-      'Boscardin Christy K'
+      'Atoyebi A O',
+      'Olaoye S O',
+      'Okunlola M A',
+      'Palamuleni M E',
+      'Adebowale A S'
     ],
-    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
-    doi: '10.1097/ACM.0000000000006117',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40479503/'
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-23284-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483392/'
   },
   {
-    id: '40478917',
-    title: 'Hiv and herpes simplex virus 2 incidence among adolescent girls and young women who sell sex (YWSS) in rural south africa: a population-based cohort study.',
-    abstract: 'OBJECTIVE: We investigate the risk of acquiring HIV or HSV-2 among young women who sell sex (YWSS) in rural South Africa.\n' +
-      'DESIGN: A representative population-based prospective cohort study of adolescent girls and young women (AGYW).\n' +
-      'METHODS: Between 2017 and 2019 we interviewed a random sample of AGYW (13-30 years) annually and collected dried blood spot samples for HIV and HSV-2 serology. YWSS were defined as engaging in transactional sex and/or sex work in the past 12 months. We used Cox regression to estimate the association between selling sex and incident HIV or HSV-2 infections, using inverse probability weighting to adjust for potential confounding (age, education, rural/urban locality, socioeconomic status, food insecurity, and pregnancy status).\n' +
-      'RESULTS: Among eligible AGYW (n = 3846), 89.2% provided responses for at least one follow-up time-point, of whom 17% reported selling sex in the past 12 months. HIV and HSV-2 prevalence at enrolment were 21% and 37.9% respectively and higher among YWSS at 42% and 69% respectively. HIV incidence was 3.4/100 person years(py) (95%CI: 2.6-4.2) higher among YWSS than others (8.2 vs 2.7/100py; Hazard Ratio [HR]: 2.70; 95%CI: 1.83-3.99). HSV-2 incidence was 18.4/100py (95%CI: 16.5-20.5), and was higher among YWSS than others (29.3 vs 17.2 100py; HR: 1.83; 95%CI 1.41-2.39). HSV-2 at baseline was associated with subsequent HIV infection (HR: 6.32; 95%CI 3.86-10.47, p<0.001).\n' +
-      'CONCLUSION: HIV and HSV-2 incidence was higher among AGYW selling sex compared those who did not sell sex. These findings highlight the need for PrEP and socio-economic support for this priority population of AGYW in rural settings.',
-    published: '2025-Jun-05',
+    id: '40483390',
+    title: 'The effect of early childhood stature on later cognitive functions in Indonesian adolescents: comparation using the National growth reference and the WHO growth standard.',
+    abstract: 'BACKGROUND: The prevalence of short stature in children under 5 using the National Growth Reference vs. the WHO Growth Standard is known to vary in many countries. Previous research has suggested possible associations between short stature early in childhood, frequently regarded as stunting, and later cognitive function.\n' +
+      'OBJECTIVE: This study aimed to identify the effect of early childhood stature, using the National Indonesian Growth Chart (NIGC) vs. the WHO Growth Standard (WHO), on cognitive function in adolescence.\n' +
+      'METHODS: The study used two cohort data from the Indonesia Family Life Surveys (IFLS) that had both anthropometric data at the age of 2-5 years and at adolescence, as well as information on cognitive function at adolescence. At the age of 2-5 years, the height-for-age Z-score (HAZ) of the subjects were classified using both NIGC and WHO as follows: Normal NIGC & Normal WHO; Normal NIGC & Short WHO; and Short NIGC & Short WHO. In adolescence, cognitive function were assessed. An analysis was performed to assess the associations between variables.\n' +
+      "RESULTS: Cohort-1 included 866 subjects with complete information, while Cohort-2 included 1,436 subjects. After adjustment, subjects aged 2 to 5 years classified as Short NIGC & Short WHO had a consistent significantly negative effect on their later adolescent cognitive function: coefficient regression (95%CI): -2.82 {(-5.58)-(-0.06), p = 0.046}for Cohort-1 and - 4.13 {(-7.22)-(-1.04), p = 0.009} for Cohort-2. On the other hand, those classified as Short for WHO but Normal for NIGC were not associated with later negative cognitive function: coefficient regression (95%CI): -1.88 {(-4.00)- 0.24, p = 0.082} for Cohort-1 and - 1.32 {(-3.50)-0.87, p = 0.237} for Cohort-2. Cognitive function of both cohorts was also significantly influenced by the subjects' education, parental education and resicence in urban and Java-Bali (p < 0.05).\n" +
+      'CONCLUSIONS: Childhood stature was associated with later negative cognitive function only when the children were classified as short using NIGC. Classified as short stature using WHO, but not short using NIGC, was not associated with later negative cognitive function.\n' +
+      'CLINICAL TRIAL NUMBER: Not applicable.',
+    published: '2025-Jun-07',
     authors: [
-      'Magut Faith',        'Mazibuko Lusanda',
-      'Mthiyane Nondumiso', 'Harling Guy',
-      'Baisley Kathy',      'Zuma Thembelihle',
-      'Dreyer Jaco',        'Okesola Nonhlanhla',
-      'Behuhuma Osee',      'Herbst Carina',
-      'Smit Theresa',       'Seeley Janet',
-      'Floyd Sian',         'Birdthistle Isolde',
-      'Cowan Frances',      'Hargreaves James R',
-      'Chimbindi Natsayi',  'Shahmanesh Maryam'
+      'Moelyo Annang Giri',
+      'Pulungan Aman B',
+      'Sitaresmi Mei Neni',
+      'Julia Madarina'
     ],
-    journal: 'AIDS (London, England)',
-    doi: '10.1097/QAD.0000000000004255',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40478917/'
+    journal: 'BMC pediatrics',
+    doi: '10.1186/s12887-025-05829-9',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483390/'
   },
   {
-    id: '40478910',
-    title: 'Predictors of metabolic syndrome among teachers in under-resourced schools in South Africa: Baseline findings from the KaziHealth workplace health intervention.',
-    abstract: "Non-communicable diseases (NCDs) account for most of global deaths, with rising prevalence in low-and middle-income countries. Metabolic syndrome (MetS) is a cluster of interrelated NCD risk factors, including obesity, dyslipidaemia, hypertension, and hyperglycaemia, that amplify NCD risk. Four leading modifiable factors driving NCDs are physical inactivity, tobacco and alcohol use, and an unhealthy diet. Teachers in under-resourced schools face significant health challenges, with their wellbeing often overlooked in South Africa. The prevalence and severity of MetS, adherence to physical activity guidelines, and associations with modifiable NCD risk factors were assessed. This study, part of the 'KaziBantu: Healthy Schools for Healthy Communities' project, included 168 teachers (aged 21-72, mean = 47 years) from 8 under-resourced schools in Gqeberha, South Africa. Data collection included MetS markers, device-measured physical activity, tobacco and alcohol use, and total fat, saturated fat, sugar, and sodium intake. Covariates included age, sex, race, education, and household income. MetS was observed in 58% of participants, with central obesity (79%) being the most prevalent component, followed by hypertension (59%). The largest proportion of participants (26%) had 3 MetS components, followed by 4 components (20%), while 12% had all 5 components. Nearly half (44%) of teachers were physically inactive and 53% exceeded total fat intake recommendations. Bayesian multilevel logistic regression revealed key predictors of MetS: age (per year increase; odds ratio[OR]=1.15, 95% credible interval[CrI] [1.07, 1.24]) and high daily total fat intake (OR=3.37, 95%CrI [1.03, 11.96]) were positively associated, while hours spent in moderate-to-vigorous intensity physical activity per week (OR=0.73, 95%CrI [0.55, 0.95]) and higher monthly household income (OR=0.14, 95%CrI [0.02, 0.72]) were protective. Addressing physical inactivity and unhealthy diets through tailored interventions is crucial to reducing MetS prevalence and improving the health of teachers working in low-resourced settings. Effective solutions should empower healthier lifestyles while tackling structural barriers to health equity.",
-    published: '2025',
-    authors: [
-      'Joubert Nandi',
-      'Adams Larissa',
-      'Hattendorf Jan',
-      'Degen Jan',
-      'Dolley Danielle',
-      'Gresse Annelie',
-      'Müller Ivan',
-      'Nqweniso Siphesihle',
-      'Probst-Hensch Nicole',
-      'Seelig Harald',
-      'Steinmann Peter',
-      'Randt Rosa du',
-      'Pühse Uwe',
-      'Utzinger Jürg',
-      'Gerber Markus',
-      'Walter Cheryl'
-    ],
-    journal: 'PLOS global public health',
-    doi: '10.1371/journal.pgph.0004681',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40478910/'
+    id: '40483307',
+    title: "Household income and children's mental health outcomes: the mediating role of maternal wellbeing and parent-child relationship quality.",
+    abstract: "Uncertainty remains about the mechanism(s) through which household income influences mental health across the life course. The family stress model suggests the role of parental mental health and child-parent relationship quality may be significant, however few studies have explored this longitudinally. The present study aimed to decompose the pathways from low household income at age 3 to children's mental wellbeing at age 6, via maternal wellbeing (age 4) and parent-child relationship quality (age 5). We included four sweeps of the Growing Up in Scotland Study (n = 3639). Weights and multiple imputation were used. Low income was defined as the two bottom quintiles of equivalised household income. Potential mental health difficulties were determined using the Strengths and Difficulties Questionnaire. Mediators were assessed using the Depression, Anxiety and Stress Scale and the Pianta Child-Parent Relationship Scale. A causal mediation analysis was conducted. Confounding factors adjusted for included ethnicity, family type, maternal age, education and employment. Children from low-income households at age 3 were more than twice as likely to have a potential mental health difficulty at age 6 compared to all other children (adjusted odds ratio (OR) 2.16 (95% CI 1.50 to 3.80). Reduced maternal wellbeing mediated 11.21% of the total effect. Adding perceived child-parent relationship quality to this model increased the proportion mediated to 30.89%. Increasing the incomes of young families will improve child mental health. Given the long-term risks associated with childhood mental health difficulties this should be a public health priority.",
+    published: '2025-Jun-07',
+    authors: [ 'Wilson Naomi', 'Minnis Helen', 'McDaid Shari', 'Pearce Anna' ],
+    journal: 'European child & adolescent psychiatry',
+    doi: '10.1007/s00787-025-02765-y',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40483307/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1588,59 +1258,41 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 50
-Removed duplicates: 50 -> 50
-Starting translation of 50 papers...
-Translating paper 1/50
-Translating paper: Big data in economics...
-Translating paper 2/50
-Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
-Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/50
-Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
-Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
-Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/50
-Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/50
-Translating paper: A physical theory of economic growth...
-Translating paper 9/50
-Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/50
-Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/50
-Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/50
-Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 13/50
-Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 14/50
-Translating paper: Experience and education...
-Translating paper 15/50
-Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 16/50
-Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 17/50
-Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 18/50
-Translating paper: The Effect of Using Simulation on Developing Stude...
-Translating paper 19/50
-Translating paper: Economics of education...
-Translating paper 20/50
-Translating paper: Teaching climate complacency: mainstream economics...
-Translating paper 21/50
+Total papers collected: 30
+Removed duplicates: 30 -> 30
+Starting translation of 30 papers...
+Translating paper 1/30
 Translating paper: Mathematics education for sustainable futures: a s...
-Translating paper 22/50
+Translating paper 2/30
+Translating paper: Teacher agency and student diversity in reading ed...
+Translating paper 3/30
+Translating paper: Parental Attitude Towards Sex Education: A Study o...
+Translating paper 4/30
 Translating paper: Virtual reality for education on infection prevent...
-Translating paper 23/50
+Translating paper 5/30
 Translating paper: Fostering students’ motivation and self-efficacy i...
-Translating paper 24/50
+Translating paper 6/30
 Translating paper: Enhancing palliative care through university-commu...
-Translating paper 25/50
+Translating paper 7/30
+Translating paper: ChatGPT Adoption in Higher Education: A Study of F...
+Translating paper 8/30
 Translating paper: Developing the Spanish Physical Literacy Assessmen...
+Translating paper 9/30
+Translating paper: Orchestration of corporate social responsibility i...
+Translating paper 10/30
+Translating paper: Practices and challenges of implementing early chi...
+Translating paper 11/30
+Translating paper: Hemoglobin level, anemia, and obesity among pregna...
+Translating paper 12/30
+Translating paper: Enhancing palliative care through university-commu...
+Translating paper 13/30
+Translating paper: Virtual reality for education on infection prevent...
+Translating paper 14/30
+Translating paper: Effects of a single session of in-person and remot...
+Translating paper 15/30
+Translating paper: Characterizing the Venezuelan situation between 20...
+Translating paper 16/30
+Translating paper: Complex psychological responses to climate change:...
 Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
@@ -1653,76 +1305,54 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
   statusText: 'Internal Server Error',
   errorDetails: undefined
 }
-Translating paper 26/50
-Translating paper: Orchestration of corporate social responsibility i...
-Translating paper 27/50
-Translating paper: Practices and challenges of implementing early chi...
-Translating paper 28/50
-Translating paper: Environmental Support or Just Greenwashing? Unders...
-Translating paper 29/50
-Translating paper: Teachers and sustainability education: exploring t...
-Translating paper 30/50
-Translating paper: EcoHealth as a Curriculum Aim in Science Education...
-Translating paper 31/50
-Translating paper: Using the hierarchy of intervention effectiveness ...
-Translating paper 32/50
-Translating paper: "Modeling the Behaviors and the Interactions That ...
-Translating paper 33/50
-Translating paper: Don't Fear AI Replacing You as a Dentist-Yet....
-Translating paper 34/50
-Translating paper: The Integration of Artificial Intelligence and Aug...
-Translating paper 35/50
-Translating paper: Training Toward Health Justice: A Review of Commun...
-Translating paper 36/50
-Translating paper: Preparing Medical Students and Physicians to Cope ...
-Translating paper 37/50
-Translating paper: An Asynchronous Online Course to Introduce Interpr...
-Translating paper 38/50
-Translating paper: Macy Foundation Innovation Report Part II: From Hy...
-Translating paper 39/50
-Translating paper: Hiv and herpes simplex virus 2 incidence among ado...
-Translating paper 40/50
-Translating paper: Predictors of metabolic syndrome among teachers in...
-Translating paper 41/50
+Translating paper 17/30
+Translating paper: Predicting obesity at adolescence from an early ag...
+Translating paper 18/30
+Translating paper: Trends and pattern of contraceptive use among wome...
+Translating paper 19/30
+Translating paper: The effect of early childhood stature on later cog...
+Translating paper 20/30
+Translating paper: Household income and children's mental health outc...
+Translating paper 21/30
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 42/50
+Translating paper 22/30
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 43/50
+Translating paper 23/30
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 44/50
+Translating paper 24/30
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 45/50
+Translating paper 25/30
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 46/50
+Translating paper 26/30
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 47/50
+Translating paper 27/30
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 48/50
+Translating paper 28/30
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 49/50
+Translating paper 29/30
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
+Translating paper 30/30
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 50 papers
-Removed duplicates: 195 -> 165
-Total papers after merging: 165 (145 existing + 50 new)
-Saved 165 papers to papers.json
+Translation completed: 30 papers
+Removed duplicates: 195 -> 178
+Total papers after merging: 178 (165 existing + 30 new)
+Saved 178 papers to papers.json
 Generating HTML files...
-Generating index.html with 165 papers...
+Generating index.html with 178 papers...
 Successfully generated index.html
-Generating archive.html with 165 papers...
+Generating archive.html with 178 papers...
 Successfully generated archive.html
-Generating journal.html with 165 papers...
+Generating journal.html with 178 papers...
 Successfully generated journal.html
-Generating acquisition.html with 165 papers...
+Generating acquisition.html with 178 papers...
 Successfully generated acquisition.html
-Generating publication.html with 165 papers...
+Generating publication.html with 178 papers...
 Successfully generated publication.html
-Generating registration.html with 165 papers...
+Generating registration.html with 178 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 165
-New papers processed: 50
+Total papers in database: 178
+New papers processed: 30
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-07T15:41:08.062Z
+Timestamp: 2025-06-08T15:28:38.952Z
