@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-08T15:10:09.261Z
+Timestamp: 2025-06-09T15:11:47.451Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 165 existing papers from papers.json
+Loaded 178 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Error fetching arXiv papers: FetchError: request to http://export.arxiv.org/api/query?search_query=abs%3A%22Economics%22%20OR%20%22Education%22%20OR%20ti%3A%22Economics%22%20OR%20%22Education%22&start=0&max_results=10 failed, reason: read ECONNRESET
@@ -69,22 +69,114 @@ Error collecting papers from arxiv: FetchError: request to http://export.arxiv.o
   erroredSysCall: 'read'
 }
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  },
+  {
+    id: '35d0ead88e9bd727c16459e785358b0050e54514',
+    title: 'Economics of education',
+    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
+    journal: 'No journal available',
+    doi: '10.12737/17661',
+    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
+  },
+  {
+    id: '0e83f229b9de199453823283d9550e10e0e5b00f',
+    title: 'Teaching climate complacency: mainstream economics textbooks and the need for transformation in economics education',
+    abstract: 'ABSTRACT In this paper we ask, what is mainstream economics education conveying to its students? Standard mainstream economics textbooks treat the environment as a specialist issue in addition to standard concerns and based on solutions that conform to those standard concerns. When viewed as socialisation for students this is a major problem. To illustrate the problems we set out key aspects of the standard format, and draw attention to the structure and contents from two well-known textbooks. Standard textbooks convey the impression that the ‘environmental issue’ is appropriately incorporated and exhibit two complacency-creating features. First, fundamental problems (acute global ecological breakdown, biodiversity loss, climate change crisis etc), issues and urgency cannot be adequately conveyed to students within this way of framing economics. Second, specific theory and policy solutions suggest that the problem is well in hand. We illustrate using the theory of negative externalities.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'B. Gills', 'J. Morgan' ],
+    journal: 'Globalizations',
+    doi: '10.1080/14747731.2020.1808413',
+    link: 'https://www.semanticscholar.org/paper/0e83f229b9de199453823283d9550e10e0e5b00f'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -104,323 +196,290 @@ Fetched papers from Springer: [
     journal: 'Educational Studies in Mathematics'
   },
   {
-    id: '10.1007/s13384-025-00851-3',
-    title: 'Teacher agency and student diversity in reading education: What do Australian teachers think?',
-    summary: 'State-level governments across Australia have made a commitment via public announcements to ensuring that all schools are teaching reading using ‘consistent’, ‘compulsory’, ‘common practice’. Through a mixed-methods questionnaire with 51 schoolteachers from four states across Australia, this paper examines practitioner experiences of teacher agency and student diversity in reading education. The results reveal that teachers’ confidence in teaching reading often varied depending on their students’ reading proficiencies. High levels of confidence were often attributed to prior experience, professional knowledge, professional learning, access to resources, and/or relationships, while lack of confidence was often attributed to a lack of one or more of these factors. The study also found that while lack of agency did not necessarily equate to dissatisfaction with how teachers were expected to teach reading, primary school teachers had far less agency than cross-sector and secondary school teachers and were the most dissatisfied with their practice. The study highlights, at a time of workforce shortages, that teachers’ sense of agency, respectful relationships and professional learning remain problematic within reading education, especially in the primary sector and wherever student and teacher diversity is ignored.',
-    published: '2025-06-08',
-    authors: [ 'Nicholas, Maria', 'Rawolle, Shaun', 'Skourdoumbis, Andrew' ],
+    id: '10.1007/s43546-024-00776-6',
+    title: 'The development of OPEC: an evolutionary game theory and agent-based modeling approach',
+    summary: 'Over the course of the 1960s and 1970s, the Organization of Petroleum Exporting Countries (OPEC) evolved from a largely ineffective and disorganized group into the dominant force in international crude oil markets. In this paper we employ a methodological toolkit comprised of evolutionary game theory and agent-based modeling to study the development of OPEC over this period. Our evolutionary game theory model incorporates energy-specific variables and behavioral considerations to depict the actions of cartel members over the period of interest. Our agent-based model provides detailed results and demonstrates the importance of growing oil reserves to the outcome of the model.',
+    published: '2025-06-09',
+    authors: [ 'Wood, Aaron D.', 'Mason, Charles F.', 'Finnoff, David' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'SN Business & Economics'
+  },
+  {
+    id: '10.1007/s42438-025-00562-z',
+    title: 'FFF School Strikes as Alternative Civic Classroom: Sociomaterial Entanglements, Assemblages, and Spatial Imaginaries',
+    summary: 'In 2018, thousands of students across the world left their classrooms on Fridays to march the streets, demanding that the adult world face and act upon the climate crisis. Much due to the pace with which the phenomena known as Fridays for Future (FFF) spread in both social and mass media, 2019 saw the largest mobilizations for the climate in history with many young people participating in civil disobedience for the first time. Narratives and frames of a school not providing what young people need to face an uncertain future emerged amidst the school strikes, which prompted this latest wave of youth-led climate activism, bringing about imaginaries of what such an education could look like. Informed by a body of literature which acknowledges the educational value of social movements in general and FFF in particular, this article positions the school strike demonstrations organized by FFF as figurations of an alternative civic classroom . With analytical sensibilities found in socio-material and postdigital theorization on educational spaces, this study draws on ethnographic empirical material from fieldwork at six school strikes in Stockholm, Sweden, to investigate the co-production of these events between the human and non-human — illuminating the way in which spatial imaginaries entangle human practice and technological materiality in alternative civic education in an out-of-school context. Such youth-organized spaces of civic action configured as alternative classrooms in the postdigital context may act as spaces where ‘futures in the present’ are materialized by the young people of today who will inhibit these futures tomorrow.',
+    published: '2025-06-09',
+    authors: [ 'Sernhede, Saralie' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Postdigital Science and Education'
+  },
+  {
+    id: '10.1007/s11199-025-01595-1',
+    title: 'Adolescents’ Advanced STEM Course Intentions: Predictors and Reasoning',
+    summary: 'Taking advanced science, technology, engineering, and mathematics (STEM) courses in high school can support persistence in STEM. Given gender enrollment inequities in many advanced STEM courses, the current study explored potential gender differences in predictors of and reasoning about advanced STEM course intentions in a sample of high school students. Participants ( N  = 750, M age = 15.10 years, SD  = 0.83, 50.5% boys) attending five public high schools in the southeastern United States responded to online questionnaires regarding their current STEM classes and advanced course intentions as well as an open-ended item to capture their STEM intention reasoning. Examining results of the multi-group logistic regression and adolescents’ open-ended responses reveals potential gender differences in motivational factors and highlights the importance of utility value and receiving good STEM class grades (i.e., A’s and B’s) in shaping their advanced STEM course intentions. Findings also suggest that bolstering girls’ interest, self-efficacy, and perceptions of competence in STEM encourages their high school STEM course enrollment. Parental encouragement and others’ efforts to foster utility value and expectancy value can encourage boys’ and girls’ interest in enrolling in advanced STEM courses.',
+    published: '2025-06-09',
+    authors: [
+      'Cerda-Smith, Jacqueline',
+      'Ozturk, Emine',
+      'Joy, Angelina',
+      'Mulvey, Kelly Lynn'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Sex Roles'
+  },
+  {
+    id: '10.1007/s00213-025-06821-y',
+    title: 'Alternating self-administration sessions of cocaine and heroin impact drug-related motivation and vocalisations in rats',
+    summary: 'Rationale Animal models of addiction often study changes in motivation after repeated self-administration of a single drug. However, human users frequently consume multiple drugs, potentially altering their motivation and affective response. Objectives This study investigated how individual rats differentially self-administer cocaine and heroin, and whether motivation to take each drug was associated with affective states, as indicated by ultrasonic vocalisations (USVs). We also determined whether opioid antagonism (via naltrexone), which is known to decrease heroin-taking and associated USVs, also altered motivation and vocalisations for cocaine. Methods Male Lister Hooded rats, with surgically implanted catheters, self-administered cocaine and heroin on alternating days. Motivation was evaluated via drug intake escalation (fixed-ratio schedule), behavioural adaptation to dose reductions (behavioural economics), and progressive ratio breakpoints (with or without naltrexone). USVs were recorded and analysed using machine learning software (DeepSqueak). Results Rats escalated intake of both drugs during training. At the start of each session, rats rapidly self-administered cocaine or heroin; this drug-loading behaviour was associated with an increase in 50 kHz vocalisations. Rats altered their cocaine and heroin intake when drug doses decreased, and this was accompanied by reduced 50 kHz USVs. Lastly, naltrexone reduced progressive ratio breakpoints for heroin but not cocaine; naltrexone also decreased 50 kHz USVs for heroin (an effect which persisted). Conclusions Distinct patterns emerged in motivation and USVs between cocaine and heroin self-administration. Notably, USV frequency did not consistently align with motivation, especially when drug dosage changed. Future research may clarify this divergence.',
+    published: '2025-06-09',
+    authors: [
+      'Adamatzky, Kristian',
+      'Collins, Angharad C.',
+      'Badiani, Aldo',
+      'Singer, Bryan F.'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Psychopharmacology'
+  },
+  {
+    id: '10.1007/s13384-025-00853-1',
+    title: 'In-school enabling programs in the landscape of university pathways for secondary students in Australia: a scoping review',
+    summary: 'In-school enabling programs are emerging across Australia as an alternative pathway to university for secondary students, with a particular focus on widening participation. The importance of these programs is likely to grow considering the recent Australian University Accord recommendations for equity targets. However, little is known about these programs. This study contributes to bridging this gap by developing a desktop scoping inquiry, consisting of a literature review and mapping of existing programs, into what is currently known about in-school enabling programs in Australia. A particular focus is on where these programs fit within the landscape of university pathways available to secondary students and what role they might play in providing equitable access for underrepresented students. Findings suggest that in-school enabling programs are primarily responding to larger structural issues with streaming practices and the traditional Australian Tertiary Admission Rank (ATAR) pathway with programs attempting to alleviate some of the entrenched inequity at play.',
+    published: '2025-06-09',
+    authors: [ 'Ramos, Fabiane', 'Ryan, Naomi', 'Forbes, Meg' ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'The Australian Educational Researcher'
   },
   {
-    id: '10.1007/s13178-025-01128-1',
-    title: 'Parental Attitude Towards Sex Education: A Study of Demographic and Socio-Cultural Determinants in Rural Nigeria',
-    summary: 'Introduction In contemporary rural Nigeria, the level of engagement of teenagers (secondary school students) in risky sexual behaviours is growing, and it has been linked to the rising rate of teenage pregnancy and sexually transmitted diseases (STIs). While there are many studies on factors influencing the attitude of parents/guardians on the inclusion of sex education in secondary school curriculum, a research gap exists concerning the specific strengths of socio-cultural factors influencing parental attitude towards the teaching of sex education in secondary schools in rural Nigeria. Therefore, this study seeks to address this gap by investigating socio-cultural factors influencing parents/guardians’ attitude towards the adoption of sex education in secondary schools in rural Nigeria. Methods A cross-sectional survey design was adopted. Multi-stage sampling technique was adopted to select ( n  = 4620). The data were collected in the year 2023 using a questionnaire schedule. Data were analysed using both descriptive and inferential statistics. Descriptive analysis (frequency distribution tables and percentage) was done to describe and summarize the data. Also, inferential analysis (regressions) was done to test the formulated hypotheses. Results The results revealed that ethnicity (3.21 [2.54–6.57]; p  = 0.001), educational level (7.78 [7.29–13.11]; p  = 0.014), occupation (− 2.41 [(− 1.32)–(− 5.19)]; p  = 0.001), religiosity (5.34 [4.13–6.16]; p  = 0.001) and cultural belief (5.94 [5.18–8.47]; p  = 0.001) have significant effect on the parents/guardians attitudes towards the adoption of sex education in secondary schools in rural Nigeria. Conclusion and Recommendations. The factors influencing parental attitude towards the inclusion of sex education in secondary school curriculum include religiosity, cultural belief, level of education, ethnicity and occupation. Therefore, awareness programs about the importance of sex education for teens should be intensified at all levels. Policy Implications The findings of this study inform policy especially enlightenment programs for parents/guardians on the need and importance of sex education in reducing risky sexual behaviours among secondary school students in rural Nigeria. Most parents/guardians have negative attitudes towards it because of a lack of awareness. ',
-    published: '2025-06-07',
-    authors: [
-      'Raji, Abdullateef',
-      'Sulaiman, Lanre Abdul-Rasheed',
-      'Issa, Moshood',
-      'Muhammed, Abubakar Yunusa',
-      'Yusuff, Ridwan Olabisi',
-      'Abdulbaqi, Salihu Zakariyyah',
-      'Akor, Sunday Joseph'
-    ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Sexuality Research and Social Policy'
-  },
-  {
-    id: '10.1186/s13756-025-01585-8',
-    title: 'Virtual reality for education on infection prevention and control: the impact on medical students’ knowledge, attitudes and practices',
-    summary: 'Background This study aims to analyse the impact of a newly developed infection prevention and control (IPC) Virtual Reality (VR)-module on medical students’ IPC knowledge, attitudes and practices. Additionally, the impact of the module on students’ and healthcare professionals’ (HCPs) confidence regarding IPC decision-making and their insight into consequences of IPC decisions were analysed. Methods The IPC VR-module was developed using a cyclical design process consisting of a prototype, first and final version. Knowledge, attitudes and practices (KAP) regarding IPC were compared between two groups of medical students. The VR-module was added to the IPC program for the VR group. After completion of the program, students of both groups were asked to complete an online questionnaire. Scores were summated for each subscale of the KAP, a Mann-Whitney U test was performed to compare scores between groups. Student and HCP responses to VR-specific questions were dichotomized and a chi-square test was used to compare responses to different versions of the module. Results Students who completed the VR-module ( n  = 34) scored higher on IPC knowledge questions (score 8 / 10), than those who followed the regular program ( n  = 58; score 7/10; p  = 0.003). For the final version, the added value of the VR-module in the program was recognized by 95% of students and 90% of HCPs. Students and HCPs who completed the final version of the VR-module agreed more often with learning objectives of the VR-module than those who completed the first version. 100% vs. 80% for the statement on insight into consequences of choices ( p  < 0.001) and 89% vs. 73% for the statement on confidence taking IPC decisions ( p  < 0.001). Conclusions The innovative IPC VR-module positively impacted students IPC knowledge and was highly appreciated by students and HCPs. VR-specific learning objectives were achieved, especially for the final version of the VR-module, demonstrating the importance of a cyclical design process.',
-    published: '2025-06-07',
-    authors: [
-      'Schippers, Bente',
-      'Coenen, Olga',
-      'Luk, Franka',
-      'Graner, Mark',
-      'Hoek, Frans',
-      'Stikkelbroeck, Nike',
-      'Dronkers, Machteld',
-      'Bowles, Edmée',
-      'Tostmann, Alma'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Antimicrobial Resistance & Infection Control'
-  },
-  {
-    id: '10.1007/s10798-025-10001-6',
-    title: 'Fostering students’ motivation and self-efficacy in science, technology, engineering, and design through design thinking and making in project-based learning: a gender-perspective study in primary education',
-    summary: 'This study examines the impact of integrating Design Thinking and Maker Education into project-based learning (PBL) activities on primary school students’ self-efficacy and motivation in Science, Technology, and Design. Drawing on Bandura’s social cognitive theory, the study addresses the gap in empirical research at the primary education level, particularly concerning gender disparities in STEM engagement. Over a three-year period, 12 public schools in Barcelona ( n  = 318 students in grades 4–6) participated in a five-session workshop where students created technological prototypes using tools like Scratch and Makey Makey. Pre- and post-intervention surveys measured changes in students’ self-efficacy, motivation, and prior behavior. Results revealed significant improvements in students’ self-efficacy, particularly among girls, with moderate to large effect sizes in key items related to confidence and active information-seeking. While most responses indicated high satisfaction, some challenges were noted in early phases of the design process. These findings suggest that early exposure to PBL approaches incorporating Design Thinking and Making can help foster positive attitudes toward STEM and reduce early gender disparities. The study highlights the value of inclusive, hands-on pedagogies and calls for extended interventions and further longitudinal research to assess long-term impact.',
-    published: '2025-06-07',
-    authors: [
-      'Santos, Patricia',
-      'El Aadmi, Khadija',
-      'Calvera-Isabal, Miriam',
-      'Rodríguez, Amaia'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'International Journal of Technology and Design Education'
-  },
-  {
-    id: '10.1186/s12904-025-01795-2',
-    title: 'Enhancing palliative care through university-community partnerships: a systematic review of models, impacts, and challenges',
-    summary: 'Background University-community partnerships (UCPs) represent a transformative model for integrating student experiential learning with community-based palliative care. These partnerships enhance empathy, interdisciplinary collaboration, and service delivery, while addressing gaps in end-of-life care. Aim This systematic review evaluated the effectiveness of UCPs in palliative care, focusing on their impact on student learning, community outcomes, and innovative practices. Methods Following the PRISMA 2020 guidelines, a systematic search was conducted across PubMed, Scopus, Web of Science, and CINAHL databases for studies published between January 2014 and March 2024. This search yielded 206 unique citations. Nine studies were included after the full-text screening. Grey literature sources (e.g., reports and web-based articles) were screened but excluded due to insufficient methodological rigor, and thematic synthesis was conducted using NVivo, with two independent reviewers performing data extraction. The Risk of bias was assessed using the ROBIS (qualitative) and RoB 2 (quantitative) tools. Results Of the 206 records screened, nine studies (eight qualitative and one quantitative) met the inclusion criteria. The identified UCP models include transactional, transformational, and community-based participatory research (CBPR), with CBPR noted for contextual adaptability. UCPs contributed to improving student empathy, interprofessional learning, and community empowerment. Barriers include limited resources, cultural mismatches, and inconsistent stakeholder alignments. Innovations, such as telehealth and virtual learning, were also observed. Conclusion UCPs have strong potential to enhance palliative care education and delivery. Scaling these models requires sustainable funding, culturally responsive approaches, and policy integration. Future research must emphasize longitudinal designs and standardized evaluation structures.',
-    published: '2025-06-07',
-    authors: [ 'Chandak, Alaka', 'Kulkarni, Priyadarshini Bhalchandra' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'BMC Palliative Care'
-  },
-  {
-    id: '10.1007/s10758-025-09865-3',
-    title: 'ChatGPT Adoption in Higher Education: A Study of Faculty Generation Cohort, Self-Efficacy, and Innovativeness',
-    summary: 'Generative AI such as ChatGPT has become prevalent in teaching higher education courses. There is a need to examine the perceptions of faculty to understand their decision in using ChatGPT. To address this gap, this study examined the generation cohort differences in relation to generative AI using Generation Cohort Theory. Further, this study also examined self-efficacy and innovativeness as positive predictors of the use of ChatGPT, using the theoretical frameworks of Social Cognitive Theory and Diffusions of Innovation. This study recruited 150 faculty participants from higher institutions in Texas using a convenience sampling approach. Chi-square results indicated that Generation Y and Generation X faculty were more likely to use generative AI in comparison to other generation cohorts. Generation Y faculty were also the most likely to incorporate ChatGPT in their assignments than other cohorts. Regression results also showed that self-efficacy and innovativeness were positive predictors of the use of ChatGPT in the classroom. Implications are also offered for education stakeholders.',
-    published: '2025-06-07',
-    authors: [ 'Ramos Salazar, Leslie', 'Peeples, Shanna' ],
+    id: '10.1007/s40847-025-00446-9',
+    title: 'Educational infrastructure challenges in tribal regions in India: an enquiry in the context of NEP 2020',
+    summary: 'India’s National Education Policy 2020 recognizes the vital role of physical infrastructure in improving quality of education. In India, the tribal regions, though, suffer from unique challenges due to geographical remoteness, cultural distinctiveness, economic marginalization, and inadequate infrastructure leading to educational disparities compared to non-tribal areas. This paper explores the complex relationship between physical infrastructure and educational quality among marginalized communities. Acknowledging the recognized impact of physical infrastructure on educational outcomes, the study addresses the gap in terms of lack of comprehensive studies particularly focused on these areas. To address this gap, we introduce a model to identify key determinants that enhance physical infrastructure and, consequently, educational quality. Study uses exploratory factor analysis to develop a Quality of Education Index and applies confirmatory factor analysis to assess the performance of 2481 tribal schools in Jhargram (West Bengal), a predominant tribal district in India. Additionally, a structural equation model is employed to identify the primary factors influencing educational quality in these schools. The key findings emphasize the importance of focusing on sanitation, healthcare, and building infrastructure, supporting the idea that a comprehensive approach, including both academic and non-academic aspects, is essential for enhancing education in India’s tribal regions.',
+    published: '2025-06-09',
+    authors: [ 'Patra, Dhananjay', 'Dutta, Meghna', 'Bharti, Nalin' ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Technology, Knowledge and Learning'
+    journal: 'Journal of Social and Economic Development'
   },
   {
-    id: '10.1007/s00431-025-06223-4',
-    title: 'Developing the Spanish Physical Literacy Assessment for Children (SPLA-C): a delphi-based model for assessing physical literacy in schoolchildren aged 6–12 years',
-    summary: 'There are different recognized assessments of physical literacy (PL), with the Canadian Assessment of Physical Literacy-2 (CAPL-2) being the most widely recognized worldwide. Owing to sociocultural differences, creating a country-specific PL assessment becomes necessary. The aims of this study are 1) to develop an assessment model of the Spanish Physical Literacy Assessment for Children (SPLA-C) for Spanish schoolchildren aged 6–12 years and 2) to identify the assessment weights for each of the SPLA-C components, specifying the optimal tools. A documentary analysis was carried out in which experts were consulted, and the Delphi method was used. Twenty-eight experts took part in the Delphi process, and 23 experts completed all the rounds of the survey. Experts’ opinions are used to develop the assessment model of the SPLA-C and to identify the assessment weights for each component. A general consensus was obtained by the committee of experts for the proposed tools (85.2%). Conclusion :The SPLA-C could be considered a suitable method for assessing PL in Spanish children and adolescents and could be adapted to their educational-curricular and cultural context, after future studies analyze its psychometric properties, including the feasibility, reliability, and validity of each of the proposed instruments. What is Known : • PL supports lifelong physical activity. • No culturally adapted PL assessment exists for Spanish children. What is New : • The SPLA-C is a culturally adapted model for Spanish schoolchildren. • It defines five PL components and provides consensus-based assessment tools.',
-    published: '2025-06-07',
+    id: '10.1007/s11858-025-01705-z',
+    title: 'Systematics review of the interdisciplinary exchange among mathematics education and neuroscience',
+    summary: 'This paper presents systematic survey of empirical studies that implement neurocognitive tools to study mathematical processing, learning and problem solving. The survey comprised three stages: identification, screening, and analysis. The search was restricted to English-language papers published in research journals. Of a total of 35,692 records that were identified initially, 598 papers were found eligible for precise data analysis through screening procedure. The bibliometric analysis focused on publication years, journals and authors as well as on collaboration between the researchers. In the content analysis, along with the analysis of neurocognitive tools used in the studies, we screened the papers for the groups of research participants; mathematical topics, concepts and skills examined in the studies. We found that there has been tremendous growth in the past decade in the use of neurocognitive tools to research mathematics learning. The most commonly used tools are the fMRI, EEG, and eye tracking, while use of tools such as GSR and fNIRS remains highly uncommon. There is a strong focus on studying arithmetic, and a recent trend toward examining problem-solving skills, but higher mathematics learning and equation solving remain under-researched. Finally, we found that despite the immense growth in neuroscience research relevant to mathematics education, few studies of this type are published in mathematics education journals.',
+    published: '2025-06-09',
     authors: [
-      'Pastor-Cisneros, Raquel',
-      'Mendoza-Muñoz, María',
-      'Carlos-Vivas, Jorge',
-      'Adsuar-Sala, José Carmelo',
-      'López-Gil, José Francisco',
-      'SPLA-C expert commitee'
+      'Leikin, Roza',
+      'Hsu, Hui-Yu',
+      'Ansari, Daniel',
+      'Abrahamson, Dor',
+      'Obersteiner, Andreas',
+      'Miskin, Maayana',
+      'Waisman, Ilana'
     ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'European Journal of Pediatrics'
-  },
-  {
-    id: '10.1186/s40991-025-00116-3',
-    title: 'Orchestration of corporate social responsibility in company law – reframing human security through education',
-    summary: 'The objective of this paper is to argue the fundamental significance of education in addressing notable gaps in the constitutive, performance and evaluation criteria for corporate social responsibility (CSR) and endeavours to showcase the complementarity between education, human security, sustainable human development, and the pursuit of CSR as an ideal normative paradigm. An abstractive approach to studying CSR, which is common with some authors engages with corporate philanthropy, which has not been helpful outside traditional CSR paradigms without looking at key dynamics that can robustly underpin successful CSR. The paper explores the systemic nexus between sustainable development as an educational externality when embedded in CSR, climate change and action competence and how it dovetails into ‘education for sustainable development’. Methodologically, this paper doctrinally relies on the systematic analysis of written data sources to theoretically explore the central significance, and complementarity between human security, education, and human dignity and how they can orchestrate a holistic CSR paradigm. In 1994, the United Nations Development Programme (UNDP) in formulating the human security doctrine recognised the syncretic correlation between human security, education, and sustainable human development as fundamental elements that should underpin CSR. This paper contends that these are necessary intrinsic components of human dignity as the central factor that justifies a multi-dimensional and proactive approach to CSR. Despite the criticisms against human security, this paper identifies it as an important concept that could instrumentally orchestrate a model of CSR that uniformly mainstreams sustainable human development and human dignity that leverages education which has routinely and traditionally been seen as a constitutive component of CSR. It reveals how a holistic path to CSR can reinvigorate the central pillars of human security and human dignity using education as a springboard and makes a compelling case for supporting explicit references to education in company law with appropriate human security informed constitutive, performance and evaluation criteria which are absent in existing legally orchestrated CSR.',
-    published: '2025-06-07',
-    authors: [ 'Osuji, Onyeka K.', 'Edeji, Obinna C.' ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Journal of Sustainable Business'
-  },
-  {
-    id: '10.1186/s40723-025-00146-1',
-    title: 'Practices and challenges of implementing early childhood care and education in Bahir Dar city administration, Ethiopia',
-    summary: 'Early childhood care and education (ECCE) is the basis for the enduring instillation of personal habits and societal ideals. Thus, the study aimed to investigate the practice and challenges of implementing ECCE in Bahir Dar city administration, Ethiopia. To this end, a qualitative research approach with a multiple case study design was used. Qualitative data were collected from 40 participants (ECCE teachers, caregivers, unit leaders, school principals, and Bahir Dar city administration education experts). Observation, interviewing, and focus group discussion were used as data collection instruments. As a result, ECCE was poorly implemented. By and large, the finding of this study identified many challenges that inhibit the successful implementation of ECCE, such as lack of teachers and caregivers’ training, poor physical environment, inadequate resources/facilities, inappropriate teacher–student ratio, and unrealistic demands of parents. These hindrances increase learning gaps that widen over time, contributing to higher dropout rates and reduced literacy levels. The study results would have important implications for the advancement of the ECCE program. Additionally, the findings might inform policymakers and educators on areas that require further development or intervention, ultimately contributing to improving of early childhood learning experiences.',
-    published: '2025-06-07',
-    authors: [ 'Wendie, Asmamaw Ashete', 'Berhanu, Kelemu Zelalem' ],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'International Journal of Child Care and Education Policy'
+    journal: 'ZDM – Mathematics Education'
+  },
+  {
+    id: '10.1007/s11191-025-00655-y',
+    title: 'The Power of Apprenticeships in Shaping Preservice Teachers’ Confidence and Understanding of the Nature of Science in Thailand',
+    summary: 'This study examines the impact of a 90-h apprenticeship on Thai preservice science teachers’ confidence and understanding of nature of science (NOS). Twenty-eight participants, specializing in physics, chemistry, biology, or general science, engaged in a hands-on apprenticeship under practicing scientists. To evaluate NOS, pre- and post-apprenticeship assessments were conducted using a 5-point Likert scale to measure participants’ confidence in NOS tenets, while the VNOS Form C, which focuses on understanding of NOS tenets, was administered only post-apprenticeship . Pre-apprenticeship, participants exhibited moderate confidence in NOS, particularly in areas related to creativity and the socio-cultural aspects of science. After the apprenticeship including reflective discussion, significant improvements were observed. Post-apprenticeship survey results showed strong agreement across all NOS tenets, with mode values of 5 and significantly reduced quartile ranges (IQRs), indicating greater consensus among participants. A Wilcoxon signed-rank test revealed that participants’ median total score was significantly higher than the threshold score of 12 ( V  = 133.5, p  = 0.0067), indicating enhanced NOS comprehension. These findings suggest that experiential learning, such as apprenticeships, plays a critical role in shaping preservice teachers’ confidence and understanding of NOS by bridging theoretical concepts with real-world scientific practices. This study emphasizes the need for integrating both authentic scientific experiences and explicit NOS discussion in teacher education programs to foster a well-rounded understanding of nature of science.',
+    published: '2025-06-09',
+    authors: [ 'Eambaipreuk, Arunee', 'Pongsophon, Pongprapan' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Science & Education'
+  },
+  {
+    id: '10.1007/s11211-025-00457-1',
+    title: 'Social Justice Teacher Education in Latin America for a Post-COVID-19 World: A Systematic Review',
+    summary: 'Social Justice Teacher Education (SJTE) prepares teachers to confront issues of inequity and marginalization within educational contexts—an endeavor that has become increasingly relevant in highly unequal regions in the aftermath of the COVID-19 pandemic. This systematic review maps research on social justice (SJ) theoretical approaches and the production of empirical knowledge about SJTE in Latin American, identifying predominant research foci, theoretical currents, and regional findings. Following PRISMA guidelines, the review included a meta-analysis (metatheory/meta-data) of 52 indexed works (WoS, Scopus, and Scielo Citation Index) published up to 2022. The results show that most research is concentrated in Chile and Brazil, and that theoretical approaches intersect U.S.-based SJTE frameworks and Latin American or international critical educational theories, emphasizing the importance of situated and community-based pedagogies. Most works focus on preservice teachers’ conceptions of SJ, or the challenges faced by teacher educators during the design or implementation of specific SJTE activities. Fewer studies examine SJ-oriented teaching activities designed and implemented by preservice teachers as part of the fieldwork experiences, with the purpose of transforming the realities of marginalized students in local communities. The studies underscore the need to position care, affectivity, and the development of empathy as guiding principles of SJTE and teaching, especially in contexts of continuous political unrest. Further analysis of the design, implementation, and (self-)evaluation of SJTE programs’ pedagogical models, beyond punctual experiences, would contribute to understanding how their decision-making proccesses enable—or constrain—the development of socially just programs, as well as which pedagogical practices facilitate the development of the competences that their future teachers will need to work in challenging post-COVID-19 educational systems.',
+    published: '2025-06-09',
+    authors: [ 'Cuenca Vivanco, Catalina', 'Rojas, María Teresa' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'Social Justice Research'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40483527',
-    title: 'Hemoglobin level, anemia, and obesity among pregnant women in Kigali, Rwanda: a hospital-based cross-sectional study.',
-    abstract: 'BACKGROUND: Globally, there is an increasing trend of obesity in pregnant women, and Sub-Saharan Africa is not an exception. Recently, hemoglobin and anemia have received more attention as predictors of maternal obesity. No such study exists in Rwanda. Thus, the current study aimed to investigate the prevalence and the factors associated with obesity, including hemoglobin and anemia, among pregnant women in Kigali, Rwanda.\n' +
-      'METHODS: A cross-sectional study was conducted in two hospitals in Kigali, Rwanda, from June to August 2024. A questionnaire was used to collect sociodemographic data. Weight, height, and hemoglobin were measured using standard procedures. Multinomial logistic regression analysis was performed.\n' +
-      'RESULTS: A total of 445 pregnant women were recruited. The median (interquartile range [IQR]) age and parity were 30.0 (26.0‒35.0) years and 1 (0‒3), respectively. Of the 445 women, 143 (32.1%), 249 (56.0%), and 53 (11.9%) were of normal weight, overweight, and obese, respectively. One hundred and seven (24.0%) pregnant women had anemia. In multivariate multinomial regression, no significant association was found between age, parity, residency, education, maternal occupation, hemoglobin level, anemia, and overweight status. Being from rural areas (adjusted odds ratio [AOR] = 2.54, 95% confidence interval [CI] 1.16‒5.56) and being a housewife (AOR = 4.34, 95% 1.42‒13.26) were significantly associated with obesity. While an increase in hemoglobin level was associated with obesity (AOR = 1.28, 95% CI 1.02‒1.60), anemia was inversely negatively associated with obesity (AOR = 0.33, 95% CI 0.12‒0.93).\n' +
-      'CONCLUSION: This study indicates that 12% of the pregnant women in Rwanda were obese. Hemoglobin and anemia are associated with maternal obesity in Rwanda. There is a need for more efforts in nutritional programs targeting pregnant women to combat maternal obesity in Rwanda. Future research is recommended to explore the impact of maternal obesity on maternal and perinatal health.',
-    published: '2025-Jun-07',
+    id: '40485554',
+    title: 'Longitudinal study of factors predicting toothbrushing less than twice daily at age 2 years in the FinnBrain Birth Cohort Study.',
+    abstract: "We aimed to identify factors predicting toothbrushing less than twice daily at the age of 2 years. The data from the FinnBrain Birth Cohort Study of 506 mother-father pairs (with 506 children) were used. Logistic regression analyses were conducted of the outcome (brushing less than twice daily) at the age of 24 months. Independent variables were parental age, parental education, siblings in the household, use of childcare service, and information about whether the parents are divorced, as well as brushing of the child's teeth and the parents' own teeth at 12 months with their first order interactions. More than one quarter of the parents reported brushing their child's teeth less than twice daily at the age of 2 years. The strongest predictor for brushing the child's teeth less than twice daily at the age of 24 months was brushing child's teeth less than twice daily at the age of 12 months; the effect was significantly stronger for those children whose fathers had low education than for those whose fathers had medium/high education. Other predictors were mother's and father's own brushing at 12 months, childcare at home, and mother's low education. To improve toothbrushing in young children, early intervention is needed in families where parents brush their own teeth less than twice daily and in families with low education.",
+    published: '2025-Jun-09',
     authors: [
-      'Ahmed Mustafa I',
-      'Bashir Amal O',
-      'Hassan Ahmed A',
-      'Adam Ishag'
+      'Suokko Hanna',
+      'Tolvanen Mimmi',
+      'Virtanen Jorma',
+      'Suominen Auli',
+      'Karlsson Linnea',
+      'Karlsson Hasse',
+      'Lahti Satu'
     ],
-    journal: 'Journal of health, population, and nutrition',
-    doi: '10.1186/s41043-025-00938-8',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483527/'
+    journal: 'European journal of oral sciences',
+    doi: '10.1111/eos.70024',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485554/'
   },
   {
-    id: '40483520',
-    title: 'Enhancing palliative care through university-community partnerships: a systematic review of models, impacts, and challenges.',
-    abstract: 'BACKGROUND: University-community partnerships (UCPs) represent a transformative model for integrating student experiential learning with community-based palliative care. These partnerships enhance empathy, interdisciplinary collaboration, and service delivery, while addressing gaps in end-of-life care.\n' +
-      'AIM: This systematic review evaluated the effectiveness of UCPs in palliative care, focusing on their impact on student learning, community outcomes, and innovative practices.\n' +
-      'METHODS: Following the PRISMA 2020 guidelines, a systematic search was conducted across PubMed, Scopus, Web of Science, and CINAHL databases for studies published between January 2014 and March 2024. This search yielded 206 unique citations. Nine studies were included after the full-text screening. Grey literature sources (e.g., reports and web-based articles) were screened but excluded due to insufficient methodological rigor, and thematic synthesis was conducted using NVivo, with two independent reviewers performing data extraction. The Risk of bias was assessed using the ROBIS (qualitative) and RoB 2 (quantitative) tools.\n' +
-      'RESULTS: Of the 206 records screened, nine studies (eight qualitative and one quantitative) met the inclusion criteria. The identified UCP models include transactional, transformational, and community-based participatory research (CBPR), with CBPR noted for contextual adaptability. UCPs contributed to improving student empathy, interprofessional learning, and community empowerment. Barriers include limited resources, cultural mismatches, and inconsistent stakeholder alignments. Innovations, such as telehealth and virtual learning, were also observed.\n' +
-      'CONCLUSION: UCPs have strong potential to enhance palliative care education and delivery. Scaling these models requires sustainable funding, culturally responsive approaches, and policy integration. Future research must emphasize longitudinal designs and standardized evaluation structures.',
-    published: '2025-Jun-07',
-    authors: [ 'Chandak Alaka', 'Kulkarni Priyadarshini Bhalchandra' ],
-    journal: 'BMC palliative care',
-    doi: '10.1186/s12904-025-01795-2',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483520/'
+    id: '40485492',
+    title: 'One size does not fit all: how type of menopause and hormone therapy matters for brain health.',
+    abstract: 'BACKGROUND: Menopause is an inflection point in the ageing trajectory. Independent of chronological age, menopause is associated with the biological ageing of several body systems. In this review, we highlight the importance of considering the influence of menopause - its types, symptoms and interventions - on brain health. Supplementing the loss of ovarian hormones with menopausal hormone therapy (MHT) may be key for supporting the healthy brain ageing of females. MHT has been associated with reduced risk of several neurodegenerative diseases; however, its benefits are not always observed on brain health.\n' +
+      'AIMS: This narrative review highlights often overlooked MHT factors that influence its effects to produce positive or negative effects on brain health, cognition and neurodegenerative disease risk. These factors include the many varieties of MHT, including formulation, administration route and dosing schedule, as well as individual characteristics, particularly the presence of vasomotor symptoms and apolipoprotein ε4 (APOE4) genotype.\n' +
+      'METHOD: PubMed and Scopus were used to identify articles with relevant search terms.\n' +
+      'RESULTS: Menopause factors, including age, abruptness and symptoms, influence brain ageing. MHT influences brain health, with transdermal MHT showing more positive effects on brain ageing, but its effectiveness may depend on individual factors such as genotype, reproductive and lifestyle factors.\n' +
+      'CONCLUSIONS: To develop effective and individualised MHT treatments, further research is needed. Preclinical models must consider the type of human menopause and MHT. To achieve the greatest dementia prevention in females, more menopause education and care is needed that extends beyond 60 years of age, or 10 years postmenopause.',
+    published: '2025-Jun-09',
+    authors: [ 'Gravelsins Laura L', 'Galea Liisa A M' ],
+    journal: 'The British journal of psychiatry : the journal of mental science',
+    doi: '10.1192/bjp.2025.52',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485492/'
   },
   {
-    id: '40483476',
-    title: "Virtual reality for education on infection prevention and control: the impact on medical students' knowledge, attitudes and practices.",
-    abstract: "BACKGROUND: This study aims to analyse the impact of a newly developed infection prevention and control (IPC) Virtual Reality (VR)-module on medical students' IPC knowledge, attitudes and practices. Additionally, the impact of the module on students' and healthcare professionals' (HCPs) confidence regarding IPC decision-making and their insight into consequences of IPC decisions were analysed.\n" +
-      'METHODS: The IPC VR-module was developed using a cyclical design process consisting of a prototype, first and final version. Knowledge, attitudes and practices (KAP) regarding IPC were compared between two groups of medical students. The VR-module was added to the IPC program for the VR group. After completion of the program, students of both groups were asked to complete an online questionnaire. Scores were summated for each subscale of the KAP, a Mann-Whitney U test was performed to compare scores between groups. Student and HCP responses to VR-specific questions were dichotomized and a chi-square test was used to compare responses to different versions of the module.\n' +
-      'RESULTS: Students who completed the VR-module (n = 34) scored higher on IPC knowledge questions (score 8 / 10), than those who followed the regular program (n = 58; score 7/10; p = 0.003). For the final version, the added value of the VR-module in the program was recognized by 95% of students and 90% of HCPs. Students and HCPs who completed the final version of the VR-module agreed more often with learning objectives of the VR-module than those who completed the first version. 100% vs. 80% for the statement on insight into consequences of choices (p < 0.001) and 89% vs. 73% for the statement on confidence taking IPC decisions (p < 0.001).\n' +
-      'CONCLUSIONS: The innovative IPC VR-module positively impacted students IPC knowledge and was highly appreciated by students and HCPs. VR-specific learning objectives were achieved, especially for the final version of the VR-module, demonstrating the importance of a cyclical design process.',
-    published: '2025-Jun-07',
+    id: '40485457',
+    title: 'From Awareness to Action: teaching ethical decision-making to health-care leaders.',
+    abstract: 'This article presents a novel pedagogical approach for teaching ethical decision-making to health-care leaders, offered through a collaboration between the Harvard Medical School Center for Bioethics and the Advanced Ethics in Leadership Program (AELP). The approach centers on the AELP Triple-A Framework, which guides participants through the process of identifying ethical issues, analyzing competing values, and developing strategic, context-sensitive action plans. Unlike traditional medical ethics education that often focuses on patient-physician relationships and clinical challenges, this model emphasizes leadership challenges within complex health-care organizations and trains clinicians and health leaders to respond ethically and effectively to systemic pressures. The framework is taught through immersive, implementation-focused workshops that combine pre-readings, case-based exercises, small-group collaboration, and iterative feedback. A featured case study on physician unionization illustrates how participants used the framework to move beyond technical solutions and engage deeply with questions of professional identity, institutional culture, and ethical leadership. Through this exercise, participants reconceived unionization not merely as a labor dispute but as a reflection of deeper organizational and moral tensions. The workshop model fosters the development of ethical leadership skills that are both principled and practical, enabling clinicians to navigate the evolving challenges of contemporary health care with moral clarity and strategic competence.',
+    published: '2025',
+    authors: [ 'Bedzow Ira', 'Wynia Matthew K', 'Brendel Rebecca Weintraub' ],
+    journal: 'Perspectives in biology and medicine',
+    doi: '10.1353/pbm.2025.a962025',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485457/'
+  },
+  {
+    id: '40485453',
+    title: 'Health Equity as Mission and Source of Moral Distress: examining health systems actions through a conflict of interest lens.',
+    abstract: "In recent years, health systems throughout the United States have made public declarations committing to health equity. Yet clinicians in these systems often feel they are not set up to support equitable care. This discrepancy between proclaimed commitments and on-the-ground realities is one of the major reasons for the continued rise in clinician moral distress. Hospitals' mission statements are often multifaceted. Therefore, when one facet, such as research or education, is prioritized, another, such as health equity, may suffer. Do these represent conflicts of interests? Ethical dilemmas? What about the fiduciary responsibilities of a health system? How do those come into play when a hospital is deciding which aspects of its mission to prioritize? This article discusses hospital missions, values, and fiduciary responsibilities; characterizes the nature of the conflicts that arise when key aspects of these commitments and responsibilities are at odds; and offers hospitals and health systems insights for characterizing these conflicts when they arise. By assisting health systems to communicate better with their staff, the authors hope to propel systems further towards achieving health equity and concurrently decrease clinician moral distress.",
+    published: '2025',
+    authors: [ 'Peeler Katherine R', 'Rubin Emily B' ],
+    journal: 'Perspectives in biology and medicine',
+    doi: '10.1353/pbm.2025.a962021',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485453/'
+  },
+  {
+    id: '40485412',
+    title: 'Teaching experimental design: outputs from the FELASA Working Group.',
+    abstract: 'Good education and training for scientists undertaking animal experiments is important for providing understanding of key issues in experimental design (ED) and for alleviating continuing concerns about the conduct of animal and  research studies. We present here outputs from the FELASA Experimental Design Working Group, set up to consider the current provision of ED teaching and how it might be improved and harmonised across the laboratory animal science community. It is hoped that these outputs will provide practical help to ED teachers who wish to enhance the effectiveness of their teaching; they include• A list of learning outcomes (LOs) that should be achieved by learners, principally aimed at early career researchers;• An example of an (adaptable) template of how these LOs could be addressed in 16 h (12 h tuition plus breaks), ideally as a 2-day workshop. If circumstances make 12 h tuition impossible to achieve, key LOs for a shorter course are identified;• Guidance and recommendations for running ED courses, including some ideas for achieving effective learning, the ideal skill set for tutors, some teaching scenarios, and the amount of statistics to have in a basic experimental design course;• A glossary of relevant terms (in supplemental material);• A description of how the 2-day course format ran on two trial occasions, with results of informal assessment of participants as well as their feedback, both immediate and a year afterwards, indicating it was effective;• A programme for a potential 2-day, training-the-trainers style, workshop, describing its key elements and the results of trialling this with a range of ED tutors.',
+    published: '2025-Jun-09',
     authors: [
-      'Schippers Bente',
-      'Coenen Olga',
-      'Luk Franka',
-      'Graner Mark',
-      'van Hoek Frans',
-      'Stikkelbroeck Nike',
-      'Dronkers Machteld',
-      'Bowles Edmée',
-      'Tostmann Alma'
+      'Fry Derek',
+      'Berdoy Manuel',
+      'Forni Monica',
+      'Sorzano Carlos Oscar S',
+      'Steckler Thomas',
+      'Franco Nuno H'
     ],
-    journal: 'Antimicrobial resistance and infection control',
-    doi: '10.1186/s13756-025-01585-8',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483476/'
+    journal: 'Laboratory animals',
+    doi: '10.1177/00236772241295308',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485412/'
   },
   {
-    id: '40483448',
-    title: 'Effects of a single session of in-person and remote strength training on low back pain and disability outcomes in pregnant women: a randomized and controlled crossover clinical trial.',
-    abstract: 'BACKGROUND: The objective of the present study is to evaluate the effects of a single session of in-person and remote strength training on the outcomes of low back pain, functional disability, and enjoyment in pregnant women.\n' +
-      'METHODS: The methodology used was an approved controlled and randomized clinical trial by the Research Ethics Committee and registered in the Brazilian Clinical Trials Registry. The study involved seventeen pregnant women undergoing one in-person strength training session (IS), one remote strength training session (RS), and one control session (CS) in a randomly determined order. The team conducted assessments using questionnaires for low back pain, functional disability, and enjoyment. We compared the Generalized Estimating Equations (GEE) method with a Bonferroni complementary test (α = 0.05) and the Mann-Whitney U test.\n' +
-      'RESULTS: Reduced values of low back pain were found after the session for the SUM item in the in-person (Δ-2.06), remote (Δ-1.59), and control (Δ-2.17) sessions, as well as for the INTENSITY item in the in-person (Δ-0.23), remote (Δ-0.12), and control (Δ-0.3) sessions. Reductions in disability values 24 h after the session were observed for the remote (Δ-0.76) and control (Δ-1.59) sessions. Additionally, positive enjoyment values were noted after in-person (117) and remote (119) sessions.\n' +
-      'CONCLUSION: It is concluded that a strength training session can potentially improve or maintain the acute low back pain and disability scale without causing an increase in low back pain symptoms. Furthermore, it can promote a high level of enjoyment, regardless of whether it is conducted in person or remotely. Health education strategies, such as those proposed by the control session in this study, are also beneficial.',
-    published: '2025-Jun-07',
+    id: '40485398',
+    title: 'Nitrogen Addition and Warming Drive Multilevel Plant Carbon Allocation via Storage-Growth Trade-Offs: A Meta-Analysis.',
+    abstract: 'Atmospheric nitrogen (N) deposition and global warming are becoming increasingly severe, yet their combined effects on plant carbon allocation, a key factor influencing ecosystem carbon sequestration, remain poorly understood. Through a global meta-analysis (1371 experimental output observations), we investigated how N addition and warming regulated carbon allocation strategies across multiple plant levels and species types. Results revealed that N addition significantly enhanced above-ground nonstructural carbohydrates (NSC) storage, whereas both warming and N addition reduced below-ground NSC reserves. However, N addition and warming did not produce synergistic effects on whole-plant NSC storage. In contrast, the combined treatment of N addition and warming synergistically promoted structural growth at the above-, below-ground, and whole-plant levels. Herbaceous plants exhibited NSC-driven plasticity under N addition, whereas woody plants demonstrated stronger biomass accumulation under warming, aligning with their distinct carbon economics. In addition, environmental factors (e.g., soil total nitrogen, soil organic carbon) also modulated these responses, showing that high soil nitrogen reduced below-ground NSC allocation. Our findings challenge the assumption of linear organ-level combined effects of N addition and warming on plant carbon allocation and highlight the need to incorporate plant species types and environmental heterogeneity into carbon cycle models under multi-stressor global change.',
+    published: '2025',
+    authors: [ 'Han Yuzhen', 'Hu Man', 'Dang Haishan', 'Zhang Quanfa' ],
+    journal: 'Physiologia plantarum',
+    doi: '10.1111/ppl.70324',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485398/'
+  },
+  {
+    id: '40485396',
+    title: 'Relationship Between Type of Delivery and Growth Trajectory in the First Year of Life: The Araraquara Cohort Study.',
+    abstract: 'OBJECTIVE: The relationship between cesarean delivery and infant growth is controversial. Therefore, the aim of this study was to evaluate the association between the type of delivery and the growth trajectory of Brazilian infants in the first year of life.\n' +
+      'MATERIALS AND METHODS: This was a prospective cohort study conducted between 2016 and 2021 as part of the Araraquara Cohort Study that assessed quarterly anthropometry of 719 and 667 infants to evaluate, respectively, the effects of type of delivery on weight gain velocity (WGV) and length gain velocity (LGV) using generalized estimating equations.\n' +
+      'RESULTS: The type of delivery was not associated with WGV or LGV in the first year of life. Higher mean WGV was observed among infants born to mothers with higher education, male infants, formula-fed infants, and those with the lowest birth weight, while infants with diarrhea had lower mean WGV. Higher mean LGV was found among formula-fed infants and infants born to taller mothers, while infants with the highest length at birth had lower LGV.\n' +
+      'CONCLUSION: The factors that explain WGV and LGV in this population are more closely related to maternal characteristics such as height and educational attainment, birth characteristics, feeding behavior, and morbidity than to the type of delivery.',
+    published: '2025-Jun',
     authors: [
-      'Pires Valéria Jardim',
-      'Miranda Camila',
-      'Fraga Bruna Sacchi',
-      'Führ Yasmin Bortoli',
-      'Silva Andressa Martins E',
-      'Kanitz Ana Carolina'
+      'de Sousa Nobre Roseanne',
+      'Silva Paula Louro',
+      'de Carvalho Letícia Falcão',
+      'Lacerda Jéssica Lana Sales',
+      'Batista Lívia Patrícia Rodrigues',
+      'Ramos-Silva Tamiris',
+      'Pinheiro-Castro Natália',
+      'Luzia Liania Alves',
+      'de Carvalho Rondó Patrícia Helen'
     ],
-    journal: 'BMC musculoskeletal disorders',
-    doi: '10.1186/s12891-025-08544-9',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483448/'
+    journal: 'American journal of human biology : the official journal of the Human Biology Council',
+    doi: '10.1002/ajhb.70075',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485396/'
   },
   {
-    id: '40483436',
-    title: 'Characterizing the Venezuelan situation between 2014-2020 in a population-based study using seven key indicators.',
-    abstract: "BACKGROUND: Venezuela has faced a crisis over the past decade. This study aims to characterize the crisis and identify the population's most vulnerable subgroups.\n" +
-      'METHODS: Follow-up data (2018-2020) from 1,257 subjects (35% of the total) who participated in the nationally representative sample of the Venezuelan Study of Cardiometabolic Health (EVESCAM, 2014-2017) were analyzed. The distribution of seven crisis indicators- food insecurity, stressful life events, family separation, disruption in access to utilities (water, electricity, gas, or sanitation), lack of access to medications, lack of access to transportation, and disruption of childhood education- were analyzed across five subgroups (age, sex, ethnicity, socioeconomic status [SES], and education). Logistic regression adjusted by other socio-demographic variables was used to analyze associations among variables.\n' +
-      "RESULTS: Of the total sample, 71.8% were female, 67.0% ≥ 50 years old, 52% low SES, and 80.2% Mixed ethnicity. Overall, 77.3% reported disruption in access to at least one utility and 31.7% to two or more utilities. The former was higher in females (OR 1.46, 95% CI 1.08-1.98) and those with lower education (OR 2.03, 1.27-3.23). Lack of electricity (70.2%) was similar across subgroups. Lack of transportation (76.2%) affected females (OR 1.36, 1.10-1.67) and those of Mixed ethnicity more strongly. Disruption of children's education was reported more in homes with the youngest, Amerindian, low SES, and less educated participants. Family separation (49.2%) affected older and female participants more strongly. Food insecurity (60.2%) was more frequent in the low SES group compared with the high SES group (OR 2.17, 1.45-3.25). Stressful life events (67.2%) and lack of medications (43.8%) did not differ across subgroups.\n" +
-      'CONCLUSIONS: The Venezuelan humanitarian crisis has heightened vulnerability to crisis indicators among women, elders, those with low SES, and less educated subgroups of the population. These findings should prompt cost-effective programs targeted at those most vulnerable.',
-    published: '2025-Jun-07',
+    id: '40485389',
+    title: 'Identification of gaps in the continuum of maternal and neonatal care in a high-mortality setting: An observational study in rural Guinea-Bissau.',
+    abstract: 'OBJECTIVES: Coverage of the continuum of maternal and neonatal care, including antenatal care (ANC), childbirth and early postnatal care (PNC), is critically low across sub-Saharan Africa. Meanwhile, related monitoring remains neglected. We quantified coverage gaps along the continuum of maternal and neonatal care in rural Guinea-Bissau and assessed background factors associated with continuum-of-care completion.\n' +
+      "METHODS: In a cross-sectional study using data from the Bandim Health Project's nationally representative rural health and demographic surveillance system (HDSS), we assessed individual-level obtainment of ≥1, ≥4 and ≥8 ANC contacts (ANC1/4/8), facility-based childbirth and PNC within 24 h postpartum for HDSS-registered births between 1 February 2023 and 31 January 2024. Among facility births, we also assessed postpartum admission ≥24 h. We defined continuum-of-care completion as the obtainment of ANC4, facility-based childbirth and PNC within 24 h and investigated associations between background factors (household assets, maternal age, education, parity, region, ethnicity, health facility distance and recall time) and continuum-of-care completion in regression models.\n" +
+      'RESULTS: Among 2258 births, 35% (n = 798) completed the continuum of care; 22% (n = 494) obtained none of the contributing services. Individual service coverage ranged from 6% (ANC8, n = 128) to 99% (ANC1, n = 2236). Individual coverage of the services included in the continuum-of-care assessment was 62% (n = 1403) for ANC4, 56% (n = 1268) for facility-based childbirth and 52% (n = 1167) for PNC. Continuum-of-care completion differed by region and ethnicity. Living near a health facility, higher maternal education, more household assets, low parity and longer recall time were associated with higher continuum-of-care completion.\n' +
+      'CONCLUSIONS: Continuum-of-care completion is low in rural Guinea-Bissau and not fully reflected by individual coverage indicators. This calls for a higher focus on continuum-of-care coverage and related gaps, both locally and globally. Meanwhile, the identified higher reporting of continuum-of-care completion with longer maternal recall questions the use of survey data and beckons for monitoring based on timely routine data.',
+    published: '2025-Jun-09',
     authors: [
-      'Nieto-Martínez Ramfis',
-      'Babagoli Masih A',
-      'Gonzalez-Rivas Juan Pablo',
-      'Ugel Eunice',
-      'Duran Maritza',
-      'Marulanda María Inés',
-      'Mechanick Jeffrey I',
-      'Danaei Goodarz'
+      'Damerow Sabine Margarete',
+      'Zalisz Anita Magdalena',
+      'Nehal Kimberly Raisa',
+      'Silva Paula Marise',
+      'Furtado Oides',
+      'Fisker Ane Bærent'
     ],
-    journal: 'BMC public health',
-    doi: '10.1186/s12889-025-23125-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483436/'
+    journal: 'Tropical medicine & international health : TM & IH',
+    doi: '10.1111/tmi.14136',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485389/'
   },
   {
-    id: '40483426',
-    title: 'Complex psychological responses to climate change: a longitudinal study exploring the interplay between climate change awareness and climate change anxiety among Chinese adolescents.',
-    abstract: 'BACKGROUND: Adolescents are increasingly recognized as important stakeholders in responding to the challenges of climate change, with their psychological responses shaping both mental health outcomes and behavioral choices. However, the intricate relationship between climate change awareness and climate change anxiety among adolescents, as significant manifestations of psychological reactions to climate change, has not yet been thoroughly investigated. Grounded in the Stress and Coping Theory, this study aimed to empirically investigate the bidirectional relationship between climate change awareness and climate change anxiety among Chinese adolescents.\n' +
-      'METHODS: Data were collected through a three-wave longitudinal survey (2022-2024) from 426 Chinese adolescents. We employed repeated measures ANOVA to examine developmental patterns and gender differences in climate change awareness and climate change anxiety, and constructed cross-lagged panel models, along with the calculation of feedback effects, to investigate their reciprocal relationships across time points.\n' +
-      'RESULTS: Results revealed significant increases in both climate change awareness and climate change anxiety over time, with females consistently exhibiting higher levels. Cross-lagged analyses demonstrated that climate change awareness significantly predicted an increase in climate change anxiety, and climate change anxiety, in turn, significantly enhanced climate change awareness. Furthermore, the feedback effect between climate change awareness and climate change anxiety was significant at both T1-T2 and T2-T3 intervals.\n' +
-      "CONCLUSION: This study demonstrates a bidirectional relationship between climate change awareness and anxiety among adolescents, providing a theoretical framework and empirical evidence for understanding adolescents' complex psychological responses to climate change. It also presents valuable suggestions for implementing targeted mental health interventions, and climate change education.",
-    published: '2025-Jun-07',
-    authors: [ 'Ge Jiahao', 'Pan Weihao', 'Liang Xiaoyu', 'Zhang Jianzhen' ],
-    journal: 'BMC public health',
-    doi: '10.1186/s12889-025-23282-2',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483426/'
-  },
-  {
-    id: '40483414',
-    title: 'Predicting obesity at adolescence from an early age in a Dutch observational cohort study: the development and internal validation of a multivariable prediction model.',
-    abstract: "BACKGROUND: - Identifying children with a high risk of developing future obesity could enable timely targeted prevention strategies. The study's objective was to develop prediction models that could detect if young children at very early age, from birth to age six, have an increased risk of being obese in early adolescence.\n" +
-      'METHODS: - We analyzed a subset of data (N = 4,309) from the Generation R study, a population-based prospective cohort study of pregnant women and their children from fetal life to young adulthood in the Netherlands. Parental, household, and birth/child characteristics were considered as predictors. We developed separate models for children at age zero (three months), two, four, and six years that predict obesity at age 10 to 14 years. Per age we fitted an optimal prediction model (full model) and a more practical model with less predictors (restricted model). For the development of the prediction models we used regularized regression models with a least absolute shrinkage and selection operator (LASSO) penalty to avoid overfitting.\n' +
-      'RESULTS: - Parental body mass index (BMI), parental education level, latest child BMI measurements, ethnicity of the child, breakfast consumption, cholesterol, and low-density lipoprotein (LDL) of the child were included as predictors in all models when considered as candidate predictor. The models for all age groups performed well (lowest area under the curve (AUC) 0.872 for the age 0 restricted model), with the highest performance for the 6-year model (AUC 0.954 and 0.949, full and restricted model). Sensitivity and specificity of models varied between ages with ranges 0.80-0.90 (full model); 0.79-0.89 (restricted model) and 0.80-0.88 (full model); 0.79-0.87 (restricted model).\n' +
-      'CONCLUSIONS: - These obesity prediction models seem promising and could be used as valuable tools for early detection of children at increased risk of being obese at adolescence, even at an early age.',
-    published: '2025-Jun-07',
+    id: '40485341',
+    title: 'Influences on dialysis modality choice among African American and Mexican American individuals with kidney failure and their care partners: A qualitative study.',
+    abstract: 'Rationale and ObjectiveCompared to in-center hemodialysis, home dialysis may better address the needs of some individuals with end-stage kidney disease (ESKD). However, home dialysis utilization is lower in African American and Hispanic individuals with ESKD. We sought to identify the factors that most influence dialysis modality choice, specifically home dialysis, in these individuals and their care partners.Study DesignQualitative research study using focus groups.Setting and ParticipantsFifty-seven participants, including African American and Spanish-speaking Mexican American individuals on dialysis (both in-center and home) and care partners, were recruited to in-person focus groups in five US metropolitan areas. Mexican American focus groups were held in Spanish language and translated in real time by a certified interpreter; recordings for all focus groups were transcribed verbatim for analyses.Analytical ApproachParticipant responses were analyzed using inductive thematic analysis techniques.ResultsPhysician guidance was cited as the most important factor in making the initial modality decision for all groups. African American respondents primarily relied on healthcare professionals for information, but also seek independent validation (e.g., "trust but verify"). Mexican American respondents stated that trust in physician recommendation is largely unquestioned, influenced by factors such as cultural respect for physician authority, limited literacy, and language barriers. African American respondents desire additional education about modalities, particularly when they feel ready to comprehend content (sequenced to recognize how overwhelming it can be at the initial diagnosis of kidney failure). Although most individuals on dialysis and their care partners acknowledged the clinical benefits of home dialysis, significant barriers to choosing a home modality included the fear of being solely responsible for a complex procedure and loss of social interaction and/or support from other individuals on dialysis and center staff.LimitationsAs the focus groups were all conducted in metropolitan areas, the transferability of the findings to other settings is uncertain.ConclusionsImproved educational programs on dialysis modality choice should build on the strong preference for physician-led health information to better address educational needs of African American and Mexican American individuals facing the choice of a dialysis modality. Tackling issues pertaining to understanding kidney disease pathogenesis and addressing trust in healthcare professionals is necessary in African American individuals. In Mexican American communities, specific emphasis should be placed on addressing literacy and language barriers. Home dialysis educational material for both groups should also incorporate content regarding concerns about safety and social isolation.',
+    published: '2025-Jun-09',
     authors: [
-      'Huizing Arjan Henryk Jonathan',
-      'Welten Marieke',
-      'van der Pal Sylvia',
-      'Schönbeck Yvonne',
-      'van Empelen Pepijn',
-      'Gaillard Romy',
-      'Jaddoe Vincent W V',
-      'van Buuren Stef'
+      'Eaton Karen-Marie',
+      'Radney Danelle',
+      'Brunelli Steven M',
+      'Weinhandl Eric',
+      'Odama Unini',
+      'Tentori Francesca'
     ],
-    journal: 'BMC pediatrics',
-    doi: '10.1186/s12887-025-05661-1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483414/'
+    journal: 'Peritoneal dialysis international : journal of the International Society for Peritoneal Dialysis',
+    doi: '10.1177/08968608251345680',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485341/'
   },
   {
-    id: '40483392',
-    title: 'Trends and pattern of contraceptive use among women attending a family planning clinic at a tertiary health facility in Ibadan, Nigeria.',
-    abstract: 'BACKGROUND: Despite consistent reporting of high fertility levels in Nigeria, contraceptive prevalence rates remain low. Information on the type of contraceptive uptake among women who visit family planning (FP) clinics is still sketchy in Ibadan. Therefore, we assessed the trend and pattern of contraceptive use among women attending a FP clinic at a tertiary health facility in Ibadan.\n' +
-      'METHODS: A mixed-method design was adopted for the study. Records of women (n = 1,619) who accessed FP services at the University College Hospital [UCH] from 2018 to 2022 were reviewed. The qualitative data included a key informant interview (KII) involving a senior officer of the FP Clinic and a focus group discussion (FGD) among high-fertility (≥ 4 living children) women. Data were analysed using a logistic regression model (α), and thematic analysis was used for the qualitative part of the study.\n' +
-      "RESULTS: The mean age of women was 33.8 ± 6.34 years, 87.7% were in monogamous marriages, 82.3% were Yoruba, and 47.2% did not intend to bear more children. The uptake of long-term and short-term contraceptive methods showed a declining (slope = -3.5) and increasing (slope = + 4.4) trend, respectively. The likelihood of non-use of a long-term contraceptive method was lower among women with ≥ 3 surviving children who had tertiary education (uOR = 0.539, 95% C.I = 0.338-0.859, p = 0.009) and were Christians (uOR = 0.410, 95% C.I = 0.258-0.652, p < 0.001) compared to their counterparts with at most secondary education and were Muslims, respectively. High fertility women who are not using Long-acting reversible contraceptive methods (LACMs) identified fear, partner's influence, misconceptions, cost, parity, privacy, and inconvenience as reasons for the non-use of the methods.\n" +
-      'CONCLUSIONS: Conceptive uptake at the UCH followed an increasing trend from 2018 to 2022. Sensitisation on the adoption of LACMs among high-fertility women might improve the use of such methods in the study area.',
-    published: '2025-Jun-07',
-    authors: [
-      'Atoyebi A O',
-      'Olaoye S O',
-      'Okunlola M A',
-      'Palamuleni M E',
-      'Adebowale A S'
-    ],
-    journal: 'BMC public health',
-    doi: '10.1186/s12889-025-23284-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483392/'
-  },
-  {
-    id: '40483390',
-    title: 'The effect of early childhood stature on later cognitive functions in Indonesian adolescents: comparation using the National growth reference and the WHO growth standard.',
-    abstract: 'BACKGROUND: The prevalence of short stature in children under 5 using the National Growth Reference vs. the WHO Growth Standard is known to vary in many countries. Previous research has suggested possible associations between short stature early in childhood, frequently regarded as stunting, and later cognitive function.\n' +
-      'OBJECTIVE: This study aimed to identify the effect of early childhood stature, using the National Indonesian Growth Chart (NIGC) vs. the WHO Growth Standard (WHO), on cognitive function in adolescence.\n' +
-      'METHODS: The study used two cohort data from the Indonesia Family Life Surveys (IFLS) that had both anthropometric data at the age of 2-5 years and at adolescence, as well as information on cognitive function at adolescence. At the age of 2-5 years, the height-for-age Z-score (HAZ) of the subjects were classified using both NIGC and WHO as follows: Normal NIGC & Normal WHO; Normal NIGC & Short WHO; and Short NIGC & Short WHO. In adolescence, cognitive function were assessed. An analysis was performed to assess the associations between variables.\n' +
-      "RESULTS: Cohort-1 included 866 subjects with complete information, while Cohort-2 included 1,436 subjects. After adjustment, subjects aged 2 to 5 years classified as Short NIGC & Short WHO had a consistent significantly negative effect on their later adolescent cognitive function: coefficient regression (95%CI): -2.82 {(-5.58)-(-0.06), p = 0.046}for Cohort-1 and - 4.13 {(-7.22)-(-1.04), p = 0.009} for Cohort-2. On the other hand, those classified as Short for WHO but Normal for NIGC were not associated with later negative cognitive function: coefficient regression (95%CI): -1.88 {(-4.00)- 0.24, p = 0.082} for Cohort-1 and - 1.32 {(-3.50)-0.87, p = 0.237} for Cohort-2. Cognitive function of both cohorts was also significantly influenced by the subjects' education, parental education and resicence in urban and Java-Bali (p < 0.05).\n" +
-      'CONCLUSIONS: Childhood stature was associated with later negative cognitive function only when the children were classified as short using NIGC. Classified as short stature using WHO, but not short using NIGC, was not associated with later negative cognitive function.\n' +
-      'CLINICAL TRIAL NUMBER: Not applicable.',
-    published: '2025-Jun-07',
-    authors: [
-      'Moelyo Annang Giri',
-      'Pulungan Aman B',
-      'Sitaresmi Mei Neni',
-      'Julia Madarina'
-    ],
-    journal: 'BMC pediatrics',
-    doi: '10.1186/s12887-025-05829-9',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483390/'
-  },
-  {
-    id: '40483307',
-    title: "Household income and children's mental health outcomes: the mediating role of maternal wellbeing and parent-child relationship quality.",
-    abstract: "Uncertainty remains about the mechanism(s) through which household income influences mental health across the life course. The family stress model suggests the role of parental mental health and child-parent relationship quality may be significant, however few studies have explored this longitudinally. The present study aimed to decompose the pathways from low household income at age 3 to children's mental wellbeing at age 6, via maternal wellbeing (age 4) and parent-child relationship quality (age 5). We included four sweeps of the Growing Up in Scotland Study (n = 3639). Weights and multiple imputation were used. Low income was defined as the two bottom quintiles of equivalised household income. Potential mental health difficulties were determined using the Strengths and Difficulties Questionnaire. Mediators were assessed using the Depression, Anxiety and Stress Scale and the Pianta Child-Parent Relationship Scale. A causal mediation analysis was conducted. Confounding factors adjusted for included ethnicity, family type, maternal age, education and employment. Children from low-income households at age 3 were more than twice as likely to have a potential mental health difficulty at age 6 compared to all other children (adjusted odds ratio (OR) 2.16 (95% CI 1.50 to 3.80). Reduced maternal wellbeing mediated 11.21% of the total effect. Adding perceived child-parent relationship quality to this model increased the proportion mediated to 30.89%. Increasing the incomes of young families will improve child mental health. Given the long-term risks associated with childhood mental health difficulties this should be a public health priority.",
-    published: '2025-Jun-07',
-    authors: [ 'Wilson Naomi', 'Minnis Helen', 'McDaid Shari', 'Pearce Anna' ],
-    journal: 'European child & adolescent psychiatry',
-    doi: '10.1007/s00787-025-02765-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40483307/'
+    id: '40485271',
+    title: 'Study on the factors associated with preparation for later life among aging individuals with disabilities.',
+    abstract: 'BACKGROUND: This study examined factors associated with later-life preparation among aging individuals with disabilities living in South Korea.\n' +
+      'METHODS: We used secondary data from 2,942 individuals aged 50 and older from the Disability Life Panel Survey and performed binary logistic regression.\n' +
+      'RESULTS: Most participants did not prepare for later life and were men, had a high school education or less, and were unemployed. Logistic regression identified factors associated with later-life preparation: education level and employment status (Sociodemographic characteristics); types of disability and recent health condition (health condition); self-esteem and disability acceptance (psychological factors); and residential environment assessment and satisfaction with family relationships (environmental factors).\n' +
+      'CONCLUSION: These findings highlight the need for a comprehensive approach to preparing aging individuals with disabilities for later life.',
+    published: '2025-Jun-02',
+    authors: [ 'Lee Yu-Na', 'Woo Ji-Hee' ],
+    journal: 'Annals of geriatric medicine and research',
+    doi: '10.4235/agmr.25.0044',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40485271/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
@@ -1258,41 +1317,25 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 30
-Removed duplicates: 30 -> 30
-Starting translation of 30 papers...
-Translating paper 1/30
-Translating paper: Mathematics education for sustainable futures: a s...
-Translating paper 2/30
-Translating paper: Teacher agency and student diversity in reading ed...
-Translating paper 3/30
-Translating paper: Parental Attitude Towards Sex Education: A Study o...
-Translating paper 4/30
-Translating paper: Virtual reality for education on infection prevent...
-Translating paper 5/30
-Translating paper: Fostering students’ motivation and self-efficacy i...
-Translating paper 6/30
-Translating paper: Enhancing palliative care through university-commu...
-Translating paper 7/30
-Translating paper: ChatGPT Adoption in Higher Education: A Study of F...
-Translating paper 8/30
-Translating paper: Developing the Spanish Physical Literacy Assessmen...
-Translating paper 9/30
-Translating paper: Orchestration of corporate social responsibility i...
-Translating paper 10/30
-Translating paper: Practices and challenges of implementing early chi...
-Translating paper 11/30
-Translating paper: Hemoglobin level, anemia, and obesity among pregna...
-Translating paper 12/30
-Translating paper: Enhancing palliative care through university-commu...
-Translating paper 13/30
-Translating paper: Virtual reality for education on infection prevent...
-Translating paper 14/30
-Translating paper: Effects of a single session of in-person and remot...
-Translating paper 15/30
-Translating paper: Characterizing the Venezuelan situation between 20...
-Translating paper 16/30
-Translating paper: Complex psychological responses to climate change:...
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 2/40
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 3/40
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 4/40
+Translating paper: Experience and education...
+Translating paper 5/40
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 6/40
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 7/40
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 8/40
+Translating paper: The Effect of Using Simulation on Developing Stude...
 Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
@@ -1305,54 +1348,126 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
   statusText: 'Internal Server Error',
   errorDetails: undefined
 }
-Translating paper 17/30
-Translating paper: Predicting obesity at adolescence from an early ag...
-Translating paper 18/30
-Translating paper: Trends and pattern of contraceptive use among wome...
-Translating paper 19/30
-Translating paper: The effect of early childhood stature on later cog...
-Translating paper 20/30
-Translating paper: Household income and children's mental health outc...
-Translating paper 21/30
+Translating paper 9/40
+Translating paper: Economics of education...
+Translating paper 10/40
+Translating paper: Teaching climate complacency: mainstream economics...
+Translating paper 11/40
+Translating paper: Mathematics education for sustainable futures: a s...
+Translating paper 12/40
+Translating paper: The development of OPEC: an evolutionary game theo...
+Translating paper 13/40
+Translating paper: FFF School Strikes as Alternative Civic Classroom:...
+Translating paper 14/40
+Translating paper: Adolescents’ Advanced STEM Course Intentions: Pred...
+Translating paper 15/40
+Translating paper: Alternating self-administration sessions of cocain...
+Translating paper 16/40
+Translating paper: In-school enabling programs in the landscape of un...
+Translating paper 17/40
+Translating paper: Educational infrastructure challenges in tribal re...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 500,
+  statusText: 'Internal Server Error',
+  errorDetails: undefined
+}
+Translating paper 18/40
+Translating paper: Systematics review of the interdisciplinary exchan...
+Translating paper 19/40
+Translating paper: The Power of Apprenticeships in Shaping Preservice...
+Translating paper 20/40
+Translating paper: Social Justice Teacher Education in Latin America ...
+Translating paper 21/40
+Translating paper: Longitudinal study of factors predicting toothbrus...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 500,
+  statusText: 'Internal Server Error',
+  errorDetails: undefined
+}
+Translating paper 22/40
+Translating paper: One size does not fit all: how type of menopause a...
+Translating paper 23/40
+Translating paper: From Awareness to Action: teaching ethical decisio...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 500,
+  statusText: 'Internal Server Error',
+  errorDetails: undefined
+}
+Translating paper 24/40
+Translating paper: Health Equity as Mission and Source of Moral Distr...
+Translating paper 25/40
+Translating paper: Teaching experimental design: outputs from the FEL...
+Translating paper 26/40
+Translating paper: Nitrogen Addition and Warming Drive Multilevel Pla...
+Translating paper 27/40
+Translating paper: Relationship Between Type of Delivery and Growth T...
+Translating paper 28/40
+Translating paper: Identification of gaps in the continuum of materna...
+Translating paper 29/40
+Translating paper: Influences on dialysis modality choice among Afric...
+Translating paper 30/40
+Translating paper: Study on the factors associated with preparation f...
+Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 22/30
+Translating paper 32/40
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 23/30
+Translating paper 33/40
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 24/30
+Translating paper 34/40
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 25/30
+Translating paper 35/40
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 26/30
+Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 27/30
+Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 28/30
+Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 29/30
+Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 30/30
+Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 30 papers
-Removed duplicates: 195 -> 178
-Total papers after merging: 178 (165 existing + 30 new)
-Saved 178 papers to papers.json
+Translation completed: 40 papers
+Removed duplicates: 218 -> 197
+Total papers after merging: 197 (178 existing + 40 new)
+Saved 197 papers to papers.json
 Generating HTML files...
-Generating index.html with 178 papers...
+Generating index.html with 197 papers...
 Successfully generated index.html
-Generating archive.html with 178 papers...
+Generating archive.html with 197 papers...
 Successfully generated archive.html
-Generating journal.html with 178 papers...
+Generating journal.html with 197 papers...
 Successfully generated journal.html
-Generating acquisition.html with 178 papers...
+Generating acquisition.html with 197 papers...
 Successfully generated acquisition.html
-Generating publication.html with 178 papers...
+Generating publication.html with 197 papers...
 Successfully generated publication.html
-Generating registration.html with 178 papers...
+Generating registration.html with 197 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 178
-New papers processed: 30
+Total papers in database: 197
+New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-08T15:28:38.952Z
+Timestamp: 2025-06-09T15:37:31.645Z
