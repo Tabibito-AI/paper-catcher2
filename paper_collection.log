@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-10T15:12:01.059Z
+Timestamp: 2025-06-11T15:11:59.398Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 197 existing papers from papers.json
+Loaded 215 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -299,20 +299,114 @@ Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
 Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  },
+  {
+    id: '35d0ead88e9bd727c16459e785358b0050e54514',
+    title: 'Economics of education',
+    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
+    journal: 'No journal available',
+    doi: '10.12737/17661',
+    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
+  },
+  {
+    id: '0e83f229b9de199453823283d9550e10e0e5b00f',
+    title: 'Teaching climate complacency: mainstream economics textbooks and the need for transformation in economics education',
+    abstract: 'ABSTRACT In this paper we ask, what is mainstream economics education conveying to its students? Standard mainstream economics textbooks treat the environment as a specialist issue in addition to standard concerns and based on solutions that conform to those standard concerns. When viewed as socialisation for students this is a major problem. To illustrate the problems we set out key aspects of the standard format, and draw attention to the structure and contents from two well-known textbooks. Standard textbooks convey the impression that the ‘environmental issue’ is appropriately incorporated and exhibit two complacency-creating features. First, fundamental problems (acute global ecological breakdown, biodiversity loss, climate change crisis etc), issues and urgency cannot be adequately conveyed to students within this way of framing economics. Second, specific theory and policy solutions suggest that the problem is well in hand. We illustrate using the theory of negative externalities.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'B. Gills', 'J. Morgan' ],
+    journal: 'Globalizations',
+    doi: '10.1080/14747731.2020.1808413',
+    link: 'https://www.semanticscholar.org/paper/0e83f229b9de199453823283d9550e10e0e5b00f'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -342,332 +436,296 @@ Fetched papers from Springer: [
     journal: 'Nature'
   },
   {
-    id: '10.1007/s11165-025-10269-7',
-    title: 'Reimagining Scientific Literacy: A Textbook Framework for Future-Focused Science Education',
-    summary: "This study refines and advances the Framework for evaluating Scientific Literacy (SL) within science textbooks/curricula by integrating cognitive, affective, and sustainability dimensions. Through a systematic review and analysis of 22 studies, the research identifies emerging themes to restructure the Cansiz and Cansiz ( Journal of Baltic Science Education, 18 (5), 681–691, 2019 ) Framework into six comprehensive aspects: Knowledge of Science, Investigative Nature of Science, Science as a Way of Knowing, Science, Technology, Society, and Environment (STSE) Interaction, Affective Engagement with Science, and Sociopolitico-Environmental Justice and Responsibility . Key findings highlight the significance of fostering critical thinking, ethical reasoning, and interdisciplinary competencies to navigate the complexities of the Anthropocene. The Revised Framework emphasizes systems thinking, transformative action, and including marginalized perspectives, aiming to prepare learners for socio-scientific challenges. Additionally, it incorporates affective and sustainability dimensions to foster lifelong engagement with science and empower learners as change agents. The Revised Framework offers theoretical and practical contributions by bridging traditional content-focused models with transformative, justice-oriented approaches. It provides a robust tool for educators and policymakers to evaluate and enhance science textbooks/curricula, ensuring relevance and fostering globally responsive, socially impactful, critical SL. The study concludes by advocating for the Revised Framework's adaptability to diverse educational contexts and its continuous evolution to address emerging challenges.",
-    published: '2025-06-10',
-    authors: [ 'Kumar, Vishal', 'Choudhary, Sanjiv Kumar' ],
+    id: '10.1038/d41586-025-01799-1',
+    title: 'Close the mathematics gender gap: huge study prompts urgent call to action',
+    summary: 'Researchers reveal when boys pull ahead of girls in mathematics, sounding an alarm and providing both an opportunity for schools, parents and researchers. Researchers reveal when boys pull ahead of girls in mathematics, sounding an alarm and providing both an opportunity for schools, parents and researchers.',
+    published: '2025-06-12',
+    authors: [],
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Research in Science Education'
+    journal: 'Nature'
   },
   {
-    id: '10.1007/s40368-025-01066-x',
-    title: 'The effect of audiovisual motivation and oral health education on oral health status and oral health-related quality of life among children at social homes: a randomised clinical trial',
-    summary: 'Aim This study aimed to evaluate the effect of audiovisual motivation (AVM) and oral health education (OHE) on oral health (OH) and oral health-related quality of life (OHRQoL) among children at social homes. Methods This was a double-blinded cluster-randomised clinical trial. Subjects ( n  = 225) aged 4–14 years were recruited from social homes and randomly divided into 2 groups: control group ( n  = 100) and study group ( n  = 115); each was further divided into sub-groups: 4–6, 7–12 and > 12 years. Both groups were interviewed and examined to record DMFT/dmft (baseline and 12 months), plaque index (PI) and gingival index (GI) (baseline, 3, 6 and 12 months). The study group had multiple AVM and OHE sessions; the control group had no intervention. Results Mean sample age was 9.1 ± 2.7 years. At 12 months, 4–6-year-olds had a significant improvement in PI for study and control groups ( P  < 0.001, P  = 0.008 respectively), and GI was significantly improved in study group ( P  < 0.001). In 7–12-year-olds, a significant improvement in the PI, GI and dmft was found in study group ( P  < 0.001 for all), with an increase in DMFT in the control group ( P  < 0.001). For > 12 years, there was a significant improvement in PI ( P  = 0.002), GI ( P  = 0.043). There was significant improvement in OHRQoL in the study group only in these domains: bleeding when brushing teeth ( P  = 0.04) and presence of bad breath in the morning ( P  < 0.001). Conclusion There was a favourable effect of AVM and OHE on OH and OHRQoL in children aged 4–14 years at social homes after 12 months.',
-    published: '2025-06-10',
-    authors: [ 'Al-Batayneh, Ola B.', 'Abushgair, S.', 'Khader, Y. S.' ],
+    id: '10.1186/s42055-025-00111-3',
+    title: 'Beyond diplomats: why model uns should be for everyone - to advance education for sustainable development and build capacity for intergovernmental engagement',
+    summary: 'Model United Nations (Model UN) simulations have long been hailed as transformative educational experiences, particularly for students pursuing careers in the fields of law, international affairs, or diplomacy. However, their potential to cultivate a diverse array of skills across wider disciplines, and the importance of these disciplines’ participation within UN forums, has often been overlooked. Here, we argue that Model UNs serve as invaluable entry points for students from various academic backgrounds to engage with pressing global issues, develop critical thinking abilities, enhance communication skills, and foster a sense of global citizenship. This ultimately builds intergovernmental literacy and capacity among the wider population, enabling action by a broader suite of societal actors (beyond diplomacy). By critically examining the multifaceted benefits of Model UN participation, this piece advocates for broader recognition and integration of Model UNs across faculties and disciplines within higher education curricula.',
+    published: '2025-06-11',
+    authors: [
+      'SY Ho, Susie',
+      'Cowan, Nicole',
+      'Bache, Sali',
+      'Nagtzaam, Gerry'
+    ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Sustainable Earth Reviews'
+  },
+  {
+    id: '10.1007/s10956-025-10236-x',
+    title: 'Using Computational Grounded Theory to Analyze Pre-service Chemistry Teachers’ Reflective Practice Regarding Technology Integration in Classrooms Within a Service-Learning–Oriented Seminar',
+    summary: 'Integrating digital technologies in science education requires innovative methods to bridge theoretical knowledge and practical classroom application. This study examines a seminar at an Austrian university that was redesigned to address pre-service chemistry teachers’ professional knowledge regarding technology implementation in high school classes via a service-learning approach. By combining questionnaires with formative evaluation through reflective learning diaries, our study captures the multifaceted nature of professional knowledge acquisition. Central to this work is the use of natural language processing within a Computational Grounded Theory framework to analyze students’ reflective diaries. We employed techniques such as word embeddings and topic modeling to extract latent themes and patterns in student texts. We revealed that, despite mixed results from conventional self-report measures and deductive qualitative content analysis, students’ written reflections offered rich insights into their learning processes when we investigated them through the lens of natural language processing. Along the diary entries, our analysis uncovered shifts in emphasis from, e.g., broad cultural perceptions of teaching and learning to more detailed considerations of lesson planning and technology integration. These nuanced insights underscore the complementary value of natural language processing in identifying underlying patterns of reflective practice that traditional assessments may overlook. Although the study is limited by its small sample size and methodological constraints, the findings suggest that incorporating computational techniques can enhance the formative assessment of free writing in teacher education programs. Overall, the results motivate us to advocate for the integration of computational text analysis as a promising tool in evaluating and fostering the complex interplay of professional knowledge and reflective practice in technology-enhanced science education.',
+    published: '2025-06-11',
+    authors: [ 'Rost, Marvin', 'Resch, Katharina', 'Lembens, Anja' ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Journal of Science Education and Technology'
+  },
+  {
+    id: '10.1007/s44217-025-00496-5',
+    title: 'Beyond text in the EFL digital landscape exploring power, identity, and culture in post-COVID-19 online learning communities',
+    summary: 'This mixed-methods study investigated the intersection of power, identity, and culture within a post-COVID-19 online English as a Foreign Language (EFL) learning community at the college level, focusing on 261 adult learners. Drawing upon critical pedagogy and existing literature on online learning and multiliteracies, the research explored how these factors influenced learners’ multiliteracies development and experiences in the digital landscape. The study addressed a gap in research by focusing on the interplay of these factors in a post-pandemic context. Quantitative data from an online survey were analyzed using descriptive statistics, correlations, and group comparisons. Qualitative data from semi-structured interviews (n = 26) and virtual ethnographies (n = 3) underwent thematic analysis, employing inductive and deductive coding followed by constant comparison. Findings revealed a complex interplay of opportunities and challenges. While learners valued the flexibility and intercultural exchange afforded by the online environment, concerns emerged regarding power dynamics, equitable access to technology and resources, and the negotiation of cultural identities. This study highlights the necessity for a critical pedagogical approach that prioritizes inclusivity, digital literacy development, and learner empowerment within online EFL learning communities. Implications suggest that fostering diverse communication methods, cultivating a supportive community culture, and actively bridging the digital divide are crucial for creating equitable and engaging online learning experiences.',
+    published: '2025-06-11',
+    authors: [ 'Mekheimer, Mohamed A.' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Discover Education'
+  },
+  {
+    id: '10.1007/s10734-025-01472-6',
+    title: 'Expressions of educational change agents: Student voice influences in higher education',
+    summary: 'With the changing paradigms in education, from teacher-centred, student-as-object to student-centred, student-as-subject, student voice discourse has developed at all levels of education, including in higher education (HE). However, the development of student voice research and implementation has tended to prioritise Northern voices over those of colleagues in institutions in the Global South. Incorporating student voice in HE is a journey that all colleagues globally should be and are participating in. This special issue aims to create a space for diverse voices in the field, both from the Global North and South. In addition to expanding student voice discourse geographically, this special issue includes articles in which students act as knowledge producers in student voice discourse (Hu & Lue, 2025), and the voices of neurodivergent students are highlighted (Durgungoz & Durgungoz, 2025). In this special issue, we hope to help fill the geographical and positional ‘minority’ gaps in student voice discourse, making room for future discourse expansion and promoting education as a more collaborative and socially just endeavour.',
+    published: '2025-06-11',
+    authors: [ 'Briffett-Aktaş, Carla', 'Ying, Ji' ],
     categories: [ undefined, undefined ],
     link: [ [Object] ],
-    journal: 'European Archives of Paediatric Dentistry'
+    journal: 'Higher Education'
   },
   {
-    id: '10.1007/s11191-025-00661-0',
-    title: 'Epistemic Practices Created by Discursive Interactions between Pre-service Chemistry Teachers',
-    summary: 'In pre-service teacher training it is not enough to simply inform the degree candidates about teaching methods. It is necessary for the pre-service teachers to engage with selected methods in real contexts, which we comprehend as the starting point for the construction of epistemic practices. We present the constructive process of epistemic practices through the analysis of discursive interactions of a group of pre-service teachers and how the texts as material objects supported the group’s intellectual work to create the practice. Interactional, intertextual, contextual, and consequential actions influenced the construction of the epistemic practice of argumentation based on prior knowledge and text interpretation, and produced consequences for the knowledge legitimized by the group. The appropriation of contents and discussion of evidence-based knowledge elucidated the role of informative texts, which allowed pre-service teachers to propose and legitimize knowledge. This study exposes the need to more carefully consider materials in teaching and learning processes, and to examine the relations that pre-service teachers establish with the class materials provided. This unique methodological choice of analyzing epistemic practices, with a focus on the process of justifying knowledge and its relation to socio-scientific texts, contributes to new research perspectives in the field of Science Education.',
-    published: '2025-06-10',
+    id: '10.1007/s11256-025-00749-5',
+    title: 'Exploring the Role of Care in the Teaching Aspirations of Latina Pre-Service Teachers',
+    summary: 'In this qualitative study, I center two pre-service Latina teachers who attend a Hispanic-serving institution in a major urban city in the Southwest to illustrate their aspirations to become teachers in their communities. Using “care” as a conceptual lens, I discuss that, besides merely caring about children, these two women were inspired to become teachers because of the care they received from their own teacher(s) thus, in their own future classrooms, they aim to enact culturally affirming and relevant care with students and families. This is an important experience that Latinas bring with them into teacher education and their future classrooms because they understand from lived experiences the contextual factors that contribute to student learning and the need for more critical forms of caring in our urban schools. However, while well-intentioned, this goal of Latina pre-service teachers may perpetuate expectations which often place further taxation and increased roles for them as teachers. Given this implication specific to Latina pre-service teachers, preparation to prevent excessive emotional labor is much-needed in the teacher education field for their persistence.',
+    published: '2025-06-11',
+    authors: [ 'Diera, Claudia' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'The Urban Review'
+  },
+  {
+    id: '10.1007/s11357-025-01703-9',
+    title: 'The compensatory effect of education as revealed by resting-state electroencephalographic alpha rhythms in patients with dementia due to Parkinson’s disease: findings from an exploratory study',
+    summary: 'Here, we investigated whether educational attainment influences the neurophysiological mechanisms underlying vigilance regulation, as reflected in resting-state eyes-closed electroencephalographic (rsEEG) rhythms, in patients with dementia due to Parkinson’s (PDD) and Lewy body disease (DLB). Clinical, demographic, and rsEEG data were obtained from an international database, including PDD patients ( N  = 75), DLB patients ( N  = 50), and cognitively unimpaired older controls (Healthy; N  = 54). Each group was partitioned into low (Edu-) and high (Edu+) educational attainment subgroups, matched for age, sex, and cognitive-motor status. We analyzed rsEEG rhythms across the individual delta, theta, and alpha frequency bands. Cortical rsEEG source topography was estimated using eLORETA freeware. In the Healthy group, Edu+ participants exhibited significantly greater widespread rsEEG alpha source activities compared to Edu- participants, possibly reflecting neuroprotective neurophysiological mechanisms. Conversely, in the PDD group, Edu+ patients showed lower widespread rsEEG alpha source activities than Edu- patients, possibly indicating compensatory mechanisms. No significant differences in rsEEG source activities were observed between DLB-Edu+ and DLB-Edu- patients. Educational attainment may be associated with compensatory mechanisms that counteract the abnormal neurophysiological processes underlying rsEEG alpha rhythms and vigilance regulation in PDD patients, but not in DLB patients. Future studies combining rsEEG and neuroimaging techniques should investigate the metabolic and functional connectivity correlates of these putative compensatory mechanisms in the PDD brain. Early education may be a key investment for national governments, especially in low-income countries, to prevent the cognitive deficits of Parkinson’s disease along aging, thereby reducing the unbearable social and economic burden.',
+    published: '2025-06-11',
     authors: [
-      'Ramos, Tatiana Costa',
-      'Silva, Fernando César',
-      'Mendonça, Paula Cristina Cardoso'
+      'Lopez, Susanna',
+      'Percio, Claudio',
+      'Lizio, Roberta',
+      'Noce, Giuseppe',
+      'Jakhar, Dharmendra',
+      'Soricelli, Andrea',
+      'Salvatore, Marco',
+      'Güntekin, Bahar',
+      'Yener, Görsev',
+      'Massa, Federico',
+      'Arnaldi, Dario',
+      'Famà, Francesco',
+      'Pardini, Matteo',
+      'Ferri, Raffaele',
+      'Carducci, Filippo',
+      'Lanuzza, Bartolo',
+      'Stocchi, Fabrizio',
+      'Vacca, Laura',
+      'Coletti, Chiara',
+      'Marizzoni, Moira',
+      'Taylor, John-Paul',
+      'Hanoğlu, Lutfu',
+      'Yılmaz, Nesrin Helvacı',
+      'Kıyı, İlayda',
+      'Özbek-İşbitiren, Yağmur',
+      'D’Anselmo, Anita',
+      'Bonanni, Laura',
+      'Biundo, Roberta',
+      'D’Antonio, Fabrizia',
+      'Bruno, Giuseppe',
+      'Antonini, Angelo',
+      'Giubilei, Franco',
+      'Cuoco, Sofia',
+      'Barone, Paolo',
+      'Frisoni, Giovanni B.',
+      'Rotondo, Rossella',
+      'Pandis, Francesca',
+      'Babiloni, Claudio'
     ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Science & Education'
+    journal: 'GeroScience'
   },
   {
-    id: '10.1007/s00004-025-00826-y',
-    title: 'Web-Based Computational Design Tools for Architectural Design Studio: Enhancing Pedagogical Framework',
-    summary: 'As computational design becomes increasingly integrated into architectural education, balancing technical complexity with creative exploration remains a challenge. This study presents a web-based framework supporting architectural design studios through computational tools. Three applications—ANYSite, NEXUSpace, and SnapRender—assist in plot subdivision, spatial layout generation, and AI-augmented visualization. Implemented in a design studio, these tools provide structured guidance, lower learning barriers, and enhance engagement with computational methods. The study evaluates the effectiveness of these tools by analyzing student projects and feedback. Findings suggest that systematic workflow and task-oriented tool functions help students focus on design strategies while integrating computational techniques. This research contributes to architecture pedagogy by demonstrating how web-based tools can make computational design more accessible and interactive in architectural education.',
-    published: '2025-06-10',
-    authors: [ 'Zhang, Baizhou', 'Mo, Yichen', 'Li, Biao' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Nexus Network Journal'
-  },
-  {
-    id: '10.1007/s41019-025-00294-x',
-    title: 'Dual Sequence Modeling for Knowledge Tracing',
-    summary: 'Knowledge tracing (KT) refers to the problem of predicting a learner’s future performance based on their past performance in education. Recently, attention-based sequence modeling methods achieve impressive predictive performance. However, existing solutions merely consider one single sequence modeling method, which might fail to capture the comprehensive state of knowledge across long sequences. In this paper, we propose D ual S equence M odeling for K nowledge T racing (DSMKT). DSMKT aims to enhance the modeling of a learner’s long-term profile by collaborating two sequence modeling methods, i.e., the masked self-attention mechanism and the gated recurrent unit. To further exploit the synergy between two sequence models, we adopt the idea of online knowledge distillation and adaptively combine two branches to form a stronger teacher model, which in turn provides predictions as extra supervision for better modeling ability. Extensive experiments on four real-world benchmark datasets show that DSMKT performs excellently in predicting future learner responses.',
-    published: '2025-06-10',
-    authors: [
-      'Ning, Qian',
-      'Guo, Chengyu',
-      'Liu, Kunjia',
-      'Tang, Jiuyang',
-      'Zhang, Shiqi',
-      'Zeng, Weixin',
-      'Zhao, Xiang'
-    ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'Data Science and Engineering'
-  },
-  {
-    id: '10.1007/s10761-025-00795-5',
-    title: '“Hands-on History” at the John Brown Farm: Collaborating on Behalf of Racial Justice in an Era of Teacher Censorship',
-    summary: 'Hundreds of state and local laws and resolutions have been adopted recently to restrict how teachers teach the history of race in America. As a result, American teachers face undue scrutiny, critique, and punishment for how they approach Black history. In this volatile climate, John Brown Lives!, a human rights organization centered on the John Brown Farm State Historic Site in North Elba, New York, sought to expand outreach to teachers and students through its innovative Hands-on History project. In this paper, we introduce this initiative, which brings together educators, historians, artists, and archaeologists to develop and implement curriculum illuminating the region’s freedom history. In addition to describing its goals and the steps taken to support and listen to teachers and other stakeholders during this precarious political moment, we situate the collaboration in the history of archaeology and activism, and we offer lessons learned during its implementation.',
-    published: '2025-06-10',
-    authors: [ 'Kruczek-Aaron, Hadley', 'Robinson, Amy', 'Swan, Martha' ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'International Journal of Historical Archaeology'
-  },
-  {
-    id: '10.1007/s42330-025-00369-x',
-    title: '‘I Don’t Feel I’ve Been Exposed to Enough Physics-Related Occupations’: Career Advice and the Gendered Uptake of Physics in Australian Secondary Schools',
-    summary: 'Ensuring that school graduates are adequately prepared for the transition from school to the workforce or further education is crucial for success and career satisfaction. This paper examines the influence of career advice provided in Australian schools on girls’ interest in pursuing physics courses and physics-related careers. A transformative mixed methods research approach was employed, with the theoretical framework drawing on social cognitive career theory (SCCT) from a gender perspective. Data was generated through an online survey and focus group interviews with students, as well as individual interviews with physics teachers and career advisers. The findings show that despite its potential to positively influence girls’ choices in physics, schools and students view career advice as an optional service. Consequently, the quality and quantity of career advice offered in Australian schools vary significantly from school to school and remain underutilised by most students. This particularly impacts girls’ perceptions of physics as a viable future career, leaving pervasive gendered perceptions about the subject unchallenged. This study is derived from a larger project that investigated influences on girls’ physics identity. Il est essentiel, pour la réussite et la satisfaction professionnelles, de veiller à ce que les diplômé(e)s soient suffisamment préparé(e)s pour faire la transition entre l’école et le monde du travail ou encore la poursuite de leurs études. Dans cet article, nous examinons l’influence des conseils en matière d’orientation de carrière qui sont offerts dans les écoles australiennes sur l’intérêt des filles à poursuivre des cours de physique et des carrières liées à ce domaine. Nous avons eu recours à une approche de recherche transformatrice à méthodes mixtes, dont le cadre théorique s’inspire de la théorie sociale cognitive de l’orientation scolaire et professionnelle (TSCOSP) dans une perspective genrée. Les données ont été obtenues par le biais d’un sondage en direct, d’entrevues auprès de groupes de discussion composés d’étudiants, ainsi que par des entretiens individuels avec des professeurs de physique et des conseillers en orientation professionnelle. Les résultats indiquent que les écoles et les étudiants considèrent l’orientation professionnelle comme un service facultatif, malgré la capacité de celle-ci à influencer les choix des filles en faveur de la physique. Par conséquent, la qualité et la quantité d’orientation en matière de carrières offerte dans les écoles australiennes varient considérablement d’une école à l’autre et demeurent sous-utilisées par la plupart des apprenants. Cela a des répercussions particulières sur la perception qu’adoptent les filles sur la physique en tant que domaine de carrière viable dans le futur, ce qui ne contribue pas à remettre en question les perceptions sexistes persistantes à l’égard de cette matière. Cette étude est le fruit d’un projet plus vaste qui a étudié les éléments qui influencent l’identité des filles à l’égard de la physique.',
-    published: '2025-06-10',
-    authors: [ 'Masri, Adam', 'Tytler, Russell', 'Ollis, Trace' ],
+    id: '10.1007/s10916-025-02214-y',
+    title: 'Preparing Tomorrow’s Physicians: The Case for Machine Learning in Medical Education',
+    summary: 'Machine learning should be integrated into medical curricula to prepare physicians-in-training for 21st-century practice conditions. This comment proposes practical implementation strategies that build upon existing educational frameworks by drawing parallels to traditional statistical methods. By incorporating these skills through a phased approach, medical education can fulfill its duty to the public by preparing future physicians to effectively evaluate emergent technology, identify potential sources of bias, and better serve patients.',
+    published: '2025-06-11',
+    authors: [ 'Burwell, Julian Michael' ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Canadian Journal of Science, Mathematics and Technology Education'
-  },
-  {
-    id: '10.1007/s10639-025-13632-3',
-    title: 'Has the tablet beaten textbooks? Effect of key tool features on student satisfaction',
-    summary: 'As digital learning tools continue to reshape education, the debate over their effectiveness compared with traditional textbooks remains unresolved. This study provides fresh insights by examining how important feature-level factors—portability, navigability, and visual appearance—shape users’ confirmation and satisfaction with iPads and textbooks. Through a within-subject experiment conducted in a real classroom setting, 82 undergraduate students enrolled in an operations management course at a U.S. public university participated in a two-phase study over two weeks. To ensure ecological validity, students used either an iPad or a traditional textbook to solve decision science problems in their regular classroom environment before switching to the other tool in the second phase. At the end of each phase, participants completed a questionnaire assessing their perceptions of the tools and their learning experiences. This study’s findings challenge the intuitive belief that digital tools are always better than traditional ones. Furthermore, this study systematically examines the advantages and limitations of each tool regarding their detailed features, thus deepening the understanding of their role in digital learning adoption. This research offers a comparative analysis of electronic and traditional educational tools, which will provide insights for optimizing electronic education and responding to the changing landscape of learning technologies.',
-    published: '2025-06-10',
-    authors: [
-      'Tian, Ruwen',
-      'Tong, Jingjing',
-      'Li, Zhiyin',
-      'Abdinnour, Sue',
-      'Xu, David Jingjun'
-    ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'Education and Information Technologies'
+    journal: 'Journal of Medical Systems'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40492414',
-    title: 'Promoting Patient Safety Through Patient Engagement at the Organisational Level: A Delphi-Based Needs Assessment Among Patient and Family Advisory Councils.',
-    abstract: 'BACKGROUND: Patient and family advisory councils (PFACs) are increasingly recognised as a promising approach for improving patient safety (PS) through patient engagement (PE) at the organisational level. However, PFAC stakeholders often lack the necessary knowledge and competence to engage effectively in PS-related issues with healthcare organisations. Moreover, evidence on specific needs for knowledge and competence improvement remains limited, hindering the development of future interventions.\n' +
-      "OBJECTIVE: This study aimed (a) to identify needs for PS-related competency and knowledge improvement among PFAC stakeholders and (b) to assess current and desired levels of PFAC engagement, roles and factors influencing PFACs' work.\n" +
-      'DESIGN: We established an exploratory mixed-methods design with a modified, two-round Delphi approach. We first used qualitative content analysis to analyse interview data (Round 1) and then consolidated statements for a quantitative questionnaire (Round 2). Responses were analysed descriptively and for consensus (criterion: 85% agreement). Mixed-methods analysis was conducted sequentially and convergently.\n' +
-      "SETTING AND PARTICIPANTS: PFAC stakeholders are affiliated with German healthcare organisations, including patient representatives and professionals from healthcare organisations. MAIN VARIABLE AND OUTCOME STUDIED: (a) Needs for competency improvement on PS and communication, self-assessed knowledge and preferred training formats and (b) PFAC engagement levels, roles and factors influencing PFACs' work.\n" +
-      'RESULTS: Across 6 different oncology-focused PFACs from German university hospitals, 19 stakeholders participated across both rounds. Seventeen needs for competency improvement in PS and communication were identified. After establishing consensus, 10 distinct domains of need were agreed upon (e.g., PS fundamentals, legal basis for PE and respectful communication). While PFAC engagement in PS was inconsistent, participants expressed a strong desire for further involvement. Key implementation factors included limited access to organisational processes, lack of resources and unequal conditions between research- and care-oriented councils.\n' +
-      "DISCUSSION AND CONCLUSION: This study highlights the need for targeted training and structural support to strengthen PFACs' role in PS. Competency improvement and role clarity were deemed essential for effective collaboration. Enhancing PFAC engagement in PS requires tailored educational programmes, transparent structures and institutional support. This study provides an empirical basis for interventions to improve PE in PS at the organisational level.\n" +
-      "PATIENT OR PUBLIC CONTRIBUTION: A patient representative was actively involved throughout the research process, contributing to the development of study materials and providing independent feedback on interview guides and questionnaires. Her input helped to shape the materials, improve their accessibility to lay audiences and ensure the inclusion of patient-relevant issues. The research team discussed her feedback in detail and revised study materials accordingly. Beyond the content presented in this manuscript, she contributed to shaping a subsequent intervention that emerged from the study's needs assessment, which was designed as a participatory approach to incorporate patient and stakeholder perspectives from the outset. In addition, she and participating stakeholders of the patient advisory councils are committed to disseminating project findings and developing recommendations to help translate research into practice from a patient perspective.\n" +
-      'CLINICAL TRIAL REGISTRATION: The study was pre-registered in the German Clinical Trials Register (ID: DRKS00034733).',
-    published: '2025-Jun',
-    authors: [ 'Brust Larissa', 'Blum Yannick', 'Weigl Matthias' ],
-    journal: 'Health expectations : an international journal of public participation in health care and health policy',
-    doi: '10.1111/hex.70319',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492414/'
+    id: '40497332',
+    title: 'Correction to "Incidence and Economics of Transvenous ICD Lead Complications: Implications for Tricuspid Valve Function and Interventions".',
+    abstract: 'No abstract available',
+    published: '2025-Jun-11',
+    authors: [],
+    journal: 'Journal of cardiovascular electrophysiology',
+    doi: '10.1111/jce.16748',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497332/'
   },
   {
-    id: '40492357',
-    title: 'Transplant Infectious Disease Training: Bridging the Gap.',
-    abstract: 'An increasing complexity of organ transplantation, newer immunosuppressives, and an expanded donor pool requires a well-trained multidisciplinary workforce with surgeons, physicians, and infectious diseases (ID) physicians working together. In most countries, solid organ transplantation preceded the development of ID as a specialty leading to a lag in transplant infectious diseases (TID) physicians being a member of this team. This gap is further widened in low middle-income countries (LMIC) like India, where there is a dearth of laboratory facilities, which are essential for pretransplant screening and diagnosis of posttransplant infections. India though an LMIC does large volumes of organ and bone marrow transplantations. This article examines the current state of ID and TID training in India with an emphasis on the need for a structured and standardized educational pathway for future transplant professionals. Drawing on examples from existing programs and workforce data using a qualitative survey, we identify paramount challenges such as inconsistent exposure during medical and surgical training, limited access to transplant-specific education, and insufficient support for career development in transplant-related specialties. We propose a strategic framework to address these challenges with an emphasis on early exposure, interprofessional education, mentorship, and the integration of transplant content within undergraduate and postgraduate curricula. By encouraging a comprehensive national strategy, we aspire to bridge this training gap, ensuring workforce sustainability and ultimately improving patient outcomes for those awaiting transplantation.',
-    published: '2025-Jun-10',
+    id: '40497304',
+    title: 'Age equality in mental health: Déjà vu all over again.',
+    abstract: 'AIMS: Ageism is one of the last socially accepted prejudices. This paper aims to highlight key areas of age discrimination and inequality in mental health services.\n' +
+      "DISCUSSION: It will discuss examples, drawn mainly from the UK, in terms of mental health inequalities to illustrate age inequality. It will define what is meant by 'older people' before discussing ageism and age equality. Examples will be given of the impact of ageism has on the mental health of older people themselves, the impact of institutional ageism on the unequal access older people have to age-appropriate services. Additionally, as older people present differently, their needs are not always recognised. This demonstrates the need for further training and education for health and social care professionals.\n" +
+      "CONCLUSION: It will conclude with hope and encouragement for action with possible ideas to take forward to continue to address this. It calls for allies to address 'Everyday Ageism' and will signpost readers to resources that may assist them in their endeavours to challenge this.",
+    published: '2025-Jun-11',
+    authors: [ 'Kaiser Polly', 'Dykes Kathryn', 'Lord Natasha' ],
+    journal: 'Psychology and psychotherapy',
+    doi: '10.1111/papt.12594',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497304/'
+  },
+  {
+    id: '40497298',
+    title: 'Prevalence, symptomology, and correlates of curable sexually transmitted infections among pregnant women in Eastern Cape, South Africa.',
+    abstract: 'BackgroundCurable sexually transmitted infections (STIs) contribute to adverse maternal and neonatal outcomes. Syndromic management is standard care in South Africa. We evaluated prevalence, symptomology, and correlates of curable STIs, among pregnant women in Eastern Cape, South Africa.MethodsWe conducted a cross-sectional analysis using baseline data from a randomized controlled trial of pregnant women attending their first antenatal care visit at public clinics in Buffalo City Municipality (2021-2024). Participants were tested for , ,  using GeneXpert point-of-care tests and for syphilis using Alere Determine TP rapid test. Symptoms were self-reported and clinically-observed. Adjusted prevalence ratios were estimated using Poisson regression models with robust standard errors.ResultsAmong 1491 participants (median age: 28 years (IQR: 24-33); gestational age: 13 weeks (IQR: 8-18); HIV prevalence: 30%), STI prevalence was 27.6% (95% CI: 25.3-29.9):  14.7%,  5%,  10.2%, syphilis 3.4%. Women with HIV had higher STI prevalence (32.8% vs 25.3%,  = .003), particularly for  (17% vs 7.3%,  < .001); 20.1% of women with C, , and/or  were symptomatic, and 63% of symptomatic women tested STI-negative. Younger age, lower education, multiple sex partners and unknown HIV-serostatus of partners were associated with increased STI prevalence.ConclusionWe observed a high prevalence of STIs, particularly among women with HIV, with many asymptomatic cases; emphasizing the need for integrated point-of-care testing to ensure timely treatment, reduce antibiotic overuse, and improve maternal and neonatal outcomes.',
+    published: '2025-Jun-11',
     authors: [
-      'Mittal Ankit',
-      'Prayag Parikshit',
-      'Alexander Hanna',
-      'Rupali Priscilla'
+      'Shaetonhodi Natalie G',
+      'de Voux Alex',
+      'Babalola Chibuzor M',
+      'Joseph Davey Dvora',
+      'Mdingi Mandisa M',
+      'Gigi Ranjana M S',
+      'Peters Remco P H',
+      'Mukomana Freedom',
+      'Klausner Jeffrey D',
+      'Medina-Marino Andrew'
     ],
-    journal: 'Transplant infectious disease : an official journal of the Transplantation Society',
-    doi: '10.1111/tid.70060',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492357/'
+    journal: 'International journal of STD & AIDS',
+    doi: '10.1177/09564624251347484',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497298/'
   },
   {
-    id: '40492257',
-    title: 'Dataset for Multidimensional Poverty Index in Cali-Colombia.',
-    abstract: `This article presents data collected through in-person surveys conducted in the city of Santiago de Cali, Colombia, to characterize the population registered in the city's Social Program Beneficiary Identification System (SISBÉN, by its Spanish acronym). The sample includes 1605 observations, representing individuals between 18 and 87 years of age. The survey covered various aspects of the population's general characteristics, such as gender, age, race, and education level. Additionally, information was requested about people's employment conditions (whether they are employed or seeking employment, the sector of the economy in which they work, their monthly income, whether they have health insurance, whether they contribute to a pension, in the other questions). Individuals register at the SISBÉN service points in the city and fill out the SISBÉN IV survey (which constitutes the secondary data). We randomly interviewed them at the SISBÉN points to collect additional primary data necessary to achieve the study's objectives. Using the identification, we match the SISBÉN IV survey data (secondary data) with the primary data collected at the service points, thus generating the integrated database presented in this article. The survey was designed within the framework of Interadministrative Agreement No. 4132.010.32.1.376-2024, signed between the University of Valle Foundation and the Administrative Planning Department of the District Municipality of Santiago de Cali, whose objective is to "Pool efforts and resources to administer, update, and maintain the SISBÉN database under its Methodology IV, in order to improve the quality of life of the vulnerable population by the procedures and guidelines established for this purpose by the National Planning Department" drawing on the expertise of the team of researchers in areas related to the labor market, employment quality, and multidimensional poverty. To our knowledge, no other Cali database allows the Multidimensional Poverty Index calculation. The data have also not been used in previous articles. The sampling does not fully represent the Santiago de Cali population. However, it is representative of individuals registered in SISBÉN. Potential selection bias could happen if the researcher's problem is different, for example, occupational and unemployment rates in Cali or urban locations. However, in poverty, SISBÉN classifies individuals to social benefits through a cut-off in the score. The location where individuals are registered is where the probability of poverty is high, and the data could be representative of poverty conditions in Santiago de Cali City. For example, following the DANE [1] methodology of MPI, 11.3 % of individuals registered in Cali's SISBÉN were in multidimensional poverty. These estimations were based on a sample of 44,693 households, representing a total of 112,655 individuals. The data provided in this article constitute a valuable resource for researchers, public administrators, and other stakeholders, as they allow for the analysis of employment quality and poverty among the population registered in SISBÉN.`,
-    published: '2025-Jun',
+    id: '40497297',
+    title: 'Sweat Testing and Cystic Fibrosis - test performance before and after a quality improvement project in a South African tertiary hospital laboratory.',
+    abstract: 'BACKGROUND: The diagnosis of cystic fibrosis (CF) is challenging due to high quantity not sufficient (QNS) rates of sweat tests, leading to frequent retesting, increasing costs and adverse impacts on patient care. This study aimed to assess sweat test performance and implement a quality improvement project (QIP) to reduce QNS rates.\n' +
+      'METHODS: A two-part retrospective audit was conducted. Part one spanned two-years reviewing the two-tiered testing with sweat conductivity as a screening tool, followed by chloride testing. Part two evaluated the QNS rates over two 6-month periods, separated by a QIP, which involved technologist training, clinician education, patient preparation protocols and revised testing procedures.\n' +
+      "RESULTS: Over the two-year period: 425 sweat tests were performed on 291 patients. Sweat conductivity testing demonstrated a lower QNS rate, 13% (31/238), compared to sweat chloride testing's 31% (33/105). High QNS rates were observed in younger infants and in malnourished or acutely ill patients. Post-QIP, the QNS rates for the total study population decreased by 5%, from an initial 30% to 25% in the sweat chloride cohort, while the acceptable QNS rate of 12% remained unchanged in the sweat conductivity cohort Conclusion: Achieving target QNS rates remains challenging, especially in younger infants, with improved QNS rates in older infants and children. Recommendations include limiting sweat testing to experienced technologists and ensuring patient readiness.",
+    published: '2025-Jun-11',
+    authors: [ 'Zama Asande', 'Zemlin Annalise E', 'Korf Marizna' ],
+    journal: 'Annals of clinical biochemistry',
+    doi: '10.1177/00045632251350514',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497297/'
+  },
+  {
+    id: '40497264',
+    title: "Report on the Evidence-Based Practice Committee's Survey on Benign Neoplastic Hand Disease.",
+    abstract: 'PURPOSE: This study aims to evaluate and understand the knowledge and practice patterns of the American Society for Surgery of the Hand (ASSH) members regarding the evidence-based management of benign neoplastic hand diseases (BNHD). The goal is to identify areas of educational deficiency and variability in clinical approaches.\n' +
+      'METHODS: In the fall of 2022, a 17-question survey was sent via email to ASSH members. The survey included evidence-based practice (EBP) questions with definitive correct answers, and practice pattern (PP) questions that focused on controversial clinical scenarios without a single correct answer. Responses were collected and analyzed to determine the percentage of correct answers for EBP questions and to identify consensus or variability among PP questions.\n' +
+      'RESULTS: Out of 356 respondents, over 50% correctly answered 6 out of 12 EBP questions, indicating a strong knowledge base in certain areas of BNHD management. The remaining six EBP questions revealed knowledge gaps, particularly in the management of giant cell tumors and enchondromas. The PP questions showed variability in practice approaches, reflecting diverse clinical decision making among members.\n' +
+      "CONCLUSIONS: The survey identified both strengths and areas for improvement in ASSH members' understanding of evidence-based management of BNHD. These findings suggest a need for specific educational initiatives to address knowledge gaps and promote more consistent EBPs within the field of hand surgery.\n" +
+      'CLINICAL RELEVANCE: Understanding current knowledge levels and PPs among hand surgeons can help target and develop educational strategies to improve the management of benign hand tumors, thereby enhancing future patient care and outcomes.',
+    published: '2025-Jul',
     authors: [
-      'Mora Rodriguez Jhon James',
-      'Herrera Diana Yaneth',
-      'Arroyo José Santiago'
+      'Sabet Andre',
+      'Gullborg Eric',
+      'Simcock Xavier',
+      'Wysocki Robert',
+      'Giladi Aviram',
+      'Chaudhry Sonia'
     ],
-    journal: 'Data in brief',
-    doi: '10.1016/j.dib.2025.111605',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492257/'
+    journal: 'Journal of hand surgery global online',
+    doi: '10.1016/j.jhsg.2025.01.009',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497264/'
   },
   {
-    id: '40492225',
-    title: 'Cross-sectional evaluation of a peer educator-led empowerment initiative for improving participation in cervical precancer screening among female sex workers in Ghana.',
-    abstract: 'PURPOSE: Despite having an increased risk of HPV infection, female commercial sex workers (FCSWs) have low uptake of cervical screening. Among FCSWs in the Volta Region of Ghana referred for screening following peer education, we examined the prevalence of high-risk human papillomavirus (hr-HPV) and cervical lesions and modelled factors associated with these screening outcomes.\n' +
-      'PATIENTS AND METHODS: As part of the mPharma Ten Thousand Women Initiative, implemented between September and October 2022, 340 FCSWs in Ho and Aflao were recruited by peer educators. Screening involved MA-6000 testing (with full genotyping using the AmpFire HPV platform) and enhanced visual assessment (EVA) mobile colposcopy.\n' +
-      'RESULTS: The FCSWs screened had a mean age of 31.9 (SD, 9.3) years. The prevalence of cervical lesions on mobile colposcopy was 9.8% (95% confidence intervals (CI), 4.9-14.7), while the prevalence of hr-HPV infection among the FCSWs was estimated at 28.0% (95% CI, 20.6-35.3). The commonest individual genotype was HPV68 (9.1%; 95% CI, 4.9-15.0), while the least common genotypes were HPV33 and HPV39 (each 0.7%; 95% CI, 0.0-3.8). FCSWs screened in Aflao maintained threefold higher odds of hr-HPV infection (aOR, 3.33; 95% CI, 1.18-9.40) and having clinically significant EVA findings was associated with approximately fivefold higher odds of hr-HPV infection (aOR, 4.64; 95% CI, 1.09-19.83; -value = 0.038). Condom use at the time of screening was independently associated with decreased odds of hr-HPV infection (aOR, 0.14; 95% CI, 0.04-0.49; -value = 0.002). HIV infection (aOR, 9.95; 95% CI, 1.19-83.37) and engagement in oral-genital contact (aOR, 5.56; 95% CI, 1.35-22.94) were associated with higher odds of clinically significant EVA findings.\n' +
-      'CONCLUSION: Our study underscores the urgent need for comprehensive and targeted interventions to reduce the burden of hr-HPV and the potential for cervical precancer/cancer among FCSWs in Ghana. We further highlight the importance of promoting continuous condom use among FCSWs during interactions with patrons and considering HIV status in the development and implementation of cervical precancer screening programs for FCSWs.',
+    id: '40497259',
+    title: '"Too little, too late": youth retrospectives on school attendance problems and professional support received.',
+    abstract: "INTRODUCTION: School attendance problems (SAPs) are a vexing issue that pose significant challenges for youth, families, and professional stakeholders. Despite growing research efforts, studies that explore the perspectives of youth on SAPs remain limited, particularly in Nordic countries. This qualitative study investigated Norwegian youths' retrospectives on the development and persistence of SAPs and the support they received from professionals in addressing their challenges.\n" +
+      'METHODS: Semi-structured interviews were conducted with 10 youth (aged 12-22) with a history of SAPs in compulsory education. Participants were recruited by professionals from the educational-psychological service and alternative provisions in three Norwegian municipalities. Data were analyzed using reflexive thematic analysis.\n' +
+      "RESULTS: The results indicate that lacking positive relationships with peers and teachers along with falling behind academically lead to school alienation and contributes to the onset or maintenance of SAPs. Similar experiences of gradual onset of SAPs, anxiety and depression, emotional and somatic distress, and conflicting feelings around avoidance were outlined. The youths' initial experiences of support within the school setting were described as inappropriate, insufficient, or initiated too late, while attending alternative provisions appeared as a primary intervention that had enduring positive effects on attendance and engagement in academic and social activities.\n" +
+      'CONCLUSION: The findings highlight the need for early intervention, coherence between initiatives across support services and effective collaboration between youth, families, schools, and external services.',
+    published: '2025',
+    authors: [ 'Hamadi Selina Eckhoff', 'Havik Trude', 'Holen Solveig' ],
+    journal: 'Frontiers in child and adolescent psychiatry',
+    doi: '10.3389/frcha.2025.1595289',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497259/'
+  },
+  {
+    id: '40497255',
+    title: 'Personality Traits, Stress, Anxiety, Depression Levels, Fear of Childbirth, and Affecting Factors in Turkish University Students.',
+    abstract: " This study was conducted to investigate the personality traits, stress, anxiety, depression levels, fear of childbirth, and affecting factors in Turkish female university students.  The study was planned as a descriptive and correlational type. The sample consisted of 500 female students who met the research criteria at the Faculty of Health Sciences and Faculty of Education of a university. The data were collected face-to-face using a personal information form, including socio-demographic and pregnancy-birth-related thoughts, the Childbirth Fear-Prior to Pregnancy (CFPP) scale, the Type D Personality Scale (negative affectivity and social inhibition subscales), and the Depression Anxiety Stress Scale-21 (DASS-21). Ethics committee approval and institutional permissions were obtained from the students to conduct the study. In the analysis of the data, the Kolmogorov-Smirnov test, descriptive methods Mann-Whitney , and the Kruskal-Wallis test were used.  52.8% of the students were from the Faculty of Health Sciences, 48.4% were nursing students, and 30.6% were in their first class of students. The mean CFPP score was 40.14 ± 11.35. The mean score was 12.01 ± 6.79 for negative affectivity, 9.58 ± 6.09 for social inhibition, 6.75 ± 4.05 for stress, 5.28 ± 4.09 for anxiety, and 5.58 ± 4.50 for depression. There was a low level of positive correlation between CFPP and social inhibition subscales ( = 0.113), negative affectivity ( = 0.282), stress ( = 0.241), anxiety ( = 0.231), and depression ( = 0.221 ( = 0.01). The predictor of students' fear of childbirth prior to pregnancy was negative affectivity.  Turkish university students' fear of childbirth prior to pregnancy was associated with personality traits, depression, anxiety, and stress. It is recommended to identify the depression, anxiety, stress levels, personality traits, and fear of childbirth of female university students in the prepregnancy period, plan information and education, and conduct further research on the fear of childbirth.",
+    published: '2025',
+    authors: [ 'Erbil Nülüfer', 'Boyraz Yanık Hilal Gül', 'Yıldız Gizem' ],
+    journal: 'Depression and anxiety',
+    doi: '10.1155/da/5130737',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497255/'
+  },
+  {
+    id: '40497234',
+    title: 'Awareness, Attitudes, and Practices Regarding OTC Drugs in Circassian and Chechen Communities in Jordan: A Cross-Sectional Study.',
+    abstract: 'PURPOSE: Over-the-counter (OTC) medications are widely used for self-medication, yet their misuse can lead to adverse outcomes. This study aimed to assess the knowledge, awareness, and attitudes toward OTC drugs among Circassians and Chechens in Jordan.\n' +
+      'METHODS: A cross-sectional study was conducted in September 2022 using an online survey targeting Circassians and Chechens aged 18 and above. The questionnaire was validated by clinical researchers and consisted of demographic data and questions on OTC drug use, awareness, and attitudes. Data from 418 participants were analyzed using descriptive and inferential statistics, with a significant level of p < 0.05.\n' +
+      "RESULTS: The majority of participants were female (76.1%), married (78.5%), and almost half of the participants held a non-medical bachelor's degree (49.3%). Analgesics (73.9%) and vitamins (56.7%) were the most used OTC drugs. Headache (65.6%), musculoskeletal pain (33.7%), and the common cold (25.4%) were the primary reasons for self-medication. Most participants (53.8%) expressed strong interest in knowing the side effects and contraindications of OTC drugs, while 72.5% checked expiry dates before use. Notably, 50.2% disagreed with the statement that OTC products have no side effects. Age and educational level were significantly associated with self-medication practices (p < 0.05).\n" +
+      'CONCLUSION: Circassians and Chechens in Jordan exhibit high awareness of the risks associated with OTC drug use, yet self-medication practices remain prevalent. Public health interventions should focus on education campaigns to mitigate potential misuse and promote safe practices.',
     published: '2025',
     authors: [
-      'Effah Kofi',
-      'Tekpor Ethel',
-      'Wormenor Comfort Mawusi',
-      'Amuah Joseph Emmanuel',
-      'Kwawukume Vida',
-      'Matey Louisa Ademki',
-      'Kemawor Seyram',
-      'Danyo Stephen',
-      'Morkli Esu Aku Catherine',
-      'Essel Nana Owusu Mensah',
-      'Donkoh Emmanuel Timmy',
-      'Akakpo Patrick Kafui'
+      'Qnais Esam',
+      'Barakat Muna',
+      'Alnajjar Roaa',
+      'Alzaghari Lujain F',
+      'Alqudah Abdelrahim',
+      'Dajani Rana',
+      'Hakooz Nancy'
     ],
-    journal: 'Ecancermedicalscience',
-    doi: '10.3332/ecancer.2025.1869',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492225/'
+    journal: 'Patient preference and adherence',
+    doi: '10.2147/PPA.S525522',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497234/'
   },
   {
-    id: '40492222',
-    title: 'Relationship between Khat chewing and upper digestive tract cancers among male patients in Hargeisa: case control study.',
-    abstract: 'Khat chewing is a common cultural practice in countries bordering the Red Sea and the east coast of Africa. Despite some indications in the literature, its association with upper digestive tract (UDT) cancers is under-researched. This study investigated the relationship between khat chewing and UDT cancers among male patients in Hargeisa using a case-control design. A total of 97 respondents were included, 36 cases and 61 controls from the only two cancer clinics in Somaliland, Nageeye Cancer Clinic and Needle Hospital. The study used non-probability purposive sampling, data collection was conducted using a structured questionnaire, and data entry and cleaning were performed using SPSS version 22. Analysis was carried out using Stata MP 16. The findings revealed an association between duration, frequency and amount of khat chewing and the risk of developing UDT cancers. Specifically, individuals who chewed khat for more than 20 years had a 7.05 times higher risk ( < 0.05), those who chewed daily had a 6.89 times higher risk ( < 0.05), and heavy chewers (>600 g) had a 6.60 times higher risk ( < 0.05) of developing UDT cancers. The associations found in this study between khat chewing and UDT cancers suggest an urgent need for public health strategies, including education and policy reforms, to address and reduce the health risks posed by khat chewing in Somaliland. The study also highlighted the importance of community education and awareness programs to mitigate the adverse health effects of khat.',
-    published: '2025',
+    id: '40497226',
+    title: 'Which elective hand surgery would benefit most from preoperative therapy interventions to enhance surgical outcomes? A survey of hand therapists.',
+    abstract: "BACKGROUND: An ageing population and increasing chronic health disorders explain the predicted rise in hand surgeries. Preoperative care has the potential to optimise patients' psychological and physical status, making it a promising area for enhancing surgical outcomes. Despite its established use in other surgical specialties, preoperative therapy in hand surgery remains underexplored.\n" +
+      "OBJECTIVE: This study uses an anonymous survey to gather therapists' opinions on the hand procedure whose outcomes benefit most from preoperative therapy. The research focuses on five common elective hand procedures: Carpal Tunnel Release (CTR); Cubital Tunnel Release (CuTR); Dupuytren's Fasciectomy (DF); Trapeziectomy (TZ); and Trigger Finger Release (TFR).\n" +
+      'METHOD: British Association of Hand Therapy members were targeted in an online survey. Thirty-seven respondents (5% response rate) participated over 3 months. Questions explored how preoperative therapy improves surgical outcomes, the efficacy of postoperative therapy, and the importance of patient compliance postoperatively.\n' +
+      'RESULTS: TZ emerged as the procedure with the highest potential for preoperative therapy benefit, TZ and DF as top procedures for postoperative therapy requirements and importance of patient engagement and compliance. CTR had contradictory responses, while TFR and CuTR received the fewest endorsements for preoperative therapy benefits.\n' +
+      "CONCLUSION: The survey offers insight into hand therapists' perspectives on preoperative therapy. TZ and DF stand out as having significant potential for optimisation. Uncertainty surrounding efficacy of therapy on Dupuytren's Disease indicates the necessity for further research. Education is considered an essential preoperative component. The small sample size warrants caution when interpreting results.",
+    published: '2025-Jun-08',
     authors: [
-      'Ali Abdiwahab M',
-      'Mutuku Mirriam N',
-      'Hashi Abdiwahab',
-      'Muhumed Omar M'
+      'Babiker-Moore Tahra',
+      'Clark Carol J',
+      'Kavanagh Emma',
+      'Crook Timothy B'
     ],
-    journal: 'Ecancermedicalscience',
-    doi: '10.3332/ecancer.2025.1880',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492222/'
+    journal: 'Hand therapy',
+    doi: '10.1177/17589983251345385',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497226/'
   },
   {
-    id: '40492217',
-    title: 'Cancer awareness through school curriculum: evidence and recommendations from a quasi-experimental study among school children in the State of Kerala, India.',
-    abstract: 'INTRODUCTION: Cancer is emerging as a leading cause of morbidity and mortality in India and other countries worldwide. Preventable risk factors for cancer, such as the use of tobacco and alcohol, unhealthy diets and physical inactivity, are often initiated and established during adolescence. Identifying effective strategies for engaging adolescents in cancer-protective behaviours is essential. The current study investigates the potential of schools as settings and school curricula as tools for raising cancer awareness among teenagers.\n' +
-      "METHODS: Consultative meetings and workshops were conducted with education, health and social services experts to develop a primer for cancer control in the school curriculum. Textbooks were scanned to determine the extent of cancer-related topics for standards five to ten. The study participants' awareness at baseline was assessed using the Cancer Awareness Measure toolkit (version 2.1). Based on these findings, a study package was developed and implemented through trained teachers. A quasi-experimental study design was used to assess the impact of the study package in improving cancer awareness.\n" +
-      'RESULTS: In the post-intervention survey, the participants from the intervention schools demonstrated significant improvements in their understanding of cancer warning signs (unexplained lump or swelling ( = 0.0001), unexplained bleeding ( = 0.007), persistent cough or hoarseness ( = 0.0001), non-healing ulcers ( = 0.0001) and risk factors (consumption of fewer quantities of fruit and vegetables ( = 0.010), eating red or processed meat ( = 0.0001) and physical inactivity ( = 0.01)).\n' +
-      "CONCLUSION: Implementing the cancer awareness study package through classroom teaching improved students' understanding of warning signs and risk factors for cancer. The study emphasised the role of the school as a setting, the school curriculum as a tool and teachers as promoters of cancer prevention education. However, there is no guarantee that this program will work if the learners' environment is not improved through the concurrent teaching of parents. Children learn what they live.",
-    published: '2025',
-    authors: [
-      'Philip Phinse Mappalakayil',
-      'Parambil Neethu Ambali',
-      'Padmanabhan Maya',
-      'Balasubramanian Satheesan'
-    ],
-    journal: 'Ecancermedicalscience',
-    doi: '10.3332/ecancer.2025.1876',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492217/'
-  },
-  {
-    id: '40492203',
-    title: 'Implementation of a Novel Wilderness Medicine Simulation Course for Medical Students.',
-    abstract: 'INTRODUCTION: Wilderness medicine is a growing field focused on delivering quality medical care in austere environments. Simulation-based education has proven effective in emergency and wilderness medicine, particularly in graduate medical education. We propose that introducing wilderness medicine concepts earlier in medical education as part of a high-fidelity simulation for medical students could both increase interest in wilderness medicine and have widely applicable educational benefits.\n' +
-      'METHODS: We developed a novel 1-day case-based simulation curriculum to be performed in a wilderness environment and invited undergraduate medical students to participate. A 25-question survey was administered before and after the simulation to assess subjective change across various topics.\n' +
-      'RESULTS: The 10 of 12 students who responded to the survey indicated that the simulation significantly increased their confidence in managing urgent medical cases and increased their interest in the wilderness medicine field. All students agreed that simulation was an effective way to learn this material.\n' +
-      'DISCUSSION: Implementing a wilderness medicine simulation in medical curricula appears feasible and provides a comprehensive model that can be easily adapted to other institutions.',
-    published: '2025',
-    authors: [
-      'Sprengel Katherine A',
-      'Redpath Sophia',
-      'Palazzo Kira L',
-      'Hock Sara M'
-    ],
-    journal: 'MedEdPORTAL : the journal of teaching and learning resources',
-    doi: '10.15766/mep_2374-8265.11526',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492203/'
-  },
-  {
-    id: '40492187',
-    title: 'Association Between Nut Consumption and Metabolic Syndrome in Korean Adults.',
-    abstract: 'OBJECTIVE: Although nuts have been reported to lower the risk of multiple diseases, evidence regarding their effect on metabolic syndrome (MetS) in Asian populations is limited. Therefore, this study aimed to clarify the association between nut consumption and the risk of MetS.\n' +
-      'METHODS: A cross-sectional analysis was conducted using data from the seventh Korea National Health and Nutrition Examination Survey (2016-2018). MetS was defined according to the guidelines of the National Cholesterol Education Program Adult Treatment Panel III. Responses to a single 24-hour dietary recall from 4,365 younger adults (19-39 years), 7,498 middle-aged adults (40-64 years), and 4,378 older adults (≥65 years) were analyzed using multivariable logistic regression models.\n' +
-      'RESULTS: In this study, based on the culinary definition, nuts included tree nuts and peanuts. Approximately 25% of Korean adults were found to consume nuts. After adjusting for confounding variables, including age, body mass index, total energy intake, household income, alcohol consumption, smoking, aerobic exercise, and energy from carbohydrates, nut consumption was associated with a lower risk of MetS among middle-aged men (40-64 years; odds ratio [OR], 0.68; 95% confidence interval [CI], 0.53-0.88), older men (≥65 years; OR, 0.72; 95% CI, 0.53-0.98), and older women (≥65 years; OR, 0.69; 95% CI, 0.53-0.89).\n' +
-      'CONCLUSION: These results suggest that consuming nuts may exert protective effects against MetS in middle-aged Korean men and older Korean adults.',
+    id: '40497223',
+    title: 'The Impact of New Weight-Loss Medications on Bariatric Surgery and Surgeon Employment.',
+    abstract: 'Obesity continues to pose an urgent public health challenge in the United States, with prevalence among adults and significant associations with chronic conditions, including diabetes, cardiovascular disease, and nonalcoholic fatty liver disease. While bariatric surgery has established itself as the most effective long-term treatment for severe obesity, delivering consistent weight loss and notable improvements in obesity-related comorbidities, its utilization remains relatively low due to factors such as patient apprehension, access disparities, and insurance limitations. The recent emergence and widespread adoption of potent anti-obesity medications, particularly glucagon-like peptide-1 (GLP-1) receptor agonists like semaglutide and dual incretin agonists such as tirzepatide, have created new, non-surgical pathways capable of achieving substantial weight loss outcomes, thus prompting a reevaluation of the traditional obesity treatment landscape. This comprehensive review assesses the contemporary state of bariatric surgery and systematically examines the clinical efficacy, safety, and durability of emerging pharmacotherapies relative to surgical interventions. We also analyze the potential implications of these medications on patient preferences, surgical volumes, healthcare economics, and the bariatric surgery job market within the United States. Recognizing the evolving role of bariatric surgeons, we discuss how the profession may adapt through multidisciplinary care models, integrated pharmacological management, and adjusted surgical training programs. The goal of this manuscript is to inform clinicians, healthcare systems, policymakers, and patients regarding the anticipated impact of novel weight-loss medications on the future direction of obesity care and the professional landscape of bariatric surgery.',
     published: '2025-May',
-    authors: [ 'Shin Sunhye' ],
-    journal: 'Journal of lipid and atherosclerosis',
-    doi: '10.12997/jla.2025.14.2.219',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492187/'
-  },
-  {
-    id: '40492177',
-    title: "Turkish physicians' approach to lesbian, gay, bisexual, transgender, and other gender and sexual minority individuals and their sexual health.",
-    abstract: "BACKGROUND: Lesbian, gay, bisexual, transgender, and other gender and sexual minority (LGBT+) individuals often face healthcare disparities, and physicians' knowledge, attitudes, and clinical preparedness significantly impact access to competent care.\n" +
-      "AIM: This study evaluated Turkish physicians' perspectives, knowledge, and clinical approaches to LGBT+ sexual health, highlighting educational and clinical gaps.\n" +
-      "METHODS: A nationwide cross-sectional survey was conducted among physicians from 10 specialties involved in LGBT+ sexual health. The survey, administered anonymously via Google Forms between June 4, 2024, and February 1, 2025, included sociodemographic questions and items assessing attitudes, clinical experience, and guideline familiarity. Statistical analyses included descriptive statistics, chi-square, Fisher's exact tests, and binary logistic regression to identify predictors of physician attitudes and perceived competence.\n" +
-      "OUTCOMES: The primary outcome was to assess physicians' perspectives, competency, and willingness to provide LGBT+ healthcare, including gender-affirming procedures.\n" +
-      "RESULTS: Among 745 participants, 58.8% considered LGBT+ identities normal, while 22.9% classified them as psychiatric disorders. Perceiving LGBT+ identities as normal was significantly associated with being female (OR = 3.12, 95% CI: 1.96-4.96,  < .001), prior experience treating LGBT+ patients (OR = 2.22, 95% CI: 1.60-3.07,  < .001), and physician specialty. This view was most common among psychiatrists ( = .012) and child and adolescent psychiatrists ( = .015). Physicians' views were primarily shaped by education (43.2%) and socio-cultural environment (40.9%). Although 63.9% had treated LGBT+ patients, only 28.2% felt competent, and 11.5% were aware of relevant guidelines. Only 18% of surgical specialists supported gender-affirming procedures. The most commonly cited reason for reluctance was lack of surgical experience (44.8%), along with concerns related to religious beliefs, absence of a surgical team, and potential surgical complications. Ethical dilemmas were evident, as 58.3% believed LGBT+ patients face discrimination in healthcare, and 21.9% supported a physician's right to refuse care based on personal beliefs.\n" +
-      "CLINICAL IMPLICATIONS: Enhancing physicians' education and competency in LGBT+ healthcare through structured training and standardized guidelines is crucial to improving equitable healthcare delivery.\n" +
-      "STRENGTHS AND LIMITATIONS: This study provides novel insights into physicians' attitudes and practices regarding LGBT+ healthcare in Turkey. However, self-reported data may introduce response bias, and findings may not be fully generalizable to other regions.\n" +
-      'CONCLUSION: Significant educational and clinical gaps persist in LGBT+ healthcare. Addressing these through structured training programs, standardized protocols, and multidisciplinary collaboration is essential to ensuring competent, inclusive, and ethical medical care.',
-    published: '2025-Jun',
-    authors: [
-      'Çeker Gökhan',
-      'Arda Ersan',
-      'Çakıcı Özer Ural',
-      'Gül Murat',
-      'İbiş Muhammed Arif',
-      'Kutman Kerem Gençer',
-      'Temeltürk Rahime Duygu',
-      'Çiçek Tufan',
-      'Akdemir İrem',
-      'Çeker Meral',
-      'Gökçe Özlem',
-      'Gültekin Mehmet Hamza',
-      'Kızılkan Yalçın',
-      'Anıl Hakan',
-      'Demir Murat',
-      'Ünal Emre',
-      'Akgün Ugur',
-      'Turgay Batuhan',
-      'Okutucu Tolga Muharrem',
-      'Dogan Çagrı',
-      'Bal Harun'
-    ],
-    journal: 'Sexual medicine',
-    doi: '10.1093/sexmed/qfaf043',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492177/'
-  },
-  {
-    id: '40492175',
-    title: 'Recent advances and educational strategies in diagnostic imaging for temporomandibular disorders: a narrative literature review.',
-    abstract: 'INTRODUCTION: Temporomandibular disorders (TMD) are a group of orofacial conditions characterized by pain and dysfunction of the temporomandibular joint (TMJ) and surrounding musculature. Imaging plays a crucial role in diagnosis and treatment planning. However, educational content on TMD imaging in medical and dental curricula has lagged behind recent technological advances.\n' +
-      'METHODS: This review analyzes the current status of TMD imaging education based on a synthesis of literature and educational practices. It highlights discrepancies across institutional curricula and evaluates emerging strategies such as interdisciplinary learning, artificial intelligence (AI)-assisted tools, and simulation-based training.\n' +
-      'RESULTS: TMD imaging education is found to be inconsistent and underdeveloped globally, with significant variability in curriculum design and limited integration of modern imaging technologies. Current training programs lack standardized guidelines, resulting in knowledge gaps and increased risk of clinical misjudgment. Early findings suggest that AI and simulation tools can enhance educational outcomes.\n' +
-      'DISCUSSION: To bridge the gap between clinical practice and technology, a standardized, evidence-based educational framework is essential. Future strategies should include interprofessional collaboration, AI-driven diagnostic support, and immersive simulation environments. Implementing these measures will enable clinicians to accurately interpret TMD imaging and improve patient care.',
-    published: '2025',
-    authors: [
-      'Zhao Ruopeng',
-      'Xiong Xin',
-      'Li Zhenlin',
-      'Zhang Liming',
-      'Yang Haolun',
-      'Ye Zheng'
-    ],
-    journal: 'Frontiers in neurology',
-    doi: '10.3389/fneur.2025.1597312',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40492175/'
+    authors: [ 'Louis Mena', 'Velazquez Eric' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.83903',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40497223/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1504,505 +1562,129 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
 Translating paper: Big data in economics...
-Translating paper 2/40
+Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/40
+Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 4/40
+Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/40
+Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 6/40
+Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 7/40
+Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/40
+Translating paper 8/50
 Translating paper: A physical theory of economic growth...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 9/40
+Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/40
+Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 11/40
+Translating paper 11/50
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/50
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 13/50
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 14/50
+Translating paper: Experience and education...
+Translating paper 15/50
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 16/50
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 17/50
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 18/50
+Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 19/50
+Translating paper: Economics of education...
+Translating paper 20/50
+Translating paper: Teaching climate complacency: mainstream economics...
+Translating paper 21/50
 Translating paper: Mathematics education for sustainable futures: a s...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 12/40
+Translating paper 22/50
 Translating paper: Stop ignoring small-scale fisheries in economic mo...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 13/40
-Translating paper: Reimagining Scientific Literacy: A Textbook Framew...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 14/40
-Translating paper: The effect of audiovisual motivation and oral heal...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 15/40
-Translating paper: Epistemic Practices Created by Discursive Interact...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 16/40
-Translating paper: Web-Based Computational Design Tools for Architect...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 17/40
-Translating paper: Dual Sequence Modeling for Knowledge Tracing...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 18/40
-Translating paper: “Hands-on History” at the John Brown Farm: Collabo...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 19/40
-Translating paper: ‘I Don’t Feel I’ve Been Exposed to Enough Physics-...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 20/40
-Translating paper: Has the tablet beaten textbooks? Effect of key too...
-Translating paper 21/40
-Translating paper: Promoting Patient Safety Through Patient Engagemen...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 22/40
-Translating paper: Transplant Infectious Disease Training: Bridging t...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 23/40
-Translating paper: Dataset for Multidimensional Poverty Index in Cali...
-Translating paper 24/40
-Translating paper: Cross-sectional evaluation of a peer educator-led ...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 25/40
-Translating paper: Relationship between Khat chewing and upper digest...
-Translating paper 26/40
-Translating paper: Cancer awareness through school curriculum: eviden...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 27/40
-Translating paper: Implementation of a Novel Wilderness Medicine Simu...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 28/40
-Translating paper: Association Between Nut Consumption and Metabolic ...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 29/40
-Translating paper: Turkish physicians' approach to lesbian, gay, bise...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 30/40
-Translating paper: Recent advances and educational strategies in diag...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 31/40
+Translating paper 23/50
+Translating paper: Close the mathematics gender gap: huge study promp...
+Translating paper 24/50
+Translating paper: Beyond diplomats: why model uns should be for ever...
+Translating paper 25/50
+Translating paper: Using Computational Grounded Theory to Analyze Pre...
+Translating paper 26/50
+Translating paper: Beyond text in the EFL digital landscape exploring...
+Translating paper 27/50
+Translating paper: Expressions of educational change agents: Student ...
+Translating paper 28/50
+Translating paper: Exploring the Role of Care in the Teaching Aspirat...
+Translating paper 29/50
+Translating paper: The compensatory effect of education as revealed b...
+Translating paper 30/50
+Translating paper: Preparing Tomorrow’s Physicians: The Case for Mach...
+Translating paper 31/50
+Translating paper: Correction to "Incidence and Economics of Transven...
+Translating paper 32/50
+Translating paper: Age equality in mental health: Déjà vu all over ag...
+Translating paper 33/50
+Translating paper: Prevalence, symptomology, and correlates of curabl...
+Translating paper 34/50
+Translating paper: Sweat Testing and Cystic Fibrosis - test performan...
+Translating paper 35/50
+Translating paper: Report on the Evidence-Based Practice Committee's ...
+Translating paper 36/50
+Translating paper: "Too little, too late": youth retrospectives on sc...
+Translating paper 37/50
+Translating paper: Personality Traits, Stress, Anxiety, Depression Le...
+Translating paper 38/50
+Translating paper: Awareness, Attitudes, and Practices Regarding OTC ...
+Translating paper 39/50
+Translating paper: Which elective hand surgery would benefit most fro...
+Translating paper 40/50
+Translating paper: The Impact of New Weight-Loss Medications on Baria...
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 32/40
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 33/40
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 34/40
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 35/40
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 36/40
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 37/40
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 38/40
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 500,
-  statusText: 'Internal Server Error',
-  errorDetails: undefined
-}
-Translating paper 39/40
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 40/40
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 40 papers
-Removed duplicates: 237 -> 215
-Total papers after merging: 215 (197 existing + 40 new)
-Saved 215 papers to papers.json
+Translation completed: 50 papers
+Removed duplicates: 265 -> 233
+Total papers after merging: 233 (215 existing + 50 new)
+Saved 233 papers to papers.json
 Generating HTML files...
-Generating index.html with 215 papers...
+Generating index.html with 233 papers...
 Successfully generated index.html
-Generating archive.html with 215 papers...
+Generating archive.html with 233 papers...
 Successfully generated archive.html
-Generating journal.html with 215 papers...
+Generating journal.html with 233 papers...
 Successfully generated journal.html
-Generating acquisition.html with 215 papers...
+Generating acquisition.html with 233 papers...
 Successfully generated acquisition.html
-Generating publication.html with 215 papers...
+Generating publication.html with 233 papers...
 Successfully generated publication.html
-Generating registration.html with 215 papers...
+Generating registration.html with 233 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 215
-New papers processed: 40
+Total papers in database: 233
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-10T15:30:03.165Z
+Timestamp: 2025-06-11T15:42:26.488Z
