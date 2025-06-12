@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-11T15:11:59.398Z
+Timestamp: 2025-06-12T15:11:48.967Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 215 existing papers from papers.json
+Loaded 233 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -299,114 +299,20 @@ Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
 Rate limited. Retrying after 4000ms...
-Fetched papers from Semantic Scholar: [
-  {
-    id: '220861296c6034a194f9c62612c12973a35b5c05',
-    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
-    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
-    published: '1996-01-01T00:00:00.000Z',
-    authors: [ 'Scott Key' ],
-    journal: 'No journal available',
-    doi: '10.1080/00221546.1996.11780256',
-    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
-  },
-  {
-    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
-    title: 'The New Economics for Industry, Government, Education',
-    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
-    published: '2018-01-01T00:00:00.000Z',
-    authors: [ 'A. Propst', 'W. Deming' ],
-    journal: 'No journal available',
-    doi: '10.2307/1270625',
-    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
-  },
-  {
-    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
-    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
-    abstract: 'No abstract available',
-    published: '2021-01-01T00:00:00.000Z',
-    authors: [ 'M. Roman', 'A. Plopeanu' ],
-    journal: 'International Review of Economic Education',
-    doi: '10.1016/j.iree.2021.100218',
-    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
-  },
-  {
-    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
-    title: 'Experience and education',
-    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
-    published: '2019-01-01T00:00:00.000Z',
-    authors: [ 'K. John-Alder' ],
-    journal: 'Ian McHarg and the Search for Ideal Order',
-    doi: '10.4324/9781315545639-2',
-    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
-  },
-  {
-    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
-    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
-    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci10080205',
-    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
-  },
-  {
-    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
-    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
-    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
-    published: '2023-01-01T00:00:00.000Z',
-    authors: [
-      'W. Geerling',
-      'G. D. Mateer',
-      'Jadrian Wooten',
-      'Nikhil Damodaran'
-    ],
-    journal: 'The American Economist',
-    doi: '10.1177/05694345231169654',
-    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
-  },
-  {
-    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
-    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
-    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
-    published: '2023-01-01T00:00:00.000Z',
-    authors: [ 'C. Lo' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci13040410',
-    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
-  },
-  {
-    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
-    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
-    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
-    journal: 'International Journal of Instruction',
-    doi: '10.29333/IJI.2020.13424A',
-    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
-  },
-  {
-    id: '35d0ead88e9bd727c16459e785358b0050e54514',
-    title: 'Economics of education',
-    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
-    published: '2016-01-01T00:00:00.000Z',
-    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
-    journal: 'No journal available',
-    doi: '10.12737/17661',
-    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
-  },
-  {
-    id: '0e83f229b9de199453823283d9550e10e0e5b00f',
-    title: 'Teaching climate complacency: mainstream economics textbooks and the need for transformation in economics education',
-    abstract: 'ABSTRACT In this paper we ask, what is mainstream economics education conveying to its students? Standard mainstream economics textbooks treat the environment as a specialist issue in addition to standard concerns and based on solutions that conform to those standard concerns. When viewed as socialisation for students this is a major problem. To illustrate the problems we set out key aspects of the standard format, and draw attention to the structure and contents from two well-known textbooks. Standard textbooks convey the impression that the ‘environmental issue’ is appropriately incorporated and exhibit two complacency-creating features. First, fundamental problems (acute global ecological breakdown, biodiversity loss, climate change crisis etc), issues and urgency cannot be adequately conveyed to students within this way of framing economics. Second, specific theory and policy solutions suggest that the problem is well in hand. We illustrate using the theory of negative externalities.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'B. Gills', 'J. Morgan' ],
-    journal: 'Globalizations',
-    doi: '10.1080/14747731.2020.1808413',
-    link: 'https://www.semanticscholar.org/paper/0e83f229b9de199453823283d9550e10e0e5b00f'
-  }
-]
-Collected 10 papers from semanticScholar
+Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -436,6 +342,30 @@ Fetched papers from Springer: [
     journal: 'Nature'
   },
   {
+    id: '10.1007/s10639-025-13592-8',
+    title: 'Measuring digital literacy across ages and over time: Development and validation of a performance-based assessment',
+    summary: 'Measuring digital literacy (DL) across ages and tracking its growth over time have remained challenging in the area of digital literacy assessment. The current analysis reports on the psychometric properties of a performance-based Digital Literacy Assessment (DLA) instrument grounded in the DigComp 2.1 framework. Utilising a longitudinal cohort study design, the DLA was administered to Hong Kong students across three age cohorts, from lower primary to upper secondary, over a two-year period. Data were collected in 2019, before the COVID-19 pandemic, and in 2021, during the pandemic. The analysis provides validity and reliability evidence for using the DLA in longitudinal studies to assess DL from late childhood through late adolescence. The results further suggest that students’ DL improved with grade level, with secondary students outperforming primary students but also displaying greater variability in scores. Over the two years, students generally demonstrated improvement in DL while inter-individual differences in DL growth rates widened. These findings indicate the widening of digital divides and highlight the need to investigate factors that contribute to diversity in DL development. In conclusion, our study provides evidence for the robustness of the DLA as an instrument to assess DL growth across ages and over time. Further, the DLA allowed us to uncover the substantial overlap in DL ability across different age groups and the widening second-level digital divide as children move into higher grades, and that the digital divide aggravated during the COVID-19 pandemic. Implications and challenges to the learning and assessment of DL are discussed.',
+    published: '2025-06-12',
+    authors: [
+      'Pan, Qianqian',
+      'Reichert, Frank',
+      'Liang, Qianru',
+      'Torre, Jimmy',
+      'Law, Nancy'
+    ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'Education and Information Technologies'
+  },
+  {
     id: '10.1038/d41586-025-01799-1',
     title: 'Close the mathematics gender gap: huge study prompts urgent call to action',
     summary: 'Researchers reveal when boys pull ahead of girls in mathematics, sounding an alarm and providing both an opportunity for schools, parents and researchers. Researchers reveal when boys pull ahead of girls in mathematics, sounding an alarm and providing both an opportunity for schools, parents and researchers.',
@@ -444,6 +374,54 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Nature'
+  },
+  {
+    id: '10.1007/s10639-025-13642-1',
+    title: 'Boon or Bane? Evaluating AI-driven learning assistance in higher education professional coursework',
+    summary: 'AI integration in professional coursework has gained attention in higher education, offering potential improvements in learning and performance. However; the usage rate, accuracy, and patterns of AI tools across disciplines remain unclear. The impact of AI on students’ learning and long-term outcomes still needs further investigation. This study investigates the role of AI-driven learning tools in enhancing professional coursework across various academic disciplines, including Engineering, Natural Sciences, Humanities, Social Sciences, and Arts. Using a multi-stage empirical approach, we evaluate student performance and engagement with AI tools, exploring both the positive outcomes and limitations in each discipline. Our findings show that 1,472 students across different regions and academic fields frequently use AI-driven learning tools in their professional coursework, with generally positive feedback. The accuracy of AI-generated responses to 1,200 questions is commendable, but the tools still demonstrate limitations in areas such as flexibility, contextual adaptation, analytical reasoning, and conceptual synthesis in certain disciplines. We segment 800 representative students based on AI engagement patterns, revealing distinct usage behaviors and preferences across four groups, offering further insights into how AI tools are utilized. Furthermore, the results from assessing the impact of AI-driven learning on the academic performance of 400 students show that AI significantly enhances performance in technical fields like Engineering and Natural Sciences. However, instructors in these fields express concerns about students’ over-reliance on AI, which may hinder independent thinking and creative problem-solving. Despite these concerns, our long-term academic outcome predictions indicate that AI-driven learning tools continue to provide substantial benefits to students.',
+    published: '2025-06-12',
+    authors: [ 'Sun, Yicheng', 'Yang, Hanbo', 'Yu, Hi Kuen', 'Suen, Richard' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'Education and Information Technologies'
+  },
+  {
+    id: '10.1007/s42438-025-00561-0',
+    title: 'Exploring Personal Experience and Value Creation in Postdigital Education: Insights from a Large-Scale MOOC Survey',
+    summary: 'This study explores how participants of massive open online courses (MOOCs) perceive value creation within online learning environments. Drawing on the value creation framework (VCF), we developed and empirically validated a questionnaire, which was completed by 1227 learners enrolled in MOOCs offered by TU Delft. The aim was to provide deeper insight into participants’ experiences and the perceived impact of MOOCs on their personal and professional development. More specifically, this research explores the immediate, potential, applied, realized, and transformative value creation cycles. Our findings reveal significant insights into the multifaceted impacts of study behavior on learners’ perceptions. Participants reported benefits such as skill acquisition, professional development, and enhanced confidence while highlighting areas needing improvement, such as practical application opportunities and course relevance. This study highlights the importance of aligning MOOC content with learner needs and providing ongoing support to maximize the educational value that online courses can offer. These insights contribute to understanding educational value in the postdigital age, advocating for the development and support of MOOCs to foster continued personal and professional growth.',
+    published: '2025-06-12',
+    authors: [ 'Soleymani, Ali', 'Laat, Maarten', 'Specht, Marcus' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Postdigital Science and Education'
+  },
+  {
+    id: '10.1007/s10734-025-01474-4',
+    title: 'Contributions of tertiary students’ background factors, learning strategies, behavioural engagement, and cognitive skills to problem solving in technology-rich environments: Evidence from 24 countries',
+    summary: "The current study investigated the contributions of background factors (i.e., gender, age, and parents’ education), learning strategies, behavioural engagement in different domains (i.e., reading, writing, numeracy, and ICT), and cognitive skills (i.e., literacy and numeracy) to problem solving in technology-rich environments among tertiary students across 24 countries. The sample for this study comprised 12,148 tertiary students ( M age  = 25.68 years, 55% female). The results indicated that younger students exhibited better performance in problem solving within technology-rich environments. Furthermore, students whose parents had higher levels of education were more likely to demonstrate higher levels of problem-solving proficiency. Students who employed more effective learning strategies tended to have higher levels of problem-solving abilities. Higher levels of literacy and numeracy performance were associated with better problem-solving performance. Moreover, the study revealed a positive relationship between parents' education at the country level and students' problem-solving performance. This study further explored the similarities and differences in predicting the study variables related to problem solving. The implications of the study's findings were discussed in relation to learning, teaching, and policymaking in higher education. These findings can inform educational practices and policies to enhance problem-solving skills among tertiary students, ultimately improving their preparedness for technology-rich environments.",
+    published: '2025-06-12',
+    authors: [ 'Huang, Jing', 'Mok, Ka Ho' ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Higher Education'
+  },
+  {
+    id: '10.1007/s10734-025-01477-1',
+    title: 'The shifting happiness return to higher education over 50 years: causal mediation analysis of college completion, economic benefits, and happiness in the USA',
+    summary: 'Evidence shows higher education (HE) leads to such socio-economic outcomes as better jobs, income, and happiness. While this implies HE demonstrates multifaceted values incorporating economic benefits and non-pecuniary public good, their causal relationship and longitudinal trends remain empirically elusive. Using data from the General Social Survey over 50 years in the USA (1973–2022, N  = 35,483), we conduct causal mediation analysis to examine the effect of college completion on happiness, including indirect pathways through occupational attainment and income. The results reveal that the overall happiness return to HE has increased over 45 years, followed by a nosedive in 2021–2022 during the COVID-19 pandemic. In the mid-1970s, HE contributed to happiness primarily via occupations, whereas the direct HE-happiness linkage conditional on economic rewards showed a negative sign. However, the relative impact of jobs subsided while the mediating role of income net of occupations increased. Meanwhile, the happiness return to postgraduate degrees has been consistently mediated by occupations. Notably, these premiums for HE are formed in tandem with declining happiness levels among less-educated individuals. We thus argue (1) HE may contribute to relatively better non-pecuniary outcomes like subjective well-being, underpinned by enhanced economic benefits, through different mechanisms for undergraduates and postgraduates; (2) this HE effect emerges alongside marginalization of the less educated; and (3) HE policy/practice should consider both potentially positive and adverse effects on college completers and non-completers to fulfill its public good role. Given that macro-socioeconomic conditions may affect these dynamics, we also call for further comparative studies in this field.',
+    published: '2025-06-12',
+    authors: [ 'Araki, Satoshi', 'Li, Shiyuan' ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Higher Education'
   },
   {
     id: '10.1186/s42055-025-00111-3',
@@ -469,449 +447,215 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Journal of Science Education and Technology'
-  },
-  {
-    id: '10.1007/s44217-025-00496-5',
-    title: 'Beyond text in the EFL digital landscape exploring power, identity, and culture in post-COVID-19 online learning communities',
-    summary: 'This mixed-methods study investigated the intersection of power, identity, and culture within a post-COVID-19 online English as a Foreign Language (EFL) learning community at the college level, focusing on 261 adult learners. Drawing upon critical pedagogy and existing literature on online learning and multiliteracies, the research explored how these factors influenced learners’ multiliteracies development and experiences in the digital landscape. The study addressed a gap in research by focusing on the interplay of these factors in a post-pandemic context. Quantitative data from an online survey were analyzed using descriptive statistics, correlations, and group comparisons. Qualitative data from semi-structured interviews (n = 26) and virtual ethnographies (n = 3) underwent thematic analysis, employing inductive and deductive coding followed by constant comparison. Findings revealed a complex interplay of opportunities and challenges. While learners valued the flexibility and intercultural exchange afforded by the online environment, concerns emerged regarding power dynamics, equitable access to technology and resources, and the negotiation of cultural identities. This study highlights the necessity for a critical pedagogical approach that prioritizes inclusivity, digital literacy development, and learner empowerment within online EFL learning communities. Implications suggest that fostering diverse communication methods, cultivating a supportive community culture, and actively bridging the digital divide are crucial for creating equitable and engaging online learning experiences.',
-    published: '2025-06-11',
-    authors: [ 'Mekheimer, Mohamed A.' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Discover Education'
-  },
-  {
-    id: '10.1007/s10734-025-01472-6',
-    title: 'Expressions of educational change agents: Student voice influences in higher education',
-    summary: 'With the changing paradigms in education, from teacher-centred, student-as-object to student-centred, student-as-subject, student voice discourse has developed at all levels of education, including in higher education (HE). However, the development of student voice research and implementation has tended to prioritise Northern voices over those of colleagues in institutions in the Global South. Incorporating student voice in HE is a journey that all colleagues globally should be and are participating in. This special issue aims to create a space for diverse voices in the field, both from the Global North and South. In addition to expanding student voice discourse geographically, this special issue includes articles in which students act as knowledge producers in student voice discourse (Hu & Lue, 2025), and the voices of neurodivergent students are highlighted (Durgungoz & Durgungoz, 2025). In this special issue, we hope to help fill the geographical and positional ‘minority’ gaps in student voice discourse, making room for future discourse expansion and promoting education as a more collaborative and socially just endeavour.',
-    published: '2025-06-11',
-    authors: [ 'Briffett-Aktaş, Carla', 'Ying, Ji' ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Higher Education'
-  },
-  {
-    id: '10.1007/s11256-025-00749-5',
-    title: 'Exploring the Role of Care in the Teaching Aspirations of Latina Pre-Service Teachers',
-    summary: 'In this qualitative study, I center two pre-service Latina teachers who attend a Hispanic-serving institution in a major urban city in the Southwest to illustrate their aspirations to become teachers in their communities. Using “care” as a conceptual lens, I discuss that, besides merely caring about children, these two women were inspired to become teachers because of the care they received from their own teacher(s) thus, in their own future classrooms, they aim to enact culturally affirming and relevant care with students and families. This is an important experience that Latinas bring with them into teacher education and their future classrooms because they understand from lived experiences the contextual factors that contribute to student learning and the need for more critical forms of caring in our urban schools. However, while well-intentioned, this goal of Latina pre-service teachers may perpetuate expectations which often place further taxation and increased roles for them as teachers. Given this implication specific to Latina pre-service teachers, preparation to prevent excessive emotional labor is much-needed in the teacher education field for their persistence.',
-    published: '2025-06-11',
-    authors: [ 'Diera, Claudia' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'The Urban Review'
-  },
-  {
-    id: '10.1007/s11357-025-01703-9',
-    title: 'The compensatory effect of education as revealed by resting-state electroencephalographic alpha rhythms in patients with dementia due to Parkinson’s disease: findings from an exploratory study',
-    summary: 'Here, we investigated whether educational attainment influences the neurophysiological mechanisms underlying vigilance regulation, as reflected in resting-state eyes-closed electroencephalographic (rsEEG) rhythms, in patients with dementia due to Parkinson’s (PDD) and Lewy body disease (DLB). Clinical, demographic, and rsEEG data were obtained from an international database, including PDD patients ( N  = 75), DLB patients ( N  = 50), and cognitively unimpaired older controls (Healthy; N  = 54). Each group was partitioned into low (Edu-) and high (Edu+) educational attainment subgroups, matched for age, sex, and cognitive-motor status. We analyzed rsEEG rhythms across the individual delta, theta, and alpha frequency bands. Cortical rsEEG source topography was estimated using eLORETA freeware. In the Healthy group, Edu+ participants exhibited significantly greater widespread rsEEG alpha source activities compared to Edu- participants, possibly reflecting neuroprotective neurophysiological mechanisms. Conversely, in the PDD group, Edu+ patients showed lower widespread rsEEG alpha source activities than Edu- patients, possibly indicating compensatory mechanisms. No significant differences in rsEEG source activities were observed between DLB-Edu+ and DLB-Edu- patients. Educational attainment may be associated with compensatory mechanisms that counteract the abnormal neurophysiological processes underlying rsEEG alpha rhythms and vigilance regulation in PDD patients, but not in DLB patients. Future studies combining rsEEG and neuroimaging techniques should investigate the metabolic and functional connectivity correlates of these putative compensatory mechanisms in the PDD brain. Early education may be a key investment for national governments, especially in low-income countries, to prevent the cognitive deficits of Parkinson’s disease along aging, thereby reducing the unbearable social and economic burden.',
-    published: '2025-06-11',
-    authors: [
-      'Lopez, Susanna',
-      'Percio, Claudio',
-      'Lizio, Roberta',
-      'Noce, Giuseppe',
-      'Jakhar, Dharmendra',
-      'Soricelli, Andrea',
-      'Salvatore, Marco',
-      'Güntekin, Bahar',
-      'Yener, Görsev',
-      'Massa, Federico',
-      'Arnaldi, Dario',
-      'Famà, Francesco',
-      'Pardini, Matteo',
-      'Ferri, Raffaele',
-      'Carducci, Filippo',
-      'Lanuzza, Bartolo',
-      'Stocchi, Fabrizio',
-      'Vacca, Laura',
-      'Coletti, Chiara',
-      'Marizzoni, Moira',
-      'Taylor, John-Paul',
-      'Hanoğlu, Lutfu',
-      'Yılmaz, Nesrin Helvacı',
-      'Kıyı, İlayda',
-      'Özbek-İşbitiren, Yağmur',
-      'D’Anselmo, Anita',
-      'Bonanni, Laura',
-      'Biundo, Roberta',
-      'D’Antonio, Fabrizia',
-      'Bruno, Giuseppe',
-      'Antonini, Angelo',
-      'Giubilei, Franco',
-      'Cuoco, Sofia',
-      'Barone, Paolo',
-      'Frisoni, Giovanni B.',
-      'Rotondo, Rossella',
-      'Pandis, Francesca',
-      'Babiloni, Claudio'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'GeroScience'
-  },
-  {
-    id: '10.1007/s10916-025-02214-y',
-    title: 'Preparing Tomorrow’s Physicians: The Case for Machine Learning in Medical Education',
-    summary: 'Machine learning should be integrated into medical curricula to prepare physicians-in-training for 21st-century practice conditions. This comment proposes practical implementation strategies that build upon existing educational frameworks by drawing parallels to traditional statistical methods. By incorporating these skills through a phased approach, medical education can fulfill its duty to the public by preparing future physicians to effectively evaluate emergent technology, identify potential sources of bias, and better serve patients.',
-    published: '2025-06-11',
-    authors: [ 'Burwell, Julian Michael' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Journal of Medical Systems'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40497332',
-    title: 'Correction to "Incidence and Economics of Transvenous ICD Lead Complications: Implications for Tricuspid Valve Function and Interventions".',
-    abstract: 'No abstract available',
-    published: '2025-Jun-11',
-    authors: [],
-    journal: 'Journal of cardiovascular electrophysiology',
-    doi: '10.1111/jce.16748',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497332/'
-  },
-  {
-    id: '40497304',
-    title: 'Age equality in mental health: Déjà vu all over again.',
-    abstract: 'AIMS: Ageism is one of the last socially accepted prejudices. This paper aims to highlight key areas of age discrimination and inequality in mental health services.\n' +
-      "DISCUSSION: It will discuss examples, drawn mainly from the UK, in terms of mental health inequalities to illustrate age inequality. It will define what is meant by 'older people' before discussing ageism and age equality. Examples will be given of the impact of ageism has on the mental health of older people themselves, the impact of institutional ageism on the unequal access older people have to age-appropriate services. Additionally, as older people present differently, their needs are not always recognised. This demonstrates the need for further training and education for health and social care professionals.\n" +
-      "CONCLUSION: It will conclude with hope and encouragement for action with possible ideas to take forward to continue to address this. It calls for allies to address 'Everyday Ageism' and will signpost readers to resources that may assist them in their endeavours to challenge this.",
-    published: '2025-Jun-11',
-    authors: [ 'Kaiser Polly', 'Dykes Kathryn', 'Lord Natasha' ],
-    journal: 'Psychology and psychotherapy',
-    doi: '10.1111/papt.12594',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497304/'
-  },
-  {
-    id: '40497298',
-    title: 'Prevalence, symptomology, and correlates of curable sexually transmitted infections among pregnant women in Eastern Cape, South Africa.',
-    abstract: 'BackgroundCurable sexually transmitted infections (STIs) contribute to adverse maternal and neonatal outcomes. Syndromic management is standard care in South Africa. We evaluated prevalence, symptomology, and correlates of curable STIs, among pregnant women in Eastern Cape, South Africa.MethodsWe conducted a cross-sectional analysis using baseline data from a randomized controlled trial of pregnant women attending their first antenatal care visit at public clinics in Buffalo City Municipality (2021-2024). Participants were tested for , ,  using GeneXpert point-of-care tests and for syphilis using Alere Determine TP rapid test. Symptoms were self-reported and clinically-observed. Adjusted prevalence ratios were estimated using Poisson regression models with robust standard errors.ResultsAmong 1491 participants (median age: 28 years (IQR: 24-33); gestational age: 13 weeks (IQR: 8-18); HIV prevalence: 30%), STI prevalence was 27.6% (95% CI: 25.3-29.9):  14.7%,  5%,  10.2%, syphilis 3.4%. Women with HIV had higher STI prevalence (32.8% vs 25.3%,  = .003), particularly for  (17% vs 7.3%,  < .001); 20.1% of women with C, , and/or  were symptomatic, and 63% of symptomatic women tested STI-negative. Younger age, lower education, multiple sex partners and unknown HIV-serostatus of partners were associated with increased STI prevalence.ConclusionWe observed a high prevalence of STIs, particularly among women with HIV, with many asymptomatic cases; emphasizing the need for integrated point-of-care testing to ensure timely treatment, reduce antibiotic overuse, and improve maternal and neonatal outcomes.',
-    published: '2025-Jun-11',
-    authors: [
-      'Shaetonhodi Natalie G',
-      'de Voux Alex',
-      'Babalola Chibuzor M',
-      'Joseph Davey Dvora',
-      'Mdingi Mandisa M',
-      'Gigi Ranjana M S',
-      'Peters Remco P H',
-      'Mukomana Freedom',
-      'Klausner Jeffrey D',
-      'Medina-Marino Andrew'
-    ],
-    journal: 'International journal of STD & AIDS',
-    doi: '10.1177/09564624251347484',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497298/'
-  },
-  {
-    id: '40497297',
-    title: 'Sweat Testing and Cystic Fibrosis - test performance before and after a quality improvement project in a South African tertiary hospital laboratory.',
-    abstract: 'BACKGROUND: The diagnosis of cystic fibrosis (CF) is challenging due to high quantity not sufficient (QNS) rates of sweat tests, leading to frequent retesting, increasing costs and adverse impacts on patient care. This study aimed to assess sweat test performance and implement a quality improvement project (QIP) to reduce QNS rates.\n' +
-      'METHODS: A two-part retrospective audit was conducted. Part one spanned two-years reviewing the two-tiered testing with sweat conductivity as a screening tool, followed by chloride testing. Part two evaluated the QNS rates over two 6-month periods, separated by a QIP, which involved technologist training, clinician education, patient preparation protocols and revised testing procedures.\n' +
-      "RESULTS: Over the two-year period: 425 sweat tests were performed on 291 patients. Sweat conductivity testing demonstrated a lower QNS rate, 13% (31/238), compared to sweat chloride testing's 31% (33/105). High QNS rates were observed in younger infants and in malnourished or acutely ill patients. Post-QIP, the QNS rates for the total study population decreased by 5%, from an initial 30% to 25% in the sweat chloride cohort, while the acceptable QNS rate of 12% remained unchanged in the sweat conductivity cohort Conclusion: Achieving target QNS rates remains challenging, especially in younger infants, with improved QNS rates in older infants and children. Recommendations include limiting sweat testing to experienced technologists and ensuring patient readiness.",
-    published: '2025-Jun-11',
-    authors: [ 'Zama Asande', 'Zemlin Annalise E', 'Korf Marizna' ],
-    journal: 'Annals of clinical biochemistry',
-    doi: '10.1177/00045632251350514',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497297/'
-  },
-  {
-    id: '40497264',
-    title: "Report on the Evidence-Based Practice Committee's Survey on Benign Neoplastic Hand Disease.",
-    abstract: 'PURPOSE: This study aims to evaluate and understand the knowledge and practice patterns of the American Society for Surgery of the Hand (ASSH) members regarding the evidence-based management of benign neoplastic hand diseases (BNHD). The goal is to identify areas of educational deficiency and variability in clinical approaches.\n' +
-      'METHODS: In the fall of 2022, a 17-question survey was sent via email to ASSH members. The survey included evidence-based practice (EBP) questions with definitive correct answers, and practice pattern (PP) questions that focused on controversial clinical scenarios without a single correct answer. Responses were collected and analyzed to determine the percentage of correct answers for EBP questions and to identify consensus or variability among PP questions.\n' +
-      'RESULTS: Out of 356 respondents, over 50% correctly answered 6 out of 12 EBP questions, indicating a strong knowledge base in certain areas of BNHD management. The remaining six EBP questions revealed knowledge gaps, particularly in the management of giant cell tumors and enchondromas. The PP questions showed variability in practice approaches, reflecting diverse clinical decision making among members.\n' +
-      "CONCLUSIONS: The survey identified both strengths and areas for improvement in ASSH members' understanding of evidence-based management of BNHD. These findings suggest a need for specific educational initiatives to address knowledge gaps and promote more consistent EBPs within the field of hand surgery.\n" +
-      'CLINICAL RELEVANCE: Understanding current knowledge levels and PPs among hand surgeons can help target and develop educational strategies to improve the management of benign hand tumors, thereby enhancing future patient care and outcomes.',
-    published: '2025-Jul',
-    authors: [
-      'Sabet Andre',
-      'Gullborg Eric',
-      'Simcock Xavier',
-      'Wysocki Robert',
-      'Giladi Aviram',
-      'Chaudhry Sonia'
-    ],
-    journal: 'Journal of hand surgery global online',
-    doi: '10.1016/j.jhsg.2025.01.009',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497264/'
-  },
-  {
-    id: '40497259',
-    title: '"Too little, too late": youth retrospectives on school attendance problems and professional support received.',
-    abstract: "INTRODUCTION: School attendance problems (SAPs) are a vexing issue that pose significant challenges for youth, families, and professional stakeholders. Despite growing research efforts, studies that explore the perspectives of youth on SAPs remain limited, particularly in Nordic countries. This qualitative study investigated Norwegian youths' retrospectives on the development and persistence of SAPs and the support they received from professionals in addressing their challenges.\n" +
-      'METHODS: Semi-structured interviews were conducted with 10 youth (aged 12-22) with a history of SAPs in compulsory education. Participants were recruited by professionals from the educational-psychological service and alternative provisions in three Norwegian municipalities. Data were analyzed using reflexive thematic analysis.\n' +
-      "RESULTS: The results indicate that lacking positive relationships with peers and teachers along with falling behind academically lead to school alienation and contributes to the onset or maintenance of SAPs. Similar experiences of gradual onset of SAPs, anxiety and depression, emotional and somatic distress, and conflicting feelings around avoidance were outlined. The youths' initial experiences of support within the school setting were described as inappropriate, insufficient, or initiated too late, while attending alternative provisions appeared as a primary intervention that had enduring positive effects on attendance and engagement in academic and social activities.\n" +
-      'CONCLUSION: The findings highlight the need for early intervention, coherence between initiatives across support services and effective collaboration between youth, families, schools, and external services.',
-    published: '2025',
-    authors: [ 'Hamadi Selina Eckhoff', 'Havik Trude', 'Holen Solveig' ],
-    journal: 'Frontiers in child and adolescent psychiatry',
-    doi: '10.3389/frcha.2025.1595289',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497259/'
-  },
-  {
-    id: '40497255',
-    title: 'Personality Traits, Stress, Anxiety, Depression Levels, Fear of Childbirth, and Affecting Factors in Turkish University Students.',
-    abstract: " This study was conducted to investigate the personality traits, stress, anxiety, depression levels, fear of childbirth, and affecting factors in Turkish female university students.  The study was planned as a descriptive and correlational type. The sample consisted of 500 female students who met the research criteria at the Faculty of Health Sciences and Faculty of Education of a university. The data were collected face-to-face using a personal information form, including socio-demographic and pregnancy-birth-related thoughts, the Childbirth Fear-Prior to Pregnancy (CFPP) scale, the Type D Personality Scale (negative affectivity and social inhibition subscales), and the Depression Anxiety Stress Scale-21 (DASS-21). Ethics committee approval and institutional permissions were obtained from the students to conduct the study. In the analysis of the data, the Kolmogorov-Smirnov test, descriptive methods Mann-Whitney , and the Kruskal-Wallis test were used.  52.8% of the students were from the Faculty of Health Sciences, 48.4% were nursing students, and 30.6% were in their first class of students. The mean CFPP score was 40.14 ± 11.35. The mean score was 12.01 ± 6.79 for negative affectivity, 9.58 ± 6.09 for social inhibition, 6.75 ± 4.05 for stress, 5.28 ± 4.09 for anxiety, and 5.58 ± 4.50 for depression. There was a low level of positive correlation between CFPP and social inhibition subscales ( = 0.113), negative affectivity ( = 0.282), stress ( = 0.241), anxiety ( = 0.231), and depression ( = 0.221 ( = 0.01). The predictor of students' fear of childbirth prior to pregnancy was negative affectivity.  Turkish university students' fear of childbirth prior to pregnancy was associated with personality traits, depression, anxiety, and stress. It is recommended to identify the depression, anxiety, stress levels, personality traits, and fear of childbirth of female university students in the prepregnancy period, plan information and education, and conduct further research on the fear of childbirth.",
-    published: '2025',
-    authors: [ 'Erbil Nülüfer', 'Boyraz Yanık Hilal Gül', 'Yıldız Gizem' ],
-    journal: 'Depression and anxiety',
-    doi: '10.1155/da/5130737',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497255/'
-  },
-  {
-    id: '40497234',
-    title: 'Awareness, Attitudes, and Practices Regarding OTC Drugs in Circassian and Chechen Communities in Jordan: A Cross-Sectional Study.',
-    abstract: 'PURPOSE: Over-the-counter (OTC) medications are widely used for self-medication, yet their misuse can lead to adverse outcomes. This study aimed to assess the knowledge, awareness, and attitudes toward OTC drugs among Circassians and Chechens in Jordan.\n' +
-      'METHODS: A cross-sectional study was conducted in September 2022 using an online survey targeting Circassians and Chechens aged 18 and above. The questionnaire was validated by clinical researchers and consisted of demographic data and questions on OTC drug use, awareness, and attitudes. Data from 418 participants were analyzed using descriptive and inferential statistics, with a significant level of p < 0.05.\n' +
-      "RESULTS: The majority of participants were female (76.1%), married (78.5%), and almost half of the participants held a non-medical bachelor's degree (49.3%). Analgesics (73.9%) and vitamins (56.7%) were the most used OTC drugs. Headache (65.6%), musculoskeletal pain (33.7%), and the common cold (25.4%) were the primary reasons for self-medication. Most participants (53.8%) expressed strong interest in knowing the side effects and contraindications of OTC drugs, while 72.5% checked expiry dates before use. Notably, 50.2% disagreed with the statement that OTC products have no side effects. Age and educational level were significantly associated with self-medication practices (p < 0.05).\n" +
-      'CONCLUSION: Circassians and Chechens in Jordan exhibit high awareness of the risks associated with OTC drug use, yet self-medication practices remain prevalent. Public health interventions should focus on education campaigns to mitigate potential misuse and promote safe practices.',
+    id: '40502238',
+    title: 'Investigating the Impact of Social Determinants of Health on Diagnostic Delays and Access to Antifibrotic Treatment in Idiopathic Pulmonary Fibrosis.',
+    abstract: 'Idiopathic pulmonary fibrosis (IPF) is a rare disease that is challenging to diagnose. Patients with IPF often spend years awaiting a diagnosis after the onset of initial respiratory symptoms, and only a small percentage receive antifibrotic treatment. In this study, we examine the associations between social determinants of health (SDoH) and two critical factors: time to IPF diagnosis following the onset of initial respiratory symptoms, and whether the patient receives antifibrotic treatment. To approximate individual SDoH characteristics, we extract demographic-specific averages from zip code-level data using the American Community Survey (via the U.S. Census Bureau API). Two classification models are constructed, including logistic regression and XGBoost classification. The results indicate that for time-to-diagnosis, the top three SDoH factors are education, gender, and insurance coverage. Patients with higher education levels and better insurance are more likely to receive a quicker diagnosis, with males having an advantage over females. For antifibrotic treatment, the top three SDoH factors are insurance, gender, and race. Patients with better insurance coverage are more likely to receive antifibrotic treatment, with males and White patients having an advantage over females and patients of other ethnicities. This research may help address disparities in the diagnosis and treatment of IPF related to socioeconomic status.',
     published: '2025',
     authors: [
-      'Qnais Esam',
-      'Barakat Muna',
-      'Alnajjar Roaa',
-      'Alzaghari Lujain F',
-      'Alqudah Abdelrahim',
-      'Dajani Rana',
-      'Hakooz Nancy'
+      'Li Rui',
+      'Lu Qiuhao',
+      'Wen Andrew',
+      'Wang Jinlian',
+      'Fu Sunyang',
+      'Ruan Xiaoyang',
+      'Wang Liwei',
+      'Liu Hongfang'
     ],
-    journal: 'Patient preference and adherence',
-    doi: '10.2147/PPA.S525522',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497234/'
+    journal: 'AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40502238/'
   },
   {
-    id: '40497226',
-    title: 'Which elective hand surgery would benefit most from preoperative therapy interventions to enhance surgical outcomes? A survey of hand therapists.',
-    abstract: "BACKGROUND: An ageing population and increasing chronic health disorders explain the predicted rise in hand surgeries. Preoperative care has the potential to optimise patients' psychological and physical status, making it a promising area for enhancing surgical outcomes. Despite its established use in other surgical specialties, preoperative therapy in hand surgery remains underexplored.\n" +
-      "OBJECTIVE: This study uses an anonymous survey to gather therapists' opinions on the hand procedure whose outcomes benefit most from preoperative therapy. The research focuses on five common elective hand procedures: Carpal Tunnel Release (CTR); Cubital Tunnel Release (CuTR); Dupuytren's Fasciectomy (DF); Trapeziectomy (TZ); and Trigger Finger Release (TFR).\n" +
-      'METHOD: British Association of Hand Therapy members were targeted in an online survey. Thirty-seven respondents (5% response rate) participated over 3 months. Questions explored how preoperative therapy improves surgical outcomes, the efficacy of postoperative therapy, and the importance of patient compliance postoperatively.\n' +
-      'RESULTS: TZ emerged as the procedure with the highest potential for preoperative therapy benefit, TZ and DF as top procedures for postoperative therapy requirements and importance of patient engagement and compliance. CTR had contradictory responses, while TFR and CuTR received the fewest endorsements for preoperative therapy benefits.\n' +
-      "CONCLUSION: The survey offers insight into hand therapists' perspectives on preoperative therapy. TZ and DF stand out as having significant potential for optimisation. Uncertainty surrounding efficacy of therapy on Dupuytren's Disease indicates the necessity for further research. Education is considered an essential preoperative component. The small sample size warrants caution when interpreting results.",
-    published: '2025-Jun-08',
+    id: '40502233',
+    title: 'Generative AI Is Not Ready for Clinical Use in Patient Education for Lower Back Pain Patients, Even With Retrieval-Augmented Generation.',
+    abstract: 'Low back pain (LBP) is a leading cause of disability globally. Following the onset of LBP and subsequent treatment, adequate patient education is crucial for improving functionality and long-term outcomes. Despite advancements in patient education strategies, significant gaps persist in delivering personalized, evidence-based information to patients with LBP. Recent advancements in large language models (LLMs) and generative artificial intelligence (GenAI) have demonstrated the potential to enhance patient education. However, their application and efficacy in delivering educational content to patients with LBP remain underexplored and warrant further investigation. In this study, we introduce a novel approach utilizing LLMs with Retrieval-Augmented Generation (RAG) and few-shot learning to generate tailored educational materials for patients with LBP. Physical therapists manually evaluated our model responses for redundancy, accuracy, and completeness using a Likert scale. In addition, the readability of the generated education materials is assessed using the Flesch Reading Ease score. The findings demonstrate that RAG-based LLMs outperform traditional LLMs, providing more accurate, complete, and readable patient education materials with less redundancy. Having said that, our analysis reveals that the generated materials are not yet ready for use in clinical practice. This study underscores the potential of AI-driven models utilizing RAG to improve patient education for LBP; however, significant challenges remain in ensuring the clinical relevance and granularity of content generated by these models.',
+    published: '2025',
     authors: [
-      'Babiker-Moore Tahra',
-      'Clark Carol J',
-      'Kavanagh Emma',
-      'Crook Timothy B'
+      'Zhao Yi-Fei',
+      'Bove Allyn',
+      'Thompson David',
+      'Hill James',
+      'Xu Yi',
+      'Ren Yufan',
+      'Hassman Andrea',
+      'Zhou Leming',
+      'Wang Yanshan'
     ],
-    journal: 'Hand therapy',
-    doi: '10.1177/17589983251345385',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497226/'
+    journal: 'AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40502233/'
   },
   {
-    id: '40497223',
-    title: 'The Impact of New Weight-Loss Medications on Bariatric Surgery and Surgeon Employment.',
-    abstract: 'Obesity continues to pose an urgent public health challenge in the United States, with prevalence among adults and significant associations with chronic conditions, including diabetes, cardiovascular disease, and nonalcoholic fatty liver disease. While bariatric surgery has established itself as the most effective long-term treatment for severe obesity, delivering consistent weight loss and notable improvements in obesity-related comorbidities, its utilization remains relatively low due to factors such as patient apprehension, access disparities, and insurance limitations. The recent emergence and widespread adoption of potent anti-obesity medications, particularly glucagon-like peptide-1 (GLP-1) receptor agonists like semaglutide and dual incretin agonists such as tirzepatide, have created new, non-surgical pathways capable of achieving substantial weight loss outcomes, thus prompting a reevaluation of the traditional obesity treatment landscape. This comprehensive review assesses the contemporary state of bariatric surgery and systematically examines the clinical efficacy, safety, and durability of emerging pharmacotherapies relative to surgical interventions. We also analyze the potential implications of these medications on patient preferences, surgical volumes, healthcare economics, and the bariatric surgery job market within the United States. Recognizing the evolving role of bariatric surgeons, we discuss how the profession may adapt through multidisciplinary care models, integrated pharmacological management, and adjusted surgical training programs. The goal of this manuscript is to inform clinicians, healthcare systems, policymakers, and patients regarding the anticipated impact of novel weight-loss medications on the future direction of obesity care and the professional landscape of bariatric surgery.',
-    published: '2025-May',
-    authors: [ 'Louis Mena', 'Velazquez Eric' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.83903',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40497223/'
+    id: '40501954',
+    title: 'Student-led experimental evolution reveals novel biofilm regulatory networks underlying adaptations to multiple niches.',
+    abstract: 'UNLABELLED: We established a research-education partnership known as EvolvingSTEM that provides secondary school students the opportunity to conduct authentic research experiments centered on microbial evolution. These experiments are currently conducted by thousands of high school students and can offer an unprecedented window into biofilm adaptation while building a community of young researchers. Providing high school students access to research experiences improves learning and can have positive and long-lasting impacts on their attitudes towards science. Moreover, student research can make impactful scientific contributions. Through EvolvingSTEM, students evolve populations of  in a biofilm bead model and observe heritable changes in colony morphology. Genome sequencing of 70 mutants that they picked identified parallel mutations in genes known to regulate biofilm growth (  ,  ,  ). We also uncovered novel adaptations: loss-of-function mutations in phosphodiesterase PFLU0185 that did not alter colony morphology, and mutations affecting periplasmic disulfide bond formation producing small colonies. PFLU0185 mutations consistently reached high frequencies and phenotyping revealed roles in cyclic di-GMP regulation, biofilm formation, and motility, prompting us to name this gene  ( b iofilm and mo tility o ptimizer). Competition experiments and microscopy demonstrated  mutants employ generalist strategies and coexist with the ancestor and specialist mutants through niche differentiation. Consequently, phenotypic diversity is maintained, with smooth (ancestral and  ) colonies consistently outnumbering wrinkly and fuzzy variants. The study advances understanding of biofilm genetic architecture while demonstrating that student-led research can uncover mechanisms of microbial adaptation relevant to  infection biology and provide transformative STEM experiences.\n' +
+      'IMPORTANCE: Bacterial biofilms dominate microbial life, yet their evolutionary genetics remain incompletely understood. This science education project engages thousands of high school students in experimental evolution, yielding discoveries about biofilm adaptation while transforming their science education. Selected mutants included PFLU0185/  , a conserved phosphodiesterase that helps bacteria balance the competing demands of attachment and dispersal essential for biofilm life cycle success. The finding that smooth-colony generalists rather than conspicuous variants dominate biofilm adaptation adds to our understanding of the process of niche differentiation in biofilms. This work also demonstrates the power of distributed research networks for discovery of new genetic pathways of adaptation. Students gained authentic research experience, potentially inspiring them to join the next generation of scientists, while identifying mutants adapted to discrete conditions that maintain diversity within biofilms. This synergy between education and discovery offers a scalable model for addressing complex biological questions while developing scientific literacy in diverse classrooms.',
+    published: '2025-Jun-06',
+    authors: [
+      'Matela Abigail M',
+      'Siatkowski Colton W',
+      'Yan Changhua',
+      'Thiagarajan Sachin',
+      'Cooper Vaughn S'
+    ],
+    journal: 'bioRxiv : the preprint server for biology',
+    doi: '10.1101/2025.06.06.658356',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501954/'
+  },
+  {
+    id: '40501595',
+    title: {
+      _: ' homozygotes have less sleep fragmentation in late adulthood.',
+      i: [Array]
+    },
+    abstract: "STUDY OBJECTIVES:  , a genetic risk factor for Alzheimer's Disease (AD), is associated with reduced functional connectivity of brain regions that regulate sleep, which may predispose persons to AD via altered sleep architecture. However, little is known about differences in sleep architecture by  genotype, and whether they vary by age and sex.\n" +
+      'METHODS: This cross-sectional study examined the association between  genotype and sleep architecture, using in-home polysomnography (Sleep Heart Health Study, N=3,107).  genotype included:  heterozygotes,  homozygotes,  carriers, and  homozygotes (reference). Sleep architecture was quantified using the percentage of time spent in rapid eye movement sleep (%REM), N1 (N1%), N2 (%N2), N3 (%N3), and arousal index. Linear regression was employed, adjusting for age, sex, marital status, race, education, and parent cohort. Interactions with age and sex-stratified analyses examined variations by age and sex, respectively.\n' +
+      'RESULTS: The median age was 67 years, 27.4% carried at least one  , and 52.9% were females. Without age by  genotype interaction, %REM, %N1, %N2, %N3, and arousal index were comparable across  genotypes in the full sample, males, and females. When an age by  genotype interaction was introduced,  homozygotes showed fewer arousals with each year of age (β=-0.33 arousals, p=0.04), leading to significantly less arousals at age ≥70 (marginal difference=-2.98, p=0.04).\n' +
+      'CONCLUSIONS:  homozygotes showed comparable proportions of REM, N1, N2, and N3, but exhibited fewer arousals in old age.  homozygotes may have an elevated arousal threshold.',
+    published: '2025-Jun-02',
+    authors: [
+      'Cho Gawon',
+      'Chen Anne',
+      'Choi Eunyoung',
+      'Buxton Orfeu M',
+      'Kay Daniel',
+      'Miner Brienne'
+    ],
+    journal: 'bioRxiv : the preprint server for biology',
+    doi: '10.1101/2025.05.30.656615',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501595/'
+  },
+  {
+    id: '40501474',
+    title: 'Trends in viral hepatitis-related mortality in the United States from 1999 to 2022: A retrospective study.',
+    abstract: 'BACKGROUND: Viral hepatitis is characterized by a group of hepatotropic viruses that contribute to high rates of liver disease and mortality. It is well-documented that viral hepatitis is the leading cause of liver cancer and liver failure, with Hepatitis B and Hepatitis C being the most common viruses associated with these outcomes.\n' +
+      'AIM: To study viral hepatitis-related mortality trends from 1999 to 2022, focusing on gender, race/ethnicity, age, region, and urban/rural classifications.\n' +
+      'METHODS: We used the Centers for Disease Control and Prevention Wide-ranging Online Data for Epidemiologic Research database to identify viral hepatitis-related deaths in the United States from 1999 to 2022. Data on demographic and regional information were analyzed and stratified by gender, race/ethnicity, age, regional, and urban rural classifications. Using the Joinpoint Regression Program (version 4.9.0.0 used, available from the National Cancer Institute, Bethesda, Maryland) the annual percentage change (APC) and average APC (AAPC) were calculated with 95%CI for extracted Age Adjusted Mortality Rates (AAMR).\n' +
+      'RESULTS: From 1999 to 2022, there were 389916 viral hepatitis-related deaths in the United States. The overall AAMR increased from 1999 to 2013 (APC: 3.20%; 95%CI: 2.54-3.99;  < 0.001), then declined through 2022 (APC: -5.54%; 95%CI: -6.75 to -4.47;  < 0.001). Males accounted for 70.4% of deaths, with steeper declines in females (AAPC: -0.48%; 95%CI: -0.87 to -0.12;  < 0.05). The American Indian/Alaska Native population had the highest AAMR (AAPC: 2.90%; 95%CI: 2.30 to 3.68;  < 0.001). The population of 65-74 years had the largest increase in overall crude mortality rate (AAPC: 3.20%; 95%CI: 2.77 to 3.85;  < 0.001). Mortality was highest in the West (AAPC: -0.78%; 95%CI -1.28 to -0.29;  < 0.05). Rural AAMR exceeded urban rates after 2015.\n' +
+      'CONCLUSION: This study found significant racial, ethnic, and geographical disparities in viral hepatitis AAMR. Key factors for mortality reduction include patient education, screening, and access to hepatitis vaccination and treatment.',
+    published: '2025-May-27',
+    authors: [
+      'Ahlers Lizette',
+      'Kash Benjamin',
+      'Billion Taylor',
+      'Mirza Mohsin',
+      'Tauseef Abubakar'
+    ],
+    journal: 'World journal of hepatology',
+    doi: '10.4254/wjh.v17.i5.106940',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501474/'
+  },
+  {
+    id: '40501458',
+    title: 'Longitudinal association of family support, health literacy, and self-management behavior in patients with newly diagnosed type 2 diabetes mellitus: an analysis based on cross-lag model.',
+    abstract: 'OBJECTIVE: This study investigates the interplay between family support, health literacy, and self-management behaviors in newly diagnosed patients with type 2 diabetes mellitus (T2DM).\n' +
+      'METHODS: A cohort of 354 newly diagnosed patients with T2DM participated in this longitudinal study. Health literacy, self-management behavior, and family support were assessed using the Health Literacy Scale, Diabetes Self-Management Behavior Scale, and Family Support Scale at baseline, 3 months, and 6 months post-diagnosis.\n' +
+      'RESULTS: Health literacy and self-management abilities demonstrated significant correlations at both 0-3 months (β = 0.32; β = 0.23) and 3-6 months (β = 0.37; β = 0.28). Family support was a significant predictor of health literacy during the 0-3 month period (β = 0.23), with a reduced effect size at 3-6 months (β = 0.18).\n' +
+      'CONCLUSIONS: Health literacy and self-management abilities in newly diagnosed patients with T2DM follow a co-evolutionary spiral model, with family support serving as a key driver in the initial phase. Clinical interventions should establish a dual-core "education-behavior" linkage system, focusing on enhancing family empowerment in the early stage (0-3 months) and transitioning to a cognitive improvement model driven by behavioral feedback in the later stages (3-6 months).',
+    published: '2025-Dec',
+    authors: [ 'Cao Chunya', 'Liang Mengyao', 'Peng Qianwei' ],
+    journal: 'Journal of diabetes and metabolic disorders',
+    doi: '10.1007/s40200-025-01651-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501458/'
+  },
+  {
+    id: '40501456',
+    title: 'Strengthening antimicrobial stewardship in public health facilities in Malawi through a participatory epidemiology approach.',
+    abstract: 'BACKGROUND: In healthcare settings, antimicrobial resistance (AMR) is largely driven by excessive use of antibiotics. Empirical prescription largely remains common due to fragile healthcare systems characterized by lack of appropriate diagnostic services. Despite limited data on the epidemiology and the burden of AMR due to the scarcity of routine microbiology facilities, it is evident that Malawi shares a heavy burden of AMR. Effectively implemented antimicrobial stewardship programmes have demonstrated successes in minimizing inappropriate antibiotic usage, and curbing the burden of AMR. However, there are limited data on how antimicrobial stewardship teams can effectively deliver their roles in hospital settings in resource limited settings, including in Malawi.\n' +
+      "METHODS: Malawi's Antimicrobial Resistance National Coordinating Centre (AMRCC) in collaboration with Clinical Research Education and Management Services (CREAMS) conducted participatory workshops with hospital-based antimicrobial stewardship committees aimed at establishing drivers of resistance and antibiotic overuse in hospitals from the perspective of the committees, and co-design facility-friendly intervention against AMR. The workshops consisted of participatory discussion, sorting and design thinking exercises, utilizing principles of implementation research. All the interviews were recorded, transcribed and thematically analysed, revealing key drivers for antibiotic overuse and resistance in hospital settings. Data were analysed using thematic content analysis.\n" +
+      'RESULTS: Key drivers of AMR included limited antibiotic formulary access, poor cross-sectoral coordination challenges between healthcare, veterinary services, government agencies and private facilities, and culturally specific barriers. The participants recommended regular training for healthcare workers on AMR and infection prevention and control (IPC), widespread dissemination of AMR findings, public awareness, introducing electronic monitoring systems and the enforcement of antibiotic restriction policies as the best measures for improving rational antimicrobial use and controlling the spread of AMR.\n' +
+      'CONCLUSIONS: Our findings underscore the complexity of the drivers for antibiotic overuse and resistance in hospital settings, as well as the need for more participatory approaches in tackling the complex challenge of AMR. The findings also signify the importance of a bottom-up approach in designing a solution for promoting antimicrobial stewardship and controlling resistance in hospital and community settings. Participatory approaches blended with principles of implementation research will help to identify contextual challenges, and help to design solutions that are people-centred, context-specific and largely accepted by all involved stakeholders.',
+    published: '2025-Jun',
+    authors: [
+      'Lubanga Adriano F',
+      'Bwanali Akim N',
+      'Kondowe Sibongile',
+      'Nzima Ellen',
+      'Masi Abgail',
+      'Njikho Yaleka',
+      'Chitule Cynthia',
+      'Harawa Gracian',
+      'Mudenda Steward',
+      'Mwale Gillian',
+      'Makole Tumaini',
+      'Mpinganjira Samuel',
+      'Nyirenda Thomas',
+      'Mitambo Collins'
+    ],
+    journal: 'JAC-antimicrobial resistance',
+    doi: '10.1093/jacamr/dlaf103',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501456/'
+  },
+  {
+    id: '40501433',
+    title: 'Integrating gender medicine into modern healthcare: Progress and barriers.',
+    abstract: 'BACKGROUND: Sex and gender are fundamental determinants of health, influencing disease risk, diagnosis, treatment, and outcomes across medical disciplines. While sex refers to biological characteristics, gender encompasses sociocultural dimensions, including behaviours and identities.\n' +
+      "RESULTS: The field of gender medicine has evolved significantly from its roots in the women's health movement of the 1960s and 1970s, which initially sought to address reproductive rights and the systematic exclusion of women from clinical research. Over time, the focus has expanded to recognize sex- and gender-based differences in all populations, including men and gender-diverse individuals. Despite progress, persistent challenges remain. Many clinical guidelines inadequately incorporate sex and gender considerations, and women continue to be underrepresented in clinical trials, resulting in suboptimal efficacy and a higher incidence of adverse effects in women. Recent initiatives, including government-funded research programs, specialized gender medicine professorships and regulatory measures promoting equitable clinical trial participation, represent positive steps forward. However, a systematic, interdisciplinary approach is required to fully integrate gender-sensitive medicine into research, education and clinical practice. This narrative review explores the historical development of gender medicine, current advancements and remaining challenges. We highlight the need for improved research methodologies, policy changes and targeted interventions to ensure equitable healthcare. A structured action plan emphasizing regulatory support, education, industry involvement and public awareness is essential to accelerate the field's integration.\n" +
+      'CONCLUSION: Recognising and addressing sex- and gender-sensitive health differences will lead to more personalised and effective medical care, ultimately improving health outcomes for all individuals.',
+    published: '2025-Jun-12',
+    authors: [
+      'Fuentes Artiles Rubén',
+      'Gebhard Caroline E',
+      'Gebhard Catherine'
+    ],
+    journal: 'European journal of clinical investigation',
+    doi: '10.1111/eci.70089',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501433/'
+  },
+  {
+    id: '40501429',
+    title: 'Long-term fertility trends by birth order in Britain: Comparison between England & Wales and Scotland.',
+    abstract: 'This study uses census-linked administrative data to investigate childbearing trends by birth order in Britain over three decades. This is the first study to investigate longer-term changes in fertility dynamics in Britain by birth order and to compare parity-specific fertility by country. First-birth rates declined in the 1990s, slightly increased in the first decade of this century, and decreased thereafter, with changes in timing of parenthood responsible for these changes. Second- and third-birth rates declined in the 1990s but remained relatively stable in the early twenty-first century. Birth intervals remained unchanged, meaning that changes in quantum are responsible for trends in higher-order birth rates. Time trends are similar in England & Wales and Scotland but with significantly lower second- and third-birth rates in Scotland. Changes in population composition by education and ethnicity explain little of the aggregate fertility trends or between-country differences. Both countries have seen rapid declines in first-birth rates, especially among low-educated women.',
+    published: '2025-Jun-12',
+    authors: [
+      'Kulu Hill',
+      'Kuang Bernice',
+      'Christison Sarah',
+      'Berrington Ann'
+    ],
+    journal: 'Population studies',
+    doi: '10.1080/00324728.2025.2491354',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501429/'
+  },
+  {
+    id: '40501428',
+    title: 'Lessons learned from approaches in COVID-19 risk Communication and community engagement in Malawi: an exploratory study.',
+    abstract: 'PURPOSE: During public health emergencies like COVID-19, approaches used in Risk Communication and Community Engagement (RCCE) are critical in the process of transmitting and exchanging health information. However, there is generally limited literature on COVID-19 RCCE approaches, particularly their strengths and limitations. The current study seeks to contribute to that literature by exploring approaches that were used in COVID-19 RCCE in Malawi, a sub-Saharan African (SSA) country, and drawing lessons from the response based on experiences of those who implemented it.\n' +
+      'METHOD: Using in-depth interviews with ten key informants and ten project reports from three organizations, data were analysed thematically in MAXQDA 2022.\n' +
+      "RESULTS: Significant themes that emerged revealed COVID-19 RCCE employed use of interpersonal approaches like training, peer education, mHealth and social media; use of community mobilization strategies like engagement meetings and dialogues, loud hearing through mobile vans and whistle stops; behaviour change printed materials; and the mass media. Effectiveness hinged on each method's accessibility, intrinsic qualities, and reach. Implementers also emphasized the value of combining multiple approaches and the challenges posed by COVID-19 restrictions.\n" +
+      'CONCLUSION: The study underscores the need to select context-appropriate, accessible RCCE approaches to convey critical information, and contributes to the evidence base for future pandemic responses, especially in resource-limited settings.',
+    published: '2025-Dec',
+    authors: [
+      'Maganga Chiyembekezo Focus',
+      'Kambalame Lusizi',
+      'Nahuku Aeron M A',
+      'Chikoti Victor Lordwin'
+    ],
+    journal: 'International journal of qualitative studies on health and well-being',
+    doi: '10.1080/17482631.2025.2516356',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40501428/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1095,6 +839,191 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     code: 'ENOTFOUND',
     syscall: 'getaddrinfo',
     hostname: 'kahualike.manoa.hawaii.edu'
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
@@ -1562,129 +1491,109 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 50
-Removed duplicates: 50 -> 50
-Starting translation of 50 papers...
-Translating paper 1/50
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
 Translating paper: Big data in economics...
-Translating paper 2/50
+Translating paper 2/40
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
+Translating paper 3/40
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/50
+Translating paper 4/40
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
+Translating paper 5/40
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
+Translating paper 6/40
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/50
+Translating paper 7/40
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/50
+Translating paper 8/40
 Translating paper: A physical theory of economic growth...
-Translating paper 9/50
+Translating paper 9/40
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/50
+Translating paper 10/40
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/50
-Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/50
-Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 13/50
-Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 14/50
-Translating paper: Experience and education...
-Translating paper 15/50
-Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 16/50
-Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 17/50
-Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 18/50
-Translating paper: The Effect of Using Simulation on Developing Stude...
-Translating paper 19/50
-Translating paper: Economics of education...
-Translating paper 20/50
-Translating paper: Teaching climate complacency: mainstream economics...
-Translating paper 21/50
+Translating paper 11/40
 Translating paper: Mathematics education for sustainable futures: a s...
-Translating paper 22/50
+Translating paper 12/40
 Translating paper: Stop ignoring small-scale fisheries in economic mo...
-Translating paper 23/50
+Translating paper 13/40
+Translating paper: Measuring digital literacy across ages and over ti...
+Translating paper 14/40
 Translating paper: Close the mathematics gender gap: huge study promp...
-Translating paper 24/50
+Translating paper 15/40
+Translating paper: Boon or Bane? Evaluating AI-driven learning assist...
+Translating paper 16/40
+Translating paper: Exploring Personal Experience and Value Creation i...
+Translating paper 17/40
+Translating paper: Contributions of tertiary students’ background fac...
+Translating paper 18/40
+Translating paper: The shifting happiness return to higher education ...
+Translating paper 19/40
 Translating paper: Beyond diplomats: why model uns should be for ever...
-Translating paper 25/50
+Translating paper 20/40
 Translating paper: Using Computational Grounded Theory to Analyze Pre...
-Translating paper 26/50
-Translating paper: Beyond text in the EFL digital landscape exploring...
-Translating paper 27/50
-Translating paper: Expressions of educational change agents: Student ...
-Translating paper 28/50
-Translating paper: Exploring the Role of Care in the Teaching Aspirat...
-Translating paper 29/50
-Translating paper: The compensatory effect of education as revealed b...
-Translating paper 30/50
-Translating paper: Preparing Tomorrow’s Physicians: The Case for Mach...
-Translating paper 31/50
-Translating paper: Correction to "Incidence and Economics of Transven...
-Translating paper 32/50
-Translating paper: Age equality in mental health: Déjà vu all over ag...
-Translating paper 33/50
-Translating paper: Prevalence, symptomology, and correlates of curabl...
-Translating paper 34/50
-Translating paper: Sweat Testing and Cystic Fibrosis - test performan...
-Translating paper 35/50
-Translating paper: Report on the Evidence-Based Practice Committee's ...
-Translating paper 36/50
-Translating paper: "Too little, too late": youth retrospectives on sc...
-Translating paper 37/50
-Translating paper: Personality Traits, Stress, Anxiety, Depression Le...
-Translating paper 38/50
-Translating paper: Awareness, Attitudes, and Practices Regarding OTC ...
-Translating paper 39/50
-Translating paper: Which elective hand surgery would benefit most fro...
-Translating paper 40/50
-Translating paper: The Impact of New Weight-Loss Medications on Baria...
-Translating paper 41/50
+Translating paper 21/40
+Translating paper: Investigating the Impact of Social Determinants of...
+Translating paper 22/40
+Translating paper: Generative AI Is Not Ready for Clinical Use in Pat...
+Translating paper 23/40
+Translating paper: Student-led experimental evolution reveals novel b...
+Translating paper 24/40
+Translating paper:  homozygotes have less sleep fragmentation in late...
+Translating paper 25/40
+Translating paper: Trends in viral hepatitis-related mortality in the...
+Translating paper 26/40
+Translating paper: Longitudinal association of family support, health...
+Translating paper 27/40
+Translating paper: Strengthening antimicrobial stewardship in public ...
+Translating paper 28/40
+Translating paper: Integrating gender medicine into modern healthcare...
+Translating paper 29/40
+Translating paper: Long-term fertility trends by birth order in Brita...
+Translating paper 30/40
+Translating paper: Lessons learned from approaches in COVID-19 risk C...
+Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 42/50
+Translating paper 32/40
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 43/50
+Translating paper 33/40
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 44/50
+Translating paper 34/40
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 45/50
+Translating paper 35/40
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 46/50
+Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 47/50
+Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 48/50
+Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 49/50
+Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
+Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 50 papers
-Removed duplicates: 265 -> 233
-Total papers after merging: 233 (215 existing + 50 new)
-Saved 233 papers to papers.json
+Translation completed: 40 papers
+Removed duplicates: 273 -> 248
+Total papers after merging: 248 (233 existing + 40 new)
+Saved 248 papers to papers.json
 Generating HTML files...
-Generating index.html with 233 papers...
+Generating index.html with 248 papers...
 Successfully generated index.html
-Generating archive.html with 233 papers...
+Generating archive.html with 248 papers...
 Successfully generated archive.html
-Generating journal.html with 233 papers...
+Generating journal.html with 248 papers...
 Successfully generated journal.html
-Generating acquisition.html with 233 papers...
+Generating acquisition.html with 248 papers...
 Successfully generated acquisition.html
-Generating publication.html with 233 papers...
+Generating publication.html with 248 papers...
 Successfully generated publication.html
-Generating registration.html with 233 papers...
+Generating registration.html with 248 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 233
-New papers processed: 50
+Total papers in database: 248
+New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-11T15:42:26.488Z
+Timestamp: 2025-06-12T15:35:42.967Z
