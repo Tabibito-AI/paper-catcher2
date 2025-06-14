@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-13T15:11:36.100Z
+Timestamp: 2025-06-14T15:09:51.556Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 248 existing papers from papers.json
+Loaded 268 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -557,198 +558,269 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40511593',
-    title: 'Male role norms and the prevalence of post-traumatic stress disorder symptoms among Polish male paramedics.',
-    abstract: 'OBJECTIVES: Knowledge of the incidence of post-traumatic stress disorder (PTSD) in the rescue profession is crucial for designing psycho-education to minimize the risk of its occurrence and increase the chance of providing effective assistance. The aim of the study was to analyze risk factors that may increase the likelihood of developing PTSD among paramedics.\n' +
-      'MATERIAL AND METHODS: The study was conducted on 113 male paramedics. The study used the, the and the .\n' +
-      'RESULTS: The results showed that nearly 40% of the respondents suffer from PTSD. The paramedics who met the criteria for PTSD did not differ in their acceptance of male norms or the level of perceived social support from the paramedics who did not develop PTSD symptoms. Multiple regression analyses showed that the number of types of events experienced in the course of professional duties and male cultural norms related to social status were predictors of PTSD. Logistic regression analysis revealed that acceptance of male norm of anti-femininity increased the likelihood of developing PTSD.\n' +
-      'CONCLUSIONS: The results showed that men who performed stereotypically male professions could be less likely to seek specialist help in PTSD situations because such behavior does not fit the role of a strong, assertive man in social perception. Int J Occup Med Environ Health. 2025;38(3).',
+    id: '40513089',
+    title: 'Factors Associated With the Level of Trust in Health Information Robots Among the General Population From a Socioecological Model Perspective: Network Analysis.',
+    abstract: 'BACKGROUND: Although robots have emerged as a new means of delivering health information, with the advancement of artificial intelligence technology, individuals still face challenges in deciding whether to trust the health information provided by these robots owing to various trust-related factors.\n' +
+      'OBJECTIVE: This study aimed to investigate the factors associated with the level of trust in health information robots among the general population in China from a socioecological model perspective and identify the central indicators based on network analysis.\n' +
+      'METHODS: A nationwide survey in China was conducted from June 20, 2023, to August 31, 2023, involving 30,054 participants. The level of trust in health information robots was measured using a self-developed questionnaire. Univariate and multivariate generalized linear model analyses were conducted to investigate the factors associated with the level of trust in health information robots. Network analyses were conducted to examine the network structure of trust levels in health information robots and the associated factors.\n' +
+      'RESULTS: The results of the multivariate generalized linear model analysis revealed that participants who were diagnosed with chronic diseases; exhibited personality traits of higher agreeableness and openness; had an education level of junior college or higher; reported higher self-rated health status, health literacy, anxiety symptoms, family health, number of house properties, average monthly household income, and perceived social support; and had higher medical insurance coverage showed a positive association with the level of trust in health information robots compared to individuals without these characteristics. However, compared to individuals without these characteristics, being older, having the personality trait of neuroticism, and living in an urban area were negatively associated with the level of trust in health information robots. In addition, using a network approach, central indicators were identified in the network of the level of trust in health information robots and its associated factors, including family health and perceived social support. Finally, agreeableness and educational level appeared upstream of the entire directed acyclic graph, directly influencing the level of trust in health information robots.\n' +
+      "CONCLUSIONS: Our findings offer a novel perspective on the association between health information robots and trust and contribute to the application and development of artificial intelligence IT. Individuals' acceptance of and adherence to health information may be enhanced if the factors associated with the level of trust in health information robots are considered.",
     published: '2025-Jun-13',
     authors: [
-      'Sitko-Dominik Magdalena Maja',
-      'Jakubowski Tomasz Daniel',
-      'Mandal Eugenia Ewa'
+      'Zhao Jiukai',
+      'Yang Yuqi',
+      'Miao Juanxia',
+      'Wang Xue',
+      'Qi Dianjun',
+      'Zang Shuang'
     ],
-    journal: 'International journal of occupational medicine and environmental health',
-    doi: '10.13075/ijomeh.1896.02545',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511593/'
+    journal: 'Journal of medical Internet research',
+    doi: '10.2196/68299',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513089/'
   },
   {
-    id: '40511588',
-    title: 'Delineating Life-Course Percentile Curves and Normative Values of Multi-Systemic Ageing Metrics in the United Kingdom, the United States, and China.',
-    abstract: 'BACKGROUND: Ageing is a complex and multi-dimensional process that manifests heterogeneities across different organs/systems, individuals and countries. We aimed to delineate the life-course percentile curves and establish the normative values of multi-systemic (e.g., muscle-skeletal, brain, cardiovascular and pulmonary) ageing metrics for people under distinct sociodemographic contexts (i.e., sex, income and education).\n' +
-      'METHODS: Three national datasets, the UKB (the United Kingdom), the NHANES (the United States) and the CHARLS (China) were utilized for the analyses. We selected 14 ageing metrics (e.g., body mass index, grip strength, fat-free mass index, bone mineral content [BMC], bone mineral density [BMD], diastolic blood pressure, cognitive function and frailty index_Lab) that represent the functions of different organs/systems and plotted their sex-, educational- and income-specific percentile curves utilizing the GMALSS model. We also estimated the age-specific normative values for each ageing metric in distinct sociodemographic contexts.\n' +
-      "RESULTS: The functions of all metrics, except for cognitive function, manifested a progressive decline or maintained stability after adulthood (20s), especially after middle age (40s-50s). The cognitive function showed an evident decline in old age (70s-75s) (e.g., in the CHARLS: the median [IQR] cognitive function scores were 11.6 [9.1, 13.8], 10.3 [7.5, 12.9], 8.3 [5.5, 11.0] at the ages of 60, 70 and 80 for males, respectively). In the stratified analyses, males and females manifested disparities in percentile curves of ageing metrics involving the muscle-skeletal and cardiovascular systems. For instance, BMC and BMD manifested an evident decline after middle age in females, whereas they showed a slow decline after adulthood in males. Notably, we observed substantial income and educational disparities in percentile curves of several ageing metrics within Chinese participants: the 'low-income' and 'low-education' subgroups manifested an evident decline in ageing metrics (e.g., grip strength and frailty index_Lab) representative of multiple systems. By contrast, these income or educational disparities were not observed in the British and American participants.\n" +
-      'CONCLUSIONS: Our investigation delineated the potential heterogeneities and socioeconomic disparities in percentile curves of multi-systemic ageing metrics and provided their age-specific normative values tailored to different sexes and socioeconomic contexts based on three national datasets. This study may serve as a proof-of-concept for understanding the multi-dimensional signature of systemic ageing and calls for policies to promote health equity across nations when facing dramatic global ageing.',
-    published: '2025-Jun',
+    id: '40513084',
+    title: 'White Matter Abnormalities and Cognition in Aging and Alzheimer Disease.',
+    abstract: 'IMPORTANCE: There has yet to be a large-scale study quantifying the association between white matter microstructure and cognitive performance and decline in aging and Alzheimer disease (AD).\n' +
+      'OBJECTIVE: To investigate the associations between tract-specific white matter microstructure and cognitive performance and decline in aging and AD-related cognitive impairment.\n' +
+      'DESIGN, SETTING, AND PARTICIPANTS: This prognostic study of aging and AD, a secondary data analysis of multisite cohort studies, acquired data from 9 cohorts between September 2002 and November 2022. Participants were eligible if they had diffusion-weighted magnetic resonance imaging (dMRI) data, domain-specific cognitive composite z scores, demographic and clinical data, were aged 50 years or older, and passed neuroimaging quality control. Demographic and clinical covariates included age, sex, education, race and ethnicity, APOE haplotype status (ε2, ε3, ε4), and clinical status. The present study was conducted from June 2024 to February 2025.\n' +
+      'EXPOSURES: White matter microstructure and cognitive performance and decline.\n' +
+      'MAIN OUTCOMES AND MEASURES: Clinical diagnosis, imaging measures (dMRI, T1-weighted MRI, and amyloid and tau positron emission tomography), and cognitive tests.\n' +
+      'RESULTS: Of 4467 participants who underwent 9208 longitudinal cognitive sessions, 2698 (60.4%) were female, and the mean age (SD) was 74.3 (9.2) years; 3213 were cognitively unimpaired, 972 had mild cognitive impairment, and 282 had AD dementia. White matter free water (FW) showed the strongest associations with cross-sectional cognitive performance and longitudinal cognitive decline across all domains, particularly memory. FW in limbic tracts, such as the cingulum, presented the strongest associations with both memory performance (cingulum: β = -0.718; P < .001; fornix: β = -1.069; P < .001) and decline (cingulum: β = -0.115; P < .001; fornix: β = -0.153; P < .001). White matter FW measures interacted with baseline diagnosis, gray matter atrophy, APOE ε4 status, and amyloid positivity to predict poorer cognitive performance and accelerated cognitive decline. Noteworthy interactions include fornix FW and hippocampal volume (β = 10.598; P < .001), cingulum FW and SPARE-AD index (β = -0.532; P < .001), and inferior temporal gyrus transcallosal tract FW and baseline diagnosis (β = -0.537; P < .001), all predicting poorer memory performance.\n' +
+      'CONCLUSIONS AND RELEVANCE: White matter microstructural changes, particularly FW, play a critical role in cognitive decline in aging and AD-related cognitive impairment. These findings highlight the importance of FW correction in dMRI studies and highlight the limbic system, especially the cingulum and fornix, as key regions associated with cognitive decline; the interaction models highlight that integrating FW-corrected metrics with other AD biomarkers may further elucidate the biological mechanisms of neurodegeneration in aging.',
+    published: '2025-Jun-09',
     authors: [
-      'Zhang Liming',
-      'Yu Jiening',
-      'Jia Xueqing',
-      'Su Zichang',
-      'Hu Yingying',
-      'Zhang Jingyun',
-      'Yang Wei',
-      'Chen Xi',
-      'Hoogendijk Emiel O',
-      'Huang Huiqian',
-      'Liu Zuyun'
+      'Peter Christopher',
+      'Sathe Aditi',
+      'Shashikumar Niranjana',
+      'Pechman Kimberly R',
+      'Workmeister Abigail W',
+      'Jackson T Bryan',
+      'Huo Yuankai',
+      'Mukherjee Shubhabrata',
+      'Mez Jesse',
+      'Dumitrescu Logan C',
+      'Gifford Katherine A',
+      'Bolton Corey J',
+      'Gaynor Leslie S',
+      'Risacher Shannon L',
+      'Beason-Held Lori L',
+      'An Yang',
+      'Arfanakis Konstantinos',
+      'Erus Guray',
+      'Davatzikos Christos',
+      'Tosun-Turgut Duygu',
+      'Habes Mohamad',
+      'Wang Di',
+      'Toga Arthur W',
+      'Thompson Paul M',
+      'Zhang Panpan',
+      'Schilling Kurt G',
+      'Albert Marilyn',
+      'Kukull Walter',
+      'Biber Sarah A',
+      'Landman Bennett A',
+      'Bendlin Barbara B',
+      'Johnson Sterling C',
+      'Schneider Julie',
+      'Barnes Lisa L',
+      'Bennett David A',
+      'Jefferson Angela L',
+      'Resnick Susan M',
+      'Saykin Andrew J',
+      'Crane Paul K',
+      'Cuccaro Michael L',
+      'Hohman Timothy J',
+      'Archer Derek B',
+      '',
+      '',
+      'Zaras Dimitrios',
+      'Yang Yisu',
+      'Durant Alaina',
+      'Kanakaraj Praitayini',
+      'Kim Michael E',
+      'Gao Chenyu',
+      'Newlin Nancy R',
+      'Ramadass Karthik',
+      'Khairi Nazirah Mohd',
+      'Li Zhiyuan',
+      'Yao Tianyuan',
+      'Choi Seo-Eun',
+      'Klinedinst Brandon',
+      'Lee Michael L',
+      'Scollard Phoebe',
+      'Trittschuh Emily H',
+      'Sanders Elizabeth A'
     ],
-    journal: 'Journal of cachexia, sarcopenia and muscle',
-    doi: '10.1002/jcsm.13862',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511588/'
+    journal: 'JAMA neurology',
+    doi: '10.1001/jamaneurol.2025.1601',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513084/'
   },
   {
-    id: '40511581',
-    title: 'Palliative radiation oncology programs: improving value through high-quality and cost-effective care.',
-    abstract: 'An estimated 40% of all radiation treatments are delivered with non-curative intent, and there is strong evidence that this cohort of patients benefits from the early integration of palliative care services. Palliative radiation oncology programs (PROPs) are teams, processes, or systems that were developed to meet these needs. PROPs address specific issues related to the delivery of palliative radiation therapy (PRT) and try to enhance and improve the quality, cost, timeliness, and value of patient care. While PROPs can be tailored to specifically meet any institutional needs, establishing a sustainable PROP requires commitment from the institution, the systemic integration of standardized care pathways, workflows, and best practice guidelines, collaboration within the oncology team, and dedicated infrastructure resources. PROPs have been shown to improve timely access to care, increase patient and provider satisfaction, advance guideline-concordant care, standardize assessment of palliative care needs, improve palliative care education among radiation oncology residents, and reduce hospital stays and health care costs. While not yet widely adopted, the benefits they provide confirm their value and importance for patients with advanced cancer and for the health care system in general. This article outlines the reasons PROPs were developed, discusses elements related to developing sustainable PROPs, and highlights the value that they provide while reducing costs.',
-    published: '2025-May',
-    authors: [
-      'Bruggeman Andrew R',
-      'Robbins Jared R',
-      'Chang Eric M',
-      'Dharmarajan Kavita'
-    ],
-    journal: 'Annals of palliative medicine',
-    doi: '10.21037/apm-24-171',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511581/'
-  },
-  {
-    id: '40511575',
-    title: 'Asymptomatic bone metastases: 2024 American Society for Radiation Oncology (ASTRO) education panel.',
-    abstract: 'No abstract available',
-    published: '2025-May',
-    authors: [ 'Lee Shing Fung', 'Hoskin Peter J' ],
-    journal: 'Annals of palliative medicine',
-    doi: '10.21037/apm-25-5',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511575/'
-  },
-  {
-    id: '40511567',
-    title: 'Physical Activity Is Associated With Decreased Epigenetic Aging: Findings From the Health and Retirement Study.',
-    abstract: 'BACKGROUND: Epigenetic aging measures or clocks are DNA methylation-based indicators of biological aging, linked to health outcomes and disease risk. Physical activity and exercise may influence epigenetic aging, suggesting a pathway through which it promotes healthier aging and reduces chronic disease burden. In this study, we assessed the association between self-reported moderate-to-vigorous physical activity and epigenetic age acceleration (EAA) in participants of the Health and Retirement Study, followed biennially for 12 years from 2004 to 2016.\n' +
-      "METHODS: Leukocyte DNA methylation was measured from venous blood samples collected in 2016 and second-generation epigenetic clocks (GrimAge, PhenoAge and DunedinPACE) were used to assess EAA. Physical activity was assessed at each wave, with participants reporting vigorous activity at least once per week or moderate activity more than once per week or more categorized as 'physically active'. We used weighted linear regression models for cross-sectional analysis in 2016. Additionally, we used a structured life-course modelling approach (SLCMA) to assess how the timing of physical activity is associated with EAA, testing both wave-specific physical activity measures and an accumulation measure indicative of sustained physical activity over the follow-up period.\n" +
-      'RESULTS: In 2016, 58% of the participants were classified as physically active. In cross-sectional analysis, physically active participants had lower EAA than inactive participants: -1.26 (95% confidence interval (CI): -1.59, -0.93) years for GrimAge acceleration, -1.70 (95% CI: -2.26, -1.15) for PhenoAge acceleration and -0.05 (95% CI: -0.06, -0.04) years per chronological year for DunedinPACE, adjusted for age, gender, race/ethnicity, education, total wealth and current smoking status. The associations attenuated slightly but remained significant after further adjusting for body mass index, mobility limitations and chronic disease diagnosis. We found evidence of effect modification in the association between physical activity and EAA by social factors, with stronger associations in males compared to females for DunedinPACE (P = 0.04) and a positive association between physical activity and increased EAA among Hispanics compared to non-Hispanic Whites for GrimAge (P = 0.009). Our longitudinal analysis using SLCMA identified both accumulation and most recent physical activity in 2016 as the strongest predictors of EAA.\n' +
-      'CONCLUSIONS: Our findings highlight physical activity as a robust factor associated with slower epigenetic aging, with both accumulation and concurrent physical activity as the strongest predictors. These results underscore the role of physical activity in promoting healthier biological aging, suggesting its potential as a target for interventions aimed at mitigating age-related health decline.',
-    published: '2025-Jun',
-    authors: [
-      'Ammous Farah',
-      'Peterson Mark D',
-      'Mitchell Colter',
-      'Faul Jessica D'
-    ],
-    journal: 'Journal of cachexia, sarcopenia and muscle',
-    doi: '10.1002/jcsm.13873',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511567/'
-  },
-  {
-    id: '40511524',
-    title: "Entropy and expertise: assessing changes in pathologists' language over time using the UK Liver Pathology External Quality Assessment scheme.",
-    abstract: 'External Quality Assessment (EQA) schemes are an important quality assurance tool and aim to ensure consistency among histopathologists. In this study, we use Shannon entropy as a novel metric to evaluate linguistic variability in the UK Liver Pathology EQA scheme. Analysing free-text responses by participants over a decade, we aimed to quantify language trends in morphological assessments and clinicopathological diagnoses. Accounting for an increasing word count and when pathologists joined the scheme, our findings reveal a significant increase in entropy of morphological assessments over time, indicating growing linguistic diversity that may reflect the increasing complexity of liver pathology. Entropy of clinicopathological diagnoses over the same period did not provide clear evidence for convergent diagnostic language. High entropy corresponded to cases that elicited more diverse responses and could be considered more challenging, highlighting the utility of this method to identify potential areas for targeted education. We demonstrate entropy as a novel tool to analyse pathologist language and enhance quality assurance in the evolving pathology landscape.',
+    id: '40513055',
+    title: 'Neighborhood Socioeconomic Status and the Functional Outcome of Patients Treated With Endovascular Thrombectomy for Ischemic Stroke.',
+    abstract: 'BACKGROUND AND OBJECTIVES: Socioeconomically deprived neighborhoods are known to have higher incidence rates of stroke and less access to high-quality stroke care. We aimed to examine whether there is an association between neighborhood socioeconomic status (nSES) and functional outcome after endovascular thrombectomy (EVT) for ischemic stroke in a high-income country.\n' +
+      'METHODS: Data from 2 randomized trials, which included patients treated with EVT within 6 hours after stroke onset: MR CLEAN-MED and MR CLEAN-NO IV were studied. A per postcode composite score of education, employment, and household income (scores ranging from -1 to 1) created by Statistics Netherlands, represented nSES. The association with functional outcome after 90 days (modified Rankin Scale [mRS]), functional independence (mRS 0-2), neurologic deficit at 24 hours (NIH Stroke Scale [NIHSS]), and radiologic outcomes (expanded treatment in cerebral infarction score and follow-up infarct volume [FIV]) were analyzed using regression analyses adjusted for patient characteristics, including baseline NIHSS.\n' +
+      'RESULTS: We included 910 patients (median age 71.5 years, 404 (44.4%) women, median baseline NIHSS 15) in the analyses. Patients with a higher nSES had a higher likelihood of a more favorable functional outcome (a shift toward improved outcome on the mRS) (adjusted common odds ratio [OR] 1.90, 95% CI 1.21-3.01) and were more likely to have regained functional independence (adjusted OR 3.21, 95% CI 1.82-5.70) at 90 days. There was no significant association between the nSES and the degree of neurologic deficit at 24 hours (adjusted β -0.24, 95% CI -0.50 to 0.01,  = 0.06) or radiologic outcomes (reperfusion status [adjusted OR 0.89, 95% CI 0.45-1.78], FIV [adjusted β 0.01, 95% CI -0.17 to 0.20,  = 0.89]).\n' +
+      'DISCUSSION: Living in a more socioeconomically affluent neighborhood was associated with a more favorable functional outcome at 90 days, but not with degree of neurologic deficit at 24 hours or radiologic outcomes. This suggests that nSES-based inequalities exist in the postacute phase of stroke care, and highlights the importance of continuing to work toward health equity for patients with stroke.',
     published: '2025-Jul',
     authors: [
-      'Callaghan Jonathan P',
-      'Freimane Katrina Z',
-      'Brown Rachel M',
-      'Cratchley Alyn L',
-      'Kendall Timothy J'
+      'Schoon Bridget A',
+      'Hansen Daniël',
+      'Roozenbeek Bob',
+      'Oude Groeniger Joost',
+      'van der Steen Wouter',
+      'van der Lugt Aad',
+      'Kappelhof Manon',
+      'Roos Yvo B W E M',
+      'Majoie Charles B L M',
+      'van Lenthe Frank',
+      'Dippel Diederik W J',
+      ''
     ],
-    journal: 'The journal of pathology. Clinical research',
-    doi: '10.1002/2056-4538.70032',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511524/'
+    journal: 'Neurology',
+    doi: '10.1212/WNL.0000000000213615',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513055/'
   },
   {
-    id: '40511508',
-    title: 'High-Fidelity 3D Imaging of Dental Scenes Using Gaussian Splatting.',
-    abstract: 'Three-dimensional visualization is increasingly used in dentistry for diagnostics, education, and treatment design. The accurate replication of geometry and color is crucial for these applications. Image-based rendering, which uses 2-dimensional photos to generate photo-realistic 3-dimensional representations, provides an affordable and practical option, aiding both regular and remote health care. This study explores an advanced novel view synthesis (NVS) method called Gaussian splatting (GS), a differentiable image-based rendering approach, to assess its feasibility for dental scene capturing. The rendering quality and resource usage were compared with representative NVS methods. In addition, the linear measurement trueness of extracted craniofacial meshes was evaluated against a commercial facial scanner and 3 smartphone facial scanning apps, while teeth meshes were assessed against 2 intraoral scanners and a desktop scanner. GS-based representation demonstrated superior rendering quality, achieving the highest visual quality, fastest rendering speed, and lowest resource usage. The craniofacial measurements showed similar trueness to commercial facial scanners. The dental measurements had larger deviations than intraoral and desktop scanners did, although all deviations remained within clinically acceptable limits. The GS-based representation shows great potential for developing a convenient and cost-effective method of capturing dental scenes, offering a balance between color fidelity and trueness suitable for clinical applications.',
+    id: '40513044',
+    title: 'Time for Education and Research in Academic Neurology: An Update and Recent Events.',
+    abstract: 'No abstract available',
+    published: '2025-Jul-22',
+    authors: [ 'Meador Kimford J' ],
+    journal: 'Neurology',
+    doi: '10.1212/WNL.0000000000213813',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513044/'
+  },
+  {
+    id: '40513015',
+    title: 'Perceptions of Stigma Among Patients With Hepatitis B in Germany: Cross-Sectional Survey.',
+    abstract: 'BACKGROUND: Many studies find associations between hepatitis B and stigma, but studies from the Western European context are lacking. Based on available studies, we hypothesized that younger age, higher education, male gender, higher privacy needs, and non-German mother tongue were positively associated with perceived hepatitis B-related stigma.\n' +
+      'OBJECTIVE: This study aims to describe the prevalence of perceived social stigma among patients with hepatitis B in Germany and to assess what factors are associated with perceptions of hepatitis B-related stigma.\n' +
+      'METHODS: Applying the short version of the Berger stigma scale, we surveyed 195 patients with hepatitis B about their perceptions of hepatitis B-related stigma, privacy needs, and demographic variables through a paper-based questionnaire. Venue-based recruitment of adult patients diagnosed with acute or chronic hepatitis B was implemented at 3 clinical centers in Germany. Patients who could not read German were excluded from the study.\n' +
+      "RESULTS: From the 195 valid questionnaires, 45.1% (88/195) of participants identified as female, 36.6% (71/195) had a high school diploma, and 56.9% (111/195) reported a mother tongue other than German. The mean (SD) stigma score throughout the sample was 5.52 (6.02; range 0-24) and the median was 3.50 (IQR=9.75). Regression analysis revealed that non-German mother tongue, individual data privacy needs, and participants' secrecy regarding their hepatitis B diagnosis independently predicted perceived hepatitis B-related stigma. More precisely, the higher the data privacy need and the more secret the hepatitis B diagnosis, the higher the perceived stigma, and perceived stigma was higher for patients with a non-German mother tongue. Age, gender, and education were no predictors of perceived stigma.\n" +
+      'CONCLUSIONS: The surveyed patients with hepatitis B in Germany reported lower levels of hepatitis B-related stigma than found in other studies conducted in Asian countries. The association with non-German mother tongue indicates an important cultural and social component in the perception of stigma. Community-based interventions and the sensibilization of health care professionals might help overcome perceptions of stigma among hepatitis B-affected populations.',
     published: '2025-Jun-13',
     authors: [
-      'Jin C-X', 'Li M-X',
-      'Yu H',    'Gao Y',
-      'Guo Y-P', 'Xia G-S',
-      'Huang C'
-    ],
-    journal: 'Journal of dental research',
-    doi: '10.1177/00220345251332201',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511508/'
-  },
-  {
-    id: '40511497',
-    title: 'Sociodemographic Factors and Perinatal Outcomes After Laser Surgery for Twin-Twin Transfusion Syndrome: A Retrospective Cohort Study.',
-    abstract: 'OBJECTIVE: To evaluate the relationship between socioeconomic status (SES) and race with perinatal survival following fetoscopic laser surgery (FLS) for Twin-Twin Transfusion Syndrome (TTTS).\n' +
-      'DESIGN: Retrospective observational study.\n' +
-      'SETTING: Fetal therapy referral center in the US Mid-Atlantic region.\n' +
-      'POPULATION: Consecutive patients having FLS for TTTS between 2014 and 2024.\n' +
-      'METHODS: SES was quantified by Distress Community Index (DCI) and Area Deprivation Index (ADI) with particular consideration of race and health insurance (commercial or government funded). The DCI and ADI scores reflect the community median income, housing vacancies, education level, poverty rate, business growth, and unemployment based on the ZIP code and patient address, respectively. Scores were stratified by quartiles which indicate prosperous (0-24.9), mid-tier (25-49.9), at-risk (50-74.9) and distressed (75-100) neighbourhoods. Maternal factors, DCI, ADI, self-reported race, insurance status, TTTS severity and peri-operative factors were analysed to determine if there was an association to procedure-related complications, individual twin survival, overall perinatal survival and delivery gestational age. Bivariate and logistic regression analyses were used to identify determinants of survival at discharge from the nursery.\n' +
-      'MAIN OUTCOME MEASURES: Double neonatal survival (DNS).\n' +
-      'RESULTS: In 478 patients undergoing FLS, the median DCI was 31.6% [IQR 13%-52.9%] and ADI 33% [IQR 17%-54%] which is equivalent to mid-tier socioeconomic status. In our cohort, 75.5% (n = 361) were White, 78.7% (n = 342) had commercial insurance, 75.3% (n = 360) resided out of state, and 74.5% (n = 347) had DNS. Patients with DNS were more likely to reside in prosperous or mid-tier DCI (74.8 vs. 62%) and ADI quartile neighbourhoods (74% vs. 60.3%), more likely to be White (78.7% vs. 66.1%) and have commercial insurance (81.8% vs. 71.9%, all p < 0.05). Cases of stage III TTTS had higher rates of single or no neonatal survivors (58.7% vs. 37.0%) and estimated fetal weight discordance (EFWD) > 25% (51.2% vs. 29.4%, all p < 0.001). DNS was less likely with Quintero stage III and coexisting EFWD > 25%, with previable preterm birth or membrane rupture and non-White racial group as independent contributors (r 0.33, p < 0.001).\n' +
-      'CONCLUSION: Patients with lower perinatal survival after fetoscopic laser surgery were more likely to reside in less affluent neighbourhoods, but the non-white racial group emerged as the key independent factor. Further research is needed to explore how individual sociodemographic factors influence outcomes in specialised fetal therapy.',
-    published: '2025-Jun-13',
-    authors: [
-      'Williams Kedeja V',
-      'Rosner Mara',
-      'Shantz Camille',
-      'Taylor Elena',
-      'Satin Andrew J',
-      'Kush Michelle',
-      'Miller Jena',
-      'Baschat Ahmet A'
-    ],
-    journal: 'BJOG : an international journal of obstetrics and gynaecology',
-    doi: '10.1111/1471-0528.18248',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511497/'
-  },
-  {
-    id: '40511496',
-    title: 'Using Real Electronic Health Records in Undergraduate Education: Roundtable Discussion.',
-    abstract: 'BACKGROUND: Simulated electronic health records (EHRs) are used in structured teaching for health care students. This partly addresses inconsistent student exposure to EHRs while on clinical placements. However, simulated records are poor replacements for the complexity of data encountered in real EHRs. While routinely collected health care data are often used for research, secondary use does not include education. We are exploring the perceptions, governance, and ethics required to support the use of real patient records within teaching.\n' +
-      'OBJECTIVE: The aim of the study is to explore the perspectives of health care professionals regarding the use of real patient records to deliver interprofessional EHR education to undergraduate health care students.\n' +
-      'METHODS: We held 90-minute group discussions with 10 health care professionals from nursing, pharmacy, medicine, and allied health disciplines. We used the GRIPP2 (Guidance for Reporting Involvement of Patients and the Public 2) checklist for reporting Patient and Public Involvement and Engagement to present our reflections.\n' +
-      'RESULTS: There was consensus on the need to upskill health care students in the use of EHRs. Participants emphasized teaching general EHR competencies and transferable skills to overcome the diversity in EHR systems. They highlighted limitations in current teaching due to accessibility issues, disparities within clinical teaching, and curricular gaps on important topics such as clinical documentation and coding. Highlighted benefits of using real EHRs in teaching included learning from the complexities and inaccuracies of real patient data, grasping real-world time frames, and better appreciation of multidisciplinary interactions. Concerns included exposing individual clinicians to unfounded scrutiny and the potential consequences of incidental findings within EHRs. The ethical implications of overlooking perceived errors within EHRs versus the impracticality of acting on them were discussed. To mitigate concerns, it was suggested that data donors would provide informed consent ensuring they understand that they will not be recontacted should any such errors be found.\n' +
-      'CONCLUSIONS: Innovative solutions are needed to realign health care education with clinical practice in rapidly evolving digital environments. Real patient records are optimal for teaching students to handle complex and abundant real-world data. Data within EHRs represent a wealth of clinical knowledge encompassing professional and personal experiences spanning the lifetimes of patients and their caregivers. Drawing experiences and events from real EHRs will prepare health care students to anticipate, confront, and manage real patients in a variety of real-life scenarios. Our reflections highlight the processes and safeguards to consider when using real patient records to deliver EHR education to health care students. These detailed reflections from discussions with health care professionals provide the grounds for a robust framework, with appropriate governance and consent in place to use real health data in training to support preparation for clinical practice.',
-    published: '2025-Jun-12',
-    authors: [
-      'Nadeem Fatima',
-      'Azmy Jessica',
-      'Shomali Asieh Yousefnejad',
-      'Diette Benjamin',
-      'Gregory Lloyd J',
-      'Davies Angela C',
-      'Wilson Kurt C'
+      'Zimmermann Bettina M',
+      'Willem Theresa',
+      'Rost Michael',
+      'Matthes Nina',
+      'Buyx Alena'
     ],
     journal: 'JMIR formative research',
-    doi: '10.2196/60789',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511496/'
+    doi: '10.2196/66379',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513015/'
   },
   {
-    id: '40511459',
-    title: 'VR sculpting as a therapeutic intervention for alleviating anxiety: a case study from a university art class.',
-    abstract: 'BACKGROUND: Anxiety among university students has become increasingly prominent in higher education settings, adversely affecting not only their academic performance but also their overall mental health. While medication and psychological interventions can help alleviate anxiety to some extent, it is crucial for this particular group to find more convenient, easily accepted non-pharmacological approaches. Art therapy, especially hands-on creative activities, is considered an effective means of regulating anxiety, yet research on virtual reality (VR) sculpting remains relatively scarce.\n' +
-      "OBJECTIVE: This paper aims to investigate the therapeutic effects of VR sculpting on college students' anxiety levels and assess its impact on psychological well-being and physiological relaxation, as measured by heart rate variability (HRV).\n" +
-      'METHODS: The study recruited 30 undergraduates, evaluating their anxiety levels via the Generalized Anxiety Disorder scale (GAD-7), psychological well-being via the Positive and Negative Affect Schedule (PANAS), and physiological relaxation via HRV. Subsequently, we monitored how VR-based artistic sculpting influenced changes in GAD-7, PANAS, and HRV scores.\n' +
-      "RESULTS: Comparing the data before and after the art-based intervention revealed a significant decrease in participants' GAD-7 scores, a substantial rise in PANAS scores indicating enhanced psychological well-being (p < 0.05), and a marked increase in HRV, suggesting VR sculpting can promote physiological relaxation. Qualitative interviews further showed that most participants experienced strong focus and emotional release during the VR sculpting process.\n" +
-      'CONCLUSION: As a non-pharmacological art therapy method, VR sculpting demonstrates a notably positive effect on reducing anxiety and improving mental well-being among university students. This study provides compelling evidence for using art therapy to address mental health issues in a college environment. Future research should consider longer intervention periods and more varied measures to further investigate the long-term effectiveness and broader applicability of this approach.',
+    id: '40513002',
+    title: 'Recommendations for Designing a Digital Health Tool for Blindness Prevention Among High-Risk Diabetic Retinopathy Patients: Qualitative Focus Group Study of Adults With Diabetes.',
+    abstract: 'BACKGROUND: Diabetic retinopathy (DR) is a leading cause of preventable blindness among working-aged adults. Black, Latine, and low-income individuals are screened less for DR, diagnosed later, treated less often, and go blind more than White individuals.\n' +
+      'OBJECTIVE: This study aimed to engage members to co-design a digital health tool that is accessible, user-friendly, and culturally relevant, through a community-led research approach,.\n' +
+      'METHODS: Using a qualitative approach, we conducted 4 semistructured focus group interviews with 19 individuals from the Greater New Haven area, aged 18 years or older, and diagnosed with diabetes. We transcribed and coded the focus group interviews and categorized them into themes using affinity mapping. The specific aims were to complete a comprehensive needs assessmen for the development of a community-responsive digital health tool and to increase access to information about DR screening in high-risk populations. We transcribed the focus group interviews, used rapid qualitative analysis to generate themes, and completed affinity mapping to identify content and features for a digital health tool for preventing blindness from DR.\n' +
+      'RESULTS: We interviewed 19 individuals (68% [13/19] female, 47% [9/19] Black, 26% [5/19]) Hispanic) in 4 focus groups. Over 80% (15/19) had access to smart devices, including smartphones (17/19, 89%), smartwatches (4/19, 21%), computers (14/19, 74%), and tablets (11/19, 58%). Many participants had access to multiple devices (17/19, 89%). Participants self-reported hemoglobin A1c (mean hemoglobin A1c 6.77, SD 1.93) and age (mean age 58.79, SD 19.54). Education levels among participants varied. Almost half of all the participants (9/19, 47%) completed some college, a little less than a quarter (4/19, 21%) achieved a high school diploma or general education development certificate, and a little less than a quarter (4/19, 21%) completed less than a high school equivalent of education. Household income levels across nearly all participants (14/19, 74%) were below US $50,000, but household size data were not collected. Participants reported extensive experience with diabetes or prediabetes (mean years with diabetes or prediabetes 17.06, SD 17.53). The themes obtained from coding focus group interviews included the mental toll of diabetes, peer support like accountability and local community events, education about diabetes management, barriers to DR screening like long wait times for appointments or cost of medications, and diet-related topics like how to find cost-effective healthy food.\n' +
+      'CONCLUSIONS: DR is one of the leading causes of blindness, and many treatments exist. Despite the existence of treatments, historically marginalized populations experience poor health outcomes, including blindness. Our community-based approach aids in the creation of a culturally responsive digital health tool.',
+    published: '2025-Jun-13',
+    authors: [
+      'Frimpong Akua',
+      'Granados Alvaro',
+      'Chang Thomas',
+      'Fu Julia',
+      'Moore Shannan G',
+      'Applebaum Serina',
+      'Adepoju Bolatito',
+      'Kaur Mahima',
+      'Hari Krishnan Vignesh',
+      'Levi Amanda',
+      'McCall Terika',
+      'Nwanyanwu Kristen Harris'
+    ],
+    journal: 'JMIR formative research',
+    doi: '10.2196/65893',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513002/'
+  },
+  {
+    id: '40513000',
+    title: 'User and Provider Experiences With Health Education Chatbots: Qualitative Systematic Review.',
+    abstract: 'BACKGROUND: Chatbots, as dialog-based platforms, have the potential to transform health education and behavior-change interventions. Despite the growing use of chatbots, qualitative insights into user and provider experiences remain underexplored, particularly with respect to experiences and perceptions, adoption factors, and the role of theoretical frameworks in design.\n' +
+      'OBJECTIVE: This systematic review of qualitative evidence aims to address three key research questions (RQs): (RQ1) user and provider experiences; (RQ2) facilitators and barriers to adoption; and (RQ3) role of theoretical frameworks.\n' +
+      "METHODS: We systematically searched PubMed, the Cochrane Library, and ScienceDirect from January 1, 2018, to October 1, 2023, for English- or German-language, peer-reviewed qualitative or mixed methods studies. Studies were included if they examined users' or providers' experiences with chatbots in health education or behavior-change contexts. Two reviewers independently screened titles, abstracts, and full texts (Cohen κ=0.82). We used the Joanna Briggs Institute Critical Appraisal Checklist for quality assessment and conducted a reflexive thematic analysis following Braun and Clarke's framework.\n" +
+      'RESULTS: Among the 1754 records identified, 27 studies from 10 countries met the inclusion criteria, encompassing 241 qualitative-only participants and 10,802 mixed method participants (657 contributing qualitative data). For RQ1, users emphasized empathy and emotional connection. For RQ2, accessibility and ease of use emerged as facilitators, whereas trust deficits, technical glitches, and cultural misalignment were key barriers. For RQ3, the integration of behavior-change theories emerged as underutilized despite their potential to increase motivation.\n' +
+      'CONCLUSIONS: Chatbots demonstrate strong potential for health education and behavior-change interventions but must address privacy and trust issues, embed robust theoretical underpinnings, and overcome adoption barriers to fully realize their impact. Future directions should include evaluations of cultural adaptability and rigorous ethical considerations in chatbot design.',
+    published: '2025-Jun-13',
+    authors: [ 'Choi Кyung-Eun Anna', 'Fitzek Sebastian' ],
+    journal: 'JMIR human factors',
+    doi: '10.2196/60205',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40513000/'
+  },
+  {
+    id: '40512998',
+    title: 'Visual Learning in Electrocardiography Training for Medical Residents: Comparative Intervention Study.',
+    abstract: 'BACKGROUND: Although electrocardiogram (ECG) interpretation training begins early in medical school, achieving accuracy in interpretation of 12-lead ECG remains a persistent challenge. We conducted a pilot educational program to compare the effectiveness of a conventional didactic lecture, self-drawing, and self-drawing following a flipped classroom (SDFC) approach.\n' +
+      'UNLABELLED: This study aimed to evaluate the effectiveness of three instructional strategies-traditional didactic lecture, self-drawing, and SDFC approach-in improving ECG interpretation skills among first-year postgraduate (PGY-I) medical residents.\n' +
+      'METHODS: This study was conducted among postgraduate-year PGY-I residents at MacKay Memorial Hospital over 3 years. The study enrolled 76 PGY-I residents, who were randomized into three groups: conventional control (group 1), self-drawing (group 2), and SDFC (group 3). All participants were provided with the same learning material and didactic lectures. Knowledge evaluation was performed using pre- and posttests, which were administered using questionnaires.\n' +
+      'RESULTS: The groups involving self-drawing, both combined with and without a flipped classroom approach, demonstrated better performance on the written summative examination. These findings highlight the benefits of self-drawing in integrating theoretical knowledge with practical approaches to ECG interpretation.\n' +
+      'CONCLUSIONS: Our study demonstrated promising effects of self-drawing on the recognition of ECG patterns, which could address the inadequacies of traditional classroom teaching. It can be incorporated into routine teaching after validation in a larger cohort.',
+    published: '2025-Jun-13',
+    authors: [
+      'Sung Heng-You',
+      'Liao Feng-Ching',
+      'Lin Shu-I',
+      'Cheng Han-En',
+      'Lee Chun-Wei'
+    ],
+    journal: 'JMIR medical education',
+    doi: '10.2196/73328',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40512998/'
+  },
+  {
+    id: '40512987',
+    title: 'Factors associated with health-related quality of life and physical health of women raising infants and toddlers in Japan.',
+    abstract: 'BACKGROUND: Policies to support postpartum and child-rearing periods for women have been strengthened in Japan in recent years to combat the declining birth rate. However, the type of support required to improve the quality of life and health of these women remains unclear because of the insufficient research on new policies.\n' +
+      'OBJECTIVES: This study aimed to examine the self-reported health status of Japanese women raising infants and toddlers aged 3 months to 3 years and determine the factors associated with health-related quality of life and physical health.\n' +
+      'DESIGNS: A cross-sectional observational study was conducted using self-administered questionnaires between March and November 2021.\n' +
+      'METHODS: Two hundred and fifty-nine Japanese mothers (164 or 68.8% being first-time mothers) participated in a survey using self-administered questionnaires that included the Somatic Symptom Scale-8, 36-Item Short-Form Health Survey, and Health-Promoting Lifestyle Profile II.\n' +
+      'RESULTS: The physical component summary scores of the participants were 49.2, 51.5, and 47.9 for those in their 20s, 30s, and 40s, respectively, all of which were below Japanese population norms in each age group. Employment (β = -1.57, p = 0.01), stress-coping skills (β = -0.50, p < 0.01), and optimistic thinking (β = -1.18, p < 0.01) were associated with fewer physical symptoms. Not being a first-time mother (β = 2.85, p = 0.01) and use of maternity-home services (β = 6.59, p = 0.02) were positively associated with the physical health. Moreover, the use of consultations or parenting classes provided by the local government (β = 3.36, p = 0.02), coping with stress (β = 0.81, p < 0.01), and optimistic thinking (β = 3.46, p < 0.01) were positively associated with the mental component summary score. Age of the youngest child (⩾1 year; β = 3.30, p = 0.03) and optimistic thinking (β = 1.60, p < 0.01) were positively associated with the role/social component summary.\n' +
+      'CONCLUSIONS: The physical quality of life of Japanese mothers raising children has declined to a level that cannot be improved through general self-care practices. Therefore, improving the content of health education is necessary, with a particular focus on the physical health of women raising children. The policy of child-rearing support, which is strengthening in Japan, such as childcare consultation, has a positive impact on the mental health of women during child-rearing.',
     published: '2025',
-    authors: [ 'Ding Huan', 'Lin Bo', 'Xu Yuwei', 'Shang Dunjiang', 'Han Yi' ],
-    journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1588745',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40511459/'
+    authors: [ 'Ishibashi Haruna', 'Honda Sumihisa', 'Fujita Wakako' ],
+    journal: "Women's health (London, England)",
+    doi: '10.1177/17455057251347082',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40512987/'
+  },
+  {
+    id: '40512835',
+    title: 'Impact of iSupport on improving knowledge on dementia and dementia care among family caregivers to persons with dementia and formal caregivers in Bangladesh: Protocol for a non-randomized feasibility study.',
+    abstract: "Dementia is a growing global public health concern, particularly in LMICs like Bangladesh. With population aging, there is an increasing prevalence of dementia; care facilities are limited. This scarcity of services places a significant responsibility on untrained family caregivers, impacting the health of persons with dementia and their caregivers. Addressing these challenges is crucial for improving dementia care, especially in resource-constrained settings. Recognizing the urgency, the WHO developed an online self-training manual, iSupport, emphasizing education, skill development, and support for caregivers. This study aims to test feasibility of iSupport i) in improving knowledge about dementia and dementia care among family and formal caregivers, and ii) reducing family caregivers' stress and improving their caregiving skills, mental health, quality of life and relationship with the person with dementia cared for. The study protocol was approved by the Institutional Review Board of SAJIDA Foundation (2024-005-SFIRB). This non-randomized feasibility study aims to recruit 44 family caregivers and 132 formal caregivers from Dhaka, Bangladesh, using a purposive sampling technique. Participants will be provided access to iSupport for two months. Pre- and post-intervention surveys will be conducted to assess changes in knowledge about dementia care among both family and formal caregivers, as well as changes in psychological well-being among family caregivers. To assess knowledge retention, a follow-up survey will be conducted. Any differences in the outcomes from the pre-intervention period will be tested against the null hypothesis of zero mean difference using a two-sample paired t-test. Additionally, multivariable regression techniques will also be used to control for possible confounders. To understand the facilitators and barriers of implementing iSupport, a qualitative approach will be used to interview 15 family caregivers and conduct four FGDs with formal caregivers. Qualitative data will be analysed using an inductive content analysis approach.",
+    published: '2025',
+    authors: [
+      'Islam Muhammed Nazmul',
+      'Musarrat Parsa',
+      'Konradsen Hanne',
+      'Tyrrell Marie',
+      'Roy Antara',
+      'Anik Asibul Islam',
+      'Kabir Zarina Nahar'
+    ],
+    journal: 'PloS one',
+    doi: '10.1371/journal.pone.0326207',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40512835/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1648,25 +1720,25 @@ Translating paper: Who cares for the carers: A poetic inquiry of init...
 Translating paper 30/50
 Translating paper: Studying Year 6 students’ perceptions of gender an...
 Translating paper 31/50
-Translating paper: Male role norms and the prevalence of post-traumat...
+Translating paper: Factors Associated With the Level of Trust in Heal...
 Translating paper 32/50
-Translating paper: Delineating Life-Course Percentile Curves and Norm...
+Translating paper: White Matter Abnormalities and Cognition in Aging ...
 Translating paper 33/50
-Translating paper: Palliative radiation oncology programs: improving ...
+Translating paper: Neighborhood Socioeconomic Status and the Function...
 Translating paper 34/50
-Translating paper: Asymptomatic bone metastases: 2024 American Societ...
+Translating paper: Time for Education and Research in Academic Neurol...
 Translating paper 35/50
-Translating paper: Physical Activity Is Associated With Decreased Epi...
+Translating paper: Perceptions of Stigma Among Patients With Hepatiti...
 Translating paper 36/50
-Translating paper: Entropy and expertise: assessing changes in pathol...
+Translating paper: Recommendations for Designing a Digital Health Too...
 Translating paper 37/50
-Translating paper: High-Fidelity 3D Imaging of Dental Scenes Using Ga...
+Translating paper: User and Provider Experiences With Health Educatio...
 Translating paper 38/50
-Translating paper: Sociodemographic Factors and Perinatal Outcomes Af...
+Translating paper: Visual Learning in Electrocardiography Training fo...
 Translating paper 39/50
-Translating paper: Using Real Electronic Health Records in Undergradu...
+Translating paper: Factors associated with health-related quality of ...
 Translating paper 40/50
-Translating paper: VR sculpting as a therapeutic intervention for all...
+Translating paper: Impact of iSupport on improving knowledge on demen...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1688,25 +1760,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 298 -> 268
-Total papers after merging: 268 (248 existing + 50 new)
-Saved 268 papers to papers.json
+Removed duplicates: 318 -> 278
+Total papers after merging: 278 (268 existing + 50 new)
+Saved 278 papers to papers.json
 Generating HTML files...
-Generating index.html with 268 papers...
+Generating index.html with 278 papers...
 Successfully generated index.html
-Generating archive.html with 268 papers...
+Generating archive.html with 278 papers...
 Successfully generated archive.html
-Generating journal.html with 268 papers...
+Generating journal.html with 278 papers...
 Successfully generated journal.html
-Generating acquisition.html with 268 papers...
+Generating acquisition.html with 278 papers...
 Successfully generated acquisition.html
-Generating publication.html with 268 papers...
+Generating publication.html with 278 papers...
 Successfully generated publication.html
-Generating registration.html with 268 papers...
+Generating registration.html with 278 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 268
+Total papers in database: 278
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-13T15:42:04.633Z
+Timestamp: 2025-06-14T15:39:12.008Z
