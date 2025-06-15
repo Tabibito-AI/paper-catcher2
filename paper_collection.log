@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-14T15:09:51.556Z
+Timestamp: 2025-06-15T15:10:00.091Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 268 existing papers from papers.json
+Loaded 278 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -558,454 +557,219 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40513089',
-    title: 'Factors Associated With the Level of Trust in Health Information Robots Among the General Population From a Socioecological Model Perspective: Network Analysis.',
-    abstract: 'BACKGROUND: Although robots have emerged as a new means of delivering health information, with the advancement of artificial intelligence technology, individuals still face challenges in deciding whether to trust the health information provided by these robots owing to various trust-related factors.\n' +
-      'OBJECTIVE: This study aimed to investigate the factors associated with the level of trust in health information robots among the general population in China from a socioecological model perspective and identify the central indicators based on network analysis.\n' +
-      'METHODS: A nationwide survey in China was conducted from June 20, 2023, to August 31, 2023, involving 30,054 participants. The level of trust in health information robots was measured using a self-developed questionnaire. Univariate and multivariate generalized linear model analyses were conducted to investigate the factors associated with the level of trust in health information robots. Network analyses were conducted to examine the network structure of trust levels in health information robots and the associated factors.\n' +
-      'RESULTS: The results of the multivariate generalized linear model analysis revealed that participants who were diagnosed with chronic diseases; exhibited personality traits of higher agreeableness and openness; had an education level of junior college or higher; reported higher self-rated health status, health literacy, anxiety symptoms, family health, number of house properties, average monthly household income, and perceived social support; and had higher medical insurance coverage showed a positive association with the level of trust in health information robots compared to individuals without these characteristics. However, compared to individuals without these characteristics, being older, having the personality trait of neuroticism, and living in an urban area were negatively associated with the level of trust in health information robots. In addition, using a network approach, central indicators were identified in the network of the level of trust in health information robots and its associated factors, including family health and perceived social support. Finally, agreeableness and educational level appeared upstream of the entire directed acyclic graph, directly influencing the level of trust in health information robots.\n' +
-      "CONCLUSIONS: Our findings offer a novel perspective on the association between health information robots and trust and contribute to the application and development of artificial intelligence IT. Individuals' acceptance of and adherence to health information may be enhanced if the factors associated with the level of trust in health information robots are considered.",
-    published: '2025-Jun-13',
+    id: '40517256',
+    title: 'Modelling the risk factors associated with female genital mutilation among the under-five children in Ethiopia, a retrospective study.',
+    abstract: "BACKGROUND: Female Genital Mutilation (FGM) also referred to as female genital cutting or female circumcision, has become a global health concern. It is a deeply entrenched traditional practice involving partial or total removal of the external female genitalia for non-medical reasons. To inform effective policymaking and raise awareness about FGM's health risks, understanding socioeconomic and demographic factors influencing the status of circumcision is crucial.\n" +
+      "METHODS: The study employed logistic regression and maximum likelihood models to examine the association between mothers' educational level and the circumcision status of under five girls in Ethiopia. The data used in this study was extracted from the 2016 Ethiopian Demographic and Health Survey (EDHS) report, which was conducted by the Central Statistical Agency (CSA).\n" +
+      "RESULTS: The study found a strong association between mother's educational level and the risk of circumcision of under five girls. The girls whose mothers have no education or primary education have significantly higher odds of being circumcised with crude odds ratios of 7.69 (2.27-26.02) and 5.54 (1.64-18.65), respectively, compared to those whose mothers have secondary or higher education. Additionally, children whose mothers are Muslims (AOR: 1.98, 1.55-2.53), rural residence (AOR: 1.83, 1.21-2.78), and paternal education level (no education AOR: 2.03, 1.24-3.35) were also significant factors.\n" +
+      'CONCLUSIONS: The results highlight the importance of maternal education, religious beliefs, and geographic location in influencing circumcision practices in Ethiopia. We recommend that more public education on the effect of FGM on the girl child will be enrolled especially in the rural communities in Ethiopia.',
+    published: '2025-Jun-14',
     authors: [
-      'Zhao Jiukai',
-      'Yang Yuqi',
-      'Miao Juanxia',
-      'Wang Xue',
-      'Qi Dianjun',
-      'Zang Shuang'
+      'Ofori Michael Arthur',
+      'Bekalo Daniel Biftu',
+      'Mensah David Kwamena',
+      'Jha Niharika'
     ],
-    journal: 'Journal of medical Internet research',
-    doi: '10.2196/68299',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513089/'
+    journal: 'Journal of health, population, and nutrition',
+    doi: '10.1186/s41043-025-00962-8',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517256/'
   },
   {
-    id: '40513084',
-    title: 'White Matter Abnormalities and Cognition in Aging and Alzheimer Disease.',
-    abstract: 'IMPORTANCE: There has yet to be a large-scale study quantifying the association between white matter microstructure and cognitive performance and decline in aging and Alzheimer disease (AD).\n' +
-      'OBJECTIVE: To investigate the associations between tract-specific white matter microstructure and cognitive performance and decline in aging and AD-related cognitive impairment.\n' +
-      'DESIGN, SETTING, AND PARTICIPANTS: This prognostic study of aging and AD, a secondary data analysis of multisite cohort studies, acquired data from 9 cohorts between September 2002 and November 2022. Participants were eligible if they had diffusion-weighted magnetic resonance imaging (dMRI) data, domain-specific cognitive composite z scores, demographic and clinical data, were aged 50 years or older, and passed neuroimaging quality control. Demographic and clinical covariates included age, sex, education, race and ethnicity, APOE haplotype status (ε2, ε3, ε4), and clinical status. The present study was conducted from June 2024 to February 2025.\n' +
-      'EXPOSURES: White matter microstructure and cognitive performance and decline.\n' +
-      'MAIN OUTCOMES AND MEASURES: Clinical diagnosis, imaging measures (dMRI, T1-weighted MRI, and amyloid and tau positron emission tomography), and cognitive tests.\n' +
-      'RESULTS: Of 4467 participants who underwent 9208 longitudinal cognitive sessions, 2698 (60.4%) were female, and the mean age (SD) was 74.3 (9.2) years; 3213 were cognitively unimpaired, 972 had mild cognitive impairment, and 282 had AD dementia. White matter free water (FW) showed the strongest associations with cross-sectional cognitive performance and longitudinal cognitive decline across all domains, particularly memory. FW in limbic tracts, such as the cingulum, presented the strongest associations with both memory performance (cingulum: β = -0.718; P < .001; fornix: β = -1.069; P < .001) and decline (cingulum: β = -0.115; P < .001; fornix: β = -0.153; P < .001). White matter FW measures interacted with baseline diagnosis, gray matter atrophy, APOE ε4 status, and amyloid positivity to predict poorer cognitive performance and accelerated cognitive decline. Noteworthy interactions include fornix FW and hippocampal volume (β = 10.598; P < .001), cingulum FW and SPARE-AD index (β = -0.532; P < .001), and inferior temporal gyrus transcallosal tract FW and baseline diagnosis (β = -0.537; P < .001), all predicting poorer memory performance.\n' +
-      'CONCLUSIONS AND RELEVANCE: White matter microstructural changes, particularly FW, play a critical role in cognitive decline in aging and AD-related cognitive impairment. These findings highlight the importance of FW correction in dMRI studies and highlight the limbic system, especially the cingulum and fornix, as key regions associated with cognitive decline; the interaction models highlight that integrating FW-corrected metrics with other AD biomarkers may further elucidate the biological mechanisms of neurodegeneration in aging.',
-    published: '2025-Jun-09',
+    id: '40517237',
+    title: 'Navigating life transitions and mental wellbeing in the digital age: a call for stakeholders to embrace innovation and collaboration.',
+    abstract: "Life transitions, such as adolescence, starting higher education or employment, and parenthood, are universally experienced yet psychologically demanding phases that can compromise mental health. While some transitions may promote positive growth, many transitions can also engender significant stress, which can potentially culminate in mental health difficulties and, in some unfortunate instances, psychopathology, especially when individuals lack adequate support. Traditional healthcare systems, already strained by increasing demands and limited resources, frequently offer inflexible, diagnostic-driven pathways with limited accessibility. Therefore, individuals, especially adolescents and emerging adults, have turned increasingly to non-traditional sources for mental health information and support. The internet, in particular, has become an indispensable resource for individuals seeking support around difficult life transitions, including the transition to adulthood. Multimedia content, especially videos, offers unique advantages: cultural sensitivity, peer-shared experiences, the ability to overcome language and literacy barriers and many more which are tailored to individual needs. Innovative content strategies, such as storytelling or expert interviews, can play a pivotal role in reducing the stigma associated with seeking mental health help during life transitions, which may, in turn, increase the likelihood for at-risk individuals to seek formal support if required, and can supplement traditional care with low-threshold information. However, the digital landscape is not without its inherent challenges, including misinformation. While there are frameworks to evaluate and promote credible, evidence-based health content online, there needs to be greater effort to ensure its frictionless integration into formal clinical pathways, when appropriate. To address the complex challenges and fully realize the benefits of digital media mental health care during life transitions, a coordinated, multi-stakeholder approach is essential: this includes collaboration between healthcare providers, policymakers, researchers, technology companies and content creators. We should prioritise developing culturally inclusive, engaging, evidence-based content; promoting digital literacy among users and providers; and expanding access to information, support, and self-management tools specifically designed for individuals navigating life's transitions. Investment in research and further advocacy for policies is necessary to ensure quality and sustainability of content as well as equitable access for a more resilient and mentally healthy society.",
+    published: '2025-Jun-14',
     authors: [
-      'Peter Christopher',
-      'Sathe Aditi',
-      'Shashikumar Niranjana',
-      'Pechman Kimberly R',
-      'Workmeister Abigail W',
-      'Jackson T Bryan',
-      'Huo Yuankai',
-      'Mukherjee Shubhabrata',
-      'Mez Jesse',
-      'Dumitrescu Logan C',
-      'Gifford Katherine A',
-      'Bolton Corey J',
-      'Gaynor Leslie S',
-      'Risacher Shannon L',
-      'Beason-Held Lori L',
-      'An Yang',
-      'Arfanakis Konstantinos',
-      'Erus Guray',
-      'Davatzikos Christos',
-      'Tosun-Turgut Duygu',
-      'Habes Mohamad',
-      'Wang Di',
-      'Toga Arthur W',
-      'Thompson Paul M',
-      'Zhang Panpan',
-      'Schilling Kurt G',
-      'Albert Marilyn',
-      'Kukull Walter',
-      'Biber Sarah A',
-      'Landman Bennett A',
-      'Bendlin Barbara B',
-      'Johnson Sterling C',
-      'Schneider Julie',
-      'Barnes Lisa L',
-      'Bennett David A',
-      'Jefferson Angela L',
-      'Resnick Susan M',
-      'Saykin Andrew J',
-      'Crane Paul K',
-      'Cuccaro Michael L',
-      'Hohman Timothy J',
-      'Archer Derek B',
-      '',
-      '',
-      'Zaras Dimitrios',
-      'Yang Yisu',
-      'Durant Alaina',
-      'Kanakaraj Praitayini',
-      'Kim Michael E',
-      'Gao Chenyu',
-      'Newlin Nancy R',
-      'Ramadass Karthik',
-      'Khairi Nazirah Mohd',
-      'Li Zhiyuan',
-      'Yao Tianyuan',
-      'Choi Seo-Eun',
-      'Klinedinst Brandon',
-      'Lee Michael L',
-      'Scollard Phoebe',
-      'Trittschuh Emily H',
-      'Sanders Elizabeth A'
+      'Fegert Jörg M',
+      'Gottschalk Götz',
+      'Schneider Renee',
+      'Sitarski Emily',
+      'Sounderajah Viknesh',
+      'Graham Garth'
     ],
-    journal: 'JAMA neurology',
-    doi: '10.1001/jamaneurol.2025.1601',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513084/'
+    journal: 'Child and adolescent psychiatry and mental health',
+    doi: '10.1186/s13034-025-00932-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517237/'
   },
   {
-    id: '40513055',
-    title: 'Neighborhood Socioeconomic Status and the Functional Outcome of Patients Treated With Endovascular Thrombectomy for Ischemic Stroke.',
-    abstract: 'BACKGROUND AND OBJECTIVES: Socioeconomically deprived neighborhoods are known to have higher incidence rates of stroke and less access to high-quality stroke care. We aimed to examine whether there is an association between neighborhood socioeconomic status (nSES) and functional outcome after endovascular thrombectomy (EVT) for ischemic stroke in a high-income country.\n' +
-      'METHODS: Data from 2 randomized trials, which included patients treated with EVT within 6 hours after stroke onset: MR CLEAN-MED and MR CLEAN-NO IV were studied. A per postcode composite score of education, employment, and household income (scores ranging from -1 to 1) created by Statistics Netherlands, represented nSES. The association with functional outcome after 90 days (modified Rankin Scale [mRS]), functional independence (mRS 0-2), neurologic deficit at 24 hours (NIH Stroke Scale [NIHSS]), and radiologic outcomes (expanded treatment in cerebral infarction score and follow-up infarct volume [FIV]) were analyzed using regression analyses adjusted for patient characteristics, including baseline NIHSS.\n' +
-      'RESULTS: We included 910 patients (median age 71.5 years, 404 (44.4%) women, median baseline NIHSS 15) in the analyses. Patients with a higher nSES had a higher likelihood of a more favorable functional outcome (a shift toward improved outcome on the mRS) (adjusted common odds ratio [OR] 1.90, 95% CI 1.21-3.01) and were more likely to have regained functional independence (adjusted OR 3.21, 95% CI 1.82-5.70) at 90 days. There was no significant association between the nSES and the degree of neurologic deficit at 24 hours (adjusted β -0.24, 95% CI -0.50 to 0.01,  = 0.06) or radiologic outcomes (reperfusion status [adjusted OR 0.89, 95% CI 0.45-1.78], FIV [adjusted β 0.01, 95% CI -0.17 to 0.20,  = 0.89]).\n' +
-      'DISCUSSION: Living in a more socioeconomically affluent neighborhood was associated with a more favorable functional outcome at 90 days, but not with degree of neurologic deficit at 24 hours or radiologic outcomes. This suggests that nSES-based inequalities exist in the postacute phase of stroke care, and highlights the importance of continuing to work toward health equity for patients with stroke.',
-    published: '2025-Jul',
+    id: '40517228',
+    title: 'Mental health and loneliness in university students: A structural equation modelling comparing Italy and the UK.',
+    abstract: "BACKGROUND: The transition to university often leads to increased demands and changes in lifestyle habits, which may affect mental health. In particular, loneliness could play a key role in the onset of psychological distress. Although many patterns are consistent across countries, cultural differences may influence students' mental health and feelings of loneliness.\n" +
+      'AIMS: The aim of this study was thus to examine mental health domains and their relationship with loneliness among students from the University of Milano-Bicocca (Italy) and the University of Surrey (United Kingdom).\n' +
+      "METHOD: Data were from the CAMPUS study, a cross-national survey on students' mental health. A structural equation modelling (SEM) approach was carried out to simultaneously test the pathways between loneliness and clinical domains in the two populations.\n" +
+      'RESULTS: Anxiety and depressive symptoms were identified as the most common conditions in both the samples. However, Italian students were likely to show a higher degree of anxiety ( = 7.01,  < .001), while UK undergraduates greater depressive symptoms ( = -2.50,  = .013) and a higher prevalence of insomnia ( = -9.55,  < .001). Poor academic performance, along with limited social interactions were associated with worse psychological well-being, despite the likely influence of lifestyle differences among countries. Finally, a significant correlation between loneliness, anxiety and depressive symptoms, as well as insomnia was found both in Italian and UK samples, as confirmed by multivariate analyses.\n' +
+      'CONCLUSIONS: Our findings highlight the existence of a cross-nationally, clinically meaningful psychological burden among university students, with a major role played by loneliness. Extensive promotion of healthy social networks, as well as interventions to support academic performance are needed.',
+    published: '2025-Jun-14',
     authors: [
-      'Schoon Bridget A',
-      'Hansen Daniël',
-      'Roozenbeek Bob',
-      'Oude Groeniger Joost',
-      'van der Steen Wouter',
-      'van der Lugt Aad',
-      'Kappelhof Manon',
-      'Roos Yvo B W E M',
-      'Majoie Charles B L M',
-      'van Lenthe Frank',
-      'Dippel Diederik W J',
-      ''
+      'Riboldi Ilaria',
+      'Crocamo Cristina',
+      'Lucini Piacenti Susanna',
+      'Capogrosso Chiara Alessandra',
+      'Calabrese Angela',
+      'Lucini Paioni Susanna',
+      'Bartoli Francesco',
+      'Armes Jo',
+      'Taylor Cath',
+      'Carrà Giuseppe'
     ],
-    journal: 'Neurology',
-    doi: '10.1212/WNL.0000000000213615',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513055/'
+    journal: 'The International journal of social psychiatry',
+    doi: '10.1177/00207640251346273',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517228/'
   },
   {
-    id: '40513044',
-    title: 'Time for Education and Research in Academic Neurology: An Update and Recent Events.',
+    id: '40517223',
+    title: 'Evaluating large language models as an educational tool for meningioma patients: patient and clinician perspectives.',
+    abstract: 'BACKGROUND: The study explores the potential of ChatGPT, an advanced large language model (LLM) by OpenAI, in educating patients about meningioma, a common type of brain tumor. While ChatGPT has generated significant debate regarding its utility and ethics, its growing popularity suggests that patients may increasingly use such tools for medical information. The study specifically examines how patients who have undergone radiation therapy for meningioma perceive the information generated by ChatGPT, integrating both patient feedback and clinical assessment.\n' +
+      "METHODS: Eight meningioma-related questions on diagnosis, treatment options, and radiation therapy were posed to ChatGPT 4. A questionnaire with these responses and feedback items was developed to assess utility, accuracy, clarity, and alignment with patients' experiences. Nine clinicians first rated each response's relevance, correctness, and completeness on a five-point Likert scale. Subsequently, 28 patients with meningioma completed the questionnaire during their first follow-up visit (three months post-radiation therapy). Finally, the same questions were presented to three other large language models (ChatGPT 4o mini, Gemini Free, Gemini Advanced), and seven blinded clinicians rated each model's responses before selecting the most accurate, eloquent, and comprehensive overall.\n" +
+      'RESULTS: The study cohort included 28 meningioma patients, mostly female, with a median age of 60 years. Most patients found the information clear, accurate, and reflective of their experiences, with 60% willing to use ChatGPT for future inquiries. Clinicians rated the relevance and correctness of the information highly, although completeness was rated slightly lower, particularly for questions about specific radiation therapy details and side effects. ChatGPT 4 and its newer version ChatGPT 4o mini received the highest, nearly identical scores among the four LLMs evaluated, while Gemini Free scored the lowest in clinician assessments.\n' +
+      'CONCLUSIONS: ChatGPT demonstrates potential as a supplementary educational tool for meningioma patients, though some areas may require improvement, particularly in providing comprehensive information. The study highlights the potential for integrating AI in patient education, while also noting the need for clinical oversight to ensure accuracy and completeness.\n' +
+      'TRIAL REGISTRATION: LMU ethics vote nr.: 23-0742.',
+    published: '2025-Jun-14',
+    authors: [
+      'Dehelean Diana-Coralia',
+      'Maier Sebastian H',
+      'Altay-Langguth Alev',
+      'Nitschmann Alexander',
+      'Schmeling Michael',
+      'Fleischmann Daniel F',
+      'Rogowski Paul',
+      'Trapp Christian',
+      'Corradini Stefanie',
+      'Belka Claus',
+      'Schönecker Stephan',
+      'Marschner Sebastian N'
+    ],
+    journal: 'Radiation oncology (London, England)',
+    doi: '10.1186/s13014-025-02671-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517223/'
+  },
+  {
+    id: '40517206',
+    title: 'Description and Evaluation of a Co-design Process Involved in the Creation of a Workforce Training Package Aiding Sport and Exercise Professionals Work with Autistic Young People.',
+    abstract: "Increasingly, researchers are encouraged to include consumers and stakeholders in the development of health and service provider education. This is particularly important for education relating to autistic people to ensure that resources are developed from a neurodiversity-affirming lens. Limited literature exists outlining or evaluating the processes used within co-design autism research. This study aimed to describe and qualitatively evaluate the co-design process used in the development of a training package for community sport and exercise professionals working with autistic young people. Semi-structured interviews were conducted with the 10 consumers and stakeholders involved in this co-design project. Interviews were analysed using inductive thematic analysis. From the transcripts, four themes emerged. In theme 1 members described characteristics relating to the co-design process they perceived enhanced their engagement. Members emphasised the importance of the project being consumer and stakeholder led, and flexible to support each person's needs. In theme 2 members described the connection they felt to the other group members, facilitated by the creation of an emotionally safe environment. In theme 3 members discussed how the processes put in place and the supportive environment created resulted in a holistic understanding of the skills and knowledge community sport and exercise professionals need to effectively work with young autistic people. In theme 4 members provided recommendations for future co-design research. Consumer and stakeholders involved in this project described an overall positive experience of the co-design process, with findings resulting in three key recommendations to support future autism co-design research.",
+    published: '2025-Jun-14',
+    authors: [
+      'Hill Jessica',
+      'Williams Brittany',
+      'McKeown Gilly',
+      'Gomersall Sjaan R'
+    ],
+    journal: 'Journal of autism and developmental disorders',
+    doi: '10.1007/s10803-025-06912-x',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517206/'
+  },
+  {
+    id: '40517161',
+    title: 'Presentation of complex laryngotracheal surgeries using CT-based 3D models and 3D printing: a technical note.',
+    abstract: 'INTRODUCTION: Slide laryngotracheopexy for cricotracheal stenosis and extended partial laryngectomy combined with tracheopexy for T2-T3 glottic tumors represent novel, complex laryngotracheal surgeries requiring meticulous preoperative planning.\n' +
+      'METHODS: In addition to conventional diagnostic tools (imaging, endoscopy), digital/virtual 3D techniques along with 3D printing - also referred to as Additive Manufactoring (AM)- allow for the creation and application of CT-based virtual and 3D-printed models of the larynx and the trachea. These 3D technologies can facilitate surgical team preparation and provide an innovative approach to training on complex surgical solutions.\n' +
+      'DISCUSSION: This paper presents the digital workflow for three cases where patient-specific 3D laryngotracheal models were developed and successfully applied in surgical planning and training. These models serve as high-fidelity anatomical representations for surgical rehearsal, training, and patient communication, demonstrating their potential for broader clinical implementation.',
+    published: '2025-Jun-14',
+    authors: [
+      'Tóbiás Zoltán',
+      'Perényi Ádám',
+      'Bach Ádám',
+      'Nagy Roland',
+      'Csanády Miklós',
+      'Geretovszky Zsolt',
+      'Cseh Martin',
+      'Rovó László'
+    ],
+    journal: 'European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery',
+    doi: '10.1007/s00405-025-09497-4',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517161/'
+  },
+  {
+    id: '40517135',
+    title: 'Education and Training Needs of U.S. Tuberculosis Programs.',
+    abstract: "The Centers for Disease Control and Prevention (CDC) funds tuberculosis (TB) Centers of Excellence (COEs) that support TB control and prevention efforts in the United States. In 2018, the TB COEs conducted a multiphased assessment among U.S. staff involved in TB service delivery to identify needs related to TB training, resources, and medical consultation. Representatives from each TB COE and CDC's Division of TB Elimination formed a workgroup to guide the design of the needs assessment. The group used an online survey for data collection. Participants were staff working in some capacity on TB within the United States, Puerto Rico, and the U.S. Virgin Islands. Staff could be in non-public health (e.g., community health center, hospital, laboratory, private practice) or public health (state or local health department staff responsible for TB) settings and did not have to be a clinical health care provider (N = 1,482). We identified four priority areas for future TB training and education efforts. These areas include (1) focus on key topics; (2) tailor training and products to different professions, settings, and skill levels; (3) keep learners updated on the latest resources and best practices; and (4) use a mix of training methods and formats. The findings highlighted future priorities for TB training and education and were shared with health department TB programs throughout the United States.",
+    published: '2025-Jun-14',
+    authors: [
+      'Maiuri Allison',
+      'Tatum Katharine',
+      'Segerlind Sarah',
+      'Bhavaraju Rajita',
+      'Khilall Anita',
+      'Kumar Shwata Suresh',
+      'Musoke Kelly',
+      'Sanchez Delphina',
+      'Simpson Karen',
+      'Raftery Ann',
+      'Wallis Kay',
+      'Caruso Elise',
+      'DeLuca Nickolas'
+    ],
+    journal: 'Health promotion practice',
+    doi: '10.1177/15248399251347535',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517135/'
+  },
+  {
+    id: '40517133',
+    title: 'Development and Utilisation of the Chinese Version of Professional Attitude Scale for Nurses: Two Cross-Sectional Studies.',
+    abstract: 'AIM: To translate and assess the psychometric characteristics of the Chinese version of the Professional Attitude Scale for Nurses (PASN-C) and utilise it to investigate the present status and associated factors of professional attitude among Chinese nurses.\n' +
+      "BACKGROUND: Assessing professional attitude is a crucial aspect of nursing professionalism. However, there is a significant gap in the field as no reliable instrument exists in China to assess nurses' professional attitudes.\n" +
+      'METHODS: The PASN-C was created by adapting the Brislin translation model. The participants hailed from 11 hospitals in Tianjin, China. Two cross-sectional studies were performed, in which a convenience sampling method was used to survey 877 participants (first study) to assess the validity and reliability of the PASN-C; furthermore, 1154 participants (second study) were surveyed to analyse the current status and associated factors of the professional attitudes of Chinese nurses.\n' +
+      "RESULTS: The PASN-C maintained 38 items and 8 factors, which explained 60.540% of the variance. The item-level content validity index (0.860-1.000), dimension-total score correlation coefficient (0.622-0.766), and Cronbach's alpha coefficient (0.943) indicated PASN-C had good validity and reliability. The score of PASN-C was 136.16 ± 15.48. Male, tertiary hospitals, specialty hospitals, high-income, obstetric nurses and specialist nurses were associated with a higher professional attitude.\n" +
+      "CONCLUSIONS: The PASN-C is a reliable and valid instrument that can be utilised to assess Chinese nurses' professional attitudes. Furthermore, this study suggests that more attention should be paid to associated factors to improve nurses' professional attitudes.\n" +
+      "IMPLICATIONS FOR THE PROFESSION: The PASN-C can be an effective tool to assess the professional attitude of Chinese nurses. Furthermore, nursing administrators, educators and clinical nursing practitioners could strengthen training in the dimensions of 'autonomy of clinical judgment', 'work-related independence' and 'enhancement of nursing education' to improve the professional attitude of nurses.\n" +
+      'REPORTING METHOD: This study followed and reported according to the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) reporting guidelines.\n' +
+      'PUBLIC CONTRIBUTION: Researchers received the data from the managers of each participating hospital after distributing the electronic survey to the participants.',
+    published: '2025-Jun',
+    authors: [
+      'Zhang Siai',
+      'Zhao Bingyan',
+      'Lai Cuiwei',
+      'Zhang Chunmei',
+      'Wang Zhangyi',
+      'Zhang Yajun',
+      'Li Jiajia',
+      'Li Xuechun',
+      'Zhang Sina',
+      'Fa Tiane'
+    ],
+    journal: 'Nursing open',
+    doi: '10.1002/nop2.70261',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517133/'
+  },
+  {
+    id: '40517127',
+    title: '(Un)caring for the carers: How UK visa reforms undermine inclusive nursing education and the ethics of care.',
     abstract: 'No abstract available',
-    published: '2025-Jul-22',
-    authors: [ 'Meador Kimford J' ],
-    journal: 'Neurology',
-    doi: '10.1212/WNL.0000000000213813',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513044/'
+    published: '2025-Jun-09',
+    authors: [ 'Jackson Laura', 'Adhikari Radha', 'Milligan Fiona' ],
+    journal: 'Nurse education in practice',
+    doi: '10.1016/j.nepr.2025.104426',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517127/'
   },
   {
-    id: '40513015',
-    title: 'Perceptions of Stigma Among Patients With Hepatitis B in Germany: Cross-Sectional Survey.',
-    abstract: 'BACKGROUND: Many studies find associations between hepatitis B and stigma, but studies from the Western European context are lacking. Based on available studies, we hypothesized that younger age, higher education, male gender, higher privacy needs, and non-German mother tongue were positively associated with perceived hepatitis B-related stigma.\n' +
-      'OBJECTIVE: This study aims to describe the prevalence of perceived social stigma among patients with hepatitis B in Germany and to assess what factors are associated with perceptions of hepatitis B-related stigma.\n' +
-      'METHODS: Applying the short version of the Berger stigma scale, we surveyed 195 patients with hepatitis B about their perceptions of hepatitis B-related stigma, privacy needs, and demographic variables through a paper-based questionnaire. Venue-based recruitment of adult patients diagnosed with acute or chronic hepatitis B was implemented at 3 clinical centers in Germany. Patients who could not read German were excluded from the study.\n' +
-      "RESULTS: From the 195 valid questionnaires, 45.1% (88/195) of participants identified as female, 36.6% (71/195) had a high school diploma, and 56.9% (111/195) reported a mother tongue other than German. The mean (SD) stigma score throughout the sample was 5.52 (6.02; range 0-24) and the median was 3.50 (IQR=9.75). Regression analysis revealed that non-German mother tongue, individual data privacy needs, and participants' secrecy regarding their hepatitis B diagnosis independently predicted perceived hepatitis B-related stigma. More precisely, the higher the data privacy need and the more secret the hepatitis B diagnosis, the higher the perceived stigma, and perceived stigma was higher for patients with a non-German mother tongue. Age, gender, and education were no predictors of perceived stigma.\n" +
-      'CONCLUSIONS: The surveyed patients with hepatitis B in Germany reported lower levels of hepatitis B-related stigma than found in other studies conducted in Asian countries. The association with non-German mother tongue indicates an important cultural and social component in the perception of stigma. Community-based interventions and the sensibilization of health care professionals might help overcome perceptions of stigma among hepatitis B-affected populations.',
+    id: '40517122',
+    title: "Residents' perceptions of the on-call experience and of the supervision of their clinical reasoning skills in the paediatric emergency department: A qualitative study.",
+    abstract: 'BACKGROUND: A substantial number of residents suffer from stress, anxiety, which may be acutely exacerbated by stressful situations such as being on call. When confronted with complex situations, uncertainty, a lack of medical experience, residents experience a mismatch between their theoretical knowledge and their clinical reasoning skills. In a previous study we observed high levels of cognitive weariness and anxiety in residents being on call in the paediatric emergency department, and the reduction of their cognitive weariness by training clinician-educators in the supervision of clinical reasoning.\n' +
+      'OBJECTIVES: Thereafter we sought to inform the findings of our previous quantitative research by exploring in depth the experience of on-call residents in the paediatric emergency department, including: the factors that impact their well-being, and how supervision of their clinical reasoning might change it.\n' +
+      'METHODS AND SETTING: We performed a qualitative study using semi-structured interviews. We interviewed medical residents who were on call in the paediatric emergency department, mentored by paediatricians who had received specific training in the supervision of clinical reasoning.\n' +
+      'RESULTS: The findings revealed two opposing profiles of how residents experience being on call and having their clinical reasoning supervised. First, there were those who expressed marked discomfort, characterized by anxiety, a strong need for supervision, a fear of being judged by the supervisor, and a major impact of physical fatigue. Residents with this profile seem to be at risk of developing burnout, or symptoms thereof. The second profile of residents expressed little unease, had a sense of self-efficacy, a feeling of personal competence, a high level of self-confidence, greater tolerance of uncertainty, and little difficulty with making decisions.\n' +
+      'CONCLUSIONS: Supervision of clinical reasoning based on questioning techniques seems to participate to promote development towards second profile, with greater tolerance of uncertainty, ease with decision-making, and a reinforced sense of belonging to a team.',
     published: '2025-Jun-13',
-    authors: [
-      'Zimmermann Bettina M',
-      'Willem Theresa',
-      'Rost Michael',
-      'Matthes Nina',
-      'Buyx Alena'
-    ],
-    journal: 'JMIR formative research',
-    doi: '10.2196/66379',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513015/'
-  },
-  {
-    id: '40513002',
-    title: 'Recommendations for Designing a Digital Health Tool for Blindness Prevention Among High-Risk Diabetic Retinopathy Patients: Qualitative Focus Group Study of Adults With Diabetes.',
-    abstract: 'BACKGROUND: Diabetic retinopathy (DR) is a leading cause of preventable blindness among working-aged adults. Black, Latine, and low-income individuals are screened less for DR, diagnosed later, treated less often, and go blind more than White individuals.\n' +
-      'OBJECTIVE: This study aimed to engage members to co-design a digital health tool that is accessible, user-friendly, and culturally relevant, through a community-led research approach,.\n' +
-      'METHODS: Using a qualitative approach, we conducted 4 semistructured focus group interviews with 19 individuals from the Greater New Haven area, aged 18 years or older, and diagnosed with diabetes. We transcribed and coded the focus group interviews and categorized them into themes using affinity mapping. The specific aims were to complete a comprehensive needs assessmen for the development of a community-responsive digital health tool and to increase access to information about DR screening in high-risk populations. We transcribed the focus group interviews, used rapid qualitative analysis to generate themes, and completed affinity mapping to identify content and features for a digital health tool for preventing blindness from DR.\n' +
-      'RESULTS: We interviewed 19 individuals (68% [13/19] female, 47% [9/19] Black, 26% [5/19]) Hispanic) in 4 focus groups. Over 80% (15/19) had access to smart devices, including smartphones (17/19, 89%), smartwatches (4/19, 21%), computers (14/19, 74%), and tablets (11/19, 58%). Many participants had access to multiple devices (17/19, 89%). Participants self-reported hemoglobin A1c (mean hemoglobin A1c 6.77, SD 1.93) and age (mean age 58.79, SD 19.54). Education levels among participants varied. Almost half of all the participants (9/19, 47%) completed some college, a little less than a quarter (4/19, 21%) achieved a high school diploma or general education development certificate, and a little less than a quarter (4/19, 21%) completed less than a high school equivalent of education. Household income levels across nearly all participants (14/19, 74%) were below US $50,000, but household size data were not collected. Participants reported extensive experience with diabetes or prediabetes (mean years with diabetes or prediabetes 17.06, SD 17.53). The themes obtained from coding focus group interviews included the mental toll of diabetes, peer support like accountability and local community events, education about diabetes management, barriers to DR screening like long wait times for appointments or cost of medications, and diet-related topics like how to find cost-effective healthy food.\n' +
-      'CONCLUSIONS: DR is one of the leading causes of blindness, and many treatments exist. Despite the existence of treatments, historically marginalized populations experience poor health outcomes, including blindness. Our community-based approach aids in the creation of a culturally responsive digital health tool.',
-    published: '2025-Jun-13',
-    authors: [
-      'Frimpong Akua',
-      'Granados Alvaro',
-      'Chang Thomas',
-      'Fu Julia',
-      'Moore Shannan G',
-      'Applebaum Serina',
-      'Adepoju Bolatito',
-      'Kaur Mahima',
-      'Hari Krishnan Vignesh',
-      'Levi Amanda',
-      'McCall Terika',
-      'Nwanyanwu Kristen Harris'
-    ],
-    journal: 'JMIR formative research',
-    doi: '10.2196/65893',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513002/'
-  },
-  {
-    id: '40513000',
-    title: 'User and Provider Experiences With Health Education Chatbots: Qualitative Systematic Review.',
-    abstract: 'BACKGROUND: Chatbots, as dialog-based platforms, have the potential to transform health education and behavior-change interventions. Despite the growing use of chatbots, qualitative insights into user and provider experiences remain underexplored, particularly with respect to experiences and perceptions, adoption factors, and the role of theoretical frameworks in design.\n' +
-      'OBJECTIVE: This systematic review of qualitative evidence aims to address three key research questions (RQs): (RQ1) user and provider experiences; (RQ2) facilitators and barriers to adoption; and (RQ3) role of theoretical frameworks.\n' +
-      "METHODS: We systematically searched PubMed, the Cochrane Library, and ScienceDirect from January 1, 2018, to October 1, 2023, for English- or German-language, peer-reviewed qualitative or mixed methods studies. Studies were included if they examined users' or providers' experiences with chatbots in health education or behavior-change contexts. Two reviewers independently screened titles, abstracts, and full texts (Cohen κ=0.82). We used the Joanna Briggs Institute Critical Appraisal Checklist for quality assessment and conducted a reflexive thematic analysis following Braun and Clarke's framework.\n" +
-      'RESULTS: Among the 1754 records identified, 27 studies from 10 countries met the inclusion criteria, encompassing 241 qualitative-only participants and 10,802 mixed method participants (657 contributing qualitative data). For RQ1, users emphasized empathy and emotional connection. For RQ2, accessibility and ease of use emerged as facilitators, whereas trust deficits, technical glitches, and cultural misalignment were key barriers. For RQ3, the integration of behavior-change theories emerged as underutilized despite their potential to increase motivation.\n' +
-      'CONCLUSIONS: Chatbots demonstrate strong potential for health education and behavior-change interventions but must address privacy and trust issues, embed robust theoretical underpinnings, and overcome adoption barriers to fully realize their impact. Future directions should include evaluations of cultural adaptability and rigorous ethical considerations in chatbot design.',
-    published: '2025-Jun-13',
-    authors: [ 'Choi Кyung-Eun Anna', 'Fitzek Sebastian' ],
-    journal: 'JMIR human factors',
-    doi: '10.2196/60205',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40513000/'
-  },
-  {
-    id: '40512998',
-    title: 'Visual Learning in Electrocardiography Training for Medical Residents: Comparative Intervention Study.',
-    abstract: 'BACKGROUND: Although electrocardiogram (ECG) interpretation training begins early in medical school, achieving accuracy in interpretation of 12-lead ECG remains a persistent challenge. We conducted a pilot educational program to compare the effectiveness of a conventional didactic lecture, self-drawing, and self-drawing following a flipped classroom (SDFC) approach.\n' +
-      'UNLABELLED: This study aimed to evaluate the effectiveness of three instructional strategies-traditional didactic lecture, self-drawing, and SDFC approach-in improving ECG interpretation skills among first-year postgraduate (PGY-I) medical residents.\n' +
-      'METHODS: This study was conducted among postgraduate-year PGY-I residents at MacKay Memorial Hospital over 3 years. The study enrolled 76 PGY-I residents, who were randomized into three groups: conventional control (group 1), self-drawing (group 2), and SDFC (group 3). All participants were provided with the same learning material and didactic lectures. Knowledge evaluation was performed using pre- and posttests, which were administered using questionnaires.\n' +
-      'RESULTS: The groups involving self-drawing, both combined with and without a flipped classroom approach, demonstrated better performance on the written summative examination. These findings highlight the benefits of self-drawing in integrating theoretical knowledge with practical approaches to ECG interpretation.\n' +
-      'CONCLUSIONS: Our study demonstrated promising effects of self-drawing on the recognition of ECG patterns, which could address the inadequacies of traditional classroom teaching. It can be incorporated into routine teaching after validation in a larger cohort.',
-    published: '2025-Jun-13',
-    authors: [
-      'Sung Heng-You',
-      'Liao Feng-Ching',
-      'Lin Shu-I',
-      'Cheng Han-En',
-      'Lee Chun-Wei'
-    ],
-    journal: 'JMIR medical education',
-    doi: '10.2196/73328',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40512998/'
-  },
-  {
-    id: '40512987',
-    title: 'Factors associated with health-related quality of life and physical health of women raising infants and toddlers in Japan.',
-    abstract: 'BACKGROUND: Policies to support postpartum and child-rearing periods for women have been strengthened in Japan in recent years to combat the declining birth rate. However, the type of support required to improve the quality of life and health of these women remains unclear because of the insufficient research on new policies.\n' +
-      'OBJECTIVES: This study aimed to examine the self-reported health status of Japanese women raising infants and toddlers aged 3 months to 3 years and determine the factors associated with health-related quality of life and physical health.\n' +
-      'DESIGNS: A cross-sectional observational study was conducted using self-administered questionnaires between March and November 2021.\n' +
-      'METHODS: Two hundred and fifty-nine Japanese mothers (164 or 68.8% being first-time mothers) participated in a survey using self-administered questionnaires that included the Somatic Symptom Scale-8, 36-Item Short-Form Health Survey, and Health-Promoting Lifestyle Profile II.\n' +
-      'RESULTS: The physical component summary scores of the participants were 49.2, 51.5, and 47.9 for those in their 20s, 30s, and 40s, respectively, all of which were below Japanese population norms in each age group. Employment (β = -1.57, p = 0.01), stress-coping skills (β = -0.50, p < 0.01), and optimistic thinking (β = -1.18, p < 0.01) were associated with fewer physical symptoms. Not being a first-time mother (β = 2.85, p = 0.01) and use of maternity-home services (β = 6.59, p = 0.02) were positively associated with the physical health. Moreover, the use of consultations or parenting classes provided by the local government (β = 3.36, p = 0.02), coping with stress (β = 0.81, p < 0.01), and optimistic thinking (β = 3.46, p < 0.01) were positively associated with the mental component summary score. Age of the youngest child (⩾1 year; β = 3.30, p = 0.03) and optimistic thinking (β = 1.60, p < 0.01) were positively associated with the role/social component summary.\n' +
-      'CONCLUSIONS: The physical quality of life of Japanese mothers raising children has declined to a level that cannot be improved through general self-care practices. Therefore, improving the content of health education is necessary, with a particular focus on the physical health of women raising children. The policy of child-rearing support, which is strengthening in Japan, such as childcare consultation, has a positive impact on the mental health of women during child-rearing.',
-    published: '2025',
-    authors: [ 'Ishibashi Haruna', 'Honda Sumihisa', 'Fujita Wakako' ],
-    journal: "Women's health (London, England)",
-    doi: '10.1177/17455057251347082',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40512987/'
-  },
-  {
-    id: '40512835',
-    title: 'Impact of iSupport on improving knowledge on dementia and dementia care among family caregivers to persons with dementia and formal caregivers in Bangladesh: Protocol for a non-randomized feasibility study.',
-    abstract: "Dementia is a growing global public health concern, particularly in LMICs like Bangladesh. With population aging, there is an increasing prevalence of dementia; care facilities are limited. This scarcity of services places a significant responsibility on untrained family caregivers, impacting the health of persons with dementia and their caregivers. Addressing these challenges is crucial for improving dementia care, especially in resource-constrained settings. Recognizing the urgency, the WHO developed an online self-training manual, iSupport, emphasizing education, skill development, and support for caregivers. This study aims to test feasibility of iSupport i) in improving knowledge about dementia and dementia care among family and formal caregivers, and ii) reducing family caregivers' stress and improving their caregiving skills, mental health, quality of life and relationship with the person with dementia cared for. The study protocol was approved by the Institutional Review Board of SAJIDA Foundation (2024-005-SFIRB). This non-randomized feasibility study aims to recruit 44 family caregivers and 132 formal caregivers from Dhaka, Bangladesh, using a purposive sampling technique. Participants will be provided access to iSupport for two months. Pre- and post-intervention surveys will be conducted to assess changes in knowledge about dementia care among both family and formal caregivers, as well as changes in psychological well-being among family caregivers. To assess knowledge retention, a follow-up survey will be conducted. Any differences in the outcomes from the pre-intervention period will be tested against the null hypothesis of zero mean difference using a two-sample paired t-test. Additionally, multivariable regression techniques will also be used to control for possible confounders. To understand the facilitators and barriers of implementing iSupport, a qualitative approach will be used to interview 15 family caregivers and conduct four FGDs with formal caregivers. Qualitative data will be analysed using an inductive content analysis approach.",
-    published: '2025',
-    authors: [
-      'Islam Muhammed Nazmul',
-      'Musarrat Parsa',
-      'Konradsen Hanne',
-      'Tyrrell Marie',
-      'Roy Antara',
-      'Anik Asibul Islam',
-      'Kabir Zarina Nahar'
-    ],
-    journal: 'PloS one',
-    doi: '10.1371/journal.pone.0326207',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40512835/'
+    authors: [ 'Pietrement Christine', 'Onaisi Racha', 'Maisonneuve Hubert' ],
+    journal: 'Archives de pediatrie : organe officiel de la Societe francaise de pediatrie',
+    doi: '10.1016/j.arcped.2025.03.003',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40517122/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1189,6 +953,191 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     code: 'ENOTFOUND',
     syscall: 'getaddrinfo',
     hostname: 'kahualike.manoa.hawaii.edu'
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
@@ -1720,25 +1669,25 @@ Translating paper: Who cares for the carers: A poetic inquiry of init...
 Translating paper 30/50
 Translating paper: Studying Year 6 students’ perceptions of gender an...
 Translating paper 31/50
-Translating paper: Factors Associated With the Level of Trust in Heal...
+Translating paper: Modelling the risk factors associated with female ...
 Translating paper 32/50
-Translating paper: White Matter Abnormalities and Cognition in Aging ...
+Translating paper: Navigating life transitions and mental wellbeing i...
 Translating paper 33/50
-Translating paper: Neighborhood Socioeconomic Status and the Function...
+Translating paper: Mental health and loneliness in university student...
 Translating paper 34/50
-Translating paper: Time for Education and Research in Academic Neurol...
+Translating paper: Evaluating large language models as an educational...
 Translating paper 35/50
-Translating paper: Perceptions of Stigma Among Patients With Hepatiti...
+Translating paper: Description and Evaluation of a Co-design Process ...
 Translating paper 36/50
-Translating paper: Recommendations for Designing a Digital Health Too...
+Translating paper: Presentation of complex laryngotracheal surgeries ...
 Translating paper 37/50
-Translating paper: User and Provider Experiences With Health Educatio...
+Translating paper: Education and Training Needs of U.S. Tuberculosis ...
 Translating paper 38/50
-Translating paper: Visual Learning in Electrocardiography Training fo...
+Translating paper: Development and Utilisation of the Chinese Version...
 Translating paper 39/50
-Translating paper: Factors associated with health-related quality of ...
+Translating paper: (Un)caring for the carers: How UK visa reforms und...
 Translating paper 40/50
-Translating paper: Impact of iSupport on improving knowledge on demen...
+Translating paper: Residents' perceptions of the on-call experience a...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1760,25 +1709,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 318 -> 278
-Total papers after merging: 278 (268 existing + 50 new)
-Saved 278 papers to papers.json
+Removed duplicates: 328 -> 288
+Total papers after merging: 288 (278 existing + 50 new)
+Saved 288 papers to papers.json
 Generating HTML files...
-Generating index.html with 278 papers...
+Generating index.html with 288 papers...
 Successfully generated index.html
-Generating archive.html with 278 papers...
+Generating archive.html with 288 papers...
 Successfully generated archive.html
-Generating journal.html with 278 papers...
+Generating journal.html with 288 papers...
 Successfully generated journal.html
-Generating acquisition.html with 278 papers...
+Generating acquisition.html with 288 papers...
 Successfully generated acquisition.html
-Generating publication.html with 278 papers...
+Generating publication.html with 288 papers...
 Successfully generated publication.html
-Generating registration.html with 278 papers...
+Generating registration.html with 288 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 278
+Total papers in database: 288
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-14T15:39:12.008Z
+Timestamp: 2025-06-15T15:39:53.366Z
