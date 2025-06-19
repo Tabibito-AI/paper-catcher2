@@ -31,44 +31,380 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-18T15:11:50.028Z
+Timestamp: 2025-06-19T15:11:20.402Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 308 existing papers from papers.json
+Loaded 318 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
-Error fetching arXiv papers: Error: arXiv API request failed with status 400
-    at ArxivClient.fetchArxivPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:178:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1066:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from arxiv: Error: arXiv API request failed with status 400
-    at ArxivClient.fetchArxivPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:178:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1066:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from arXiv: [
+  {
+    id: 'http://arxiv.org/abs/2406.11913v1',
+    title: 'Big data in economics',
+    summary: 'The term of big data was used since 1990s, but it became very popular around\n' +
+      '2012. A recent definition of this term says that big data are information\n' +
+      'assets characterized by high volume, velocity, variety and veracity that need\n' +
+      'special analytical methods and software technologies to extract value form\n' +
+      'them. While big data was used at the beginning mostly in information technology\n' +
+      'field, now it can be found in every area of activity: in governmental\n' +
+      'decision-making processes, manufacturing, education, healthcare, economics,\n' +
+      'engineering, natural sciences, sociology. The rise of Internet, mobile phones,\n' +
+      'social media networks, different types of sensors or satellites provide\n' +
+      'enormous quantities of data that can have profound effects on economic\n' +
+      'research. The data revolution that we are facing transformed the way we measure\n' +
+      'the human behavior and economic activities. Unemployment, consumer price index,\n' +
+      'population mobility, financial transactions are only few examples of economic\n' +
+      'phenomena that can be analyzed using big data sources. In this paper we will\n' +
+      'start with a taxonomy of big data sources and show how these new data sources\n' +
+      'can be used in empirical analyses and to build economic indicators very fast\n' +
+      'and with reduced costs.',
+    published: '2024-06-16T18:37:42Z',
+    updated: '2024-06-16T18:37:42Z',
+    authors: [ 'Bogdan Oancea' ],
+    categories: [ 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2406.11913v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/0807.3534v1',
+    title: 'Learning from Physics Education Research: Lessons for Economics\n' +
+      '  Education',
+    summary: 'We believe that economists have much to learn from educational research\n' +
+      'practices and related pedagogical innovations in other disciplines, in\n' +
+      'particular physics education. In this paper we identify three key features of\n' +
+      'physics education research that distinguish it from economics education\n' +
+      'research - (1) the intentional grounding of physics education research in\n' +
+      'learning science principles, (2) a shared conceptual research framework focused\n' +
+      'on how students learn physics concepts, and (3) a cumulative process of\n' +
+      'knowledge-building in the discipline - and describe their influence on new\n' +
+      'teaching pedagogies, instructional activities, and curricular design in physics\n' +
+      'education. In addition, we highlight four specific examples of successful\n' +
+      'pedagogical innovations drawn from physics education - context-rich problems,\n' +
+      'concept tests, just-in-time teaching, and interactive lecture demonstrations -\n' +
+      'and illustrate how these practices can be adapted for economic education.',
+    published: '2008-07-22T18:07:29Z',
+    updated: '2008-07-22T18:07:29Z',
+    authors: [ 'Scott P. Simkins', 'Mark H. Maier' ],
+    categories: [ 'physics.ed-ph' ],
+    link: 'http://arxiv.org/abs/0807.3534v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2501.12639v1',
+    title: 'Enhancing Economic Literacy through Causal Diagrams',
+    summary: 'A literacy-targeted approach to economic instruction draws on insights from\n' +
+      'cognitive science. It highlights that students process complex economic\n' +
+      'information by constructing and modifying schemas that represent economic\n' +
+      'material. Following this approach, we developed a set of instructional\n' +
+      'activities centered around causal diagrams that promote a deeper understanding\n' +
+      'of economic topics beyond the traditional lecture-based methods. Our results\n' +
+      'show that structural debriefing activities can be used effectively to introduce\n' +
+      'students to the causal diagrams that explain key economic relationships in the\n' +
+      'national income model, government-purchases multiplier and tax multiplier.',
+    published: '2025-01-22T04:58:09Z',
+    updated: '2025-01-22T04:58:09Z',
+    authors: [ 'Oleg V. Pavlov', 'Natalia V. Smirnova', 'Elena V. Smirnova' ],
+    categories: [ 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2501.12639v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2209.00057v1',
+    title: 'Molecular genetics and mid-career economic mobility',
+    summary: 'Reductions in the cost of genetic sequencing have enabled the construction of\n' +
+      'large datasets including both genetic and phenotypic data. Based on these\n' +
+      "datasets, polygenic scores (PGSs) summarizing an individual's genetic\n" +
+      'propensity for educational attainment have been constructed. It is by now well\n' +
+      'established that this PGS predicts wages, income, and occupational prestige and\n' +
+      'occupational mobility across generations. It is unknown whether a PGS for\n' +
+      'educational attainment can predict upward income and occupational mobility even\n' +
+      'within the peak earning years of an individual. Using data from the Wisconsin\n' +
+      'Longitudinal Study (WLS), I show that: (i) a PGS for educational attainment\n' +
+      'predicts wage, income and occupational prestige mobility between 1974 (when\n' +
+      'respondents were about 36 years of age) and 1992 (when respondents were about\n' +
+      '53 years of age), conditional on 1974 values of these variables and a range of\n' +
+      'covariates; (ii) the effect is not mediated by parental socioeconomic status,\n' +
+      'is driven primarily by respondents with only a high school education, and is\n' +
+      'replicated in a within sibling-pair design; (iii) conditional on 1974 outcomes,\n' +
+      'higher PGS individuals surveyed in 1975 aspired to higher incomes and more\n' +
+      'prestigious jobs 10 years hence, an effect driven primarily by respondents with\n' +
+      'more than a high school education; (iv) throughout their employment history,\n' +
+      'high PGS individuals were more likely to undertake on the job training, and\n' +
+      'more likely to change job duties during tenure with an employer; and (v) though\n' +
+      'no more likely to change employers or industries during their careers, high PGS\n' +
+      'individuals were more likely in 1974 to be working in industries which would\n' +
+      'experience high wage growth in subsequent decades. These results contribute to\n' +
+      'our understanding of longitudinal inequality and shed light on the sources of\n' +
+      'heterogeneity in responses to economic shocks and policy.',
+    published: '2022-08-31T18:25:08Z',
+    updated: '2022-08-31T18:25:08Z',
+    authors: [ 'Paul Minard' ],
+    categories: [ 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2209.00057v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1804.10037v2',
+    title: 'Quantifier Elimination for Reasoning in Economics',
+    summary: 'We consider the use of Quantifier Elimination (QE) technology for automated\n' +
+      "reasoning in economics. QE dates back to Tarski's work in the 1940s with\n" +
+      'software to perform it dating to the 1970s. There is a great body of work\n' +
+      'considering its application in science and engineering but we show here how it\n' +
+      'can also find application in the social sciences. We explain how many suggested\n' +
+      'theorems in economics could either be proven, or even have their hypotheses\n' +
+      'shown to be inconsistent, automatically; and describe the application of this\n' +
+      'in both economics education and research. We describe a bank of QE examples\n' +
+      'gathered from economics literature and note the structure of these are, on\n' +
+      'average, quite different to those occurring in the computer algebra literature.\n' +
+      'This leads us to suggest a new incremental QE approach based on result\n' +
+      'memorization of commonly occurring generic QE results.',
+    published: '2018-04-26T13:05:16Z',
+    updated: '2018-05-15T10:30:31Z',
+    authors: [
+      'Casey B. Mulligan',
+      'Russell Bradford',
+      'James H. Davenport',
+      'Matthew England',
+      'Zak Tonks'
+    ],
+    categories: [ 'cs.SC', '68W30, 03C10, 91-04', 'I.1.2; J.4' ],
+    link: 'http://arxiv.org/abs/1804.10037v2'
+  },
+  {
+    id: 'http://arxiv.org/abs/1807.07051v1',
+    title: 'A New Index of Human Capital to Predict Economic Growth',
+    summary: 'The accumulation of knowledge required to produce economic value is a process\n' +
+      'that often relates to nations economic growth. Such a relationship, however, is\n' +
+      'misleading when the proxy of such accumulation is the average years of\n' +
+      'education. In this paper, we show that the predictive power of this proxy\n' +
+      'started to dwindle in 1990 when nations schooling began to homogenized. We\n' +
+      'propose a metric of human capital that is less sensitive than average years of\n' +
+      'education and remains as a significant predictor of economic growth when tested\n' +
+      'with both cross-section data and panel data. We argue that future research on\n' +
+      'economic growth will discard educational variables based on quantity as\n' +
+      'predictor given the thresholds that these variables are reaching.',
+    published: '2018-07-18T17:34:27Z',
+    updated: '2018-07-18T17:34:27Z',
+    authors: [ 'Henry Laverde', 'Juan C. Correa', 'Klaus Jaffe' ],
+    categories: [ 'econ.EM' ],
+    link: 'http://arxiv.org/abs/1807.07051v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2008.02581v1',
+    title: 'Teaching Economics with Interactive Browser-Based Models',
+    summary: 'Interactive simulation toolkits come in handy when teaching macroeconomic\n' +
+      'models by facilitating an easy understanding of underlying economic concepts\n' +
+      "and offering an intuitive approach to the models' comparative statics. Based on\n" +
+      'the example of the IS-LM model, this paper demonstrates innovative\n' +
+      'browser-based features well-suited for the shift in education to online\n' +
+      'platforms accelerated by COVID-19. The free and open-source code can be found\n' +
+      'alongside the standalone HTML files for the AD-AS and the Solow growth model at\n' +
+      'https://gitlab.tu-berlin.de/chair-of-macroeconomics/.',
+    published: '2020-08-06T11:24:46Z',
+    updated: '2020-08-06T11:24:46Z',
+    authors: [ 'Juan Dominguez-Moran', 'Rouven Geismar' ],
+    categories: [ 'q-fin.GN', 'econ.GN', 'q-fin.EC' ],
+    link: 'http://arxiv.org/abs/2008.02581v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1206.2494v1',
+    title: 'A physical theory of economic growth',
+    summary: 'Economic growth is unpredictable unless demand is quantified. We solve this\n' +
+      'problem by introducing the demand for unpaid spare time and a user quantity\n' +
+      'named human capacity. It organizes and amplifies spare time required for\n' +
+      'enjoying affluence like physical capital, the technical infrastructure for\n' +
+      'production, organizes and amplifies working time for supply. The sum of annual\n' +
+      'spare and working time is fixed by the universal flow of time. This yields the\n' +
+      'first macroeconomic equilibrium condition. Both storable quantities form\n' +
+      'stabilizing feedback loops. They are driven with the general and technical\n' +
+      'knowledge embodied with parts of the supply by education and construction.\n' +
+      'Linear amplification yields S-functions as only analytic solutions.\n' +
+      'Destructible physical capital controls medium-term recoveries from disaster.\n' +
+      'Indestructible human capacity controls the collective long-term industrial\n' +
+      'evolution. It is immune even to world wars and runs from 1800 to date parallel\n' +
+      'to the unisex life expectancy in the pioneering nations. This is the first\n' +
+      'quantitative information on long-term demand. The theory is self-consistent. It\n' +
+      'reproduces all peaceful data from 1800 to date without adjustable parameter. It\n' +
+      'has full forecasting power since the decisive parameters are constants of the\n' +
+      'human species. They predict an asymptotic maximum for the economic level per\n' +
+      'capita. Long-term economic growth appears as a part of natural science.',
+    published: '2012-06-12T11:33:19Z',
+    updated: '2012-06-12T11:33:19Z',
+    authors: [ 'Hans G. Danielmeyer', 'Thomas Martinetz' ],
+    categories: [ 'q-fin.GN', 'physics.soc-ph' ],
+    link: 'http://arxiv.org/abs/1206.2494v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/1106.3455v1',
+    title: 'Applications of a constrained mechanics methodology in economics',
+    summary: 'The paper presents instructive interdisciplinary applications of constrained\n' +
+      'mechanics calculus in economics on a level appropriate for the undergraduate\n' +
+      'physics education. The aim of the paper is: 1. to meet the demand for\n' +
+      'illustrative examples suitable for presenting the background of the highly\n' +
+      'expanding research field of econophysics even on the undergraduate level and 2.\n' +
+      'to enable the students to understand deeper the principles and methods\n' +
+      'routinely used in mechanics by looking at the well known methodology from the\n' +
+      'different perspective of economics. Two constrained dynamic economic problems\n' +
+      'are presented using the economic terminology in an intuitive way. First, the\n' +
+      'Phillips model of business cycle is presented as a system of forced\n' +
+      'oscillations and the general problem of two interacting economies is solved by\n' +
+      'the nonholonomic dynamics approach. Second, the Cass-Koopmans-Ramsey model of\n' +
+      'economical growth is solved as a variational problem with a velocity dependent\n' +
+      'constraint using the vakonomic approach. The specifics of the solution\n' +
+      'interpretation in economics compared to mechanics is discussed in detail, a\n' +
+      'discussion of the nonholonomic and vakonomic approaches to constrained problems\n' +
+      'in mechanics and economics is provided and an economic interpretation of the\n' +
+      'Lagrange multipliers (possibly surprising for the students of physics) is\n' +
+      'carefully explained. The paper can be used by the undergraduate students of\n' +
+      'physics interested in interdisciplinary physics applications to get in touch\n' +
+      'with current scientific approach to economics based on a physical background or\n' +
+      'by university teachers as an attractive supplement to the classical mechanics\n' +
+      'lessons.',
+    published: '2011-06-17T11:57:09Z',
+    updated: '2011-06-17T11:57:09Z',
+    authors: [ 'Jitka Janová' ],
+    categories: [
+      'physics.ed-ph',
+      'physics.class-ph',
+      'physics.soc-ph',
+      'q-fin.GN',
+      '70 F25'
+    ],
+    link: 'http://arxiv.org/abs/1106.3455v1'
+  },
+  {
+    id: 'http://arxiv.org/abs/2006.03977v1',
+    title: 'IP Geolocation Underestimates Regressive Economic Patterns in MOOC Usage',
+    summary: 'Massive open online courses (MOOCs) promise to make rigorous higher education\n' +
+      'accessible to everyone, but prior research has shown that registrants tend to\n' +
+      'come from backgrounds of higher socioeconomic status. We study geographically\n' +
+      'granular economic patterns in about 76,000 U.S. registrations for about 600\n' +
+      "HarvardX and MITx courses between 2012 and 2018, identifying registrants'\n" +
+      'locations using both IP geolocation and user-reported mailing addresses. By\n' +
+      'either metric, we find higher registration rates among postal codes with\n' +
+      'greater prosperity or population density. However, we also find evidence of\n' +
+      'bias in IP geolocation: it makes greater errors, both geographically and\n' +
+      'economically, for users from more economically distressed areas; it\n' +
+      'disproportionately places users in prosperous areas; and it underestimates the\n' +
+      'regressive pattern in MOOC registration. Researchers should use IP geolocation\n' +
+      'in MOOC studies with care, and consider the possibility of similar economic\n' +
+      'biases affecting its other academic, commercial, and legal uses.',
+    published: '2020-06-06T21:13:14Z',
+    updated: '2020-06-06T21:13:14Z',
+    authors: [ 'Daniela Ganelin', 'Isaac Chuang' ],
+    categories: [ 'cs.CY', 'cs.NI' ],
+    link: 'http://arxiv.org/abs/2006.03977v1'
+  }
+]
+Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: '60dfd50de8b3b43861ddaa0544a95f9652ea5ee1',
+    title: 'Handbook of THE ECONOMICS OF EDUCATION',
+    abstract: 'A substantial amount of money is spent on technology by schools, families, and policymakers with the hope of improving educational outcomes. This chapter explores the theoretical and empirical literature on the impacts of technology on educational outcomes. The literature focuses on two primary contexts in which technology may be used for educational purposes: (i) classroom use in schools and (ii) home use by students. Theoretically, information and communications technology (ICT) investment and computer-aided instruction (CAI) use by schools and the use of computers at home have ambiguous implications for educational achievement: expenditures devoted to technology necessarily offset inputs that may be more or less efficient, and time allocated to using technology may displace traditional classroom instruction and educational activities at home. However, much of the evidence in the schooling literature is based on interventions that provide supplemental funding for technology or additional class time, and thus favor finding positive effects. Nonetheless, studies of ICT and CAI in schools produce mixed evidence with a pattern of null results. Notable exceptions to this pattern occur in studies of developing countries and CAI interventions that target math rather than language. In the context of home use, early studies based on multivariate and instrumental variables approaches tend to find large positive (and in a few cases negative) effects while recent studies based on randomized con-trol experiments tend to find small or null effects. Early research focused on developed countries while more recently several experiments have been conducted in developing countries.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ 'G. Bulman', 'R. W. Fairlie' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/60dfd50de8b3b43861ddaa0544a95f9652ea5ee1'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  },
+  {
+    id: '35d0ead88e9bd727c16459e785358b0050e54514',
+    title: 'Economics of education',
+    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
+    journal: 'No journal available',
+    doi: '10.12737/17661',
+    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -221,197 +557,931 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40530474',
-    title: 'Educational Attainment Level and Risk of Mortality and Cardiopulmonary Outcomes in High-Risk Patients With Cardiovascular Disease: The INVESTED Trial.',
-    abstract: 'BACKGROUND: Educational attainment level (EAL) is an indicator of socioeconomic status and has been shown to be inversely related with adverse health outcomes. However, the association between EAL and risk of clinical outcomes in high-risk patients with cardiovascular disease has not been extensively investigated.\n' +
-      'METHODS: In the INVESTED (Influenza Vaccine to Effectively Stop Cardio Thoracic Events and Decompensated Heart Failure) trial, patients with recent heart failure or myocardial infarction hospitalization were randomized 1:1 to high-dose trivalent or standard-dose quadrivalent influenza vaccine from September 2016 to January 2019. We examined the association between EAL and risk of clinical outcomes for each participant across all enrolling seasons using adjusted Cox models stratified by trial entry season. Participants were categorized by EAL (≤high school, post-high school or trade, and ≥college).\n' +
-      'RESULTS: Of the 4912 participants (mean age: 65.5 years, 28% female, 80% White) with EAL information, 43% had high school, 29% had post-high school or trade, and 28% had ≥college as EAL. Those with higher EAL were more likely to be White or Asian, be married/with long-term partner, have higher left ventricular ejection fraction, have lower New York Heart Association class, and less likely to have comorbidities and risk factors than those with lower EAL. During follow-up (median: 9 months), 1706 (35%) participants experienced the composite of all-cause death or cardiopulmonary hospitalization. Compared with high school, higher EAL was associated with a stepwise decrease in risk (post-high school or trade: hazard ratio [HR], 0.88 [95% CI, 0.79-0.99]; ≥college: HR, 0.71 [95% CI, 0.63-0.81],  <0.001).\n' +
-      'CONCLUSIONS: High EAL is significantly associated with a decreased risk of adverse clinical outcomes in patients with high-risk cardiovascular disease after adjustment for other key risk factors, highlighting the need to consider EAL in risk assessment and target additional resources toward those with low EAL to improve prognosis.\n' +
-      'REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT02787044.',
-    published: '2025-Jun-18',
+    id: '40536026',
+    title: 'Distinct patterns of health risk behaviours in adolescents with thalassaemia.',
+    abstract: 'BACKGROUND: Thalassaemia is a significant public health concern in Southeast Asia, yet little is known about health risk behaviours in adolescents with this condition. This study aimed to compare health risk behaviours between adolescents with thalassaemia and healthy controls, and to identify associated clinical and sociodemographic factors.\n' +
+      'METHODS: This cross-sectional study included 60 adolescents with thalassaemia (aged 10-18 years) and 60 age- and sex-matched healthy controls in Thailand. Health risk behaviours were assessed using the validated Thai Youth Risk Behaviour Survey. Clinical data were extracted from medical records. Multivariable logistic regression was used to identify factors associated with risk behaviours.\n' +
+      'RESULTS: Adolescents with thalassaemia reported higher rates of non-seatbelt use (25.0% vs. 1.7%,  < 0.001) and mental health problems (13.3% vs. 0.8%,  = 0.027) compared to controls. However, they exhibited lower rates of inadequate exercise (70.0% vs. 86.7%,  = 0.045) and excessive screen time (66.7% vs. 96.7%,  < 0.001). In the thalassaemia group, older age (aOR = 2.78, 95% CI: 1.09-7.09), female gender (aOR = 39.73, 95% CI: 0.89-1770.49) and lower pre-transfusion haemoglobin levels (aOR = 0.09, 95% CI: 0.01-0.64) were associated with increased odds of mental health problems. Higher pre-transfusion haemoglobin levels were associated with lower odds of violent behaviour (aOR = 0.44, 95% CI: 0.21-0.92).\n' +
+      'CONCLUSIONS: Adolescents with thalassaemia exhibit distinct patterns of health risk behaviours, influenced by age, gender and disease severity. These findings underscore the need for integrated physical and psychosocial care, highlighting the importance of tailored health education and interventions for this vulnerable group.',
+    published: '2025-Dec',
     authors: [
-      'Lassen Mats C H',
-      'Howell Nicholas',
-      'Claggett Brian L',
-      'Biering-Sørensen Tor',
-      'Vardeny Orly',
-      'Solomon Scott D',
-      'Udell Jacob',
-      'Joseph Jacob',
-      'Hegde Sheila M'
+      'Kaewkong Pattaporn',
+      'Boonchooduang Nonglak',
+      'Likhitweerawong Narueporn',
+      'Charoenkwan Pimlak',
+      'Louthrenoo Orawan'
     ],
-    journal: 'Journal of the American Heart Association',
-    doi: '10.1161/JAHA.124.040221',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530474/'
+    journal: 'Annals of medicine',
+    doi: '10.1080/07853890.2025.2521441',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40536026/'
   },
   {
-    id: '40530389',
-    title: 'Black Women as Superwomen? The Mental Health Effects of Superwoman Schema, Socioeconomic Status, and Financial Strain.',
-    abstract: `Informed by Black feminist thought and intersectionality, Superwoman Schema (SWS) is a construct that captures a collective response of Black women to racial and gender marginalization by highlighting expectations that they exude strength, suppress emotions, resist vulnerability, succeed despite limitations, and help others to their own self-neglect. Using a sample of Black women (N = 390) in early-midlife (between 30 and 46 years old;  = 37.54 years;  = 4.29), this study integrates the intersectionality framework and the stress process model to examine the independent and interactive effects of SWS endorsement as well as socioeconomic status (SES) and financial strain on Black women's mental health. Study results reveal that SWS dimensions "emotion suppression" and "obligation to help others" are associated with elevated depressive symptoms. In addition, net worth and financial strain, but not traditional measures of socioeconomic status such as education and income, moderate the association between SWS endorsement and depressive symptoms. Specifically, the association between SWS and depressive symptoms is strongest among Black women reporting negative net worth or high financial strain (e.g., not being able to make ends meet). Broader implications and future research directions are discussed.`,
-    published: '2025-May',
+    id: '40536014',
+    title: 'PTSD Symptoms change in response to a brief intensive trauma-focused treatment programme in non-veterans and veterans with war-related PTSD.',
+    abstract: " Evidence suggests that veterans with post-traumatic stress disorder (PTSD) are less likely to benefit from trauma-focused treatment than are patients with PTSD who have not been exposed to war-related trauma. However, new developments in PTSD treatment that combine several evidence-based trauma-focused therapies within a short time frame may help veterans achieve outcomes similar to those of non-veterans. In this retrospective cohort study, we examined changes in PTSD symptoms and diagnostic status after treatment between veterans and non-veterans. The treatment consisted of a four- or eight-day intensive trauma-focused treatment programme that integrated prolonged exposure, EMDR therapy, psycho-education, and physical activities. The sample consisted of 43 veterans and 43 non-veterans, matched based on age, sex, starting date, and duration of treatment. Participants were assessed pre- and post-treatment using the Clinician-Administered PTSD Scale-5 (CAPS-5). The differences in CAPS-5 scores over time and between groups were modelled using Bayesian repeated-measures ANOVA. We performed Bayesian model averaging to quantify the differences in PTSD symptom changes between groups, based on treatment response, using the exclusion Bayes factor (). PTSD symptoms in both veterans and non-veterans decreased between pre- and post-treatment (Cohen's  = 2.17 and 1.54, respectively). Furthermore, we found moderate evidence of no differences in CAPS-5 scores between the groups ( = 4.8) or between the groups over time ( = 4.9). Although a greater proportion of veterans showed improvement according to the reliable change index than non-veterans (83.7% and 74.4%, respectively), there was no difference between the groups in terms of loss of diagnostic status after treatment (74.4% for veterans and 76.7% for non-veterans). This study provides evidence that veterans with war-related PTSD can benefit from brief intensive, trauma-focused treatment and does not support the notion that veterans need a different treatment approach in such settings.",
+    published: '2025-Dec',
     authors: [
-      'Erving Christy L',
-      'McKinnon Izraelle I',
-      'Thomas Tobin Courtney S',
-      'Van Dyke Miriam E',
-      'Murden Raphiel',
-      'Moore Reneé H',
-      'Booker Bianca',
-      'Vaccarino Viola',
-      'Lewis Tené T'
+      'Reij Kirsten M',
+      'de Jongh Ad',
+      'Swens Ernst Paul',
+      'Voorendonk Eline M'
     ],
-    journal: 'Social problems',
-    doi: '10.1093/socpro/spae007',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530389/'
+    journal: 'European journal of psychotraumatology',
+    doi: '10.1080/20008066.2025.2511571',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40536014/'
   },
   {
-    id: '40530249',
-    title: 'Protocol for Conducting Scoping Review on Reliability and Validity of Low-Stakes Assessments in Medical Education.',
-    abstract: 'Low-stakes assessments (LSAs) are widely used in medical education to promote continuous learning by providing formative feedback and minimizing the high-stress environment associated with high-stakes assessments. While LSAs are recognized for their role in supporting student learning, questions remain about their reliability and validity. This scoping review aims to systematically identify and synthesize existing literature on the reliability and validity of LSAs within medical education contexts. This study aims to map the methodologies used to establish psychometric parameters, identify problems, and offer best practices. The review will use the Joanna Briggs Institute methodology, encompassing a comprehensive search across six academic databases and grey literature to identify relevant studies published from 2000 onward. Two reviewers will independently screen and extract data, using the Covidence tool for systematic screening and data extraction. Data will be analyzed using qualitative and quantitative approaches to provide an overview of reliability and validity evidence for LSAs in medical education. Insights into motivational and psychometric theories, such as Self-Determination Theory, Classical Test Theory, and Generalizability Theory, that inform LSA design and implementation will be used to analyse the findings in this review. Expected outcomes include a detailed map of the literature on LSA reliability and validity, identification of key challenges, theoretical underpinnings and recommended strategies for improving LSA practices in medical education. Findings will inform future research and provide guidelines for optimizing the use of LSAs to enhance student learning outcomes, assessment integrity, and the educational experience in medical training.',
-    published: '2024',
+    id: '40536004',
+    title: 'Surface Pretreatment Protocols For Indirect/Semi-Direct Dental Restorations: A Cross-Sectional Survey and Expert Consensus.',
+    abstract: 'PURPOSE: To investigate, via questionnaire, how protocols for adhesive luting workflows of dental restorations are applied in three German-speaking countries.\n' +
+      'MATERIAL AND METHODS: A 47-item questionnaire gathered data on airborne particle abrasion (APA) unit characteristics, parameters, operating procedures, pretreatments in adhesive luting workflows for restorations, and participant demographics. The survey was distributed via trade journals, expert associations, universities, technical schools, and social media. Marginal absolute and relative frequencies were analyzed (95% confidence intervals), with Chi-squared tests comparing observed and expected frequencies (P0.05). Twenty-three experts voted on 23 recommendations regarding APA parameters and other pretreatments for bonding restorations.\n' +
+      'RESULTS: A total of 267 participants completed the survey. Access to an APA unit was linked to a higher likelihood of performing APA before placement. Approximately half of the participants used APA in their practice. For zirconia restorations, 47.2% applied alumina APA at 50 µm/0.1 MPa, while 36.7% used the same settings for polymer-based restorations. For alloys, 37.5% employed 110 µm/0.2 MPa. These preferences correlated with age (≥30 years), experience (≥10 years), profession (dental technician/dentist), prior instruction/training, and daily APA use. Adhesives with MDP were used for zirconia (63.8%) and those with silane for silicate-based ceramics (55.9%). Agreement on recommendations ranged between 52% and 100%, with 21/23 reaching an average of 93%.\n' +
+      'CONCLUSION: Access to APA influenced clinical decisions and the feasibility of adhesive luting workflows. Adequate APA equipment in dental facilities is essential for quality care. Standardized protocols, training, and education across dental professions are necessary to enhance understanding and proper use of APA.',
+    published: '2025-Jun-19',
     authors: [
-      'Zafar Imran',
-      'Waller Susan',
-      'Schuwirth Lambert',
-      'Filho Carvalho',
-      'Magzoub Mohi Eldin'
+      'Mayinger Felicitas',
+      'Lankes Valerie',
+      'Roos Malgorzata',
+      'Rohr Nadja',
+      'Ioannidis Alexis',
+      'Elsayed Adham',
+      'Güth Jan-Frederik',
+      'Edelhoff Daniel',
+      'Passia Nicole',
+      'Esmail Iman',
+      'Beuer Florian',
+      'Wolfart Stefan',
+      'Spies Benedikt Christopher',
+      'Schimmel Martin',
+      'Abou-Ayash Samir',
+      'Hahnel Sebastian',
+      'Schlenz Maximiliane Amelie',
+      'Frankenberger Roland',
+      'Blunck Uwe',
+      'Kraus Dominik',
+      'Engelschalk Marcus',
+      'Huettig Fabian',
+      'Kern Matthias',
+      'Luehrs Anne-Katrin',
+      'Gierthmuehlen Petra C',
+      'Stawarczyk Bogna'
     ],
-    journal: 'F1000Research',
-    doi: '10.12688/f1000research.158787.1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530249/'
+    journal: 'The journal of adhesive dentistry',
+    doi: '10.3290/j.jad.c_2106',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40536004/'
   },
   {
-    id: '40530248',
-    title: "Assessing the students' evaluations of educational quality (SEEQ) questionnaire in Oman higher education.",
-    abstract: "BACKGROUND: Student Evaluation of Education Quality (SEEQ) is a widely used tool for assessing educational quality. This local data study examined the SEEQ's psychometric properties in Omani education, specifically its validity and reliability. This local data study examined the SEEQ's psychometric properties in Omani education, specifically its validity and reliability.\n" +
-      "METHODS: This was quantitative research to assess educational quality from the students' viewpoint. The study was conducted at Muscat College from January to March 2024.Simple randomization implemented at the course level helped to choose the participants. All students registered in the specified courses were asked to take part after a random sample of the courses Muscat College offers throughout the study term was chosen. Five hundred fifty students completed the survey. AMOS was used to conduct confirmatory factor analysis (CFA), and PSS was used to evaluate the internal consistency ( IBM Corp., 2024a, 2024b).\n" +
-      "RESULTS: CFA of the SEEQ indicated that the eight -factor solution best fit the data. Results also showed that the SEEQ has overall good-to-excellent reliability. The adapted scale was psychometrically sound, proving SEEQ's applicability.\n" +
-      "CONCLUSIONS: This study proposes using SEEQ to measure Oman's education quality.",
-    published: '2024',
-    authors: [ 'Al Kalbani Muna' ],
-    journal: 'F1000Research',
-    doi: '10.12688/f1000research.157354.2',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530248/'
-  },
-  {
-    id: '40530241',
-    title: 'Right hemisphere engagement in language abilities in older adults: indication of compensation rather than decline.',
-    abstract: 'INTRODUCTION: Structural brain changes during aging have been used as specific markers to distinguish normal aging from dementia. Changes in specific cognitive abilities such as episodic memory, processing speed, and executive functions, are observed in healthy aging. Limited evidence reports changes in linguistic functions alongside structural and functional brain changes. This study investigates correlations between language performance, gray matter volume (GMV), and neural activity in language regions, adjusted for demographic factors, in healthy older adults.\n' +
-      'METHODS: Twenty-seven right-handed participants aged 60-87 were evaluated for overall linguistic performance using the Spanish version of ScreeLing (SCL) test and phonemic fluency and semantic verbal fluency tasks (PF and SF). Participants also underwent an MRI session during which they performed a functional MRI language task. T1-weighted MRI scans were used to measure GMV in specific language-related regions and assess language lateralization. Correlational analyses were conducted between language scores, GMV, years of education, age, sex, and fMRI lateralization.\n' +
-      'RESULTS: In the right hemisphere (RH), significant positive correlations were found between SCL scores and GMV in the orbital inferior frontal gyrus (r = 0.5402; p = 0.0044) and the superior temporal gyrus (r = 0.516; p = 0.007). Furthermore, SCL and Phonemic fluency positively correlated with years of education, indicating that higher education enhances speech performance. No significant correlations were found in the left hemisphere (LH). Age, sex, and fMRI lateralization did not significantly correlate with specific linguistic scores.\n' +
-      'DISCUSSION: These results challenge the current view of the role of the right hemisphere in language performance as increased GMV in specific right hemisphere language regions is associated with better language performance, highlighting the role of the right hemisphere in supporting language skills during healthy aging.',
-    published: '2025',
+    id: '40535990',
+    title: 'Motivational preferences of interdisciplinary family physician team members in delivering integrated care: a best-worst scaling study.',
+    abstract: 'BACKGROUND: In China, integrated care is facilitated by interdisciplinary Family Physician Teams (FPTs) to extend primary care services without increasing physician numbers. However, the advancement of integrated care faces challenges due to insufficient motivators for Family Physician Team Members (FPTMs).\n' +
+      'OBJECTIVE: To elucidate the motivational preferences of FPTMs within integrated care, highlighting preference heterogeneity across individuals with diverse demographic and professional characteristics.\n' +
+      'METHODS: A cross-sectional study was conducted in November 2022 with 363 FPTMs at community health centers affiliated with seven hospitals in Shenzhen city. The study assessed motivational preferences using a best-worst scaling (BWS) questionnaire to collect data. Conditional logit and mixed logit models were employed to analyze overall preferences and heterogeneity.\n' +
+      "RESULTS: The study revealed a strong preference for patient-centered motivators, particularly highlighting patient needs, trust level, and adherence as key motivators that are crucial in shaping the engagement of FPTMs with integrated care. Additionally, heterogeneity in preference patterns was observed based on sex, education level, and professional role. Specifically, male FPTMs, those with a master's degree or higher, and general practitioners demonstrated a significantly stronger preference for employment benefits and government resource allocation.\n" +
+      "CONCLUSION: The findings highlight the preference of FPTMs for patient-level motivators, underscoring the importance of implementing a feedback mechanism to capture patients' perspectives on services. Policymakers are urged to develop tailored motivational structures that consider the varied preferences of team members across different roles, thereby motivating the provision of integrated care by FPTMs.",
+    published: '2025-Jun-04',
     authors: [
-      'Solomons Daniel',
-      'Rodriguez-Fernandez Maria',
-      'Mery-Muñoz Francisco',
-      'Arraño-Carrasco Leonardo',
-      'Toloza-Ramirez David',
-      'Sahli-Costabal Francisco',
-      'Mendez-Orellana Carolina'
+      'Chen Weizhuo',
+      'Xiong Zihui',
+      'Yang Qiao',
+      'Xiao Wenqi',
+      'Chen Junyi',
+      'Zhong Sisi',
+      'Ye Ting'
     ],
-    journal: 'Frontiers in aging',
-    doi: '10.3389/fragi.2025.1458692',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530241/'
+    journal: 'Family practice',
+    doi: '10.1093/fampra/cmaf016',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535990/'
   },
   {
-    id: '40530181',
-    title: {
-      _: '"" caregiver perspectives on the difficulties of COVID-19 implementation transitions for children and youth with special healthcare needs (CYSHCN).',
-      i: [Array]
-    },
-    abstract: 'INTRODUCTION: The COVID-19 virus and its relevant prevention protocol had significant impacts on children and youth with special healthcare needs (CYSHCN), including those with physical, intellectual, and developmental disabilities. Previous studies have examined the first year of the pandemic, identifying the implications of social distancing, remote services/education, and masking and testing protocol on the mental, physical, and developmental well-being of this population.\n' +
-      'OBJECTIVES: We focus on moments of transition, when vaccines were disseminated and mandates/resources removed. By identifying how protocol and interventions in these moments included, neglected, or negatively impacted CYSHCN, we can inform more inclusive, safe, and equitable decision-making in future health crises.\n' +
-      "METHODS: We report the transition-moment-related reflections of fourteen focus groups conducted among caregivers (including parents) of CYSHCN between March and December of 2022 ( = 77). Focus groups were conducted in close partnership with a local non-profit organization, and facilitation protocol were co-developed by community leaders in the CYSHCN area. Focus groups were recorded, transcribed, and analyzed using directed content analysis and thematic analysis, guided by implementation science theories on interventions' relative dis/advantages and perceived adaptability.\n" +
-      'RESULTS: Caregivers provided transition-moment reflections of how the timing, support, and in/flexibility of pandemic intervention implementation and de-implementation negatively impacted their CYSHCN. We generated three themes to describe these views: (1) ":" Lack of transition support into isolation meant loss of necessary structures and services; (2) ":" Transition communication, particularly surrounding mandates and protocol, was not handled well for CYSHCN; and (3) ":" Transition timing neglected consideration of CYSHCN.\n' +
-      "DISCUSSION: CYSHCN needs were neglected in the pandemic's transition moments, creating significant implications for their mental/emotional, physical, and cognitive/developmental well-being. Reflecting these findings, and particularly facets that extend established literature, we urge inclusive research and policy models, empowering members of the CYSHCN community as leaders in knowledge and protocol production, particularly when considering the adaptability and relative advantage of interventions. Such models are crucial in developing messaging around pandemic policies, creating infrastructural support for flexibility, and adding supports and delays when de-implementing mandates.",
-    published: '2025',
-    authors: [
-      'Smith D Grace',
-      'Cancilliere Mary Kathryn',
-      'Hayes Tara M',
-      'Elwy Anashua Rani',
-      'Sarkar Indra Neil'
-    ],
-    journal: 'Frontiers in pediatrics',
-    doi: '10.3389/fped.2025.1440680',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530181/'
+    id: '40535978',
+    title: 'Knowledge, attitude, and practice of kidney transplant patients regarding post-transplant complications: a cross-sectional study.',
+    abstract: 'BACKGROUND: The management of complications following kidney transplantation involves self-management, which requires adequate knowledge and favorable attitudes. This study explored the knowledge, attitude, and practice (KAP) of post-transplant complications among kidney transplant patients.\n' +
+      'METHODS: This cross-sectional study included (convenience sampling) kidney transplant patients from our hospital. A self-designed online KAP questionnaire was used for data collection.\n' +
+      "RESULTS: A total of 499 (89.7%) valid questionnaires were included; 327 were filled out by men and 172 by women, aged 44.41±10.54 years. The mean knowledge, attitude, and practice scores were 6.00±1.99 (possible range, 0-10), 22.29±1.96 (possible range, 6-30), and 29.28±3.78 (possible range, 8-40), respectively. Pearson's correlation analysis revealed a positive correlation between attitude and knowledge (r=0.129, P=0.004), attitude and practice (r=0.334, P<0.001), and practice and attitude (r=0.416, P<0.001). Structural equation modeling showed that post-transplant complications and education were associated with knowledge while drinking alcohol, age, and duration since kidney transplant were negatively associated with knowledge. Knowledge and education were associated with attitude, while post-transplant complications were negatively associated with attitude. Attitude, knowledge, duration since kidney transplant and education were associated with the practice, while age was negatively associated with the practice.\n" +
+      'CONCLUSIONS: Kidney transplant patients showed insufficient knowledge, positive attitude, and proactive practice regarding post-transplant complications. Age, education, drinking alcohol, post-transplant complications, and duration since kidney transplant might affect their KAP. Educational interventions targeting specific KAP items with poor scores should be designed and tested to improve the self-management of patients with kidney transplants.',
+    published: '2025-May-30',
+    authors: [ 'Shen Jie', 'Gong Pengfeng', 'Sun Yangyang', 'Xue Dong' ],
+    journal: 'Translational andrology and urology',
+    doi: '10.21037/tau-2024-683',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535978/'
   },
   {
-    id: '40530104',
-    title: 'EFFECTIVENESS OF MOBILE PHONE-BASED DISTANCE VIDEO EDUCATION ON METABOLIC VARIABLES AND COGNITIVE-SOCIAL FACTORS IN TYPE 2 DIABETES.',
-    abstract: 'OBJECTIVE: Our research investigated the impact of mobile phone distance video education of patients with type II diabetes. This approach was delivered to 100 type 2 diabetes patients based on their cognitive-social factors and metabolic variables.\n' +
-      'SUBJECTS AND METHODS: A randomized controlled trial study design was employed. Diabetes education videos were designed and were streamed to the smartphones of the patients. Data were collected from the control (n=50) and experimental (n=50) groups in the first interview, and metabolic control data were recorded. The second interview was held three months after the education process was completed. During this meeting, the survey instrument and the Turkish version of the Multidimensional Diabetes Questionnaire was re-administered to both groups, and metabolic control data were recorded.\n' +
-      'RESULTS: Following the distance video education, there was a significant decrease in the FPG (1.2 mmol/L) HbA1c (-1.04%), LDL (-0.4 mmol/L) and BMI (-0.7 kg/m) values of the experimental group, and their cognitive-social factors were found to improve in terms of perceiving diabetes.\n' +
-      'CONCLUSIONS: In our study, distance education via mobile phones was an influential approach on cognitive-social factors and metabolic variables of type 2 diabetes patients.',
-    published: '2024',
-    authors: [ 'Bayraktar A K', 'Tekir Ö', 'Yildiz H' ],
-    journal: 'Acta endocrinologica (Bucharest, Romania : 2005)',
-    doi: '10.4183/aeb.2024.261',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530104/'
-  },
-  {
-    id: '40530094',
-    title: 'INVESTIGATION OF ADHERENCE TO POSTPARTUM DIABETES SCREENING RECOMMENDATIONS FOR PATIENTS WITH GESTATIONAL DIABETES, IN TURKEY; A CROSS-SECTIONAL STUDY.',
-    abstract: 'CONTEXT: The first study delves into the postpartum diabetes screening during the postpartum 3 month period and exploration of non-compliance reasons.\n' +
-      'OBJECTIVE: The primary aim of this study is to examine the adherence to postpartum diabetes screening recommendations among women with gestational diabetes in Turkey.\n' +
-      'DESIGN: A cross-sectional study was conducted on 783 postpartum women diagnosed with gestational diabetes.\n' +
-      'MATERIALS AND METHODS: Participants were categorized into three groups based on their screening behavior. Group 1 did not undergo any postpartum screening, Group 2 only underwent fasting plasma glucose (FPG) or HbA1c tests, and Group 3 only underwent oral glucose tolerance tests (OGTT). Data on demographic characteristics and reasons for non-compliance were collected.\n' +
-      'RESULTS: Only 3.45% of women complied while 55.81% did not undergo any screening. Adherence was significantly higher among primigravid women. Statistically significant differences were observed based on education level, GDM treatment method, and information received during pregnancy or postpartum (p<0.001). The most common reason for non-compliance was normal FPG values observed post-delivery.\n' +
-      'CONCLUSION: This study emphasizes the crucial need for enhanced education and information provision to high-risk women diagnosed with gestational diabetes, both during pregnancy and the postpartum period, particularly during their hospital stay.',
-    published: '2024',
-    authors: [
-      'Yilmaz G',
-      'Akkaya S K',
-      'Kaya M I',
-      'Balci T',
-      'Denizli R',
-      'Moraloglu Tekin O',
-      'Akkaya H',
-      'Ozgu-Erdinc A S'
-    ],
-    journal: 'Acta endocrinologica (Bucharest, Romania : 2005)',
-    doi: '10.4183/aeb.2024.334',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530094/'
-  },
-  {
-    id: '40530092',
-    title: 'CURRENT TREATMENT APPROACHES AND GLYCEMIC CONTROL IN TURKISH PATIENTS WITH TYPE 2 DIABETES MELLITUS: A REAL-WORLD EVIDENCE FROM A TERTIARY HOSPITAL IN TURKEY.',
-    abstract: 'OBJECTIVE: This study examined the glycemic control among adult patients with type 2 diabetes mellitus (T2DM) and their ongoing antidiabetic therapy focusing on potential differences in attaintment of glycemic control associated with the use of specific antidiabetic regimens (ADR).\n' +
-      'DESIGN: This was a cross sectional study conducted between September 2019 and March 2020 at a tertiary hospital, department of Internal Medicine.\n' +
-      'SUBJECTS AND METHODS: Patients with T2DM who had a diagnosis of T2DM for at least one year and used their prescribed ADR for at least 3 months were included in the study. Glycated hemoglobin (HbA1c) was used for evaluation of glycemic control.\n' +
-      'RESULTS: A total of 500 patients aged 59.4 (±10.2) years, with 9.9 (±6.7) years of diabetes duration (54% women, BMI: 29.6±5.1kg/m) were analysed. The mean HbA1c was 8.3% (±1.9) and 34.2% of patients had a HbA1c level ≤7 %. 12%, 20% and 15.4% of diabetic patients were prescribed one, two or more than three antidiabetic drugs, 6.4% were on glucagon-like peptide 1 receptor agonists (GLP-1RA) only and 46% received insulin. Education level (OR=0.79; 95 % CI 0.66-0.94 p=0.009) and use of GLP-1RA (OR=0.19; 95 % CI 0.07-0.51 p=0.001) were associated with improved glycemic control while longer diabetes duration (OR=1.06; 95 % CI 1.02-1.11 p=0.004), use of basal insulin (OR=2.91; 95 % CI 1.70-6.88 p=0.010) and basal-prandial regiments (OR=2.49; CI 1.54-5.38 p=0.020) were associated with HbA1c >7%.\n' +
-      'CONCLUSIONS: Despite the introduction of novel drugs in the treatment of T2DM a majority of our patients fail to reach therapeutic goals.',
-    published: '2024',
-    authors: [ 'Demir S B', 'Yesilova A', 'Cengiz M', 'Adas M' ],
-    journal: 'Acta endocrinologica (Bucharest, Romania : 2005)',
-    doi: '10.4183/aeb.2024.324',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530092/'
-  },
-  {
-    id: '40530081',
-    title: 'Occupational zoonoses, neurological diseases, and public health: A one health approach.',
-    abstract: 'Zoonotic diseases, which constitute 60% of all human infectious diseases, present substantial risks to public health, economies, and livelihoods. These diseases emerge at the human-animal-environment interface, with occupational exposure representing a critical yet underexamined dimension of zoonotic risk. Workers in high-risk sectors such as agriculture, wildlife management, and laboratory research face elevated exposure to zoonotic pathogens, often under conditions of inadequate preventive measures and resource constraints. Neurological disorders resulting from zoonotic infections, including Guillain-Barré syndrome, encephalitis, and meningitis, illustrate the severe health consequences for occupational groups. Cases linked to swine hepatitis E virus, West Nile virus, , and  underscore the urgent need for robust surveillance and targeted interventions. The Ecohealth approach, integrated with the One Health framework, provides a transformative model for managing zoonotic risks by addressing the upstream drivers of disease emergence. By emphasizing environmental stewardship, ecological balance, and socio-economic equity, Ecohealth fosters sustainable preventive strategies. Occupational medicine is crucial in linking workplace safety with public health through tailored risk management, enhanced surveillance, and targeted education. Despite these frameworks, significant barriers persist, including data gaps, underreporting of occupational diseases, and insufficient coordination among health sectors. Addressing these challenges requires implementing standardized occupational health surveillance systems, enhancing reporting mechanisms through digital tools, and promoting cross-sectoral data-sharing initiatives. Successful models, such as sentinel surveillance programs in agricultural sectors and integrated biosurveillance networks, demonstrate the feasibility of these strategies. Leveraging these approaches can facilitate early detection, improve reporting accuracy, and support evidence-based interventions.',
+    id: '40535918',
+    title: 'Increasing Vegetable Intake Using Monosodium Glutamate in a Randomized Controlled Trial: A Culinary Medicine Intervention.',
+    abstract: 'This study aimed to explore the effectiveness of monosodium glutamate (MSG) as a flavor enhancer in increasing vegetable intake compared to sodium chloride (NaCl) alone combined with a digital culinary medicine education program. A two-phase randomized controlled trial (RCT) was conducted from February to November 2023. Phase one involved a five-week intervention where participants received a designated seasoning and logged their vegetable intake using the MyFitnessPal app. Phase two involved a sensory evaluation, assessing the palatability of green beans and sweet potatoes seasoned with NaCl/MSG mixtures using a Likert scale and triangle tests to determine preference and palatability. Phase one; 60 participants were assigned to one of three groups: 100% NaCl (control), 50/50 NaCl/MSG, and 70/30 NaCl/MSG. Phase two; 88 participants and all seasoning groups received a digital culinary medicine education program with recipes and videos. The 50/50 NaCl/MSG group showed a mean increase in vegetable intake from 1.46 to 1.55 cups/day, while the NaCl group showed a decrease from 1.33 to 0.95 cups/day ( = 0.46). Preference tests indicated favorability trends for MSG mixtures, particularly with green beans seasoned with the 50/50 NaCl/MSG mixture ( = 0.07). Although the differences in vegetable intake were not statistically significant, the findings suggest that MSG could enhance vegetable palatability and intake, aligning with the principles of culinary medicine. This represents a promising strategy for improving dietary habits. Further research is warranted to confirm these findings.  Clinicaltrials.gov identifier: NCT05591612.',
     published: '2025-Jun',
     authors: [
-      'Stufano Angela',
-      'Schino Valentina',
-      'Plantone Domenico',
-      'Lucchese Guglielmo'
+      'Maher Carson',
+      'Alcorn Michelle',
+      'Childress Allison',
+      'Dawson John A',
+      'Galyean Shannon'
     ],
-    journal: 'Infectious medicine',
-    doi: '10.1016/j.imj.2025.100184',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40530081/'
+    journal: 'Food science & nutrition',
+    doi: '10.1002/fsn3.70441',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535918/'
+  },
+  {
+    id: '40535906',
+    title: 'Lifestyle Medicine Interest Group (LMIG) Events Analysis.',
+    abstract: 'Lifestyle Medicine Interest Groups (LMIG) have grown substantially since 2008, with 165 LMIGs established across the U.S. as of June 2024. The American College of Lifestyle Medicine (ACLM) supports LMIG establishment within academic and health system settings, providing opportunities for students, faculty, and employees to learn about and practice lifestyle medicine (LM). A cross-sectional survey containing multiple-choice and free-text questions was administered continuously to established LMIGs between March 2020 and May 2023. Descriptive statistics were generated to note the number of unique institutions, median number of events, event attendance, and frequency of event types. Thematic analysis was conducted for all free-text sections of the survey. Data from 1,062 LMIG events across 127 unique institutions with a total of 29,689 attendees was analyzed. Each institution had a median of 5 events with a median of 16 attendees. Lectures, group physical activities, and board meetings were most common. Quantitative findings reveal substantial growth among LMIG events, expansion across geographic locations, and insights into funding sources. Nutrition and physical activity were most frequently highlighted, while social connection, sleep, and avoidance of risky substances were least represented. LMIGs are growing in number and size, empowering future health professionals through LM awareness.',
+    published: '2025-Jun-16',
+    authors: [
+      'Vanderpool Lauren E',
+      'Wong Madeline L',
+      'Gama Grace O',
+      'Holmes Shannon F',
+      'Frates Beth',
+      'Staffier Kara L',
+      'Charles Justin A',
+      'Karlsen Micaela C'
+    ],
+    journal: 'American journal of lifestyle medicine',
+    doi: '10.1177/15598276251337409',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535906/'
+  },
+  {
+    id: '40535785',
+    title: 'Rehabilitation needs, preferences, barriers, and facilitators of individuals with sepsis: a qualitative study.',
+    abstract: 'PURPOSE: To explore the rehabilitation needs, preferences, barriers, and facilitators of sepsis survivors.\n' +
+      'METHODS: We performed a qualitative descriptive study. We included English-speaking adults over 18 years old with a past diagnosis of sepsis  a caregiver of an individual with a past diagnosis of sepsis. We conducted semi-structured interviews on Zoom, guided by the COM-B Framework and transcribed interviews verbatim. Two reviewers conducted qualitative content analysis.\n' +
+      'RESULTS: We included 22 participants. Participants identified the need for early and continued rehabilitation, including support for physical and cognitive health. They described barriers related to social isolation, finances, and lack of information on and accessibility to rehabilitation services. Participants reported that they preferred to participate in rehabilitation that included peer support, education for themselves and caregivers, and personalized services. Interview findings underscore the need to increase the accessibility of rehabilitation resources and the knowledge of sepsis survivors and their caregivers on the condition and the benefits of rehabilitation.\n' +
+      'CONCLUSION: We identified rehabilitation needs, preferences, barriers, and facilitators necessary to better support sepsis survivors in their recovery process. Future research should focus on tailoring strategies to improve the opportunity for rehabilitation for sepsis survivors and increasing the knowledge of sepsis in survivors and their caregivers to maximize participation in rehabilitation for individuals with sepsis.',
+    published: '2025-Jun',
+    authors: [
+      'Smith-Turchyn Jenna',
+      'Alborzi Melina',
+      'Hong Julianne',
+      'Hvizd Jordon L',
+      'McKenney Shannon',
+      'Newman Anastasia N L',
+      'Rochwerg Bram',
+      'Kho Michelle E'
+    ],
+    journal: 'International journal of nursing studies advances',
+    doi: '10.1016/j.ijnsa.2025.100339',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535785/'
+  },
+  {
+    id: '40535779',
+    title: 'Hidden in Plain Sight: A Scoping Review of Professional Grief in Healthcare and Charting a Path for Change.',
+    abstract: "Healthcare workers frequently experience emotional distress from repeated exposure to patient death, yet professional grief remains poorly recognized and inadequately supported. The COVID-19 pandemic further magnified these challenges, bringing professional grief into sharper focus. The purpose of this scoping review was to comprehensively examine professional grief among healthcare workers (HCWs) across different professions and specialties, map existing literature, identify research gaps, and provide educational, clinical, and policy recommendations. This scoping review followed Arksey and O'Malley's methodological framework and PRISMA-ScR guidelines. Databases searched included PubMed, CINAHL, and PsycINFO for literature from 2004 to 2024. Studies were screened based on inclusion criteria focusing on professional grief experiences of HCWs dealing with patient deaths. Qualitative, quantitative, and mixed-method studies were included. Eighty-one publications were reviewed, with most studies published since 2020, highlighting increased attention post-COVID-19. Key findings identified significant individual (eg, early career vulnerability, lack of formal education), interpersonal (eg, patient demographics, relationship quality), and systemic factors (eg, emotional suppression culture, workload constraints) influencing professional grief. Existing interventions were predominantly peer-based and lacked demonstrated efficacy in reducing grief intensity. Measurement inconsistencies revealed discrepancies between qualitative and quantitative assessments of grief intensity, indicating a need for specialized measurement tools tailored to professional contexts. Professional grief among HCWs is multifaceted and deeply influenced by cultural, educational, and systemic barriers. Comprehensive strategies addressing these barriers must include structured educational curricula, ongoing clinical support programs, validated grief measurement tools, and institutional policies promoting open emotional expression. These approaches are essential to fostering resilience, enhancing professional well-being, and improving patient care outcomes.",
+    published: '2025',
+    authors: [ 'Phillips Carolyn S', 'Trainum Katie', 'Thomas Hebdon Megan C' ],
+    journal: 'Health services insights',
+    doi: '10.1177/11786329251344772',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535779/'
+  },
+  {
+    id: '40535777',
+    title: 'Equity-Focused Palliative and End-of-Life Care in a System Not Designed for it: Qualitative Insights from Service Providers and Recipients.',
+    abstract: "'Equity-focused care' has gained attention in recent years. With widespread use, concepts take on different meanings creating confusion for service providers. This study examines what people experiencing homelessness with life-limiting illnesses value in equity-focused care, and how service providers-who identify their work as equity-focused-describe their roles within a care system that relies on, yet often undervalues, this kind of work. We conducted 11 interviews with service providers and seven with people experiencing homelessness with a life-limiting illness and who received care from a community-based palliative care team in Western Canada. Interviews were transcribed and analyzed via thematic analysis. We constructed three themes: ; and . Themes aligned with two spheres of influence from the Education Training Research's Health Equity Framework:  and . Findings highlighted that service providers deliver equity-focused care by developing strong relational care networks challenging existing power structures -making this model incongruent with existing individually-focused biomedical care models. Findings transform the theoretical concept, 'equity-focused care', into tangible knowledge that highlights areas for policy change to support equity-focused care.",
+    published: '2025',
+    authors: [
+      'Petruik Courtney R',
+      'Wan-Sai-Cheong Lauren',
+      'Hagos Helen',
+      'Milaney Katrina'
+    ],
+    journal: 'Global qualitative nursing research',
+    doi: '10.1177/23333936251350107',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40535777/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 39961,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4597,
+        [Symbol(triggerId)]: 4595
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 4,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Thu, 19 Jun 2025 15:11:59 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Thu, 19 Jun 2025 15:11:59 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 39975,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4616,
+        [Symbol(triggerId)]: 4614
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 4,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Thu, 19 Jun 2025 15:11:59 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.03.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Thu, 19 Jun 2025 15:11:59 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -597,8 +1667,191 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 6)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.31372/20190403.1059',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
+  }
+}
 Error scraping abstract from https://doi.org/10.32598/jccnc.7.1.33.14 (original: https://doi.org/10.32598/jccnc.7.1.33.14): AxiosError: timeout of 10000ms exceeded
     at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
     at RedirectableRequest.emit (node:events:524:28)
@@ -776,15 +2029,14 @@ Error scraping abstract from https://doi.org/10.32598/jccnc.7.1.350.1 (original:
     at listOnTimeout (node:internal/timers:581:17)
     at process.processTimers (node:internal/timers:519:7)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at runNextTicks (node:internal/process/task_queues:60:5)
-    at listOnTimeout (node:internal/timers:545:9)
-    at process.processTimers (node:internal/timers:519:7)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
     at async Promise.all (index 2)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34) {
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
   code: 'ECONNABORTED',
   config: {
     transitional: {
@@ -939,514 +2191,6 @@ Error scraping abstract from https://doi.org/10.32598/jccnc.7.1.350.1 (original:
     [Symbol(kCapture)]: false
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at runNextTicks (node:internal/process/task_queues:60:5)
-    at listOnTimeout (node:internal/timers:545:9)
-    at process.processTimers (node:internal/timers:519:7)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34) {
-  code: 'ECONNABORTED',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: [HTTPParser],
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  }
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ECONNABORTED',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      href: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: [HTTPParser],
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  }
-}
-Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 6)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ECONNABORTED',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.31372/20190403.1059',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/apin/vol4/iss3/2/',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'kahualike.manoa.hawaii.edu',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/apin/vol4/iss3/2/',
-      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: kahualike.manoa.hawaii.edu\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/apin/vol4/iss3/2/',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: [HTTPParser],
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'kahualike.manoa.hawaii.edu',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  }
-}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1573,89 +2317,133 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 30
-Removed duplicates: 30 -> 30
-Starting translation of 30 papers...
-Translating paper 1/30
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
+Translating paper: Big data in economics...
+Translating paper 2/50
+Translating paper: Learning from Physics Education Research: Lessons ...
+Translating paper 3/50
+Translating paper: Enhancing Economic Literacy through Causal Diagram...
+Translating paper 4/50
+Translating paper: Molecular genetics and mid-career economic mobilit...
+Translating paper 5/50
+Translating paper: Quantifier Elimination for Reasoning in Economics...
+Translating paper 6/50
+Translating paper: A New Index of Human Capital to Predict Economic G...
+Translating paper 7/50
+Translating paper: Teaching Economics with Interactive Browser-Based ...
+Translating paper 8/50
+Translating paper: A physical theory of economic growth...
+Translating paper 9/50
+Translating paper: Applications of a constrained mechanics methodolog...
+Translating paper 10/50
+Translating paper: IP Geolocation Underestimates Regressive Economic ...
+Translating paper 11/50
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/50
+Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+Translating paper 13/50
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 14/50
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 15/50
+Translating paper: Experience and education...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.908344342470005 seconds...
+Translating paper 16/50
+Translating paper: From Theory to Practice of Promoting Student Engag...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.3616901826126075 seconds...
+Translating paper 17/50
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.0306642892669236 seconds...
+Translating paper 18/50
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 19/50
+Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 20/50
+Translating paper: Economics of education...
+Translating paper 21/50
 Translating paper: Mothers’ duties and rights when positioned as remo...
-Translating paper 2/30
+Translating paper 22/50
 Translating paper: ‘Quality and consequence’: interrogating the drive...
-Translating paper 3/30
+Translating paper 23/50
 Translating paper: What makes quality teachers in remote First Nation...
-Translating paper 4/30
+Translating paper 24/50
 Translating paper: Public management of digitalization into the Spani...
-Translating paper 5/30
+Translating paper 25/50
 Translating paper: In pursuit of equity in upper secondary education:...
-Translating paper 6/30
+Translating paper 26/50
 Translating paper: A phenomenological reading of integration in the l...
-Translating paper 7/30
+Translating paper 27/50
 Translating paper: The positioning of quality and expertise in initia...
-Translating paper 8/30
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.976011232745505 seconds...
+Translating paper 28/50
 Translating paper: Mathematics education for sustainable futures: a s...
-Translating paper 9/30
+Translating paper 29/50
 Translating paper: Who cares for the carers: A poetic inquiry of init...
-Translating paper 10/30
+Translating paper 30/50
 Translating paper: Studying Year 6 students’ perceptions of gender an...
-Translating paper 11/30
-Translating paper: Educational Attainment Level and Risk of Mortality...
-Translating paper 12/30
-Translating paper: Black Women as Superwomen? The Mental Health Effec...
-Translating paper 13/30
-Translating paper: Protocol for Conducting Scoping Review on Reliabil...
-Translating paper 14/30
-Translating paper: Assessing the students' evaluations of educational...
-Translating paper 15/30
-Translating paper: Right hemisphere engagement in language abilities ...
-Translating paper 16/30
-Translating paper: "" caregiver perspectives on the difficulties of C...
-Translating paper 17/30
-Translating paper: EFFECTIVENESS OF MOBILE PHONE-BASED DISTANCE VIDEO...
-Translating paper 18/30
-Translating paper: INVESTIGATION OF ADHERENCE TO POSTPARTUM DIABETES ...
-Translating paper 19/30
-Translating paper: CURRENT TREATMENT APPROACHES AND GLYCEMIC CONTROL ...
-Translating paper 20/30
-Translating paper: Occupational zoonoses, neurological diseases, and ...
-Translating paper 21/30
+Translating paper 31/50
+Translating paper: Distinct patterns of health risk behaviours in ado...
+Translating paper 32/50
+Translating paper: PTSD Symptoms change in response to a brief intens...
+Translating paper 33/50
+Translating paper: Surface Pretreatment Protocols For Indirect/Semi-D...
+Translating paper 34/50
+Translating paper: Motivational preferences of interdisciplinary fami...
+Translating paper 35/50
+Translating paper: Knowledge, attitude, and practice of kidney transp...
+Translating paper 36/50
+Translating paper: Increasing Vegetable Intake Using Monosodium Gluta...
+Translating paper 37/50
+Translating paper: Lifestyle Medicine Interest Group (LMIG) Events An...
+Translating paper 38/50
+Translating paper: Rehabilitation needs, preferences, barriers, and f...
+Translating paper 39/50
+Translating paper: Hidden in Plain Sight: A Scoping Review of Profess...
+Translating paper 40/50
+Translating paper: Equity-Focused Palliative and End-of-Life Care in ...
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 22/30
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 23/30
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 24/30
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 25/30
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 26/30
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 27/30
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 28/30
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 29/30
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 30/30
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 30 papers
-Removed duplicates: 338 -> 318
-Total papers after merging: 318 (308 existing + 30 new)
-Saved 318 papers to papers.json
+Translation completed: 50 papers
+Removed duplicates: 368 -> 328
+Total papers after merging: 328 (318 existing + 50 new)
+Saved 328 papers to papers.json
 Generating HTML files...
-Generating index.html with 318 papers...
+Generating index.html with 328 papers...
 Successfully generated index.html
-Generating archive.html with 318 papers...
+Generating archive.html with 328 papers...
 Successfully generated archive.html
-Generating journal.html with 318 papers...
+Generating journal.html with 328 papers...
 Successfully generated journal.html
-Generating acquisition.html with 318 papers...
+Generating acquisition.html with 328 papers...
 Successfully generated acquisition.html
-Generating publication.html with 318 papers...
+Generating publication.html with 328 papers...
 Successfully generated publication.html
-Generating registration.html with 318 papers...
+Generating registration.html with 328 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 318
-New papers processed: 30
+Total papers in database: 328
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-18T15:30:47.338Z
+Timestamp: 2025-06-19T15:41:28.507Z
