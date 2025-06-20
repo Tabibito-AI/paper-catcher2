@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-19T15:11:20.402Z
+Timestamp: 2025-06-20T15:11:06.748Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 318 existing papers from papers.json
+Loaded 328 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,8 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
+Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -543,209 +545,247 @@ Fetched papers from Springer: [
     journal: 'The Australian Educational Researcher'
   },
   {
-    id: '10.1007/s13384-025-00821-9',
-    title: 'Studying Year 6 students’ perceptions of gender and their engagement in STEM within an Australian primary school',
-    summary: 'Gender stereotypes—and performances of femininity and masculinity—play a key role in how and why an individual engages in STEM education. Students’ perceptions of STEM have been carefully and consistently studied in high school and in tertiary education contexts, but to date there has been limited research examining students’ gendered perceptions of STEM at the primary school level. This small case study adopts a critical feminist approach and draws on classroom observations and semi-structured focus group interviews using photo-elicitation to foreground student voice. The aim of this research is to uncover how Year 6 students (n = 6) living and learning in Australia perceive STEM as a gendered discipline of study. Drawing on an inductive thematic analysis, we identified key differences between boys and girls which arguably have implications for their engagement in STEM. Our analysis foregrounds the role of (1) self-efficacy; (2) social pressures and performativity; and (3) pervasive gender norms, which all played a role in influencing students’ identities. We then consider the implications of these findings for educators. The article concludes with an examination of the limitations of the study as well as considerations for future research.',
+    id: '10.1007/s00066-024-02348-x',
+    title: 'Digital redesign of the radiotherapy course for medical students with a blended learning approach',
+    summary: 'Purpose Due to the need for high-quality teaching, we present a new blended learning concept combining digital modules, interactive seminars, and clinical experience. Furthermore, we evaluated its acceptance among students. Methods A new concept for teaching was applied to the radiotherapy module and made available via the Hannover Medical School (MHH) learning management system as part of a blended learning concept with educational films, multimedia learning modules, online seminars, and onsite practical training. The evaluation recorded assessments of the requirement profile, design, and opportunities for skills acquisition; evaluation of the seminar and internship; and questions on the overall assessment. Results The new concept was applied to four passes in the fourth academic year. A total of 152 students completed the radio-oncology learning module, which was evaluated by 46 students. Forty students considered the course duration to be appropriate for the material covered, and most students stated that their prior knowledge had been sufficient. The level of difficulty of the content was rated by the students as somewhat too high. The design of the digital course, the opportunity to acquire skills, the seminar course, and the practical course were mostly rated positively. Conclusion Through digital redesign, a teaching concept can be implemented that combines self-determined learning, professional exchange with doctors, and clinical practice experience. The concept can be transferred to other areas because it combines theoretical knowledge transfer with synchronous teaching and clinical experience. The results of the evaluation show that the students rated the new concept well.',
     published: '2025-07-01',
-    authors: [ 'Harnischfeger, Sarah', 'Stahl, Garth' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    authors: [
+      'Knöchelmann, Anne Caroline',
+      'Becker, Jan-Niklas',
+      'Stiller, Gerald',
+      'Steinmann, Diana',
+      'Behrends, Marianne'
+    ],
+    categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'The Australian Educational Researcher'
+    journal: 'Strahlentherapie und Onkologie'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40536026',
-    title: 'Distinct patterns of health risk behaviours in adolescents with thalassaemia.',
-    abstract: 'BACKGROUND: Thalassaemia is a significant public health concern in Southeast Asia, yet little is known about health risk behaviours in adolescents with this condition. This study aimed to compare health risk behaviours between adolescents with thalassaemia and healthy controls, and to identify associated clinical and sociodemographic factors.\n' +
-      'METHODS: This cross-sectional study included 60 adolescents with thalassaemia (aged 10-18 years) and 60 age- and sex-matched healthy controls in Thailand. Health risk behaviours were assessed using the validated Thai Youth Risk Behaviour Survey. Clinical data were extracted from medical records. Multivariable logistic regression was used to identify factors associated with risk behaviours.\n' +
-      'RESULTS: Adolescents with thalassaemia reported higher rates of non-seatbelt use (25.0% vs. 1.7%,  < 0.001) and mental health problems (13.3% vs. 0.8%,  = 0.027) compared to controls. However, they exhibited lower rates of inadequate exercise (70.0% vs. 86.7%,  = 0.045) and excessive screen time (66.7% vs. 96.7%,  < 0.001). In the thalassaemia group, older age (aOR = 2.78, 95% CI: 1.09-7.09), female gender (aOR = 39.73, 95% CI: 0.89-1770.49) and lower pre-transfusion haemoglobin levels (aOR = 0.09, 95% CI: 0.01-0.64) were associated with increased odds of mental health problems. Higher pre-transfusion haemoglobin levels were associated with lower odds of violent behaviour (aOR = 0.44, 95% CI: 0.21-0.92).\n' +
-      'CONCLUSIONS: Adolescents with thalassaemia exhibit distinct patterns of health risk behaviours, influenced by age, gender and disease severity. These findings underscore the need for integrated physical and psychosocial care, highlighting the importance of tailored health education and interventions for this vulnerable group.',
-    published: '2025-Dec',
-    authors: [
-      'Kaewkong Pattaporn',
-      'Boonchooduang Nonglak',
-      'Likhitweerawong Narueporn',
-      'Charoenkwan Pimlak',
-      'Louthrenoo Orawan'
-    ],
-    journal: 'Annals of medicine',
-    doi: '10.1080/07853890.2025.2521441',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40536026/'
-  },
-  {
-    id: '40536014',
-    title: 'PTSD Symptoms change in response to a brief intensive trauma-focused treatment programme in non-veterans and veterans with war-related PTSD.',
-    abstract: " Evidence suggests that veterans with post-traumatic stress disorder (PTSD) are less likely to benefit from trauma-focused treatment than are patients with PTSD who have not been exposed to war-related trauma. However, new developments in PTSD treatment that combine several evidence-based trauma-focused therapies within a short time frame may help veterans achieve outcomes similar to those of non-veterans. In this retrospective cohort study, we examined changes in PTSD symptoms and diagnostic status after treatment between veterans and non-veterans. The treatment consisted of a four- or eight-day intensive trauma-focused treatment programme that integrated prolonged exposure, EMDR therapy, psycho-education, and physical activities. The sample consisted of 43 veterans and 43 non-veterans, matched based on age, sex, starting date, and duration of treatment. Participants were assessed pre- and post-treatment using the Clinician-Administered PTSD Scale-5 (CAPS-5). The differences in CAPS-5 scores over time and between groups were modelled using Bayesian repeated-measures ANOVA. We performed Bayesian model averaging to quantify the differences in PTSD symptom changes between groups, based on treatment response, using the exclusion Bayes factor (). PTSD symptoms in both veterans and non-veterans decreased between pre- and post-treatment (Cohen's  = 2.17 and 1.54, respectively). Furthermore, we found moderate evidence of no differences in CAPS-5 scores between the groups ( = 4.8) or between the groups over time ( = 4.9). Although a greater proportion of veterans showed improvement according to the reliable change index than non-veterans (83.7% and 74.4%, respectively), there was no difference between the groups in terms of loss of diagnostic status after treatment (74.4% for veterans and 76.7% for non-veterans). This study provides evidence that veterans with war-related PTSD can benefit from brief intensive, trauma-focused treatment and does not support the notion that veterans need a different treatment approach in such settings.",
-    published: '2025-Dec',
-    authors: [
-      'Reij Kirsten M',
-      'de Jongh Ad',
-      'Swens Ernst Paul',
-      'Voorendonk Eline M'
-    ],
-    journal: 'European journal of psychotraumatology',
-    doi: '10.1080/20008066.2025.2511571',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40536014/'
-  },
-  {
-    id: '40536004',
-    title: 'Surface Pretreatment Protocols For Indirect/Semi-Direct Dental Restorations: A Cross-Sectional Survey and Expert Consensus.',
-    abstract: 'PURPOSE: To investigate, via questionnaire, how protocols for adhesive luting workflows of dental restorations are applied in three German-speaking countries.\n' +
-      'MATERIAL AND METHODS: A 47-item questionnaire gathered data on airborne particle abrasion (APA) unit characteristics, parameters, operating procedures, pretreatments in adhesive luting workflows for restorations, and participant demographics. The survey was distributed via trade journals, expert associations, universities, technical schools, and social media. Marginal absolute and relative frequencies were analyzed (95% confidence intervals), with Chi-squared tests comparing observed and expected frequencies (P0.05). Twenty-three experts voted on 23 recommendations regarding APA parameters and other pretreatments for bonding restorations.\n' +
-      'RESULTS: A total of 267 participants completed the survey. Access to an APA unit was linked to a higher likelihood of performing APA before placement. Approximately half of the participants used APA in their practice. For zirconia restorations, 47.2% applied alumina APA at 50 µm/0.1 MPa, while 36.7% used the same settings for polymer-based restorations. For alloys, 37.5% employed 110 µm/0.2 MPa. These preferences correlated with age (≥30 years), experience (≥10 years), profession (dental technician/dentist), prior instruction/training, and daily APA use. Adhesives with MDP were used for zirconia (63.8%) and those with silane for silicate-based ceramics (55.9%). Agreement on recommendations ranged between 52% and 100%, with 21/23 reaching an average of 93%.\n' +
-      'CONCLUSION: Access to APA influenced clinical decisions and the feasibility of adhesive luting workflows. Adequate APA equipment in dental facilities is essential for quality care. Standardized protocols, training, and education across dental professions are necessary to enhance understanding and proper use of APA.',
+    id: '40537879',
+    title: 'Associations of physical activity, sedentary behavior, and sleep patterns with cognitive function among middle-aged and older adults.',
+    abstract: 'BACKGROUND: Despite the established evidence that physical activity, sedentary behavior, and sleep affect cognitive function individually, less is known about the combined effects of these movement behaviors. The study aimed to identify movement patterns of physical activity, sitting time, and sleep and to examine the association of movement patterns with cognitive function.\n' +
+      'METHODS: This cross-sectional study included 1,240 participants aged ≥ 55 years participating in the Cooper Center Longitudinal Study who visited the Cooper Clinic, Dallas (2016-2019) for preventive health care. Four movement behaviors were self-reported, including leisure-time aerobic activity, muscle-strengthening activity, sitting time, sleep, and other characteristics. Cognitive function was assessed by the Montreal Cognitive Assessment (MoCA). Four categorical indicators were created for each movement behavior and used to identify latent classes. Information criterion, scaled relative entropy and model interpretability were used to determine the optimal number of classes. Participants were assigned to the predicted classes based on their highest posterior probabilities. Multinomial regressions examined the association between movement patterns and each covariate. Linear and logistic regression models examined the association of movement patterns and cognitive function. A sensitivity analysis accounted for misclassification errors.\n' +
+      'RESULTS: Participants were predominantly White (95%), male (71%), with an average age of 62 years. A 3-class model was selected, comprising class 1: active long sleepers, class 2: very active short sleepers, and class 3: moderately active short sleepers, representing 11%, 62%, and 27% of the sample. Compared to class 2, class 1 was more likely to be older and female, while class 3 was more likely to be female, have less education, be overweight and obese, and have chronic conditions. Compared to class 2, class 3 was associated with a lower MoCA total score, adjusting for sociodemographic factors. There were no differences in MoCA total score between class 2 and class 3 when further controlling for health behaviors and indicators. Sensitivity analysis accounting for misclassification suggested that class 3 had a significantly lower average MoCA total score than class 2.\n' +
+      'CONCLUSIONS: The current study identified three distinct movement classes that exhibited different sociodemographic, health characteristics and cognitive functions. Findings highlight that less active, more sedentary, and shorter sleep individuals had worse cognitive function.',
     published: '2025-Jun-19',
     authors: [
-      'Mayinger Felicitas',
-      'Lankes Valerie',
-      'Roos Malgorzata',
-      'Rohr Nadja',
-      'Ioannidis Alexis',
-      'Elsayed Adham',
-      'Güth Jan-Frederik',
-      'Edelhoff Daniel',
-      'Passia Nicole',
-      'Esmail Iman',
-      'Beuer Florian',
-      'Wolfart Stefan',
-      'Spies Benedikt Christopher',
-      'Schimmel Martin',
-      'Abou-Ayash Samir',
-      'Hahnel Sebastian',
-      'Schlenz Maximiliane Amelie',
-      'Frankenberger Roland',
-      'Blunck Uwe',
-      'Kraus Dominik',
-      'Engelschalk Marcus',
-      'Huettig Fabian',
-      'Kern Matthias',
-      'Luehrs Anne-Katrin',
-      'Gierthmuehlen Petra C',
-      'Stawarczyk Bogna'
+      'Zhang Yuzi',
+      'Chen Baojiang',
+      'Hébert Emily T',
+      'DeFina Laura F',
+      'Leonard David',
+      'Barlow Carolyn E',
+      'Pavlovic Andjelka',
+      'Kohl Harold W'
     ],
-    journal: 'The journal of adhesive dentistry',
-    doi: '10.3290/j.jad.c_2106',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40536004/'
+    journal: 'Journal of activity, sedentary and sleep behaviors',
+    doi: '10.1186/s44167-025-00079-7',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537879/'
   },
   {
-    id: '40535990',
-    title: 'Motivational preferences of interdisciplinary family physician team members in delivering integrated care: a best-worst scaling study.',
-    abstract: 'BACKGROUND: In China, integrated care is facilitated by interdisciplinary Family Physician Teams (FPTs) to extend primary care services without increasing physician numbers. However, the advancement of integrated care faces challenges due to insufficient motivators for Family Physician Team Members (FPTMs).\n' +
-      'OBJECTIVE: To elucidate the motivational preferences of FPTMs within integrated care, highlighting preference heterogeneity across individuals with diverse demographic and professional characteristics.\n' +
-      'METHODS: A cross-sectional study was conducted in November 2022 with 363 FPTMs at community health centers affiliated with seven hospitals in Shenzhen city. The study assessed motivational preferences using a best-worst scaling (BWS) questionnaire to collect data. Conditional logit and mixed logit models were employed to analyze overall preferences and heterogeneity.\n' +
-      "RESULTS: The study revealed a strong preference for patient-centered motivators, particularly highlighting patient needs, trust level, and adherence as key motivators that are crucial in shaping the engagement of FPTMs with integrated care. Additionally, heterogeneity in preference patterns was observed based on sex, education level, and professional role. Specifically, male FPTMs, those with a master's degree or higher, and general practitioners demonstrated a significantly stronger preference for employment benefits and government resource allocation.\n" +
-      "CONCLUSION: The findings highlight the preference of FPTMs for patient-level motivators, underscoring the importance of implementing a feedback mechanism to capture patients' perspectives on services. Policymakers are urged to develop tailored motivational structures that consider the varied preferences of team members across different roles, thereby motivating the provision of integrated care by FPTMs.",
-    published: '2025-Jun-04',
+    id: '40537847',
+    title: 'The social determinants of tuberculosis: a case-control study characterising pathways to equitable intervention in Peru.',
+    abstract: 'BACKGROUND: Despite being key components of global tuberculosis policy, poverty reduction and social protection interventions have been inconsistently implemented. We aimed to characterise how poverty and interrelated personal risk factors increase tuberculosis risk in Peru to inform the design of locally appropriate, person-centred, equity-oriented interventions.\n' +
+      'METHODS: We undertook a case-control study among people aged 15 years and over in 32 communities in Peru between 2016 and 2019. Cases (n = 2337) were people diagnosed with any form of tuberculosis. Controls (n = 981) were people living in randomly selected households in the same communities. We derived measures of household poverty from three dimensions (physical, human, and financial capital) and investigated the associations between these; personal risk factors more specifically linked to health (e.g. smoking); and tuberculosis. We used logistic regression to calculate adjusted odds ratios (aOR), 95% confidence intervals (95% CI), and population attributable fractions (PAF). A directed acyclic graph was used to inform the analytical approach.\n' +
+      "RESULTS: Household poverty was strongly associated with tuberculosis (aOR = 3.1; 95% CI: 2.3-4.2 for people from the 'poorer' versus 'less poor' half of households). There was a non-linear social gradient across deciles of household poverty, with odds of tuberculosis increasing exponentially as poverty deepened (aOR = 12.6; 95% CI: 6.8-23.2 for the 'poorest' decile versus the 'least poor' decile). Overall, tuberculosis burden could be halved by reducing poverty in the 'poorer' half of households to the level of the 'less poor' half (PAF = 47%; 95% CI: 40-54). For key personal risk factors, we estimated PAF for alcohol excess (PAF = 12.3%, 95% CI: 7.2-17.2); underweight (PAF = 10.3%, 95% CI: 8.7-11.8); smoking (PAF = 8.8%, 95% CI: 3.8-13.5); HIV (PAF = 5.7%, 95% CI: 4.6-6.7); and diabetes (PAF = 4.6%, 95% CI: 3.3-6.0). We also identified other important risk factors including previous tuberculosis (PAF = 14.8%, 95% CI: 11.6-17.9); incarceration (PAF = 9.5%, 95% CI: 6.8-12.1); and lower social capital (PAF = 4.1%, 95% CI: 2.6-5.6). Most personal risk factors, particularly education and substance misuse, tuberculosis exposures (e.g. incarceration and homelessness), and undernutrition, exhibited a social gradient across quintiles of household poverty and were more prevalent in people living in poorer households (Cochran-Armitage test for linear trend P < 0.001 for variables showing these social gradients).\n" +
+      'CONCLUSIONS: Interventions addressing multidimensional household poverty and interrelated personal risk factors could substantially reduce tuberculosis burden. Our results provide an evidence base for designing person-centred, equity-oriented interventions; and support more effective implementation of poverty reduction and social protection within the global tuberculosis response.',
+    published: '2025-Jun-20',
     authors: [
-      'Chen Weizhuo',
-      'Xiong Zihui',
-      'Yang Qiao',
-      'Xiao Wenqi',
-      'Chen Junyi',
-      'Zhong Sisi',
-      'Ye Ting'
+      'Saunders Matthew J',
+      'Montoya Rosario',
+      'Quevedo Luz',
+      'Ramos Eric',
+      'Datta Sumona',
+      'Evans Carlton A'
     ],
-    journal: 'Family practice',
-    doi: '10.1093/fampra/cmaf016',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535990/'
+    journal: 'Infectious diseases of poverty',
+    doi: '10.1186/s40249-025-01324-6',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537847/'
   },
   {
-    id: '40535978',
-    title: 'Knowledge, attitude, and practice of kidney transplant patients regarding post-transplant complications: a cross-sectional study.',
-    abstract: 'BACKGROUND: The management of complications following kidney transplantation involves self-management, which requires adequate knowledge and favorable attitudes. This study explored the knowledge, attitude, and practice (KAP) of post-transplant complications among kidney transplant patients.\n' +
-      'METHODS: This cross-sectional study included (convenience sampling) kidney transplant patients from our hospital. A self-designed online KAP questionnaire was used for data collection.\n' +
-      "RESULTS: A total of 499 (89.7%) valid questionnaires were included; 327 were filled out by men and 172 by women, aged 44.41±10.54 years. The mean knowledge, attitude, and practice scores were 6.00±1.99 (possible range, 0-10), 22.29±1.96 (possible range, 6-30), and 29.28±3.78 (possible range, 8-40), respectively. Pearson's correlation analysis revealed a positive correlation between attitude and knowledge (r=0.129, P=0.004), attitude and practice (r=0.334, P<0.001), and practice and attitude (r=0.416, P<0.001). Structural equation modeling showed that post-transplant complications and education were associated with knowledge while drinking alcohol, age, and duration since kidney transplant were negatively associated with knowledge. Knowledge and education were associated with attitude, while post-transplant complications were negatively associated with attitude. Attitude, knowledge, duration since kidney transplant and education were associated with the practice, while age was negatively associated with the practice.\n" +
-      'CONCLUSIONS: Kidney transplant patients showed insufficient knowledge, positive attitude, and proactive practice regarding post-transplant complications. Age, education, drinking alcohol, post-transplant complications, and duration since kidney transplant might affect their KAP. Educational interventions targeting specific KAP items with poor scores should be designed and tested to improve the self-management of patients with kidney transplants.',
-    published: '2025-May-30',
-    authors: [ 'Shen Jie', 'Gong Pengfeng', 'Sun Yangyang', 'Xue Dong' ],
-    journal: 'Translational andrology and urology',
-    doi: '10.21037/tau-2024-683',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535978/'
-  },
-  {
-    id: '40535918',
-    title: 'Increasing Vegetable Intake Using Monosodium Glutamate in a Randomized Controlled Trial: A Culinary Medicine Intervention.',
-    abstract: 'This study aimed to explore the effectiveness of monosodium glutamate (MSG) as a flavor enhancer in increasing vegetable intake compared to sodium chloride (NaCl) alone combined with a digital culinary medicine education program. A two-phase randomized controlled trial (RCT) was conducted from February to November 2023. Phase one involved a five-week intervention where participants received a designated seasoning and logged their vegetable intake using the MyFitnessPal app. Phase two involved a sensory evaluation, assessing the palatability of green beans and sweet potatoes seasoned with NaCl/MSG mixtures using a Likert scale and triangle tests to determine preference and palatability. Phase one; 60 participants were assigned to one of three groups: 100% NaCl (control), 50/50 NaCl/MSG, and 70/30 NaCl/MSG. Phase two; 88 participants and all seasoning groups received a digital culinary medicine education program with recipes and videos. The 50/50 NaCl/MSG group showed a mean increase in vegetable intake from 1.46 to 1.55 cups/day, while the NaCl group showed a decrease from 1.33 to 0.95 cups/day ( = 0.46). Preference tests indicated favorability trends for MSG mixtures, particularly with green beans seasoned with the 50/50 NaCl/MSG mixture ( = 0.07). Although the differences in vegetable intake were not statistically significant, the findings suggest that MSG could enhance vegetable palatability and intake, aligning with the principles of culinary medicine. This represents a promising strategy for improving dietary habits. Further research is warranted to confirm these findings.  Clinicaltrials.gov identifier: NCT05591612.',
-    published: '2025-Jun',
+    id: '40537841',
+    title: `"We're all in it together": uniting a diverse range of professionals and people with lived experience within the development of a complex, theory-based paediatric speech and language therapy intervention.`,
+    abstract: 'BACKGROUND: It is increasingly commonplace to involve relevant professionals and people with lived experience within healthcare research. Although valuable case studies regarding such involvement exist, there is currently a paucity of case studies highlighting the professional and personal impacts of uniting a diverse group of professionals and people with lived experience within the development of new, theory-based interventions. The aim of this paper is to provide insight into the impacts of involving a diverse range of individuals, unified within a single steering group, within the development of a new, theory-based, paediatric speech and language therapy intervention ("Supporting Words and Sounds" - SWanS). By describing the involvement process in detail and providing our personal insights, we hope our recommendations will be of use to future healthcare researchers.\n' +
+      'MAIN BODY: Our project steering group consists of two people with lived experience (an adult with Developmental Language Disorder-DLD, a parent of a child with DLD), three specialist NHS speech and language therapists (including one university lecturer with equality and diversity expertise), and two individuals working in the education sector (a specialist teacher and a bilingual educational support worker). Group members have been involved across the 4 phase intervention development process. Tools such as the PiiAF (Public involvement impact Assessment Framework) have guided our personal and professional reflections on our individual experiences of being in a diverse steering group responsible for developing a new and complex theory-based intervention.\n' +
+      "CONCLUSION: We found that having a diverse range of people unified in a singular intervention development steering group had unexpected benefits. Learning from each other has enriched professional practice and developed individuals' confidence in terms of playing an active role in research. Our structured reflection has implications for future intervention development research, by highlighting that the provision of a safe, supportive space and nurturing of shared values is key when involving a diverse range of parties. Such contexts promote sustained involvement and therefore have longer term implications for increasing the relevance of the research for those it is aiming to help.",
+    published: '2025-Jun-19',
     authors: [
-      'Maher Carson',
-      'Alcorn Michelle',
-      'Childress Allison',
-      'Dawson John A',
-      'Galyean Shannon'
+      'Rodgers Lucy',
+      'Botting Nicola',
+      'Abdo Natalie',
+      'Amer-El-Khedoud Meriem',
+      'Baker Emma',
+      'Franks Sophie',
+      'Harford Dave',
+      'Salimi-Tabar Patrycja',
+      'Temple Laura',
+      'Herman Ros'
     ],
-    journal: 'Food science & nutrition',
-    doi: '10.1002/fsn3.70441',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535918/'
+    journal: 'Research involvement and engagement',
+    doi: '10.1186/s40900-025-00738-8',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537841/'
   },
   {
-    id: '40535906',
-    title: 'Lifestyle Medicine Interest Group (LMIG) Events Analysis.',
-    abstract: 'Lifestyle Medicine Interest Groups (LMIG) have grown substantially since 2008, with 165 LMIGs established across the U.S. as of June 2024. The American College of Lifestyle Medicine (ACLM) supports LMIG establishment within academic and health system settings, providing opportunities for students, faculty, and employees to learn about and practice lifestyle medicine (LM). A cross-sectional survey containing multiple-choice and free-text questions was administered continuously to established LMIGs between March 2020 and May 2023. Descriptive statistics were generated to note the number of unique institutions, median number of events, event attendance, and frequency of event types. Thematic analysis was conducted for all free-text sections of the survey. Data from 1,062 LMIG events across 127 unique institutions with a total of 29,689 attendees was analyzed. Each institution had a median of 5 events with a median of 16 attendees. Lectures, group physical activities, and board meetings were most common. Quantitative findings reveal substantial growth among LMIG events, expansion across geographic locations, and insights into funding sources. Nutrition and physical activity were most frequently highlighted, while social connection, sleep, and avoidance of risky substances were least represented. LMIGs are growing in number and size, empowering future health professionals through LM awareness.',
-    published: '2025-Jun-16',
+    id: '40537806',
+    title: 'Urban cycling-specific active transportation behaviour is sensitive to the fresh start effect: triangulating observational evidence from real world data.',
+    abstract: 'No abstract available',
+    published: '2025-Jun-19',
     authors: [
-      'Vanderpool Lauren E',
-      'Wong Madeline L',
-      'Gama Grace O',
-      'Holmes Shannon F',
-      'Frates Beth',
-      'Staffier Kara L',
-      'Charles Justin A',
-      'Karlsen Micaela C'
+      'Fast Isaak',
+      'Sobhan Shamsia',
+      'Klaprat Nika',
+      'George Tyler',
+      'Vik Nils',
+      'Prowse Dan',
+      'Collett Jacqueline',
+      'McGavock Jonathan'
     ],
-    journal: 'American journal of lifestyle medicine',
-    doi: '10.1177/15598276251337409',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535906/'
+    journal: 'The international journal of behavioral nutrition and physical activity',
+    doi: '10.1186/s12966-025-01785-w',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537806/'
   },
   {
-    id: '40535785',
-    title: 'Rehabilitation needs, preferences, barriers, and facilitators of individuals with sepsis: a qualitative study.',
-    abstract: 'PURPOSE: To explore the rehabilitation needs, preferences, barriers, and facilitators of sepsis survivors.\n' +
-      'METHODS: We performed a qualitative descriptive study. We included English-speaking adults over 18 years old with a past diagnosis of sepsis  a caregiver of an individual with a past diagnosis of sepsis. We conducted semi-structured interviews on Zoom, guided by the COM-B Framework and transcribed interviews verbatim. Two reviewers conducted qualitative content analysis.\n' +
-      'RESULTS: We included 22 participants. Participants identified the need for early and continued rehabilitation, including support for physical and cognitive health. They described barriers related to social isolation, finances, and lack of information on and accessibility to rehabilitation services. Participants reported that they preferred to participate in rehabilitation that included peer support, education for themselves and caregivers, and personalized services. Interview findings underscore the need to increase the accessibility of rehabilitation resources and the knowledge of sepsis survivors and their caregivers on the condition and the benefits of rehabilitation.\n' +
-      'CONCLUSION: We identified rehabilitation needs, preferences, barriers, and facilitators necessary to better support sepsis survivors in their recovery process. Future research should focus on tailoring strategies to improve the opportunity for rehabilitation for sepsis survivors and increasing the knowledge of sepsis in survivors and their caregivers to maximize participation in rehabilitation for individuals with sepsis.',
-    published: '2025-Jun',
+    id: '40537780',
+    title: "Medical students' attitudes toward providing patients with audio recordings of their medical encounters: a cross-sectional online survey.",
+    abstract: "BACKGROUND: Medical encounters often involve complex information that can be challenging to process, especially in emotionally charged situations. Providing patients with audio recordings of their medical encounters, termed consultation recordings, has shown promising benefits such as improved information recall and understanding. In prior research, patients largely reported favorable attitudes toward consultation recordings; physicians were more skeptical, particularly regarding legal risks. To date, consultation recordings are rare in Germany. This study aimed at understanding medical students' attitudes toward consultation recordings, as they are the healthcare professionals of the future and could therewith play a crucial role in further implementation efforts.\n" +
+      'METHODS: We conducted a nationwide cross-sectional quantitative online survey with medical students in Germany, assessing attitudes toward and desire for future consultation recordings. Data was analyzed using descriptive statistics.\n' +
+      'RESULTS: Two hundred twenty-two participants were included. 56% of participants expressed positive attitudes toward consultation recordings, acknowledging benefits such as information recall and preparation for follow-up consultations. However, they also expressed significant concerns about potential misuse, legal implications, and physicians feeling pressured. About 16% of participants expressed a clear willingness to offer consultation recordings in the future, while 44% were hesitant.\n' +
+      "CONCLUSIONS: Our findings that medical students recognize potential benefits of consultation recordings, while simultaneously expressing concerns about this intervention, are comparable to results from studies conducted in physician samples. Medical students' limited clinical experience and the low prevalence of consultation recordings in Germany likely contribute to these apprehensions. These mixed attitudes could be addressed by providing opportunities for positive experiences with consultation recordings during medical and postgraduate education as well as in clinical practice. Providing role models who support patient-centered care could also foster greater acceptance. Future research should focus on the integration of patient-centered interventions such as consultation recordings in the medical curricula. Overall, consultation recordings have the potential to become a valuable tool in routine healthcare if current barriers are effectively addressed.",
+    published: '2025-Jun-19',
     authors: [
-      'Smith-Turchyn Jenna',
-      'Alborzi Melina',
-      'Hong Julianne',
-      'Hvizd Jordon L',
-      'McKenney Shannon',
-      'Newman Anastasia N L',
-      'Rochwerg Bram',
-      'Kho Michelle E'
+      'Topf Cheyenne',
+      'Buzo Marina',
+      'Hahlweg Pola',
+      'Scholl Isabelle'
     ],
-    journal: 'International journal of nursing studies advances',
-    doi: '10.1016/j.ijnsa.2025.100339',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535785/'
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07460-9',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537780/'
   },
   {
-    id: '40535779',
-    title: 'Hidden in Plain Sight: A Scoping Review of Professional Grief in Healthcare and Charting a Path for Change.',
-    abstract: "Healthcare workers frequently experience emotional distress from repeated exposure to patient death, yet professional grief remains poorly recognized and inadequately supported. The COVID-19 pandemic further magnified these challenges, bringing professional grief into sharper focus. The purpose of this scoping review was to comprehensively examine professional grief among healthcare workers (HCWs) across different professions and specialties, map existing literature, identify research gaps, and provide educational, clinical, and policy recommendations. This scoping review followed Arksey and O'Malley's methodological framework and PRISMA-ScR guidelines. Databases searched included PubMed, CINAHL, and PsycINFO for literature from 2004 to 2024. Studies were screened based on inclusion criteria focusing on professional grief experiences of HCWs dealing with patient deaths. Qualitative, quantitative, and mixed-method studies were included. Eighty-one publications were reviewed, with most studies published since 2020, highlighting increased attention post-COVID-19. Key findings identified significant individual (eg, early career vulnerability, lack of formal education), interpersonal (eg, patient demographics, relationship quality), and systemic factors (eg, emotional suppression culture, workload constraints) influencing professional grief. Existing interventions were predominantly peer-based and lacked demonstrated efficacy in reducing grief intensity. Measurement inconsistencies revealed discrepancies between qualitative and quantitative assessments of grief intensity, indicating a need for specialized measurement tools tailored to professional contexts. Professional grief among HCWs is multifaceted and deeply influenced by cultural, educational, and systemic barriers. Comprehensive strategies addressing these barriers must include structured educational curricula, ongoing clinical support programs, validated grief measurement tools, and institutional policies promoting open emotional expression. These approaches are essential to fostering resilience, enhancing professional well-being, and improving patient care outcomes.",
-    published: '2025',
-    authors: [ 'Phillips Carolyn S', 'Trainum Katie', 'Thomas Hebdon Megan C' ],
-    journal: 'Health services insights',
-    doi: '10.1177/11786329251344772',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535779/'
-  },
-  {
-    id: '40535777',
-    title: 'Equity-Focused Palliative and End-of-Life Care in a System Not Designed for it: Qualitative Insights from Service Providers and Recipients.',
-    abstract: "'Equity-focused care' has gained attention in recent years. With widespread use, concepts take on different meanings creating confusion for service providers. This study examines what people experiencing homelessness with life-limiting illnesses value in equity-focused care, and how service providers-who identify their work as equity-focused-describe their roles within a care system that relies on, yet often undervalues, this kind of work. We conducted 11 interviews with service providers and seven with people experiencing homelessness with a life-limiting illness and who received care from a community-based palliative care team in Western Canada. Interviews were transcribed and analyzed via thematic analysis. We constructed three themes: ; and . Themes aligned with two spheres of influence from the Education Training Research's Health Equity Framework:  and . Findings highlighted that service providers deliver equity-focused care by developing strong relational care networks challenging existing power structures -making this model incongruent with existing individually-focused biomedical care models. Findings transform the theoretical concept, 'equity-focused care', into tangible knowledge that highlights areas for policy change to support equity-focused care.",
-    published: '2025',
+    id: '40537765',
+    title: 'Understanding sexual and reproductive health need of unmarried adolescents and youth in urban slums: evidence from a formative study in Uttar Pradesh, India.',
+    abstract: 'BACKGROUND: Despite the intentional focus of national programs and strategies in last decade, unmarried adolescents and youth (AY) face multiple challenges related to sexual and reproductive health (SRH) information, and access to health and counseling services. With massive urbanization and growing slum and more focus on married youth, the situation and need of unmarried AY are often overlooked. The present study explores the SRH need of AY to gain a holistic understanding of the SRH landscape in the context of slums of Uttar Pradesh, India.\n' +
+      'METHODS: A formative qualitative study was conducted in the slums of two cities in Uttar Pradesh using qualitative research techniques-in-depth interviews (IDI) and focus group discussions (FGDs) with unmarried adolescents and youths aged 15-24 years. Thematic analysis was guided by principles of grounded theory and narrative inquiry, both inductive and deductive approaches.\n' +
+      'RESULTS: The study found limited awareness of SRH issues and often inaccurate knowledge of modern contraceptives among the unmarried youth.Gendered access to SRH information emerged clearly, with boys benefitting from wider peer network, while girls relied on familial networks. Lack of social networks and support, communication gap, and limited reach of health providers have majorly contributed to misinformation and misconceptions. Information through social media and online sources served as a key source of SRH knowledge among adolescents and unmarried youth, but concerns remained about the accuracy and reliability of the information accessed. Structural constraints such as stigma, mobility restrictions, and provider bias further marginalized unmarried youth-especially girls-from accessing reliable SRH services.\n' +
+      'CONCLUSION: The study highlighted demand for SRH knowledge, source of knowledge, major concerns, and opportunities of AY in urban slums. A clear need for multi-faceted strategies targeting sexual health education, adolescent-responsive SRH services, and expanded digital outreach with verified content for this vulnerable populations are identified. However, targeted intervention through system level approaches for AY can be helpful for dispelling myths and providing accurate information.',
+    published: '2025-Jun-19',
     authors: [
-      'Petruik Courtney R',
-      'Wan-Sai-Cheong Lauren',
-      'Hagos Helen',
-      'Milaney Katrina'
+      'Sahni Hitesh',
+      'Sharma Mukesh',
+      'Panda Basant Kumar',
+      'Das Emily',
+      'Behera Samrendra',
+      'Pandey Neelanjana',
+      'Kumar Abhishek',
+      'Graham Kate',
+      'Salas Ian'
     ],
-    journal: 'Global qualitative nursing research',
-    doi: '10.1177/23333936251350107',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40535777/'
+    journal: 'Reproductive health',
+    doi: '10.1186/s12978-025-02025-x',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537765/'
+  },
+  {
+    id: '40537759',
+    title: 'Verifying learning success: assessment and certification of student ultrasound education.',
+    abstract: 'Student ultrasound education (SUSE) is currently composed of heterogeneous curricular training formats, and new approaches are continually being explored to enhance undergraduate ultrasound training. Based on a literature review, this report aims to analyze and compare different forms and methods of assessment of acquired skills in ultrasound training. Therefore, the advantages and disadvantages of assessment formats and certification systems used in SUSE were discussed collaboratively between medical students, postgraduate physicians, and medical didactics experts. Ultrasound competency should be tested using structured examination formats that are objective and standardized. In addition to cognitive skills, the examination format should cover translational and behavioral components. Self-assessments and evaluations provide additional valuable perspectives. Certification systems can contribute to quality assurance by externally ensuring the achievement of milestones in SUSE. They also have the potential to support the necessary standardization of undergraduate ultrasound teaching by aligning the curricular learning objectives with qualifications to be achieved.',
+    published: '2025-Jun-19',
+    authors: [
+      'Neubauer Ricarda',
+      'Recker Florian',
+      'Weimer Johannes',
+      'Jenssen Christian',
+      'Nürnberg Dieter',
+      'Karlas Thomas',
+      'Westerway Susan Campbell',
+      'Ruppert Johannes P',
+      'Daum Nils',
+      'Gschmack Anna',
+      'Dong Yi',
+      'Möller Kathleen',
+      'Nourkami-Tutdibi Nasenien',
+      'Barth Gregor',
+      'Şirli Roxana',
+      'Lucius Claudia',
+      'Prats Michael',
+      'Sänger Sophie-Luise',
+      'Keil Michael',
+      'Zervides Constantinos',
+      'Hoffmann Beatrice',
+      'Dietrich Christoph F'
+    ],
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07469-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537759/'
+  },
+  {
+    id: '40537755',
+    title: 'Gender-related factors affecting community malaria-related perceptions and practices in Migori County, Kenya.',
+    abstract: 'BACKGROUND: Malaria poses a significant global public health challenge yet there remains limited information on the influence of gender dynamics on malaria programmes despite the well-known gender-specific differentials in the prevalence, transmission and exposure to malaria. The 2024 World Malaria Report indicates that the burden of malaria and the challenges in addressing it remain severe in sub-Saharan Africa (SSA), with eleven countries including Kenya bearing almost two-thirds of the global disease burden. Kenya remains heavily affected, with around 70% of the population at risk. The aim of this paper is to explore how gender-related factors influence malaria healthcare-seeking perceptions and practices in Migori County, a malaria endemic area in Western Kenya.\n' +
+      'METHODS: The study employed a qualitative research design to gain in-depth insights into local perceptions and practices regarding malaria. Thirty-one in-depth interviews, four gender-stratified focus group discussions, six key informant interviews, and five process mapping exercises. Participants were purposively selected to ensure diversity and data thematically with both inductive and deductive approaches applied to generate themes.\n' +
+      'RESULTS: The results of the study are in three main themes; gender-related similarities and differences in malaria healthcare-seeking perceptions; gender differentials in malaria prevention and treatment practices and the gendered dimensions of malaria healthcare-seeking information. Participants were generally aware of malaria, although there were noticeable gaps in their understanding regarding transmission and prevention. Gender related factors including gender dimensions (gender roles and relations); social stratifiers (level of education, gender identity, occupation) and cultural dynamics (beliefs- religion and traditional superstitions) influenced the perceptions of risk and vulnerability. Decision-making was reported as shared in relation to type of treatment and access to care.\n' +
+      "CONCLUSION: The study of community's perceptions reveals that malaria healthcare-seeking, knowledge, attitudes and practices and the perceptions of risk and vulnerability are influenced by gender roles and relations and intersections among socio-demographic factors, beliefs including religion and traditional superstitions, and occupation. Gender disparities in knowledge and healthcare-seeking behaviours illuminated in this study underscore the need for gender-sensitive public health interventions, inclusive health policies and integration of pluralistic health care systems to improve public health outcomes.",
+    published: '2025-Jun-19',
+    authors: [
+      'Ngutu Mariah',
+      'Omia Dalmas O',
+      'Ngage Tonny Onyango',
+      'Oduor Cynthia Akinyi',
+      'Ouko Nelson O',
+      'Oingo Balentine',
+      'Oluoch Iscar',
+      'Kariuki Simon',
+      'Chikovore Jeremiah',
+      'Onyango-Ouma Washington',
+      'Bukachi Salome A'
+    ],
+    journal: 'Malaria journal',
+    doi: '10.1186/s12936-025-05336-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537755/'
+  },
+  {
+    id: '40537748',
+    title: 'Randomized controlled trial of asynchronous vs. synchronous online teaching formats: equal knowledge after training, greater acceptance and lower intrinsic motivation through asynchronous online learning.',
+    abstract: "BACKGROUND: The growing importance of online education in recent years has led to an increased focus on implementing and optimizing online learning formats. This study investigated how a lecture delivered in an asynchronous or synchronous online teaching format affects acceptance, intrinsic motivation and knowledge levels after training. The results can be used to optimize online education by identifying format-specific advantages and adapting them to learners' needs.\n" +
+      'METHODS: All the Styrian paramedics (N = 5910) were invited to participate in the study and randomly assigned to one of two groups. A total of 1044 participants completed the trial, with one group receiving asynchronous training via a learning platform (N = 545) and the other group participating in synchronous training via webinars (N = 499) providing the same content. After completing a two-hour psychiatric emergency course, the participants were invited to complete a multiple-choice test and a survey assessing acceptance, preferences and intrinsic motivation. Linear regression, t tests and mediation analyses were conducted.\n' +
+      "RESULTS: The asynchronous training format was significantly more accepted (p <.001) and preferred overall. The participants' preferences depended significantly on the type of learning format (p <.001). The synchronous learning format fostered greater intrinsic motivation (p =.001) and greater perceived autonomy (p <.001) but also a higher level of perceived pressure/tension (p =.003). The analysis revealed no significant difference in test results (p =.449) or perceived competence between the groups (p =.420). Furthermore, the difference in intrinsic motivation was fully mediated by perceived autonomy.\n" +
+      "CONCLUSIONS: There are different advantages and disadvantages to providing a lecture via webinar or online learning platform. Both formats are equally effective in terms of knowledge levels after training, highlighting the importance of adapting teaching strategies to learners' preferences.",
+    published: '2025-Jun-19',
+    authors: [
+      'Zsifkovits Monika',
+      'Amplatz Lukas',
+      'Triebner Nina',
+      'Utz Janine',
+      'Kornhuber Johannes',
+      'Spitzer Philipp'
+    ],
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07481-4',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537748/'
+  },
+  {
+    id: '40537744',
+    title: 'Assessing decision-making skills with the Script Concordance Test (SCT) in clinical neurology and emergency medicine.',
+    abstract: 'BACKGROUND: Clinical reasoning is an essential medical competence that should be taught and assessed from the beginning of medical studies. These skills can be evaluated using the Script Concordance Test (SCT), which presents daily clinical scenarios characterised by uncertainty. Due to the lack of validated research on this method in Germany, particularly in the field of neurology, we developed and implemented an SCT at Ruhr University Bochum. We compared different teaching methods (clinical seminar vs. digital video course) and their outcomes on the examination.\n' +
+      'METHODS: A group of 6th-year medical students who had received the same education completed an SCT after participating in either a clinical seminar or a digital video course. The SCT was developed using blueprints on stroke and epilepsy. The test consisted of 40 case vignettes with a total of 120 items. Initially, experts completed the test to establish the reference panel. The final high-stakes examination was created using the aggregate scoring method and an item analysis.\n' +
+      "RESULTS: The SCT was completed by 15 experts and 59 students. The final SCT consisted of 112 items and achieved a Cronbach's alpha of 0.85. A significant difference (p < 0.05) was observed between the experts, who achieved a mean score of 81.75, and the students on the first assessment day, who achieved a mean score of 68.92. No significant differences were found between the groups (interactive video course and seminar) or assessment time points. The questionnaire revealed a sense of insecurity in clinical decision-making before the SCT and highlighted the need to incorporate clinical reasoning practices from the beginning of medical studies to mitigate fear in uncertain situations. The SCT helped students structure decision-making processes and and improved their confidence in making decisions.\n" +
+      'CONCLUSION: The SCT is a reliable and valid tool for assessing medical students throughout their university education. Regular exposure to the SCT format would facilitate familiarity with its structure. We propose utilising the SCT as a learning tool rather than solely for assessment purposes. For instance, it could be integrated into teaching methodologies as a think-aloud exercise or incorporated into progress tests.',
+    published: '2025-Jun-19',
+    authors: [
+      'Gudorf Helena-Fee',
+      'Heidrich Maximilian',
+      'Rauchstädt Kristoph',
+      'Scherbaum Raphael',
+      'Tönges Lars',
+      'Biesalski Anne-Sophie'
+    ],
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-06814-7',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40537744/'
   }
 ]
 Collected 10 papers from pubmed
@@ -758,915 +798,6 @@ Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 39961,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4597,
-        [Symbol(triggerId)]: 4595
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 4,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Thu, 19 Jun 2025 15:11:59 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Thu, 19 Jun 2025 15:11:59 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 39975,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4616,
-        [Symbol(triggerId)]: 4614
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 4,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Thu, 19 Jun 2025 15:11:59 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.03.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Thu, 19 Jun 2025 15:11:59 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1852,6 +983,537 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ECONNABORTED',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: [HTTPParser],
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 65696,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 5770,
+        [Symbol(triggerId)]: 5768
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 2,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Fri, 20 Jun 2025 15:12:11 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Fri, 20 Jun 2025 15:12:11 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.32598/jccnc.7.1.33.14 (original: https://doi.org/10.32598/jccnc.7.1.33.14): AxiosError: timeout of 10000ms exceeded
     at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
     at RedirectableRequest.emit (node:events:524:28)
@@ -2029,14 +1691,15 @@ Error scraping abstract from https://doi.org/10.32598/jccnc.7.1.350.1 (original:
     at listOnTimeout (node:internal/timers:581:17)
     at process.processTimers (node:internal/timers:519:7)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:545:9)
+    at process.processTimers (node:internal/timers:519:7)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
     at async Promise.all (index 2)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34) {
   code: 'ECONNABORTED',
   config: {
     transitional: {
@@ -2185,6 +1848,175 @@ Error scraping abstract from https://doi.org/10.32598/jccnc.7.1.350.1 (original:
       [Symbol(kUniqueHeaders)]: null
     },
     _currentUrl: 'http://jccnc.iums.ac.ir/article-1-294-en.html',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: timeout of 10000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ECONNABORTED',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: [HTTPParser],
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
     _timeout: null,
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
@@ -2350,13 +2182,10 @@ Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
 Translating paper 15/50
 Translating paper: Experience and education...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.908344342470005 seconds...
 Translating paper 16/50
 Translating paper: From Theory to Practice of Promoting Student Engag...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.3616901826126075 seconds...
 Translating paper 17/50
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.0306642892669236 seconds...
 Translating paper 18/50
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
 Translating paper 19/50
@@ -2367,6 +2196,7 @@ Translating paper 21/50
 Translating paper: Mothers’ duties and rights when positioned as remo...
 Translating paper 22/50
 Translating paper: ‘Quality and consequence’: interrogating the drive...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.2815437985649702 seconds...
 Translating paper 23/50
 Translating paper: What makes quality teachers in remote First Nation...
 Translating paper 24/50
@@ -2377,33 +2207,35 @@ Translating paper 26/50
 Translating paper: A phenomenological reading of integration in the l...
 Translating paper 27/50
 Translating paper: The positioning of quality and expertise in initia...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.976011232745505 seconds...
 Translating paper 28/50
 Translating paper: Mathematics education for sustainable futures: a s...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.8797063070940534 seconds...
 Translating paper 29/50
 Translating paper: Who cares for the carers: A poetic inquiry of init...
 Translating paper 30/50
-Translating paper: Studying Year 6 students’ perceptions of gender an...
+Translating paper: Digital redesign of the radiotherapy course for me...
 Translating paper 31/50
-Translating paper: Distinct patterns of health risk behaviours in ado...
+Translating paper: Associations of physical activity, sedentary behav...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.896963393650591 seconds...
 Translating paper 32/50
-Translating paper: PTSD Symptoms change in response to a brief intens...
+Translating paper: The social determinants of tuberculosis: a case-co...
 Translating paper 33/50
-Translating paper: Surface Pretreatment Protocols For Indirect/Semi-D...
+Translating paper: "We're all in it together": uniting a diverse rang...
 Translating paper 34/50
-Translating paper: Motivational preferences of interdisciplinary fami...
+Translating paper: Urban cycling-specific active transportation behav...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.558976000033037 seconds...
 Translating paper 35/50
-Translating paper: Knowledge, attitude, and practice of kidney transp...
+Translating paper: Medical students' attitudes toward providing patie...
 Translating paper 36/50
-Translating paper: Increasing Vegetable Intake Using Monosodium Gluta...
+Translating paper: Understanding sexual and reproductive health need ...
 Translating paper 37/50
-Translating paper: Lifestyle Medicine Interest Group (LMIG) Events An...
+Translating paper: Verifying learning success: assessment and certifi...
 Translating paper 38/50
-Translating paper: Rehabilitation needs, preferences, barriers, and f...
+Translating paper: Gender-related factors affecting community malaria...
 Translating paper 39/50
-Translating paper: Hidden in Plain Sight: A Scoping Review of Profess...
+Translating paper: Randomized controlled trial of asynchronous vs. sy...
 Translating paper 40/50
-Translating paper: Equity-Focused Palliative and End-of-Life Care in ...
+Translating paper: Assessing decision-making skills with the Script C...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2425,25 +2257,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 368 -> 328
-Total papers after merging: 328 (318 existing + 50 new)
-Saved 328 papers to papers.json
+Removed duplicates: 378 -> 339
+Total papers after merging: 339 (328 existing + 50 new)
+Saved 339 papers to papers.json
 Generating HTML files...
-Generating index.html with 328 papers...
+Generating index.html with 339 papers...
 Successfully generated index.html
-Generating archive.html with 328 papers...
+Generating archive.html with 339 papers...
 Successfully generated archive.html
-Generating journal.html with 328 papers...
+Generating journal.html with 339 papers...
 Successfully generated journal.html
-Generating acquisition.html with 328 papers...
+Generating acquisition.html with 339 papers...
 Successfully generated acquisition.html
-Generating publication.html with 328 papers...
+Generating publication.html with 339 papers...
 Successfully generated publication.html
-Generating registration.html with 328 papers...
+Generating registration.html with 339 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 328
+Total papers in database: 339
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-19T15:41:28.507Z
+Timestamp: 2025-06-20T15:41:05.811Z
