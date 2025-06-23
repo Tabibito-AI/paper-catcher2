@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-22T15:09:55.978Z
+Timestamp: 2025-06-23T15:12:15.334Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 349 existing papers from papers.json
+Loaded 359 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -563,207 +564,187 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40544311',
-    title: 'Who receives health advice? Prevalence and correlates of receiving health advice among adults in Cape Verde.',
-    abstract: 'BACKGROUND: Achieving the sustainable development goal target 3.4 requires an all-hand-on-deck approach. Healthcare professionals are expected to provide health advice on lifestyle changes that will reduce the risk of developing non-communicable diseases, or improve the quality of life of those who already have the condition. The study examined the prevalence and correlates of receiving health advice among adults in Cape Verde.\n' +
-      'METHODS: We analyzed the data 1,098 adults aged 18-69 years who participated in the 2020 WHO STEPS survey. All estimates were weighted. Bivariable and multivariable logistic regression were performed to assess correlates of receiving at least one health advice. Statistical significance was set at p < 0.05, with 95% confidence intervals reported.\n' +
-      'RESULTS: Overall, 60.4% (95%CI: 55.3, 62.3) of adults in Cape Verde had received at least one health advice. Compared to younger adults (< 30 years), individuals aged 30-59 years having 1.55 times higher odds (AOR = 1.55, 95%CI: 1.11-2.15) and those aged 60 years and older having nearly three times the odds (AOR = 2.93, 95%CI: 1.71-5.02) of receiving advice. Previously married (AOR = 1.69, 95%CI: 1.09-2.61) and cohabiting individuals had higher odds (AOR = 1.56, 95%CI: 1.12-2.18) of receiving advice compared to those who were never married. Alcohol consumption was inversely associated with receiving advice, as drinkers had 40% lower odds of receiving advice compared to non-drinkers (AOR = 0.60, 95%CI: 0.45-0.81). Individuals consuming fewer than four servings of fruit per day had significantly lower odds of receiving advice (AOR = 0.58, 95%CI: 0.37-0.90), while those consuming fewer than four servings of vegetables per day had 1.41 times higher odds (AOR = 1.41, 95%CI: 1.06-1.88). The likelihood of receiving health advice was high among those living with hypertension (AOR = 1.94, 95%CI: 1.41-2.65).\n' +
-      'CONCLUSION: Evidence from this study suggests that there is a moderately high prevalence of receiving health advice in Cape Verde. The key correlates are hypertension status, increasing age, marital status, alcohol consumption and dietary habits. The findings underscore the need for targeted health education and counseling strategies that address the unique needs of different population subgroups, particularly younger adults, non-drinkers, and those with suboptimal dietary habits, to ensure equitable access to health advice.',
-    published: '2025-Jun-21',
-    authors: [ 'Okyere Joshua', 'Ayebeng Castro', 'Dickson Kwamena Sekyi' ],
-    journal: 'Journal of health, population, and nutrition',
-    doi: '10.1186/s41043-025-00923-1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544311/'
-  },
-  {
-    id: '40544307',
-    title: 'Exclusive breastfeeding practices in Afghanistan: evidence from the 2022-2023 multiple indicator cluster survey.',
-    abstract: 'BACKGROUND: National prevalence estimates of exclusive breastfeeding practices could serve as the basis for future policy efforts and specific interventions. However, little is known about the prevalence and factors associated with exclusive breastfeeding practices in Afghanistan. This study aims to determine the prevalence and factors associated with exclusive breastfeeding practices among infants aged 0-5 months in Afghanistan.\n' +
-      'METHODS: Multiple Indicator Cluster Survey (MICS) data collected between 2022 and 2023 were used for this analysis. Data from 3,141 mother-infant dyads were included in the study. The outcome variable was exclusive breastfeeding (EBF), defined as the proportion of infants 0-5 months of age who were fed only breast milk in the past 24 h. Binary logistic regression models were applied to examine the likelihood of EBF across the categories of independent variables.\n' +
-      'RESULTS: In the studied population, 67.0% (95%CI 65%-69%) of the infants were exclusively breastfed. The likelihood of EBF was higher in infants born to mothers with secondary or higher education [AOR = 1.35, 95%CI 1.04-1.76] and in infants with timely initiation of breastfeeding [AOR = 1.25, 95%CI 1.07-1.46]. However, the female sex of the infant was associated with lower odds of EBF practices [AOR = 0.83, 95%CI 0.72-0.97].\n' +
-      'CONCLUSION: The practice of exclusive breastfeeding is at a good level (67%) in Afghanistan. Higher maternal education level, timely breastfeeding initiation, and being a male infant increased the likelihood of EBF practices. Policy efforts and interventions focused on these factors could enhance EBF practices in Afghanistan.',
-    published: '2025-Jun-21',
+    id: '40546704',
+    title: 'Receptive Vocabulary, Phonological Short-Term Memory, Theory of Mind and Oral Inferential Comprehension in French-Speaking Preschoolers With and Without Developmental Language Disorder.',
+    abstract: 'BACKGROUND AND AIMS: Inferential comprehension difficulties and their impacts on reading comprehension are well documented in school-aged children with Developmental Language Disorder (DLD). In comparison, fewer studies have been conducted in young children with DLD prior to their formal schooling journey. In addition, the contribution of linguistic and cognitive skills to oral inferential comprehension abilities in preschoolers, notably receptive vocabulary, phonological short-term memory, and theory of mind (ToM), requires further investigation. The first aim of this study is to explore how young children presenting with DLD aged 5 to 6 years perform when compared to same-age and younger children presenting with typical language development (TLD) on measures of oral inferential comprehension, receptive vocabulary, ToM, and phonological short-term memory. The second aim is to analyze how these linguistic and cognitive skills contribute to oral inferential comprehension in both DLD and TLD preschool children.\n' +
+      'METHODS: A total of 112 preschool children participated in this study, including 21 ( = 21) children with DLD aged 5 to 6 years and two TLD groups, 37 ( = 37) younger children aged 4 to 5 years and 54 ( = 54) same-age children. A narrative-based oral inferential comprehension task was administered to all children, in addition to measures of receptive vocabulary, phonological short-term memory, and ToM. Analysis of covariance (ANCOVAs) were used to compare performances between the three groups, followed by Pearson correlations and hierarchical regression analyses to examine the contribution of these variables to oral inferential comprehension abilities across the sample.\n' +
+      'RESULTS: After controlling for level of parental education (LPE) and biological sex, children with DLD performed significantly below the same-age TLD group on all four measures with large effect sizes ( < .001;   = .17-.44). Their performance was comparable to the younger TLD group on measure of oral inferential comprehension ( = .234), and significantly below on measures of receptive vocabulary ( = .008), phonological short-term memory ( < .001), and ToM ( = .028). Results from the regression analysis indicated that age, LPE, diagnosis condition, receptive vocabulary and ToM accounted for 53% of the total variance in oral inferential comprehension.\n' +
+      'CONCLUSIONS AND IMPLICATIONS: This study reiterates the early listening comprehension difficulties experienced by preschool children with DLD when compared to children presenting with typical language development. The results also indicate that when controlling for age, LPE and diagnosis condition, children are likely to have better inferential comprehension abilities if they perform well on a measure of ToM. Considering that challenges related to language comprehension are acknowledged to be persistent and less responsive to intervention, these findings can help inform the development of evidence-based interventions aiming at supporting language comprehension of young children with DLD.',
+    published: '2025',
     authors: [
-      'Stanikzai Muhammad Haroon',
-      'Tawfiq Essa',
-      'Jafari Massoma',
-      'Ezadi Zainab',
-      'Tareen Zarghoon',
-      'Alawi Sayed Ali Shah',
-      'Sayam Hadia',
-      'Wasiq Abdul Wahed',
-      'Dadras Omid'
+      'Filiatrault-Veilleux Pamela',
+      'Pichonsky Julia',
+      'Desmarais Chantal'
     ],
-    journal: 'Journal of health, population, and nutrition',
-    doi: '10.1186/s41043-025-00963-7',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544307/'
+    journal: 'Autism & developmental language impairments',
+    doi: '10.1177/23969415251353154',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546704/'
   },
   {
-    id: '40544296',
-    title: 'The nexus between healthcare provider distribution and neonatal mortality based on the context of maternal and child healthcare services in Pakistan.',
-    abstract: 'BACKGROUND: Healthcare provider dearth, particularly in Low and Middle-income countries (LMICs), reduces the development towards improved healthcare outcomes and accomplish the Sustainable Development Goals (SDGs-3). This study aims to investigate the association between Professional and Non-professional healthcare provider distribution and neonatal mortality through the mediating role of maternal and child healthcare (MCH) services in Pakistan.\n' +
-      'METHODS: The present research used data from the 2018 Pakistan Demographic and Health Survey (PDHS) total sample that comprises (N = 8022). The dependent variable includes the risk of neonatal mortality 0-30 days. Bivariate and Multivariate analyses were conducted by utilizing the Cox proportional hazards and regression models. The estimation of mortality rates was achieved through generalized structural equation modelling (GSEM) and the 5000 bootstrap technique. All the investigations were carried out in STATA v. 16.1.\n' +
-      'RESULTS: Our results revealed that around 2.46% of neonatal deaths occur. The average healthcare provider distribution type was professional, 83.45%, non-professional, 1.45%, and no care, 15.11%. 0.88% of females are less likely to die within the first thirty days of their birth compared to males. The regression outcomes demonstrate that the healthcare providers were positive and significantly linked to neonatal mortality. Additionally, a unit increase in healthcare providers has a 1.20% Higher likelihood of increasing the MCH and overall reducing neonatal mortality (HR = 0.60).\n' +
-      "CONCLUSION: The outcomes illustrate that healthcare provider distribution and MCH play a vital role in minimizing neonatal mortality. To ensure well-distributed healthcare provider distribution, promoting maternal education, empowering women's decision-making in acquiring MCH services utilization, and expanding access to free MCH services are the essentials for better maternal and healthcare outcomes.",
-    published: '2025-Jun-21',
+    id: '40546679',
+    title: 'Biomarkers for tracking metabolic changes pre-post nutritional epigenetics diet/intervention to prevent autism and attention deficit/hyperactivity disorders in children.',
+    abstract: 'The prevalence of autism and attention deficit/hyperactivity disorders is increasing worldwide. Recent studies suggest the excessive intake of ultra-processed food plays a role in the inheritance of these disorders  heavy metal exposures and nutritional deficits that impact the expression of genes. In the case of the metallothionein (MT) gene, biomarker studies show dietary zinc (Zn) deficits impact MT protein levels in children with autism and are associated with the bioaccumulation of lead and/or mercury in children exhibiting autism/attention deficit/hyperactivity disorders symptomology. The impact of dietary changes on lead and mercury exposures and  gene behavior could be determined using a randomized test and control group design. Pregnant women serving in the test-group would participate in a nutritional epigenetics education intervention/course designed to reduce ultra-processed food intake and heavy metal levels in blood while increasing whole food intake and MT and Zn levels. Changes in maternal diet would be measured using data derived from an online diet survey administered to the test and control groups pre-post intervention. Changes in maternal lead, mercury, Zn, and MT levels would be measured  blood sample analyses prior to the intervention and after childbirth  cord blood analyses to determine infant risk factors.',
+    published: '2025-Jun-20',
+    authors: [ 'Dufault Renee J' ],
+    journal: 'World journal of experimental medicine',
+    doi: '10.5493/wjem.v15.i2.101555',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546679/'
+  },
+  {
+    id: '40546673',
+    title: 'Platelet rich plasma, adipose tissue micrografts, and regenerative mimetic factors for abdominal wall defect reconstruction: Experimental study protocol.',
+    abstract: 'BACKGROUND: Incisional hernias are a common complication of previous surgeries and remain a persistent issue in clinical practice, posing a significant burden on healthcare systems despite advances in education and technology. Surgical techniques, primarily involving the use of mesh to cover the abdominal wall gap, are widely used as a standard intervention strategy.\n' +
+      'AIM: To examine the regeneration of the aponeurosis defect in the anterior abdominal wall in rats using regenerative mimetic factors of the extracellular matrix [ReGeneraTing Agent (RGTA)], adipose tissue micrografts (ATM), and platelet rich plasma (PRP) as regenerative agents.\n' +
+      'METHODS: Regenerative agents such as RGTA, ATM, and PRP are gaining popularity. ATM involves autologous adipose tissue cells with mesenchymal stem cell markers and a high percentage of stromal vascular fraction cells. RGTAs are heparan sulfate (HS) mimetics that replace degraded HSs in damaged tissue, enhancing the quality and speed of repair. PRP is a concentrated plasma preparation containing seven fundamental proteins responsible for tissue production. An acellular dermal matrix is a biological implant free of cellular or antigenic components, making it an excellent material for reconstructive surgery. Polyglactin is a synthetic, absorbable mesh that loses 50% of its strength after fourteen days, providing initial support for new tissue regeneration before being completely absorbed.\n' +
+      'RESULTS: Rats will undergo a laparotomy with a precise 2 cm by 2 cm excision of the anterior abdominal wall fascia below the umbilicus. They will be divided into sixteen groups, each receiving different combinations of regenerative factor injections into the denervated area in both non-contaminated and contaminated environments. A collagen-elastin matrix will be used to join the aponeurosis edges, with an absorbable polyglactin mesh anchored over it. Samples will be taken for macroscopic, histological, and immunohistochemical evaluation of tissue regeneration.\n' +
+      'CONCLUSION: Our study aims to demonstrate how these factors promote cell proliferation and healing of the denervated anterior abdominal wall, potentially reducing the frequency and complications of incisional hernias. This approach could offer a more economical and efficient treatment option compared to current costly methods.',
+    published: '2025-Jun-20',
     authors: [
-      'Nawaz Rashed',
-      'Khalid Neelum',
-      'Ajmal Fatima',
-      'Akbary Mohammad Fazel',
-      'Gong Shaoqing',
-      'Zhou Zhongliang'
+      'Zapsalis Konstantinos',
+      'Ioannidis Orestis',
+      'Xylas Christos',
+      'Siozos Konstantinos',
+      'Gemousakakis Georgios',
+      'Anestiadou Elissavet',
+      'Symeonidis Savvas',
+      'Bitsianis Stefanos',
+      'Kotidis Efstathios',
+      'Cheva Angeliki',
+      'Bekiari Chryssa',
+      'Loukousia Antonia',
+      'Angelopoulos Konstantinos',
+      'Pramateftakis Manousos-Georgios',
+      'Mantzoros Ioannis',
+      'Tserkezidis Freiderikos',
+      'Driagka Barbara',
+      'Angelopoulos Stamatios'
     ],
-    journal: 'Journal of health, population, and nutrition',
-    doi: '10.1186/s41043-025-00971-7',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544296/'
+    journal: 'World journal of experimental medicine',
+    doi: '10.5493/wjem.v15.i2.99065',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546673/'
   },
   {
-    id: '40544294',
-    title: 'Inclusion of under-served groups in trials: an audit at a UK primary care clinical trials unit.',
-    abstract: 'BACKGROUND: Clinical trials need to include patients who are representative of the population who may receive the tested interventions in the future. The importance of inclusivity is recognised by ethical and funding bodies and has public support. Appropriate inclusion is required to provide equitable evidence-based healthcare and to comply with ethical principles for research. However, there is little information about the inclusivity of most under-served groups in UK clinical trials.\n' +
-      'METHODS: This audit assesses the inclusion of under-served groups in trials run by the Oxford Primary Care Clinical Trials Unit (PC-CTU). We included trials with ethical approval between 2017 and 2023. We checked protocols, patient-facing information and selected data collection tools for information on the under-served groups in the INCLUDE guidance and protected characteristics in the UK Equality Act 2010, to identify explicit exclusions and data collection.\n' +
-      'RESULTS: We included 19 trials. They were in a variety of clinical conditions, testing different types of interventions, both Clinical Trial of an Investigational Medicinal Product (CTIMP) and non-CTIMP. Most were non-commercially funded. We reviewed 21 protocols, 29 Patient Information Sheets/Leaflets and 40 data collection tools. Common exclusions were based on age (19), sex or gender (11), language (8), capacity to consent (14), pregnancy (11), multiple health conditions (10) and severity of illness (17). Trials most often collected data on age (19), sex or gender (15), ethnicity (16), education (11), address (13), mental health conditions (6), who gave consent (19), addiction (6), multiple health conditions (10), severity of illness (17), smoking status (12) and obesity (13).\n' +
-      "CONCLUSIONS: Often, exclusions were due to the focusing of the trial for a specific group, such as older people, women, or people being treated for a specific severity of condition. However, many explicit exclusions may not have been essential, may have reduced the inclusivity of the trials and might limit the applicability of the trial's findings to people to whom the tested interventions might be relevant. These include the exclusion of people aged under 18, people without English language fluency and people without capacity to consent. All trials could have collected more informative data on under-served group status.",
-    published: '2025-Jun-21',
+    id: '40546651',
+    title: 'Medicare Savings for Seizure Drugs by Adopting the Mark Cuban Cost Plus Drug Company Model.',
+    abstract: "BACKGROUND: Epilepsy is a lifelong diagnosis, often requiring pharmacologic management. Despite the chronicity of this disorder, there has been a rise in medication cost over the years. To address this, Mark Cuban Cost Plus Drug Company (MCCPDC) has created a more affordable option to obtain patients' prescriptions. Focusing on epileptic medication, this study examines the potential cost saving benefit of MCCPDC compared to Medicare Part D plans.\n" +
+      'METHODS: We conducted a cross-sectional review identifying the prices of anticonvulsants available on MCCPDC compared to the 2021 Medicare Part D spending data. Prices for dispensing and shipping fees were recorded for the minimum quantity (30ct) and maximum quantity (90ct). We compared standardized unit prices for 30 and 90-day periods between Medicare and MCCPDC drugs.\n' +
+      'RESULTS: Of the 16 anti-seizure medications shared between MCCPDC and Medicare, Medicare spending reached nearly $1 billion. Analyzing 30ct prescriptions, we found potential savings in 60% of the drugs, amounting to $172 million when comparing individual drug costs on MCCPDC to Medicare. However, when averaged across all 30ct drugs, MCCPDC prices were 14.85% higher than Medicare, indicating that higher costs for certain drugs offset the savings from others. For 90ct prescriptions, savings were $373 million in 80% of drugs, a 31.63% reduction compared to Medicare prices.\n' +
+      'CONCLUSION: Our study highlights the potential savings with MCCPDC, especially among the 90ct medications, demonstrating that a cheaper alternative to chronic medications is possible if the pricing of MCCPDC is used. We recommend that physicians educate patients on MCCPDC and their specific medications to find more accessible pricing. MCCPDC could alleviate financial burdens and enhance access to essential medications for patients, especially in the context of the Medicare-enrolled population.',
+    published: '2025',
     authors: [
-      'Burrow Rebekah',
-      'Carr Melanie',
-      'Goddard Lucy',
-      'Hinton Lisa',
-      'Clarke Mike'
+      'Smith Tim',
+      'Young Alec',
+      "O'Brien Cameron",
+      'Duncan Jacob',
+      'Rashid Matthew',
+      'Magee Trevor',
+      'Fitzgerald Kyle',
+      'Vassar Matt'
     ],
-    journal: 'Trials',
-    doi: '10.1186/s13063-025-08893-9',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544294/'
+    journal: 'ClinicoEconomics and outcomes research : CEOR',
+    doi: '10.2147/CEOR.S516583',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546651/'
   },
   {
-    id: '40544270',
-    title: 'The effect of promotional health message framing on the perceived benefit of mammography: evidence from estimation of willingness to pay.',
-    abstract: 'BACKGROUND: Evidence from behavioral economics has shown that framing health information can impact the demand for screening. We examined the effect of promotional message framing on mammography demand by estimating willingness to pay (WTP).\n' +
-      'METHODS: This experimental study was conducted in 2024 over a period of 3 months. The interesting outcome was a WTP for mammography. 354 women were randomly selected and randomly assigned between the two study arms. The intervention involved the presentation of health information in two frames of gain and loss. The mammography demand has been estimated using robust standard error Logistic regression. Demand rate of mammography has been compared between two types of information framing using the chi-square test. Finally, the monetary value of willingness to pay (WTP) for mammography was estimated using the methodology developed by López-Feldman. All analyses were done using STATA 17.\n' +
-      'RESULTS: The price and income elasticity of mammography demand were estimated as - 0.19 and 0.24, respectively (P < 0.01). The higher demand rate in the loss frame compared to the gain frame (38.7% vs. 25.1%) was statistically significant, and its effect size was estimated to be 0.282 (p < 0.01). The value of WTP in the loss frame (10.68 US$) was estimated to be more significant than in the gain frame (4.74 US$) (p < 0.01).\n' +
-      "CONCLUSION: This study suggests that health educators consider the message's persuasiveness with the type of health action before designing health messages. Moreover, health practitioners should use health messages with a loss frame to increase the demand for screening services such as mammography.",
-    published: '2025-Jun-21',
+    id: '40546626',
+    title: 'Synthetic Cannabinoid (Mojo)-Induced ST-Segment Elevation Myocardial Infarction: A Case Report.',
+    abstract: 'Synthetic cannabinoids, such as Mojo, are increasingly used among adolescents and young adults due to their perceived legality and accessibility. These compounds exhibit significantly greater potency than natural cannabis, with full agonist activity at cannabinoid receptors, and have been associated with a range of adverse effects, including cardiovascular toxicity. The underlying mechanisms may involve sympathetic stimulation, platelet aggregation, and endothelial injury, which can precipitate acute coronary events even in otherwise healthy individuals. We report the case of a 32-year-old man with no significant medical history and an atherosclerotic cardiovascular disease (ASCVD) risk score of 3.6%, who presented with acute chest pain four hours after smoking the synthetic cannabinoid Mojo. Electrocardiogram revealed ST-segment elevations, and emergent left heart catheterization demonstrated acute thrombotic total occlusion of the left circumflex artery. The patient was successfully treated with percutaneous coronary intervention (PCI) and stent placement. Urine drug screening confirmed recent synthetic cannabinoid use. He had no identifiable traditional cardiovascular risk factors or family history of heart disease. This case highlights synthetic cannabinoids as an emerging and underrecognized cause of acute coronary syndrome in young adults. Clinicians should maintain a high index of suspicion for synthetic cannabinoid use in young patients presenting with myocardial infarction without conventional risk factors. A simple urine drug screen can be a critical diagnostic tool. This report emphasizes the need for increased awareness, targeted patient education, and further research into the cardiovascular risks posed by these substances.',
+    published: '2025-May',
+    authors: [ 'Udoh Kubiat E', 'Udoh Kuseme E', 'Udoh Andikan E' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.84570',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546626/'
+  },
+  {
+    id: '40546623',
+    title: 'Worldwide Forensic Dermatology.',
+    abstract: 'Forensic medicine can involve the skin, mucosa, hair, and nails. Traditionally limited to examinations of decedents, forensic medicine now also encompasses age estimation, civil and criminal case investigations, and assessments of live victims of torture, human trafficking, and traffic accidents. Forensic dermatology, a recently emerging field in India, focuses on determining causes of death by distinguishing drug reactions from traumatic injuries and assessing the injuries in victims of human trafficking, torture, assault, deprivation, neglect, and abuse. Core elements of all forensic disciplines, including forensic dermatology, are education, documentation, and collaboration. Currently, the training of medical students and practitioners in forensic dermatology is insufficient. This educational gap can be addressed by incorporating forensic pathology and dermatology into the first two years of medical school curricula. The national dermatology association in each country can enhance it by requiring forensic dermatology training during dermatology residency, creating a dedicated forensic dermatology task force, and integrating forensic dermatology seminars into national dermatology conferences. Effective communication of documented findings is another essential component of forensic dermatology. As with other forensic specialties (such as anthropology, ballistics, entomology, and odontology), expert analytical reports are essential for conveying relevant findings. A standardized template for forensic dermatology expert analytical reports has recently been developed. Interdisciplinary collaboration and research are also vital to the advancement of forensic dermatology. A notable example is the development of a practical, non-racial, and non-ethnic colorimetric scale for skin of color, created through the collaboration of a dermatologist and three forensic pathologists. This scale is already in use by forensic pathologists in their evaluation of decedents with various skin tones. In conclusion, forensic dermatology is essential for the medical evaluation and criminal investigation of both decedents and certain live victims. Dermatologists are uniquely positioned to advance the field through education, practical application, and continued research.',
+    published: '2025-May',
+    authors: [ 'Cohen Philip R' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.84645',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546623/'
+  },
+  {
+    id: '40546605',
+    title: 'Effect of a Simulation-Based Teaching Module on Intravenous Drug Administration Among Phase II MBBS Students in Pharmacology: A Competency-Based Medical Education Initiative.',
+    abstract: "Background Pharmacology lectures focus on the knowledge domain, teaching various oral and parenteral routes of drug administration. Before the implementation of competency-based medical education (CBME), practical sessions aimed to enhance students' understanding of drug administration routes. However, after the CBME curriculum, soft and psychomotor skills are also being given importance. Demonstration of the correct drug administration method through the intravenous route minimizes errors in drug administration and helps in the early acquisition of knowledge and skills. Our study aimed to evaluate the effect of a simulation-based teaching module on intravenous drug administration and communication skills in pharmacology according to the CBME curriculum. Methodology This cross-sectional study was conducted among Phase II students in the Department of Pharmacology, Bharati Vidyapeeth (Deemed to be University), Medical College and Hospital, Sangli, Maharashtra, India, over three years. The teaching faculty first showed videos of intravenous drug administration to the students, followed by demonstrations on mannequins. We collected students' perceptions at the end of the session. Using the Objective Structured Practical Examination (OSPE) checklist, we also assessed students' practical skills of intravenous drug administration on mannequins. Results In total, 406 students participated in our study. Overall, 89.4% of students felt that learning the intravenous route of drug administration correctly on a mannequin would help in managing various patients. In total, 50% of students were evaluated through OSPE using a checklist. The students were found to be good at intravenous drug administration on the mannequin. Overall, 69% of students communicated about the procedure and alleviated apprehension. Moreover, 97.1% of students sterilized their hands before administering injections. Finally, 28.10% of students were unable to load the syringe properly. Conclusions The simulation-based teaching module on intravenous drug administration introduced by the CBME curriculum in practical classes was well accepted by students, who felt more confident in the injection technique on the mannequin. However, a few students needed more practice sessions. During practice sessions, the steps of intravenous injection, such as communicating with the patient before and after injection, applying and removing the tourniquet, and inserting the needle at the proper angle, should be emphasized.",
+    published: '2025-May',
     authors: [
-      'Ahadinezhad Bahman',
-      'Rashvand Gita',
-      'Karimi Simin',
-      'Alizadeh Ahad',
-      'Amerzadeh Mahammad',
-      'Khosravizadeh Omid'
+      'Patil Aditi N',
+      'Magadum Madhushree S',
+      'Limaye Ramchandra P',
+      'Shetti Santoshkumar A',
+      'Pendhari Shabbir R',
+      'Jagdale Sachin G'
     ],
-    journal: 'Journal of health, population, and nutrition',
-    doi: '10.1186/s41043-025-00970-8',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544270/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.84667',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546605/'
   },
   {
-    id: '40544267',
-    title: 'Trends in education-economy-related inequalities in the prevalence of early childhood untreated caries in Guangdong, China from 2005 to 2021.',
-    abstract: 'BACKGROUND: Early childhood untreated caries (ECC) has numerous adverse effects on children and remains more prevalent in Asia than the global average. Despite recent improvements in ECC prediction and treatment, inequalities related to parental education and economic status may persist and have potentially worsened in the context of the COVID-19 pandemic. This study analyzed the trends and associated factors of education- and economy- related inequalities in ECC among 5-year-old children in Guangdong, China, from 2005 to 2021.\n' +
-      'METHODS: Data from three cross-sectional surveys from Guangdong, China, were utilized, including dental examinations of 2,584 five-year-old children and parental questionnaires. Logistic regression models and education-economy-related interactions were used to identify factors associated with ECC. The Slope Index of Inequality (SII) and Relative Index of Inequality (RII), derived from linear regression models, were applied to access trends in inequalities over the survey years.\n' +
-      'RESULTS: Children living in rural areas (OR = 1.97, 95%CI = 1.47 to 2.64) and those who have dental visits because of treatment (OR = 5.73, 95%CI = 2.73 to 12.05) were associated with a higher chance of having ECC, compared to their urban and non-visiting counterparts. Children whose parents had high (OR = 0.53, 95%CI = 0.31 to 0.88) or medium (OR = 0.64, 95%CI = 0.41 to 0.99) educational levels and those had high (OR = 0.60, 95%CI = 0.43 to 0.85) and medium (OR = 0.59, 95%CI = 0.42 to 0.84) economic levels were associated with a lower chance of having ECC compared those with levels. The highest education- and economy- related SII were observed in 2005. These declined by 14.0 and 4.3% points, respectively, in 2015, but increased again by 9.8 and 0.4% points in 2021. Besides, inequality as measured by SII increased continuously in rural areas. The RII values reflected similar trends in inequality distribution.\n' +
-      'CONCLUSIONS: Children from rural areas, lower parental education and family economic level exhibited significantly higher ECC prevalence. The education- and economy- related inequalities persisted across different groups and demonstrated a downward trend overall, but inequalities have continued to rise in rural regions from 2005 to 2021.',
-    published: '2025-Jun-21',
+    id: '40546604',
+    title: 'The Impact of Stress and Distraction on Bag-Valve-Mask Ventilation Performance.',
+    abstract: "OBJECTIVES: Stress and distraction are intrinsic to the emergency department (ED). These factors can invoke a physiologic response, potentially leading to performance decrements in life-saving procedures like bag-valve-mask (BVM) ventilation. The aim of this study is to use a simulation scenario for two reasons: (1) to evaluate how stress and distraction impact emergency medicine (EM) residents' physiology; (2) to evaluate how these factors impact BVM ventilation performance. Our hypothesis is that both factors will cause performance decrements, with stress causing increased ventilations and distraction causing disengagement and reduced ventilations.\n" +
+      'METHODS: Four EM residents were subjected to a simulation scenario comprised of three phases: (1) baseline (no stress or distraction); (2) stress (increased alarm/alerts); and (3) distraction (multiple disruptions caused by simulation center staff). Throughout the simulation each subject wore a physiologic monitor that recorded their heart rate (HR) and electrodermal activity (EDA). A high-fidelity manikin was utilized to record the BVM ventilation performance. The manikin recorded the number of ventilations delivered, duration of the ventilation and the peak inspiratory pressure (PIP) of each ventilation. To standardize physiological measures deviations of each data source relative to an algorithm-derived baseline/resting state was calculated.\n' +
+      'RESULTS: The average number of ventilations per minute during phase (1) was 12.5, (2) was 16, and (3) was 11.9. The average PIP (cmHO/mL) delivered during phase (1) was 15.5, (2) was 24.4, and (3) was 22.3. Percent deviation from baseline for HR ranged from 16.9% to 38.4%, with three out of four EM residents having greater change during distraction. EDA data showed a 25-190.3% deviation from base line, with three out of four EM residents having the greatest deviation during the distraction phase.\n' +
+      "CONCLUSION: Stress and distraction both had an impact on subject's physiologic stress response and BVM performance. While the stress phase caused the highest performance decrements, the distraction phase was associated with the more significant physiologic response and self-reported impact.",
+    published: '2025-May',
     authors: [
-      'Jiang Linxin',
-      'Huang Shaohong',
-      'Wu Linmei',
-      'Qin Yuandong',
-      'Li Simin',
-      'Kreher Deborah',
-      'Reissmann Daniel R',
-      'Schmalz Gerhard',
-      'Huang Xiangyu'
+      'McDaniel Grant H',
+      'Pappada Scott',
+      'Alyosif Zakaria',
+      'Teye-Lartey Solomon',
+      'Moussa Mohamad'
     ],
-    journal: 'BMC oral health',
-    doi: '10.1186/s12903-025-06302-w',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544267/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.84542',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546604/'
   },
   {
-    id: '40544254',
-    title: 'Patient-reported quality of outpatient healthcare in patients with chronic back or arthrosis pain with long-term opioid therapy in Germany.',
-    abstract: 'BACKGROUND: Managing patients with chronic non-cancer pain (CNCP) in outpatient healthcare is challenging. Long-term opioid therapy is an option for treatment responders with guideline recommended indications. However, opioid use poses risks of severe side effects, including misuse, and therefore needs to be integrated into a high-quality healthcare process. This analysis evaluates the association between healthcare quality according to the evidence-based Chronic Care Model (CCM) in the treatment process of patients receiving long-term opioid therapy for chronic back and/or arthrosis pain, and patient-related or healthcare related variables.\n' +
-      "METHODS: A cross-sectional patient survey was sent to a random sample of 3,037 individuals with long-term opioid therapy and chronic back and/or arthrosis pain insured by a large nationwide German statutory health insurance. Healthcare quality according to the CCM was assessed by the Patient Assessment of Chronic Illness Care (PACIC-5A) questionnaire. Internal reliability of the assessment instrument was determined using Cronbach's α. Descriptive analysis of the outcome scales were conducted, alongside subgroup analyses considering patient characteristics, patient's health situation, and pain treatment aspects. Testing for statistical significance was performed by Mann-Whitney U test and Kruskal-Wallis test. Effect sizes, namely Eta and Spearman's Rank correlation coefficient, were calculated.\n" +
-      "RESULTS: The analysis included 661 individuals. Participants were predominantly female (76%) with an average age of 69 years (SD 12.5). PACIC-5A score ratings across all (sub)scales were low, with a summary score rating of 2.4 (on a scale ranging from 1 (worst) to 5 (best)). Positive correlations with treatment quality were observed in the subgroup analysis concerning guideline-compliant pain treatment aspects such as setting therapy goals or a comprehensive treatment concept. Patient characteristics showed little to no correlations, except for a positive correlation between higher PACIC-5A rating and both lower age and higher education. Patient's health situation presented a mixed picture, with no clear correlation between pain intensity/impairment, and PACIC-5A scores.\n" +
-      'CONCLUSIONS: The provision of healthcare for patients with long-term opioid therapy for CNCP seems to be inadequate according to the CCM. Guideline-recommended pain treatment aspects exhibited a positive correlation with healthcare quality according to CCM. Enhancing the implementation of the CCM in the outpatient healthcare process may improve healthcare quality.\n' +
-      'TRIAL REGISTRATION: German Clinical Trials Register, DRKS00024854. Registered 04/28/2021.',
-    published: '2025-Jun-21',
+    id: '40546593',
+    title: 'Awareness and Willingness for Body Donation in a Semi-urban Area of India: A Cross-Sectional Study.',
+    abstract: "Background The rising number of medical colleges in India has increased the demand for cadavers to support education on the subject of anatomy, which is a core component of medical training. However, societal, cultural, and religious barriers often limit body donation, resulting in an inadequate availability of cadavers. Aim This observational study aimed to assess awareness and willingness towards body donation among residents of Dhauj, a semi-urban area in the Faridabad district, and to identify key barriers to body donation. Materials and methods A pre-validated questionnaire was distributed to 524 participants and data were collected on their awareness, willingness, and misconceptions about body donation. Results  Results indicate that 66.2% of participants had never heard of body donation, with only 26.3% expressing personal willingness to donate. Major barriers to donation included religious beliefs (39.8%), cultural norms (23.4%), and a lack of information (28.44%). Notably, family dynamics also impacted willingness, with 66.4% of participants uncertain about their families' support. A majority, 83.2% of respondents, placed trust in healthcare professionals as credible sources of information, emphasising the role of medical professionals in advocacy of dead body donation. Conclusion Results of the present study revealed a significant gap in awareness and willingness to participate in dead body donation within semi-urban communities. This study highlights the urgent need for targeted awareness campaigns, involvement of trusted health care professionals, community leaders and educational initiatives to address misconceptions about body donation and improve acceptance of body donation programs among residents of semi-urban areas of India.",
+    published: '2025-May',
     authors: [
-      'Niemann Anja',
-      'Schrader Nils Frederik',
-      'Speckemeier Christian',
-      'Abels Carina',
-      'Blase Nikola',
-      'Weitzel Milena',
-      'Neumann Anja',
-      'Riederer Cordula',
-      'Nadstawek Joachim',
-      'Straßmeir Wolfgang',
-      'Wasem Jürgen',
-      'Neusser Silke'
+      'Shukla Stuti',
+      'Shekhawat Devendra S',
+      'Chhabra Prabhjot K',
+      'Maharshi Abhilasha',
+      'Anand Mahindra'
     ],
-    journal: 'BMC primary care',
-    doi: '10.1186/s12875-025-02881-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544254/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.84565',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546593/'
   },
   {
-    id: '40544233',
-    title: 'Palliative Care Education in Pediatric Cardiology Fellowships: A Survey of Program Directors.',
-    abstract: `With advances in treatment options for severe congenital heart disease, there is a growing population of children and adults living with advanced heart disease, many of whom experience significant long-term comorbidities and uncertain disease trajectories. Although palliative care (PC) plays an integral role in the care of children with advanced heart disease, there is a lack of PC education in pediatric cardiology fellowship training. We distributed a cross-sectional survey to pediatric cardiology fellowship program directors (PDs) nationally (n = 58). Survey response rate was 48.3% (28/58). PDs reported PC didactic education in 71.4% (20/28) of programs, with 95% (19/20) reporting this education came from PC specialists, 35% (7/20) from pediatric cardiologists, 25% (5/20) from cardiac intensivists, and 10% (2/20) from general pediatric intensivists. Simulation was used by 10.7% (3/28) of programs. Only one program utilized online modules. Informal bedside teaching occurred in 92.9% (26/28) of programs, and dedicated PC rotations in 25% (7/28). Most programs endorsed annual formal didactics on various PC topics, although some topics were covered more frequently and some never covered by individual programs. Only 53.8% (14/26) of PDs were satisfied with the amount of PC education while 76.9% (20/26) were satisfied with the quality of PC education. Barriers included "too much other content to cover" (77%) and "lack of faculty expertise" (27%). A subset of PDs rated graduating fellows' skills as less than competent in advance care planning (38.5%), criticall illness communication (15.4%), and complex symptom management (15.4%). With a wide range of PC education practices and high rate of PD dissatisfaction with PC education in their programs, there is a need for standardized PC training recommendations and curriculum.`,
-    published: '2025-Jun-22',
+    id: '40546587',
+    title: 'A Multifaceted Analysis of Self-Medication With Antibiotics in South-East Delhi: A Mixed-Method Study Among Adults Who Self-Reported Antibiotic Use in the Past Three Months.',
+    abstract: 'Objectives The misuse of antibiotics fuels antimicrobial resistance (AMR), rendering treatments ineffective, increasing healthcare costs, and increasing mortality. This study estimated the prevalence, patterns, and drivers of self-medication with antibiotics (SMA) among adults, alongside exploring the reasons behind this practice. Methodology This community-based mixed-method study ran from January 2023 to June 2024. Simple random sampling selected 250 participants for the quantitative component, and purposive sampling chose 19 participants for the qualitative component. Descriptive statistics, cross-tabulation, and logistic regression were executed using SPSS (IBM Corp. Released 2019. IBM SPSS Statistics for Windows, Version 26.0. Armonk, NY: IBM Corp). Thematic analysis of focus group discussions (FGDs) was done using NVivo 14 (Lumivero 2023, Version 14, Denver). Results The prevalence of SMA was 36.4%(95% confidence interval (CI): 31.4-41.4), with 63 (69.2%) participants self-medicating at least once in the past three months, primarily for cold and flu-like symptoms (29, 31.86%) and fever (27, 29.69%). Key predictors of SMA were marital status, religion, education level, socioeconomic class, presence of chronic disease, knowledge, and attitude. Four (4.4%) participants experienced adverse drug reactions, 167 (66.8%) had inadequate knowledge about antibiotics, with only 13 (5.2%) aware of AMR, 142 (56.8%) had a favorable attitude towards SMA, and 171 (68.4%) followed appropriate practices. FGDs identified convenience, trust in local chemists, economic constraints, misinformation, long waiting times, limited healthcare access, and community acceptance as SMA drivers. Conclusion The study found that the prevalence of SMA in South-East Delhi surpasses rates in other regions of the country and signals a critical public health concern. To address SMA and mitigate AMR, authorities should enforce stricter regulations on over-the-counter antibiotic sales and implement targeted community education programs to enhance awareness of rational antibiotic use and AMR risks. These interventions, by improving regulatory oversight and knowledge, can effectively reduce SMA and safeguard antibiotic efficacy.',
+    published: '2025-May',
     authors: [
-      'DeRose Lesje',
-      'Godfrey Sarah',
-      'Peyvandi Shabnam',
-      'Cresalia Nicole M',
-      'Steiner Jill M',
-      'Morell Emily'
+      'Jabeen Roshan',
+      'Shaikh Aqsa',
+      'Gautam Richa',
+      'Nabi Nusrat',
+      'Sultana Eram',
+      'Bano Aysha'
     ],
-    journal: 'Pediatric cardiology',
-    doi: '10.1007/s00246-025-03926-1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544233/'
-  },
-  {
-    id: '40544186',
-    title: 'Dermatologic Adverse Event Mitigation and Management Strategies with Amivantamab + Lazertinib Therapy for Advanced Non-Small Cell Lung Cancer: A Vodcast.',
-    abstract: 'Targeted therapies have transformed outcomes of patients with advanced non-small cell lung cancer. Amivantamab, a bispecific antibody targeting epidermal growth factor receptor (EGFR) and MET, and lazertinib, a third-generation EGFR tyrosine kinase inhibitor, were approved in 2024 for the first-line treatment of EGFR-mutated (exon 19 deletion/exon 21 L858R substitution) locally advanced or metastatic non-small cell lung cancer. While EGFR-targeted therapies have demonstrated clinical efficacy, they are associated with on-target dermatologic adverse events (AEs). This vodcast aims to educate on strategies to mitigate and manage dermatologic AEs associated with amivantamab + lazertinib. The MARIPOSA study assessed amivantamab + lazertinib versus osimertinib in previously untreated patients with EGFR-mutated locally advanced or metastatic non-small cell lung cancer. In the same population, the COCOON study assessed the impact of enhanced versus standard dermatologic management on the incidence of grade ≥ 2 dermatologic AEs. In MARIPOSA, amivantamab + lazertinib significantly improved overall survival (median not reached vs 36.7 months) and progression-free survival (median 23.7 vs 16.6 months) versus osimertinib. The most common EGFR-associated dermatologic AEs were rash and paronychia. To address these AEs, the COCOON study evaluated enhanced dermatologic management strategies (including prophylactic oral and topical antibiotics and moisturizer) versus standard of care dermatologic management, which resulted in a two-fold reduction in grade ≥ 2 dermatologic AEs with COCOON versus standard dermatologic management. We further discuss the COCOON prophylactic regimen together with reactive and expert-recommended dermatologic management approaches. In conclusion, amivantamab + lazertinib is an effective treatment that significantly improves overall survival. While dermatologic AEs are common, effective proactive management strategies, as demonstrated in the COCOON study, can help reduce the incidence and severity of dermatologic AEs. Prioritizing education for healthcare providers and patients will facilitate timely identification and proactive and reactive management of these events, ultimately improving the treatment experience for patients undergoing therapy with amivantamab and lazertinib.',
-    published: '2025-Jun-21',
-    authors: [ 'Nguyen Danny', 'Santos Edgardo S' ],
-    journal: 'Targeted oncology',
-    doi: '10.1007/s11523-025-01163-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544186/'
-  },
-  {
-    id: '40544139',
-    title: "Diving practices in technical divers' community and behaviour towards self-reported unusual symptoms.",
-    abstract: 'INTRODUCTION: The use of gas mixtures containing helium for deep recreational diving is increasingly common, involving complex logistics and decision-making compromises. The characteristics and inherent risks of this practice remain poorly documented. This study aims to provide an epidemiological inventory of practices and diving-related incidents within the technical diving community.\n' +
-      'METHODS: An international online survey was disseminated on social networks targeting certified trimix divers. It collected demographic data, diving experience, and dive management practices, along with self-reported unusual symptoms, treatments, and outcomes following trimix dives.\n' +
-      'RESULTS: A total of 558 questionnaires were analysed, predominantly from males (92%), mostly over 46 years old (61%), with high certification levels and recreational diving purposes. Forty-two percent reported one or more medical risk factors related to diving. Rebreather use was prevalent (79% at least occasionally). Decompression was primarily managed using compartmental models (85%) with gradient-factors adjustment. Dive planning varied significantly among individuals. Gas density at depth frequently exceeded the current recommendations. Ten percent had experienced symptoms suggestive of gas toxicity, mainly related to nitrogen narcosis. Thirty-six percent (199/558) reported experiencing, at least once, symptoms of diving-related incidents, with 61% (n = 121/199) expressing certainty. In 48% (120/261) of incidents involving decompression sickness (DCS) or breathing symptoms, no treatment was initiated. Among episodes involving DCS symptoms (n = 254), 42% received normobaric oxygen, and 23% sought medical advice, while 16% were treated with hyperbaric oxygen. Only 2.5% reported probable long-lasting sequelae.\n' +
-      "CONCLUSIONS: The diversity of practices highlights the lack of robust scientific data supporting them. The accident rate in mixed-gas diving may be higher than in typical scuba air diving, though mostly of mild severity. Treatment appears to be neglected despite divers' high knowledge levels. Continued research into decompression and the physiological effects of these dives is essential, along with ongoing awareness and education efforts in diving first aid within this exposed community.",
-    published: '2025-Jun-30',
-    authors: [
-      'Gouin Emmanuel',
-      'Monnot David Pm',
-      'Michot Thierry',
-      'Guerrero François',
-      'Blatteau Jean-Éric'
-    ],
-    journal: 'Diving and hyperbaric medicine',
-    doi: '10.28920/dhm55.2.114-125',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40544139/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.84623',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40546587/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1134,368 +1115,6 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 47579,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5390,
-        [Symbol(triggerId)]: 5388
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 4,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Sun, 22 Jun 2025 15:10:42 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Sun, 22 Jun 2025 15:10:42 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1601,15 +1220,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [Timeout],
-        _idleStart: 47582,
+        _idleStart: 33786,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5409,
-        [Symbol(triggerId)]: 5407
+        [Symbol(asyncId)]: 4752,
+        [Symbol(triggerId)]: 4750
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1741,7 +1360,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sun, 22 Jun 2025 15:10:43 GMT',
+      date: 'Mon, 23 Jun 2025 15:12:48 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1852,7 +1471,369 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sun, 22 Jun 2025 15:10:43 GMT',
+  date: 'Mon, 23 Jun 2025 15:12:48 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 34069,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4782,
+        [Symbol(triggerId)]: 4780
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 4,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Mon, 23 Jun 2025 15:12:48 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Mon, 23 Jun 2025 15:12:48 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2336,6 +2317,7 @@ Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
 Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.8975669692152195 seconds...
 Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
 Translating paper 7/50
@@ -2350,6 +2332,7 @@ Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
 Translating paper 12/50
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.9245850171180874 seconds...
 Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
@@ -2387,25 +2370,25 @@ Translating paper: Who cares for the carers: A poetic inquiry of init...
 Translating paper 30/50
 Translating paper: Digital redesign of the radiotherapy course for me...
 Translating paper 31/50
-Translating paper: Who receives health advice? Prevalence and correla...
+Translating paper: Receptive Vocabulary, Phonological Short-Term Memo...
 Translating paper 32/50
-Translating paper: Exclusive breastfeeding practices in Afghanistan: ...
+Translating paper: Biomarkers for tracking metabolic changes pre-post...
 Translating paper 33/50
-Translating paper: The nexus between healthcare provider distribution...
+Translating paper: Platelet rich plasma, adipose tissue micrografts, ...
 Translating paper 34/50
-Translating paper: Inclusion of under-served groups in trials: an aud...
+Translating paper: Medicare Savings for Seizure Drugs by Adopting the...
 Translating paper 35/50
-Translating paper: The effect of promotional health message framing o...
+Translating paper: Synthetic Cannabinoid (Mojo)-Induced ST-Segment El...
 Translating paper 36/50
-Translating paper: Trends in education-economy-related inequalities i...
+Translating paper: Worldwide Forensic Dermatology....
 Translating paper 37/50
-Translating paper: Patient-reported quality of outpatient healthcare ...
+Translating paper: Effect of a Simulation-Based Teaching Module on In...
 Translating paper 38/50
-Translating paper: Palliative Care Education in Pediatric Cardiology ...
+Translating paper: The Impact of Stress and Distraction on Bag-Valve-...
 Translating paper 39/50
-Translating paper: Dermatologic Adverse Event Mitigation and Manageme...
+Translating paper: Awareness and Willingness for Body Donation in a S...
 Translating paper 40/50
-Translating paper: Diving practices in technical divers' community an...
+Translating paper: A Multifaceted Analysis of Self-Medication With An...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2427,25 +2410,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 399 -> 359
-Total papers after merging: 359 (349 existing + 50 new)
-Saved 359 papers to papers.json
+Removed duplicates: 409 -> 369
+Total papers after merging: 369 (359 existing + 50 new)
+Saved 369 papers to papers.json
 Generating HTML files...
-Generating index.html with 359 papers...
+Generating index.html with 369 papers...
 Successfully generated index.html
-Generating archive.html with 359 papers...
+Generating archive.html with 369 papers...
 Successfully generated archive.html
-Generating journal.html with 359 papers...
+Generating journal.html with 369 papers...
 Successfully generated journal.html
-Generating acquisition.html with 359 papers...
+Generating acquisition.html with 369 papers...
 Successfully generated acquisition.html
-Generating publication.html with 359 papers...
+Generating publication.html with 369 papers...
 Successfully generated publication.html
-Generating registration.html with 359 papers...
+Generating registration.html with 369 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 359
+Total papers in database: 369
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-22T15:39:33.929Z
+Timestamp: 2025-06-23T15:43:08.520Z
