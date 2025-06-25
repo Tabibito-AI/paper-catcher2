@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-24T15:12:08.919Z
+Timestamp: 2025-06-25T15:12:06.700Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 369 existing papers from papers.json
+Loaded 370 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -384,6 +384,16 @@ Fetched papers from Semantic Scholar: [
     link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
   },
   {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
     id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
     title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
     abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
@@ -392,22 +402,52 @@ Fetched papers from Semantic Scholar: [
     journal: 'International Journal of Instruction',
     doi: '10.29333/IJI.2020.13424A',
     link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
-  },
-  {
-    id: '35d0ead88e9bd727c16459e785358b0050e54514',
-    title: 'Economics of education',
-    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
-    published: '2016-01-01T00:00:00.000Z',
-    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
-    journal: 'No journal available',
-    doi: '10.12737/17661',
-    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
   }
 ]
 Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
+  {
+    id: '10.1007/s40751-024-00167-4',
+    title: 'AI Responses to Challenging Problems and Educator Responses to AI Availability',
+    summary: 'This article considers the rise of generative Artificial Intelligence (GenAI) in the context of secondary mathematics education, focusing on its responses to cognitively demanding tasks and the pedagogical implications of these interactions. Using tools such as ChatGPT (OpenAI) and Gemini (Google), we investigate how GenAI engages in complex mathematical reasoning and problem-solving beyond the capabilities of traditional digital tools. Our analysis reveals that, although GenAI thus far tends to typically produce tasks of low cognitive demand, it clearly exhibits an ability to respond to cognitively-demanding mathematical tasks. We share examples of GenAI responses to three tasks from secondary mathematics, and, although the GenAI made substantial errors, it also demonstrated an ability to revise and refine its work with prompting. For educators faced with GenAI, we argue against banning its use and instead propose two instructional strategies to promote student learning in this new AI era: (1) fostering student interaction with GenAI to explore and expand on mathematical concepts and (2) encouraging students to critically evaluate and discuss GenAI-generated solutions to mathematical problems. These instructional strategies aim to enhance students’ mathematical understanding and critical thinking skills by using GenAI as a tool that can promote substantive student involvement and meaningful learning. (An initial draft of this abstract was produced by ChatGPT 4.0, but GenAI was not used in any other way for this article, other than as an interactive partner within the excerpts as clearly marked.)',
+    published: '2025-08-01',
+    authors: [ 'McGalliard, William', 'Otten, Samuel' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Digital Experiences in Mathematics Education'
+  },
+  {
+    id: '10.1007/s40751-024-00166-5',
+    title: 'Pre-service Teachers’ Characterizations of “Draggable” Task Situations Through the Lens of Embodied Task Design',
+    summary: 'This report details a set of three tasks used in an exploratory study of pre-service teachers’ (PSTs) experiences of task design for the mathematics classroom. The three tasks, which I call the Orange Dot Tasks , were constructed in Desmos, a dynamic geometry environment (DGE), and participants engaged each task through manipulating draggable objects on iPad touchscreens. The purpose of this report is two-fold: one aim is to present the tasks in detail and to elaborate on the intentions behind their design and a second is to present some perspectives of PSTs on these tasks generated through their participation in the study.',
+    published: '2025-08-01',
+    authors: [ 'Markle, Josh' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Digital Experiences in Mathematics Education'
+  },
+  {
+    id: '10.1007/s40751-025-00171-2',
+    title: 'Making Tens with Four Hands: Touchscreen-Based Classroom Activity for Early Number Learning',
+    summary: 'As schools increasingly embrace embodied learning, there is a growing need to incorporate classroom teaching and learning activities that recognize the body’s role as both an individual and collective resource for cognition and instruction. In response, we present a design for a classroom teaching sequence focused on early number learning, featuring pedagogical activities supported by TouchCounts (TC) and engaged by pairs of children using their four hands. These activities showcase the potential of embodied learning for children to explore concepts such as odd and even numbers, as well as the composition and decomposition of numbers up to and including ten. We elaborate on the functionalities of TC, outline the teaching sequence, and offer episodes of our classroom observations. Specifically, we present three lesson snapshots aimed at first-graders (aged 6 to 7) using a class set of TC, student learning outcomes, and notable observations as students interact with the touchscreen environment. For example, we note that the student pairs used their hands to reinforce, extend, and redirect mathematical ideas; besides, they developed a collective discourse through (gestural) subitizing the number of fingers that they (and their partner) put up (and folded down). This snapshot explicates the collective learning experiences in classroom settings involving pair-work activities and informs existing work on embodied (mathematical) cognition beyond how students learn with their bodies individually.',
+    published: '2025-08-01',
+    authors: [ 'Ng, Oi-Lam', 'Yeung, Wing-Leung' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Digital Experiences in Mathematics Education'
+  },
+  {
+    id: '10.1007/s40751-024-00160-x',
+    title: 'Understanding Children’s Learning of Part–Whole Relations Using Fingu',
+    summary: 'In this article, we investigate the effects of the app Fingu on a child’s understanding of the part-whole concept. Using the Artifact Centric Activity Theory framework, we initially analyse the internalisation and externalisation processes that appear to occur during one child’s use of the app. Based on the learning from this process, we then use other aspects of the framework, in particular the subject-artifact-group triangle, to understand how Fingu might be used productively in mathematics education classrooms. Using a 13-min video of a child playing Fingu as our data source, we analyse how children might, as they learn about part-whole relationships, interact with the game. We also investigate how design principles in creating apps can impact on the experience of using the app in ways that may be unintended by their designers. This work has implications for app designers and for mathematics educators seeking to incorporate digital technologies into mathematics education.',
+    published: '2025-08-01',
+    authors: [ 'Kortenkamp, Ulrich', 'Ladel, Silke', 'Larkin, Kevin' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Digital Experiences in Mathematics Education'
+  },
   {
     id: '10.1007/s13384-024-00793-2',
     title: 'Mothers’ duties and rights when positioned as remote education tutors in Australian distance schooling',
@@ -492,437 +532,197 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'The Australian Educational Researcher'
-  },
-  {
-    id: '10.1007/s13384-025-00819-3',
-    title: 'A phenomenological reading of integration in the longitudinal integrated clerkship',
-    summary: 'This paper reports on a phenomenological reading of integration in education programs, through three layers of specificity: (1) broadly, on integration as an educational idea; (2) more particularly, on integration as expressed in the program model of the longitudinal integrated clerkship (LIC); and (3) with the highest degree of specificity, on integration ‘at work’ in an actual LIC program. Each layer of penetration found different aspects of the phenomenological nature of integration. A further integrative leap across these aspects phenomenologically revealed four essential qualities of integration, being: integration transforms parts into wholes; integration’s animating locus is mutable, mobile and multiple; integration is already at work and is sustained through possibility; and integration holds open for ‘more’ integration. By appreciating integration for its essential qualities, this research adds foundational value to the literature on educational integration, and opens new questions about how we, as educators, might deliberately work with both its presence and its promise in our educational pedagogies, practices and programs.',
-    published: '2025-07-01',
-    authors: [ 'Parkin, Nicola' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'The Australian Educational Researcher'
-  },
-  {
-    id: '10.1007/s13384-024-00796-z',
-    title: 'The positioning of quality and expertise in initial teacher education: policy enactment in the Australian context',
-    summary: 'Teacher quality and teacher education improvement have been central discourses for at least two decades in global education. In Australia, despite the pervasive nature of these discussions, there is a lack of substantial evidence indicating the existence of a problem in this regard. Policies aimed at enhancing the ‘preparedness’ of teacher graduates and elevating the ‘quality’ of ITE programs have nonetheless emerged as prevalent solutions over the past decade. The latest enactment of reforms in the policy chain is the Strong Beginnings report from the Teacher Education Expert Panel. In this paper, we align with Ball’s perspective that policy should be viewed as a dynamic process rather than a presumed, ready-made solution to a problem. We utilise systematic conceptual coding using Leximancer to enable a nuanced exploration of the understandings, practices, and conditions of influence for the policy actors inscribed in the TEEP report. We also analyse concept frequency and collocation in the final Strong Beginnings report, noting two main propositions: first, that there is a problem with quality in ITE; and second, that practice is foregrounded in professionalisation. We highlight the consistencies and contradictions within the discourses of the final report and the submissions from policy actors that contributed to this policy enactment process. We suggest that evidence is used when it suits a policy position, but ignored if it disrupts the platform position. We conclude by arguing that the policy actors in this policy enactment process should be afforded the professional authority to continue a well-established process of continual improvement.',
-    published: '2025-07-01',
-    authors: [
-      'Ryan, Mary',
-      'Bergen, Penny',
-      'Adlington, Rachael',
-      'Maurice, Olivia'
-    ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'The Australian Educational Researcher'
-  },
-  {
-    id: '10.1007/s10649-025-10389-x',
-    title: 'Mathematics education for sustainable futures: a strengths-based survey of the field to invite further research action',
-    summary: 'In this survey, we introduce and prompt an article collection—"Mathematics Education for Sustainable Futures"—which we are guest editing. The collection will comprise original research articles, written and published over a 2-year period. Recognising the collection title as making reference to what is an emerging area of research, in this introduction, we survey work that has been done. In the spirit of opening and inviting new questions and research directions, we focus on what it means to take mathematics education for sustainable futures seriously, for how we practise and imagine mathematics education, including established topics such as curriculum, knowledge, pedagogy, teacher education, language, modelling, and technology. We structure our review around eight invitations (here arranged into six sections) in the call for collection articles. Each section ends with further invitations for potential authors, or others, wanting to locate and chart their own work in the space. We end drawing out two themes that resonate across the invitations: attention to who and what is marginalised and the importance of a deep reflexivity in our choice/use of concepts. This text is part of the article collection entitled “Mathematics Education for Sustainable Futures” (available at https://link.springer.com/collections/acebaagbha ).',
-    published: '2025-07-01',
-    authors: [
-      'Makramalla, Mariam',
-      'Coles, Alf',
-      'Roux, Kate',
-      'Wagner, David'
-    ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Educational Studies in Mathematics'
-  },
-  {
-    id: '10.1007/s13384-025-00834-4',
-    title: 'Who cares for the carers: A poetic inquiry of initial teacher educators of professional experience',
-    summary: 'In this paper, we suggest that poetic inquiry offers a pathway for capturing the deeply felt, personal dimensions of ongoing identity growth of initial teacher educators of professional experience. We propose that poetic inquiry provides an avenue for authentically sharing experiences and insights into caring and being cared for, diverging from conventional academic narratives. Through poetic self-reflection and collective poetic representation, we can uncover and navigate the subtle tensions shaping our identity journey, fostering a communal understanding of the teacher educator’s role within the contexts of Australian higher education and initial teacher education.',
-    published: '2025-07-01',
-    authors: [
-      'Lemon, Narelle',
-      'Sanbrook, Carli',
-      'James, Rikki',
-      'Harris, Marnie',
-      'Green, Tammy',
-      'Dass, Rozita',
-      'Adkin, Bev',
-      'Berman, Gail'
-    ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'The Australian Educational Researcher'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40546704',
-    title: 'Receptive Vocabulary, Phonological Short-Term Memory, Theory of Mind and Oral Inferential Comprehension in French-Speaking Preschoolers With and Without Developmental Language Disorder.',
-    abstract: 'BACKGROUND AND AIMS: Inferential comprehension difficulties and their impacts on reading comprehension are well documented in school-aged children with Developmental Language Disorder (DLD). In comparison, fewer studies have been conducted in young children with DLD prior to their formal schooling journey. In addition, the contribution of linguistic and cognitive skills to oral inferential comprehension abilities in preschoolers, notably receptive vocabulary, phonological short-term memory, and theory of mind (ToM), requires further investigation. The first aim of this study is to explore how young children presenting with DLD aged 5 to 6 years perform when compared to same-age and younger children presenting with typical language development (TLD) on measures of oral inferential comprehension, receptive vocabulary, ToM, and phonological short-term memory. The second aim is to analyze how these linguistic and cognitive skills contribute to oral inferential comprehension in both DLD and TLD preschool children.\n' +
-      'METHODS: A total of 112 preschool children participated in this study, including 21 ( = 21) children with DLD aged 5 to 6 years and two TLD groups, 37 ( = 37) younger children aged 4 to 5 years and 54 ( = 54) same-age children. A narrative-based oral inferential comprehension task was administered to all children, in addition to measures of receptive vocabulary, phonological short-term memory, and ToM. Analysis of covariance (ANCOVAs) were used to compare performances between the three groups, followed by Pearson correlations and hierarchical regression analyses to examine the contribution of these variables to oral inferential comprehension abilities across the sample.\n' +
-      'RESULTS: After controlling for level of parental education (LPE) and biological sex, children with DLD performed significantly below the same-age TLD group on all four measures with large effect sizes ( < .001;   = .17-.44). Their performance was comparable to the younger TLD group on measure of oral inferential comprehension ( = .234), and significantly below on measures of receptive vocabulary ( = .008), phonological short-term memory ( < .001), and ToM ( = .028). Results from the regression analysis indicated that age, LPE, diagnosis condition, receptive vocabulary and ToM accounted for 53% of the total variance in oral inferential comprehension.\n' +
-      'CONCLUSIONS AND IMPLICATIONS: This study reiterates the early listening comprehension difficulties experienced by preschool children with DLD when compared to children presenting with typical language development. The results also indicate that when controlling for age, LPE and diagnosis condition, children are likely to have better inferential comprehension abilities if they perform well on a measure of ToM. Considering that challenges related to language comprehension are acknowledged to be persistent and less responsive to intervention, these findings can help inform the development of evidence-based interventions aiming at supporting language comprehension of young children with DLD.',
+    id: '40557673',
+    title: 'Work-family trajectories and poverty duration and severity in German working-age households.',
+    abstract: 'This study examines how work-family trajectories of households with poverty experience relate to poverty persistence across their working-age life course, using data from the German Socioeconomic Panel from 2007 to 2020 (N=1,518). Work-family trajectories are conceptualised by considering individual- and household-level explanations of poverty. Taking a life course perspective, the study explores sequences of labour market attachment, the extent of low-wage receipt and the needs-to-resource ratio in households across eight years. Methods combine multichannel sequence analysis to identify four clusters of work-family trajectories, and linear regressions to link these clusters to the cumulated length of poverty experiences and the average distance from the at-risk-of-poverty threshold across eight years. Findings reveal that most work-family trajectories among working-age households with poverty experience are dominated by low household work intensity and the presence of children, with trajectories of low-wage receipt forming less prominent patterns. Household histories of low work intensity are linked to increased poverty duration and severity. This relation is even stronger for households that simultaneously experience a high needs-to-resource ratio or frequent low-wage receipt, emphasising the interplay between these two factors and household work intensity. High household work intensity reduces poverty persistence the most, with education identified as an important contextual factor mitigating poverty persistence. Findings suggest to reduce poverty persistence by supporting higher work intensity and regular employment in households with poverty experiences by addressing what prevents individual employment, such as upskilling or reskilling along individual strengths. Such initiatives are particularly important to decrease poverty persistence in families with children.',
+    published: '2025-Apr-04',
+    authors: [ 'Gohl Miriam' ],
+    journal: 'Longitudinal and life course studies : international journal',
+    doi: '10.1332/17579597Y2025D000000041',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557673/'
+  },
+  {
+    id: '40557647',
+    title: 'Designing the Contemporary Implementation of Traditional knowledge and Evidence (CITE) framework to guide the application of traditional knowledge in contemporary health contexts: a Delphi study.',
+    abstract: 'BACKGROUND: The 2018 Declaration of Astana acknowledges the need to include traditional, complementary and integrative health care (TCIH) knowledge and technologies within primary health care. The World Health Assembly has also called member states to integrate TCIH into national healthcare systems. However, little attention has been given to developing supportive resources for this process in practice, policy, research and education.\n' +
+      'METHODS: This study employed Delphi methodology to refine a framework for the evaluation and implementation of text-based traditional knowledge in contemporary health contexts. An international sample was recruited of expert participants with experience in a diversity of settings and disciplines. Framework items were retained, removed or modified based on participant consensus agreement on the importance of each item (consensus set at ≥75 per cent agreement), and mapped for comprehensiveness against an implementation framework.\n' +
+      'FINDINGS: The initial survey round was completed by 19 participants and the second round by 15 participants. Most participants (n=15) held TCIH qualifications, representing six TCIH professions in total (naturopathy, Western herbal medicine, osteopathy, traditional Chinese and Oriental medicine, Ayurveda, and homeopathy). Participants typically had experience in multiple contexts across clinical practice, research, education and policy development. Consensus was achieved after two rounds and the resulting framework included three sections comprising guiding principles (five items), critical appraisal criteria (three items) and application criteria (eight items).\n' +
+      'CONCLUSIONS: As the international health community increasingly recognised the potential value and importance of TCIH knowledge and technologies, this Contemporary Implementation of Traditional knowledge and Evidence (CITE) Framework provides a timely and much-needed practical guide to rigorous and respectful traditional knowledge implementation.',
+    published: '2024-Nov-07',
+    authors: [
+      'Steel Amie',
+      'Foley Hope',
+      'Bugarcic Andrea',
+      'Adams Jon',
+      'Leach Matthew',
+      'Wardle Jon'
+    ],
+    journal: 'Evidence & policy : a journal of research, debate and practice',
+    doi: '10.1332/17442648Y2024D000000037',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557647/'
+  },
+  {
+    id: '40557629',
+    title: "Do parents' socioeconomic resources moderate the association between genotype and cognitive skills among children with diverse genetic ancestries?",
+    abstract: "Recent research shows that high parental socioeconomic status does not convey the same skill advantage to Black and Latinx children as to white children in the United States due to disadvantages at school for racialised and ethnicised minorities. We extend this literature by asking whether socioeconomic status moderates the association between child genotype and cognitive skills among racialised and ethnicised minorities in the United States. Hence, what we study is whether high socioeconomic status conveys an equal advantage when it comes to the relationship between genotype and cognitive skills. We use data from the Future of Families and Child Wellbeing Study. Using molecular genetic data, we construct a polygenic index for educational attainment and test whether the association between this index and children's cognitive skills is moderated by maternal education and household income in two principal component defined ancestry groups: African ancestries (n=1,551) and Latinx ancestries (n=890). The polygenic index for educational attainment is positively associated with cognitive skills in both groups. In the African ancestries group, this association does not differ by socioeconomic status. In the Latinx ancestries group, the results are mixed. Because our samples are likely underpowered to detect genotype-socioeconomic interactions, our results should be considered suggestive until larger samples of diverse ancestries are available. Advances in genetic research have been skewed towards European ancestry populations, and the broader implication of our study is to eliminate this bias through the collection of large, diverse genotype samples and measuring their genotypes with arrays designed for multi-ancestry populations.",
+    published: '2025-Apr-11',
+    authors: [
+      'Breinholt Asta',
+      'Ware Erin Bakshis',
+      'Fomby Paula',
+      'Notterman Daniel',
+      'Schneper Lisa',
+      'Mitchell Colter'
+    ],
+    journal: 'Longitudinal and life course studies : international journal',
+    doi: '10.1332/17579597Y2025D000000042',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557629/'
+  },
+  {
+    id: '40557524',
+    title: 'Associations Between Tinnitus and Hearing Loss Among Noise-Exposed Workers in the United States From 1999 to 2020: A Cross-Sectional Study.',
+    abstract: 'ImportanceTinnitus is a prevalent condition among noise-exposed workers, with significant implications for hearing health and quality of life. Identifying associated factors can inform prevention and management strategies.ObjectivesTo identify factors associated with tinnitus prevalence among noise-exposed workers and assess the effectiveness of hearing protection in mitigating tinnitus.DesignCross-sectional study.SettingData from the National Health and Nutrition Examination Surveys database.ParticipantsThis study included 4931 noise-exposed workers (mean age 48.9 ± 0.3 years). Participants were categorized into speech-frequency hearing loss (SFHL; n = 1032, mean age 67.2 ± 0.4 years) and high-frequency hearing loss (HFHL; n = 1634, mean age 62.9 ± 0.3 years) groups based on hearing threshold levels.Intervention or ExposuresNoise exposure duration, hearing loss severity, demographics, and medical history. Hearing protection usage was assessed for its effectiveness in preventing tinnitus.Main Outcome MeasuresPrimary outcome: tinnitus prevalence. Associations were analyzed using logistic regression, with factors including self-reported noise exposure, hearing loss severity, demographics, and medical history.ResultTinnitus prevalence was 32.85% in the group with SFHL and 29.99% in the group with HFHL. Prolonged noise exposure and greater hearing loss severity were associated with tinnitus in both groups. Hearing protection usage was potentially linked to a lower tinnitus prevalence in HFHL but not in SFHL. For SFHL, univariate analysis showed lower tinnitus prevalence in older age and females, while Caucasian ethnicity and higher income were associated with higher prevalence. Multivariate analysis indicated that older age was positively associated with tinnitus ( < .05). In HFHL, factors such as higher BMI, higher educational level, and elevated Patient Health Questionnaire-9 (PHQ9) scores were significantly associated with tinnitus prevalence.ConclusionsProlonged noise exposure and hearing loss severity among noise-exposed workers were associated with tinnitus prevalence in SFHL and HFHL. Hearing protection showed tendency to reduce tinnitus prevalence in HFHL but had a limited effect in SFHL. Higher BMI, higher education levels, and elevated PHQ9 scores were significantly associated with tinnitus in HFHL, warranting further research into protective strategies.RelevanceFuture studies should explore alternative protective strategies for SFHL patients and refine tinnitus prevention approaches in noise-exposed workers.',
+    published: '2025',
+    authors: [ 'Yang Shuo-Wei', 'Xu Wei', 'Chen Lin', 'Fang Shu-Bin' ],
+    journal: "Journal of otolaryngology - head & neck surgery = Le Journal d'oto-rhino-laryngologie et de chirurgie cervico-faciale",
+    doi: '10.1177/19160216251347597',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557524/'
+  },
+  {
+    id: '40557428',
+    title: 'Comparative disease burden of early-onset and late-onset type 2 diabetes in the U.S.: Evidence from NHANES 2003-2018.',
+    abstract: 'OBJECTIVE: To estimate the disease burden of type 2 diabetes (T2D) in early-onset (age < 40) and late-onset (age ≥ 40) in the U.S.\n' +
+      'METHODS: Data obtained from the National Health and Nutrition Examination Survey 2003-2018. Prevalence, number, and disability-adjusted life years (DALYs) in early-onset and late-onset T2D were assessed.\n' +
+      'RESULTS: There was a clear and steady upward trend in early-onset T2D, although the prevalence and number of late-onset T2D were higher than early-onset. The average loss of DALYs per capita (DALYs/per) in the early-onset T2D was higher than that in the late-onset. DALYs/per is higher in males than females in both early- and late-onset T2D groups. People living at or below the poverty line and those with education of high school and below had a higher DALYs/per of early-onset T2D. Among individuals with early-onset T2D, the DALYs/per loss was higher in the non-obesity group.\n' +
+      'CONCLUSION: There was a clear upward trend in the prevalence of early-onset T2D, and the loss of DALYs/per in early-onset T2D was higher than that in late-onset T2D. The attribution risk factors, like sex, education levels, income levels, and body mass index, for the burden of early-onset T2D varied, and measures need to be taken to target different populations.',
+    published: '2025-Jun-25',
+    authors: [
+      'Yue Shuoying',  'Su Meng',
+      'Zhang Zihao',   'Hao Zhiyi',
+      'Li Man',        'Zhang Liang',
+      'Zhang Naijian', 'Li Zhilin',
+      'Wu Qingcui',    'Huang Huijie',
+      'Zhang Honglu',  'Liu Yuanyuan',
+      'Wang Hui',      'Ma Jun'
+    ],
+    journal: 'Journal of diabetes investigation',
+    doi: '10.1111/jdi.70096',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557428/'
+  },
+  {
+    id: '40557368',
+    title: 'How emotional labor leads to turnover intention: the mediating role of job burnout and the moderating role of social support among rural physical education teachers in China.',
+    abstract: 'OBJECTIVE: To examine the mediating role of job burnout in the relationship between emotional labor strategies and turnover intention among rural physical education (PE) teachers in China, and to explore the moderating effect of social support in this mechanism.\n' +
+      'METHODS: A cross-sectional survey was conducted among 1,761 rural PE teachers using validated self-report scales. Structural equation modeling (SEM) via AMOS 26.0 was used to test the mediating effects of job burnout, followed by moderated mediation analyses using PROCESS macro Model 7, controlling for gender, age, teaching tenure, and education level.\n' +
+      'RESULTS: Job burnout significantly mediated the associations between all three emotional labor strategies and turnover intention. Surface acting showed both direct and indirect effects, while deep acting and genuine expression were associated with turnover intention only through burnout. Additionally, social support moderated the relationship between surface acting and burnout, but not for the other two strategies.\n' +
+      'CONCLUSION: Emotional labor strategies influence turnover intention both directly and indirectly through job burnout, while social support serves as a key buffering resource against the negative impact of surface acting on burnout. These findings underscore the importance of optimizing emotional labor management strategies and strengthening social support networks to enhance teacher wellbeing and promote educational equity in rural schools.',
     published: '2025',
     authors: [
-      'Filiatrault-Veilleux Pamela',
-      'Pichonsky Julia',
-      'Desmarais Chantal'
+      'Sun Pu',
+      'Wang Lifang',
+      'Chen Xi',
+      'Cui Mingyue',
+      'Ma Ke',
+      'Yan Ling'
     ],
-    journal: 'Autism & developmental language impairments',
-    doi: '10.1177/23969415251353154',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546704/'
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1596750',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557368/'
   },
   {
-    id: '40546679',
-    title: 'Biomarkers for tracking metabolic changes pre-post nutritional epigenetics diet/intervention to prevent autism and attention deficit/hyperactivity disorders in children.',
-    abstract: 'The prevalence of autism and attention deficit/hyperactivity disorders is increasing worldwide. Recent studies suggest the excessive intake of ultra-processed food plays a role in the inheritance of these disorders  heavy metal exposures and nutritional deficits that impact the expression of genes. In the case of the metallothionein (MT) gene, biomarker studies show dietary zinc (Zn) deficits impact MT protein levels in children with autism and are associated with the bioaccumulation of lead and/or mercury in children exhibiting autism/attention deficit/hyperactivity disorders symptomology. The impact of dietary changes on lead and mercury exposures and  gene behavior could be determined using a randomized test and control group design. Pregnant women serving in the test-group would participate in a nutritional epigenetics education intervention/course designed to reduce ultra-processed food intake and heavy metal levels in blood while increasing whole food intake and MT and Zn levels. Changes in maternal diet would be measured using data derived from an online diet survey administered to the test and control groups pre-post intervention. Changes in maternal lead, mercury, Zn, and MT levels would be measured  blood sample analyses prior to the intervention and after childbirth  cord blood analyses to determine infant risk factors.',
-    published: '2025-Jun-20',
-    authors: [ 'Dufault Renee J' ],
-    journal: 'World journal of experimental medicine',
-    doi: '10.5493/wjem.v15.i2.101555',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546679/'
+    id: '40557363',
+    title: 'Developing positive behavioral skills among adolescents participating in basketball sports schools.',
+    abstract: 'INTRODUCTION: The aim of this study is to evaluate the impact of a positive behavior skills development program on adolescents who participate in basketball sports schools.\n' +
+      "METHODS: Sixty-two adolescent athletes (Mage 15.83 ± 0.37) took part in this educational experiment. Participants were randomly selected from 2 basketball sports schools chosen from a list of basketball sports schools and divided into experimental ( = 30) and control ( = 32) groups. The experimental group participants were subjected to the effect of the positive behavior skills development program, which aimed to develop positive behavior skills among adolescents participating in basketball sports schools, including taking responsibility, positive self-evaluation, prosocial behavior with teammates, prosocial behavior with opponents, taking social responsibility, cooperation, assertiveness, empathy, self-control, ability to evaluate and convey emotions, ability to utilize one's positive emotional experience, ability to comprehend and analyze emotions, and ability to control emotions. Positive behavior skills development activities were conducted by one of the researchers together with the sports school coaches. At the beginning and end of the educational experiment, participants from both the experimental and control groups completed the following questionnaires: Personal and Social Responsibility Questionnaire, Rosenberg Self-Esteem Scale, The Prosocial and Antisocial Behavior in Sport Scale, Social Skills Rating System-Secondary Student form, and Schutte Self-Report Inventory.\n" +
+      'RESULTS: The positive behavior skills development activities implemented during the educational experiment had a positive and statistically significant impact on the positive behavior skills of the experimental group adolescents.\n' +
+      'DISCUSSION: The findings of the present study could be useful for educational programs developers who may consider integrating elements of this educational program into wider education systems.',
+    published: '2025',
+    authors: [ 'Pocius Eimantas', 'Malinauskas Romualdas' ],
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1444333',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557363/'
   },
   {
-    id: '40546673',
-    title: 'Platelet rich plasma, adipose tissue micrografts, and regenerative mimetic factors for abdominal wall defect reconstruction: Experimental study protocol.',
-    abstract: 'BACKGROUND: Incisional hernias are a common complication of previous surgeries and remain a persistent issue in clinical practice, posing a significant burden on healthcare systems despite advances in education and technology. Surgical techniques, primarily involving the use of mesh to cover the abdominal wall gap, are widely used as a standard intervention strategy.\n' +
-      'AIM: To examine the regeneration of the aponeurosis defect in the anterior abdominal wall in rats using regenerative mimetic factors of the extracellular matrix [ReGeneraTing Agent (RGTA)], adipose tissue micrografts (ATM), and platelet rich plasma (PRP) as regenerative agents.\n' +
-      'METHODS: Regenerative agents such as RGTA, ATM, and PRP are gaining popularity. ATM involves autologous adipose tissue cells with mesenchymal stem cell markers and a high percentage of stromal vascular fraction cells. RGTAs are heparan sulfate (HS) mimetics that replace degraded HSs in damaged tissue, enhancing the quality and speed of repair. PRP is a concentrated plasma preparation containing seven fundamental proteins responsible for tissue production. An acellular dermal matrix is a biological implant free of cellular or antigenic components, making it an excellent material for reconstructive surgery. Polyglactin is a synthetic, absorbable mesh that loses 50% of its strength after fourteen days, providing initial support for new tissue regeneration before being completely absorbed.\n' +
-      'RESULTS: Rats will undergo a laparotomy with a precise 2 cm by 2 cm excision of the anterior abdominal wall fascia below the umbilicus. They will be divided into sixteen groups, each receiving different combinations of regenerative factor injections into the denervated area in both non-contaminated and contaminated environments. A collagen-elastin matrix will be used to join the aponeurosis edges, with an absorbable polyglactin mesh anchored over it. Samples will be taken for macroscopic, histological, and immunohistochemical evaluation of tissue regeneration.\n' +
-      'CONCLUSION: Our study aims to demonstrate how these factors promote cell proliferation and healing of the denervated anterior abdominal wall, potentially reducing the frequency and complications of incisional hernias. This approach could offer a more economical and efficient treatment option compared to current costly methods.',
-    published: '2025-Jun-20',
-    authors: [
-      'Zapsalis Konstantinos',
-      'Ioannidis Orestis',
-      'Xylas Christos',
-      'Siozos Konstantinos',
-      'Gemousakakis Georgios',
-      'Anestiadou Elissavet',
-      'Symeonidis Savvas',
-      'Bitsianis Stefanos',
-      'Kotidis Efstathios',
-      'Cheva Angeliki',
-      'Bekiari Chryssa',
-      'Loukousia Antonia',
-      'Angelopoulos Konstantinos',
-      'Pramateftakis Manousos-Georgios',
-      'Mantzoros Ioannis',
-      'Tserkezidis Freiderikos',
-      'Driagka Barbara',
-      'Angelopoulos Stamatios'
-    ],
-    journal: 'World journal of experimental medicine',
-    doi: '10.5493/wjem.v15.i2.99065',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546673/'
-  },
-  {
-    id: '40546651',
-    title: 'Medicare Savings for Seizure Drugs by Adopting the Mark Cuban Cost Plus Drug Company Model.',
-    abstract: "BACKGROUND: Epilepsy is a lifelong diagnosis, often requiring pharmacologic management. Despite the chronicity of this disorder, there has been a rise in medication cost over the years. To address this, Mark Cuban Cost Plus Drug Company (MCCPDC) has created a more affordable option to obtain patients' prescriptions. Focusing on epileptic medication, this study examines the potential cost saving benefit of MCCPDC compared to Medicare Part D plans.\n" +
-      'METHODS: We conducted a cross-sectional review identifying the prices of anticonvulsants available on MCCPDC compared to the 2021 Medicare Part D spending data. Prices for dispensing and shipping fees were recorded for the minimum quantity (30ct) and maximum quantity (90ct). We compared standardized unit prices for 30 and 90-day periods between Medicare and MCCPDC drugs.\n' +
-      'RESULTS: Of the 16 anti-seizure medications shared between MCCPDC and Medicare, Medicare spending reached nearly $1 billion. Analyzing 30ct prescriptions, we found potential savings in 60% of the drugs, amounting to $172 million when comparing individual drug costs on MCCPDC to Medicare. However, when averaged across all 30ct drugs, MCCPDC prices were 14.85% higher than Medicare, indicating that higher costs for certain drugs offset the savings from others. For 90ct prescriptions, savings were $373 million in 80% of drugs, a 31.63% reduction compared to Medicare prices.\n' +
-      'CONCLUSION: Our study highlights the potential savings with MCCPDC, especially among the 90ct medications, demonstrating that a cheaper alternative to chronic medications is possible if the pricing of MCCPDC is used. We recommend that physicians educate patients on MCCPDC and their specific medications to find more accessible pricing. MCCPDC could alleviate financial burdens and enhance access to essential medications for patients, especially in the context of the Medicare-enrolled population.',
+    id: '40557362',
+    title: 'The impact of songs with prosocial lyrics on implicit cognition and prosocial behavior: a prospective event-related brain potential study.',
+    abstract: 'BACKGROUND: Music with prosocial lyrics is a significant area of study in music psychology. Based on the General Learning Model, such music can effectively enhance prosocial behaviors. However, little is known about the neural correlates of the impact on prosocial behavior of short-term exposure to music with prosocial lyrics. Previous research has primarily used self-report measures to explore the relationship between music and prosocial cognition and behavior. However, these measures can be influenced by social desirability biases when dealing with sensitive issues such as moral behavior. The study of implicit cognition can effectively avoid these biases and has thus attracted widespread attention.\n' +
+      'OBJECTIVE: This study is the first to investigate the electrophysiological characteristics of the relationship between exposure to music with prosocial lyrics and enhanced altruistic behavior and to elucidate the effects of such music on implicit prosocial cognition.\n' +
+      "METHODS: This laboratory study will recruit 45 college students, who will be tasked with listening to either music with prosocial lyrics or neutral music. We will then use the Single Category Implicit Association Test (SC-IAT) paradigm combined with event-related potentials (ERP) to investigate the impact of music with prosocial lyrics on participants' implicit prosocial cognition and further reveal the predictive power of implicit cognition on prosocial behavior (measured by assessing the level of voluntary unpaid participation in subsequent experiments).\n" +
+      'RESULTS: The findings of this study will provide neuroscientific evidence on how music with prosocial lyrics influences prosocial behavior through cognitive processes and clarify the effectiveness of music with prosocial lyrics in enhancing implicit prosocial cognition and behavior. In addition, these findings will not only deepen the understanding of the relationship between music and social behavior but also provide theoretical foundations and practical guidance for education, psychological interventions, and strategies to improve social behavior, thereby promoting the application of music in fostering social harmony.',
     published: '2025',
     authors: [
-      'Smith Tim',
-      'Young Alec',
-      "O'Brien Cameron",
-      'Duncan Jacob',
-      'Rashid Matthew',
-      'Magee Trevor',
-      'Fitzgerald Kyle',
-      'Vassar Matt'
+      'Xu Qiujian',    'Liu Siqi',
+      'Li Meihui',     'Wang Xiaoyu',
+      'Li Junrui',     'Yuan Xinran',
+      'Yang Miaomiao', 'Yang Mingyi',
+      'Jiang Zhenxu',  'Gou Qiaoqiao',
+      'Liu Ningning',  'Han Jiaqi',
+      'Yang Dan',      'Ren Xiubo'
     ],
-    journal: 'ClinicoEconomics and outcomes research : CEOR',
-    doi: '10.2147/CEOR.S516583',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546651/'
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1426891',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557362/'
   },
   {
-    id: '40546626',
-    title: 'Synthetic Cannabinoid (Mojo)-Induced ST-Segment Elevation Myocardial Infarction: A Case Report.',
-    abstract: 'Synthetic cannabinoids, such as Mojo, are increasingly used among adolescents and young adults due to their perceived legality and accessibility. These compounds exhibit significantly greater potency than natural cannabis, with full agonist activity at cannabinoid receptors, and have been associated with a range of adverse effects, including cardiovascular toxicity. The underlying mechanisms may involve sympathetic stimulation, platelet aggregation, and endothelial injury, which can precipitate acute coronary events even in otherwise healthy individuals. We report the case of a 32-year-old man with no significant medical history and an atherosclerotic cardiovascular disease (ASCVD) risk score of 3.6%, who presented with acute chest pain four hours after smoking the synthetic cannabinoid Mojo. Electrocardiogram revealed ST-segment elevations, and emergent left heart catheterization demonstrated acute thrombotic total occlusion of the left circumflex artery. The patient was successfully treated with percutaneous coronary intervention (PCI) and stent placement. Urine drug screening confirmed recent synthetic cannabinoid use. He had no identifiable traditional cardiovascular risk factors or family history of heart disease. This case highlights synthetic cannabinoids as an emerging and underrecognized cause of acute coronary syndrome in young adults. Clinicians should maintain a high index of suspicion for synthetic cannabinoid use in young patients presenting with myocardial infarction without conventional risk factors. A simple urine drug screen can be a critical diagnostic tool. This report emphasizes the need for increased awareness, targeted patient education, and further research into the cardiovascular risks posed by these substances.',
-    published: '2025-May',
-    authors: [ 'Udoh Kubiat E', 'Udoh Kuseme E', 'Udoh Andikan E' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.84570',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546626/'
-  },
-  {
-    id: '40546623',
-    title: 'Worldwide Forensic Dermatology.',
-    abstract: 'Forensic medicine can involve the skin, mucosa, hair, and nails. Traditionally limited to examinations of decedents, forensic medicine now also encompasses age estimation, civil and criminal case investigations, and assessments of live victims of torture, human trafficking, and traffic accidents. Forensic dermatology, a recently emerging field in India, focuses on determining causes of death by distinguishing drug reactions from traumatic injuries and assessing the injuries in victims of human trafficking, torture, assault, deprivation, neglect, and abuse. Core elements of all forensic disciplines, including forensic dermatology, are education, documentation, and collaboration. Currently, the training of medical students and practitioners in forensic dermatology is insufficient. This educational gap can be addressed by incorporating forensic pathology and dermatology into the first two years of medical school curricula. The national dermatology association in each country can enhance it by requiring forensic dermatology training during dermatology residency, creating a dedicated forensic dermatology task force, and integrating forensic dermatology seminars into national dermatology conferences. Effective communication of documented findings is another essential component of forensic dermatology. As with other forensic specialties (such as anthropology, ballistics, entomology, and odontology), expert analytical reports are essential for conveying relevant findings. A standardized template for forensic dermatology expert analytical reports has recently been developed. Interdisciplinary collaboration and research are also vital to the advancement of forensic dermatology. A notable example is the development of a practical, non-racial, and non-ethnic colorimetric scale for skin of color, created through the collaboration of a dermatologist and three forensic pathologists. This scale is already in use by forensic pathologists in their evaluation of decedents with various skin tones. In conclusion, forensic dermatology is essential for the medical evaluation and criminal investigation of both decedents and certain live victims. Dermatologists are uniquely positioned to advance the field through education, practical application, and continued research.',
-    published: '2025-May',
-    authors: [ 'Cohen Philip R' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.84645',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546623/'
-  },
-  {
-    id: '40546605',
-    title: 'Effect of a Simulation-Based Teaching Module on Intravenous Drug Administration Among Phase II MBBS Students in Pharmacology: A Competency-Based Medical Education Initiative.',
-    abstract: "Background Pharmacology lectures focus on the knowledge domain, teaching various oral and parenteral routes of drug administration. Before the implementation of competency-based medical education (CBME), practical sessions aimed to enhance students' understanding of drug administration routes. However, after the CBME curriculum, soft and psychomotor skills are also being given importance. Demonstration of the correct drug administration method through the intravenous route minimizes errors in drug administration and helps in the early acquisition of knowledge and skills. Our study aimed to evaluate the effect of a simulation-based teaching module on intravenous drug administration and communication skills in pharmacology according to the CBME curriculum. Methodology This cross-sectional study was conducted among Phase II students in the Department of Pharmacology, Bharati Vidyapeeth (Deemed to be University), Medical College and Hospital, Sangli, Maharashtra, India, over three years. The teaching faculty first showed videos of intravenous drug administration to the students, followed by demonstrations on mannequins. We collected students' perceptions at the end of the session. Using the Objective Structured Practical Examination (OSPE) checklist, we also assessed students' practical skills of intravenous drug administration on mannequins. Results In total, 406 students participated in our study. Overall, 89.4% of students felt that learning the intravenous route of drug administration correctly on a mannequin would help in managing various patients. In total, 50% of students were evaluated through OSPE using a checklist. The students were found to be good at intravenous drug administration on the mannequin. Overall, 69% of students communicated about the procedure and alleviated apprehension. Moreover, 97.1% of students sterilized their hands before administering injections. Finally, 28.10% of students were unable to load the syringe properly. Conclusions The simulation-based teaching module on intravenous drug administration introduced by the CBME curriculum in practical classes was well accepted by students, who felt more confident in the injection technique on the mannequin. However, a few students needed more practice sessions. During practice sessions, the steps of intravenous injection, such as communicating with the patient before and after injection, applying and removing the tourniquet, and inserting the needle at the proper angle, should be emphasized.",
-    published: '2025-May',
+    id: '40557344',
+    title: 'A Qualitative Study on Surgeon Perceptions of Risk Calculators in Emergency General Surgery.',
+    abstract: 'OBJECTIVE: To understand how surgeons perceive risk calculators in emergency general surgery (EGS).\n' +
+      'BACKGROUND: EGS involves complex decision-making of operative and nonoperative management. Risk calculators can aid in shared decision-making and informed consent.\n' +
+      'METHODS: We performed semi-structured interviews among emergency surgeons within 1 healthcare system to explore perceptions of risk calculators in EGS. Interviews were completed until thematic saturation, transcribed, coded in duplicate, and analyzed using inductive analysis within a modified grounded theory framework to generate theory regarding surgeon perceptions of risk calculators in EGS.\n' +
+      'RESULTS: Among 20 interviewees, the mean age was 45. We identified dominant themes related to the concerns of and benefits of using risk calculators within EGS, both in situations of clear and unclear best treatment options. Surgeons questioned risk calculator validity and noted that a lack of health numeracy can limit their use. Risk calculators were seen as helpful for communication, consensus building, informed consent, and litigation mitigation. The ideal risk calculator should have low activation energy for use, incorporate relevant data and accurate prognostication, and provide actionable, easily interpretable output. Education for providers and patients on risk calculator availability and use is necessary.\n' +
+      'CONCLUSIONS: Although surgeons may initially question the data produced by risk calculators in EGS, they identify several potential virtues to their bedside use when optimal treatment options are and are not clear. The ideal risk calculator for use in EGS should be convenient and relevant. Future studies are needed to explore patient perceptions and to directly observe patterns of risk calculator use.',
+    published: '2025-Jun',
     authors: [
-      'Patil Aditi N',
-      'Magadum Madhushree S',
-      'Limaye Ramchandra P',
-      'Shetti Santoshkumar A',
-      'Pendhari Shabbir R',
-      'Jagdale Sachin G'
+      'Rosen Claire B',
+      'Bader Amanda L',
+      'Roberts Sanford E',
+      'Clapp Justin T',
+      'Halpern Scott D',
+      'Schwarze Margaret L',
+      'Kelz Rachel R'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.84667',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546605/'
+    journal: 'Annals of surgery open : perspectives of surgical history, education, and clinical approaches',
+    doi: '10.1097/AS9.0000000000000567',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557344/'
   },
   {
-    id: '40546604',
-    title: 'The Impact of Stress and Distraction on Bag-Valve-Mask Ventilation Performance.',
-    abstract: "OBJECTIVES: Stress and distraction are intrinsic to the emergency department (ED). These factors can invoke a physiologic response, potentially leading to performance decrements in life-saving procedures like bag-valve-mask (BVM) ventilation. The aim of this study is to use a simulation scenario for two reasons: (1) to evaluate how stress and distraction impact emergency medicine (EM) residents' physiology; (2) to evaluate how these factors impact BVM ventilation performance. Our hypothesis is that both factors will cause performance decrements, with stress causing increased ventilations and distraction causing disengagement and reduced ventilations.\n" +
-      'METHODS: Four EM residents were subjected to a simulation scenario comprised of three phases: (1) baseline (no stress or distraction); (2) stress (increased alarm/alerts); and (3) distraction (multiple disruptions caused by simulation center staff). Throughout the simulation each subject wore a physiologic monitor that recorded their heart rate (HR) and electrodermal activity (EDA). A high-fidelity manikin was utilized to record the BVM ventilation performance. The manikin recorded the number of ventilations delivered, duration of the ventilation and the peak inspiratory pressure (PIP) of each ventilation. To standardize physiological measures deviations of each data source relative to an algorithm-derived baseline/resting state was calculated.\n' +
-      'RESULTS: The average number of ventilations per minute during phase (1) was 12.5, (2) was 16, and (3) was 11.9. The average PIP (cmHO/mL) delivered during phase (1) was 15.5, (2) was 24.4, and (3) was 22.3. Percent deviation from baseline for HR ranged from 16.9% to 38.4%, with three out of four EM residents having greater change during distraction. EDA data showed a 25-190.3% deviation from base line, with three out of four EM residents having the greatest deviation during the distraction phase.\n' +
-      "CONCLUSION: Stress and distraction both had an impact on subject's physiologic stress response and BVM performance. While the stress phase caused the highest performance decrements, the distraction phase was associated with the more significant physiologic response and self-reported impact.",
-    published: '2025-May',
+    id: '40557332',
+    title: 'Patterns and Correlates of Tobacco Use Among PLWH in Viet Nam: A Cross-Sectional Analysis.',
+    abstract: 'INTRODUCTION: The use of multiple tobacco products may increase nicotine dependence and reduce success in quitting. In Viet Nam, the prevalence of dual cigarette and waterpipe use is high, yet the characteristics of dual users, particularly among people living with HIV (PLWH) in low-and-middle income countries (LMICs) are underexplored. This paper describes patterns and correlates of tobacco use among PLWH in Viet Nam.\n' +
+      "METHODS: This cross-sectional analysis utilized baseline survey data from a randomized controlled trial. Participants (n = 672) were ≥ 18 years old, current cigarette smokers, and receiving care at one of 13 HIV clinics in Ha Noi. Tobacco use pattern (cigarette-only vs dual waterpipe and cigarette use) was determined by self-reported use in the past 7 days. Sociodemographic characteristics, health status, household smoking rules, substance use, and perceived smoking risks were examined using bivariate analysis, with Wilcoxon's rank sum test and Pearson's Chi-sq tests used to assess statistical significance.\n" +
+      'RESULTS: Half of the sample (50.3%) reported dual waterpipe and cigarette use. Dual use was significantly associated with a lower level of education, lower annual income, and poorer health compared to cigarette-only smokers. Dual users were less likely to report a no-smoking household policy, and more likely to have a higher level of nicotine dependence. Participants from both user groups perceived waterpipe smoking as less harmful compared to cigarette smoking.\n' +
+      'CONCLUSION: There is a high prevalence of dual tobacco use among PLWH in Viet Nam. Understanding the characteristics of dual users is critical for developing comprehensive tobacco control policies and cessation strategies tailored to this population in Viet Nam and other LMICs.',
+    published: '2025',
     authors: [
-      'McDaniel Grant H',
-      'Pappada Scott',
-      'Alyosif Zakaria',
-      'Teye-Lartey Solomon',
-      'Moussa Mohamad'
+      'Kapur Reet',
+      'Nguyen Nam',
+      'Nguyen Trang',
+      'Alvarez Gloria Guevara',
+      'Cleland Charles M',
+      'Armstrong-Hough Mari',
+      'Shelley Donna'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.84542',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546604/'
-  },
-  {
-    id: '40546593',
-    title: 'Awareness and Willingness for Body Donation in a Semi-urban Area of India: A Cross-Sectional Study.',
-    abstract: "Background The rising number of medical colleges in India has increased the demand for cadavers to support education on the subject of anatomy, which is a core component of medical training. However, societal, cultural, and religious barriers often limit body donation, resulting in an inadequate availability of cadavers. Aim This observational study aimed to assess awareness and willingness towards body donation among residents of Dhauj, a semi-urban area in the Faridabad district, and to identify key barriers to body donation. Materials and methods A pre-validated questionnaire was distributed to 524 participants and data were collected on their awareness, willingness, and misconceptions about body donation. Results  Results indicate that 66.2% of participants had never heard of body donation, with only 26.3% expressing personal willingness to donate. Major barriers to donation included religious beliefs (39.8%), cultural norms (23.4%), and a lack of information (28.44%). Notably, family dynamics also impacted willingness, with 66.4% of participants uncertain about their families' support. A majority, 83.2% of respondents, placed trust in healthcare professionals as credible sources of information, emphasising the role of medical professionals in advocacy of dead body donation. Conclusion Results of the present study revealed a significant gap in awareness and willingness to participate in dead body donation within semi-urban communities. This study highlights the urgent need for targeted awareness campaigns, involvement of trusted health care professionals, community leaders and educational initiatives to address misconceptions about body donation and improve acceptance of body donation programs among residents of semi-urban areas of India.",
-    published: '2025-May',
-    authors: [
-      'Shukla Stuti',
-      'Shekhawat Devendra S',
-      'Chhabra Prabhjot K',
-      'Maharshi Abhilasha',
-      'Anand Mahindra'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.84565',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546593/'
-  },
-  {
-    id: '40546587',
-    title: 'A Multifaceted Analysis of Self-Medication With Antibiotics in South-East Delhi: A Mixed-Method Study Among Adults Who Self-Reported Antibiotic Use in the Past Three Months.',
-    abstract: 'Objectives The misuse of antibiotics fuels antimicrobial resistance (AMR), rendering treatments ineffective, increasing healthcare costs, and increasing mortality. This study estimated the prevalence, patterns, and drivers of self-medication with antibiotics (SMA) among adults, alongside exploring the reasons behind this practice. Methodology This community-based mixed-method study ran from January 2023 to June 2024. Simple random sampling selected 250 participants for the quantitative component, and purposive sampling chose 19 participants for the qualitative component. Descriptive statistics, cross-tabulation, and logistic regression were executed using SPSS (IBM Corp. Released 2019. IBM SPSS Statistics for Windows, Version 26.0. Armonk, NY: IBM Corp). Thematic analysis of focus group discussions (FGDs) was done using NVivo 14 (Lumivero 2023, Version 14, Denver). Results The prevalence of SMA was 36.4%(95% confidence interval (CI): 31.4-41.4), with 63 (69.2%) participants self-medicating at least once in the past three months, primarily for cold and flu-like symptoms (29, 31.86%) and fever (27, 29.69%). Key predictors of SMA were marital status, religion, education level, socioeconomic class, presence of chronic disease, knowledge, and attitude. Four (4.4%) participants experienced adverse drug reactions, 167 (66.8%) had inadequate knowledge about antibiotics, with only 13 (5.2%) aware of AMR, 142 (56.8%) had a favorable attitude towards SMA, and 171 (68.4%) followed appropriate practices. FGDs identified convenience, trust in local chemists, economic constraints, misinformation, long waiting times, limited healthcare access, and community acceptance as SMA drivers. Conclusion The study found that the prevalence of SMA in South-East Delhi surpasses rates in other regions of the country and signals a critical public health concern. To address SMA and mitigate AMR, authorities should enforce stricter regulations on over-the-counter antibiotic sales and implement targeted community education programs to enhance awareness of rational antibiotic use and AMR risks. These interventions, by improving regulatory oversight and knowledge, can effectively reduce SMA and safeguard antibiotic efficacy.',
-    published: '2025-May',
-    authors: [
-      'Jabeen Roshan',
-      'Shaikh Aqsa',
-      'Gautam Richa',
-      'Nabi Nusrat',
-      'Sultana Eram',
-      'Bano Aysha'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.84623',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40546587/'
+    journal: 'Tobacco use insights',
+    doi: '10.1177/1179173X251353030',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40557332/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at TLSSocket.socketErrorListener (node:_http_client:504:5)
-    at TLSSocket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 6)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'kahualike.manoa.hawaii.edu',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.31372/20190403.1059',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/apin/vol4/iss3/2/',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'kahualike.manoa.hawaii.edu',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/apin/vol4/iss3/2/',
-      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: kahualike.manoa.hawaii.edu\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/apin/vol4/iss3/2/',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'kahualike.manoa.hawaii.edu',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'kahualike.manoa.hawaii.edu'
-  }
-}
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1108,23 +908,31 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
+    at async Promise.all (index 6)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1149,243 +957,72 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     },
     maxRedirects: 5,
     method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    url: 'https://doi.org/10.31372/20190403.1059',
     allowAbsoluteUrls: true,
     data: undefined
   },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
     },
-    _eventsCount: 7,
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
     _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 34001,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5123,
-        [Symbol(triggerId)]: 5121
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 4,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Tue, 24 Jun 2025 15:12:42 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
+    _options: {
       maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
     },
-    request: <ref *1> ClientRequest {
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
       _events: [Object: null prototype],
       _eventsCount: 7,
       _maxListeners: undefined,
       outputData: [],
       outputSize: 0,
       writable: true,
-      destroyed: true,
+      destroyed: false,
       _last: true,
       chunkedEncoding: false,
       shouldKeepAlive: true,
@@ -1402,13 +1039,13 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       _trailer: '',
       finished: true,
       _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
         'Accept: application/json, text/plain, */*\r\n' +
         'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
         'Connection: keep-alive\r\n' +
         '\r\n',
       _keepAliveTimeout: 0,
@@ -1419,18 +1056,18 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
       aborted: false,
-      timeoutCb: null,
+      timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
       parser: null,
       maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false,
       [Symbol(kBytesWritten)]: 0,
@@ -1442,33 +1079,19 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
   },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Tue, 24 Jun 2025 15:12:42 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
+  }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
@@ -1574,16 +1197,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 35809,
+        _idleNext: [TimersList],
+        _idleStart: 33236,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5169,
-        [Symbol(triggerId)]: 5167
+        [Symbol(asyncId)]: 4637,
+        [Symbol(triggerId)]: 4635
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1621,7 +1244,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 4,
+      totalSocketCount: 3,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1715,7 +1338,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Tue, 24 Jun 2025 15:12:44 GMT',
+      date: 'Wed, 25 Jun 2025 15:12:39 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1826,7 +1449,369 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Tue, 24 Jun 2025 15:12:44 GMT',
+  date: 'Wed, 25 Jun 2025 15:12:39 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 33548,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4681,
+        [Symbol(triggerId)]: 4679
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 3,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Wed, 25 Jun 2025 15:12:39 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Wed, 25 Jun 2025 15:12:39 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2304,16 +2289,30 @@ Translating paper 1/50
 Translating paper: Big data in economics...
 Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
-Translating paper: Enhancing Economic Literacy through Causal Diagram...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.735440529118594 seconds...
-Translating paper 4/50
-Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
-Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
-Translating paper: A New Index of Human Capital to Predict Economic G...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.894131280814121 seconds...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.2679104092086697 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"7s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '7s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.60661869036626 seconds...
 Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
@@ -2326,22 +2325,43 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
   statusText: 'Service Unavailable',
   errorDetails: undefined
 }
+Translating paper 3/50
+Translating paper: Enhancing Economic Literacy through Causal Diagram...
+Translating paper 4/50
+Translating paper: Molecular genetics and mid-career economic mobilit...
+Translating paper 5/50
+Translating paper: Quantifier Elimination for Reasoning in Economics...
+Translating paper 6/50
+Translating paper: A New Index of Human Capital to Predict Economic G...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.1912614028705386 seconds...
 Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
 Translating paper 8/50
 Translating paper: A physical theory of economic growth...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.1538985431405835 seconds...
 Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
 Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
 Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.1848623119059574 seconds...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.826187821138579 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 503,
+  statusText: 'Service Unavailable',
+  errorDetails: undefined
+}
 Translating paper 12/50
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
 Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.3459883421387513 seconds...
 Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
 Translating paper 15/50
@@ -2352,543 +2372,74 @@ Translating paper 17/50
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
 Translating paper 18/50
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.5642374640746506 seconds...
 Translating paper 19/50
-Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper: The Impact of Education for Sustainable Developmen...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.4190450458010977 seconds...
 Translating paper 20/50
-Translating paper: Economics of education...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.970422171315696 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 503,
-  statusText: 'Service Unavailable',
-  errorDetails: undefined
-}
+Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
-Translating paper: Mothers’ duties and rights when positioned as remo...
+Translating paper: AI Responses to Challenging Problems and Educator ...
 Translating paper 22/50
-Translating paper: ‘Quality and consequence’: interrogating the drive...
+Translating paper: Pre-service Teachers’ Characterizations of “Dragga...
 Translating paper 23/50
-Translating paper: What makes quality teachers in remote First Nation...
+Translating paper: Making Tens with Four Hands: Touchscreen-Based Cla...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.2038920582083095 seconds...
 Translating paper 24/50
-Translating paper: Literacy and Financial Education: Private Provider...
+Translating paper: Understanding Children’s Learning of Part–Whole Re...
 Translating paper 25/50
-Translating paper: Public management of digitalization into the Spani...
+Translating paper: Mothers’ duties and rights when positioned as remo...
 Translating paper 26/50
-Translating paper: In pursuit of equity in upper secondary education:...
+Translating paper: ‘Quality and consequence’: interrogating the drive...
 Translating paper 27/50
-Translating paper: A phenomenological reading of integration in the l...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.6124154277408596 seconds...
+Translating paper: What makes quality teachers in remote First Nation...
 Translating paper 28/50
-Translating paper: The positioning of quality and expertise in initia...
+Translating paper: Literacy and Financial Education: Private Provider...
 Translating paper 29/50
-Translating paper: Mathematics education for sustainable futures: a s...
+Translating paper: Public management of digitalization into the Spani...
 Translating paper 30/50
-Translating paper: Who cares for the carers: A poetic inquiry of init...
+Translating paper: In pursuit of equity in upper secondary education:...
 Translating paper 31/50
-Translating paper: Receptive Vocabulary, Phonological Short-Term Memo...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.5602009202188336 seconds...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.727310855696605 seconds...
+Translating paper: Work-family trajectories and poverty duration and ...
 Translating paper 32/50
-Translating paper: Biomarkers for tracking metabolic changes pre-post...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.1083338478993476 seconds...
+Translating paper: Designing the Contemporary Implementation of Tradi...
 Translating paper 33/50
-Translating paper: Platelet rich plasma, adipose tissue micrografts, ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.785038162697426 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 503,
-  statusText: 'Service Unavailable',
-  errorDetails: undefined
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.309730244817872 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '6s'
-    }
-  ]
-}
+Translating paper: Do parents' socioeconomic resources moderate the a...
 Translating paper 34/50
-Translating paper: Medicare Savings for Seizure Drugs by Adopting the...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.729472427186567 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 503,
-  statusText: 'Service Unavailable',
-  errorDetails: undefined
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.6002939251928385 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 503,
-  statusText: 'Service Unavailable',
-  errorDetails: undefined
-}
+Translating paper: Associations Between Tinnitus and Hearing Loss Amo...
 Translating paper 35/50
-Translating paper: Synthetic Cannabinoid (Mojo)-Induced ST-Segment El...
+Translating paper: Comparative disease burden of early-onset and late...
 Translating paper 36/50
-Translating paper: Worldwide Forensic Dermatology....
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3656925552286334 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"8s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '8s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.574362080187459 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '5s'
-    }
-  ]
-}
+Translating paper: How emotional labor leads to turnover intention: t...
 Translating paper 37/50
-Translating paper: Effect of a Simulation-Based Teaching Module on In...
+Translating paper: Developing positive behavioral skills among adoles...
 Translating paper 38/50
-Translating paper: The Impact of Stress and Distraction on Bag-Valve-...
+Translating paper: The impact of songs with prosocial lyrics on impli...
 Translating paper 39/50
-Translating paper: Awareness and Willingness for Body Donation in a S...
+Translating paper: A Qualitative Study on Surgeon Perceptions of Risk...
 Translating paper 40/50
-Translating paper: A Multifaceted Analysis of Self-Medication With An...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.144874920838453 seconds...
+Translating paper: Patterns and Correlates of Tobacco Use Among PLWH ...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.119036276080032 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"38s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '38s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.151352538641241 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '36s'
-    }
-  ]
-}
 Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.193667773772241 seconds...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.744666059285641 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"10s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '10s'
-    }
-  ]
-}
 Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.355216960352446 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '6s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6928600469002815 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"3s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '3s'
-    }
-  ]
-}
 Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8479478595023733 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"58s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '58s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3542336462476263 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '55s'
-    }
-  ]
-}
 Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.580367099112918 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"50s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '50s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8313841945055263 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '47s'
-    }
-  ]
-}
 Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.218484576634771 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '43s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3883686663308645 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"40s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '40s'
-    }
-  ]
-}
 Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.025226154815137 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '36s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8698995987225993 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"33s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '33s'
-    }
-  ]
-}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8893781587733747 seconds...
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.525695844700587 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"28s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '28s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.056378404746747 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '26s'
-    }
-  ]
-}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7672497127025344 seconds...
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3690908954125245 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"21s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.77300237219489 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"27s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2906,37 +2457,14 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '21s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6652792665954115 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"18s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '18s'
+      retryDelay: '27s'
     }
   ]
 }
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8481487245648807 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"13s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.505862057225699 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"23s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2954,12 +2482,12 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '13s'
+      retryDelay: '23s'
     }
   ]
 }
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.540401813210393 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"10s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.882235723418998 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2977,30 +2505,30 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '10s'
+      retryDelay: '20s'
     }
   ]
 }
 Translation completed: 50 papers
-Removed duplicates: 419 -> 370
-Total papers after merging: 370 (369 existing + 50 new)
-Saved 370 papers to papers.json
+Removed duplicates: 420 -> 385
+Total papers after merging: 385 (370 existing + 50 new)
+Saved 385 papers to papers.json
 Generating HTML files...
-Generating index.html with 370 papers...
+Generating index.html with 385 papers...
 Successfully generated index.html
-Generating archive.html with 370 papers...
+Generating archive.html with 385 papers...
 Successfully generated archive.html
-Generating journal.html with 370 papers...
+Generating journal.html with 385 papers...
 Successfully generated journal.html
-Generating acquisition.html with 370 papers...
+Generating acquisition.html with 385 papers...
 Successfully generated acquisition.html
-Generating publication.html with 370 papers...
+Generating publication.html with 385 papers...
 Successfully generated publication.html
-Generating registration.html with 370 papers...
+Generating registration.html with 385 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 370
+Total papers in database: 385
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-24T15:37:51.724Z
+Timestamp: 2025-06-25T15:41:42.389Z
