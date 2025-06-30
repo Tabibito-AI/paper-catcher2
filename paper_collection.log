@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-06-29T15:10:03.295Z
+Timestamp: 2025-06-30T15:12:08.789Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 418 existing papers from papers.json
+Loaded 419 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -711,16 +710,16 @@ Fetched papers from PubMed: [
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/8.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/8.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
@@ -739,7 +738,7 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
+    at async Promise.all (index 5)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -924,7 +923,7 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
+    at async Promise.all (index 6)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -1093,6 +1092,368 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 33931,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 5436,
+        [Symbol(triggerId)]: 5434
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Mon, 30 Jun 2025 15:12:42 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Mon, 30 Jun 2025 15:12:42 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1104,7 +1465,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 2)
+    at async Promise.all (index 3)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -1198,15 +1559,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 50697,
+        _idleStart: 34432,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5547,
-        [Symbol(triggerId)]: 5545
+        [Symbol(asyncId)]: 5480,
+        [Symbol(triggerId)]: 5478
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1236,7 +1597,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
+      sockets: [Object: null prototype] {},
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1244,7 +1605,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1338,7 +1699,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sun, 29 Jun 2025 15:10:53 GMT',
+      date: 'Mon, 30 Jun 2025 15:12:42 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1449,369 +1810,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sun, 29 Jun 2025 15:10:53 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 50981,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5564,
-        [Symbol(triggerId)]: 5562
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 2,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: true,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: false,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Sun, 29 Jun 2025 15:10:53 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Sun, 29 Jun 2025 15:10:53 GMT',
+  date: 'Mon, 30 Jun 2025 15:12:42 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1831,6 +1830,22 @@ Fetched papers from CrossRef: [
     ],
     journal: 'Journal of Islamic Education',
     link: 'https://doi.org/10.22452/jier.vol7sp2021.4'
+  },
+  {
+    id: '10.32598/jccnc.7.1.33.14',
+    title: 'The Effects of Relaxing Music on Life Distress and Maternal-fetal Attachment in Pregnant Women',
+    summary: 'Background: Although pregnancy and motherhood are enjoyable experiences, they are associated with numerous biopsychological changes requiring adaptation. The present study aimed to assess the effects of relaxing music on life distress and Maternal-Fetal Attachment (MFA) in pregnant women. Methods: This was a quasi-experimental study with a pre-test, post-test and a control group design. ...',
+    published: '2121-2-1',
+    authors: [
+      '',
+      'Shokri Shams, Mona',
+      'Khodabakhshi-Koolaee, Anahita',
+      '',
+      'Falsafinejad, Mohammad Reza',
+      ''
+    ],
+    journal: 'Journal of Client-Centered Nursing Care',
+    link: 'https://doi.org/10.32598/jccnc.7.1.33.14'
   },
   {
     id: '10.32598/jccnc.7.1.350.1',
@@ -1924,15 +1939,6 @@ Fetched papers from CrossRef: [
     authors: [],
     journal: 'International Journal of Humanities, Social Sciences and Education',
     link: 'https://doi.org/10.20431/2349-0381.0303005'
-  },
-  {
-    id: '10.20431/2349-0381.0303008',
-    title: 'The Current Situation of Primary School Teacher’s Evaluation in China-Take the Several Schools in Nantong City as Example',
-    summary: 'No abstract available from web scraping',
-    published: '2106',
-    authors: [],
-    journal: 'International Journal of Humanities, Social Sciences and Education',
-    link: 'https://doi.org/10.20431/2349-0381.0303008'
   }
 ]
 Collected 10 papers from crossref
@@ -2022,26 +2028,26 @@ Translating paper: Assessment of Awareness, Attitude, and Opinion of ...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
-Translating paper: The Role of Attachment Styles and Spiritual Intell...
+Translating paper: The Effects of Relaxing Music on Life Distress and...
 Translating paper 43/50
-Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
+Translating paper: The Role of Attachment Styles and Spiritual Intell...
 Translating paper 44/50
-Translating paper: A criticism of the paradigm of rational choice in ...
+Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
 Translating paper 45/50
-Translating paper: Modeling and Transformation of the Evaluation Mech...
+Translating paper: A criticism of the paradigm of rational choice in ...
 Translating paper 46/50
-Translating paper: Impact of lactation support program on Initiation ...
+Translating paper: Modeling and Transformation of the Evaluation Mech...
 Translating paper 47/50
-Translating paper: Influence of Personal Teacher Efficacy on Selectio...
+Translating paper: Impact of lactation support program on Initiation ...
 Translating paper 48/50
-Translating paper: Availability and Utilization of Tools and Equipmen...
+Translating paper: Influence of Personal Teacher Efficacy on Selectio...
 Translating paper 49/50
-Translating paper: Assessing the Technical Efficiency of Public Hospi...
+Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
-Translating paper: The Current Situation of Primary School Teacher’s ...
+Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 468 -> 419
-Total papers after merging: 419 (418 existing + 50 new)
+Removed duplicates: 469 -> 419
+Total papers after merging: 419 (419 existing + 50 new)
 Saved 419 papers to papers.json
 Generating HTML files...
 Generating index.html with 419 papers...
@@ -2061,4 +2067,4 @@ Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html
 Total papers in database: 419
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-06-29T15:41:07.275Z
+Timestamp: 2025-06-30T15:43:53.716Z
