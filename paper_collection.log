@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-01T15:12:18.387Z
+Timestamp: 2025-07-02T15:12:03.589Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 419 existing papers from papers.json
+Loaded 433 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -298,21 +298,114 @@ Fetched papers from arXiv: [
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: '60dfd50de8b3b43861ddaa0544a95f9652ea5ee1',
+    title: 'Handbook of THE ECONOMICS OF EDUCATION',
+    abstract: 'A substantial amount of money is spent on technology by schools, families, and policymakers with the hope of improving educational outcomes. This chapter explores the theoretical and empirical literature on the impacts of technology on educational outcomes. The literature focuses on two primary contexts in which technology may be used for educational purposes: (i) classroom use in schools and (ii) home use by students. Theoretically, information and communications technology (ICT) investment and computer-aided instruction (CAI) use by schools and the use of computers at home have ambiguous implications for educational achievement: expenditures devoted to technology necessarily offset inputs that may be more or less efficient, and time allocated to using technology may displace traditional classroom instruction and educational activities at home. However, much of the evidence in the schooling literature is based on interventions that provide supplemental funding for technology or additional class time, and thus favor finding positive effects. Nonetheless, studies of ICT and CAI in schools produce mixed evidence with a pattern of null results. Notable exceptions to this pattern occur in studies of developing countries and CAI interventions that target math rather than language. In the context of home use, early studies based on multivariate and instrumental variables approaches tend to find large positive (and in a few cases negative) effects while recent studies based on randomized con-trol experiments tend to find small or null effects. Early research focused on developed countries while more recently several experiments have been conducted in developing countries.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ 'G. Bulman', 'R. W. Fairlie' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/60dfd50de8b3b43861ddaa0544a95f9652ea5ee1'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -401,6 +494,16 @@ Fetched papers from Springer: [
     journal: 'Nature'
   },
   {
+    id: '10.1038/d41586-025-02032-9',
+    title: 'What we stand to lose when foreign students are seen as a threat',
+    summary: 'International students enrich university communities and strengthen civic life. We must defend their place in global education. International students enrich university communities and strengthen civic life. We must defend their place in global education.',
+    published: '2025-07-03',
+    authors: [ 'Chankseliani, Maia' ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Nature'
+  },
+  {
     id: '10.1038/d41586-025-01629-4',
     title: 'Some US researchers want to leave the country. Can Europe take them?',
     summary: 'As the Trump administration steps up attacks on US universities and scientific institutions, the European Union is campaigning hard to attract scientists from the United States. But how many can the bloc take? As the Trump administration steps up attacks on US universities and scientific institutions, the European Union is campaigning hard to attract scientists from the United States. But how many can the bloc take?',
@@ -409,216 +512,186 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Nature'
-  },
-  {
-    id: '10.1007/s13384-024-00793-2',
-    title: 'Mothers’ duties and rights when positioned as remote education tutors in Australian distance schooling',
-    summary: 'Remote education tutors (RETs) conduct the vital but undervalued work of delivering distance schooling to geographically isolated students in Australian rural and remote settings. Part of a broader research project, this paper reports the findings of extended, semi-structured interviews with four women who discharged dual roles as mothers and RETs of their child/ren. Conceptually and methodologically, the study draws on positioning theory to construct dynamic storylines for the participants that explicated how each mother navigated her respective self-reported duties and rights with reference to distance education, as manifested in the particular ways that they positioned themselves and others and in how they were positioned by others. The findings demonstrated both continuities and divergences among the participants’ experiences and perceptions of their duties and rights, as well as diverse strategies and varied self-confidence in their work as RETs, all of which were framed and enacted in the specific contexts of their separate home-based schoolrooms. These findings affirm the crucial value of the mother RETs in facilitating their child/ren’s successful learning outcomes, and also underscore the importance of financial compensation if their work is to be equitable and sustainable in the long term.',
-    published: '2025-07-01',
-    authors: [ 'Peel, K. L.', 'Danaher, P. A.' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'The Australian Educational Researcher'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40590155',
-    title: 'Investigation and analysis of influencing factors on the economic burden of varicella disease in Qingyang, China, 2024.',
-    abstract: 'This study aims to evaluate the economic burden and associated determinants of varicella cases in Qingyang City, Gansu Province, thereby informing the formulation and effectiveness evaluation of varicella prevention and control strategies. Based on socioeconomic and geographic characteristics, varicella cases reported in 2024 from Xifeng District, Heshui County, and Zhenyuan County were selected for cross-sectional surveys. The direct and indirect economic burdens were analyzed using Excel 2010 and SPSS 20.0 software. Univariate analysis (Wilcoxon/Kruskal-Wallis tests) was conducted to identify factors associated with economic burden, subsequently, binary Logistic regression was employed for multivariate analysis of significant variables. A total of 1,010 varicella cases were analyzed. Clinical characteristics revealed a mean disease duration of 10.33 ± 2.45 days and work loss time of 9.45 ± 4.38 days. Healthcare utilization included an average of 1.80 ± 1.15 medical visits and caregiver duration of 9.37 ± 2.46 days. The overall economic burden amounted to $283,428 (US), resulting in a per capita burden of $256 (IQR: $212-$345). Per capita total economic burdens for mild, moderate-severe, and hospitalized varicella cases were calculated as $172, $257 and $487, respectively (χ = 205.730,  < .001); for cases with 0-dose, 1-dose and 2-dose varicella vaccination histories was $286, $172 and $180, respectively(χ = 45.507,  < .001); urban versus rural case burden were identified as $277 and $287, respectively (Z = -2.316,  < .05), indicating statistically significant differences across these data sets. The direct economic burden was $95,590, and the indirect economic burden was $187,837. Factors influencing the economic burden included fever severity, the number of rashes, case type, residence type, presence of complications, and varicella vaccination history. Varicella imposes a considerable economic burden in Qingyang, with significant variations associated with vaccination status. The low coverage of varicella vaccination underscores the urgent necessity to implement targeted vaccination strategies and enhance public health education aimed at reducing disease-related costs.',
+    id: '40600304',
+    title: 'Characterizing Severe and Level 2 Hypoglycemia and Associated Risk Factors in Adults with Type 1 Diabetes Using Hybrid Closed-Loop Insulin Pumps.',
+    abstract: ' Despite advances in diabetes technologies, severe hypoglycemia (SH) and level 2 hypoglycemia (Lv2Hypo) persist among hybrid closed-loop (HCL) insulin pump users. This study assessed the relationship of impaired awareness of hypoglycemia (IAH) and other patient characteristics with SH and Lv2Hypo in HCL insulin pump users with type 1 diabetes.  A cross-sectional survey assessed 6-month SH history, hemoglobin A1C, IAH (using the Hypoglycemia Awareness Questionnaire), and 30-day continuous glucose monitoring (CGM) data among adult HCL insulin pump users recruited from a national U.S. type 1 diabetes patient registry. Analyses included logistic regression, -tests, and Chi-square tests.  Of 601 participants (female: 54%; mean age: 43), IAH and higher glucose coefficients of variation (CVs) were associated with both SH and spending ≥1% of time in Lv2Hypo (s < 0.05). Individuals with SH were further characterized as having spent more time with glucose levels >180 mg/dL and >250 mg/dL and having a lower education level (s < 0.05). CGM hypoglycemia measures were not associated with SH. Age and diabetes duration were not associated with experiencing SH or spending ≥1% of time in Lv2Hypo. Participants who both experienced SH and spent ≥1% of time in Lv2Hypo showed trends toward exhibiting the most severe IAH and the highest glucose CVs.  Among adults with type 1 diabetes using HCL insulin pumps, IAH and higher glucose CVs are risk factors of experiencing SH and Lv2Hypo. Hyperglycemia and lower education level are also associated with a higher risk for experiencing SH.',
+    published: '2025-Jul-02',
+    authors: [
+      'Devore Micah',
+      'Hepworth Emily',
+      'Agni Annika',
+      'Ye Wen',
+      'Amiel Stephanie A',
+      'Fisher Simon J',
+      'Lin Yu Kuei'
+    ],
+    journal: 'Diabetes technology & therapeutics',
+    doi: '10.1089/dia.2025.0126',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600304/'
+  },
+  {
+    id: '40600242',
+    title: "Psychiatric Residents' Perspectives on Psychedelics and Psychedelic Assisted Therapy.",
+    abstract: "This study evaluated the attitudes, knowledge, and educational experiences of psychiatry residents regarding psychedelics and psychedelic-assisted therapy (PAT). In 2023, we distributed an anonymous survey to United States psychiatry residents, assessing demographics, knowledge, and opinions on psychedelics/PAT. The survey also included items asking respondents to retrospectively self-report how strongly psychedelic-related work and educational opportunities influenced their career choice and ranking of residency programs in the Match. Of the 109 respondents, most reported limited formal education on psychedelics during training but expressed a strong desire for more instruction. Most believed psychedelics hold promise for psychiatric disorders (83.49%), though fewer saw similar potential for substance use disorders (55.96%). Notably, 39.81% reported psychedelic-related educational or research opportunities influenced residency program rankings, and 39.25% indicated the possibility of treating patients with psychedelics influenced their decision to pursue psychiatry. Higher knowledge scores and stronger belief in psychedelics' therapeutic potential were associated with greater self-reported influence of psychedelic-related opportunities on program ranking. This study is limited by its small sample size and potential for self-selection and recall bias. Overall, psychiatry residents demonstrated optimism about psychedelics' therapeutic potential but reported inadequate training. Expanding psychedelic-focused educational content in residency could better prepare trainees for psychedelics' evolving role in psychiatry.",
+    published: '2025-Jul-02',
+    authors: [
+      'Barnett Brian S',
+      'Arakelian Miranda',
+      'Weleff Jeremy',
+      'Squier-Roper Tobias',
+      'King Franklin',
+      'Cumming Drew',
+      'Falcone Tatiana'
+    ],
+    journal: 'Journal of psychoactive drugs',
+    doi: '10.1080/02791072.2025.2527296',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600242/'
+  },
+  {
+    id: '40600171',
+    title: 'Cognitive functioning in young adults after mild COVID-19: A case-control study from Iran.',
+    abstract: 'INTRODUCTION: Since December 2019, the novel coronavirus (COVID-19) has caused widespread infection across global populations, characterized by its high transmissibility. Despite extensive research on the acute effects of COVID-19, the long-term psychological and neurological sequela remain inadequately explored. This study aimed to investigate cognitive function after COVID-19 infection compared to a control group of non-infected subjects.\n' +
+      'METHODS: This case-control study included 40 individuals who had recovered from COVID-19, referred to Imam Reza Referral and Educational Hospital in Mashhad, Iran, and 40 matched controls who had not experienced COVID-19 symptoms. All participants underwent an initial screening by a psychiatric assistant to exclude significant medical and psychiatric conditions and any history of drug use. A demographic checklist was administered, followed by cognitive assessments using the Stroop Test, Digit Span Test, and Wisconsin Card Sorting Test (WCST). Data were analysed using SPSS Version 20.\n' +
+      'RESULTS: No significant differences were observed between the two groups regarding age, sex, education level, marital status, or employment status (p > 0.05). However, COVID-19-infected individuals exhibited significantly longer completion times for the congruent Stroop test and increased reaction times compared to healthy controls (p < 0.05). Additionally, the duration for completing the Wisconsin Card Sorting Test was significantly longer in the infected group compared to the non-infected group (p < 0.001). Although the longest digit span and scores on the Digit Span Test were lower in the infected group, these differences did not reach statistical significance (p > 0.05). Furthermore, reaction times in the Continuous Performance Test (CPT) for the first, second, and third sets of 50 stimuli were significantly greater in the COVID-19 group (p < 0.001).\n' +
+      'CONCLUSION: This study underscores that cognitive performance post-COVID-19 is adversely affected, particularly in terms of processing speed and sustained attention, when compared to healthy individuals. Further research is warranted to elucidate the underlying mechanisms and to explore potential interventions for cognitive rehabilitation in this population.',
     published: '2025-Dec',
     authors: [
-      'Liu Beiqin',    'Li Xueping',
-      'Shi Huailu',    'Yuan Lin',
-      'Jing Yongfeng', 'Hui Yuelong',
-      'Xu Meimei',     'Zhang Yan',
-      'Zhao Kangjun',  'Sun Qiqi',
-      'Fan Jingyu',    'Yang Mingyu'
+      'Akbarzadeh Farzad',
+      'Faridhosseini Farhad',
+      'Eslamzadeh Mahboubeh',
+      'Ghalandarzadeh Mojtaba',
+      'Hajebikhaniki Saeedeh',
+      'Ebrahimi Alireza'
     ],
-    journal: 'Human vaccines & immunotherapeutics',
-    doi: '10.1080/21645515.2025.2521188',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590155/'
+    journal: 'IBRO neuroscience reports',
+    doi: '10.1016/j.ibneur.2025.06.003',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600171/'
   },
   {
-    id: '40590109',
-    title: 'Applications and Future Perspectives of Large Language Models in Otolaryngology-Head and Neck Surgery: A Comprehensive Survey.',
-    abstract: 'Since the release of ChatGPT, large language models (LLMs) have rapidly expanded into professional domains, including the medical field. These models, trained on vast text corpora, including the medical literature, have demonstrated impressive capabilities in tasks such as clinical decision support, research assistance, and education. This review focuses on the applications of LLMs in otolaryngology and head and neck surgery (ENT). We analyzed 25 studies published between January 2022 and March 2025 in ENT journals ranked in the top 25% based on the 2023 edition of the Journal Citation Reports (Q1). Moreover, we categorized them by use case and examined the models, datasets, and evaluation methods employed. Despite the growing adoption of LLMs in the ENT field, several challenges remain, including limited model diversity, inconsistent evaluations, and insufficient accuracy and fairness. We also contextualized LLM research trends within a broader medical domain. We highlighted five key areas for advancing clinical-grade LLMs: robust evaluation frameworks, external source-based generation, multimodal integration, agent-based reasoning, and model explainability. Our findings provide ENT clinicians and researchers with a practical foundation for understanding, evaluating, and applying LLMs or advanced versions of LLMs (e.g., Large Multimodal Models, Agents) in clinical and research settings.',
-    published: '2025-Jul-01',
-    authors: [
-      'Ahn Junyong',
-      'Kang Bong Gyun',
-      'Chang Munyoung',
-      'Yoon Sungroh'
-    ],
-    journal: 'Clinical and experimental otorhinolaryngology',
-    doi: '10.21053/ceo.2025-00121',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590109/'
-  },
-  {
-    id: '40590048',
-    title: 'Evaluating Physician Knowledge of Data Privacy and Cybersecurity Risks in Neuromodulation: An Online Cross-Sectional Survey.',
-    abstract: 'PURPOSE: Data privacy and cybersecurity should both be seriously considered for all devices that interact with our patients. There is little education of patients and clinicians about the cybersecurity and privacy of implanted medical devices, and these considerations are likely not part of informed consent discussions. The FDA has made efforts to remedy this, including releasing suggestions on how best to counsel patients and updating industry cybersecurity considerations, however they are not currently legally binding.\n' +
-      'PARTICIPANTS AND METHODS: In this online survey, we assess the awareness, understanding, and interest of clinicians implanting neuromodulation devices in the topics of cybersecurity and device privacy.\n' +
-      'RESULTS: Clinicians were limited in their familiarity and awareness of these topics. The majority of responders do not counsel their patients on device cybersecurity and only sometimes counsel them on data privacy.\n' +
-      'CONCLUSION: Patients and providers may have limited knowledge of data privacy and cybersecurity in implanted medical devices and further education should be undertaken to promote the impact of these issues.',
-    published: '2025',
-    authors: [ 'Martin Everette', 'Petersen Erika', 'Shah Jarna R' ],
-    journal: 'Journal of pain research',
-    doi: '10.2147/JPR.S506509',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590048/'
-  },
-  {
-    id: '40590019',
-    title: "The decision-making process in the choice of VBAC: Facilitators and barriers from women's perception, a systematic review.",
-    abstract: "INTRODUCTION: Vaginal birth after cesarean (VBAC) is associated with a lower risk of maternal morbidity, fewer complications in future pregnancies, and a reduced overall cesarean section (C-section) rate at the population level. Despite these benefits, a woman's decision for VBAC is shaped by multiple factors. This review aims to identify elements perceived by women as influential in the VBAC decision-making process.\n" +
-      'METHODS: We conducted a systematic review between 1 June and 12 July 2024, using PubMed, CINAHL, Embase and PsycINFO. We included English-language studies (2014-2024) on women eligible for VBAC with ≥1 previous C-sections. Study quality was appraised using CASP. Findings were narratively and thematically synthesized.\n' +
-      "RESULTS: Twenty-one studies met the inclusion criteria. Fifteen recurring factors were identified. 'Facilitators' of VBAC included: mother-newborn bonding; support from partner and family; desire for vaginal birth; previous VBAC experience; shorter postpartum recovery; partner and family support; social support from other women; healthcare professionals' attitudes; communication and respectful maternity care; and counseling. 'Barriers' included: anxiety and fear of the unknown; healthcare professional's misinformation and attitudes; coercive counseling; pain related to labor; loss of control; and perceived risk to mother or newborn.\n" +
-      "CONCLUSIONS: VBAC decision-making is influenced by past birth experiences, perceived support, and current concerns. Healthcare professionals' attitudes and high-quality counseling are key to informed, unbiased choices. Continuity of care, midwifery care and education can empower women and reduce unnecessary C-sections. However, as most studies are from high-income, English-speaking countries, findings may not generalize globally.",
+    id: '40600158',
+    title: 'Knowledge, attitudes, and practices regarding avian influenza among poultry farmers near migratory bird habitats in Guidong County, China.',
+    abstract: 'OBJECTIVE: To assess the knowledge, attitudes, and preventive behaviors (KAP) regarding avian influenza among poultry farmers living near migratory bird habitats in Guidong County, China, and to identify determinants of these practices using structural equation modeling.\n' +
+      'METHODS: A cross-sectional survey was conducted in July 2021 among 221 poultry farmers from three towns adjacent to migratory bird habitats. A structured questionnaire was used to collect data on KAP related to avian influenza. Descriptive statistics was used to analyze KAP levels. A structural equation model was developed with AMOS 24.0 to examine the relationships among knowledge, attitudes, and behaviors.\n' +
+      'RESULTS: The overall mean KAP score was 32.97 ± 7.95 (51.5%) of maximum possible score, indicating suboptimal levels. In the fitted model, knowledge exerted both a direct effect on preventive behaviors (standardized path coefficient = 0.183) and an indirect effect mediated through attitudes (0.056). Attitude additionally influenced behavior directly (0.181). Goodness-of-fit indices confirmed robust model fit.\n' +
+      'CONCLUSION: Study findings indicate that poultry farmers living near migratory bird habitats in Guidong County demonstrate insufficient avian influenza-related knowledge, attitudes, and practices. Targeted health education that enhances accurate knowledge and fosters positive attitudes is critical to strengthening preventive behaviors and mitigating transmission risk.',
     published: '2025',
     authors: [
-      'Cosmai Greta',
-      'Biondini Maria',
-      'Panzeri Maria',
-      'Serafini Marzia',
-      'Lambicchi Laura',
-      'Locatelli Anna',
-      'Nespoli Antonella',
-      'Fumagalli Simona'
+      'Jiang Yan',
+      'Zhong DaiJun',
+      'Han Yang',
+      'Zhou Yong',
+      'Zhou HaiJian'
     ],
-    journal: 'European journal of midwifery',
-    doi: '10.18332/ejm/205874',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590019/'
+    journal: 'Frontiers in public health',
+    doi: '10.3389/fpubh.2025.1618292',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600158/'
   },
   {
-    id: '40590011',
-    title: 'Monetising misfortune: the financial consequences of injuries in professional football teams.',
-    abstract: "OBJECTIVES: To evaluate the financial impact of player injuries on team performance in German football's first and second divisions, focusing on the indirect costs related to reduced performance and lost revenue.\n" +
-      'METHOD: This retrospective, longitudinal study analysed data from seven seasons (2014/2015 to 2020/2021) of the Bundesliga. Injury metrics (incidence, burden and matchday unavailability) were examined using linear mixed models to assess their relationship with team performance (league rank and points). Financial impacts were estimated by translating performance declines into revenue losses from TV broadcasting rights and prize money.\n' +
-      'RESULTS: Findings show a significant negative relationship between most injury measures and team performance across both divisions. In the second division, an additional 333 injury days were associated with a one-rank drop, while the relationship was not statistically significant in the first division. For injury incidence, an increase of 4.33 injured players in the first division and 2.64 injured players in the second division corresponded to a one-rank drop. Matchday unavailability had similarly strong effects: in the first division, an additional 1.62 unavailable players per matchday were linked to a one-rank drop, while in the second division, only 0.71 unavailable players resulted in the same outcome. Financial losses due to injury-related performance declines were substantial, particularly for higher-ranked teams in the first division.\n' +
-      'CONCLUSIONS: Injuries significantly affect team performance, causing notable financial losses through reduced league rankings and points.',
+    id: '40600152',
+    title: 'Spatiotemporal analysis of pulmonary tuberculosis in the central region of the Zhejiang Province, China (2016-2024).',
+    abstract: 'BACKGROUND: In recent years, Shaoxing City, located in central Zhejiang Province, has experienced a slow decline in the incidence of pulmonary tuberculosis (PTB). Therefore, there is an urgent need to elucidate the potential causes for this decline through spatiotemporal analyses to provide a scientific basis for targeted prevention and control. We aimed to explore the spatiotemporal distribution of PTB notification rates in Shaoxing City from 2016 to 2024 and identify high-incidence clusters, thereby offering data-driven insights to optimize regional PTB control strategies.\n' +
+      'METHODS: Statistical analyses were conducted using R and Excel on all reported active PTB cases in Shaoxing City. Spatiotemporal analysis of case distribution and regional clustering was conducted using ArcGIS and SatScan.\n' +
+      'RESULTS AND DISCUSSION: In total, 17,298 active PTB cases were registered between 2016 and 2024, including 9,749 laboratory-confirmed and 7,549 clinically diagnosed cases. The male-to-female ratio was 2.34:1. Farmers represented 68.2% of all cases. The PTB notification incidence showed a gradual decline. Spatial autocorrelation results revealed 52 sub-districts with high-high clusters over the nine-year period, primarily in Shengzhou and Xinchang counties. Spatiotemporal scan analysis identified one primary cluster area ( = 1.62,  = 170.87,  < 0.001) and two secondary clusters between 2016 and 2024. The incidence of PTB in Shaoxing City showed a downward trend, though the decline was relatively slow. The southeastern region should be prioritized in efforts to accelerate the End TB Strategy. Overall, comprehensive and intensive interventions, such as large-scale chest X-ray screening and health education programs, should be enhanced to effectively curb PTB transmission, especially among males and farmers.',
     published: '2025',
     authors: [
-      'Dallmeyer Sören',
-      'Steinfeldt Henry',
-      'Hübers Timo',
-      'Pietzonka Micha',
-      'Breuer Christoph'
+      'Zhang Kaixuan',
+      'Yang Zuokai',
+      'Sun Jiamei',
+      'Liu Kui',
+      'Lu Qiaoling'
     ],
-    journal: 'BMJ open sport & exercise medicine',
-    doi: '10.1136/bmjsem-2024-002437',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590011/'
+    journal: 'Frontiers in public health',
+    doi: '10.3389/fpubh.2025.1599274',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600152/'
   },
   {
-    id: '40590010',
-    title: 'Impact of the Composite Allocation Score on Lung Transplant Waitlist and Posttransplant Outcomes.',
-    abstract: 'BACKGROUND: On March 9, 2023, the Composite Allocation Score (CAS) was introduced for all lung transplantation (LT) candidates. We analyzed waitlist and posttransplant outcomes after CAS implementation.\n' +
-      'METHODS: Using the United Network for Organ Sharing registry (2022-2024), adult patients listed for isolated LT were divided into 2 eras: era 1 (pre-CAS: March 1, 2022-March 8, 2023) and era 2 (post-CAS: March 9, 2023-September 30, 2024). Competing risk regression analyzed waitlist events. Recipient/donor characteristics and mortality risk factors were assessed with Cox models. Survival was evaluated with Kaplan-Meier analysis.\n' +
-      'RESULTS: Among 6398 LTs, 2598 (40.6%) occurred in era 2. More Black patients (16.9% versus 15%,  = 0.04) and those with a high school education (35.4% versus 33.4%,  = 0.0003) were transplanted. ABO type O patients were less likely to undergo LT (42.5% versus 46.6%,  = 0.04). Era 2 had longer transport distances (231 versus 202 miles,  < 0.0001), ischemic times (5.1 versus 4.9 h,  < 0.0001), and increased use of flights (79.1% versus 72.8%,  < 0.0001). Donation after circulatory death (9.4% versus 6.2%,  < 0.0001) and normothermic regional perfusion (2.2% versus 1.2%,  = 0.02) usage rose. Waitlist times decreased (29 versus 31 d,  = 0.009), with improved outcomes (sub-hazard ratio, 0.70;  < 0.0001). Era 2 showed superior 6-mo and 1-y survival ( < 0.0001) and reduced rejection treatment (2.6% versus 14.5%,  < 0.0001).\n' +
-      'CONCLUSIONS: The implementation of CAS was associated with reduced waitlist mortality, improved access for marginalized groups, and enhanced survival. Lungs were procured from greater distances with an increased use of donation after circulatory death with normothermic regional perfusion or ex vivo perfusion. Disparities remain for ABO type O patients, warranting closer follow-up.',
-    published: '2025-Jul',
-    authors: [
-      'Kwon Ye In Christopher',
-      'Caboti-Jones Holly',
-      'Keller Michael',
-      'Park Andrew Min-Gi',
-      'Lai Alan',
-      'Shah Rachit D',
-      'Fitch Zachary',
-      'Kasirajan Vigneshwar',
-      'Patel Vipul',
-      'Hashmi Zubair A'
-    ],
-    journal: 'Transplantation direct',
-    doi: '10.1097/TXD.0000000000001836',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590010/'
-  },
-  {
-    id: '40590005',
-    title: 'Outcomes of High Kidney Donor Profile Index Hepatitis C Nucleic Acid Testing Positive Kidneys are Equivalent to Matched Hepatitis C Nucleic Acid Testing Negative Kidneys.',
-    abstract: 'BACKGROUND: A recent Organ Procurement and Transplant Network policy change removes hepatitis C virus (HCV) status and race from the Kidney Donor Profile Index (KDPI) calculation, thereby lowering the KDPI of HCV nucleic acid testing positive (NAT) kidneys and increasing their allocation priority. However, even in the era of direct-acting antivirals, high KDPI HCV NAT kidneys exhibited higher discard rates compared with their HCV NAT counterparts, and outcome data for this "high-risk" group remain limited. This study aims to address this knowledge gap by providing comprehensive outcome data to better inform organ allocation and selection decisions under the new KDPI framework.\n' +
-      'METHODS: Using national transplant data from 2015 to 2023, we analyzed adult deceased donor kidney transplants stratified by KDPI and HCV NAT status. An exact matching model was used to identify the matched HCV NAT group.\n' +
-      'RESULTS: No significant differences were observed in delayed graft function, rejection, or patient and graft survival between high KDPI HCV NAT and matched HCV NAT recipients. High KDPI HCV NAT kidneys were more often allocated regionally or nationally, with 67.6% occurring in 4 regions. Their recipients were more likely to have a high school education and shorter wait times. After the policy change, >90% of prior high KDPI HCV NAT kidneys will no longer be classified as high KDPI.\n' +
-      'CONCLUSIONS: Our findings support the safe utilization of previously high KDPI HCV NAT kidneys after a policy change. Although the revised KDPI may assist clinicians in identifying higher-quality organs, its impact on existing sociodemographic disparities and overall organ utilization rate remains uncertain.',
-    published: '2025-Jul',
-    authors: [
-      'He Shengliang',
-      'Thomas Christie P',
-      'Gunderson Alan E',
-      'Ten Eyck Patrick',
-      'Reed Alan I'
-    ],
-    journal: 'Transplantation direct',
-    doi: '10.1097/TXD.0000000000001827',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40590005/'
-  },
-  {
-    id: '40589962',
-    title: 'The medical student of the future: redefining competencies in a transformative era.',
-    abstract: 'Medical education is undergoing a profound transformation, driven by rapid technological advances, evolving pedagogical strategies, and the shifting demands of healthcare systems globally. This article explores the historical evolution of medical student competencies, evaluates the current state of medical education, and envisions the future competencies required for medical school entrants and graduates. We propose a forward-looking framework for reimagining the medical student of the future, emphasizing the integration of advanced technological literacy, humanistic values, and a global perspective. By redefining these competencies, medical schools can ensure the development of adaptable, empathetic, and innovation-driven physicians for a dynamic healthcare landscape.',
+    id: '40600132',
+    title: 'Alpha-Gal Syndrome: Often Hidden, Under-Recognized, and in Need of Attention-A Rapid Review.',
+    abstract: "Alpha-gal syndrome (AGS), a tick-borne allergy, is increasing as its vectors migrate throughout the US and the world. There were an estimated 450,000 cases in the US. AGS reactions to mammalian foods and medical products include delayed anaphylaxis, urticaria, gastrointestinal and cardiac symptoms often difficult to connect to the source. Despite its seriousness, provider knowledge is limited. This rapid review investigated published works on AGS from 2020 to 24; it also sought to determine the breadth of AGs publications across different fields and specialties. We identified 355 studies of AGS diagnosis and management from 2020 to 2024 via Cochrane Central, Medline via the PubMed interface, and Embase (additional grey literature via Web of Science and Google Scholar). Studies were assessed for quality and risk of bias using JBI critical appraisal tools. Two hundred and nineteen studies met the criteria. One hundred and sixty-eight (77%) were full studies; 51 (23%) were conference presentations. Studies remained largely confined to allergy and immunology literature, despite their implications for other organ systems. Although patients present with symptoms to emergency departments and dermatology clinics there is a paucity of literature in those fields and others; several studies document practitioners' lack of knowledge. Inclusion of content within medical school curricula is needed to establish foundational knowledge on the topic. With the increase in patients presenting with AGS, and with the reach of AGS across multiple fields, physicians and other health care providers need to be able to diagnose and then manage AGS with their patients. This rapid review has documented the problem of silos in disseminating information about AGS widely through the medical field. The remedy for a lack of practitioner knowledge is education.",
     published: '2025',
     authors: [
-      'Miguez-Pinto João P',
-      'Garcia-Rosa Beatriz',
-      'Maggitti-Bezerril Mateus',
-      'Ramalho Clara',
-      'Garcia Stefania L',
-      'Pustilnik Hugo N',
-      'Boczar Daniel',
-      'Avena Katia M',
-      'Andrade Bruno B'
+      'Thompson Carol C',
+      'Saracco Benjamin',
+      'Pruthi Anika',
+      'Cerceo Elizabeth'
     ],
-    journal: 'Frontiers in medicine',
-    doi: '10.3389/fmed.2025.1593685',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40589962/'
+    journal: 'International journal of general medicine',
+    doi: '10.2147/IJGM.S519844',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600132/'
   },
   {
-    id: '40589920',
-    title: 'Attitudes of Nursing Students in Saudi Arabia Toward Evidence-Based Research.',
-    abstract: " The integration of research into nursing practice is fundamental for advancing evidence-based healthcare. This study examines the factors influencing Saudi nursing students' attitudes toward evidence-based research.  A cross-sectional survey was conducted among nursing students in Saudi Arabia from September 2023 to January 2024. Data were collected via an online questionnaire, which included demographic details and the attitudes toward research (ATR) scale. Statistical analyses employed descriptive and inferential statistics.  Of the 603 participants, 56.72% were male, predominantly aged 21-25 years (65.67%), and 76.12% attended public institutions. Most were pursuing a B.Sc. in nursing (85.07%). The overall mean score of the ATR scale was 3.13 ± 0.51 out of 5, indicating a moderately positive attitude level among the students. A significant negative correlation was found between research usefulness and research anxiety ( = -0.4,  < 0.001), and a strong positive correlation existed between research usefulness and positive ATR ( = 0.73,  < 0.001). Research anxiety was negatively correlated with positive ATR ( = -0.49,  < 0.001). Additionally, research difficulty was significantly correlated with both research anxiety ( = 0.78,  < 0.001) and positive ATR ( = -0.48,  < 0.001). Notably, a statistically significant association was observed between the type of institute and the overall mean score, with students from public institutes scoring higher than those from private institutes. Linear regression analysis further confirmed that the type of institute was a significant predictor of overall ATR.  The study revealed a moderately positive attitude among students toward the utility of evidence-based research in their profession while highlighting concerns in areas such as research anxiety and difficulty. Compared with their private institute counterparts, students from public institutes displayed more favorable attitudes, indicating a need for educational policymakers to address disparities in research education. Addressing research anxiety and perceived difficulty through curriculum design and teaching methods could foster more positive ATR among nursing students, contributing to the advancement of evidence-based practices in nursing care.",
-    published: '2025',
-    authors: [ 'Dailah Hamad' ],
-    journal: 'Nursing research and practice',
-    doi: '10.1155/nrp/1280246',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40589920/'
+    id: '40600091',
+    title: 'Empirical Research of Health Inequalities Between Male and Female Employees of the Hellenic National Organization for Healthcare Services Provision: A Cross-Sectional Study.',
+    abstract: 'Aim The study attempts to delineate a framework of investigation regarding health inequalities and health-related behaviors among male and female employees of the Hellenic National Organization for Healthcare Services Provision (EOPYY). The pillars of the presented framework are self-perceived health, the presence of chronic diseases, health behaviors, mental well-being, and healthcare utilization. Subject and methods A cross-sectional study was conducted on 209 employees using a self-administered online questionnaire. Data were analyzed using descriptive and inferential statistics (Mann-Whitney U, Kruskal-Wallis, as well as Chi-squared Χ²) and multiple linear regression analysis. Results Men reported better overall health, lower stress levels, and higher quality of life, particularly in dimensions such as physical pain (p=0.001) and mental health (p=0.002), whereas women reported a higher prevalence of chronic diseases and more frequent doctor visits. Women adopted healthier dietary habits and exercised more frequently, while men exhibited higher rates of overweight and obesity (p<0.001). Gender emerged as a significant predictor of both physical and mental health, with men demonstrating more favorable health indicators. Conclusions While health inequalities are gaining global attention, their impact on employees in large public Organizations in Greece remains underexplored. This study generates novel insights to shape strategies such as flexible work policies, improved workplace health programs, and gender equality education, driving a more inclusive and supportive work culture. Practical implications include workplace mental health support, targeted health promotion initiatives, and policies enhancing work-life balance. These measures can reduce gender-related health disparities and improve overall employee well-being and productivity. The findings may inform workplace health policies and promote gender-sensitive interventions in the public sector. The findings may inform workplace health policies and promote gender-sensitive interventions in the public sector.',
+    published: '2025-Jun',
+    authors: [ 'Kouroukli Eleftheria', 'Pappa Evelina', 'Niakas Dimitrios' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85167',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600091/'
   },
   {
-    id: '40589919',
-    title: 'The Impact of Remote Visualized Teaching on Clinical Competence Following Short-Term Bronchoscopy Training.',
-    abstract: "OBJECTIVE: To evaluate the impact of remote visualized teaching (RVT) on trainees' confidence and clinical competence after short-term traditional simulation-based bronchoscopy training.\n" +
-      'METHODS: In this prospective self-controlled quasi-experimental study, two cohorts, with 24 trainees each, completed a one-day traditional bronchoscopy course and voluntarily joined a one-month RVT program. Confidence and clinical competence were evaluated before and after RVT using the Bronchoscopy Operator Confidence Scale (BOCS) and a modified Ontario Bronchoscopy Assessment Tool (OBAT), with scores analyzed using the Wilcoxon signed-rank test.\n' +
-      'RESULTS: 48 trainees from 43 hospitals (81.2% secondary-level) completed the RVT course. Median BOCS scores increased significantly from 60.0 (54.0-64.0) to 75.0 (72.0-81.0; p<0.001), with notable improvements in emergency response (2.00→3.50) and operational skills (2.75→3.50). Modified OBAT scores rose from 66.7 (60.7-74.4) to 79.7 (76.7-84.9; p<0.001), notably, there were significant improvements in the scores for operational skills, diagnostic abilities, and post-procedure management.\n' +
-      "CONCLUSION: Remote visualized teaching significantly enhances trainees' confidence and clinical competence, serving as a valuable adjunct to traditional bronchoscopy education.",
-    published: '2025',
+    id: '40600088',
+    title: 'Unraveling Benign Breast Conditions: A Comprehensive Study of Diagnosis, Treatment, and Care.',
+    abstract: 'Introduction  The breast undergoes cyclical changes influenced by hormones, with benign breast diseases (BBDs) being more common than malignant conditions. These conditions can present with symptoms such as lumps, pain, swelling, and nipple discharge. This study investigates the incidence, clinical features, age distribution, and management of BBDs, providing insight into the common breast-related issues that affect women across different stages of life. Methodology  A prospective observational study was conducted at a tertiary care hospital from August 2021 to December 2022, including 100 patients with breast-related complaints. Participants underwent detailed history, clinical examination, and relevant investigations such as ultrasonography, mammography, and fine needle aspiration cytology (FNAC). Data were analyzed using Excel and SPSS, with continuous variables presented as mean ± standard deviation and categorical data as numbers and percentages. Results In the present study, the mean age of the 100 participants with BBD was 34.98±11.97 years, with the majority (78/100, 78%) presenting with lumps. Fibroadenoma was the most common diagnosis, seen in 59/100 (59%), followed by fibroadenosis in 19/100 (19%) and breast abscess in 16/100 (16%). The mean age of menarche among patients with BBD was 14.52±1.80 years, with 56/100 (56%) attaining menarche between 13 and 15 years. Additionally, 81/100 (81%) were married, and 10/100 (10%) had a history of lactation. The majority of patients with BBD had lumps in the right upper outer quadrant, with most lumps being firm and mobile, and 97/100 (97%) showed no axillary lymph node involvement. Most patients were treated with excision, while others received conservative treatment with reassurance, analgesics, and antibiotics, with diagnosis confirmed through ultrasonography and mammography. Discussion The spectrum of BBDs in our study aligns with findings from other studies, with fibroadenoma being the most prevalent lesion, followed by fibrocystic changes. These conditions predominantly affect young women under the age of 40 in our population. Conclusion In conclusion, BBDs, particularly fibroadenoma, are common and require accurate clinical assessment, with FNAC being a reliable diagnostic tool. Early detection through breast self-examination and regular follow-ups, along with continued education on benign breast conditions, is essential for effective management and patient care.',
+    published: '2025-Jun',
     authors: [
-      'Wang Shupeng',
-      'Song Dejing',
-      'Sun Xiaocong',
-      'Li Chen',
-      'Wang Hui',
-      'Ma Junyu',
-      'Li Wei'
+      'Ahire Priya',
+      'Nagwani Pooja',
+      'Waghmare Rukmini',
+      'Gandhi Ami'
     ],
-    journal: 'Advances in medical education and practice',
-    doi: '10.2147/AMEP.S520363',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40589919/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85183',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600088/'
+  },
+  {
+    id: '40600085',
+    title: 'Prevalence of and Risk Factors for Extremely Low Birth Weight Infants in Saudi Arabia: A Four-Year Single-Center Experience.',
+    abstract: "Introduction Globally, extremely low birth weight (ELBW) infants present a distinct challenge for neonatologists, representing a significant portion of the most vulnerable and high-risk cases admitted to the neonatal intensive care units (NICUs). Saudi Arabia has a high prevalence of ELBW, which leads to a significant risk of morbidity and mortality, as many of these extreme preterm infants who are admitted to NICUs may not survive till discharge. This study aimed to evaluate the prevalence of ELBW infants and associated risk factors over a four-year period. Methods Two study designs were used in this research: a cross-sectional retrospective design was used for estimating the prevalence rate over four years, and a case-control study with a retrospective chart review for the risk factor correlation. The study was conducted at King Abdulaziz Medical City (KAMC), Riyadh, Kingdom of Saudi Arabia, covering four years, from January 2017 to December 2020. All newborn live infants born at KAMC who weighed 1000 grams or less were included in the study. Infants born outside KAMC and those with fatal anomalies were excluded from the study. The pregnancy notes on the mothers were reviewed blindly, with no knowledge of the newborn's outcome. Statistical data were analyzed using SPSS version 26. Results A total of 256 ELBW infants were recorded out of 36,000 live births. The prevalence of ELBW during the study period of four years was 0.71%. Of the ELBW infants, 57.4% had a birth weight between 750 and 1000 grams, while 42.6% weighed less than 750 grams. Lower gestational age and prolonged rupture of membrane (PROM) were associated with a birth weight of 750-1000 g, whereas twin and triplet births were associated with a birth weight of <750 g. Interestingly, there was a positive correlation between birth weight and maternal age, but birth weight was inversely correlated with gestational age. Conclusion There was a minimal incidence rate of ELBW during the four-year duration. Significant risk factors for birth weight <750 g were triplets and twins, while lower gestational age and PROM were significant risk factors for birth weight of 750-1000 g. Interventions focusing on improving antenatal care access, maternal health education, and nutritional status may help reduce the prevalence of ELBW in our region.",
+    published: '2025-Jun',
+    authors: [ 'Alhasoon Mohammad' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85202',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600085/'
+  },
+  {
+    id: '40600083',
+    title: 'Artificial Intelligence in Peripheral Artery Disease Education: A Battle Between ChatGPT and Google Gemini.',
+    abstract: "Background Peripheral artery disease (PAD) is a prevalent yet often overlooked manifestation of atherosclerosis that significantly contributes to cardiovascular morbidity and mortality. With the increasing reliance on artificial intelligence (AI) for medical information, it is essential to assess the accuracy and readability of AI-generated health content, especially with regard to common cardiovascular diseases. Objective This study evaluates the accuracy, completeness, and readability of responses generated by OpenAI's ChatGPT (San Francisco, CA) and Google's Gemini (Mountain View, CA) when answering common questions about PAD. AI responses were compared to Cleveland Clinic's frequently asked questions (FAQs) on PAD to assess the reliability of AI-generated responses as a patient education tool. Methods ChatGPT 4.0 and Gemini 1.0 were prompted in three formats (no prompt (Form 1), patient-level prompt (Form 2), and physician-level prompt (Form 3)) before answering 19 questions from Cleveland Clinic's FAQs on PAD. Responses were categorized as correct, partially correct, or incorrect based on percent content alignment. Readability was assessed using the Flesch-Kincaid (FK) grade level, and word count differences were analyzed. Chi-square tests and one-way analysis of variance (ANOVA) were used for statistical analysis, with a significance threshold of p < 0.05. Results ChatGPT provided 70% correct and 30% partially correct responses, with no incorrect answers. Gemini provided 52% correct, 45% partially correct, and 3% incorrect responses. ChatGPT performed significantly better in accuracy, with a p-value < 0.05. FK analysis showed no significant readability differences between the two chatbots (mean FK grade: ChatGPT, 10.81; Gemini, 10.73), although both were higher than the recommended reading level for patient education. ChatGPT's responses were significantly longer than Gemini's, with a p-value < 0.0001. Conclusion Both ChatGPT and Gemini provided mostly accurate and comprehensive responses to commonly asked questions about PAD, demonstrating their potential use as supplementary education tools for patients with appropriate provider oversight. However, the grade reading level of these materials exceeded the recommended reading levels set forth by national guidelines, which warrants improvement in AI-driven health communication. Given the growing reliance on AI in healthcare, further research should explore ways to enhance AI-generated medical content for broader patient accessibility and evaluate its impact on patient outcomes.",
+    published: '2025-Jun',
+    authors: [
+      'Patel Shriya',
+      'Ponn Julie',
+      'Lee Thomas J',
+      'Palani Arthi',
+      'Wang Heather',
+      'Gardin Julius M'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85174',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40600083/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -989,368 +1062,6 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 32140,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2915,
-        [Symbol(triggerId)]: 2913
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 2,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Tue, 01 Jul 2025 15:12:49 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.03.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Tue, 01 Jul 2025 15:12:49 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1456,15 +1167,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [Timeout],
-        _idleStart: 32266,
+        _idleStart: 35236,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2934,
-        [Symbol(triggerId)]: 2932
+        [Symbol(asyncId)]: 4816,
+        [Symbol(triggerId)]: 4814
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1502,7 +1213,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1596,7 +1307,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Tue, 01 Jul 2025 15:12:50 GMT',
+      date: 'Wed, 02 Jul 2025 15:12:38 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1707,7 +1418,369 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Tue, 01 Jul 2025 15:12:50 GMT',
+  date: 'Wed, 02 Jul 2025 15:12:38 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 36086,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4860,
+        [Symbol(triggerId)]: 4858
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Wed, 02 Jul 2025 15:12:38 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.03.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Wed, 02 Jul 2025 15:12:38 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1839,109 +1912,129 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
 Translating paper: Big data in economics...
-Translating paper 2/40
+Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/40
+Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/40
+Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/40
+Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/40
+Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/40
+Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/40
+Translating paper 8/50
 Translating paper: A physical theory of economic growth...
-Translating paper 9/40
+Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/40
+Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/40
+Translating paper 11/50
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/50
+Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+Translating paper 13/50
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 14/50
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 15/50
+Translating paper: Experience and education...
+Translating paper 16/50
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 17/50
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 18/50
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 19/50
+Translating paper: The Impact of Education for Sustainable Developmen...
+Translating paper 20/50
+Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 21/50
 Translating paper: The Effectiveness of 3D Virtual Environments for B...
-Translating paper 12/40
+Translating paper 22/50
 Translating paper: Assessing the role of artificial intelligence in q...
-Translating paper 13/40
+Translating paper 23/50
 Translating paper: AI Responses to Challenging Problems and Educator ...
-Translating paper 14/40
+Translating paper 24/50
 Translating paper: Pre-service Teachers’ Characterizations of “Dragga...
-Translating paper 15/40
+Translating paper 25/50
 Translating paper: Making Tens with Four Hands: Touchscreen-Based Cla...
-Translating paper 16/40
+Translating paper 26/50
 Translating paper: Understanding Children’s Learning of Part–Whole Re...
-Translating paper 17/40
+Translating paper 27/50
 Translating paper: How many PhDs does the world need? Doctoral gradua...
-Translating paper 18/40
+Translating paper 28/50
 Translating paper: Does using ChatGPT change your brain activity? Stu...
-Translating paper 19/40
+Translating paper 29/50
+Translating paper: What we stand to lose when foreign students are se...
+Translating paper 30/50
 Translating paper: Some US researchers want to leave the country. Can...
-Translating paper 20/40
-Translating paper: Mothers’ duties and rights when positioned as remo...
-Translating paper 21/40
-Translating paper: Investigation and analysis of influencing factors ...
-Translating paper 22/40
-Translating paper: Applications and Future Perspectives of Large Lang...
-Translating paper 23/40
-Translating paper: Evaluating Physician Knowledge of Data Privacy and...
-Translating paper 24/40
-Translating paper: The decision-making process in the choice of VBAC:...
-Translating paper 25/40
-Translating paper: Monetising misfortune: the financial consequences ...
-Translating paper 26/40
-Translating paper: Impact of the Composite Allocation Score on Lung T...
-Translating paper 27/40
-Translating paper: Outcomes of High Kidney Donor Profile Index Hepati...
-Translating paper 28/40
-Translating paper: The medical student of the future: redefining comp...
-Translating paper 29/40
-Translating paper: Attitudes of Nursing Students in Saudi Arabia Towa...
-Translating paper 30/40
-Translating paper: The Impact of Remote Visualized Teaching on Clinic...
-Translating paper 31/40
+Translating paper 31/50
+Translating paper: Characterizing Severe and Level 2 Hypoglycemia and...
+Translating paper 32/50
+Translating paper: Psychiatric Residents' Perspectives on Psychedelic...
+Translating paper 33/50
+Translating paper: Cognitive functioning in young adults after mild C...
+Translating paper 34/50
+Translating paper: Knowledge, attitudes, and practices regarding avia...
+Translating paper 35/50
+Translating paper: Spatiotemporal analysis of pulmonary tuberculosis ...
+Translating paper 36/50
+Translating paper: Alpha-Gal Syndrome: Often Hidden, Under-Recognized...
+Translating paper 37/50
+Translating paper: Empirical Research of Health Inequalities Between ...
+Translating paper 38/50
+Translating paper: Unraveling Benign Breast Conditions: A Comprehensi...
+Translating paper 39/50
+Translating paper: Prevalence of and Risk Factors for Extremely Low B...
+Translating paper 40/50
+Translating paper: Artificial Intelligence in Peripheral Artery Disea...
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 32/40
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 33/40
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 34/40
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 35/40
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 36/40
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 37/40
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 38/40
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 39/40
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 40/40
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 40 papers
-Removed duplicates: 459 -> 433
-Total papers after merging: 433 (419 existing + 40 new)
-Saved 433 papers to papers.json
+Translation completed: 50 papers
+Removed duplicates: 483 -> 444
+Total papers after merging: 444 (433 existing + 50 new)
+Saved 444 papers to papers.json
 Generating HTML files...
-Generating index.html with 433 papers...
+Generating index.html with 444 papers...
 Successfully generated index.html
-Generating archive.html with 433 papers...
+Generating archive.html with 444 papers...
 Successfully generated archive.html
-Generating journal.html with 433 papers...
+Generating journal.html with 444 papers...
 Successfully generated journal.html
-Generating acquisition.html with 433 papers...
+Generating acquisition.html with 444 papers...
 Successfully generated acquisition.html
-Generating publication.html with 433 papers...
+Generating publication.html with 444 papers...
 Successfully generated publication.html
-Generating registration.html with 433 papers...
+Generating registration.html with 444 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 433
-New papers processed: 40
+Total papers in database: 444
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-01T15:36:24.867Z
+Timestamp: 2025-07-02T15:40:10.459Z
