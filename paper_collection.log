@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-02T15:12:03.589Z
+Timestamp: 2025-07-03T15:12:10.942Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 433 existing papers from papers.json
+Loaded 444 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -298,6 +298,7 @@ Fetched papers from arXiv: [
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
+Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -385,16 +386,6 @@ Fetched papers from Semantic Scholar: [
     link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
   },
   {
-    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
-    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
-    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
-    journal: 'Sustainability',
-    doi: '10.3390/SU12198169',
-    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
-  },
-  {
     id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
     title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
     abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
@@ -403,6 +394,16 @@ Fetched papers from Semantic Scholar: [
     journal: 'International Journal of Instruction',
     doi: '10.29333/IJI.2020.13424A',
     link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  },
+  {
+    id: '35d0ead88e9bd727c16459e785358b0050e54514',
+    title: 'Economics of education',
+    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
+    journal: 'No journal available',
+    doi: '10.12737/17661',
+    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
   }
 ]
 Collected 10 papers from semanticScholar
@@ -474,6 +475,57 @@ Fetched papers from Springer: [
     journal: 'Digital Experiences in Mathematics Education'
   },
   {
+    id: '10.1186/s12889-025-23477-7',
+    title: 'A mixed methods evaluation of an online climate change and health certificate program for working professionals',
+    summary: 'Background Climate change is one of the greatest public health challenges of the 21st century, and a diverse cadre of professionals are increasingly pursuing opportunities to learn about this issue. Our goal was to evaluate an online climate change and health (CCH) certificate program for working professionals as a case study. Methods We utilized structured and free-text elements from course and overall program evaluations across seven cohorts of participants from 2018 to 2022 for a mixed-methods assessment of the program. Results A total of 579 enrollees’ data were analyzed. The program completion rate was 90.0% and participants were diverse in their professional and geographic representation, but disproportionately from North America (82.4%). The program was rated favorably; i.e., 98.6% of participants would recommend the program to others. Qualitative analysis identified themes that were grouped as program strengths and opportunities for improvement. Strengths included (1) valuable curriculum, (2) peer-to-peer learning, and (3) a call to action. Opportunities for improvement included: (1) irrelevant course content, (2) challenges with course structure, and (3) insufficient opportunities for networking. Conclusions The evaluations demonstrate the overall importance of educational offerings in CCH. Our case study demonstrated that working professionals in public health, allied health professions, and non-health professions express desire, benefit, and appreciation for educational opportunities on this important intersection. They especially valued strong, relevant course content, professional networking and peer-to-peer learning, and acquisition of effective skills for use in their work. We have used lessons learned from this case study to improve our program and encourage others to use them to improve their programs or to develop new ones. A workforce that is highly educated on CCH issues is essential to confront the existential public health challenge of climate change.',
+    published: '2025-07-03',
+    authors: [
+      'Carrión, Daniel',
+      'Prasanth, Saira',
+      'Hurtado, Ivan',
+      'Lin-Schweitzer, Anna',
+      'Braga, Maricel',
+      'Munson, Sammi',
+      'Hines, Emmanuelle',
+      'Kotcher, John',
+      'Daly-Haney, Heather',
+      'Maibach, Edward',
+      'Conlon, Kathryn',
+      'Babcock-Dunning, Lauren',
+      'Timm, Kristin',
+      'Dubrow, Robert'
+    ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'BMC Public Health'
+  },
+  {
+    id: '10.1007/s10639-025-13678-3',
+    title: 'Generative AI acceptance among future educators: personality and behavioral insights',
+    summary: 'This study examines the acceptance, behaviors and perceptions of Generative Artificial Intelligence (Gen-AI) technologies among pre-service teachers, including the role of Big Five personality traits in shaping attitudes and behaviors. Using a mixed-methods approach, data were collected from 476 teacher candidates via the Generative AI Acceptance Scale, the Ten-Item Big Five Personality Inventory, questionnaire and focus group interviews. Results indicate a moderate acceptance of Gen-AI, with significant differences observed between personalities: future teachers characterized by more agreeableness, conscientiousness and openness to experience exhibited higher Gen-AI acceptance across all sub-dimensions. While text-generation tools were widely used for academic purposes, creative applications remained rare. Participants expressed mixed emotions—ranging from enhanced productivity and empowerment to concerns about over-dependency and reduced critical thinking skills. These findings reveal critical gaps in Gen-AI literacy and underscore the necessity for targeted professional development programs emphasizing ethical and effective use. The study offers actionable strategies for educators and policymakers to harness the transformative potential of Gen-AI while mitigating risks, thereby preparing future teachers to integrate Gen-AI responsibly and innovatively into their pedagogical practices.',
+    published: '2025-07-03',
+    authors: [ 'Alagöz Hamzaj, Yaprak' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'Education and Information Technologies'
+  },
+  {
     id: '10.1038/d41586-025-01855-w',
     title: 'How many PhDs does the world need? Doctoral graduates vastly outnumber jobs in academia',
     summary: 'PhD programmes need to better prepare students for careers outside universities, researchers warn. PhD programmes need to better prepare students for careers outside universities, researchers warn.',
@@ -492,190 +544,189 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Nature'
-  },
-  {
-    id: '10.1038/d41586-025-02032-9',
-    title: 'What we stand to lose when foreign students are seen as a threat',
-    summary: 'International students enrich university communities and strengthen civic life. We must defend their place in global education. International students enrich university communities and strengthen civic life. We must defend their place in global education.',
-    published: '2025-07-03',
-    authors: [ 'Chankseliani, Maia' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Nature'
-  },
-  {
-    id: '10.1038/d41586-025-01629-4',
-    title: 'Some US researchers want to leave the country. Can Europe take them?',
-    summary: 'As the Trump administration steps up attacks on US universities and scientific institutions, the European Union is campaigning hard to attract scientists from the United States. But how many can the bloc take? As the Trump administration steps up attacks on US universities and scientific institutions, the European Union is campaigning hard to attract scientists from the United States. But how many can the bloc take?',
-    published: '2025-07-03',
-    authors: [ 'Leeming, Jack' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Nature'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40600304',
-    title: 'Characterizing Severe and Level 2 Hypoglycemia and Associated Risk Factors in Adults with Type 1 Diabetes Using Hybrid Closed-Loop Insulin Pumps.',
-    abstract: ' Despite advances in diabetes technologies, severe hypoglycemia (SH) and level 2 hypoglycemia (Lv2Hypo) persist among hybrid closed-loop (HCL) insulin pump users. This study assessed the relationship of impaired awareness of hypoglycemia (IAH) and other patient characteristics with SH and Lv2Hypo in HCL insulin pump users with type 1 diabetes.  A cross-sectional survey assessed 6-month SH history, hemoglobin A1C, IAH (using the Hypoglycemia Awareness Questionnaire), and 30-day continuous glucose monitoring (CGM) data among adult HCL insulin pump users recruited from a national U.S. type 1 diabetes patient registry. Analyses included logistic regression, -tests, and Chi-square tests.  Of 601 participants (female: 54%; mean age: 43), IAH and higher glucose coefficients of variation (CVs) were associated with both SH and spending ≥1% of time in Lv2Hypo (s < 0.05). Individuals with SH were further characterized as having spent more time with glucose levels >180 mg/dL and >250 mg/dL and having a lower education level (s < 0.05). CGM hypoglycemia measures were not associated with SH. Age and diabetes duration were not associated with experiencing SH or spending ≥1% of time in Lv2Hypo. Participants who both experienced SH and spent ≥1% of time in Lv2Hypo showed trends toward exhibiting the most severe IAH and the highest glucose CVs.  Among adults with type 1 diabetes using HCL insulin pumps, IAH and higher glucose CVs are risk factors of experiencing SH and Lv2Hypo. Hyperglycemia and lower education level are also associated with a higher risk for experiencing SH.',
-    published: '2025-Jul-02',
+    id: '40607123',
+    title: 'The impact of online teaching curricula on undergraduate basic surgical skills acquisition.',
+    abstract: 'INTRODUCTION: Despite the growing use of online teaching in medical education, undergraduate surgical skills training remains predominantly face-to-face, with limited structured curricula and resources. Consequently, many students lack confidence performing basic procedures independently. While online programmes offer a potential alternative, comparative evidence is limited. This service evaluation assessed the effectiveness of online surgical skills teaching on student skill acquisition and confidence.\n' +
+      'METHODS: Medical students who participated in five UK national surgical skills programmes between 2022 and 2024 were selected, having received either online or face-to-face instruction. Skill acquisition was measured using the Objective Structured Assessment of Technical Skills (OSATS) tool and confidence was measured pre- and post-training via a Likert scale. Non-parametric data were analysed using the Mann-Whitney  test, with significance set at  < 0.05.\n' +
+      'RESULTS: Of 133 participants, 82 received online and 51 face-to-face training. Fifty-six percent were in their first or second year of study. No significant differences were found in continuous ( = 0.0652) or mattress suturing ( = 0.143), while interrupted suturing scores were significantly higher in the online group ( = 0.0143). Both modalities significantly improved confidence ( < 0.0001), with no significant difference between groups ( > 0.05).\n' +
+      "CONCLUSION: This study demonstrates that online surgical skills teaching is as effective as face-to-face methods, with both positively impacting skill acquisition and confidence. A hybrid approach, integrating online and face-to-face teaching, could optimise learning by combining the scalability of online instruction with essential practical experience, enhancing medical students' confidence and technical proficiency in surgical skills.",
+    published: '2025-Sep',
     authors: [
-      'Devore Micah',
-      'Hepworth Emily',
-      'Agni Annika',
-      'Ye Wen',
-      'Amiel Stephanie A',
-      'Fisher Simon J',
-      'Lin Yu Kuei'
+      'Tandon Devansh',
+      'Gupta Ayush',
+      'Patel Rhianna',
+      'Shukla Anushka',
+      'Gill Saran Singh',
+      'Patel Rhea Elise',
+      'Krishnan Keshav',
+      'Yassa Bishoy',
+      'Tandon Shivansh',
+      'Rai Amar',
+      'Boal Matt',
+      'Francis Nader'
     ],
-    journal: 'Diabetes technology & therapeutics',
-    doi: '10.1089/dia.2025.0126',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600304/'
+    journal: 'Surgery open science',
+    doi: '10.1016/j.sopen.2025.06.002',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40607123/'
   },
   {
-    id: '40600242',
-    title: "Psychiatric Residents' Perspectives on Psychedelics and Psychedelic Assisted Therapy.",
-    abstract: "This study evaluated the attitudes, knowledge, and educational experiences of psychiatry residents regarding psychedelics and psychedelic-assisted therapy (PAT). In 2023, we distributed an anonymous survey to United States psychiatry residents, assessing demographics, knowledge, and opinions on psychedelics/PAT. The survey also included items asking respondents to retrospectively self-report how strongly psychedelic-related work and educational opportunities influenced their career choice and ranking of residency programs in the Match. Of the 109 respondents, most reported limited formal education on psychedelics during training but expressed a strong desire for more instruction. Most believed psychedelics hold promise for psychiatric disorders (83.49%), though fewer saw similar potential for substance use disorders (55.96%). Notably, 39.81% reported psychedelic-related educational or research opportunities influenced residency program rankings, and 39.25% indicated the possibility of treating patients with psychedelics influenced their decision to pursue psychiatry. Higher knowledge scores and stronger belief in psychedelics' therapeutic potential were associated with greater self-reported influence of psychedelic-related opportunities on program ranking. This study is limited by its small sample size and potential for self-selection and recall bias. Overall, psychiatry residents demonstrated optimism about psychedelics' therapeutic potential but reported inadequate training. Expanding psychedelic-focused educational content in residency could better prepare trainees for psychedelics' evolving role in psychiatry.",
-    published: '2025-Jul-02',
-    authors: [
-      'Barnett Brian S',
-      'Arakelian Miranda',
-      'Weleff Jeremy',
-      'Squier-Roper Tobias',
-      'King Franklin',
-      'Cumming Drew',
-      'Falcone Tatiana'
-    ],
-    journal: 'Journal of psychoactive drugs',
-    doi: '10.1080/02791072.2025.2527296',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600242/'
+    id: '40607109',
+    title: 'Using Social Media to Combat Influenza Vaccine Misinformation and Improve Uptake: A Social Media Campaign and Repeated Cross-sectional Survey Analysis.',
+    abstract: 'OBJECTIVE: To combat influenza (flu)-vaccine misinformation and improve vaccine uptake using social media.\n' +
+      'PATIENTS AND METHODS: Unbiased Science used an online survey to identify flu vaccine-hesitant demographic groups and their specific objections to vaccination. Targeted educational content was then created and deployed through a variety of media formats, including podcasts, newsletters, reels, and infographics. A postcampaign survey determined the proportion of individuals who changed their minds about vaccination as a result of the educational content. The study was conducted between October 28, 2022 and February 7, 2023.\n' +
+      'RESULTS: In 3626 precampaign surveys, 187 individuals (5.1%) reported being unvaccinated and not planning to get the flu vaccine (the unvaccinated group). Multivariable analysis showed that geographic region (Northeast and Southeast), gender identity (male and other), race-ethnicity (non-Hispanic Black, and non-Hispanic other), and education level (high-school or less and some college) were independently associated with being unvaccinated. The main reasons were needlephobia, dismissal of flu severity, and concerns about vaccine components, multiple vaccines, and side effects. In 838 postcampaign surveys, 39 individuals (4.7%) indicated changing their mind about vaccination: of these, 27 (69.2%) said they were more likely to get vaccinated and 22 (56.4%) had gotten vaccinated. Twenty individuals (51.3%) said they changed their mind at least in part because of the targeted educational content.\n' +
+      'CONCLUSION: Social media has the potential to change attitudes and behaviors around vaccination. When science messaging is deployed across several platforms and targeted to key demographic characteristics, it has the ability to combat misinformation and influence vaccine uptake.',
+    published: '2025-Sep',
+    authors: [ 'Steier Jessica B' ],
+    journal: 'Mayo Clinic proceedings. Digital health',
+    doi: '10.1016/j.mcpdig.2025.100229',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40607109/'
   },
   {
-    id: '40600171',
-    title: 'Cognitive functioning in young adults after mild COVID-19: A case-control study from Iran.',
-    abstract: 'INTRODUCTION: Since December 2019, the novel coronavirus (COVID-19) has caused widespread infection across global populations, characterized by its high transmissibility. Despite extensive research on the acute effects of COVID-19, the long-term psychological and neurological sequela remain inadequately explored. This study aimed to investigate cognitive function after COVID-19 infection compared to a control group of non-infected subjects.\n' +
-      'METHODS: This case-control study included 40 individuals who had recovered from COVID-19, referred to Imam Reza Referral and Educational Hospital in Mashhad, Iran, and 40 matched controls who had not experienced COVID-19 symptoms. All participants underwent an initial screening by a psychiatric assistant to exclude significant medical and psychiatric conditions and any history of drug use. A demographic checklist was administered, followed by cognitive assessments using the Stroop Test, Digit Span Test, and Wisconsin Card Sorting Test (WCST). Data were analysed using SPSS Version 20.\n' +
-      'RESULTS: No significant differences were observed between the two groups regarding age, sex, education level, marital status, or employment status (p > 0.05). However, COVID-19-infected individuals exhibited significantly longer completion times for the congruent Stroop test and increased reaction times compared to healthy controls (p < 0.05). Additionally, the duration for completing the Wisconsin Card Sorting Test was significantly longer in the infected group compared to the non-infected group (p < 0.001). Although the longest digit span and scores on the Digit Span Test were lower in the infected group, these differences did not reach statistical significance (p > 0.05). Furthermore, reaction times in the Continuous Performance Test (CPT) for the first, second, and third sets of 50 stimuli were significantly greater in the COVID-19 group (p < 0.001).\n' +
-      'CONCLUSION: This study underscores that cognitive performance post-COVID-19 is adversely affected, particularly in terms of processing speed and sustained attention, when compared to healthy individuals. Further research is warranted to elucidate the underlying mechanisms and to explore potential interventions for cognitive rehabilitation in this population.',
-    published: '2025-Dec',
-    authors: [
-      'Akbarzadeh Farzad',
-      'Faridhosseini Farhad',
-      'Eslamzadeh Mahboubeh',
-      'Ghalandarzadeh Mojtaba',
-      'Hajebikhaniki Saeedeh',
-      'Ebrahimi Alireza'
-    ],
-    journal: 'IBRO neuroscience reports',
-    doi: '10.1016/j.ibneur.2025.06.003',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600171/'
-  },
-  {
-    id: '40600158',
-    title: 'Knowledge, attitudes, and practices regarding avian influenza among poultry farmers near migratory bird habitats in Guidong County, China.',
-    abstract: 'OBJECTIVE: To assess the knowledge, attitudes, and preventive behaviors (KAP) regarding avian influenza among poultry farmers living near migratory bird habitats in Guidong County, China, and to identify determinants of these practices using structural equation modeling.\n' +
-      'METHODS: A cross-sectional survey was conducted in July 2021 among 221 poultry farmers from three towns adjacent to migratory bird habitats. A structured questionnaire was used to collect data on KAP related to avian influenza. Descriptive statistics was used to analyze KAP levels. A structural equation model was developed with AMOS 24.0 to examine the relationships among knowledge, attitudes, and behaviors.\n' +
-      'RESULTS: The overall mean KAP score was 32.97 ± 7.95 (51.5%) of maximum possible score, indicating suboptimal levels. In the fitted model, knowledge exerted both a direct effect on preventive behaviors (standardized path coefficient = 0.183) and an indirect effect mediated through attitudes (0.056). Attitude additionally influenced behavior directly (0.181). Goodness-of-fit indices confirmed robust model fit.\n' +
-      'CONCLUSION: Study findings indicate that poultry farmers living near migratory bird habitats in Guidong County demonstrate insufficient avian influenza-related knowledge, attitudes, and practices. Targeted health education that enhances accurate knowledge and fosters positive attitudes is critical to strengthening preventive behaviors and mitigating transmission risk.',
+    id: '40607088',
+    title: 'Bridging the Gaps in Sexual Health: Gender, Age, and Educational Disparities Among Albanian University Students.',
+    abstract: 'BACKGROUND: Understanding sexual health inequalities among university students is essential to inform targeted public health interventions. Previous studies show that knowledge, attitudes, and behaviors differ based on sociodemographic variables such as gender, age, and level of education.\n' +
+      'OBJECTIVE: This study aims to assess how gender, age, and SRH education influence knowledge, behaviors, and use of sexual and reproductive health (SRH) services among Albanian university students.\n' +
+      'METHODS: A cross-sectional survey was conducted with 7,679 university students in public and private institutions across Albania. A structured questionnaire assessed SRH knowledge, STI prevention behaviors, and access to healthcare services. Statistical analyses included chi-square tests and logistic regression to examine relationships between sociodemographic variables and SRH outcomes.\n' +
+      'RESULTS: Female students reported higher engagement in preventive practices such as gynecological visits and Pap tests (p < 0.001), while male students reported earlier sexual debut and less consistent condom use. Prior SRH education significantly increased the likelihood of STI/HIV testing (p < 0.001). Age was positively associated with STI awareness but not necessarily with service use. Only 11.4% of respondents reported STI testing, and 7.6% had been tested for HIV, while 53.8% were unaware of available testing services.\n' +
+      'CONCLUSION: This study highlights disparities in SRH knowledge and service utilization driven by gender, age, and educational exposure. Tailored public health programs that integrate SRH into university curricula and emphasize outreach to young men and underserved populations are needed to reduce inequities and promote preventive behaviors.',
     published: '2025',
     authors: [
-      'Jiang Yan',
-      'Zhong DaiJun',
-      'Han Yang',
-      'Zhou Yong',
-      'Zhou HaiJian'
+      'Gabrani Jonila',
+      'Gjergji Voltisa',
+      'Merkuri Lumturi',
+      'Rugia Iva',
+      'Kushta Rovena',
+      'Cela Kristi'
     ],
-    journal: 'Frontiers in public health',
-    doi: '10.3389/fpubh.2025.1618292',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600158/'
+    journal: 'Materia socio-medica',
+    doi: '10.5455/msm.2025.37.92-97',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40607088/'
   },
   {
-    id: '40600152',
-    title: 'Spatiotemporal analysis of pulmonary tuberculosis in the central region of the Zhejiang Province, China (2016-2024).',
-    abstract: 'BACKGROUND: In recent years, Shaoxing City, located in central Zhejiang Province, has experienced a slow decline in the incidence of pulmonary tuberculosis (PTB). Therefore, there is an urgent need to elucidate the potential causes for this decline through spatiotemporal analyses to provide a scientific basis for targeted prevention and control. We aimed to explore the spatiotemporal distribution of PTB notification rates in Shaoxing City from 2016 to 2024 and identify high-incidence clusters, thereby offering data-driven insights to optimize regional PTB control strategies.\n' +
-      'METHODS: Statistical analyses were conducted using R and Excel on all reported active PTB cases in Shaoxing City. Spatiotemporal analysis of case distribution and regional clustering was conducted using ArcGIS and SatScan.\n' +
-      'RESULTS AND DISCUSSION: In total, 17,298 active PTB cases were registered between 2016 and 2024, including 9,749 laboratory-confirmed and 7,549 clinically diagnosed cases. The male-to-female ratio was 2.34:1. Farmers represented 68.2% of all cases. The PTB notification incidence showed a gradual decline. Spatial autocorrelation results revealed 52 sub-districts with high-high clusters over the nine-year period, primarily in Shengzhou and Xinchang counties. Spatiotemporal scan analysis identified one primary cluster area ( = 1.62,  = 170.87,  < 0.001) and two secondary clusters between 2016 and 2024. The incidence of PTB in Shaoxing City showed a downward trend, though the decline was relatively slow. The southeastern region should be prioritized in efforts to accelerate the End TB Strategy. Overall, comprehensive and intensive interventions, such as large-scale chest X-ray screening and health education programs, should be enhanced to effectively curb PTB transmission, especially among males and farmers.',
+    id: '40607087',
+    title: 'Patient Experience of Hemodialysis in a Nephrology Hospital in Vietnam.',
+    abstract: 'BACKGROUND: Assessing patient experiences is essential for evaluating hospital quality.\n' +
+      'OBJECTIVE: This study aimed to describe the experiences of hemodialysis patients at Hanoi Nephrology Hospital in 2023 and identify several factors related to patient experience.\n' +
+      'METHODS: A cross-sectional study was conducted in 2023 among 401 patients at the Hemodialysis department of the Hanoi Nephrology Hospital. The study utilized a structured questionnaire titled "In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Systems (ICH CAHPS)" to conduct face-to-face interviews with the selected patients. Logistic regression analysis was applied to identify several factors associated with patient experiences.\n' +
+      'RESULTS: Overall, patients reported positive experiences, particularly in their interactions with nephrologists. The highest satisfaction (78%) was for updates on treatment information from other doctors. Positive experiences were more likely to be reported by patients aged 55-64 years (versus. ≥75 years), having health insurance or other insurance (versus. No insurance), and having middle education (versus. Lower education). Living 15-30 km from a dialysis center and being a business traders increased satisfaction.\n' +
+      "CONCLUSION: This study emphasized the necessity of improving communication and patient education in hemodialysis care, specifically concerning treatment options. It recommended targeted interventions and additional research to enhance the patient experience and the quality of care in Vietnam's hemodialysis centers.",
     published: '2025',
     authors: [
-      'Zhang Kaixuan',
-      'Yang Zuokai',
-      'Sun Jiamei',
-      'Liu Kui',
-      'Lu Qiaoling'
+      'Tri Tuan Ngo',
+      'Anh Son Dao',
+      'Minh Dat Le',
+      'Thi Lap Nguyen',
+      'Hoang Long Nguyen',
+      'Bao Giang Kim'
     ],
-    journal: 'Frontiers in public health',
-    doi: '10.3389/fpubh.2025.1599274',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600152/'
+    journal: 'Materia socio-medica',
+    doi: '10.5455/msm.2025.37.117-124',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40607087/'
   },
   {
-    id: '40600132',
-    title: 'Alpha-Gal Syndrome: Often Hidden, Under-Recognized, and in Need of Attention-A Rapid Review.',
-    abstract: "Alpha-gal syndrome (AGS), a tick-borne allergy, is increasing as its vectors migrate throughout the US and the world. There were an estimated 450,000 cases in the US. AGS reactions to mammalian foods and medical products include delayed anaphylaxis, urticaria, gastrointestinal and cardiac symptoms often difficult to connect to the source. Despite its seriousness, provider knowledge is limited. This rapid review investigated published works on AGS from 2020 to 24; it also sought to determine the breadth of AGs publications across different fields and specialties. We identified 355 studies of AGS diagnosis and management from 2020 to 2024 via Cochrane Central, Medline via the PubMed interface, and Embase (additional grey literature via Web of Science and Google Scholar). Studies were assessed for quality and risk of bias using JBI critical appraisal tools. Two hundred and nineteen studies met the criteria. One hundred and sixty-eight (77%) were full studies; 51 (23%) were conference presentations. Studies remained largely confined to allergy and immunology literature, despite their implications for other organ systems. Although patients present with symptoms to emergency departments and dermatology clinics there is a paucity of literature in those fields and others; several studies document practitioners' lack of knowledge. Inclusion of content within medical school curricula is needed to establish foundational knowledge on the topic. With the increase in patients presenting with AGS, and with the reach of AGS across multiple fields, physicians and other health care providers need to be able to diagnose and then manage AGS with their patients. This rapid review has documented the problem of silos in disseminating information about AGS widely through the medical field. The remedy for a lack of practitioner knowledge is education.",
+    id: '40607075',
+    title: "Epidemiology of hand, foot, and mouth disease outbreaks before and during availability of EV-A71 vaccine in China's mainland: analysis of outbreak surveillance data from 2011 to 2023.",
+    abstract: "BACKGROUND: Hand, foot, and mouth disease is a common contagious illness of childhood that causes a heavy disease burden in China's mainland. There are three enterovirus A71 (EV-A71) vaccines licensed and used in China since 2016. Our study describes changes in epidemiological characteristics of HFMD outbreaks following EV-A71 vaccine introduction.\n" +
+      "METHODS: Using HFMD outbreak data notified to China CDC during 2011-2023, we compared characteristics of HFMD outbreaks before and after EV-A71 vaccine licensure and availability. We determined risk factors associated with outbreak size with a multivariate regression model and explored county-level patterns of outbreak clusters using local indicators of spatial association (Anselin Local Moran's ).\n" +
+      'FINDINGS: During 2011-2023, there were 2838 HFMD outbreaks reported with more than ten cases each that were included in our study. There were 53,958 HFMD cases and 17 deaths in the included outbreaks. The median attack rate was 0.07% (IQR = 0.04%-0.13%) and the median outbreak duration was 14 days (IQR = 9-21). Outbreaks began before school seasons started and peaked during weeks 16-25; most (87.95%) occurred in kindergartens, followed by primary or secondary schools (6.69%). Coxsackievirus A16 (CV-A16) caused 54.94% of the HFMD outbreaks, EV-A71 caused 19.77%, CV-A6 caused 8.99%, CV-A10 caused 0.53%, and other enteroviruses caused 15.76%. After EV-A71 vaccine was introduced into the market as a non-National Immunization Program (NIP) vaccine, the proportion of outbreaks caused by EV-A71 declined to 2.93% in the southern provinces and 4.84% in the northern provinces, and CV-A16, CV-A6, CV-A10, and other enteroviruses increased in proportion. Before EV-A71 vaccine availability, high-high clusters occurred in 37 counties of nine provinces, expanding to 117 counties of nine provinces after vaccine introduction, mainly into southern provinces.\n' +
+      'INTERPRETATION: After EV-A71 vaccine was introduced to the market in China, fewer HFMD outbreaks were caused by EV-A71 and more were caused by CV-A16, CV-A6, and CV-A10. The changes of spectrum for HFMD and expansion of outbreaks hotspots associated with vaccine introduction calls for multi-enterovirus vaccine development for controlling HFMD outbreaks.\n' +
+      'FUNDING: Key Laboratory of Epidemiology of Major Diseases (Peking University), Ministry of Education; Prevention and Control Mechanisms for Major Infectious Diseases in the Cyber-Physical-Social Tri-Space (2023YFC2308702).',
+    published: '2025-Jun',
+    authors: [
+      'Liu Fengfeng',  'Yi Yao',
+      'Song Yang',     'Zhang Xiyu',
+      'Xie Tiancheng', 'Liu Yanzhe',
+      'Chen Yucun',    'Huang Siping',
+      'Zhang Jie',     'Zhang Yanping',
+      'Chang Zhaorui', 'Cui Fuqiang'
+    ],
+    journal: 'The Lancet regional health. Western Pacific',
+    doi: '10.1016/j.lanwpc.2025.101603',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40607075/'
+  },
+  {
+    id: '40607025',
+    title: 'Exploring the association of vitamin B12 deficiency and dental health in older adults.',
+    abstract: 'BACKGROUND: Vitamin B12 plays a crucial role in overall health, yet its impact on dental health, particularly dental caries, remains underexplored. Older adults are at an increased risk of vitamin B12 deficiency and dental disease, but the relationship between these two factors is not well understood. This study examines the association between serum vitamin B12 levels and dental health in older adults using data from the NHANES 2011-2014 cycles.\n' +
+      'METHODS: A cross-sectional analysis was conducted using NHANES data from 1,907 participants aged 65 and older. Serum vitamin B12 levels were categorized as normal (>221 pmol/L), marginal (148-221 pmol/L), and deficient (<148 pmol/L). Dental status was assessed using the Decayed, Missing, and Filled Teeth (DMFT) index based on NHANES dental health examinations. Poisson regression models evaluated associations between vitamin B12 levels and DMFT scores, adjusting for age, sex, race/ethnicity, education, and income.\n' +
+      'RESULTS: Lower vitamin B12 levels were significantly associated with higher DMFT scores ( < 0.05). Participants with marginal and deficient vitamin B12 levels exhibited increased DMFT scores compared to those with normal vitamin B12 levels, and these differences persisted after adjusting for demographic and socioeconomic factors. The findings suggest that inadequate vitamin B12 status may contribute to a greater cumulative burden of dental disease in older adults.\n' +
+      'CONCLUSION: These findings suggest that vitamin B12 deficiency may contribute to a greater lifetime burden of dental disease in older adults. Further research is needed to explore causal mechanisms and assess whether vitamin B12 supplementation could be a preventive measure for maintaining dental health in aging populations.',
     published: '2025',
     authors: [
-      'Thompson Carol C',
-      'Saracco Benjamin',
-      'Pruthi Anika',
-      'Cerceo Elizabeth'
+      'Hung Man',
+      'Mohajeri Amir',
+      'Marx Jacob',
+      'Ward Corban',
+      'Lipsky Martin S'
     ],
-    journal: 'International journal of general medicine',
-    doi: '10.2147/IJGM.S519844',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600132/'
+    journal: 'Frontiers in nutrition',
+    doi: '10.3389/fnut.2025.1589062',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40607025/'
   },
   {
-    id: '40600091',
-    title: 'Empirical Research of Health Inequalities Between Male and Female Employees of the Hellenic National Organization for Healthcare Services Provision: A Cross-Sectional Study.',
-    abstract: 'Aim The study attempts to delineate a framework of investigation regarding health inequalities and health-related behaviors among male and female employees of the Hellenic National Organization for Healthcare Services Provision (EOPYY). The pillars of the presented framework are self-perceived health, the presence of chronic diseases, health behaviors, mental well-being, and healthcare utilization. Subject and methods A cross-sectional study was conducted on 209 employees using a self-administered online questionnaire. Data were analyzed using descriptive and inferential statistics (Mann-Whitney U, Kruskal-Wallis, as well as Chi-squared Χ²) and multiple linear regression analysis. Results Men reported better overall health, lower stress levels, and higher quality of life, particularly in dimensions such as physical pain (p=0.001) and mental health (p=0.002), whereas women reported a higher prevalence of chronic diseases and more frequent doctor visits. Women adopted healthier dietary habits and exercised more frequently, while men exhibited higher rates of overweight and obesity (p<0.001). Gender emerged as a significant predictor of both physical and mental health, with men demonstrating more favorable health indicators. Conclusions While health inequalities are gaining global attention, their impact on employees in large public Organizations in Greece remains underexplored. This study generates novel insights to shape strategies such as flexible work policies, improved workplace health programs, and gender equality education, driving a more inclusive and supportive work culture. Practical implications include workplace mental health support, targeted health promotion initiatives, and policies enhancing work-life balance. These measures can reduce gender-related health disparities and improve overall employee well-being and productivity. The findings may inform workplace health policies and promote gender-sensitive interventions in the public sector. The findings may inform workplace health policies and promote gender-sensitive interventions in the public sector.',
-    published: '2025-Jun',
-    authors: [ 'Kouroukli Eleftheria', 'Pappa Evelina', 'Niakas Dimitrios' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85167',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600091/'
-  },
-  {
-    id: '40600088',
-    title: 'Unraveling Benign Breast Conditions: A Comprehensive Study of Diagnosis, Treatment, and Care.',
-    abstract: 'Introduction  The breast undergoes cyclical changes influenced by hormones, with benign breast diseases (BBDs) being more common than malignant conditions. These conditions can present with symptoms such as lumps, pain, swelling, and nipple discharge. This study investigates the incidence, clinical features, age distribution, and management of BBDs, providing insight into the common breast-related issues that affect women across different stages of life. Methodology  A prospective observational study was conducted at a tertiary care hospital from August 2021 to December 2022, including 100 patients with breast-related complaints. Participants underwent detailed history, clinical examination, and relevant investigations such as ultrasonography, mammography, and fine needle aspiration cytology (FNAC). Data were analyzed using Excel and SPSS, with continuous variables presented as mean ± standard deviation and categorical data as numbers and percentages. Results In the present study, the mean age of the 100 participants with BBD was 34.98±11.97 years, with the majority (78/100, 78%) presenting with lumps. Fibroadenoma was the most common diagnosis, seen in 59/100 (59%), followed by fibroadenosis in 19/100 (19%) and breast abscess in 16/100 (16%). The mean age of menarche among patients with BBD was 14.52±1.80 years, with 56/100 (56%) attaining menarche between 13 and 15 years. Additionally, 81/100 (81%) were married, and 10/100 (10%) had a history of lactation. The majority of patients with BBD had lumps in the right upper outer quadrant, with most lumps being firm and mobile, and 97/100 (97%) showed no axillary lymph node involvement. Most patients were treated with excision, while others received conservative treatment with reassurance, analgesics, and antibiotics, with diagnosis confirmed through ultrasonography and mammography. Discussion The spectrum of BBDs in our study aligns with findings from other studies, with fibroadenoma being the most prevalent lesion, followed by fibrocystic changes. These conditions predominantly affect young women under the age of 40 in our population. Conclusion In conclusion, BBDs, particularly fibroadenoma, are common and require accurate clinical assessment, with FNAC being a reliable diagnostic tool. Early detection through breast self-examination and regular follow-ups, along with continued education on benign breast conditions, is essential for effective management and patient care.',
-    published: '2025-Jun',
+    id: '40606982',
+    title: 'Patient-reported symptoms in the detection of head and neck cancer recurrence: a systematic review.',
+    abstract: 'INTRODUCTION: Patient-initiated follow-up (PIFU) after treatment for head and neck cancer (HNC) relies on the signs and symptoms of recurrence being detectable by patients. We examine the evidence for patient-reported symptoms as an indicator of recurrence.\n' +
+      'METHODS: A search was conducted via OvidMEDLINE and Embase (2010 to January 2024) plus sources of grey literature for studies which describe patient-reported symptoms and recurrent disease. Findings are reported as per PRISMA guidelines.\n' +
+      'RESULTS: Twenty studies were included which were highly heterogenous. The median sensitivity of patient-reported symptoms to detect recurrence is 47.3%. Median specificity, positive-predictive value (PPV) and negative-predictive value (NPV) were 79.3%, 9.3% and 98.0% respectively. New symptoms were generally reported at routine follow-up rather than expedited appointments.\n' +
+      'CONCLUSION: The high specificity and NPV of patient-reported symptoms means recurrence is unlikely in the absence of symptoms. Patient education and collection of prospective data through digital health technologies may increase the effectiveness of PIFU.',
+    published: '2025',
     authors: [
-      'Ahire Priya',
-      'Nagwani Pooja',
-      'Waghmare Rukmini',
-      'Gandhi Ami'
+      'Hulse Kate',
+      'Hurley Rhona',
+      'Lowit Anja',
+      'Maguire Roma',
+      'Paterson Claire',
+      'Douglas Catriona M'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85183',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600088/'
+    journal: 'Frontiers in oncology',
+    doi: '10.3389/fonc.2025.1632592',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40606982/'
   },
   {
-    id: '40600085',
-    title: 'Prevalence of and Risk Factors for Extremely Low Birth Weight Infants in Saudi Arabia: A Four-Year Single-Center Experience.',
-    abstract: "Introduction Globally, extremely low birth weight (ELBW) infants present a distinct challenge for neonatologists, representing a significant portion of the most vulnerable and high-risk cases admitted to the neonatal intensive care units (NICUs). Saudi Arabia has a high prevalence of ELBW, which leads to a significant risk of morbidity and mortality, as many of these extreme preterm infants who are admitted to NICUs may not survive till discharge. This study aimed to evaluate the prevalence of ELBW infants and associated risk factors over a four-year period. Methods Two study designs were used in this research: a cross-sectional retrospective design was used for estimating the prevalence rate over four years, and a case-control study with a retrospective chart review for the risk factor correlation. The study was conducted at King Abdulaziz Medical City (KAMC), Riyadh, Kingdom of Saudi Arabia, covering four years, from January 2017 to December 2020. All newborn live infants born at KAMC who weighed 1000 grams or less were included in the study. Infants born outside KAMC and those with fatal anomalies were excluded from the study. The pregnancy notes on the mothers were reviewed blindly, with no knowledge of the newborn's outcome. Statistical data were analyzed using SPSS version 26. Results A total of 256 ELBW infants were recorded out of 36,000 live births. The prevalence of ELBW during the study period of four years was 0.71%. Of the ELBW infants, 57.4% had a birth weight between 750 and 1000 grams, while 42.6% weighed less than 750 grams. Lower gestational age and prolonged rupture of membrane (PROM) were associated with a birth weight of 750-1000 g, whereas twin and triplet births were associated with a birth weight of <750 g. Interestingly, there was a positive correlation between birth weight and maternal age, but birth weight was inversely correlated with gestational age. Conclusion There was a minimal incidence rate of ELBW during the four-year duration. Significant risk factors for birth weight <750 g were triplets and twins, while lower gestational age and PROM were significant risk factors for birth weight of 750-1000 g. Interventions focusing on improving antenatal care access, maternal health education, and nutritional status may help reduce the prevalence of ELBW in our region.",
-    published: '2025-Jun',
-    authors: [ 'Alhasoon Mohammad' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85202',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600085/'
+    id: '40606971',
+    title: 'A spotlight on the MSc Cancer at UCL, 15 years on.',
+    abstract: 'Cancer remains one of the most significant global health challenges, thus education on the most recent advancements in the understanding of cancer science, diagnosis and treatment is vital. The University College London (UCL) MSc Cancer is now in its 15 year. This program not only equips students with the comprehensive knowledge of cancer biology and therapeutics but provides cutting edge skills needed to succeed beyond the MSc. The curriculum integrates the fundamentals of normal cell and cancer biology through to the cancer patient, creating a bench to bedside educational pipeline. This article gives a holistic overview of the MSc Cancer curriculum, the research-led educational practices being carried out, the research opportunities that branch from this MSc and the career prospects of MSc Cancer graduates. Further detailed information on the MSc Cancer can be found here: Cancer MSc | Prospective Students Graduate - UCL - University College London.',
+    published: '2025',
+    authors: [ 'Koushyar Sarah', 'Hartley John A' ],
+    journal: 'Frontiers in oncology',
+    doi: '10.3389/fonc.2025.1610068',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40606971/'
   },
   {
-    id: '40600083',
-    title: 'Artificial Intelligence in Peripheral Artery Disease Education: A Battle Between ChatGPT and Google Gemini.',
-    abstract: "Background Peripheral artery disease (PAD) is a prevalent yet often overlooked manifestation of atherosclerosis that significantly contributes to cardiovascular morbidity and mortality. With the increasing reliance on artificial intelligence (AI) for medical information, it is essential to assess the accuracy and readability of AI-generated health content, especially with regard to common cardiovascular diseases. Objective This study evaluates the accuracy, completeness, and readability of responses generated by OpenAI's ChatGPT (San Francisco, CA) and Google's Gemini (Mountain View, CA) when answering common questions about PAD. AI responses were compared to Cleveland Clinic's frequently asked questions (FAQs) on PAD to assess the reliability of AI-generated responses as a patient education tool. Methods ChatGPT 4.0 and Gemini 1.0 were prompted in three formats (no prompt (Form 1), patient-level prompt (Form 2), and physician-level prompt (Form 3)) before answering 19 questions from Cleveland Clinic's FAQs on PAD. Responses were categorized as correct, partially correct, or incorrect based on percent content alignment. Readability was assessed using the Flesch-Kincaid (FK) grade level, and word count differences were analyzed. Chi-square tests and one-way analysis of variance (ANOVA) were used for statistical analysis, with a significance threshold of p < 0.05. Results ChatGPT provided 70% correct and 30% partially correct responses, with no incorrect answers. Gemini provided 52% correct, 45% partially correct, and 3% incorrect responses. ChatGPT performed significantly better in accuracy, with a p-value < 0.05. FK analysis showed no significant readability differences between the two chatbots (mean FK grade: ChatGPT, 10.81; Gemini, 10.73), although both were higher than the recommended reading level for patient education. ChatGPT's responses were significantly longer than Gemini's, with a p-value < 0.0001. Conclusion Both ChatGPT and Gemini provided mostly accurate and comprehensive responses to commonly asked questions about PAD, demonstrating their potential use as supplementary education tools for patients with appropriate provider oversight. However, the grade reading level of these materials exceeded the recommended reading levels set forth by national guidelines, which warrants improvement in AI-driven health communication. Given the growing reliance on AI in healthcare, further research should explore ways to enhance AI-generated medical content for broader patient accessibility and evaluate its impact on patient outcomes.",
-    published: '2025-Jun',
-    authors: [
-      'Patel Shriya',
-      'Ponn Julie',
-      'Lee Thomas J',
-      'Palani Arthi',
-      'Wang Heather',
-      'Gardin Julius M'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85174',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40600083/'
+    id: '40606953',
+    title: 'The practice of advance care planning among ambulatory cancer patients at a tertiary hospital in Kenya: descriptive cross-sectional survey.',
+    abstract: 'BACKGROUND: Advance care planning (ACP) is relevant in the care of cancer patients. Insight into the current practice of ACP can identify high-priority areas to direct interventions aimed at improving the process.\n' +
+      'OBJECTIVE: To assess the practice of ACP among ambulatory cancer patients at a Kenyan hospital.\n' +
+      'METHODOLOGY: A descriptive cross-sectional survey was conducted at the ambulatory oncology clinic at a tertiary referral hospital. We recruited 387 study participants through consecutive sampling among heterogenous cancer patients. An interviewer-administered questionnaire was used to collect data, which was analysed by SPSS version 25 and through multivariable logistical regression.\n' +
+      'RESULTS: Among 387 participants, 78.55% were females. The uptake of advance directives was low; only 27.13% of participants had appointed surrogate decision makers, while 1.5% had living wills. Few had discussed end-of-life wishes with family (28.68%) and doctors (19.63%). Only 27.39% had discussed life expectancy with a doctor. Among those who had not participated in ACP, most were willing to discuss life expectancy (71.9%); discuss end-of-life wishes with family (81.2%) and doctors (85.1%); complete advance directives (68%) and appoint surrogate decision makers (75.9%) in the next 1 month. Doctors were most preferred to initiate ACP discussions. Factors that positively correlated with uptake of advanced directives (ADs) included - ECOG status, discussion with family and with doctors.\n' +
+      'CONCLUSION: The uptake of ADs among ambulatory cancer patients was low; additionally, self-reported participation in ACP was low. Our study highlights the need for widespread education initiatives and standardisation of the ACP process.\n' +
+      'RECOMMENDATIONS: There is a need for further studies and strategies to improve the participation in ACP and hence the quality of life among patients with malignancies in Kenya.',
+    published: '2025',
+    authors: [ 'Otom Lavender', 'Oyiro Peter', 'Ogola Elijah' ],
+    journal: 'Ecancermedicalscience',
+    doi: '10.3332/ecancer.2025.1926',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40606953/'
+  },
+  {
+    id: '40606951',
+    title: 'Cancer health literacy profile in Argentine oncology patients.',
+    abstract: "INTRODUCTION: Cancer Health Literacy is the individual's ability to seek, understand, evaluate and use basic information and services necessary to make appropriate decisions regarding cancer prevention, diagnosis and treatment. The aim of this study was to analyse the Health Literacy Profile of Argentine cancer patients.\n" +
+      'METHODOLOGY: A non-experimental, descriptive, cross-sectional design was used. A non-probabilistic sampling method was applied and 500 adult cancer patients who provided their consent participated. A sociodemographic questionnaire and the Cancer Health Literacy Test were administered. Data were collected through mixed methods and analysed using R Studio.\n' +
+      'RESULTS: The average Cancer Health Literacy score was 22.01 points (SD = 5.68, Mdn = 24), with 73% of patients classified at an intermediate level. Multiple linear regression analysis revealed that educational level and information-seeking behaviour regarding diet and cancer were significant contributing factors to this construct, explaining 30.6% of its variability (adjusted   = 0.306) with a large effect size (f = 0.44). Cancer Health Literacy was lower in patients with an incomplete secondary education or lower and higher in those who actively sought information.\n' +
+      'CONCLUSION: Cancer Health Literacy was associated with educational level and nutritional information-seeking behaviour. Measuring these factors in clinical practice contributes to evidence-based care.',
+    published: '2025',
+    authors: [ 'Manzur Karen M', 'Kohan Cortada Ana' ],
+    journal: 'Ecancermedicalscience',
+    doi: '10.3332/ecancer.2025.1934',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40606951/'
   }
 ]
 Collected 10 papers from pubmed
@@ -686,197 +737,12 @@ Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at TLSSocket.socketErrorListener (node:_http_client:504:5)
-    at TLSSocket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 6)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'kahualike.manoa.hawaii.edu',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.31372/20190403.1059',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/apin/vol4/iss3/2/',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'kahualike.manoa.hawaii.edu',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/apin/vol4/iss3/2/',
-      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: kahualike.manoa.hawaii.edu\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/apin/vol4/iss3/2/',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'kahualike.manoa.hawaii.edu',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'kahualike.manoa.hawaii.edu'
-  }
-}
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1166,16 +1032,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 35236,
+        _idleNext: [TimersList],
+        _idleStart: 37298,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4816,
-        [Symbol(triggerId)]: 4814
+        [Symbol(asyncId)]: 5442,
+        [Symbol(triggerId)]: 5440
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1307,7 +1173,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Wed, 02 Jul 2025 15:12:38 GMT',
+      date: 'Thu, 03 Jul 2025 15:12:47 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1418,11 +1284,196 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Wed, 02 Jul 2025 15:12:38 GMT',
+  date: 'Thu, 03 Jul 2025 15:12:47 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
   connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 6)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.31372/20190403.1059',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
+  }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
@@ -1528,16 +1579,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 36086,
+        _idleNext: [TimersList],
+        _idleStart: 37530,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4860,
-        [Symbol(triggerId)]: 4858
+        [Symbol(asyncId)]: 5505,
+        [Symbol(triggerId)]: 5503
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1669,7 +1720,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Wed, 02 Jul 2025 15:12:38 GMT',
+      date: 'Thu, 03 Jul 2025 15:12:47 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1780,7 +1831,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Wed, 02 Jul 2025 15:12:38 GMT',
+  date: 'Thu, 03 Jul 2025 15:12:47 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1952,9 +2003,9 @@ Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
 Translating paper 18/50
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
 Translating paper 19/50
-Translating paper: The Impact of Education for Sustainable Developmen...
-Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 20/50
+Translating paper: Economics of education...
 Translating paper 21/50
 Translating paper: The Effectiveness of 3D Virtual Environments for B...
 Translating paper 22/50
@@ -1968,33 +2019,33 @@ Translating paper: Making Tens with Four Hands: Touchscreen-Based Cla...
 Translating paper 26/50
 Translating paper: Understanding Children’s Learning of Part–Whole Re...
 Translating paper 27/50
-Translating paper: How many PhDs does the world need? Doctoral gradua...
+Translating paper: A mixed methods evaluation of an online climate ch...
 Translating paper 28/50
-Translating paper: Does using ChatGPT change your brain activity? Stu...
+Translating paper: Generative AI acceptance among future educators: p...
 Translating paper 29/50
-Translating paper: What we stand to lose when foreign students are se...
+Translating paper: How many PhDs does the world need? Doctoral gradua...
 Translating paper 30/50
-Translating paper: Some US researchers want to leave the country. Can...
+Translating paper: Does using ChatGPT change your brain activity? Stu...
 Translating paper 31/50
-Translating paper: Characterizing Severe and Level 2 Hypoglycemia and...
+Translating paper: The impact of online teaching curricula on undergr...
 Translating paper 32/50
-Translating paper: Psychiatric Residents' Perspectives on Psychedelic...
+Translating paper: Using Social Media to Combat Influenza Vaccine Mis...
 Translating paper 33/50
-Translating paper: Cognitive functioning in young adults after mild C...
+Translating paper: Bridging the Gaps in Sexual Health: Gender, Age, a...
 Translating paper 34/50
-Translating paper: Knowledge, attitudes, and practices regarding avia...
+Translating paper: Patient Experience of Hemodialysis in a Nephrology...
 Translating paper 35/50
-Translating paper: Spatiotemporal analysis of pulmonary tuberculosis ...
+Translating paper: Epidemiology of hand, foot, and mouth disease outb...
 Translating paper 36/50
-Translating paper: Alpha-Gal Syndrome: Often Hidden, Under-Recognized...
+Translating paper: Exploring the association of vitamin B12 deficienc...
 Translating paper 37/50
-Translating paper: Empirical Research of Health Inequalities Between ...
+Translating paper: Patient-reported symptoms in the detection of head...
 Translating paper 38/50
-Translating paper: Unraveling Benign Breast Conditions: A Comprehensi...
+Translating paper: A spotlight on the MSc Cancer at UCL, 15 years on....
 Translating paper 39/50
-Translating paper: Prevalence of and Risk Factors for Extremely Low B...
+Translating paper: The practice of advance care planning among ambula...
 Translating paper 40/50
-Translating paper: Artificial Intelligence in Peripheral Artery Disea...
+Translating paper: Cancer health literacy profile in Argentine oncolo...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2016,25 +2067,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 483 -> 444
-Total papers after merging: 444 (433 existing + 50 new)
-Saved 444 papers to papers.json
+Removed duplicates: 494 -> 456
+Total papers after merging: 456 (444 existing + 50 new)
+Saved 456 papers to papers.json
 Generating HTML files...
-Generating index.html with 444 papers...
+Generating index.html with 456 papers...
 Successfully generated index.html
-Generating archive.html with 444 papers...
+Generating archive.html with 456 papers...
 Successfully generated archive.html
-Generating journal.html with 444 papers...
+Generating journal.html with 456 papers...
 Successfully generated journal.html
-Generating acquisition.html with 444 papers...
+Generating acquisition.html with 456 papers...
 Successfully generated acquisition.html
-Generating publication.html with 444 papers...
+Generating publication.html with 456 papers...
 Successfully generated publication.html
-Generating registration.html with 444 papers...
+Generating registration.html with 456 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 444
+Total papers in database: 456
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-02T15:40:10.459Z
+Timestamp: 2025-07-03T15:39:49.521Z
