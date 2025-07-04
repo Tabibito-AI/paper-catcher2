@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-03T15:12:10.942Z
+Timestamp: 2025-07-04T15:10:58.412Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 444 existing papers from papers.json
+Loaded 456 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,8 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -351,16 +349,6 @@ Fetched papers from Semantic Scholar: [
     link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
   },
   {
-    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
-    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
-    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci10080205',
-    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
-  },
-  {
     id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
     title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
     abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
@@ -376,6 +364,16 @@ Fetched papers from Semantic Scholar: [
     link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
   },
   {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
     id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
     title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
     abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
@@ -386,6 +384,16 @@ Fetched papers from Semantic Scholar: [
     link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
   },
   {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
     id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
     title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
     abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
@@ -394,16 +402,6 @@ Fetched papers from Semantic Scholar: [
     journal: 'International Journal of Instruction',
     doi: '10.29333/IJI.2020.13424A',
     link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
-  },
-  {
-    id: '35d0ead88e9bd727c16459e785358b0050e54514',
-    title: 'Economics of education',
-    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
-    published: '2016-01-01T00:00:00.000Z',
-    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
-    journal: 'No journal available',
-    doi: '10.12737/17661',
-    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
   }
 ]
 Collected 10 papers from semanticScholar
@@ -425,6 +423,23 @@ Fetched papers from Springer: [
     journal: 'Business Modeling and Software Design'
   },
   {
+    id: '10.1007/s40299-024-00936-0',
+    title: 'Tech-Enhanced Learning: Evaluating General Education in Vocational Colleges Through Technology Integration',
+    summary: 'In vocational education, the role of general education (GE) is pivotal in cultivating a well-rounded skill set among students. As the demands of the job market evolve, it becomes imperative to assess and enhance the efficacy of GE in these specialized settings. Vocational colleges (VC) and higher vocational institutions are essential in getting pupils ready for careers by offering specialized courses. However, the significance of GE cannot be overstated, as it provides a foundation for critical thinking, communication skills, and a broad intellectual perspective. This investigation aims to investigate the evaluation system of GE and related courses within VCs and higher vocational institutions. The study employs a descriptive mixed-methods approach. A purposive sampling technique was utilized to select participants. Using a questionnaire survey and interview method, the data for this paper was gathered from 157 teachers and 208 students. The data collected was analyzed using SPSS for statistical analysis. The findings identified that integrating technology-based evaluation methods enhances the effectiveness of GE programs in VCs. The result clarified that regular feedback and assessment in GE courses in higher VCs lead to better retention and understanding of the course content. The novelty of the study lies in assessing GE and courses in vocational and higher VCs, by exploring unique evaluation systems, it aims to enhance the quality of education, aligning curriculum with industry demands, and promoting well-rounded graduates in vocational settings.',
+    published: '2025-08-01',
+    authors: [ 'Pan, Tingjiang', 'Jiang, Lijuan' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'The Asia-Pacific Education Researcher'
+  },
+  {
     id: '10.1007/s43681-025-00700-0',
     title: 'Assessing the role of artificial intelligence in quality of legal education with special reference to sustainable development goal',
     summary: 'The transformational potential of artificial intelligence (AI) has been increasingly apparent in a variety of fields, including legal education. This study investigates the potential of AI in transforming legal education in order to meet the sustainable development goals (SDGs), 2030. As nations and cultures global struggle to achieve the SDGs, legal professionals play an important role in establishing legal frameworks that support progress toward these goals. It can improve the delivery of legal curricula by providing customized learning experiences targeted to individuals. AI can also help educators to create current content and enhance the evaluation. Education is now more dynamic, accessible, and affordable, expanding its reach. Quality of legal education is a cornerstone of achieving the SDGs set for 2030. The effective utilization of AI in the field of legal education holds significant promise in not only expanding access but also improving the quality of legal education. AI-powered legal research tools have the potential to revolutionize legal research for law students, researchers, and legal practitioners. They can provide more efficient and comprehensive ways to explore legal precedents, case law, and statutes, thus empowering legal professionals to perform their duties with greater accuracy and efficiency. By improving access to legal information, these tools can play a significant role in the formulation of laws and regulations that align with the SDGs. This research paper explores the multifaceted ways in which AI can contribute to advancing legal education and, consequently, supporting the attainment of the SDGs.',
@@ -433,6 +448,37 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'AI and Ethics'
+  },
+  {
+    id: '10.1007/s35834-024-00462-5',
+    title: 'Die Konzeption von Erfolg aus Sicht von Absolvent:innen mit Beeinträchtigung: Schlüsselaspekte der Inklusion in der deutschen Hochschulbildung',
+    summary: 'Während sich in den letzten Jahren verschiedene Wissenschaftler:innen mit der Inklusion und dem Bildungserfolg von Menschen mit Beeinträchtigungen auseinandergesetzt haben, bleibt die Frage, was diese selbst unter Studienerfolg verstehen, weitgehend außer Acht. Das erste Ziel dieses Artikels ist es, die Konzeptionen von Erfolg in der Hochschulbildung und die Schlüsselfaktoren zu analysieren, die zum Hochschulerfolg von 28 Absolvent:innen mit Beeinträchtigung aus 16 deutschen Hochschulen beigetragen haben. Das zweite Ziel besteht darin, Empfehlungen zu geben, die die Teilnehmenden selbst an andere Studierende mit Beeinträchtigung sowie an die Hochschulen richten, um ihren Erfolg in der Hochschulbildung zu verbessern. Die Ergebnisse zeigen, dass die Teilnehmenden unterschiedliche Konzeptionen von Erfolg haben (Erreichen eines Abschlusses, gute Noten, Erlernen und Entwickeln von Fähigkeiten, Sammeln von praktischen Erfahrungen, Überwinden von Herausforderungen und Aufrechterhalten eines Gleichgewichts zwischen Studium und Gesundheit) sowie verschiedene persönliche Faktoren (die Behinderung als treibende Kraft) und kontextuelle Faktoren (soziales und familiäres Umfeld, Auslandsaufenthalte, positives Feedback, Anerkennung von Leistungen und zugängliche Online-Kurse und digitalisierte Materialien) als relevant für ihren Erfolg identifizierten. Die Ergebnisse zeigen ferner, dass es für den Erfolg in der Hochschulbildung und die Stärkung von Studierenden mit Beeinträchtigung entscheidend ist, die Stimmen von Absolvent:innen mit Behinderung zu hören. While various researchers have explored inclusion and the educational success of people with impairments in recent years, the question of what the latter mean by academic success remains understudied. The first aim of this article is to analyse the conceptualisations of success in higher education and the key factors that contributed to the academic success of 28 graduates with impairments from 16 German universities. The second aim is to provide recommendations from the participants themselves to other students with impairments and to higher education institutions for improving their success in higher education. The results show that the participants have different conceptualisations of success (achieving a degree, getting good grades, learning and developing skills, gaining practical experience, overcoming challenges and maintaining a balance between studies and health) and identified various personal factors (the disability as a driving force) and contextual factors (social and family environment, time abroad, positive feedback, recognition of achievements and accessible online courses and digitised materials), as relevant to their success. The findings further demonstrate that hearing the voices of graduates with impairments is critical to their success in higher education and the empowerment of students with disabilities.',
+    published: '2025-08-01',
+    authors: [
+      'Lopez-Gavira, Rosario',
+      'Orozco, Inmaculada',
+      'Angerhausen, Pascal'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Zeitschrift für Bildungsforschung'
+  },
+  {
+    id: '10.1007/s40299-024-00966-8',
+    title: 'Supplementation Matters: Academic Impact of an Afterschool Tutoring Program in Timor-Leste',
+    summary: 'Students in Timor-Leste face low educational outcomes due to sociopolitical factors rooted in the nation’s colonial history. This study evaluates the academic impact of a low-resource afterschool supplementary tutoring program designed to address learning gaps and improve school outcomes across rural and urban settings. Using instructional design principles, the program employed worksheet-based individualized learning content in a familiar language, supported by personalized feedback. Pre- and post-test scores in mathematics and English were compared over 7 months between an intervention group and a comparison group, with results analyzed using a Welch t test. Findings revealed statistically significant improvements in both subjects, with greater gains in mathematics, suggesting an opportunity to explore alternative methods for English instruction, such as incorporating social interactions to support early learners. The study highlights the importance of community support, tutors’ capabilities, and their residence within local neighborhoods in sustaining the program. These results demonstrate the potential of well-structured afterschool programs to enhance educational outcomes in low-resource contexts, offering a scalable model for similar initiatives in emerging nations.',
+    published: '2025-08-01',
+    authors: [ 'Yazdani, Naisan' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'The Asia-Pacific Education Researcher'
   },
   {
     id: '10.1007/s40751-024-00167-4',
@@ -445,303 +491,74 @@ Fetched papers from Springer: [
     journal: 'Digital Experiences in Mathematics Education'
   },
   {
-    id: '10.1007/s40751-024-00166-5',
-    title: 'Pre-service Teachers’ Characterizations of “Draggable” Task Situations Through the Lens of Embodied Task Design',
-    summary: 'This report details a set of three tasks used in an exploratory study of pre-service teachers’ (PSTs) experiences of task design for the mathematics classroom. The three tasks, which I call the Orange Dot Tasks , were constructed in Desmos, a dynamic geometry environment (DGE), and participants engaged each task through manipulating draggable objects on iPad touchscreens. The purpose of this report is two-fold: one aim is to present the tasks in detail and to elaborate on the intentions behind their design and a second is to present some perspectives of PSTs on these tasks generated through their participation in the study.',
+    id: '10.1007/s11553-024-01141-z',
+    title: 'Informationssuchverhalten und digitale Gesundheitskompetenz von Schüler*innen in Deutschland während der Coronapandemie',
+    summary: 'Hintergrund Während der Coronapandemie waren Schüler*innen mit einer Flut von Informationen zur Gesundheit und zur Coronapandemie konfrontiert. Der adäquate Umgang mit Gesundheitsinformationen setzt (digitale) Gesundheitskompetenz voraus. Ziel des Beitrags ist daher, das Informationssuchverhalten und das Ausmaß der digitalen Gesundheitskompetenz (dGK) von Schüler*innen in Deutschland während der Coronapandemie unter Berücksichtigung ihres sozialen Hintergrunds zu analysieren. Material und Methoden Die Online-Befragung wurde während des dritten Lockdowns, von März bis Juli 2021, in Hessen und anderen Bundesländern durchgeführt. Der Feldzugang erfolgte in weiterführenden Schulen, Verbänden und Sportvereinen. Der Online-Fragebogen wurde von N  = 1096 Schüler*innen der Klassenstufe 6 bis 13 aufgerufen und n  = 361 Schüler*innen vollständig ausgefüllt. Es wurden das gesundheitsbezogene Informationssuchverhalten (internetbasierte Quellen für Gesundheitsinformationen, [digitale] Quellen für Informationen zur Coronapandemie), die dGK (Digital Health Literacy Instrument [DHLI]) sowie soziodemografische und -ökonomische Hintergrundmerkmale (Geschlecht, Alter, zuhause gesprochene Sprache, Schulform, subjektiver Sozialstatus) erfasst und mittels uni-, bi- und multivariater Analysen mit SPSS ausgewertet. Ergebnisse Nach Gesundheitsinformationen zum Coronavirus im Internet suchten regelmäßig 75,6 % der Schüler*innen. Schwierigkeiten beim Umgang mit digitalen Gesundheitsinformationen gaben 52,6 % der Schüler*innen an. 49,8 % der Schüler*innen berichteten von Schwierigkeiten beim Bewerten der Zuverlässigkeit von digitalen Informationen zum Coronavirus. Die bi- und multivariaten Analysen weisen darauf hin, dass sich die dGK nach dem subjektiven Sozialstatus (SSS) dahingehend unterscheidet, dass Schüler*innen mit niedrigem bzw. mittlerem SSS (OR = 2,57, 95 %-KI: 1,30–5,06, p  = 0,006) häufiger Schwierigkeiten im Umgang mit digitalen Gesundheitsinformationen zur Coronapandemie aufweisen als Gleichaltrige der Vergleichsgruppen. Die dGK unterscheidet sich nicht signifikant nach soziodemografischen (Geschlecht, Migrationshintergrund) und weiteren sozialen Merkmalen (besuchte Schulform, familiärer Wohlstand). Schlussfolgerung Die Förderung der dGK von Schüler*innen auf Schul- und Individualebene stellt ein wichtiges Anliegen der Prävention und Gesundheitsförderung dar. Durch bildungspolitische Maßnahmen (z. B. durch den „Medienkompetenzrahmen“ für die schulischen Medienbildung in den Bundesländern) sollte es den Schulen ermöglicht werden, die (d)GK im Rahmen der Medien- und Gesundheitsbildung in den Unterricht, Curricula und auf allen Ebenen von und bei allen Akteuren in Schulen (bspw. durch die organisationale Gesundheitskompetenz) zu berücksichtigen. Background During the coronavirus disease 2019 (COVID-19) pandemic, schoolchildren were confronted with a flood of information on health and the coronavirus. Adequate handling of health information requires (digital) health literacy (dHL). The aim of this article is therefore to analyse the information-seeking behaviour and the extent of dHL of schoolchildren in Germany during the COVID-19 pandemic according to their social background. Materials and methods The online survey was conducted during the third lockdown, from March–July 2021, in Hesse and other German federal states. Students in secondary schools, associations and sports clubs were contacted. The online questionnaire was accessed by N  = 1096 schoolchildren in grades 6–13 and n  = 361 schoolchildren completed it in full. Health-related information-seeking behaviour (internet-based sources for health information, [digital] sources for information on the COVID-19 pandemic), dHL (Digital Health Literacy Instrument [DHLI]) as well as sociodemographic and socioeconomic background characteristics (gender, age, language spoken at home, type of school, subjective social status) were recorded and evaluated using uni-, bi- and multivariate analyses with SPSS (IBM, Armonk, NY, USA). Results In all, 75.6% of schoolchildren regularly searched for digital health information about the coronavirus. 52.6% of the schoolchildren reported difficulties in dealing with digital health information. 49.8% of the schoolchildren reported difficulties in assessing the reliability of digital information on the coronavirus. The bi- and multivariate analyses indicated that the dHL differs according to subjective social status (SSS) in that those students with low or medium SSS (odds ratio = 2.57, 95% confidence interval 1.30–5.06, p  = 0.006) more frequently have difficulties in dealing with digital health information on the COVID-19 pandemic than their peers in the comparison groups. The dHL did not differ significantly according to sociodemographic (gender, migration background) and other social characteristics (type of school attended, family wealth). Conclusion Promotion of (d)HL among schoolchildren at school and individual level is an important issue for prevention and health promotion. Educational policy measures (e.g. in the form of “media literacy frameworks” for school media education in the federal states) should enable schools to take (d)HL into account in the context of media and health education in lessons, curricula and at all levels of and among all actors in schools (e.g. through organisational health literacy).',
     published: '2025-08-01',
-    authors: [ 'Markle, Josh' ],
+    authors: [ 'László, Emese', 'Sendatzki, Saskia', 'Rathmann, Katharina' ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Digital Experiences in Mathematics Education'
+    journal: 'Prävention und Gesundheitsförderung'
   },
   {
-    id: '10.1007/s40751-025-00171-2',
-    title: 'Making Tens with Four Hands: Touchscreen-Based Classroom Activity for Early Number Learning',
-    summary: 'As schools increasingly embrace embodied learning, there is a growing need to incorporate classroom teaching and learning activities that recognize the body’s role as both an individual and collective resource for cognition and instruction. In response, we present a design for a classroom teaching sequence focused on early number learning, featuring pedagogical activities supported by TouchCounts (TC) and engaged by pairs of children using their four hands. These activities showcase the potential of embodied learning for children to explore concepts such as odd and even numbers, as well as the composition and decomposition of numbers up to and including ten. We elaborate on the functionalities of TC, outline the teaching sequence, and offer episodes of our classroom observations. Specifically, we present three lesson snapshots aimed at first-graders (aged 6 to 7) using a class set of TC, student learning outcomes, and notable observations as students interact with the touchscreen environment. For example, we note that the student pairs used their hands to reinforce, extend, and redirect mathematical ideas; besides, they developed a collective discourse through (gestural) subitizing the number of fingers that they (and their partner) put up (and folded down). This snapshot explicates the collective learning experiences in classroom settings involving pair-work activities and informs existing work on embodied (mathematical) cognition beyond how students learn with their bodies individually.',
+    id: '10.1007/s40299-024-00943-1',
+    title: 'Context Matters: Exploring the Structural Relationships Between ICT Usage, Support, Perceived Usefulness, Intention to Use, and Learning Motivation',
+    summary: 'Previous research has extensively explored the integration of Information and Communication Technology (ICT) in education. However, much of previous research has not differentiated between the environments where ICT is used, particularly in terms of its perceived usefulness in school versus at home. This gap in understanding the contextual influence of ICT on students’ learning motivation forms the basis for this study. In particular, this research aims to clarify how different environments influence the effectiveness of ICT in motivating students. Using data from 737 high school students, collected through two surveys, and employing Structural Equation Modeling, the study found that ICT usage in schools is positively linked to its perceived usefulness in both school and home environments. Additionally, ICT support from teachers enhances the perceived usefulness of ICT in both contexts. Furthermore, the perceived usefulness of ICT in both school and home environments significantly predicts students’ intentions to use ICT. However, only the perceived usefulness of ICT at home significantly predicts learning motivation, contrary to initial expectations that school-related ICT would also be a significant predictor. These findings suggest that enhancing students’ learning motivation through ICT integration may require more emphasis on the home environment. The implications for educational policy and practice are discussed, emphasizing a more efficient strategy in incorporating ICT into education.',
     published: '2025-08-01',
-    authors: [ 'Ng, Oi-Lam', 'Yeung, Wing-Leung' ],
+    authors: [ 'Huang, Xueqin', 'Gao, Xingjian', 'Kim, Sangmi', 'Ohno, Shiroh' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'The Asia-Pacific Education Researcher'
+  },
+  {
+    id: '10.1007/s35834-024-00459-0',
+    title: 'Lehrer:innen als Influencer:innen',
+    summary: 'Lehrpersonen, die soziale Medien zu beruflichen Zwecken verwenden und viele Follower:innen haben, werden auch als Bildungsinfluencer:innen bezeichnet. Influencer:innen gelten als einflussreiche Personen, die meist private Einblicke mit gesponsortem Produktmarketing verbinden. Bislang liegen im internationalen Vergleich für Deutschland jedoch wenige empirische Befunde zum Phänomen ‚Lehrer:innen als Influencer:innen‘ vor. Daher ist z. B. noch nicht ausreichend erforscht, wie sie sich selbst in den sozialen Netzwerken präsentieren und ob sie private Einblicke mit Produktmarketing verbinden. Im Beitrag werden 42 Profilbeschreibungen sowie verlinkte Webseiten von Lehrpersonen auf Instagram analysiert. Die von den Lehrkräften frei gestaltbaren, prominent im Feed platzierten Profilbeschreibungen werden dazu genutzt, sich selbst und das Profil in wenigen Worten zu präsentieren, sodass den Profilbeschreibungen eine relevante (selbst-)darstellerische Funktion zugesprochen werden kann. Mit einem inhaltlich-strukturierenden qualitativ-inhaltsanalytischen Vorgehen kann gezeigt werden, wie und mit welchen Themen sich die Lehrer:innen darstellen, aber auch, welche Produkte bzw. Leistungen sie zum käuflichen Erwerb anbieten. Die Befunde zeigen, dass die Lehrkräfte sich überwiegend als engagierte und multitaskingfähige Lehrer:innen, die zusätzliche Rollen (z. B. Autor:in) einnehmen, präsentieren und Produkte/Leistung zum Kauf anbieten, die dem Lehrberuf mittel- oder unmittelbar nahestehen, wie z. B. Lern- und/oder Unterrichtsmaterialien. Die Aktivitäten der Bildungsinfluencer:innen werden vor dem Hintergrund des „unternehmerischen Selbst“ (Bröckling 2019 ) als neue Form der Ökonomisierung der Bildung gedeutet, in der die Lehrpersonen als autonome Entrepreneur:innen agieren. Teachers who use social media for professional purposes and have many followers are also referred to as Education(al)-Influencers. Influencers are regarded as influential people who often combine private insights with sponsored service or product marketing. To date, in an international comparison, there have been few empirical findings on the phenomenon of “teachers as influencers” in Germany. For example, there is still insufficient research into how they present themselves on social networks and whether they combine private insights with service and/or product marketing. The article analyses 42 profile descriptions and linked websites of teachers on Instagram. The prominently placed profile description, which can be freely designed by the teachers, are used to present themselves and their profile in a few words, so that the profile descriptions can be attributed a relevant (self-)representational function. A content-structuring qualitative content analysis can be used to show how teachers present themselves, about which topics they post about and which products and/or services they offer for sale. The findings show that teachers predominantly present themselves as committed and multitasking teachers who take on additional roles (e.g. author) and offer products and/or services for sale that are directly or indirectly related to the teaching profession, such as learning and/or teaching materials. Against the background of the “unternehmerischen Selbst” (engl. entrepreneurial self ) (Bröckling 2019 ) the activities of educational influencers are interpreted as a new form of economization of education in which teachers act as independent entrepreneurs.',
+    published: '2025-08-01',
+    authors: [ 'Grabosch, Anna' ],
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Digital Experiences in Mathematics Education'
+    journal: 'Zeitschrift für Bildungsforschung'
   },
   {
-    id: '10.1007/s40751-024-00160-x',
-    title: 'Understanding Children’s Learning of Part–Whole Relations Using Fingu',
-    summary: 'In this article, we investigate the effects of the app Fingu on a child’s understanding of the part-whole concept. Using the Artifact Centric Activity Theory framework, we initially analyse the internalisation and externalisation processes that appear to occur during one child’s use of the app. Based on the learning from this process, we then use other aspects of the framework, in particular the subject-artifact-group triangle, to understand how Fingu might be used productively in mathematics education classrooms. Using a 13-min video of a child playing Fingu as our data source, we analyse how children might, as they learn about part-whole relationships, interact with the game. We also investigate how design principles in creating apps can impact on the experience of using the app in ways that may be unintended by their designers. This work has implications for app designers and for mathematics educators seeking to incorporate digital technologies into mathematics education.',
+    id: '10.1007/s35834-024-00461-6',
+    title: 'Gibt es einen Inter*-Neglect?',
+    summary: 'Geschlechtlichkeit umfasst unterschiedliche Ebenen, darunter auch das Körpergeschlecht, welches traditionell in männlich und weiblich codiert wird. Varianten der Geschlechtsentwicklung werden zumeist unter den Begriff Intergeschlechtlichkeit (kurz: Inter*) subsummiert. Die Aufklärung zu Inter* gehört in verschiedene Bereiche der Bildung und Erziehung, die oft durch Pädagog*innen ausgeübt werden, aber auch (ergänzend) durch Informationsmaterialien geschehen kann. Auf Basis einer kriteriengeleiteten Auswahl von kostenfreien Informationsmaterialien bundesweiter Akteur*innen zu geschlechtlicher Vielfalt wurde der Stellenwert von Inter* mittels einer quantitativen Inhaltsanalyse untersucht. Basierend auf N  = 32 Informationsmaterialien zeigte sich, dass Inter* sehr oft benannt wird, Inter*-bezogene im Vergleich zu Trans*(geschlechtlichkeits)-bezogenen Begriffen jedoch seltener vorkamen. Außerdem wurden Varianzen des Körpergeschlechts im Vergleich zur Geschlechtsidentität deutlich seltener thematisiert. Insgesamt konnte ein relativer Inter*-Neglect, also eine relative Vernachlässigung bzw. Dethematisierung von Inter* zugunsten der Fokussierung auf Geschlechtsidentitäten, konstatiert werden. Gender encompasses different levels, including sex, which is traditionally categorised as male and female. Differences of sex development are usually subsumed under the term intersex (short: inter*). Education about inter* belongs is part of various areas of education, which is provided by educational professionals, but can also be (additionally) realised through information materials. Based on a criteria-led selection of free information materials on sex and gender diversity from nationwide stakeholders, the relevance of inter* was analysed using a deductive quantitative content analysis. Based on N  = 32 information materials, it was found that inter* is mentioned very often, but inter*-related terms occur less frequently than trans*(gender)-related terms. In addition, it was found that variations in sex are addressed much less frequently in the information materials compared to gender identity. Overall, a relative inter* neglect, a relative omission or demthematization of inter* in favour of a focus on gender identities, can be observed.',
     published: '2025-08-01',
-    authors: [ 'Kortenkamp, Ulrich', 'Ladel, Silke', 'Larkin, Kevin' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Digital Experiences in Mathematics Education'
-  },
-  {
-    id: '10.1186/s12889-025-23477-7',
-    title: 'A mixed methods evaluation of an online climate change and health certificate program for working professionals',
-    summary: 'Background Climate change is one of the greatest public health challenges of the 21st century, and a diverse cadre of professionals are increasingly pursuing opportunities to learn about this issue. Our goal was to evaluate an online climate change and health (CCH) certificate program for working professionals as a case study. Methods We utilized structured and free-text elements from course and overall program evaluations across seven cohorts of participants from 2018 to 2022 for a mixed-methods assessment of the program. Results A total of 579 enrollees’ data were analyzed. The program completion rate was 90.0% and participants were diverse in their professional and geographic representation, but disproportionately from North America (82.4%). The program was rated favorably; i.e., 98.6% of participants would recommend the program to others. Qualitative analysis identified themes that were grouped as program strengths and opportunities for improvement. Strengths included (1) valuable curriculum, (2) peer-to-peer learning, and (3) a call to action. Opportunities for improvement included: (1) irrelevant course content, (2) challenges with course structure, and (3) insufficient opportunities for networking. Conclusions The evaluations demonstrate the overall importance of educational offerings in CCH. Our case study demonstrated that working professionals in public health, allied health professions, and non-health professions express desire, benefit, and appreciation for educational opportunities on this important intersection. They especially valued strong, relevant course content, professional networking and peer-to-peer learning, and acquisition of effective skills for use in their work. We have used lessons learned from this case study to improve our program and encourage others to use them to improve their programs or to develop new ones. A workforce that is highly educated on CCH issues is essential to confront the existential public health challenge of climate change.',
-    published: '2025-07-03',
     authors: [
-      'Carrión, Daniel',
-      'Prasanth, Saira',
-      'Hurtado, Ivan',
-      'Lin-Schweitzer, Anna',
-      'Braga, Maricel',
-      'Munson, Sammi',
-      'Hines, Emmanuelle',
-      'Kotcher, John',
-      'Daly-Haney, Heather',
-      'Maibach, Edward',
-      'Conlon, Kathryn',
-      'Babcock-Dunning, Lauren',
-      'Timm, Kristin',
-      'Dubrow, Robert'
+      'Hackbart, Marcel',
+      'Thies, Barbara',
+      'Rosen, Ursula',
+      'Tischoff, Cathleen'
     ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
+    categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'BMC Public Health'
-  },
-  {
-    id: '10.1007/s10639-025-13678-3',
-    title: 'Generative AI acceptance among future educators: personality and behavioral insights',
-    summary: 'This study examines the acceptance, behaviors and perceptions of Generative Artificial Intelligence (Gen-AI) technologies among pre-service teachers, including the role of Big Five personality traits in shaping attitudes and behaviors. Using a mixed-methods approach, data were collected from 476 teacher candidates via the Generative AI Acceptance Scale, the Ten-Item Big Five Personality Inventory, questionnaire and focus group interviews. Results indicate a moderate acceptance of Gen-AI, with significant differences observed between personalities: future teachers characterized by more agreeableness, conscientiousness and openness to experience exhibited higher Gen-AI acceptance across all sub-dimensions. While text-generation tools were widely used for academic purposes, creative applications remained rare. Participants expressed mixed emotions—ranging from enhanced productivity and empowerment to concerns about over-dependency and reduced critical thinking skills. These findings reveal critical gaps in Gen-AI literacy and underscore the necessity for targeted professional development programs emphasizing ethical and effective use. The study offers actionable strategies for educators and policymakers to harness the transformative potential of Gen-AI while mitigating risks, thereby preparing future teachers to integrate Gen-AI responsibly and innovatively into their pedagogical practices.',
-    published: '2025-07-03',
-    authors: [ 'Alagöz Hamzaj, Yaprak' ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'Education and Information Technologies'
-  },
-  {
-    id: '10.1038/d41586-025-01855-w',
-    title: 'How many PhDs does the world need? Doctoral graduates vastly outnumber jobs in academia',
-    summary: 'PhD programmes need to better prepare students for careers outside universities, researchers warn. PhD programmes need to better prepare students for careers outside universities, researchers warn.',
-    published: '2025-07-03',
-    authors: [ 'Kwon, Diana' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Nature'
-  },
-  {
-    id: '10.1038/d41586-025-02005-y',
-    title: 'Does using ChatGPT change your brain activity? Study sparks debate',
-    summary: 'Scientists warn against reading too much into a small experiment generating a lot of buzz. Scientists warn against reading too much into a small experiment generating a lot of buzz.',
-    published: '2025-07-03',
-    authors: [ 'Jones, Nicola' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Nature'
+    journal: 'Zeitschrift für Bildungsforschung'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
-Fetched papers from PubMed: [
-  {
-    id: '40607123',
-    title: 'The impact of online teaching curricula on undergraduate basic surgical skills acquisition.',
-    abstract: 'INTRODUCTION: Despite the growing use of online teaching in medical education, undergraduate surgical skills training remains predominantly face-to-face, with limited structured curricula and resources. Consequently, many students lack confidence performing basic procedures independently. While online programmes offer a potential alternative, comparative evidence is limited. This service evaluation assessed the effectiveness of online surgical skills teaching on student skill acquisition and confidence.\n' +
-      'METHODS: Medical students who participated in five UK national surgical skills programmes between 2022 and 2024 were selected, having received either online or face-to-face instruction. Skill acquisition was measured using the Objective Structured Assessment of Technical Skills (OSATS) tool and confidence was measured pre- and post-training via a Likert scale. Non-parametric data were analysed using the Mann-Whitney  test, with significance set at  < 0.05.\n' +
-      'RESULTS: Of 133 participants, 82 received online and 51 face-to-face training. Fifty-six percent were in their first or second year of study. No significant differences were found in continuous ( = 0.0652) or mattress suturing ( = 0.143), while interrupted suturing scores were significantly higher in the online group ( = 0.0143). Both modalities significantly improved confidence ( < 0.0001), with no significant difference between groups ( > 0.05).\n' +
-      "CONCLUSION: This study demonstrates that online surgical skills teaching is as effective as face-to-face methods, with both positively impacting skill acquisition and confidence. A hybrid approach, integrating online and face-to-face teaching, could optimise learning by combining the scalability of online instruction with essential practical experience, enhancing medical students' confidence and technical proficiency in surgical skills.",
-    published: '2025-Sep',
-    authors: [
-      'Tandon Devansh',
-      'Gupta Ayush',
-      'Patel Rhianna',
-      'Shukla Anushka',
-      'Gill Saran Singh',
-      'Patel Rhea Elise',
-      'Krishnan Keshav',
-      'Yassa Bishoy',
-      'Tandon Shivansh',
-      'Rai Amar',
-      'Boal Matt',
-      'Francis Nader'
-    ],
-    journal: 'Surgery open science',
-    doi: '10.1016/j.sopen.2025.06.002',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40607123/'
-  },
-  {
-    id: '40607109',
-    title: 'Using Social Media to Combat Influenza Vaccine Misinformation and Improve Uptake: A Social Media Campaign and Repeated Cross-sectional Survey Analysis.',
-    abstract: 'OBJECTIVE: To combat influenza (flu)-vaccine misinformation and improve vaccine uptake using social media.\n' +
-      'PATIENTS AND METHODS: Unbiased Science used an online survey to identify flu vaccine-hesitant demographic groups and their specific objections to vaccination. Targeted educational content was then created and deployed through a variety of media formats, including podcasts, newsletters, reels, and infographics. A postcampaign survey determined the proportion of individuals who changed their minds about vaccination as a result of the educational content. The study was conducted between October 28, 2022 and February 7, 2023.\n' +
-      'RESULTS: In 3626 precampaign surveys, 187 individuals (5.1%) reported being unvaccinated and not planning to get the flu vaccine (the unvaccinated group). Multivariable analysis showed that geographic region (Northeast and Southeast), gender identity (male and other), race-ethnicity (non-Hispanic Black, and non-Hispanic other), and education level (high-school or less and some college) were independently associated with being unvaccinated. The main reasons were needlephobia, dismissal of flu severity, and concerns about vaccine components, multiple vaccines, and side effects. In 838 postcampaign surveys, 39 individuals (4.7%) indicated changing their mind about vaccination: of these, 27 (69.2%) said they were more likely to get vaccinated and 22 (56.4%) had gotten vaccinated. Twenty individuals (51.3%) said they changed their mind at least in part because of the targeted educational content.\n' +
-      'CONCLUSION: Social media has the potential to change attitudes and behaviors around vaccination. When science messaging is deployed across several platforms and targeted to key demographic characteristics, it has the ability to combat misinformation and influence vaccine uptake.',
-    published: '2025-Sep',
-    authors: [ 'Steier Jessica B' ],
-    journal: 'Mayo Clinic proceedings. Digital health',
-    doi: '10.1016/j.mcpdig.2025.100229',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40607109/'
-  },
-  {
-    id: '40607088',
-    title: 'Bridging the Gaps in Sexual Health: Gender, Age, and Educational Disparities Among Albanian University Students.',
-    abstract: 'BACKGROUND: Understanding sexual health inequalities among university students is essential to inform targeted public health interventions. Previous studies show that knowledge, attitudes, and behaviors differ based on sociodemographic variables such as gender, age, and level of education.\n' +
-      'OBJECTIVE: This study aims to assess how gender, age, and SRH education influence knowledge, behaviors, and use of sexual and reproductive health (SRH) services among Albanian university students.\n' +
-      'METHODS: A cross-sectional survey was conducted with 7,679 university students in public and private institutions across Albania. A structured questionnaire assessed SRH knowledge, STI prevention behaviors, and access to healthcare services. Statistical analyses included chi-square tests and logistic regression to examine relationships between sociodemographic variables and SRH outcomes.\n' +
-      'RESULTS: Female students reported higher engagement in preventive practices such as gynecological visits and Pap tests (p < 0.001), while male students reported earlier sexual debut and less consistent condom use. Prior SRH education significantly increased the likelihood of STI/HIV testing (p < 0.001). Age was positively associated with STI awareness but not necessarily with service use. Only 11.4% of respondents reported STI testing, and 7.6% had been tested for HIV, while 53.8% were unaware of available testing services.\n' +
-      'CONCLUSION: This study highlights disparities in SRH knowledge and service utilization driven by gender, age, and educational exposure. Tailored public health programs that integrate SRH into university curricula and emphasize outreach to young men and underserved populations are needed to reduce inequities and promote preventive behaviors.',
-    published: '2025',
-    authors: [
-      'Gabrani Jonila',
-      'Gjergji Voltisa',
-      'Merkuri Lumturi',
-      'Rugia Iva',
-      'Kushta Rovena',
-      'Cela Kristi'
-    ],
-    journal: 'Materia socio-medica',
-    doi: '10.5455/msm.2025.37.92-97',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40607088/'
-  },
-  {
-    id: '40607087',
-    title: 'Patient Experience of Hemodialysis in a Nephrology Hospital in Vietnam.',
-    abstract: 'BACKGROUND: Assessing patient experiences is essential for evaluating hospital quality.\n' +
-      'OBJECTIVE: This study aimed to describe the experiences of hemodialysis patients at Hanoi Nephrology Hospital in 2023 and identify several factors related to patient experience.\n' +
-      'METHODS: A cross-sectional study was conducted in 2023 among 401 patients at the Hemodialysis department of the Hanoi Nephrology Hospital. The study utilized a structured questionnaire titled "In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Systems (ICH CAHPS)" to conduct face-to-face interviews with the selected patients. Logistic regression analysis was applied to identify several factors associated with patient experiences.\n' +
-      'RESULTS: Overall, patients reported positive experiences, particularly in their interactions with nephrologists. The highest satisfaction (78%) was for updates on treatment information from other doctors. Positive experiences were more likely to be reported by patients aged 55-64 years (versus. ≥75 years), having health insurance or other insurance (versus. No insurance), and having middle education (versus. Lower education). Living 15-30 km from a dialysis center and being a business traders increased satisfaction.\n' +
-      "CONCLUSION: This study emphasized the necessity of improving communication and patient education in hemodialysis care, specifically concerning treatment options. It recommended targeted interventions and additional research to enhance the patient experience and the quality of care in Vietnam's hemodialysis centers.",
-    published: '2025',
-    authors: [
-      'Tri Tuan Ngo',
-      'Anh Son Dao',
-      'Minh Dat Le',
-      'Thi Lap Nguyen',
-      'Hoang Long Nguyen',
-      'Bao Giang Kim'
-    ],
-    journal: 'Materia socio-medica',
-    doi: '10.5455/msm.2025.37.117-124',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40607087/'
-  },
-  {
-    id: '40607075',
-    title: "Epidemiology of hand, foot, and mouth disease outbreaks before and during availability of EV-A71 vaccine in China's mainland: analysis of outbreak surveillance data from 2011 to 2023.",
-    abstract: "BACKGROUND: Hand, foot, and mouth disease is a common contagious illness of childhood that causes a heavy disease burden in China's mainland. There are three enterovirus A71 (EV-A71) vaccines licensed and used in China since 2016. Our study describes changes in epidemiological characteristics of HFMD outbreaks following EV-A71 vaccine introduction.\n" +
-      "METHODS: Using HFMD outbreak data notified to China CDC during 2011-2023, we compared characteristics of HFMD outbreaks before and after EV-A71 vaccine licensure and availability. We determined risk factors associated with outbreak size with a multivariate regression model and explored county-level patterns of outbreak clusters using local indicators of spatial association (Anselin Local Moran's ).\n" +
-      'FINDINGS: During 2011-2023, there were 2838 HFMD outbreaks reported with more than ten cases each that were included in our study. There were 53,958 HFMD cases and 17 deaths in the included outbreaks. The median attack rate was 0.07% (IQR = 0.04%-0.13%) and the median outbreak duration was 14 days (IQR = 9-21). Outbreaks began before school seasons started and peaked during weeks 16-25; most (87.95%) occurred in kindergartens, followed by primary or secondary schools (6.69%). Coxsackievirus A16 (CV-A16) caused 54.94% of the HFMD outbreaks, EV-A71 caused 19.77%, CV-A6 caused 8.99%, CV-A10 caused 0.53%, and other enteroviruses caused 15.76%. After EV-A71 vaccine was introduced into the market as a non-National Immunization Program (NIP) vaccine, the proportion of outbreaks caused by EV-A71 declined to 2.93% in the southern provinces and 4.84% in the northern provinces, and CV-A16, CV-A6, CV-A10, and other enteroviruses increased in proportion. Before EV-A71 vaccine availability, high-high clusters occurred in 37 counties of nine provinces, expanding to 117 counties of nine provinces after vaccine introduction, mainly into southern provinces.\n' +
-      'INTERPRETATION: After EV-A71 vaccine was introduced to the market in China, fewer HFMD outbreaks were caused by EV-A71 and more were caused by CV-A16, CV-A6, and CV-A10. The changes of spectrum for HFMD and expansion of outbreaks hotspots associated with vaccine introduction calls for multi-enterovirus vaccine development for controlling HFMD outbreaks.\n' +
-      'FUNDING: Key Laboratory of Epidemiology of Major Diseases (Peking University), Ministry of Education; Prevention and Control Mechanisms for Major Infectious Diseases in the Cyber-Physical-Social Tri-Space (2023YFC2308702).',
-    published: '2025-Jun',
-    authors: [
-      'Liu Fengfeng',  'Yi Yao',
-      'Song Yang',     'Zhang Xiyu',
-      'Xie Tiancheng', 'Liu Yanzhe',
-      'Chen Yucun',    'Huang Siping',
-      'Zhang Jie',     'Zhang Yanping',
-      'Chang Zhaorui', 'Cui Fuqiang'
-    ],
-    journal: 'The Lancet regional health. Western Pacific',
-    doi: '10.1016/j.lanwpc.2025.101603',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40607075/'
-  },
-  {
-    id: '40607025',
-    title: 'Exploring the association of vitamin B12 deficiency and dental health in older adults.',
-    abstract: 'BACKGROUND: Vitamin B12 plays a crucial role in overall health, yet its impact on dental health, particularly dental caries, remains underexplored. Older adults are at an increased risk of vitamin B12 deficiency and dental disease, but the relationship between these two factors is not well understood. This study examines the association between serum vitamin B12 levels and dental health in older adults using data from the NHANES 2011-2014 cycles.\n' +
-      'METHODS: A cross-sectional analysis was conducted using NHANES data from 1,907 participants aged 65 and older. Serum vitamin B12 levels were categorized as normal (>221 pmol/L), marginal (148-221 pmol/L), and deficient (<148 pmol/L). Dental status was assessed using the Decayed, Missing, and Filled Teeth (DMFT) index based on NHANES dental health examinations. Poisson regression models evaluated associations between vitamin B12 levels and DMFT scores, adjusting for age, sex, race/ethnicity, education, and income.\n' +
-      'RESULTS: Lower vitamin B12 levels were significantly associated with higher DMFT scores ( < 0.05). Participants with marginal and deficient vitamin B12 levels exhibited increased DMFT scores compared to those with normal vitamin B12 levels, and these differences persisted after adjusting for demographic and socioeconomic factors. The findings suggest that inadequate vitamin B12 status may contribute to a greater cumulative burden of dental disease in older adults.\n' +
-      'CONCLUSION: These findings suggest that vitamin B12 deficiency may contribute to a greater lifetime burden of dental disease in older adults. Further research is needed to explore causal mechanisms and assess whether vitamin B12 supplementation could be a preventive measure for maintaining dental health in aging populations.',
-    published: '2025',
-    authors: [
-      'Hung Man',
-      'Mohajeri Amir',
-      'Marx Jacob',
-      'Ward Corban',
-      'Lipsky Martin S'
-    ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1589062',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40607025/'
-  },
-  {
-    id: '40606982',
-    title: 'Patient-reported symptoms in the detection of head and neck cancer recurrence: a systematic review.',
-    abstract: 'INTRODUCTION: Patient-initiated follow-up (PIFU) after treatment for head and neck cancer (HNC) relies on the signs and symptoms of recurrence being detectable by patients. We examine the evidence for patient-reported symptoms as an indicator of recurrence.\n' +
-      'METHODS: A search was conducted via OvidMEDLINE and Embase (2010 to January 2024) plus sources of grey literature for studies which describe patient-reported symptoms and recurrent disease. Findings are reported as per PRISMA guidelines.\n' +
-      'RESULTS: Twenty studies were included which were highly heterogenous. The median sensitivity of patient-reported symptoms to detect recurrence is 47.3%. Median specificity, positive-predictive value (PPV) and negative-predictive value (NPV) were 79.3%, 9.3% and 98.0% respectively. New symptoms were generally reported at routine follow-up rather than expedited appointments.\n' +
-      'CONCLUSION: The high specificity and NPV of patient-reported symptoms means recurrence is unlikely in the absence of symptoms. Patient education and collection of prospective data through digital health technologies may increase the effectiveness of PIFU.',
-    published: '2025',
-    authors: [
-      'Hulse Kate',
-      'Hurley Rhona',
-      'Lowit Anja',
-      'Maguire Roma',
-      'Paterson Claire',
-      'Douglas Catriona M'
-    ],
-    journal: 'Frontiers in oncology',
-    doi: '10.3389/fonc.2025.1632592',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40606982/'
-  },
-  {
-    id: '40606971',
-    title: 'A spotlight on the MSc Cancer at UCL, 15 years on.',
-    abstract: 'Cancer remains one of the most significant global health challenges, thus education on the most recent advancements in the understanding of cancer science, diagnosis and treatment is vital. The University College London (UCL) MSc Cancer is now in its 15 year. This program not only equips students with the comprehensive knowledge of cancer biology and therapeutics but provides cutting edge skills needed to succeed beyond the MSc. The curriculum integrates the fundamentals of normal cell and cancer biology through to the cancer patient, creating a bench to bedside educational pipeline. This article gives a holistic overview of the MSc Cancer curriculum, the research-led educational practices being carried out, the research opportunities that branch from this MSc and the career prospects of MSc Cancer graduates. Further detailed information on the MSc Cancer can be found here: Cancer MSc | Prospective Students Graduate - UCL - University College London.',
-    published: '2025',
-    authors: [ 'Koushyar Sarah', 'Hartley John A' ],
-    journal: 'Frontiers in oncology',
-    doi: '10.3389/fonc.2025.1610068',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40606971/'
-  },
-  {
-    id: '40606953',
-    title: 'The practice of advance care planning among ambulatory cancer patients at a tertiary hospital in Kenya: descriptive cross-sectional survey.',
-    abstract: 'BACKGROUND: Advance care planning (ACP) is relevant in the care of cancer patients. Insight into the current practice of ACP can identify high-priority areas to direct interventions aimed at improving the process.\n' +
-      'OBJECTIVE: To assess the practice of ACP among ambulatory cancer patients at a Kenyan hospital.\n' +
-      'METHODOLOGY: A descriptive cross-sectional survey was conducted at the ambulatory oncology clinic at a tertiary referral hospital. We recruited 387 study participants through consecutive sampling among heterogenous cancer patients. An interviewer-administered questionnaire was used to collect data, which was analysed by SPSS version 25 and through multivariable logistical regression.\n' +
-      'RESULTS: Among 387 participants, 78.55% were females. The uptake of advance directives was low; only 27.13% of participants had appointed surrogate decision makers, while 1.5% had living wills. Few had discussed end-of-life wishes with family (28.68%) and doctors (19.63%). Only 27.39% had discussed life expectancy with a doctor. Among those who had not participated in ACP, most were willing to discuss life expectancy (71.9%); discuss end-of-life wishes with family (81.2%) and doctors (85.1%); complete advance directives (68%) and appoint surrogate decision makers (75.9%) in the next 1 month. Doctors were most preferred to initiate ACP discussions. Factors that positively correlated with uptake of advanced directives (ADs) included - ECOG status, discussion with family and with doctors.\n' +
-      'CONCLUSION: The uptake of ADs among ambulatory cancer patients was low; additionally, self-reported participation in ACP was low. Our study highlights the need for widespread education initiatives and standardisation of the ACP process.\n' +
-      'RECOMMENDATIONS: There is a need for further studies and strategies to improve the participation in ACP and hence the quality of life among patients with malignancies in Kenya.',
-    published: '2025',
-    authors: [ 'Otom Lavender', 'Oyiro Peter', 'Ogola Elijah' ],
-    journal: 'Ecancermedicalscience',
-    doi: '10.3332/ecancer.2025.1926',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40606953/'
-  },
-  {
-    id: '40606951',
-    title: 'Cancer health literacy profile in Argentine oncology patients.',
-    abstract: "INTRODUCTION: Cancer Health Literacy is the individual's ability to seek, understand, evaluate and use basic information and services necessary to make appropriate decisions regarding cancer prevention, diagnosis and treatment. The aim of this study was to analyse the Health Literacy Profile of Argentine cancer patients.\n" +
-      'METHODOLOGY: A non-experimental, descriptive, cross-sectional design was used. A non-probabilistic sampling method was applied and 500 adult cancer patients who provided their consent participated. A sociodemographic questionnaire and the Cancer Health Literacy Test were administered. Data were collected through mixed methods and analysed using R Studio.\n' +
-      'RESULTS: The average Cancer Health Literacy score was 22.01 points (SD = 5.68, Mdn = 24), with 73% of patients classified at an intermediate level. Multiple linear regression analysis revealed that educational level and information-seeking behaviour regarding diet and cancer were significant contributing factors to this construct, explaining 30.6% of its variability (adjusted   = 0.306) with a large effect size (f = 0.44). Cancer Health Literacy was lower in patients with an incomplete secondary education or lower and higher in those who actively sought information.\n' +
-      'CONCLUSION: Cancer Health Literacy was associated with educational level and nutritional information-seeking behaviour. Measuring these factors in clinical practice contributes to evidence-based care.',
-    published: '2025',
-    authors: [ 'Manzur Karen M', 'Kohan Cortada Ana' ],
-    journal: 'Ecancermedicalscience',
-    doi: '10.3332/ecancer.2025.1934',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40606951/'
-  }
-]
-Collected 10 papers from pubmed
+Fetched papers from PubMed: []
+Collected 0 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -928,368 +745,6 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 37298,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5442,
-        [Symbol(triggerId)]: 5440
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Thu, 03 Jul 2025 15:12:47 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Thu, 03 Jul 2025 15:12:47 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1475,6 +930,368 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 24690,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4113,
+        [Symbol(triggerId)]: 4111
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Fri, 04 Jul 2025 15:11:22 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Fri, 04 Jul 2025 15:11:22 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1580,15 +1397,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 37530,
+        _idleStart: 25074,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5505,
-        [Symbol(triggerId)]: 5503
+        [Symbol(asyncId)]: 4159,
+        [Symbol(triggerId)]: 4157
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1720,7 +1537,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Thu, 03 Jul 2025 15:12:47 GMT',
+      date: 'Fri, 04 Jul 2025 15:11:22 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1831,7 +1648,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Thu, 03 Jul 2025 15:12:47 GMT',
+  date: 'Fri, 04 Jul 2025 15:11:22 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1963,129 +1780,110 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 50
-Removed duplicates: 50 -> 50
-Starting translation of 50 papers...
-Translating paper 1/50
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
 Translating paper: Big data in economics...
-Translating paper 2/50
+Translating paper 2/40
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
+Translating paper 3/40
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/50
+Translating paper 4/40
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
+Translating paper 5/40
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
+Translating paper 6/40
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/50
+Translating paper 7/40
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/50
+Translating paper 8/40
 Translating paper: A physical theory of economic growth...
-Translating paper 9/50
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3611079923537788 seconds...
+Translating paper 9/40
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/50
+Translating paper 10/40
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/50
+Translating paper 11/40
 Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/50
+Translating paper 12/40
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
-Translating paper 13/50
+Translating paper 13/40
 Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 14/50
+Translating paper 14/40
 Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 15/50
+Translating paper 15/40
 Translating paper: Experience and education...
-Translating paper 16/50
-Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 17/50
+Translating paper 16/40
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 18/50
+Translating paper 17/40
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 18/40
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 19/50
+Translating paper 19/40
+Translating paper: The Impact of Education for Sustainable Developmen...
+Translating paper 20/40
 Translating paper: The Effect of Using Simulation on Developing Stude...
-Translating paper 20/50
-Translating paper: Economics of education...
-Translating paper 21/50
+Translating paper 21/40
 Translating paper: The Effectiveness of 3D Virtual Environments for B...
-Translating paper 22/50
+Translating paper 22/40
+Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
+Translating paper 23/40
 Translating paper: Assessing the role of artificial intelligence in q...
-Translating paper 23/50
+Translating paper 24/40
+Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
+Translating paper 25/40
+Translating paper: Supplementation Matters: Academic Impact of an Aft...
+Translating paper 26/40
 Translating paper: AI Responses to Challenging Problems and Educator ...
-Translating paper 24/50
-Translating paper: Pre-service Teachers’ Characterizations of “Dragga...
-Translating paper 25/50
-Translating paper: Making Tens with Four Hands: Touchscreen-Based Cla...
-Translating paper 26/50
-Translating paper: Understanding Children’s Learning of Part–Whole Re...
-Translating paper 27/50
-Translating paper: A mixed methods evaluation of an online climate ch...
-Translating paper 28/50
-Translating paper: Generative AI acceptance among future educators: p...
-Translating paper 29/50
-Translating paper: How many PhDs does the world need? Doctoral gradua...
-Translating paper 30/50
-Translating paper: Does using ChatGPT change your brain activity? Stu...
-Translating paper 31/50
-Translating paper: The impact of online teaching curricula on undergr...
-Translating paper 32/50
-Translating paper: Using Social Media to Combat Influenza Vaccine Mis...
-Translating paper 33/50
-Translating paper: Bridging the Gaps in Sexual Health: Gender, Age, a...
-Translating paper 34/50
-Translating paper: Patient Experience of Hemodialysis in a Nephrology...
-Translating paper 35/50
-Translating paper: Epidemiology of hand, foot, and mouth disease outb...
-Translating paper 36/50
-Translating paper: Exploring the association of vitamin B12 deficienc...
-Translating paper 37/50
-Translating paper: Patient-reported symptoms in the detection of head...
-Translating paper 38/50
-Translating paper: A spotlight on the MSc Cancer at UCL, 15 years on....
-Translating paper 39/50
-Translating paper: The practice of advance care planning among ambula...
-Translating paper 40/50
-Translating paper: Cancer health literacy profile in Argentine oncolo...
-Translating paper 41/50
+Translating paper 27/40
+Translating paper: Informationssuchverhalten und digitale Gesundheits...
+Translating paper 28/40
+Translating paper: Context Matters: Exploring the Structural Relation...
+Translating paper 29/40
+Translating paper: Lehrer:innen als Influencer:innen...
+Translating paper 30/40
+Translating paper: Gibt es einen Inter*-Neglect?...
+Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 42/50
+Translating paper 32/40
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 43/50
+Translating paper 33/40
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 44/50
+Translating paper 34/40
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 45/50
+Translating paper 35/40
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 46/50
+Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 47/50
+Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 48/50
+Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 49/50
+Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
+Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 50 papers
-Removed duplicates: 494 -> 456
-Total papers after merging: 456 (444 existing + 50 new)
-Saved 456 papers to papers.json
+Translation completed: 40 papers
+Removed duplicates: 496 -> 463
+Total papers after merging: 463 (456 existing + 40 new)
+Saved 463 papers to papers.json
 Generating HTML files...
-Generating index.html with 456 papers...
+Generating index.html with 463 papers...
 Successfully generated index.html
-Generating archive.html with 456 papers...
+Generating archive.html with 463 papers...
 Successfully generated archive.html
-Generating journal.html with 456 papers...
+Generating journal.html with 463 papers...
 Successfully generated journal.html
-Generating acquisition.html with 456 papers...
+Generating acquisition.html with 463 papers...
 Successfully generated acquisition.html
-Generating publication.html with 456 papers...
+Generating publication.html with 463 papers...
 Successfully generated publication.html
-Generating registration.html with 456 papers...
+Generating registration.html with 463 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 456
-New papers processed: 50
+Total papers in database: 463
+New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-03T15:39:49.521Z
+Timestamp: 2025-07-04T15:33:35.021Z
