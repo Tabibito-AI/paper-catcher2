@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-05T15:09:53.753Z
+Timestamp: 2025-07-06T15:09:57.854Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 463 existing papers from papers.json
+Loaded 473 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -384,6 +384,16 @@ Fetched papers from Semantic Scholar: [
     link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
   },
   {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
     id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
     title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
     abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
@@ -392,22 +402,28 @@ Fetched papers from Semantic Scholar: [
     journal: 'International Journal of Instruction',
     doi: '10.29333/IJI.2020.13424A',
     link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
-  },
-  {
-    id: '35d0ead88e9bd727c16459e785358b0050e54514',
-    title: 'Economics of education',
-    abstract: 'Health-related quality of life (HRQL) score – A numerical valuation of life in a given health state anchored between 0 (death) and 1 (perfect health). These scores are used to adjust life years to quality-adjusted life years (QALYs). Thus, a year of life lived at an HRQL of 0.7 is equivalent to 0.7 QALYs (or 0.7 years of perfect health). Medical expenditure panel survey (MEPS) – An annual survey of around 40 000 households in the United States. It includes a household component with demographic and health information of the participants. It also contains a provider component that obtains the cost of medical visits from providers. Prospective studies – The studies in which subjects are followed over time. Typically, this involves following subjects with and without putative risk factors for disease to ascertain who does and does not develop the disease. Quality-adjusted life expectancy (QALE) – The life expectancy in perfect health. It is equal to the product of life expectancy and the age-adjusted healthrelated quality-of-life score. Quality-adjusted life year (QALY) – A year of life lived in perfect health. Randomized controlled trial – A form of experimental study in which subjects are randomly assigned to either a treatment condition or a control condition. Risk ratio – The ratio of the probability of an event occurring in an exposed group relative to the probability of the event’s occurring in the unexposed group. Education and health together account for a quarter of the gross domestic product in the United States, and are perhaps the two most complex areas of domestic policy. They are also intertwined. Not only is health critical for learning, but also education appears to be a major determinant of health. This article begins with a brief overview of the research exploring whether the relationship between education and premature mortality is causal. The primary causes of death from which the less educated are more likely to die are then explored. These causes of death point to six health risk factors associated with lower educational attainment: higher levels of stress, lower social standing, social deprivation, behavioral risk factors, lower health insurance coverage rates, and suboptimal cognitive skills.',
-    published: '2016-01-01T00:00:00.000Z',
-    authors: [ "Natal'ya Zyryanova", 'Oksana Komarova' ],
-    journal: 'No journal available',
-    doi: '10.12737/17661',
-    link: 'https://www.semanticscholar.org/paper/35d0ead88e9bd727c16459e785358b0050e54514'
   }
 ]
 Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
+  {
+    id: '10.1007/978-3-031-97638-4_12',
+    title: 'The Role of Remote Activities in Urban Mobility in the Post-COVID-19 Era',
+    summary: 'This study examines how remote activities, particularly teleworking and tele-education have been associated with urban mobility patterns in Greece during and after the COVID-19 pandemic. Focusing on shifts in travel behavior and attitudes toward future mobility trends, a questionnaire-based survey was conducted among 1,115 respondents, primarily from Thessaloniki’s academic community. The survey assessed mobility habits across three time periods (pre-, during, and post-pandemic), remote activity practices, future intentions, and socio-demographic factors. Descriptive and inferential statistical analyses were carried out to identify key determinants shaping future mobility and remote activity preferences. Results show significant behavioral changes, with walking, private vehicle, and bus use declining sharply during the pandemic. Prior to COVID-19, 80% of employees had no teleworking experience, yet 60% transitioned to working remotely five or more days weekly at the pandemic’s peak. Findings highlight strong support for continuing telework and remote learning post-pandemic, indicating lasting shifts in work, education, and urban mobility patterns.',
+    published: '2026-01-01',
+    authors: [
+      'Dimaki, Elissaia',
+      'Rapti, Evangelia-Anastasia',
+      'Itskos, Vasileios',
+      'Fountas, Grigorios',
+      'Basbas, Socrates'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Computational Science and Its Applications – ICCSA 2025 Workshops'
+  },
   {
     id: '10.1007/978-3-031-98033-6_5',
     title: 'The Effectiveness of 3D Virtual Environments for BPMN Teaching: A Quasi-Experimental Study',
@@ -421,6 +437,23 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Business Modeling and Software Design'
+  },
+  {
+    id: '10.1007/978-3-031-97651-3_5',
+    title: 'Waste for Knowledge: An IoT-Driven Educational Reward System',
+    summary: 'Wastes should not be wasted - it might be opportunities for a brighter future. That is the idea behind Waste4Knowledge, an IoT-driven kiosk that turns discarded items like plastic bottle aluminum cans into opportunities for children to learn and grow. The system incentivizes children to recycle waste materials by rewarding them with items, stationeries, or access to education contents. It uses IoT sensors and an ESP32 microcontroller to check the recyclables and hand out rewards without a hitch. Its modular hardware design, combined with Firebase software, allows real-time data tracking, enabling administrators to analyze recycling trends, adjust reward strategies, and optimize the user experience dynamically. By integrating recycling and education, the W4K system offers opportunities to underprivileged children, fosters environmental responsibility, and inspires positive community behavior. Its adaptable design positions it as a scalable solution for sustainable development initiatives worldwide.',
+    published: '2026-01-01',
+    authors: [
+      'Anh, Khuat Duc',
+      'Duc, Nguyen Minh',
+      'Anh, Vu Phung',
+      'Linh, Nguyen Thuy',
+      'Hoi, Dao Ba',
+      'Hung, Phan Duy'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Computational Science and Its Applications – ICCSA 2025 Workshops'
   },
   {
     id: '10.1007/s40299-024-00936-0',
@@ -516,427 +549,229 @@ Fetched papers from Springer: [
     ],
     link: [ [Object] ],
     journal: 'The Asia-Pacific Education Researcher'
-  },
-  {
-    id: '10.1007/s35834-024-00459-0',
-    title: 'Lehrer:innen als Influencer:innen',
-    summary: 'Lehrpersonen, die soziale Medien zu beruflichen Zwecken verwenden und viele Follower:innen haben, werden auch als Bildungsinfluencer:innen bezeichnet. Influencer:innen gelten als einflussreiche Personen, die meist private Einblicke mit gesponsortem Produktmarketing verbinden. Bislang liegen im internationalen Vergleich für Deutschland jedoch wenige empirische Befunde zum Phänomen ‚Lehrer:innen als Influencer:innen‘ vor. Daher ist z. B. noch nicht ausreichend erforscht, wie sie sich selbst in den sozialen Netzwerken präsentieren und ob sie private Einblicke mit Produktmarketing verbinden. Im Beitrag werden 42 Profilbeschreibungen sowie verlinkte Webseiten von Lehrpersonen auf Instagram analysiert. Die von den Lehrkräften frei gestaltbaren, prominent im Feed platzierten Profilbeschreibungen werden dazu genutzt, sich selbst und das Profil in wenigen Worten zu präsentieren, sodass den Profilbeschreibungen eine relevante (selbst-)darstellerische Funktion zugesprochen werden kann. Mit einem inhaltlich-strukturierenden qualitativ-inhaltsanalytischen Vorgehen kann gezeigt werden, wie und mit welchen Themen sich die Lehrer:innen darstellen, aber auch, welche Produkte bzw. Leistungen sie zum käuflichen Erwerb anbieten. Die Befunde zeigen, dass die Lehrkräfte sich überwiegend als engagierte und multitaskingfähige Lehrer:innen, die zusätzliche Rollen (z. B. Autor:in) einnehmen, präsentieren und Produkte/Leistung zum Kauf anbieten, die dem Lehrberuf mittel- oder unmittelbar nahestehen, wie z. B. Lern- und/oder Unterrichtsmaterialien. Die Aktivitäten der Bildungsinfluencer:innen werden vor dem Hintergrund des „unternehmerischen Selbst“ (Bröckling 2019 ) als neue Form der Ökonomisierung der Bildung gedeutet, in der die Lehrpersonen als autonome Entrepreneur:innen agieren. Teachers who use social media for professional purposes and have many followers are also referred to as Education(al)-Influencers. Influencers are regarded as influential people who often combine private insights with sponsored service or product marketing. To date, in an international comparison, there have been few empirical findings on the phenomenon of “teachers as influencers” in Germany. For example, there is still insufficient research into how they present themselves on social networks and whether they combine private insights with service and/or product marketing. The article analyses 42 profile descriptions and linked websites of teachers on Instagram. The prominently placed profile description, which can be freely designed by the teachers, are used to present themselves and their profile in a few words, so that the profile descriptions can be attributed a relevant (self-)representational function. A content-structuring qualitative content analysis can be used to show how teachers present themselves, about which topics they post about and which products and/or services they offer for sale. The findings show that teachers predominantly present themselves as committed and multitasking teachers who take on additional roles (e.g. author) and offer products and/or services for sale that are directly or indirectly related to the teaching profession, such as learning and/or teaching materials. Against the background of the “unternehmerischen Selbst” (engl. entrepreneurial self ) (Bröckling 2019 ) the activities of educational influencers are interpreted as a new form of economization of education in which teachers act as independent entrepreneurs.',
-    published: '2025-08-01',
-    authors: [ 'Grabosch, Anna' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Zeitschrift für Bildungsforschung'
-  },
-  {
-    id: '10.1007/s35834-024-00461-6',
-    title: 'Gibt es einen Inter*-Neglect?',
-    summary: 'Geschlechtlichkeit umfasst unterschiedliche Ebenen, darunter auch das Körpergeschlecht, welches traditionell in männlich und weiblich codiert wird. Varianten der Geschlechtsentwicklung werden zumeist unter den Begriff Intergeschlechtlichkeit (kurz: Inter*) subsummiert. Die Aufklärung zu Inter* gehört in verschiedene Bereiche der Bildung und Erziehung, die oft durch Pädagog*innen ausgeübt werden, aber auch (ergänzend) durch Informationsmaterialien geschehen kann. Auf Basis einer kriteriengeleiteten Auswahl von kostenfreien Informationsmaterialien bundesweiter Akteur*innen zu geschlechtlicher Vielfalt wurde der Stellenwert von Inter* mittels einer quantitativen Inhaltsanalyse untersucht. Basierend auf N  = 32 Informationsmaterialien zeigte sich, dass Inter* sehr oft benannt wird, Inter*-bezogene im Vergleich zu Trans*(geschlechtlichkeits)-bezogenen Begriffen jedoch seltener vorkamen. Außerdem wurden Varianzen des Körpergeschlechts im Vergleich zur Geschlechtsidentität deutlich seltener thematisiert. Insgesamt konnte ein relativer Inter*-Neglect, also eine relative Vernachlässigung bzw. Dethematisierung von Inter* zugunsten der Fokussierung auf Geschlechtsidentitäten, konstatiert werden. Gender encompasses different levels, including sex, which is traditionally categorised as male and female. Differences of sex development are usually subsumed under the term intersex (short: inter*). Education about inter* belongs is part of various areas of education, which is provided by educational professionals, but can also be (additionally) realised through information materials. Based on a criteria-led selection of free information materials on sex and gender diversity from nationwide stakeholders, the relevance of inter* was analysed using a deductive quantitative content analysis. Based on N  = 32 information materials, it was found that inter* is mentioned very often, but inter*-related terms occur less frequently than trans*(gender)-related terms. In addition, it was found that variations in sex are addressed much less frequently in the information materials compared to gender identity. Overall, a relative inter* neglect, a relative omission or demthematization of inter* in favour of a focus on gender identities, can be observed.',
-    published: '2025-08-01',
-    authors: [
-      'Hackbart, Marcel',
-      'Thies, Barbara',
-      'Rosen, Ursula',
-      'Tischoff, Cathleen'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Zeitschrift für Bildungsforschung'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40616197',
-    title: "3D prototyped macro-models as educational aid for teaching endodontic access in preclinical training: Assessment of students' learning experience, confidence and performance.",
-    abstract: 'AIM: This study evaluated the effectiveness of three-dimensional prototyped macro-models (3DPMM) as an educational aid for teaching endodontic access to dental students.\n' +
-      'METHODOLOGY: A total of 72 students were randomly assigned to three groups (n = 24) and participated in study sessions with 3DPMM at different stages: before, during (intermediate) or after performing laboratory projects. The timing of the 3DPMM study sessions rotated across groups for different tooth types (anterior, premolar and molar). Each student performed endodontic access on nine teeth (four anterior, three premolars and two molars). Students completed a questionnaire evaluating their learning experience and confidence. Endodontic access projects were graded by masked instructors, and the data were statistically analysed (α = 0.05).\n' +
-      'RESULTS: Students rated their learning experience with the 3DPMM positively, regardless of their differences based on group assignment, tooth type or timing of the study session (p > .05). Procedural errors were observed in 47% of the teeth, with 35.6% exhibiting one error and 11.4% exhibiting two errors. The most common errors included gouging (26.6%) and oversized access cavities (23.5%). Students who completed endodontic access before using the 3DPMM had a significantly higher frequency of multiple errors, oversized access cavities and retained pulp chamber roof (p < .05). Approximately 60% of participants reported increased confidence after using the models, regardless of group assignment, tooth type or study session timing (p > .05).\n' +
-      "CONCLUSION: The findings suggest that integrating 3DPMM enhanced students' understanding of internal tooth anatomy, increased their confidence and reduced procedural errors. Students appreciated the hands-on, interactive learning experience offered by the models, reinforcing the value of innovative educational tools in endodontic training.",
-    published: '2025-Jul-04',
+    id: '40618180',
+    title: "Facilitators and barriers in Academic-Practice Partnerships (APPs) between Approved Educational Institutions (AEIs) and Residential Aged Care Facilities (RACFs) during pre-registration nursing students' placements: a systematic review protocol.",
+    abstract: 'BACKGROUND: Effective Academic-Practice Partnerships (APPs) between Approved Educational Institutions (AEIs) and practice learning partners are essential for enhancing the integration of the theoretical and practical aspects of nursing education. Recent literature regarding nursing student placements in Residential Aged Care Facilities (RACFs) highlights the significance of these partnerships and a need to explore the dynamic partnerships between AEIs and RACFs to better understand their role in improving student experiences and learning outcomes. Despite the recognition of the significance of understanding these APPs, this remains a significant gap in the existing literature.\n' +
+      "METHODS: We will conduct a systematic review to identify facilitators and barriers to maintaining productive APPs between AEI and RACFs during pre-registration nursing student placements. Our research will involve an electronic literature search within MEDLINE, CINAHL, Web of Science, PsycINFO, and ERIC. Two independent reviewers will screen eligible papers, and a third reviewer will resolve any conflicts based on predefined inclusion and exclusion criteria. Eligible studies must have been published in English after 1990, and they should specifically address collaborative efforts between AEIs and RACFs in the context of pre-registration nursing student placements. All studies will be appraised using Caldwell's Framework. Findings will be extracted using a standardised extraction table, and an in-depth synthesis will be conducted using thematic analysis.\n" +
+      'DISCUSSION: This systematic review addresses a gap in the literature by identifying key factors that influence APPs in the context of RACF placements. The findings from this review have the potential to guide improvements in pre-registration nursing education by informing, nurturing, and supporting collaborative relationships between AEIs and RACFs, which promote enriched experiences for nursing students during their RACF placements. The review will also provide both clinical and academic educators with a deeper understanding of what facilitates and hinders collaboration, which will empower them to facilitate effective collaboration and develop their shared capacity in supporting students. Strengthening the partnerships between AEIs and RACFs fosters a shared vision and enhances the quality of pre-registration nursing education, which improves the standard of care for RACF residents.',
+    published: '2025-Jul-05',
     authors: [
-      'Piasecki Lucila',
-      'Schwartz Kayla',
-      'Tsou Charlene',
-      'Arany Praveen',
-      'Ratakonda Mohini',
-      'Romero Monica',
-      'Vera Jorge',
-      'Navarrete Kallyane',
-      'Carneiro Everdan'
+      'Chivaura Ashley',
+      'Wilson Iseult',
+      'Rainey Deborah',
+      'Wong Wai Yee Amy'
     ],
-    journal: 'International endodontic journal',
-    doi: '10.1111/iej.14276',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616197/'
+    journal: 'Systematic reviews',
+    doi: '10.1186/s13643-025-02877-1',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618180/'
   },
   {
-    id: '40616175',
-    title: 'Multi-strategy instructional intervention for healthy eating intention among school going adolescents: a quasi-experimental study.',
-    abstract: 'BACKGROUND: Adolescence is a distinct stage of life characterized by significant physical, psychological, and cognitive development. Maintaining healthy eating behaviors during this period is crucial for preventing various forms of malnutrition and non-communicable diseases (NCDs), such as diabetes, heart disease, stroke, and cancer. This study aimed to assess the effects of educational interventions based on the theory of planned behavior (TPB) on improving the healthy eating intention of adolescents in selected schools in Bardiya District.\n' +
-      'METHODS: A quasi-experimental study was conducted among eighth and ninth graders aged between 12 and 18 years from two public schools in Badhaiyatal Rural Municipality of Nepal, one as an intervention (IG) and the other as a control group (CG), selected randomly. A total of 167 students participated in the study, with 82 in the IG and 85 in the CG. Data were collected through self-administered questionnaires at baseline and4 weeks after the intervention. The intervention package consisted of an interactive lecture, a group discussion, a poster, an educational video, and a song. In contrast, the control group followed the regular school curriculum without any additional nutrition education. The educational intervention for the IG consisted of 6 sessions, each lasting 60 min. Data were entered and analyzed in SPSS V22, using a chi-square test, paired t-test, and linear regression.\n' +
-      'RESULTS: The educational intervention led to significant improvements in knowledge and TPB constructs, with these changes being statistically significant (p < 0.001). The adjusted mean score increases in TPB constructs because the interaction of time and intervention increased from 0.47 to 5.49. The highest gain (β = 5.49; p = 0.001) was observed in the perceived behavioural control score whereas, a minor improvement was seen in behaviour (β = 0.47; p = 0.112). After the intervention, a net increase in the healthy eating intention score was 14.8% compared with that of the control group.\n' +
-      "CONCLUSIONS: The study concluded that multipronged educational intervention may be effective in improving adolescents' healthy eating intentions, mainly through perceived eating control and attitude. Model-based and construct-oriented health education can be used with caution in schools to promote healthy eating intentions.",
-    published: '2025-Jul-04',
+    id: '40618164',
+    title: 'Factors associated with the serum 25-hydroxyvitamin D levels in adults.',
+    abstract: 'BACKGROUND: Hypovitaminosis D has a significant negative impact on general health. Although some factors associated with hypovitaminosis D have been previously reported, they have seldom been analyzed simultaneously in community-based research. This study aims to investigate some potential factors associated with serum 25 (OH)D level, representing a vitamin concentration.\n' +
+      'METHODS: A cross-sectional study recruiting 4,457 adults, aged over 18 years, was conducted between August 2019 and December 2023. Sociodemographic data were obtained through structured questionnaires, while anthropometric measurements, hemogram results, and biochemical markers were collected from medical records and physical examination findings. A self-reported depression rating score; health beliefs; and health-related quality of life (HRQoL) factors were assessed with questionnaires. Univariate and multivariate analyses were performed.\n' +
+      'RESULTS: The mean serum 25(OH)D level was 29.22 ± 10.45 ng/mL. Multivariate linear regression analysis revealed that serum 25(OH)D levels were positively associated with age (β = 0.258, p < 0.001), male sex (β = 0.164, p < 0.001), high school education level (β = 0.118, p < 0.001), smoking exposure (β = 0.044, p = 0.011), alcohol consumption (β = 0.150, p < 0.001), hemoglobin concentration (β = 0.062, p = 0.001), calcium level (β = 0.047, p = 0.005), and the mental component score of health-related quality of life (HRQoL) (β = 0.086, p < 0.001). Conversely, serum 25(OH)D levels were negatively associated with coffee consumption (β = - 0.045, p = 0.002), estimated glomerular filtration rate (β = - 0.105, p < 0.001), blood levels of intact parathyroid hormone (β = - 0.184, p < 0.001), phosphorus (β = - 0.033, p = 0.040), and triglycerides (β = - 0.060, p < 0.001). The overall model explained 29.6% of the variance in serum 25(OH)D levels (R² = 0.296). There were close correlations between sociodemographic factors, anthropometric variables, hemograms, biochemical data, self-reported depression rating scores, health beliefs, and HRQoL factors.\n' +
+      'CONCLUSIONS: This study identified several key variables associated with serum 25(OH)D levels in adults. These findings provide important targets for designing health education programs aimed at reducing the prevalence of vitamin D insufficiency. Future community-based research should consider incorporating additional determinants of vitamin D status, including quantified sunlight exposure, dietary intake of vitamin D-rich foods, and supplementation patterns. Accounting for these broader lifestyle and environmental factors may enable subsequent studies to generate more robust insights into the multifactorial nature of vitamin D regulation and inform more effective public health strategies.',
+    published: '2025-Jul-05',
     authors: [
-      'Bhandari Prashamsa',
-      'Adhikari Sandip',
-      'Bhandari Pratik',
-      'Adhikari Shiksha',
-      'Adhikari Chiranjivi'
+      'Chen Sue-Hsien',
+      'Chen Shu-Ching',
+      'Lai Yo-Ping',
+      'Chen Pin-Hsuan',
+      'Yeh Kun-Yun'
     ],
     journal: 'BMC nutrition',
-    doi: '10.1186/s40795-025-01105-2',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616175/'
+    doi: '10.1186/s40795-025-01120-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618164/'
   },
   {
-    id: '40616169',
-    title: 'The health-related quality of life of Brazilians with epidermolysis bullosa.',
-    abstract: "BACKGROUND: Epidermolysis bullosa (EB) presents various complications that can affect an individual's health-related quality of life (HRQoL) and nutritional status. This cross-sectional study evaluates HRQoL and its association with the socio-demographic, nutritional, and clinical profiles of Brazilians with EB.\n" +
-      "RESULTS: The sample consisted of 129 individuals (median age: 15 years), approximately 57% female, mostly composed of the EB simplex clinical type, followed by the dystrophic EB type (DEB). The mean score on the Children's Dermatology Life Quality Index questionnaire was 11.01 [standard deviation (SD) = 7.31], with a moderate impact on HRQoL. The median and interquartile range (IQR) of the score obtained in the Quality of Life Evaluation in Epidermolysis Bullosa- Brazilian Portuguese questionnaire was 13 (IQR: 8-19), which also indicated a moderate impact on HRQoL. In the subgroup aged ≥ 17 years, schooling positively influenced HRQoL, and decreased HRQoL was directly associated with underweight nutritional status. Family income promoted HRQoL in both subgroups.\n" +
-      "CONCLUSIONS: HRQoL assessment showed that the DEB type was associated with the most severe effect. Additionally, the large impact, in < 17 years, was associated with family income, but did not present an association with nutritional status. While the severe impact on HRQoL, in ≥ 17 years, presented an association with nutritional status, family income, and education. Future research is important, to understand this population's needs, provide adequate care, and promote the best HRQoL.",
-    published: '2025-Jul-04',
+    id: '40618159',
+    title: 'Enablers and barriers in the professional development of nurses employed full-time at university nursing studies in Croatia: a qualitative study.',
+    abstract: 'BACKGROUND: Multiple studies have highlighted the challenges faced by nurse educators working in an academic setting. However, to date, no published research has explored this issue in the Croatian context. This study explored and described the enablers and barriers to the professional development of full-time nurses employed in university-level nursing education programs in Croatia.\n' +
+      'METHODS: A qualitative study was conducted from February to March 2024. Participants were full-time nurse educators holding teaching positions at 12 university-level nursing programs across Croatia. Data were collected using a semi-structured interview guide and analyzed through reflexive thematic analysis.\n' +
+      'RESULTS: Of the 58 individuals who met the inclusion criteria, 52 (90%) nurse educators participated in the study. The sample comprised 10 men and 42 women, ranging in age from 28 to 64 years. Participants identified work overload, particularly the burden of administrative tasks and competing responsibilities, as the primary barrier to their professional development. Additional challenges included limited time and resources, difficulties in organising clinical practice and mentoring, and a perceived disconnect between academic and clinical settings. Despite these challenges, the majority of participants reported overall satisfaction with their academic careers, highlighting the intrinsic value of knowledge dissemination, student engagement, and professional growth. Institutional support was noted in the form of co-financed educational opportunities, mentorship, and involvement in decision-making processes.\n' +
+      'CONCLUSION: The findings of this study indicate that improvements in working conditions and employment policies are needed to enhance job satisfaction among nurses employed in university nursing programs in Croatia. Key areas for intervention include reducing administrative burdens, strengthening management and organizational structures, increasing institutional support, and promoting access to continuous professional education. These factors are essential to fostering the professional development of nurses within an academic setting.\n' +
+      'CLINICAL TRIAL REGISTRATION: Not applicable. This study was not a clinical trial.',
+    published: '2025-Jul-05',
     authors: [
-      'Togo Camille Cristine Gomes',
-      'Zidório Ana Paula Caio',
-      'Gonçalves Vivian Siqueira Santos',
-      'Dutra Eliane Said'
+      'Vinko Lara',       'Koscak Valentina',
+      'Plenkovic Mia',    'Matic Ivica',
+      'Civljak Marta',    'Cargo Marin',
+      'Mijoc Vesna',      'Barac Ivana',
+      'Zoranic Sanja',    'Marendic Mario',
+      'Neuberg Marijana', 'Majstorovic Dijana',
+      'Brecek Alen',      'Ivanisevic Kata',
+      'Vuksa Andrea',     'Skitarelic Natasa',
+      'Puharic Zrinka',   'Cukljek Snjezana',
+      'Puljak Livia'
     ],
-    journal: 'Orphanet journal of rare diseases',
-    doi: '10.1186/s13023-025-03753-w',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616169/'
+    journal: 'BMC nursing',
+    doi: '10.1186/s12912-025-03536-5',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618159/'
   },
   {
-    id: '40616127',
-    title: 'Stakeholders influence to reduce vitamin A deficiency in children aged 15 to 23 months in Iran: an analysis of stakeholders and networking.',
-    abstract: 'UNLABELLED: AIME: Vitamin A deficiency remains a significant public health concern in developing countries, substantially contributing to morbidity and mortality among young children. In Iran, the prevalence of vitamin A deficiency among children aged 15 to 23 months increased during the decade from 2002 to 2012, mostly due to socio-economic reasons. Given the complexity of managing this deficiency, multiple stakeholders are involved in its prevention and treatment. The objective of this study is to identify these stakeholders and assess their interests, influence, and interconnections to enhance coordinated efforts in addressing vitamin A deficiency.\n' +
-      "METHOD: In this qualitative study, we identified primary and secondary stakeholders through interviews with experts and key informants, as well as content analysis of relevant documents. To examine the interactions between stakeholders' power, interests, and positions, we utilized Policy-Maker software (Version 4). Additionally, we employed Gephi software (Version 0.9.2) for social network analysis, mapping stakeholder relationships to enhance our understanding of their interconnected dynamics.\n" +
-      'RESULTS: Our research identified 45 stakeholders, categorized as follows: 71% from the public sector, 4.5% international entities, 11.11% private organizations, and 13% from civil society groups. Additionally, 62% of stakeholders were associated with the executive domain, while 38% belonged to the education sector. Degree centrality ranged from 1 to 12, Closeness centrality scores ranged from 0.25 to 0.67, indicating moderate to high accessibility within the network. Athough the Ministry of Health and Medical Education was identified as the most influential stakeholder, and also it plays a key role in collaboration with other stakeholders, multiple stakeholders, including NGOs, universities, and international organizations such as UNICEF and FAO, also played significant roles in reducing Vitamin A deficiency. Network analysis metrics-including degree, closeness, betweenness, and eigenvector centralities-indicated that the highest degree value was attributed to the Secretariat of the Supreme Council for Health and Food Security (affiliated with the Ministry of Health and Medical Education), UNICEF, FAO, and the Deputy of Public Health within universities of medical sciences.\n' +
-      'CONCLUSION: Addressing vitamin A deficiency among children aged 15-24 months in Iran requires a coordinated and strategic approach, with the Ministry of Health and Medical Education serving as the key stakeholder. While the ministry plays a central role in legislative efforts and collaboration, the relatively low to medium level of interest among other key stakeholders highlights the need for proactive engagement. Strengthening awareness through targeted advocacy, continuous negotiations, and deliberate outreach can enhance stakeholder involvement and ensure effective policy implementation. By fostering stronger partnerships and promoting informed decision-making, a more sustainable and impactful approach to reducing vitamin A deficiency can be achieved.',
-    published: '2025-Jul-04',
+    id: '40618133',
+    title: 'Prevalence and patterns of multiple long-term conditions among lymphatic filariasis patients in Odisha, India: a community-based cross-sectional study.',
+    abstract: 'INTRODUCTION: Neglected tropical diseases (NTDs), such as lymphatic filariasis, mimic other chronic conditions and share common risk behaviors with parallel health system issues that require unique interventions. Multiple long-term conditions (MLTCs or multimorbidity), defined as two or more chronic conditions has become increasingly common in low- and middle-income countries (LMICs) such as India. However, data on the prevalence of the interface between NTDs and other chronic conditions are lacking. We estimated the prevalence and correlates of MLTC, assessed the commonly occurring patterns, and investigated the association between self-rated health (SRH) and the number of chronic conditions among patients with lymphatic filariasis.\n' +
+      'METHODS: A cross-sectional study was conducted in Odisha, India, using a prevalidated MLTC assessment tool. We employed systematic random sampling to recruit 584 participants aged ≥ 18 years having lymphatic filariasis. MLTC was defined as the coexistence of one or more chronic conditions along with lymphatic filariasis. A multivariable logistic regression model was used to identify the correlates presented as adjusted odds ratios (AORs) with 95% confidence intervals (CIs). A hierarchical cluster analysis was conducted to identify the major clusters of chronic conditions. An ordinal regression model was used to assess the association between SRH and the number of chronic conditions.\n' +
+      'RESULTS: The overall prevalence of MLTC was 68.8% (95% CI: 64.9-72.6), while the mean number of chronic conditions was 2 ± 2.3. The chance of having MLTCs was greater among males [AOR: 3.9 (95% CI: 2.1-7.3)] than females. Participants with education at the primary and secondary school levels had greater odds of having MLTC [AOR: 2.2 (95% CI: 1.3-3.7)] and [AOR: 2.3 (95% CI: 1.3-3.8)], respectively. The commonly observed triad was lymphatic filariasis with arthritis and peptic ulcer disease (1.5%), while the most common tetrad was lymphatic filariasis, hypertension, diabetes and peptic ulcer disease (0.7%). There was a per unit decrease in SRH with each additional chronic condition.\n' +
+      'CONCLUSION: We observed a high prevalence of MLTC among people with lymphatic filariasis. The findings of this study will not only be useful for both resource and planning in India but also in similar LMICs with a high burden of lymphatic filariasis.',
+    published: '2025-Jul-05',
     authors: [
-      'Rajaeieh Golnaz',
-      'Bakhtiari Ahad',
-      'Gholami Masoomeh',
-      'Mohammadi-Nasrabadi Fatemeh',
-      'Takian Amirhossein'
+      'Sinha Abhinav',
+      'Sahoo Prakash Kumar',
+      'Sahoo Krushna Chandra',
+      'Highton Patrick',
+      'Mohanty Shubhashisha',
+      'Nayak Trupti',
+      'Prusty Akshya Kumar',
+      'Choudhury Sujata',
+      'Kumari Barsha',
+      'Puchner Karl',
+      'Khunti Kamlesh',
+      'Pati Sanghamitra'
     ],
-    journal: 'BMC nutrition',
-    doi: '10.1186/s40795-025-01098-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616127/'
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-23525-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618133/'
   },
   {
-    id: '40616085',
-    title: 'Assessment of knowledge, attitude, and practice of livestock farmers in northwest Iran regarding myiasis.',
-    abstract: 'BACKGROUND: Myiasis is the infestation of tissues and organs in vertebrates, including humans and animals, by the larvae of dipteran flies that occurs in subtropical and tropical areas.\n' +
-      'METHODS: This study assessed the knowledge, attitudes, and practices of livestock farmers across 12 counties in Ardabil province regarding myiasis in 2024, employing ANOVA and T-tests to analyze the relationships with various variables.\n' +
-      'RESULTS: The study found a statistically significant difference in knowledge, attitude, and practice mean scores among individuals influenced by education level, residency, livestock contact, disease history, and animal interactions. In this study, a significant direct correlation was found between knowledge and attitude (r = 0.12, p < 0.001), knowledge and practice (r = 0.08, p < 0.001), as well as attitude and practice (r = 0.34, p < 0.001).\n' +
-      'CONCLUSION: Research in Ardabil province shows that increasing awareness and training for youth on disease prevention and control can significantly enhance livestock disease management. The county health network should develop a strong educational initiative for livestock farmers and their families to raise awareness about myiasis and encourage proactive measures over time.',
-    published: '2025-Jul-04',
-    authors: [
-      'Soltan-Alinejad Parisa',
-      'Rezaei Fatemeh',
-      'Babazadeh Sajad',
-      'Akhtari Ali',
-      'Fakour Sana',
-      'Kamrani Sara',
-      'Abbasi-Ghahramanloo Abbas',
-      'Adham Davoud',
-      'Moradi-Asl Eslam'
-    ],
-    journal: 'BMC veterinary research',
-    doi: '10.1186/s12917-025-04906-6',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616085/'
-  },
-  {
-    id: '40616083',
-    title: 'Preferences for life-sustaining treatments in advance decisions: a cross-sectional survey of Taiwanese general public.',
-    abstract: 'BACKGROUND: Taiwan passed the Patient Right to Autonomy Act in 2016 and introduced a legal document called advance decision to address dilemmas in making life-sustaining treatment (LST) decisions for incompetent patients. However, the proportion of Taiwanese adults who have completed an advance decision remains low, and public preference trends are unclear.\n' +
-      'METHODS: A cross-sectional telephone survey was conducted among Taiwanese adults using a structured questionnaire to assess preferences regarding five types of LSTs across four hypothetical clinical scenarios (late-stage motor neuron disease, severe dementia, irreversible coma, and terminal cancer). Participants were categorized based on their preference patterns, and factors associated with each subgroup were analyzed.\n' +
-      'RESULTS: Of the 3188 individuals contacted, 2440 declined to participate, and 748 (24.3%) respondents were successfully interviewed. A total of 747 responses were included in the analysis. Latent class analysis identified four preference subgroups: pro-forgo (more than half of the respondents), neutral, aggressive, and motor-neuron-disease specific. Older age, higher education, and better quality of life were associated with a greater likelihood of belonging to the pro-forgo group, while being male, unmarried, currently not working, or not residing in northern Taiwan were associated with a lower likelihood.\n' +
-      'CONCLUSIONS: Most respondents expressed a consistent preference to forgo LSTs in the hypothetical clinical scenarios. This suggests that the advance decision, implemented in 2019, may align with public needs. However, given the low completion rate and prevalent preference patterns, policymakers should increase efforts to ensure that those in need have access to appropriate resources and consider implementing a tiered signing process.',
-    published: '2025-Jul-04',
-    authors: [
-      'Tsai Daniel Fu-Chang',
-      'Juang Yu-Chen',
-      'Kuo Chun-Tung',
-      'Lee Ping-Hsueh',
-      'Chen Duan-Rung'
-    ],
-    journal: 'BMC medical ethics',
-    doi: '10.1186/s12910-025-01242-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616083/'
-  },
-  {
-    id: '40616080',
-    title: 'HIV/AIDS among migrants in Morocco: a cross-sectional biobehavioral study.',
-    abstract: 'BACKGROUND: Morocco has become a transit and destination country for thousands of migrants, primarily from sub-Saharan African countries. Migrant groups in Morocco are recognized as key populations vulnerable to HIV/AIDS in the national strategic plans on HIV. This study aims to describe the HIV status, knowledge, attitudes, and risk behaviors among a sample of migrants in northeastern Morocco, as well as their access to HIV prevention, testing and counseling services.\n' +
-      'METHODS: This cross-sectional biobehavioral survey described the prevalence of HIV, HIV/AIDS knowledge, attitudes, and risk behaviors among migrant populations in Oujda, northeastern Morocco. Using respondent-driven sampling (RDS), adult migrants aged > 18 years, residing in the study area for more than 3 months, and fluent in French or English were included in the study. Data collection was conducted using a questionnaire covering demographics, HIV/AIDS knowledge, attitudes, risk behaviors, and HIV testing. HIV testing included initial rapid tests and confirmatory tests for reactive specimens and polymerase chain reaction (PCR) for discordant or indeterminate results.\n' +
-      'RESULTS: Among the 290 respondents, HIV prevalence was 1.7%. About 82% had heard of HIV, half of whom were aware of protective measures such as abstinence (50.4%), condom use (50.8%), and monogamy (47.5%). Awareness of HIV mother-to-child transmission was less than 40%. Regarding attitudes, 77.9% would care for an HIV-positive person at home, 82.8% would keep their HIV status confidential, and over 40% supported HIV-positive students and teachers continuing education. Significant differences in knowledge and attitudes scores were found across age, gender and marital status. Half of the participants (50.7%) reported having ever been tested for HIV, of whom 97.9% received HIV test results, and 61.6% received counseling after the test.\n' +
-      'CONCLUSIONS: The results of this study show that the prevalence of HIV infection among migrants is greater than that among the general population (less than 0.1% in the general population) and that some challenges remain, such as stigmatizing attitudes, suboptimal understanding of HIV prevention, and substandard access to post-test counseling. Based on these findings, it is crucial to highlight the importance of strengthening HIV prevention efforts among migrants and addressing the social, behavioral and environmental factors that contribute to the spread of HIV.',
-    published: '2025-Jul-04',
-    authors: [
-      'Yacoubi Abdelkader',
-      'Bouaddi Oumnia',
-      'Khoudri Ibtissam',
-      'El Rhilani Houssine',
-      'Elkettani Amina',
-      'Chaoui Aasma',
-      'Ouafi Noha El',
-      'Abda Naima',
-      'Khalis Mohamed'
-    ],
-    journal: 'International journal for equity in health',
-    doi: '10.1186/s12939-025-02461-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616080/'
-  },
-  {
-    id: '40616076',
-    title: "Chinese dental students' knowledge, attitudes, and practice regarding traumatic dental injuries in immature permanent teeth.",
-    abstract: 'BACKGROUND: The appropriate management of traumatic dental injuries (TDIs) in immature permanent teeth is critical for predicting prognosis and preserving injured teeth. However, providing accurate treatment is always challenging for dental students due to their limited knowledge of TDIs. This study aimed to assess TDIs in immature permanent teeth in terms of knowledge, attitudes, and clinical practice among Chinese dental undergraduates and residents.\n' +
-      'METHODS: Dental undergraduates (in 3rd -, 4th -, and 5th -years) and residents (in 1st -, 2nd -, and 3rd -years) at the School of Stomatology, Wuhan University (763 in total, from May to June 2024), were distributed with a structured electronic questionnaire containing 22 items. The obtained data was statistically analyzed via the Chi-square (χ) test (p < 0.05) using SPSS.\n' +
-      'RESULTS: Participants from various academic levels completed 502 questionnaires, with a response rate of 65.79%. Approximately half of the participants (58.6%) were familiar with TDIs, chiefly through traditional classroom learning (90.0%). Participants had limited knowledge on correct emergency treatment for TDIs, including tooth replantation timing (51.6%), fixation method (43.8%), and time (25.5%), with 3rd -year undergraduates reporting the lowest percentage (10.2%) (p < 0.05). Most participants agreed that vital pulp preservation (95.0%) and additional examination (91.0%) are essential for TDI management. Besides, only 29.9% of participants had ever treated a clinical TDI case independently. The majority of participants expressed a strong desire to gain comprehensive knowledge of TDIs (90.0%) and additional training (96.4%).\n' +
-      'CONCLUSIONS: Dental students at the undergraduate and postgraduate levels lacked sufficient knowledge and practice with TDIs but had a positive attitude toward TDI management. Thus, it would be enormously beneficial for dental students to gain a better understanding of TDIs through improved dental education, including multiple teaching methodologies and more clinical practice.\n' +
+    id: '40618115',
+    title: 'Examining the relationship between perceived fear of pain and empathic tendencies of nursing students and the affecting factors: a cross-sectional study.',
+    abstract: "BACKGROUND: The relationship between fear of pain and empathic tendency is important because empathy plays a critical role in recognizing and managing patient pain, while fear of pain can affect the nurse's reactions and emotional resilience. The aim of this study is to examine the relationship between perceived fear of pain and empathic tendencies of nursing students and the affecting factors.\n" +
+      'METHODS: The data of this descriptive, cross-sectional and relational study were collected digitally from a total of 396 nursing students studying at a state university between May 1 and September 30, 2023. A census sampling approach was used, as the entire target population (N = 448) was known in advance, and 81.06% os it was successfully reached. The data were obtained using the Introductory Information Form, Fear of Pain Scale-III and Empathic Tendency Scale.\n' +
+      'RESULTS: A weak, positive but statistically non-significant correlation was found between emphatic tendency and fear of pain (r = 0.056, p = 0.267). Statistically significant differences in fear of pain scores were found in relation to gender (p = 0.002), age group (p = 0.001), grade level (p = 0.001), and willingness to choose the department (p = 0.038). Similarly, empathic tendency scores differed significantly according to gender (p = 0.014), family type (p = 0.001), grade level (p = 0.010), and willingness to choose the department (p = 0.016).\n' +
+      'CONCLUSIONS: Among all significant variables, students who did not choose the department willingly presented both higher fear of pain scores and lower empathic tendency scores. Therefore, they represent a high-risk group that may particularly benefit from targeted interventions, such as simulation-based empathy and coping workshops.\n' +
       'CLINICAL TRIAL NUMBER: Not applicable.',
-    published: '2025-Jul-04',
-    authors: [ 'Yu Jingjing', 'Liu Chang', 'Yu Jian' ],
-    journal: 'BMC medical education',
-    doi: '10.1186/s12909-025-07584-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616076/'
+    published: '2025-Jul-05',
+    authors: [ 'Yurdagül Gülistan' ],
+    journal: 'BMC nursing',
+    doi: '10.1186/s12912-025-03526-7',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618115/'
   },
   {
-    id: '40616064',
-    title: 'Prevalence of oral mucosal lesions and associated risk factors in a Norwegian adult population - the HUNT4 Oral Health study.',
-    abstract: 'BACKGROUND: Most studies on the prevalence of oral mucosal lesions (OMLs), including those from Norway, focus on patient populations. This study aimed to estimate the overall prevalence of OMLs and its types across different age groups and to examine their association with selected risk factors in a general adult population of Norway.\n' +
-      'METHODS: This cross-sectional study included a random sample of 4,909 individuals aged 19 years and older who completed questionnaires and underwent a standardized clinical examination for OMLs in the HUNT Oral Health Survey (2017-2019). The classification of OMLs was based on the World Health Organization and NHANES III guidelines. Odds Ratio (OR) with 95% confidence intervals (CI) were calculated using multivariable logistic regression to assess associations between OMLs and potential risk factors, adjusting for relevant confounders.\n' +
-      'RESULTS: The overall prevalence of OMLs was 7.5%, with a higher proportion observed in individuals aged 60 and older. The most prevalent oral lesions were exophytic lesions (3.1%) and white lesions (1.5%). Notably, individuals with a low/middle level of education had higher odds of having an OMLs than those with a higher level of education (OR, 1.27, 95% CI: 1.00-1.61) in the fully adjusted model. Exploratory analyses of lesion types found a positive association between smoking status and white lesions (OR, 1.77, 95% CI:1.05-2.97), as well as between a history of cancer and red-blue lesions (OR, 2.17, 95% CI, 1.14-4.11).\n' +
-      'CONCLUSION: In this population-based study, 7.5% of Norwegian adults had one or more OMLs, with higher prevalence in participants aged 60 years and older. Further research is needed to confirm these findings in similar populations.',
-    published: '2025-Jul-04',
+    id: '40618112',
+    title: 'Integrating web-based and objective structured clinical examination training programs for nurses on ultrasound hip screening during neonatal and infant home visits: a case study.',
+    abstract: "BACKGROUND: Ultrasound hip screening is crucial for the early detection of developmental dysplasia (DDH), but little is known about standardized training approaches for nurses. This study aimed to evaluate an educational program combining web-based learning and objective structured clinical examination (OSCE) training to improve nurses' knowledge and skills in ultrasound hip screening and DDH prevention during universal neonatal and infant home visits.\n" +
+      'METHODS: The program targeted two objectives: (1) to enable nurses to understand the Graf method and acquire standard plane ultrasound images, and (2) to equip them to provide preventive health education on DDH. The intervention included five web-based modules and a two-day OSCE-based hands-on program, supervised by orthopedic pediatric surgeons. Outcomes included (1) knowledge test scores obtained from the web-based modules (range: 0-50 points), (2) OSCE scores (36 items, range: 0-360; global rating ≧3 on a 1-6), including delivery of preventive health education, (3) ability to capture a standard plane image using a phantom within three minutes, and (4) ability to capture a standard plane image with infant volunteers, assessed by medical supervisors.\n' +
+      'RESULTS: Nineteen participants (18 public health nurses and one midwife) from three municipalities completed the program. The mean knowledge test score was 47.2 (SD: 2.2), and the mean OSCE score was 329.3 (SD: 21.7), with a global rating of 4.4 (SD: 0.7). All participants conducted the preventive health education component. Eighteen participants (right hip) and 17 (left hip) successfully captured standard plane images using a phantom within three minutes. In scans of 39 infant volunteers, 34 scans (87.2%) successfully captured the standard plane; participants self-reported 31 as successful, though two were objectively classified as failures.\n' +
+      "CONCLUSIONS: The educational program improved nurses' ultrasound hip-screening skills and their capacity to deliver preventive health education during universal home visits. These findings support the potential feasibility of expanding nurse-led ultrasound screening and DDH prevention efforts in community settings.\n" +
+      'TRIAL REGISTRATION: This study was registered with the University Hospital Medical Information Network Clinical Trial Registry before starting the study (No. UMIN000051929, August 16, 2023).',
+    published: '2025-Jul-05',
     authors: [
-      'Klimowicz Thomas R',
-      'Feuerherm Astrid J',
-      'Thorstensen Wenche Moe',
-      'Berg Lars M',
-      'Valen Håkon',
-      'Becher Rune',
-      'Sen Abhijit'
+      'Yoshioka-Maeda Kyoko',
+      'Matsumoto Hiroshige',
+      'Honda Chikako',
+      'Kinjo Takeshi',
+      'Aoki Kiyoshi',
+      'Hattori Tadashi',
+      'Okada Keita',
+      'Shirouchi Mana',
+      'Shiomi Misa',
+      'Hosoya Noriko',
+      'Fujiwara Kenta'
     ],
-    journal: 'BMC oral health',
-    doi: '10.1186/s12903-025-06162-4',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616064/'
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07519-7',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618112/'
   },
   {
-    id: '40616055',
-    title: "A pioneering health education strategy based on the PRECEDE-PROCEED model for women's health challenges: a systematic review and logic framework.",
-    abstract: "PURPOSE: This review seeks to examine the effectiveness of PRECEDE-PROCEED model- based interventions on women's behaviors, health, quality of life and determinants during health challenges as well as associations between their constructs. Additionally, it aims to propose a logical framework for enhancing women's behaviors, health, quality of life and determinants during health challenges.\n" +
-      "METHODS: In April 2025, three databases- PubMed, Scopus, and Science Direct- were searched. The search included words in the Title, Abstract, and Keywords without any time limitations. The search was filtered by Clinical Trial or Randomized Clinical Trial for PubMed, Article for Scopus, and Research articles for Science Direct. Studies conducted among women that utilized an educational intervention based on the PRECEDE-PROCEED model, were written in full-text English, and used validated quantitative health questionnaires were included in the analysis. Descriptive, cross-sectional designs as well as qualitative, longitudinal, or non-original studies were excluded from the review. The risk of bias in the included interventional studies was assessed using the Revised Cochrane risk-of-bias tool for randomized trials (RoB 2) and the Risk Of Bias In Nonrandomized Studies - of Interventions (ROBINS-I tool) which were specifically adapted for these study designs. The main objective of the interventional studies was to investigate the effectiveness of PRECEDE-PROCEED model-based interventions on women's behaviors, health, quality of life and determinants during health challenges. A review was conducted based on the AMSTAR checklist, PRISMA checklist and PRISMA flow diagram. Data extraction was performed with the consensus of two authors, and a narrative synthesis approach was chosen for data synthesis, following the guidelines provided by the Centre for Reviews and Dissemination (CRD).\n" +
-      `RESULTS: Seven interventional studies were included in the final analysis. Our findings revealed that all reviewed studies provided evidence of the effectiveness of a PRECEDE-PROCEED- based intervention for improving women's behaviors, health, quality of life and determinants during health challenges. However, due to the absence of standardized measurement indicators to identify and compare the outcomes of various studies, there is a need to develop a conceptual framework that could enhance our understanding of women's health challenges including childbirth, postpartum, menopause and genital infections. This framework aims to incorporate knowledge and positive attitudes towards healthy behaviors and health-related challenging conditions, as well as self-efficacy as important "predisposing factors." It also considers social support and supportive policies as crucial "reinforcing factors." Furthermore, it acknowledges resources, skills, services and their cost as necessary "enabling factors." Lastly, it recognizes healthy behaviors and a favorable environment as "impacts," alongside improved health and optimal quality of life as significant "outcomes" of these factors.\n` +
-      'CONCLUSIONS: The proposed conceptual framework could define a PRECEDE-PROCEED-based intervention as an effective "health education strategy" for addressing the most significant health challenges facing women.',
-    published: '2025-Jul-04',
-    authors: [ 'Khademi Khadijeh', 'Kaveh Mohammad Hossein' ],
+    id: '40618101',
+    title: 'Nutrition literacy across adolescence stages in Egypt: a quartile-based analysis for tailored educational strategies.',
+    abstract: 'BACKGROUND: Low nutrition literacy (NL) among adolescents can worsen health and economic inequalities, potentially leading to a higher burden of non-communicable diseases.\n' +
+      'AIM: This study aimed to assess Total Nutrition Literacy (TNL) and its domains across different adolescent stages with an in-depth look at NL among Egyptian adolescents, through a quartile-based approach. It analysed the relation between adequate NL influences and vitamin, mineral intakes and body mass index (BMI) categories (underweight, normal, overweight/obese). It explored the effects of adolescent characteristics (gender, BMI) and family environment (parental education, food literacy, health status) on achieving adequate TNL levels.\n' +
+      'METHODS: A cross-sectional study was conducted with 1,050 Egyptian adolescents aged 10-19 from various geographical and socioeconomic backgrounds. Data were collected using a self-administered questionnaire measuring demographic information, TNL and its domains (categories) (Functional (FNL), Interactive (INL), and Critical (CNL)), and parental food literacy (PFL). Anthropometric measurements assessed nutritional status via BMI. Statistical analyses using SPSS identified associations and predictors of adequate TNL.\n' +
+      'RESULTS: TNL scores rose significantly from 68.8 in early adolescence (10-13 years) to 77.4 in late adolescence (17-19 years) (p < 0.001). All domains improved with age (p < 0.001), with females outperforming males in INL and CNL (p < 0.001). FNL level was notably low at 56.6%, compared to higher rates in INL (84.1%) and CNL (91.0%). Meanwhile, the median scores for NL remain relatively close to the lower levels of adequacy across all stages. Parental employment, PFL, health status, and family dynamics were significant predictors of adequate TNL. Maternal education became particularly crucial in late adolescence, while PFL had the greatest influence in early and middle adolescence. Adequate TNL increased the likelihood of reporting vitamin intake by nearly five times (COR = 4.9, p < 0.01). The relation between TNL and its domains with BMI vary across adolescence.\n' +
+      "CONCLUSION: Using quartile distribution to assess literacy adequacy provided a detailed view of literacy gaps, allowing identification of adolescents most in need of intervention. NL programs have to be tailored to meet adolescents' evolving needs, emphasizing foundational literacy in early adolescence, interactive skills in middle adolescence, and critical literacy in late adolescence.",
+    published: '2025-Jul-05',
+    authors: [
+      'Kamel Iman H',
+      'Metwally Ammal M',
+      'Zaki Dina A',
+      'Alam Raefa Refaat',
+      'Ali Amani E',
+      'Elshaarawy Ghada A',
+      'El Hady Safaa I Abd',
+      'Samy G',
+      'Elabd Mona A'
+    ],
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-23583-6',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618101/'
+  },
+  {
+    id: '40618072',
+    title: 'Prevalence of violence and quality of life among nursing students during the 7th of October War in Palestine.',
+    abstract: 'BACKGROUND: Nursing students in Palestine face unique stressors during armed conflict, including exposure to violence and disruptions in clinical education. The 7th of October War in Gaza heightened these challenges, impacting their psychological well-being and overall quality of life (QoL).\n' +
+      'OBJECTIVE: To assess the prevalence of violence and quality of life among nursing students at Palestine Polytechnic University during the 7th of October War.\n' +
+      'METHODS: A descriptive cross-sectional study was conducted in April 2025 among 335 undergraduate nursing students using a self-administered questionnaire. It included sociodemographic data, war-related exposures, and the Arabic version of the WHOQOL-BREF. Data were analyzed using SPSS version 26.\n' +
+      'RESULTS: More than half (63.3%) reported regularly passing through Israeli military checkpoints, and among them, 83% experienced violence, mostly verbal (50%), followed by psychological (39%) and physical (11%). Additionally, 92% witnessed violence against others at these checkpoints. QoL scores were lowest in the environmental (48.2) and psychological (56.2) domains. Overall, 74.6% reported poor QoL in the environmental domain. Students exposed to checkpoints or violence had significantly lower QoL scores (p < .001). City residents reported higher QoL compared to rural and campus-based students (p = .006).\n' +
+      'CONCLUSION: Nursing students in Palestine endure high rates of violence and poor quality of life during conflict, especially in environmental and psychological aspects. These findings call for urgent interventions, including psychosocial support and institutional policies that prioritize student safety and well-being in conflict zones.',
+    published: '2025-Jul-05',
+    authors: [
+      'Farajalla Fuad',
+      'Alqaissi Nesreen',
+      'Qtait Mohammad',
+      'Mesk Zeenat Mousa',
+      'Awwad Khalaf'
+    ],
+    journal: 'BMC nursing',
+    doi: '10.1186/s12912-025-03544-5',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618072/'
+  },
+  {
+    id: '40618053',
+    title: 'Wristful thinking: exploring the effects of robotic rehabilitation and cross-education for persons with multiple sclerosis.',
+    abstract: 'The goal of this work was to develop an adaptive rehabilitation technique using a haptic wrist robot that would induce cross-education to an untrained limb. Fourteen individuals with Multiple Sclerosis (MS) and eight non-affected adults completed an eight-week intervention. MS participants were placed into two groups, training their more affected limb (direct training), and training their less affected limb (indirect training). The purpose of the intervention was to improve wrist and grip strength (measured via maximal grip and isometric wrist strength) and motor control (measured via robotic assessments). Participants trained with the robotic device three times per week for eight consecutive weeks. Training consisted of eccentric contractions as the participant resisted a force elicited from the robotic device as it moved in flexion, extension, and radial-ulnar deviation. The MS group reported significant increases in wrist strength. The indirect training group significantly improved in flexion, extension, radial and ulnar deviation in the trained limb, and flexion and radial deviation in the untrained limb. The direct training group showed improvements in extension and ulnar deviation in both limbs. The control group improved in radial and ulnar deviation, with radial deviation improving in the untrained limb. Grip force remained unchanged for all groups. MS participants significantly decreased tracking and figural error post-intervention suggesting evidence that motor control adaptations occurred following an adaptive and resistive robotic intervention of the upper limb. Results of this work provide evidence that eight-week robotic rehabilitation can elicit cross-education effects to the untrained limb.',
+    published: '2025-Jul-05',
+    authors: [
+      'Mannella Kailynn',
+      'Albanese Giulia A',
+      'Massone Valentina',
+      'Power Kevin E',
+      'Button Duane C',
+      'Farthing Jonathan P',
+      'Beaudette Shawn M',
+      'Ditor Dave S',
+      'Tokuno Craig D',
+      'Zenzeri Jacopo',
+      'Holmes Michael W R'
+    ],
+    journal: 'Journal of neuroengineering and rehabilitation',
+    doi: '10.1186/s12984-025-01684-y',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618053/'
+  },
+  {
+    id: '40618049',
+    title: 'Navigating healthcare in higher education for students with gynaecological pain: an exploratory survey.',
+    abstract: 'No abstract available',
+    published: '2025-Jul-05',
+    authors: [ 'Paddock-Hall Katie' ],
     journal: "BMC women's health",
-    doi: '10.1186/s12905-025-03883-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40616055/'
+    doi: '10.1186/s12905-025-03882-1',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40618049/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at TLSSocket.socketErrorListener (node:_http_client:504:5)
-    at TLSSocket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 6)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'kahualike.manoa.hawaii.edu',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.31372/20190403.1059',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/apin/vol4/iss3/2/',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'kahualike.manoa.hawaii.edu',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/apin/vol4/iss3/2/',
-      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: kahualike.manoa.hawaii.edu\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/apin/vol4/iss3/2/',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'kahualike.manoa.hawaii.edu',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'kahualike.manoa.hawaii.edu'
-  }
-}
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1226,16 +1061,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 29872,
+        _idleNext: [Timeout],
+        _idleStart: 31881,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5496,
-        [Symbol(triggerId)]: 5494
+        [Symbol(asyncId)]: 5659,
+        [Symbol(triggerId)]: 5657
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1265,7 +1100,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
+      sockets: [Object: null prototype] {},
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1273,7 +1108,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1303,7 +1138,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       statusCode: 404,
       statusMessage: 'Not Found',
       client: [Socket],
-      _consuming: true,
+      _consuming: false,
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
@@ -1367,7 +1202,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sat, 05 Jul 2025 15:10:22 GMT',
+      date: 'Sun, 06 Jul 2025 15:10:29 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1478,11 +1313,196 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sat, 05 Jul 2025 15:10:22 GMT',
+  date: 'Sun, 06 Jul 2025 15:10:29 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
   connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 6)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.31372/20190403.1059',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
+  }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
@@ -1588,16 +1608,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 30035,
+        _idleNext: [TimersList],
+        _idleStart: 32750,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5519,
-        [Symbol(triggerId)]: 5517
+        [Symbol(asyncId)]: 5742,
+        [Symbol(triggerId)]: 5740
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1635,7 +1655,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1729,7 +1749,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sat, 05 Jul 2025 15:10:23 GMT',
+      date: 'Sun, 06 Jul 2025 15:10:30 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1840,7 +1860,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sat, 05 Jul 2025 15:10:23 GMT',
+  date: 'Sun, 06 Jul 2025 15:10:30 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1983,30 +2003,6 @@ Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
 Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6669353984814643 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"9s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '9s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2864950504822654 seconds...
 Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
 Translating paper 6/50
@@ -2036,49 +2032,49 @@ Translating paper: From Theory to Practice of Promoting Student Engag...
 Translating paper 18/50
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
 Translating paper 19/50
-Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper: The Impact of Education for Sustainable Developmen...
 Translating paper 20/50
-Translating paper: Economics of education...
+Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
-Translating paper: The Effectiveness of 3D Virtual Environments for B...
+Translating paper: The Role of Remote Activities in Urban Mobility in...
 Translating paper 22/50
-Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
+Translating paper: The Effectiveness of 3D Virtual Environments for B...
 Translating paper 23/50
-Translating paper: Assessing the role of artificial intelligence in q...
+Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
 Translating paper 24/50
-Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
+Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
 Translating paper 25/50
-Translating paper: Supplementation Matters: Academic Impact of an Aft...
+Translating paper: Assessing the role of artificial intelligence in q...
 Translating paper 26/50
-Translating paper: AI Responses to Challenging Problems and Educator ...
+Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
 Translating paper 27/50
-Translating paper: Informationssuchverhalten und digitale Gesundheits...
+Translating paper: Supplementation Matters: Academic Impact of an Aft...
 Translating paper 28/50
-Translating paper: Context Matters: Exploring the Structural Relation...
+Translating paper: AI Responses to Challenging Problems and Educator ...
 Translating paper 29/50
-Translating paper: Lehrer:innen als Influencer:innen...
+Translating paper: Informationssuchverhalten und digitale Gesundheits...
 Translating paper 30/50
-Translating paper: Gibt es einen Inter*-Neglect?...
+Translating paper: Context Matters: Exploring the Structural Relation...
 Translating paper 31/50
-Translating paper: 3D prototyped macro-models as educational aid for ...
+Translating paper: Facilitators and barriers in Academic-Practice Par...
 Translating paper 32/50
-Translating paper: Multi-strategy instructional intervention for heal...
+Translating paper: Factors associated with the serum 25-hydroxyvitami...
 Translating paper 33/50
-Translating paper: The health-related quality of life of Brazilians w...
+Translating paper: Enablers and barriers in the professional developm...
 Translating paper 34/50
-Translating paper: Stakeholders influence to reduce vitamin A deficie...
+Translating paper: Prevalence and patterns of multiple long-term cond...
 Translating paper 35/50
-Translating paper: Assessment of knowledge, attitude, and practice of...
+Translating paper: Examining the relationship between perceived fear ...
 Translating paper 36/50
-Translating paper: Preferences for life-sustaining treatments in adva...
+Translating paper: Integrating web-based and objective structured cli...
 Translating paper 37/50
-Translating paper: HIV/AIDS among migrants in Morocco: a cross-sectio...
+Translating paper: Nutrition literacy across adolescence stages in Eg...
 Translating paper 38/50
-Translating paper: Chinese dental students' knowledge, attitudes, and...
+Translating paper: Prevalence of violence and quality of life among n...
 Translating paper 39/50
-Translating paper: Prevalence of oral mucosal lesions and associated ...
+Translating paper: Wristful thinking: exploring the effects of roboti...
 Translating paper 40/50
-Translating paper: A pioneering health education strategy based on th...
+Translating paper: Navigating healthcare in higher education for stud...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2100,25 +2096,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 513 -> 473
-Total papers after merging: 473 (463 existing + 50 new)
-Saved 473 papers to papers.json
+Removed duplicates: 523 -> 485
+Total papers after merging: 485 (473 existing + 50 new)
+Saved 485 papers to papers.json
 Generating HTML files...
-Generating index.html with 473 papers...
+Generating index.html with 485 papers...
 Successfully generated index.html
-Generating archive.html with 473 papers...
+Generating archive.html with 485 papers...
 Successfully generated archive.html
-Generating journal.html with 473 papers...
+Generating journal.html with 485 papers...
 Successfully generated journal.html
-Generating acquisition.html with 473 papers...
+Generating acquisition.html with 485 papers...
 Successfully generated acquisition.html
-Generating publication.html with 473 papers...
+Generating publication.html with 485 papers...
 Successfully generated publication.html
-Generating registration.html with 473 papers...
+Generating registration.html with 485 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 473
+Total papers in database: 485
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-05T15:38:08.523Z
+Timestamp: 2025-07-06T15:37:40.168Z
