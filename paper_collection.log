@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-08T15:11:48.879Z
+Timestamp: 2025-07-09T15:11:58.277Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 495 existing papers from papers.json
+Loaded 506 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,22 +297,114 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: '60dfd50de8b3b43861ddaa0544a95f9652ea5ee1',
+    title: 'Handbook of THE ECONOMICS OF EDUCATION',
+    abstract: 'A substantial amount of money is spent on technology by schools, families, and policymakers with the hope of improving educational outcomes. This chapter explores the theoretical and empirical literature on the impacts of technology on educational outcomes. The literature focuses on two primary contexts in which technology may be used for educational purposes: (i) classroom use in schools and (ii) home use by students. Theoretically, information and communications technology (ICT) investment and computer-aided instruction (CAI) use by schools and the use of computers at home have ambiguous implications for educational achievement: expenditures devoted to technology necessarily offset inputs that may be more or less efficient, and time allocated to using technology may displace traditional classroom instruction and educational activities at home. However, much of the evidence in the schooling literature is based on interventions that provide supplemental funding for technology or additional class time, and thus favor finding positive effects. Nonetheless, studies of ICT and CAI in schools produce mixed evidence with a pattern of null results. Notable exceptions to this pattern occur in studies of developing countries and CAI interventions that target math rather than language. In the context of home use, early studies based on multivariate and instrumental variables approaches tend to find large positive (and in a few cases negative) effects while recent studies based on randomized con-trol experiments tend to find small or null effects. Early research focused on developed countries while more recently several experiments have been conducted in developing countries.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ 'G. Bulman', 'R. W. Fairlie' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/60dfd50de8b3b43861ddaa0544a95f9652ea5ee1'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -347,6 +439,16 @@ Fetched papers from Springer: [
     journal: 'Business Modeling and Software Design'
   },
   {
+    id: '10.1007/978-981-96-6603-4_16',
+    title: '“Flipped” University: LLM-Assisted Lifelong Learning Environment',
+    summary: 'The rapid development of artificial intelligence technologies, particularly Large Language Models (LLMs), has revolutionized the landscape of lifelong learning. This paper introduces a conceptual framework for a self-constructed lifelong learning environment supported by LLMs. It highlights the inadequacies of traditional education systems in keeping pace with the rapid deactualization of knowledge and skills. The proposed framework emphasizes the transformation from institutionalized education to personalized, self-driven learning. It leverages the natural language capabilities of LLMs to provide dynamic and adaptive learning experiences, facilitating the creation of personal intellectual agents that assist in knowledge acquisition. The framework integrates principles of lifelong learning, including the necessity of building personal world models, the dual modes of learning (training and exploration), and the creation of reusable learning artifacts. Additionally, it underscores the importance of curiosity-driven learning and reflective practices in maintaining an effective learning trajectory. The paper envisions the evolution of educational institutions into “flipped” universities, focusing on supporting global knowledge consistency rather than merely structuring and transmitting knowledge.',
+    published: '2026-01-01',
+    authors: [ 'Krinkin, Kirill', 'Berlenko, Tatiana' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Neural Information Processing'
+  },
+  {
     id: '10.1007/978-3-031-97651-3_5',
     title: 'Waste for Knowledge: An IoT-Driven Educational Reward System',
     summary: 'Wastes should not be wasted - it might be opportunities for a brighter future. That is the idea behind Waste4Knowledge, an IoT-driven kiosk that turns discarded items like plastic bottle aluminum cans into opportunities for children to learn and grow. The system incentivizes children to recycle waste materials by rewarding them with items, stationeries, or access to education contents. It uses IoT sensors and an ESP32 microcontroller to check the recyclables and hand out rewards without a hitch. Its modular hardware design, combined with Firebase software, allows real-time data tracking, enabling administrators to analyze recycling trends, adjust reward strategies, and optimize the user experience dynamically. By integrating recycling and education, the W4K system offers opportunities to underprivileged children, fosters environmental responsibility, and inspires positive community behavior. Its adaptable design positions it as a scalable solution for sustainable development initiatives worldwide.',
@@ -362,6 +464,28 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Computational Science and Its Applications – ICCSA 2025 Workshops'
+  },
+  {
+    id: '10.1007/s00256-025-04927-0',
+    title: 'AI as teacher: effectiveness of an AI-based training module to improve trainee pediatric fracture detection',
+    summary: 'Objective Prior work has demonstrated that AI access can help residents more accurately detect pediatric fractures. We wished to evaluate the effectiveness of an unsupervised AI-based training module as a pediatric fracture detection educational tool. Materials and methods Two hundred forty radiographic examinations from throughout the pediatric upper extremity were split into two groups of 120 examinations. A previously developed open-source deep learning fracture detection algorithm ( www.childfx.com ) was used to annotate radiographs. Four medical students and four PGY-2 radiology residents first evaluated 120 examinations for fracture without AI assistance and subsequently reviewed AI annotations on these cases via a training module. They then interpreted 120 different examinations without AI assistance. Pre- and post-intervention fracture detection accuracy was evaluated using a chi-squared test. Results Overall resident fracture detection accuracy significantly improved from 71.3% pre-intervention to 77.5% post-intervention ( p  = 0.032). Medical student fracture detection accuracy was not significantly changed from 56.3% pre-intervention to 57.3% post-intervention ( p  = 0.794). Eighty-eight percent of responding participants (7/8) would recommend this model of learning. Conclusion We found that a tailored AI-based training module increased resident accuracy for detecting pediatric fractures by 6.2%. Medical student accuracy was not improved, likely due to their limited background familiarity with the task. AI offers a scalable method for automatically generating annotated teaching cases covering varied pathology, allowing residents to efficiently learn from simulated experience.',
+    published: '2025-09-01',
+    authors: [
+      'O’Rourke, Sean',
+      'Xu, Sophia',
+      'Carrero, Stephanie',
+      'Drebin, Harrison M.',
+      'Felman, Ariel',
+      'Ko, Andrew',
+      'Misseldine, Adam',
+      'Mouchtaris, Sofia G.',
+      'Musialowicz, Brett',
+      'Wong, Tony T.',
+      'Zech, John R.'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Skeletal Radiology'
   },
   {
     id: '10.1007/s40299-024-00936-0',
@@ -437,246 +561,190 @@ Fetched papers from Springer: [
     ],
     link: [ [Object] ],
     journal: 'The Asia-Pacific Education Researcher'
-  },
-  {
-    id: '10.1007/s40751-024-00167-4',
-    title: 'AI Responses to Challenging Problems and Educator Responses to AI Availability',
-    summary: 'This article considers the rise of generative Artificial Intelligence (GenAI) in the context of secondary mathematics education, focusing on its responses to cognitively demanding tasks and the pedagogical implications of these interactions. Using tools such as ChatGPT (OpenAI) and Gemini (Google), we investigate how GenAI engages in complex mathematical reasoning and problem-solving beyond the capabilities of traditional digital tools. Our analysis reveals that, although GenAI thus far tends to typically produce tasks of low cognitive demand, it clearly exhibits an ability to respond to cognitively-demanding mathematical tasks. We share examples of GenAI responses to three tasks from secondary mathematics, and, although the GenAI made substantial errors, it also demonstrated an ability to revise and refine its work with prompting. For educators faced with GenAI, we argue against banning its use and instead propose two instructional strategies to promote student learning in this new AI era: (1) fostering student interaction with GenAI to explore and expand on mathematical concepts and (2) encouraging students to critically evaluate and discuss GenAI-generated solutions to mathematical problems. These instructional strategies aim to enhance students’ mathematical understanding and critical thinking skills by using GenAI as a tool that can promote substantive student involvement and meaningful learning. (An initial draft of this abstract was produced by ChatGPT 4.0, but GenAI was not used in any other way for this article, other than as an interactive partner within the excerpts as clearly marked.)',
-    published: '2025-08-01',
-    authors: [ 'McGalliard, William', 'Otten, Samuel' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Digital Experiences in Mathematics Education'
-  },
-  {
-    id: '10.1007/s11553-024-01141-z',
-    title: 'Informationssuchverhalten und digitale Gesundheitskompetenz von Schüler*innen in Deutschland während der Coronapandemie',
-    summary: 'Hintergrund Während der Coronapandemie waren Schüler*innen mit einer Flut von Informationen zur Gesundheit und zur Coronapandemie konfrontiert. Der adäquate Umgang mit Gesundheitsinformationen setzt (digitale) Gesundheitskompetenz voraus. Ziel des Beitrags ist daher, das Informationssuchverhalten und das Ausmaß der digitalen Gesundheitskompetenz (dGK) von Schüler*innen in Deutschland während der Coronapandemie unter Berücksichtigung ihres sozialen Hintergrunds zu analysieren. Material und Methoden Die Online-Befragung wurde während des dritten Lockdowns, von März bis Juli 2021, in Hessen und anderen Bundesländern durchgeführt. Der Feldzugang erfolgte in weiterführenden Schulen, Verbänden und Sportvereinen. Der Online-Fragebogen wurde von N  = 1096 Schüler*innen der Klassenstufe 6 bis 13 aufgerufen und n  = 361 Schüler*innen vollständig ausgefüllt. Es wurden das gesundheitsbezogene Informationssuchverhalten (internetbasierte Quellen für Gesundheitsinformationen, [digitale] Quellen für Informationen zur Coronapandemie), die dGK (Digital Health Literacy Instrument [DHLI]) sowie soziodemografische und -ökonomische Hintergrundmerkmale (Geschlecht, Alter, zuhause gesprochene Sprache, Schulform, subjektiver Sozialstatus) erfasst und mittels uni-, bi- und multivariater Analysen mit SPSS ausgewertet. Ergebnisse Nach Gesundheitsinformationen zum Coronavirus im Internet suchten regelmäßig 75,6 % der Schüler*innen. Schwierigkeiten beim Umgang mit digitalen Gesundheitsinformationen gaben 52,6 % der Schüler*innen an. 49,8 % der Schüler*innen berichteten von Schwierigkeiten beim Bewerten der Zuverlässigkeit von digitalen Informationen zum Coronavirus. Die bi- und multivariaten Analysen weisen darauf hin, dass sich die dGK nach dem subjektiven Sozialstatus (SSS) dahingehend unterscheidet, dass Schüler*innen mit niedrigem bzw. mittlerem SSS (OR = 2,57, 95 %-KI: 1,30–5,06, p  = 0,006) häufiger Schwierigkeiten im Umgang mit digitalen Gesundheitsinformationen zur Coronapandemie aufweisen als Gleichaltrige der Vergleichsgruppen. Die dGK unterscheidet sich nicht signifikant nach soziodemografischen (Geschlecht, Migrationshintergrund) und weiteren sozialen Merkmalen (besuchte Schulform, familiärer Wohlstand). Schlussfolgerung Die Förderung der dGK von Schüler*innen auf Schul- und Individualebene stellt ein wichtiges Anliegen der Prävention und Gesundheitsförderung dar. Durch bildungspolitische Maßnahmen (z. B. durch den „Medienkompetenzrahmen“ für die schulischen Medienbildung in den Bundesländern) sollte es den Schulen ermöglicht werden, die (d)GK im Rahmen der Medien- und Gesundheitsbildung in den Unterricht, Curricula und auf allen Ebenen von und bei allen Akteuren in Schulen (bspw. durch die organisationale Gesundheitskompetenz) zu berücksichtigen. Background During the coronavirus disease 2019 (COVID-19) pandemic, schoolchildren were confronted with a flood of information on health and the coronavirus. Adequate handling of health information requires (digital) health literacy (dHL). The aim of this article is therefore to analyse the information-seeking behaviour and the extent of dHL of schoolchildren in Germany during the COVID-19 pandemic according to their social background. Materials and methods The online survey was conducted during the third lockdown, from March–July 2021, in Hesse and other German federal states. Students in secondary schools, associations and sports clubs were contacted. The online questionnaire was accessed by N  = 1096 schoolchildren in grades 6–13 and n  = 361 schoolchildren completed it in full. Health-related information-seeking behaviour (internet-based sources for health information, [digital] sources for information on the COVID-19 pandemic), dHL (Digital Health Literacy Instrument [DHLI]) as well as sociodemographic and socioeconomic background characteristics (gender, age, language spoken at home, type of school, subjective social status) were recorded and evaluated using uni-, bi- and multivariate analyses with SPSS (IBM, Armonk, NY, USA). Results In all, 75.6% of schoolchildren regularly searched for digital health information about the coronavirus. 52.6% of the schoolchildren reported difficulties in dealing with digital health information. 49.8% of the schoolchildren reported difficulties in assessing the reliability of digital information on the coronavirus. The bi- and multivariate analyses indicated that the dHL differs according to subjective social status (SSS) in that those students with low or medium SSS (odds ratio = 2.57, 95% confidence interval 1.30–5.06, p  = 0.006) more frequently have difficulties in dealing with digital health information on the COVID-19 pandemic than their peers in the comparison groups. The dHL did not differ significantly according to sociodemographic (gender, migration background) and other social characteristics (type of school attended, family wealth). Conclusion Promotion of (d)HL among schoolchildren at school and individual level is an important issue for prevention and health promotion. Educational policy measures (e.g. in the form of “media literacy frameworks” for school media education in the federal states) should enable schools to take (d)HL into account in the context of media and health education in lessons, curricula and at all levels of and among all actors in schools (e.g. through organisational health literacy).',
-    published: '2025-08-01',
-    authors: [ 'László, Emese', 'Sendatzki, Saskia', 'Rathmann, Katharina' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Prävention und Gesundheitsförderung'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40626349',
-    title: 'Normative study of the Taiwanese version of the Montreal Cognitive Assessment (MoCA) in community-dwelling individuals in Taiwan.',
-    abstract: "BACKGROUND: The Montreal Cognitive Assessment (MoCA) may not be appropriately interpreted in Taiwan because of the lack of large-scale normative data. Moreover, examinees' demographic characteristics may influence their MoCA scores. However, previous studies have not adequately adjusted for these effects. This study aimed to use regression-based methods to establish demographically adjusted MoCA norms.\n" +
-      'METHODS: Participants were recruited from six hospitals and neighboring communities from all geographic areas of Taiwan. Multiple regression analyses were conducted to quantify the effects of age, education, and sex on MoCA total and domain scores, resulting in correction equations and adjusted cutoff scores.\n' +
-      'RESULTS: A total of 2,310 cognitively healthy participants were included in the analysis. Age and education significantly affected the total and all domain scores. Sex affected naming, language, and abstract thinking domain scores. Correction equations and corresponding cutoffs were proposed for MoCA total and domain scores to support more precise clinical interpretations.\n' +
-      'CONCLUSION: This study provides regression-adjusted norms for the MoCA, improving its accuracy and clinical utility in Taiwan. An adjusted total MoCA score of 23 points is recommended as the cutoff for identifying potential cognitive impairment, with domain-specific cutoffs further supporting individualized interpretation.',
-    published: '2025-Jul-08',
-    authors: [
-      'Cheng Yu-Hsiang',
-      'Lee Shih-Chieh',
-      'Chen Yen-Ching',
-      'Chen Jen-Hau',
-      'Yu Rwei-Ling',
-      'Lee Wei-Ju',
-      'Hsu Jung-Lung',
-      'Chen Cheng-Sheng',
-      'Fuh Jong-Ling'
-    ],
-    journal: 'Journal of the Chinese Medical Association : JCMA',
-    doi: '10.1097/JCMA.0000000000001265',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626349/'
-  },
-  {
-    id: '40626329',
-    title: {
-      _: 'Continuity of care in the context of a primary health care reform: a follow-up after the Swedish .',
-      i: [Array]
-    },
-    abstract: 'BACKGROUND: Continuity of care (CoC) is essential for effective primary health care (PHC), yet Swedish PHC has historically exhibited low levels of continuity. The Swedish  introduced privatization and market-oriented principles into PHC, leading to increased utilization and growing inequities in service use driven by socioeconomic disparities and misalignment with health care needs. However, little is known about its impact on continuity. The aim of this study is to explore long-term effects of longitudinal CoC in PHC within the context of the .\n' +
-      'METHODS: Using register data from Region Skåne (2007-2017), we created three closed cohorts, each capturing three years of PHC utilization. Continuity with GPs was measured using the Continuity of Care Index (CoCI). Quantile regression assessed associations between continuity and individual characteristics, including age, sex, income, education and residence.\n' +
-      'RESULTS: Among 322,641 individuals with 7,878,642 general practitioner (GP) visits, median CoCI declined from 0.17 (2007 cohort) to 0.13 (2015 cohort). Higher age, male sex and increased PHC utilization were linked to greater continuity in 2007, but these associations weakened by 2015.\n' +
-      'CONCLUSIONS: Continuity of care in Swedish PHC declined over time, particularly among older individuals and frequent PHC users. These findings highlight the need to address continuity deterioration in the context of the .',
-    published: '2025-Jul-08',
-    authors: [
-      'Kohnke Hannes',
-      'Zielinski Andrzej',
-      'Beckman Anders',
-      'Ohlsson Henrik'
-    ],
-    journal: 'Scandinavian journal of primary health care',
-    doi: '10.1080/02813432.2025.2527856',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626329/'
-  },
-  {
-    id: '40626282',
-    title: 'Breast Disease Patterns Among Patients Presenting for Mammography in a Major Hospital in the Volta Region of Ghana: A Five-Year Descriptive Retrospective Study.',
-    abstract: " The practice of mammography has transitioned from analog to digital with improved accuracy and significant changes to findings. This study was aimed at investigating the current patterns of breast diseases among women presenting for mammography at a major hospital in the Volta region of Ghana.  This descriptive retrospective study reviewed 508 mammography and complimentary breast ultrasound reports conducted between October 2019 and May 2023. Because they were incomplete and had essential patient data missing, 28 reports ( = 28) were excluded. Data extracted from the reports included patients' age, clinical indication, breast density, imaging impression, and BI-RADS classification for each breast. Data were analyzed using the Statistical Package for the Social Sciences (SPSS) Version 26, and results are presented using descriptive and inferential statistics.  The study involved 480 women, aged 40-86 years (mean = 54.6 ± 10.1). The distribution of the breast densities of the women was as follows: almost entirely fatty ( = 79, 16.46%), scattered areas of fibroglandular density ( = 226, 47.08%), heterogeneously dense ( = 145, 30.21%), and extremely dense ( = 30, 6.25%). There was a statistically significant association between age and breast density ( < 0.01). While 30 (6.25%) of the women presented for screening, 450 (93.75%) presented for diagnostic mammography. Breast pain ( = 189, 39.38%), breast lump/mass ( = 155, 32.29%), and suspected breast cancer ( = 47, 9.79%) were the most common clinical indications. The study recorded a total of 960 BI-RADS classifications of which 261 (27.19%) were negative and 699 (72.81%) were positive. Most of the positive findings ( = 521, 74.54%) were BI-RADS 2 and 3. Both benign and suspicious for malignancy or highly suggestive of malignancy lesions were common across women aged 40-50 years. There was a statistically significant association between age and BI-RADS classification ( < 0.01).  This study showed that most of the women presented for diagnostic mammography. Attendance for screening mammography was poor among women presenting for mammography at the hospital; hence, women should be encouraged through health education and other campaign strategies to undergo screening mammography more regularly to facilitate more timely detection and diagnosis of breast diseases. A third of the women in our study had dense breasts. The vast majority of the women had positive findings, but the majority of these findings were indicative of benign breast diseases.",
-    published: '2025',
-    authors: [
-      'Angmorterh Seth Kwadjo',
-      'Benjamin Manuel Betancourt',
-      'Oppong Rhoda Kokwe',
-      'Agyemang Patience Nyamekye',
-      'Angaag Nathaniel Awentiirin',
-      'Kekessie Kafui Kossi',
-      'van de Venter Riaan',
-      'Nsor-Atindana John',
-      'Yarfi Cosmos',
-      'Angmorterh Portia Mamle',
-      'Aboagye Sonia',
-      'Amoussou-Gohoungo Mariella Mawunyo',
-      'Inusah Adam',
-      'Dzefi-Tettey Klenam',
-      'Kortei Nii Korley'
-    ],
-    journal: 'International journal of breast cancer',
-    doi: '10.1155/ijbc/5542692',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626282/'
-  },
-  {
-    id: '40626265',
-    title: 'Assessing Knowledge of Radiation Protection and Safety Among Undergraduate and Intern Radiologic Technologists: A Pre- and Post-Educational Course Survey.',
-    abstract: "INTRODUCTION: Radiation protection aims to reduce unnecessary exposure to ionizing radiation, protecting patients and healthcare workers. Although diagnostic imaging techniques contribute minimally to overall exposure, risks still exist. Radiologic technologists perform X-ray procedures in diverse settings, collaborating with medical teams to ensure quality patient care. The Radiological Sciences program delivers comprehensive education and clinical training in anatomy, radiation safety, patient positioning, and imaging techniques. This study assesses the effectiveness of educational interventions in enhancing students' understanding of principles of radiation physics, protection, and safety guidelines, preparing them for responsible clinical and research practices.\n" +
-      "METHODS: A cross-sectional, in-person survey was conducted among undergraduate and intern students in the Radiological Sciences Department at King Saud bin Abdulaziz University for Health Sciences (KSAU-HS) in Jeddah. The Healthcare Professional Knowledge of Radiation Protection (HPKRP) scale was distributed via Google Forms. Data were analyzed using SPSS (v.29). Differences in HPKRP components between students' stages were examined using an unpaired samples -test and ANOVA.\n" +
-      'RESULTS: Undergraduate students in their third and fourth years, as well as interns who completed post-educational courses, scored significantly higher than second-year students without prior coursework in medical radiation imaging. Participants with post-educational courses and training in ionizing radiation demonstrated the highest knowledge levels in radiation physics, biology, and principles of radiation use (mean: 9.2 ± 0.8), followed by radiation protection (mean: 8.9 ± 1.2). Knowledge of safe ionizing radiation use guidelines scored slightly lower (mean: 8.5 ± 1.6).\n' +
-      "CONCLUSION: Structured radiation education significantly enhances students' knowledge of radiation physics, protection, and safety guidelines. Significant improvements were observed between the second and third academic stages, as well as among interns, with stable retention in later stages. Early integration and continuous education for promoting a strong culture of radiation safety and responsible practice across clinical and research environments.",
-    published: '2025',
-    authors: [
-      'Alamoudi Dalal',
-      'Ahmed Mohamed Eldigire',
-      'Alhalwani Amani Y',
-      'Alnakhli Alhassan Talal',
-      'Qahaf Raghad Mohammed',
-      'Bazuhayr Lama Fahad',
-      'Yamani Byadr Hassan'
-    ],
-    journal: 'Advances in medical education and practice',
-    doi: '10.2147/AMEP.S521381',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626265/'
-  },
-  {
-    id: '40626230',
-    title: 'The association between the dietary index for gut microbiota and its components with cardiovascular disease risk: a cross-sectional study based on NHANES.',
-    abstract: 'INTRODUCTION: Cardiovascular disease (CVD) is a leading cause of mortality worldwide, and its development and progression are closely associated with diet-induced changes in gut microbiota. This study aims to investigate the relationship between the dietary index for gut microbiota (DI-GM) and its components, including the beneficial gut microbiota score (BGMS) and the unfavorable gut microbiota score (UGMS), in relation to cardiovascular disease.\n' +
-      'METHODS: We conducted a cross-sectional study using National Health and Nutrition Examination Survey (NHANES) data (1999-2020), collecting baseline sociodemographic and health-related data from 41,193 adults aged ≥20 years. We constructed multivariable weighted logistic regression models to evaluate associations between DI-GM, BGMS, UGMS, and CVD risk, generating weighted restricted cubic spline (RCS) plots to visualize dose-response relationships. Subgroup analyses assessed outcome robustness across sex, age, hypertension, and diabetes subgroups.\n' +
-      'RESULTS: After adjusting for confounders (age, sex, race, poverty-to-income ratio [PIR index], marital status, and education level, smoking status, alcohol consumption, body mass index [BMI], and comorbidities), significant associations emerged between DI-GM, BGMS, and CVD risk. Increasing DI-GM and BGMS levels showed gradually decreasing CVD risk trends (DI-GM: OR = 0.97, 95% CI: 0.94-1.00,  < 0.05; BGMS: OR = 0.92, 95% CI: 0.88-0.96,  < 0.05). No significant association was found between UGMS and CVD risk (OR = 1.04, 95% CI: 0.99-1.08,  > 0.05). Subgroup analyses revealed more significant DI-GM and BGMS associations with CVD risk in female versus male participants ( for interaction < 0.05).\n' +
-      'CONCLUSION: Among adults aged ≥20 years, DI-GM and BGMS showed significant inverse association with CVD risk. Compared to DI-GM, BGMS demonstrates a stronger inverse association with cardiovascular disease risk. These findings underscore the potential crucial role of favorable dietary patterns in cardiovascular disease prevention.',
-    published: '2025',
-    authors: [
-      'Na Lin',
-      'Chang Jing',
-      'Li Xinqi',
-      'Che Xiaona',
-      'Sun Yunfei',
-      'Cui Wenjing',
-      'Xue Xin'
-    ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1610560',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626230/'
-  },
-  {
-    id: '40626228',
-    title: "The relationship between vitamin D levels and Alzheimer's disease risk: insights from a centenarian study of Chinese women.",
-    abstract: "BACKGROUND: While vitamin D₃ (VD₃) has been implicated in Alzheimer's disease (AD) prevention, limited evidence exists among centenarians-particularly women-who exhibit unique cognitive aging trajectories. This study aimed to examine the association between serum 25-hydroxyvitamin D [25(OH)D] levels and AD risk in Chinese female centenarians.\n" +
-      'METHODS: We included 514 female participants aged ≥100 years from the China Healthy Longevity Multicenter Study (CHLMS). AD was diagnosed using education-adjusted MMSE thresholds and clinical exclusion of non-AD dementias. Serum 25(OH)D and biochemical markers were measured using standardized laboratory protocols. Logistic regression models (unadjusted and progressively adjusted) assessed associations between 25(OH)D and AD. Restricted cubic spline (RCS) and piecewise regressions evaluated non-linear and threshold effects, while subgroup analyses explored effect modification.\n' +
-      'RESULTS: Higher serum 25(OH)D levels were independently associated with lower odds of AD (adjusted OR per 1 ng/mL: 0.95; 95% CI: 0.90-1.00;  = 0.037). Compared to the lowest quartile, participants in the highest quartile had an 87% reduced risk (OR = 0.13; 95% CI: 0.03-0.50;  = 0.007). RCS analysis revealed a significant inverse dose-response relationship, with a potential threshold effect observed at 29.3 ng/mL. Piecewise regression confirmed that the protective association was strongest below this threshold. Subgroup analyses across smoking, hypertension, and early-life indicators showed consistent effects with no significant interactions.\n' +
-      'CONCLUSION: Among Chinese female centenarians, serum vitamin D₃ levels are inversely associated with AD risk in a dose-dependent manner, particularly below 29.3 ng/mL. These findings highlight the relevance of vitamin D₃ as a potentially modifiable factor in cognitive aging and support further interventional studies in the oldest-old population.',
-    published: '2025',
-    authors: [
-      'Li Yupeng',   'Wang Xujie',
-      'Yu Mei',      'Wang Fei',
-      'Song Dong',   'Liu Musong',
-      'Liang Xu',    'Liu Hongzhou',
-      'Liu Jiangbo', 'Fu Shihui',
-      'Liu Xuhui'
-    ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1628732',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626228/'
-  },
-  {
-    id: '40626226',
-    title: 'Association between obesity indicators and retinopathy in US adults: NHANES 2005-2008.',
-    abstract: 'BACKGROUND: Obesity is harmful to the retina. Few studies have examined obesity indicators for retinopathy, and our research is intended to elucidate this relationship.\n' +
-      'METHODS: This study assessed the association between obesity indicators and retinopathy using weighted multifactorial logistic regression, participants from the National Health and Nutrition Examination Survey (NHANES). The stability of the relationship was tested by subgroup analysis. Moreover, restricted cubic spline (RCS) was used to test for a non-linear relationship between them. Finally, Receiver Operating Characteristic (ROC) curves were applied to compare the prognostic value of each obesity indicator for retinopathy.\n' +
-      'RESULTS: After adjusting the confounding factor, weighted logistic regression showed positive associations between body roundness index (BRI), conicity index (CI), waist-to-height ratio (WHtR), tri-ponderal mass index (TMI), weight-adjusted-waist index (WWI), body mass index (BMI), and retinopathy. RCS curves found linear correlations between BRI, CI, WHtR, TMI, and WWI with retinopathy, except for BMI. Subgroup analyses showed no significant interactions between age, sex, ethnicity, and education subgroups. ROC curves showed that WWI had the highest predictive value for retinopathy.\n' +
-      'CONCLUSION: Overall, increased levels of these obesity indicators increase the likelihood of developing retinopathy.',
-    published: '2025',
-    authors: [
-      'Wang Chuan-Xi',
-      'Kuang Miao',
-      'Hou Jing-Jing',
-      'Lin Si-Yu',
-      'Liu Sheng-Zhen',
-      'Bao Ning',
-      'Jiang Zheng-Xuan'
-    ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1598240',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626226/'
-  },
-  {
-    id: '40626201',
-    title: 'An Examination of Public Knowledge of Mild Traumatic Brain Injury.',
-    abstract: 'INTRODUCTION: Almost three million traumatic brain injuries (TBIs) are reported in the US annually. Concussions, also known as mild TBIs (mTBIs), are the most common and account for approximately 90% of TBIs annually. Research indicates confusion regarding the (1) symptoms, (2) mechanisms of injury, and (3) treatment and recovery associated with mTBI. This study sought to build upon previous research by investigating mTBI knowledge within these three domains.\n' +
-      'MATERIALS AND METHODS: Responses from 529 participants were collected from two groups: college students ( = 333) and the general public ( = 196). Participants completed a self-report questionnaire that included true/false items spanning the three domains of mTBI knowledge.\n' +
-      'RESULTS: Overall, mTBI knowledge accuracy was 67%, with highest accuracy on items related to mTBI symptoms (78.77%), followed by mechanisms of injury (71.6%) and treatment and recovery (53.9%). College students had significantly higher mTBI knowledge accuracy, as well as higher accuracy on the mTBI symptom and mechanism items. There were no significant differences in knowledge of mTBI treatment and recovery between groups.\n' +
-      'DISCUSSION: This study highlights the importance of mTBI education following an mTBI diagnosis. Explanations for these findings considering demographic and individual differences are provided, and clinical implications are discussed.',
-    published: '2025-Sep',
-    authors: [
-      'Zurlinden Taylor',
-      'Falletta Gillian',
-      'Schneider Kate',
-      'Saganis Xanthia',
-      'Sorrell Anne',
-      'Savransky Anya',
-      'Everhart D Erik'
-    ],
-    journal: 'Public health challenges..',
-    doi: '10.1002/puh2.70075',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626201/'
-  },
-  {
-    id: '40626195',
-    title: 'Assessing Racial and Gender Disparities in Asthma Education, Knowledge, and Healthcare Access Among Adolescents.',
-    abstract: 'PURPOSE: Asthma is the most common chronic disease among adolescents, yet disparities exist in its diagnosis and management across racial and gender groups. This study aims to assess asthma knowledge, awareness, and healthcare access among adolescents, with a focus on racial and gender disparities. The goal is to identify gaps in asthma education and knowledge, as well as other barriers that may contribute to the underdiagnosis of asthma within these groups.\n' +
-      "PATIENTS AND METHODS: This cross-sectional survey included adolescents aged 10-18 years, with responses collected through Qualtrics. A total of 90 participants were selected, with no restrictions based on asthma status. Written informed consent was obtained from parents of participants under 18, while participants who were 18 years old provided their own written consent in accordance with IRB guidelines. Participants' knowledge of asthma symptoms, triggers, and healthcare access was assessed using multiple-choice and Likert scale questions. Data were analyzed for demographic differences in asthma knowledge and healthcare access across racial and gender groups.\n" +
-      'RESULTS: The study found that asthma education was minimal, with only 8% of participants reporting prior formal asthma education. Despite this, 53.4% of participants considered themselves knowledgeable about asthma, 59.5% could identify three or more asthma symptoms, and 50.6% identified more than three triggers. Racial disparities were evident, with Asian adolescents having a significantly lower asthma diagnosis rate compared to other racial groups (6.5% vs 47.4%, P<0.01), a lower rate of self-reported asthma knowledge (45.1% vs 64.9%, P=0.08), and lower odds of finding healthcare access "extremely easy" (OR=0.179, 95% CI: 0.076-0.455, P=0.00018). Although there was no difference in the rate of previous asthma diagnoses, males were more likely to seek medical help compared to females (OR=2.55, 95% CI: 1.037-6.268, P=0.032).\n' +
-      'CONCLUSION: This study highlights significant gaps in asthma education, perception of healthcare access, and healthcare seeking behaviour particularly among Asian adolescents and females, and underscores the need for targeted interventions to address racial and gender disparities in asthma diagnosis and care.',
-    published: '2025',
-    authors: [
-      'Abballe Alessia',
-      'Forman Anna',
-      'Jamet Kaitlyn E',
-      'Pant Jyoti'
-    ],
-    journal: 'Journal of asthma and allergy',
-    doi: '10.2147/JAA.S525727',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626195/'
-  },
-  {
-    id: '40626193',
-    title: 'Prevalence and Correlates of Behavioural Risk Factors for Non-Communicable Diseases Among Allied Health Undergraduate Students in Ghana: A Cross-Sectional Study.',
-    abstract: 'BACKGROUND AND AIM: Non-communicable diseases (NCDs) are noninfectious diseases mostly marked by complex aetiology with different risk factors. They develop from an interplay between modifiable and non-modifiable risk factors, which are of great concern to the public as they mostly lead to varied metabolic changes. This study assessed the prevalence and correlates of behavioural risk factors of non-communicable diseases among undergraduate allied health students in Ghana.\n' +
-      'METHODS: This was a cross-sectional study that used a pretested and structured questionnaire to collect data from 228 participants. The data was analysed using SPSS. Logistic regressions and Chi-squared tests were employed to assess the associations between sociodemographic factors and each NCD risk factor. Statistical significance was set at  ≤ 0.05.\n' +
-      'RESULTS: About 87.3% of undergraduate allied health students practised unhealthy dietary patterns. Only 45.2% were physically active. Being a Nonresident student was associated with drinking alcohol (OR = 2.5; 95%CI = 1.1-5.9). Male undergraduate students were less likely to be physically inactive (OR = 0.4; 95%CI = 0-0.9) while community nutrition students were less likely to engage in unhealthy diet practices (OR = 0.7; 95%CI = 0.2-1.3). Female proportions among those with one (60.7%,  = 0.02) and two (61.9%,  = 0.01) risk factors were high. A greater portion of the students with unhealthy dietary (81.4%,  = 0.032) and physical inactivity (69.5%,  = 0.010) patterns were 18-24 years old. Most participants with one (61.8%,  = 0.04) and two (69.5%,  < 0.001) behavioural risk factors were all 18-24 years old.\n' +
-      "CONCLUSION: The findings of this study highlight a concerning trend of poor dietary habits and physical activity patterns among undergraduate allied health students. Despite being future healthcare professionals, these students exhibited suboptimal behaviours that can negatively impact their own health and well-being, as well as their ability to provide effective health promotion and education to their future patients. Healthcare educators and administrators should recognize the importance of promoting a healthy campus environment that supports students' physical and mental well-being.",
+    id: '40631427',
+    title: "Self-Report Alzheimer's Disease Statuses in UK Biobank Distort Downstream Analyses.",
+    abstract: "Genetic studies have identified Alzheimer's disease (AD)-linked variants through genome-wide association studies (GWAS) and proxy-based GWAS (GWAX), yet inconsistent causal inferences still persist. Here, we systematically evaluated how self-reported AD diagnoses in the UK Biobank (UKB) distort Mendelian randomization (MR) analyses. Using seven AD datasets (four GWAS and three GWAX, including IGAP, N = 63 926; FinnGen R10, N = 191 061; UKB G30, N = 420 531; UKB2024, N = 434 286, and GWAX2017, N = 74 366; GWAX2018, N = 548 955; GWAX2021, N = 408 691) and six education subtypes (including years of schooling, N = 1 131 881; hardest math class completed, N = 430 445; self-reported math ability, N = 564 698; college completion, N = 280 007; cognition test performance, N = 257 841; and non-cognitive skills, N = 257 841). We also assessed the heterogeneity and pleiotropy across these datasets. We found opposing causal directions between GWAS and GWAX cohorts. In GWAS datasets, genetic variations related to education were causally linked to a lower risk of AD (OR < 1, p < 0.05), with years of schooling showing the strongest protective effects (OR = 0.71 in IGAP, p < 0.05). Conversely, UKB-based GWAX analyses paradoxically linked education-related traits to increased AD risk (OR > 1, p < 0.05), directly conflicting with the protective associations in clinical AD GWAS results. Genetic heterogeneity was observed in both AD GWAS and GWAX datasets. Pleiotropy was noted in AD outcomes, but MR estimates remained stable after outlier adjustments. Our findings reveal that self-reported AD statuses in UKB distorted genetic effect estimates, particularly for education subtypes requiring validation. The research urges caution in interpreting MR results from GWAX studies that use self-reported endpoints and highlights the need for rigorous phenotyping in biobank studies.",
     published: '2025-Jul',
     authors: [
-      'Atuahene Margaret',
-      'Quarshie Frank',
-      'Nyasem Francis Kwaku',
-      'Eshun Daniel',
-      'Gorleku Philip Narteh',
-      'Addai Pamela Achiaa',
-      'Gorleku Maurice Ofoe',
-      'Asante Martin Owusu',
-      'Otchere Joseph',
-      'Aubin Prince'
+      'Hu Shuyuan',
+      'Zhu Ping',
+      'Gao Shan',
+      'Wu Shiyang',
+      'He Yijie',
+      'Liu Fengzhen',
+      'Wang Kun',
+      'Liu Guiyou'
+    ],
+    journal: 'Journal of neurochemistry',
+    doi: '10.1111/jnc.70151',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631427/'
+  },
+  {
+    id: '40631411',
+    title: 'Association Between Relative Leg Length and Insulin Resistance in Rural, Urban and Rural-Urban Migrant Populations of Peru.',
+    abstract: 'OBJECTIVE: To determine the association between relative leg length and insulin resistance according to rural, urban, and rural-urban migrant groups.\n' +
+      'METHODS: Cross-sectional study using data from the PERU MIGRANT study (2007-2008). The exposure was relative leg length categorized as short, normal, or long, and the outcome was insulin resistance (logarithm of homeostatic model assessment log-HOMA2-IR). Linear regression models with log transformation, adjusted for sex, age, parental education, hip circumference, and physical activity level, were employed to estimate geometric mean ratios of insulin resistance across leg length categories. Interaction effects of population groups (rural, urban, and migrants) on insulin resistance were explored, along with mediation analysis of central obesity and excess body fat in the main relationship.\n' +
+      'RESULTS: Using data from 947 participants, 52.7% female, mean age 47.7 years (SD = 11.9), we found a robust inverse association between relative leg length and insulin resistance. The geometric mean of insulin resistance in subjects with long leg length was 43% (e: 0.57, 95% CI: 0.47-0.69) lower than those in the normal category. A significant interaction effect of the population group on relative leg length categories (p < 0.001) was observed, particularly in the migrant and rural groups. Excess body fat and abdominal obesity explained 33% and 12% of the association between relative leg length and insulin resistance, respectively.\n' +
+      'CONCLUSIONS: Longer leg length was associated with lower insulin resistance values, with a greater interaction effect observed among the rural-urban migrant and urban groups. These findings support the hypothesis that metabolic disorders in adults may be traceable to nutritional and developmental conditions early in life.',
+    published: '2025-Jul',
+    authors: [
+      'Mucching-Toscano Sergio',
+      'Moscoso-Porras Miguel',
+      'Zafra-Tanaka Jessica Hanae',
+      'Anza-Ramirez Cecilia',
+      'Bernabé-Ortiz Antonio',
+      'Wells Jonathan C K',
+      'Miranda J Jaime'
+    ],
+    journal: 'American journal of human biology : the official journal of the Human Biology Council',
+    doi: '10.1002/ajhb.70105',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631411/'
+  },
+  {
+    id: '40631401',
+    title: 'Re-aligning social and behavior change to address structural determinants of health and improve health equity.',
+    abstract: "While social and behavior change (SBC) programs have a history of addressing multiple social determinants of health (SDH), those interventions have sought primarily to influence the behaviors of individuals, groups, and communities, often overlooking underlying social and political causes of health inequities and the multiple ways SBC could address them. The SDH include (i) 'structural mechanisms,' or the social and political contexts that produce and sustain social stratification via socioeconomic position (SEP), which comprise social class, income, education, race/ethnicity, gender, and/or marginalization, and (ii) 'intermediary determinants,' including psychosocial factors, behaviors, and the health system itself. Currently, SBC programs consistently address intermediary determinants, but rarely design approaches to affect structural determinants. To strengthen SBC programming, it will be necessary to: develop/expand social determinants competency; engage with groups most disadvantaged by SDH using an intersectional lens; advocate for, and respond to, funding for SBC programming that addresses both structural and intermediary determinants; collaborate with partners across sectors; measure and evaluate the efficacy of SDH interventions; develop and apply measurement benchmarks aligned with long-term change processes; and demonstrate how health equity approaches align with multilevel health and development priorities and goals. Political will, donor commitment, implementers' actions, and community engagement working in concert to shape actionable goals for social change that benefit underserved or unserved populations can reduce inequities in health practices and outcomes. As partners in reimagining SBC and shifting the paradigm, SBC practitioners have important roles to play; this paper speaks explicitly to their needs, concerns, and opportunities.",
+    published: '2025-Jul-01',
+    authors: [
+      'Underwood Carol R',
+      'Kabore Telesphore E L',
+      'Fagbemi Babafunke',
+      'Oyedokun-Adebagbo Foyeke',
+      'Sène Arame Gueye',
+      'Lengewa Catherine',
+      'Van Lith Lynn M'
+    ],
+    journal: 'Health promotion international',
+    doi: '10.1093/heapro/daaf104',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631401/'
+  },
+  {
+    id: '40631348',
+    title: 'Artificial intelligence in health care: Assessing impact on professional roles and preparedness among hospital nurse leaders.',
+    abstract: 'INTRODUCTION: Artificial intelligence (AI) is transforming healthcare, with benefits such as personalized treatment and efficient diagnosis; however, it also comes with challenges such as data protection and ethical concerns.\n' +
+      "AIM: This study examined nurse leaders' perceptions of AI's impact on their professional roles and their level of preparedness for AI integration.\n" +
+      "METHODS: This descriptive correlational study was conducted at various hospitals in Hail City, Saudi Arabia. The Shinners Artificial Intelligence Perception tool was used to evaluate 155 nurse leaders' perceptions of AI and their readiness for its adoption.\n" +
+      "RESULTS: The SHAIP tool, previously validated in international studies, was further adapted and validated for this context using confirmatory factor analysis and reliability testing, ensuring robust measurement of nurse leaders' perceptions and preparedness regarding AI. Nurse leaders showed a positive perception of AI's impact on their roles (mean score = 3.72), but lower perceived preparedness (mean score = 3.32). Education level (where holders of a Bachelor of Science in Nursing showed lower perceptions, with a coefficient of -0.66,  = .006) and department significantly influenced their perceptions of AI. No significant predictors of preparedness for AI were identified. Further, there was no correlation between the perceived AI impact and preparedness.\n" +
+      "CONCLUSION: Although nurse leaders recognize AI's potential in healthcare, there is a gap between their perceptions and preparedness. Tailored education and training programs are required to enhance the integration of AI into nursing leadership and practice.",
+    published: '2025',
+    authors: [
+      'Alnomasy Nader',
+      'Pangket Petelyne',
+      'Alreshidi Bader',
+      'Alrashidi Habib',
+      'Shinners Lucy',
+      'Alsaqri Salman',
+      'Mostoles Romeo Jr'
+    ],
+    journal: 'Digital health',
+    doi: '10.1177/20552076251356362',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631348/'
+  },
+  {
+    id: '40631346',
+    title: 'Factors Affecting Food Handling Practices Among Food Handlers at Food Establishments in Mogadishu, Somalia: A Cross-Sectional Study.',
+    abstract: 'BACKGROUND AND AIM: Foodborne diseases pose serious health challenges in developing countries like Somalia, contributing to high rates of illness and death due to inadequate food safety practices, poor sanitation conditions, ineffective regulatory systems, and a lack of educational resources for food handlers. This study determined food handling practices and their associated factors among food handlers in Mogadishu, Somalia.\n' +
+      'METHODS: A cross-sectional study was conducted with 304 food handlers in Mogadishu, Somalia, and data were gathered through direct interviews. Analysis was performed using SPSS Version 26, including descriptive statistics and logistic regressions (binary and multivariate). Adjusted Odds Ratios (AOR) and a significance level of  < 0.05 were employed to assess significant variables related to food safety measures.\n' +
+      'RESULTS: The results show that only 27.3% of food handlers practiced proper food handling procedures. This means that the majority of those observed exhibited poor food handling practices. Various factors significantly influenced these practices, including age (AOR = 0.1; 95% CI: 0.05-0.21), marital status (AOR = 0.1; 95% CI: 0.06-0.27), work experience (AOR = 0.2; 95% CI: 0.10-0.44), and monthly income (AOR = 3.1; 95% CI: 1.56-6.21).\n' +
+      'CONCLUSION: The study revealed that over two-thirds of participants practiced poor food handling, posing public health risks. Key factors included age, marital status, work experience, and income. Authorities should improve health education, strengthen environmental health services, and train food handlers to enhance safety and health outcomes in Somalia.',
+    published: '2025-Jul',
+    authors: [
+      'Osman Walid Abdulkadir',
+      'Saeed Saeed Mohamed',
+      'Ahmed Hassan Muse',
+      'Nageye Qali Ahmed',
+      'Malin Mahad Abdi',
+      'Hassan Abdullahi Ahmed'
     ],
     journal: 'Health science reports',
-    doi: '10.1002/hsr2.70982',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40626193/'
+    doi: '10.1002/hsr2.70995',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631346/'
+  },
+  {
+    id: '40631063',
+    title: 'Promoting a more empowering motivational climate in physical education: a mixed-methods study on the impact of a theory-based professional development programme.',
+    abstract: "This study examined the effects of the delivery of a school-tailored ™ workshop and subsequent Professional Development Programme (PDP) using Community of Practice principles within one secondary school Physical Education (PE) department. Employing a mixed-methods longitudinal design, the research assessed PE teachers' understanding of motivation and motivational strategies, Senior Leadership Team perceptions of the PDP's impact, and pupils' motivation and engagement in PE. The intervention pulled from Achievement Goal Theory and Self-Determination Theory, adopting Duda's theoretically integrated conceptualization of empowering and disempowering motivational climates. Qualitative data from interviews, focus groups, and reflections revealed significant perceived benefits for teachers' understanding and implementation of motivational strategies, as well as perceived improvements in pupil engagement and motivation. Quantitative data (147 Year 9 pupils aged 13-14 years, M = 13.6, SD = 0.4; 81 boys, 64 girls) revealed no significant differences over time in perceptions of the motivational climate and their motivation to engage in PE. Overall, this study contributes to the growing body of evidence supporting the benefits of creating empowering environments in physical education. The findings however highlight the complexity of implementing and assessing the effects of motivational climate interventions in PE settings and underscore the importance of sustained, theory-informed professional development for teachers. Areas for future research on interventions (and testing their effectiveness) to optimize the motivation climate in PE, pupil motivation and teacher professional development are provided.",
+    published: '2025',
+    authors: [
+      'Milton Daniel',
+      'Appleton Paul R',
+      'Bryant Anna',
+      'Duda Joan L'
+    ],
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1564671',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631063/'
+  },
+  {
+    id: '40631061',
+    title: 'Behavioral interventions for waste reduction: a systematic review of experimental studies.',
+    abstract: 'INTRODUCTION: Wasteful behavior poses major environmental, economic, and social challenges, yet the behavioral science literature on waste reduction remains fragmented.\n' +
+      "METHODS: This systematic review synthesizes 99 experimental and quasi-experimental studies published between 2017 and 2021 that test behavioral interventions to reduce waste. This period captures a critical phase when global waste management systems faced unprecedented disruptions, including the 2017 launch of China's National Sword policy, which dramatically reshaped global recycling markets and exposed critical weaknesses in international waste systems. We adopt a broad definition of waste-including both discarded materials (e.g., food, trash, recyclables) and inefficient resource use (e.g., electricity, water, fuel)-to better capture the full range of behaviors where interventions can reduce environmental impact and allow cross-domain comparisons. Our goal is to examine the behavioral interventions used, how interventions are structured, how behavior is measured, and whether they target individuals, households, communities, or broader systems.\n" +
+      'RESULTS: We identify six common types of behavioral interventions: education/informational feedback, social norms, economic incentives, cognitive biases and choice architecture, goal setting, and emotional appeals. Interventions targeting electricity and water use were most common, while food and solid waste remain under studied, largely due to measurement challenges. Although most studies used real-world field designs with direct behavioral outcomes, they focused heavily on individual and household behavior.\n' +
+      'DISCUSSION: This individual focus risks overlooking the structural and systemic changes needed to achieve broader, sustained reductions in waste. To advance the field, we call for greater use of community-level and system-wide interventions, investment in scalable measurement tools, and stronger collaboration between researchers, governments, and practitioners. Building on this foundation can help create more effective, scalable strategies to reduce waste across behavioral contexts.',
+    published: '2025',
+    authors: [ 'Wilson Brent M', 'Delmas Magali A', 'Rajagopal Deepak' ],
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1561467',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631061/'
+  },
+  {
+    id: '40631056',
+    title: 'PROTOCOL: the On Track 2.0 cluster randomized teacher-led intervention to support executive function and self-regulation.',
+    abstract: 'BACKGROUND: The top-down cognitive and emotional control skills known as Executive Function (EF) and Self-Regulation (SR) have a large impact on everyday life. As a schoolchild, you are expected to pay attention, wait your turn, follow instructions, solve academic problems and be creative while navigating the social space of peers and teachers. All these abilities draw on EF and SR. Research has pointed to curricular programs as a promising path to build capacity in schoolteachers and provide with further knowledge on ways to support and strengthen these EF and SR skills in their pupils through activities, strategies and reflection tasks. The importance of EF and SR on later life outcomes such as academic performance, career, relationships and risk of crime, has been a motivating factor to develop the 10-session On Track 2.0 intervention as a universal whole-class approach to improve EF and SR in primary school pupils.\n' +
+      'METHODS: Regular 4th and 5th grade class groups will be invited to participate in this teacher-delivered intervention program to be implemented into regular lessons. In this study schools will be randomly assigned to either intervention or control group as part of a cluster-randomized controlled trial. Psychometric and questionnaire assessing EF, SR and well-being will be administered to children, teachers and parents at three time points.\n' +
+      "DISCUSSION: The intervention holds the potential to support and qualify teachers in understanding students' challenges with EF and SR better and in training these skills during class. A multimodal and multi-informant approach to assessment, in addition to data on teacher adherence and platform use, will aid the insight into the efficacy of the intervention content and delivery.\n" +
+      'TRIAL REGISTRATION: The study has been registered at Open Science Framework on 22 January 2025.',
+    published: '2025',
+    authors: [ 'Kristensen Anne Marie', 'Blurton Steven P', 'Vangkilde Signe' ],
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1574860',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40631056/'
+  },
+  {
+    id: '40630993',
+    title: 'Which cardiothoracic surgery training pathway is right for you?',
+    abstract: 'OBJECTIVE: The training pathways in cardiothoracic surgery have evolved so that there are currently several viable options to this career. The purpose of this review is to give insight to medical students and mentors regarding the 4 different pathways.\n' +
+      'METHODS: The evolution of cardiothoracic surgery training and 4 current pathways are briefly reviewed. The main differences between these 4 pathways are then discussed in detail.\n' +
+      'RESULTS: Key differences between training pathways include time to completion, opportunities for dedicated academic development or research time, family planning considerations, board certification options, opportunities to change programs, competitiveness, and unique considerations for military personnel.\n' +
+      'CONCLUSIONS: This detailed comparison of the training pathways can serve as a resource to help students make informed decisions about the pathway that is best suited to each individual.',
+    published: '2025-Jun',
+    authors: [
+      'Bradshaw AlleaBelle',
+      'Kilic Ahmet',
+      'MacGillivray Thomas E',
+      'Lawton Jennifer S'
+    ],
+    journal: 'JTCVS open',
+    doi: '10.1016/j.xjon.2025.04.003',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40630993/'
+  },
+  {
+    id: '40630991',
+    title: 'Discrepancies in survival following pediatric heart transplantation and the effect of race and socioeconomic status on outcomes.',
+    abstract: 'OBJECTIVES: Poor health literacy and resources paucity in families with low socioeconomic status can be detrimental in children requiring complex outpatient management such as heart transplantation. We assessed the influence of socioeconomic status and insurance type on heart transplantation outcomes.\n' +
+      "METHODS: The cohort of children undergoing heart transplantation was generated by merging the United Network for Organ Sharing and Pediatric Health Information System databases. Family's annual income was used as surrogate for socioeconomic status. Children were divided into 3 groups: low-income (lower quartile, <$32 700; n = 639), medium-income (second and third quartiles, $32 700-$53 600; n = 1305), or high-income (upper quartile, >$53 600; n = 649).\n" +
+      'RESULTS: Comparison showed racial discrepancies (more Whites in high-income, more Blacks in low-income groups), and insurance type variations (more private in high-income, more Medicaid in low-income groups). On univariate analysis, survival was higher for high-income compared with medium-income and low-income groups ( = .04). On multivariable analysis, Black race (hazard ratio, 1.389; 95% CI, 1.041-1.703;  = .0075), Medicaid (hazard ratio, 1.373; 95% CI, 1.115-1.721;  = .0038), and other government insurance (hazard ratio, 1.611; 95% CI, 1.104-2.423;  = .0126) were significant risk factors, whereas income group effect was neutralized. Treated rejection episodes at 1 year were lowest (10%) in high-income and highest (15%) in low-income groups, with trend for less rejection in the low-income group with private insurance (12% vs 16%). Death from cardiac arrest was significantly less in the high-income (8%) compared with the medium-income (18%) and low-income (19%) groups ( < .01).\n' +
+      'CONCLUSIONS: Black and low socioeconomic status children face significant disadvantages in heart transplant outcomes, including lower survival, higher rejection rates, and increased risk of death secondary to cardiac arrest. Access to private insurance leads to better survival but might be proxy to better resources, education, and compliance.',
+    published: '2025-Jun',
+    authors: [
+      'Alsoufi Bahaaldin',
+      'Trivedi Jaimin',
+      'Kozik Deborah',
+      'Wilkens Sarah',
+      'Lambert Andrea Nicole',
+      'Deshpande Shriprasad',
+      'Sparks Joshua D'
+    ],
+    journal: 'JTCVS open',
+    doi: '10.1016/j.xjon.2025.02.021',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40630991/'
   }
 ]
 Collected 10 papers from pubmed
@@ -687,10 +755,10 @@ Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
@@ -1167,16 +1235,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 30213,
+        _idleNext: [Timeout],
+        _idleStart: 38596,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2965,
-        [Symbol(triggerId)]: 2963
+        [Symbol(asyncId)]: 4951,
+        [Symbol(triggerId)]: 4949
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1206,7 +1274,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
+      sockets: [Object: null prototype] {},
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1214,7 +1282,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1244,7 +1312,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       statusCode: 404,
       statusMessage: 'Not Found',
       client: [Socket],
-      _consuming: true,
+      _consuming: false,
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
@@ -1308,7 +1376,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Tue, 08 Jul 2025 15:12:18 GMT',
+      date: 'Wed, 09 Jul 2025 15:12:36 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1419,7 +1487,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Tue, 08 Jul 2025 15:12:18 GMT',
+  date: 'Wed, 09 Jul 2025 15:12:36 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1529,16 +1597,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 30253,
+        _idleNext: [TimersList],
+        _idleStart: 39472,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2984,
-        [Symbol(triggerId)]: 2982
+        [Symbol(asyncId)]: 4999,
+        [Symbol(triggerId)]: 4997
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1576,7 +1644,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1670,7 +1738,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Tue, 08 Jul 2025 15:12:18 GMT',
+      date: 'Wed, 09 Jul 2025 15:12:37 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1781,7 +1849,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Tue, 08 Jul 2025 15:12:18 GMT',
+  date: 'Wed, 09 Jul 2025 15:12:37 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1913,109 +1981,659 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
 Translating paper: Big data in economics...
-Translating paper 2/40
+Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/40
+Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/40
+Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/40
+Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/40
+Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/40
+Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/40
+Translating paper 8/50
 Translating paper: A physical theory of economic growth...
-Translating paper 9/40
+Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/40
+Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/40
+Translating paper 11/50
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/50
+Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+Translating paper 13/50
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 14/50
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 15/50
+Translating paper: Experience and education...
+Translating paper 16/50
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 17/50
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 18/50
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 19/50
+Translating paper: The Impact of Education for Sustainable Developmen...
+Translating paper 20/50
+Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 21/50
 Translating paper: The Role of Remote Activities in Urban Mobility in...
-Translating paper 12/40
+Translating paper 22/50
 Translating paper: The Effectiveness of 3D Virtual Environments for B...
-Translating paper 13/40
+Translating paper 23/50
+Translating paper: “Flipped” University: LLM-Assisted Lifelong Learni...
+Translating paper 24/50
 Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
-Translating paper 14/40
+Translating paper 25/50
+Translating paper: AI as teacher: effectiveness of an AI-based traini...
+Translating paper 26/50
 Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
-Translating paper 15/40
+Translating paper 27/50
 Translating paper: Assessing the role of artificial intelligence in q...
-Translating paper 16/40
+Translating paper 28/50
 Translating paper: International comparative studies in mathematics e...
-Translating paper 17/40
+Translating paper 29/50
 Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
-Translating paper 18/40
+Translating paper 30/50
 Translating paper: Supplementation Matters: Academic Impact of an Aft...
-Translating paper 19/40
-Translating paper: AI Responses to Challenging Problems and Educator ...
-Translating paper 20/40
-Translating paper: Informationssuchverhalten und digitale Gesundheits...
-Translating paper 21/40
-Translating paper: Normative study of the Taiwanese version of the Mo...
-Translating paper 22/40
-Translating paper: Continuity of care in the context of a primary hea...
-Translating paper 23/40
-Translating paper: Breast Disease Patterns Among Patients Presenting ...
-Translating paper 24/40
-Translating paper: Assessing Knowledge of Radiation Protection and Sa...
-Translating paper 25/40
-Translating paper: The association between the dietary index for gut ...
-Translating paper 26/40
-Translating paper: The relationship between vitamin D levels and Alzh...
-Translating paper 27/40
-Translating paper: Association between obesity indicators and retinop...
-Translating paper 28/40
-Translating paper: An Examination of Public Knowledge of Mild Traumat...
-Translating paper 29/40
-Translating paper: Assessing Racial and Gender Disparities in Asthma ...
-Translating paper 30/40
-Translating paper: Prevalence and Correlates of Behavioural Risk Fact...
-Translating paper 31/40
+Translating paper 31/50
+Translating paper: Self-Report Alzheimer's Disease Statuses in UK Bio...
+Translating paper 32/50
+Translating paper: Association Between Relative Leg Length and Insuli...
+Translating paper 33/50
+Translating paper: Re-aligning social and behavior change to address ...
+Translating paper 34/50
+Translating paper: Artificial intelligence in health care: Assessing ...
+Translating paper 35/50
+Translating paper: Factors Affecting Food Handling Practices Among Fo...
+Translating paper 36/50
+Translating paper: Promoting a more empowering motivational climate i...
+Translating paper 37/50
+Translating paper: Behavioral interventions for waste reduction: a sy...
+Translating paper 38/50
+Translating paper: PROTOCOL: the On Track 2.0 cluster randomized teac...
+Translating paper 39/50
+Translating paper: Which cardiothoracic surgery training pathway is r...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.38780223470252 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"10s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '10s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.021840125979089 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"8s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '8s'
+    }
+  ]
+}
+Translating paper 40/50
+Translating paper: Discrepancies in survival following pediatric hear...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0652266099983962 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"3s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '3s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4173029064872225 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '1s'
+    }
+  ]
+}
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 32/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1018743964134643 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"57s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '57s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6237885874880895 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"54s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '54s'
+    }
+  ]
+}
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 33/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5185269122494556 seconds...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.648348539581228 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '35s'
+    }
+  ]
+}
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 34/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.557223878746617 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"30s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '30s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.310887622083693 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"27s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '27s'
+    }
+  ]
+}
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 35/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3269652810485173 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"23s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '23s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8822251548920415 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '20s'
+    }
+  ]
+}
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 36/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1393540584369 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"16s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '16s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.325688310471568 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"13s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '13s'
+    }
+  ]
+}
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 37/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.768110240078592 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"8s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '8s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.076513352026684 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '6s'
+    }
+  ]
+}
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 38/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1383401101312822 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '1s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9897610906569057 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"58s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '58s'
+    }
+  ]
+}
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 39/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.470501858028186 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"54s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '54s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.782118237189144 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '51s'
+    }
+  ]
+}
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 40/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.393094519581882 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"46s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '46s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9971076640560295 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '43s'
+    }
+  ]
+}
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 40 papers
-Removed duplicates: 535 -> 506
-Total papers after merging: 506 (495 existing + 40 new)
-Saved 506 papers to papers.json
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0546363099116283 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '39s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.161515695930073 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '36s'
+    }
+  ]
+}
+Translation completed: 50 papers
+Removed duplicates: 556 -> 518
+Total papers after merging: 518 (506 existing + 50 new)
+Saved 518 papers to papers.json
 Generating HTML files...
-Generating index.html with 506 papers...
+Generating index.html with 518 papers...
 Successfully generated index.html
-Generating archive.html with 506 papers...
+Generating archive.html with 518 papers...
 Successfully generated archive.html
-Generating journal.html with 506 papers...
+Generating journal.html with 518 papers...
 Successfully generated journal.html
-Generating acquisition.html with 506 papers...
+Generating acquisition.html with 518 papers...
 Successfully generated acquisition.html
-Generating publication.html with 506 papers...
+Generating publication.html with 518 papers...
 Successfully generated publication.html
-Generating registration.html with 506 papers...
+Generating registration.html with 518 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 506
-New papers processed: 40
+Total papers in database: 518
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-08T15:34:55.189Z
+Timestamp: 2025-07-09T15:35:25.348Z
