@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-10T15:12:33.785Z
+Timestamp: 2025-07-11T15:11:54.868Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 518 existing papers from papers.json
+Loaded 528 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -425,6 +426,16 @@ Fetched papers from Springer: [
     journal: 'Computational Science and Its Applications – ICCSA 2025 Workshops'
   },
   {
+    id: '10.1007/978-981-96-8892-0_8',
+    title: 'Teaching Practices and Effectiveness Assessment of AI Courses Assisted by Large Language Models',
+    summary: "This study explores the transformative potential of integrating Artificial Intelligence (AI) into educational frameworks, focusing on the development and implementation of ViTA (Virtual Teaching Assistant), which is powered by OpenAI's GPT-4. Motivated by the need to enhance interactive learning and improve the relevance of course content delivery, ViTA is designed to provide real-time, adaptive support tailored to a course on machine learning and natural language processing. The deployment of ViTA aims to revolutionize student engagement and learning processes by offering intelligent, context-aware interactions. Utilizing a structured methodological approach, the impact of ViTA on student learning experiences was evaluated through surveys conducted before and after the course integration. These assessments focused on key areas such as student engagement, problem-solving accuracy, and the relevance of AI-generated responses to the curriculum. Statistical analyses using methods like the Wilcoxon Signed Rank Test and McNemar Test revealed that ViTA significantly improved learning efficiency and student interactivity. Despite the benefits observed, instances of response irrelevance highlighted the ongoing need to refine AI tools to better align with educational objectives. This study not only confirms the effectiveness of AI-driven virtual assistants in enhancing educational outcomes but also proposes continued advancements and deeper integration of AI technologies to enrich diverse learning environments.",
+    published: '2026-01-01',
+    authors: [ 'Chang, Shih-Chuan', 'Chang, Yung-Chun' ],
+    categories: [ undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Advances and Trends in Artificial Intelligence. Theory and Applications'
+  },
+  {
     id: '10.1007/978-3-031-98033-6_5',
     title: 'The Effectiveness of 3D Virtual Environments for BPMN Teaching: A Quasi-Experimental Study',
     summary: 'Traditional Business Process Model and Notation (BPMN) diagrams, being static and highly abstract, often hinder comprehension, particularly for novice designers and students. This can lead to misinterpretations and process inefficiencies. In this study, we investigate whether immersive three-dimensional (3D) virtual environments can enhance the understanding of BPMN models. We developed a virtual reality (VR)-based BPMN visualization tool and conducted a quasi -experiment with 48 academic and professional participants, who interacted with a 3D BPMN model using Google Cardboard and a joystick. Participants completed comprehension tasks before and after the VR experience. The results show significant improvements in understanding and engagement, suggesting that immersive virtual reality can be a valuable educational tool for BPMN learning. This study contributes empirical evidence supporting the integration of 3D environments in process modeling education, offering benefits for both academic and professional training.',
@@ -544,219 +555,197 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Zeitschrift für Bildungsforschung'
-  },
-  {
-    id: '10.1007/s40299-024-00966-8',
-    title: 'Supplementation Matters: Academic Impact of an Afterschool Tutoring Program in Timor-Leste',
-    summary: 'Students in Timor-Leste face low educational outcomes due to sociopolitical factors rooted in the nation’s colonial history. This study evaluates the academic impact of a low-resource afterschool supplementary tutoring program designed to address learning gaps and improve school outcomes across rural and urban settings. Using instructional design principles, the program employed worksheet-based individualized learning content in a familiar language, supported by personalized feedback. Pre- and post-test scores in mathematics and English were compared over 7 months between an intervention group and a comparison group, with results analyzed using a Welch t test. Findings revealed statistically significant improvements in both subjects, with greater gains in mathematics, suggesting an opportunity to explore alternative methods for English instruction, such as incorporating social interactions to support early learners. The study highlights the importance of community support, tutors’ capabilities, and their residence within local neighborhoods in sustaining the program. These results demonstrate the potential of well-structured afterschool programs to enhance educational outcomes in low-resource contexts, offering a scalable model for similar initiatives in emerging nations.',
-    published: '2025-08-01',
-    authors: [ 'Yazdani, Naisan' ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'The Asia-Pacific Education Researcher'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40636999',
-    title: 'Dietary Inflammatory Index: is it really associated with postmenopausal symptoms?',
-    abstract: 'OBJECTIVE: Diet significantly modulates immunological responses and can impact climacteric symptoms. This study evaluated the association between Dietary Inflammatory Index (DII) scores and climacteric symptoms in postmenopausal women.\n' +
-      "METHOD: The study was conducted with postmenopausal women between May and July 2024. A face-to-face questionnaire including demographic characteristics, the Menopause Rating Scale (MRS) and the Kupperman Menopausal Index (KMI) was administered. The DII score was computed based on dietary data. Anthropometric measurements were based on participants' self-reports. The data were analyzed using SPSS 24.0.\n" +
-      'RESULT: s: In total, 193 postmenopausal women were recruited. Participants in T3, who had the highest DII scores and thus followed the most pro-inflammatory diets, had higher MRS and KMI scores, with significant differences between the groups ( < 0.001 and  = 0.033, respectively). T3 had higher intakes of energy and total fat ( = 0.018 and  = 0.030, respectively) but lower intakes of n-3 fatty acids ( = 0.038). Multivariate linear regression analysis revealed that moderate to high DII scores correlated with elevated MRS scores (odds ratio 1.100,  < 0.001 and 1.106,  < 0.001, respectively). After adjusting for age, marital status, education, employment, physical activity, year of menopause, supplement use and socioeconomic status, the results remained consistent.\n' +
-      'CONCLUSION: A pro-inflammatory diet might be associated with higher symptoms. Further studies are needed to confirm these findings.',
-    published: '2025-Jul-10',
-    authors: [ 'Bayram Hatice Merve', 'Gürbüz Murat' ],
-    journal: 'Climacteric : the journal of the International Menopause Society',
-    doi: '10.1080/13697137.2025.2524174',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636999/'
-  },
-  {
-    id: '40636977',
-    title: 'Alarm Fatigue and Stress Among Critical Care Nurses in Saudi Arabia: A Cross-Sectional Study.',
-    abstract: 'BACKGROUND: Alarm fatigue and stress among critical care nurses (CCNs) are critical issues that can adversely affect both nurse well-being and patient care.\n' +
-      'AIM: This study aimed to assess alarm fatigue and stress levels among CCNs in Eastern Saudi Arabia, explore the relationship between these factors and identify significant demographic predictors.\n' +
-      'STUDY DESIGN: A descriptive cross-sectional design was employed. The study involved 205 CCNs. Data were collected using a self-administered online questionnaire that included the Alarm Fatigue Scale (AFS) and the Perceived Stress Scale (PSS).\n' +
-      'RESULTS: The mean overall AFS score was 24.68 (standard deviation, SD = 6.79) out of 52, indicating a moderate level of alarm fatigue. Approximately 58.5% of nurses experienced average alarm fatigue, while 11.7% reported high alarm fatigue. The mean overall PSS score was 21.4 (SD = 4.6) out of 40, indicating moderate stress. A total of 84.4% of nurses experiencing moderate stress, while 9.8% reported high stress. A weak, non-significant negative correlation was observed between alarm fatigue and stress (r = -0.131, p = 0.061). Regression analysis revealed that years of experience, age and educational level were significant predictors of alarm fatigue, with nurses aged 40 and above, those with diplomas and those with 1-5 years of experience reporting higher alarm fatigue. Additionally, nurses who reported recent stress and those with lower alarm fatigue levels showed significantly higher perceived stress.\n' +
-      'CONCLUSION: The study reveals that moderate to high levels of alarm fatigue and stress are prevalent among CCNs, with key predictors including clinical experience, age, education level and recent exposure to stress.\n' +
-      'RELEVANCE TO PRACTICE: The study findings highlight the need for regular training on alarm management and stress reduction, investment in advanced monitoring systems to minimize false alarms and clear institutional protocols for alarm escalation. Stress management programmes, including mental health support and resilience workshops, are recommended to enhance nurse well-being and improve patient care outcomes.',
-    published: '2025-Jul',
+    id: '40642814',
+    title: 'Impact of trainee participation on pediatric endoscopy quality indicators and faculty compensation.',
+    abstract: 'No abstract available',
+    published: '2025-Jul-11',
     authors: [
-      'Alnaimi Nouf Almal Abdullah',
-      'Komsan Fayza Ahmed',
-      'Alameri Rana',
-      'Alsoyan Afnan'
+      'Huang Jeannie S',
+      'Choi Lillian',
+      'Lightdale Jenifer R',
+      'Lin Tom K',
+      'Walsh Catharine M'
     ],
-    journal: 'Nursing in critical care',
-    doi: '10.1111/nicc.70108',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636977/'
+    journal: 'Journal of pediatric gastroenterology and nutrition',
+    doi: '10.1002/jpn3.70133',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642814/'
   },
   {
-    id: '40636965',
-    title: 'Asserting Indigenous Academic Sovereignty Through Assemblage, Indigenization, and Cultural Safety.',
-    abstract: 'Colonial academic institutions systematically marginalize Indigenous scholars and devalue Indigenous knowledge systems by privileging methodologies, epistemologies, and structures rooted in White-dominant cultural norms. This exclusion is a structural feature of what this paper terms . These systems persist in nursing education and research due to tenure and promotion criteria, Institutional Review Board protocols, publishing standards, and the underrepresentation of Indigenous faculty. These mechanisms function to suppress relational, land-based, and community-driven approaches fundamental to Indigenous ways of knowing. Focusing on nursing academia, we explore how Indigenous scholars can resist these systemic barriers through three interconnected strategies: assemblage, Indigenization, and cultural safety. We share how these strategies are applied across nursing education, research, and policy, enabling scholars to assert knowledge sovereignty while navigating institutional constraints. Assemblage allows for the selective incorporation of colonial tools into Indigenous frameworks. Indigenization aims to restructure institutions through Indigenous governance, ethics, and pedagogy. Cultural safety ensures these transformations are accountable to Indigenous communities. Together, these strategies challenge epistemic injustice and offer a model for transforming colonial institutions from within. By illustrating how Indigenous scholars lead these efforts, this paper contributes to global conversations on decolonization in health sciences and higher education.',
-    published: '2025-Jul-10',
+    id: '40642765',
+    title: 'Fentanyl demand and seeking in female rats: Role of the orexin system and estrous cycle.',
+    abstract: 'The orexin system plays a major role in drug reward. Orexin-1 receptor (OxR1) blockade reduces fentanyl demand in males. However, there are a number of sex differences in the orexin system, and it is unclear how OxR1 antagonism would decrease fentanyl demand in females. Furthermore, the relationships between the estrous cycle and fentanyl intake are yet to be delineated. Here, we conducted a behavioral economics (BE) procedure in female rats to assess the effects of the OxR1 antagonist SB-334867 on fentanyl demand before and after short-(ShA), long- (LgA) or intermittent-access (IntA) self-administration of fentanyl; we also tested the effect of SB-334867 on cued reinstatement of fentanyl seeking. Finally, we measured the impact of the estrous cycle on fentanyl demand, intake and seeking. Results showed that in females SB-334867 did not consistently modulate demand for fentanyl before or after chronic access periods. However, SB-334867 at 30mg/kg reduced the number of active lever presses during cued-reinstatement of fentanyl seeking. We also found that fentanyl self-administration disrupted estrous cyclicity, in particular proestrus epochs, an effect that depended on short versus chronic access. Furthermore, extended access to fentanyl shifted the role of progesterone from facilitation of fentanyl demand during short periods, to attenuation of fentanyl demand after long term exposure. These results indicate that an orexin-based therapy in women for treating opioid use disorder must consider prior drug history as well as cycle phase.',
+    published: '2024-Dec',
     authors: [
-      'Torris-Hedlund Morgan A',
-      'Palakiko Donna-Marie',
-      'Komene Ebony'
+      'De Sa Nogueira David',
+      'Corwin Chuhyon',
+      'Rakholia Yogesh',
+      'Punnuru Varnitha',
+      'Nampally Meghana',
+      'Kohtz Amy S',
+      'Aston-Jones Gary'
     ],
-    journal: 'Creative nursing',
-    doi: '10.1177/10784535251357218',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636965/'
+    journal: 'Addiction neuroscience',
+    doi: '10.1016/j.addicn.2024.100178',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642765/'
   },
   {
-    id: '40636960',
-    title: 'Predictors of Neurodevelopmental and Mental Health Diagnoses in Congenital Heart Disease: A Danish Population-Based Cohort Study.',
-    abstract: 'BACKGROUND: Over 35% of Danish children with congenital heart disease (CHD) are diagnosed with or treated for a neurodevelopmental or mental health condition. We examined child clinical, parent socioeconomic, and family health factors associated with 4 common diagnostic groups in children with CHD: developmental disorders, intellectual disability, attention-deficit/hyperactivity disorder, and anxiety and mood disorders.\n' +
-      'METHODS: This population-based cohort study identified children aged <18 years with CHD from 1996 to 2017 by linking individual-level data across Danish health and social registries, excluding children with a neurodevelopmental or mental health diagnosis, by  codes, before the index date (ie, CHD diagnosis). Using age as a time scale, we computed cumulative incidence by the age of 18 years, incidence rates, and crude and adjusted hazard ratios for each diagnostic group. Hazard ratios were adjusted for child sex and year of CHD diagnosis. In addition, cumulative days in hospital were adjusted for CHD complexity.\n' +
-      'RESULTS: In 16 473 children with CHD (male, 50.9%; median age at index date, 0.1 [interquartile range, 0.0-1.3] years), the cumulative incidence by the age of 18 years was 7.5% (95% CI, 7.0%-8.1%), 5.0% (95% CI, 4.6%-5.5%), 5.8% (95% CI, 5.3%-6.3%), and 10.3% (95% CI, 9.6%-11.1%) for these 4 diagnostic groups, respectively. Cumulative days in hospital within the first year after CHD diagnosis were the strongest clinical predictor of neurodevelopmental and mental health diagnoses, followed by sex, the presence of a genetic syndrome, and small for gestational age birthweight. Multiple socioeconomic metrics, including maternal or paternal age <25 years, low education (9-10 years), unemployment, and maternal marital status (eg, single or divorced), were predictors, particularly for attention-deficit/hyperactivity disorder and intellectual disability. Maternal and paternal mental health diagnoses were predictors of all 4 diagnostic groups.\n' +
-      'CONCLUSIONS: We identified clinical, socioeconomic, and parent mental health factors associated with neurodevelopmental and mental health diagnoses in children with CHD. These data may inform early identification of these conditions and guide prevention and resource allocation.',
-    published: '2025-Jul-10',
-    authors: [
-      'Miles Kimberley G',
-      'Gal Dana B',
-      'Farkas Dóra Körmendiné',
-      'Laugesen Kristina',
-      'Sørensen Henrik Toft',
-      'Kasparian Nadine A',
-      'Madsen Nicolas L'
-    ],
-    journal: 'Circulation. Cardiovascular quality and outcomes',
-    doi: '10.1161/CIRCOUTCOMES.125.011944',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636960/'
+    id: '40642756',
+    title: 'Progressive Retinal Degeneration and Juvenile Nephronophthisis in a Patient with Autosomal Recessive Ciliopathy: A Case Report.',
+    abstract: 'INTRODUCTION: Inherited retinal diseases, particularly ciliopathies, often lead to irreversible blindness and are frequently accompanied by systemic manifestations such as nephronophthisis. Current treatment options are limited, necessitating the exploration of supplementary strategies to slow disease progression.\n' +
+      'CASE PRESENTATION: We present a rare case from a retinal surgery clinic involving a 30-year-old male with autosomal recessive retinitis pigmentosa (ARRP) and juvenile nephronophthisis. Comprehensive ocular and genetic evaluations were conducted, followed by the implementation of nutritional interventions aimed at mitigating multi-systemic effects. Genetic testing revealed pathogenic variants in , , and  genes, confirming the diagnosis of ARRP. Nutritional strategies, including omega-3 fatty acids, antioxidants, and tailored dietary modifications for renal health, were integrated alongside standard medical care. These interventions contributed to the stabilization of retinal degeneration and improved management of end-stage renal disease.\n' +
+      'CONCLUSION: Integrating personalized nutritional strategies into the management of ciliopathies can enhance patient out-comes by addressing both ocular and systemic manifestations. These findings underscore the need for policy development around nutritional education and support for patients with inherited ciliopathies.',
+    published: '2025',
+    authors: [ 'Pericak Jakob M', 'Chin Eric K', 'Almeida David R P' ],
+    journal: 'Case reports in ophthalmology',
+    doi: '10.1159/000543419',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642756/'
   },
   {
-    id: '40636942',
-    title: 'Development of a pain management competency assessment for physiotherapy students: Integrating simulation and written assessments.',
-    abstract: 'INTRODUCTION: Chronic pain is a global challenge resulting in substantial healthcare costs. Despite its prevalence, gaps in pain management education persist across health professions education programs. Developing an assessment to evaluate student competency in pain management is essential to identify and address the potential impact of these disparities on learning outcomes. This study describes the development and initial evaluation of the Pain Education in Physiotherapy (PEP) competency assessment, aimed at assessing student level of competency in pain management across entrylevel physiotherapy (PT) programs.\n' +
-      "METHODS: The assessment was developed using the DeVellis process, incorporating integrated knowledge translation principles and ongoing partner engagement. A steering group guided the creation of case-based multiple choice questions (MCQs) and simulation-based stations to assess competencies for pain management at different levels of Miller's Pyramid. Initial evidence supporting the validity argument was gathered from PT students in their final semester of education ( = 146 for MCQs;  = 53 for simulations).\n" +
-      'RESULTS: Twenty-eight MCQ items and three simulation-based stations were selected. The MCQ component showed moderate internal consistency (α = 0.65), and the simulation-based assessments demonstrated moderate internal consistency (α = 0.63) with good interrater reliability (ICC range: 0.73-0.86).\n' +
-      'DISCUSSION: The PEP assessment incorporates case-based MCQs and simulation-based assessment stations to address critical interpersonal skills such as communication and empathy, often overlooked in traditional written assessments. This approach fills gaps in pain management education and provides a more comprehensive assessment tailored to PT needs.\n' +
-      'CONCLUSION: This assessment represents an important advancement in the assessment of pain management competencies. Its rigorous development process, partner engagement, and promising initial evaluation underscore its potential to identify gaps in pain education and help improve outcomes related to PT education.',
+    id: '40642754',
+    title: 'Engaging patients and their caregivers in research to improve evidence-based, patient-centered and equitable care for chronic limb-threatening ischemia and advanced peripheral artery disease.',
+    abstract: 'Chronic limb-threatening ischemia (CLTI) is the end stage of advanced peripheral artery disease (PAD), a condition that is estimated to affect more than 200 million individuals globally. CLTI poses significant risks to many patients, particularly those from underserved populations (e.g., racial/ethnic minorities, low-income individuals, and rural populations) who experience significant disparities in care and outcomes, including higher rates of amputation, reduced quality of life, and lower survival rates. In 2021, the non-profit Foundation to Advance Vascular Cures, with support from the Patient Centered Outcomes Research Institute (PCORI), created a working group made up of patients, caregivers, researchers, industry experts, and non-profit advocates to develop a roadmap to increase patient engagement in CLTI research. Following a literature review, the working group used surveys, interviews, collaborative discussions, and focus groups to gain information from multiple stakeholder groups over a two-year period. This project built capacity on education and learning with the key observations presented. Our observations include: (1) early engagement of patients and caregivers in the research process improves the study design and enables more meaningful research; (2) frequent interpersonal contact paired with targeted, minimally burdensome education in research and disease increases meaningful engagement of patients with CLTI and their caregivers; (3) building trust between patients, caregivers, and researchers is essential to the success of these initiatives; (4) qualitative research complements quantitative results because it can lead to a nuanced understanding of patient experiences, goals, and perspectives; and (5) patients and caregivers are more likely to engage when research-related information is easy to access and has low burden in terms of time and resources. These observations underscore the need for stakeholder input to research design as well as the plans of funders and investigators in this field. Stakeholders noted the particular need for outreach to traditionally underrepresented and underserved populations, with whom more research is needed to meaningfully address health disparities.',
     published: '2025',
     authors: [
-      'Augeard Nathan',
-      'Miller Jordan',
-      'Bostick Geoff',
-      'St-Onge Christina',
-      'Tousignant-Laflamme Yannick',
-      'Hudon Anne',
-      'Walton David',
-      'Singer Lesley',
-      'Cooper Lynn',
-      'Bussières André',
-      'Thomas Aliki',
-      'Perreault Kadija',
-      'Tupper Susan',
-      'Carlesso Lisa C',
-      'Stilwell Peter',
-      'Amari Fatima',
-      'Varette Kevin',
-      'Ashton-James Claire',
-      'Wideman Timothy H'
+      'Bjork Isabel',
+      'Weissler Hope',
+      'Herath Thilini',
+      'Patterson Megan',
+      'Patel Rhusheet',
+      'Geraghty Patrick',
+      'Menard Matthew',
+      'Corriere Matthew',
+      'Minc Samantha',
+      'Armstrong David G',
+      'Shalhub Sherene',
+      'Patel Manesh',
+      'Conte Michael S'
     ],
-    journal: 'Canadian journal of pain = Revue canadienne de la douleur',
-    doi: '10.1080/24740527.2025.2512728',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636942/'
+    journal: 'JVS-vascular insights',
+    doi: '10.1016/j.jvsvi.2025.100222',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642754/'
   },
   {
-    id: '40636940',
-    title: 'Patient-Centered Care in Family Medicine: Strategies for Continuity and Comprehensive Care for Older Adults - A Mixed-Methods Study.',
-    abstract: 'INTRODUCTION: Patient-centered care (PCC) is a crucial approach in family medicine, particularly for older adults with complex health needs. This study evaluates the implementation of PCC strategies and their impact on health outcomes for older adults in family medicine settings.\n' +
-      'METHODS: A convergent parallel mixed-methods study was conducted, involving 47 healthcare providers and 126 older adult patients in Riyadh, Saudi Arabia. Quantitative data were collected using structured surveys, while qualitative data were obtained through semi-structured interviews. Statistical analyses included chi-square tests, ANOVA, and effect size calculations to assess the impact of PCC strategies.\n' +
-      'RESULTS: Healthcare providers identified continuity of care programs (48.9%) and patient education (44.7%) as the most effective PCC strategies. Key challenges included time constraints (74.5%) and lack of resources (59.6%). Patients in the high PCC implementation group demonstrated significantly better health outcomes, including lower hospital readmission rates (15.9% vs 36.5%, p=0.002), improved chronic disease management (87.3% vs 66.7%, p=0.014), higher adherence to care plans (82.5% vs 60.3%, p=0.008), and increased patient satisfaction scores (mean 4.6 vs 3.9, p=0.001). Qualitative findings highlighted key themes, including communication challenges, patient empowerment, and the role of multidisciplinary teams.\n' +
-      'DISCUSSION: PCC strategies significantly enhance health outcomes and patient satisfaction among older adults in family medicine. However, implementation barriers such as time constraints, resource limitations, and coordination challenges must be addressed. The study underscores the need for systemic healthcare reforms to improve PCC delivery.\n' +
-      'CONCLUSION: This study highlights the benefits of PCC in improving patient outcomes and satisfaction while identifying barriers that must be addressed for effective implementation. Greater investment in PCC initiatives, improved healthcare coordination, and professional training are essential to enhancing care quality for older adults.',
-    published: '2025',
+    id: '40642730',
+    title: 'Awareness of Heart Attack Symptoms and Risk Factors Among the Elderly in Rural Chennai: A Cross-Sectional Study.',
+    abstract: "Aims and objectives Myocardial infarction (MI) remains a leading cause of mortality and morbidity globally. Timely recognition of symptoms, and understanding of associated risk factors, are critical for early intervention and improved outcomes. However, awareness levels - particularly among the elderly in rural regions - remain poorly studied. This study aimed to assess the awareness of heart attack symptoms and risk factors among the elderly population in rural Chennai. Methodology A cross-sectional study was conducted among 384 individuals, aged 60 years and above, in the rural field practice area of Medavakkam, under Madras Medical College, Chennai, India. An interviewer-administered questionnaire assessed knowledge of 9 symptoms and 11 risk factors associated with MI. Awareness scores were calculated based on participants' spontaneous and prompted responses. Results The mean age of participants was 65 years. Chest pain (248, or 64.58%) and breathlessness (176, or 45.83%) were the most recognized symptoms, while neck pain (12, or 3.12%) was the least known. Among risk factors, hypertension (182, or 47.4%) and stress (178, or 46.35%) were most identified, whereas high salt intake (22, or 5.73%) and obesity (26, or 6.77%) were least known. The average awareness score for symptoms was 5.56, for risk factors, 7.61, and the total knowledge score was 13.18 out of 20. Conclusion The study reveals significant gaps in awareness of heart attack symptoms and risk factors among the rural elderly. These findings underscore the urgent need for community-based health education and preventive strategies, tailored to this vulnerable demographic, to enhance early recognition and reduce MI-related morbidity and mortality.",
+    published: '2025-Jun',
     authors: [
-      'Alodhialah Abdulaziz M',
-      'Almutairi Ashwaq A',
-      'Almutairi Mohammed'
+      'Adalarasan Sahasyaa',
+      'Balasubramani Kanika',
+      'Sathiyamurthy Nithyashree',
+      'Karthikeyan Vedasree',
+      'Subramaniam Sudharshini'
     ],
-    journal: 'Clinical interventions in aging',
-    doi: '10.2147/CIA.S513624',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636940/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85692',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642730/'
   },
   {
-    id: '40636937',
-    title: "Making their minds up: flux and stability in young children's career aspirations in North East England.",
-    abstract: "School career information advice and guidance in England has typically focused on pupils aged 13-18. However, pupils aged under 11 have already formed career aspirations. Career aspirations are used as a proxy for future occupational destinations. This study tracks the individual career aspirations over 3 years for 78 children aged 7-9 at the start of study, from three schools in the North East England taking part in a STEM outreach project. The data are also used to explore the applicability of aspiration development frameworks for younger children. The majority of children were able to name at least one career aspiration with nearly 70% naming more, although these aspirations were drawn from a relatively narrow pool of jobs related to children's interests and jobs they see around them. 38% of the children had the same aspiration over time, but 60% of children changed their careers aspirations completely over the 3 years of the study. Career aspirations were strongly gendered, with boys naming a smaller pool of jobs most often. Between 2019 and 2021, there was an increase in STEM aspirations named by boys, and a decrease by girls. Thematic analysis of the reasons given for different aspirations identified four themes: self-actualisation, altruism, characteristics of the job, and role models. These themes were related to the aspiration frameworks. This study shows that there is both flux and stability in children's aspirations between the ages of 7 and 11. The gendered career choices at both time points indicate that there is a need for educators to challenge stereotypes about who can do what type of job from a much earlier age. All aspirations were drawn from a relatively small pool of job suggesting that introducing children to a wider range of jobs at an earlier age could support development of aspirations.",
-    published: '2025',
-    authors: [ 'Davenport Carol', 'Padwick Annie' ],
-    journal: 'Humanities & social sciences communications',
-    doi: '10.1057/s41599-025-05364-z',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636937/'
+    id: '40642722',
+    title: 'Assessment of Time in Therapeutic Range (TTR) in a Primary Care Warfarin Clinic.',
+    abstract: "Background Anticoagulation is commonly used to prevent thromboembolic events. Warfarin is a cost-effective, widely used anticoagulant that requires close monitoring due to its narrow therapeutic index. Time in therapeutic range (TTR) is a measure of international normalized ratio (INR) control. Using a retrospective approach, we evaluated the TTR of patients using warfarin for anticoagulation in our state-owned urban primary care clinic.  Methods We conducted a retrospective chart review of adult patients on warfarin therapy followed at an urban Level 1 trauma center's ambulatory clinic from January to December 2024. Patients with at least two contiguous INR visits over a two-month period were included. Data on warfarin dosing, INR values, anticoagulation visit history, and demographics were extracted from the electronic medical record. The primary outcome was TTR, calculated using the traditional method. Statistical analysis was performed using R-studio. Results Overall, 103 patients were analyzed in our clinic. The average TTR was 46.7% for this population. Around 17.5% of patients had a TTR >70%, and 30.1% had a TTR >60%. Approximately 29.1% of patients presented with high bleeding risk (INR >4.5) at least once during the measured time period, with 5.8% of patients requiring ED visits for significant elevations in INR. Variables such as gender, age, and insurance status did not significantly contribute to measured TTR.  Conclusions The average TTR of our patient population was suboptimal. These findings highlight the need for more targeted quality improvement efforts to enhance anticoagulation management in our primary care clinic. Further evaluation of our current protocol with the help of pharmacists and the enhancement of patient education may be beneficial in achieving this goal.",
+    published: '2025-Jun',
+    authors: [ 'Viswanathan Divya', 'Sivanandam Abiram', 'De Silva Piyumika' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85653',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642722/'
   },
   {
-    id: '40636892',
-    title: 'Health-related quality of life findings from the Faroe Islands FIT FIRST FOR ALL school-based physical activity study.',
-    abstract: "INTRODUCTION: This study evaluated the FIT FIRST FOR ALL program's effects on health-related quality of life (HRQOL) among Faroese schoolchildren aged 7-16 years during a 10-week school-wide intervention.\n" +
-      'METHODS: A non-randomized controlled design included 360 pupils from an intervention (INT,  = 179) and a control school (CON,  = 181). The INT group participated in 3 weekly 40-minute physical activity sessions over 10 weeks. HRQOL was assessed using KIDSCREEN-52, and changes were analyzed using linear mixed-effects models.\n' +
-      "RESULTS: A significant Time × Group interaction ( = 0.002) showed a 7% improvement in INT pupils' physical well-being, particularly among boys (8% increase,  < 0.001) and the youngest age group (7% increase,  = 0.006). No significant changes were observed in other HRQOL dimensions.\n" +
-      'DISCUSSION: The FIT FIRST FOR ALL program improved physical well-being, particularly among boys and younger age groups, showcasing its potential to influence selected dimensions of HRQOL through structured school-based physical activity. These findings suggest that tailoring the program to specific age and gender groups could further strengthen its scalability and effectiveness across diverse school settings.',
-    published: '2025',
+    id: '40642714',
+    title: 'A Cross-Sectional Study to Assess the Healthcare-Seeking Behaviour of Tribal Communities in a District of Maharashtra.',
+    abstract: 'Introduction Tribal populations in India face longstanding barriers to accessing formal healthcare due to economic, geographic, and cultural constraints. This study assessed the healthcare-seeking behaviour of tribal households in Palghar district, Maharashtra, and examined associated determinants. Methods A community-based cross-sectional study was conducted from August 2023 to March 2024 using multistage cluster random sampling in eight tribal villages located within a 25 km radius of the district hospital. A total of 80 households were selected, and 306 individuals were enumerated. Of these, 84 individuals (27.5%) who reported illness in the past three months were included in the analysis. Data were collected using a pretested structured questionnaire and analysed using R software (R Foundation for Statistical Computing, Vienna, Austria). Chi-square tests were applied to assess associations between healthcare-seeking behaviour and independent variables. Results Only 25 (29.8%) of the ill individuals sought formal healthcare, while 29 (34.5%) accessed informal providers, and 30 (35.7%) took no action. Among all variables analysed, only perceived severity of illness was significantly associated with formal healthcare utilization. Formal care was accessed by 13 of 14 (92.9%) individuals who perceived their illness as severe, compared to 11 of 40 (27.5%) with moderate and five of 30 (16.7%) with mild perception. No significant associations were found with age, gender, education, number of symptoms, or timing of illness. Conclusion The study highlights low formal healthcare utilization and a strong influence of perceived illness severity on care-seeking behaviour. Continued reliance on spiritual healers and non-action reflects persistent cultural and structural barriers. Interventions should include culturally sensitive health promotion, expansion of nearby healthcare services, and financial support mechanisms. Further qualitative research is needed to explore contextual factors influencing healthcare choices in tribal communities.',
+    published: '2025-Jun',
     authors: [
-      'Olsen Helgi Winther',
-      'Danielsen Bára Berghamar',
-      'Sjúrðarson Tórur',
-      'Antoft Søren',
-      'Krustrup Peter',
-      'Larsen Malte Nejst',
-      'Mohr Magni',
-      'Davidsen Annika Helgadóttir',
-      'Skoradal May-Britt'
+      'Asokan Dinesh',
+      'Gate Nita',
+      'Waghmare Rakesh',
+      'Mall Anjali',
+      'Pardeshi Geeta'
     ],
-    journal: 'Frontiers in sports and active living',
-    doi: '10.3389/fspor.2025.1533723',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636892/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85687',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642714/'
   },
   {
-    id: '40636880',
-    title: 'Health equity follows racial equity: learning the impact of historic racism through a summer reading assignment in a graduate public health course.',
-    abstract: 'Prior to a fall semester graduate course in public health, students are encouraged to complete a summer reading assignment based on a book chosen from a curated list of popular literature relevant to public health concepts. From 2020 to 2024, this assignment enabled students to explore the history of structural and systemic racism in the United States and its impacts on current public health policy and programs. Themes from these books are woven into class discussions and further explored in subsequent course assignments. This paper describes the assignment and shares responses from the 1,141 students who completed the reading assignment as well as responses to subsequent assignments completed by the 1,464 students enrolled in the course. Scaffolding of complex and for some students challenging subjects facilitates a deeper understanding of factors critical to understanding contemporary public health challenges and helps students appreciate the significance of the social economic, and political determinants of health, including racism.',
-    published: '2025',
-    authors: [ 'Petersen Donna J' ],
-    journal: 'Frontiers in public health',
-    doi: '10.3389/fpubh.2025.1601195',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636880/'
+    id: '40642703',
+    title: 'Knowledge and Attitude of the General Population Toward E-cigarette Use in Khyber Pakhtunkhwa: A Cross-Sectional Study.',
+    abstract: `Introduction Electronic cigarette (e-cigarette) use has risen markedly worldwide in recent years, raising public health concerns. E-cigarettes contain many addictive and dangerous substances, including nicotine, different flavorings, propylene glycol, vegetable glycerin, and others, making them more appealing but, at the same time, have various harmful effects on health. The available literature on e-cigarette and vape use and their adverse effects is insufficient and limited, even in developed countries, let alone in developing nations like Pakistan. This study investigates the knowledge and attitudes of the Khyber Pakhtunkhwa (KPK) population toward e-cigarette use and its adverse effects on human health. This study also disclosed the use of e-cigarettes among different age groups, genders, and socioeconomic classes. Materials and methods A cross-sectional survey was carried out from October to December 2023 after obtaining ethical approval from the Institutional Research and Ethical Review Board (IREB). The sample size of our study was 385, which was determined using Cochran's formula. Using non-probability convenience sampling, we collected data from 403 individuals. A pre-validated questionnaire from a study conducted in Karachi was adopted for our study, which had four sections. The first section dealt with demographics, the second with knowledge of using e-cigarettes, and the third and fourth with attitudes and practices around using e-cigarettes, respectively. The chi-square test was used to compare the knowledge, attitudes, and practices (KAP) of e-cigarette users with gender and level of schooling. To assess the socioeconomic status of the participants and ascertain the percentage of e-cigarette users in each socioeconomic class, we also utilized the Kuppuswamy scale, which has been authorized for use in Pakistan. Results Of those surveyed, the majority (n=340, 84.4%) knew what e-cigarettes were. Although most respondents (n=228, 56.6%) knew about the various compounds and ingredients in e-cigarettes, they had little idea about the different amounts of nicotine in them. The majority of both men and women were aware of what e-cigarettes were and the various ingredients they included; however, women learned about e-cigarettes from the Internet, and men from friends. Regarding education, a greater percentage of intermediate and bachelor's degree holders knew what an e-cigarette was and what its various parts and ingredients were. The vast majority of participants (n=216, 53.6%) expressed that they "definitely will not" try e-cigarettes, even if a close friend were to ask them to, and they did not believe they would even if their guardian approved. Most participants (n=379, 94%) would not recommend or encourage the usage of e-cigarettes. Only 38 (9.4%) participants in our study acknowledged using e-cigarettes. Conclusion This study assessed public knowledge and attitudes toward e-cigarette use. Most individuals lacked adequate knowledge, reflected in their general disapproval. Views were similar across genders, but most users were young adults from higher socioeconomic backgrounds, likely due to greater exposure to marketing and cultural norms. As the first study of its kind in Khyber Pakhtunkhwa, it highlights the need for public education and targeted regulation. Future research should explore the role of e-cigarettes in smoking cessation, usage patterns across demographics, and the impact of marketing on youth.`,
+    published: '2025-Jun',
+    authors: [
+      'Khan Muhammad Haris',
+      'Khan Muhammad Ijaz',
+      'Israr Samra',
+      'Haseeb Abdul',
+      'Ariya Fnu',
+      'Khan Muhammad Ibadullah',
+      'Amir Maryam'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85704',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642703/'
   },
   {
-    id: '40636878',
-    title: 'Health outcomes and care needs after osteoporotic fractures in rural Chinese older adults: policy implications.',
-    abstract: 'BACKGROUND: Osteoporotic fractures pose a significant public health challenge among the older adult in rural settings with limited healthcare access. This study investigated the burden of osteoporotic fractures, associated care needs, and influencing factors in rural China.\n' +
-      'METHODOLOGY: A cross-sectional study was conducted from March 2022 to December 2024, involving older adult individuals aged ≥60 years from rural regions of Enshi Prefecture, Hubei Province, as well as Shandong, Henan, Yunnan, and Gansu provinces in China. Participants were recruited via community health centers, with eligibility confirmed through medical records for osteoporosis or osteoporotic fracture history. A validated 33-item questionnaire assessed demographics, family support, health status, healthcare access, and policy awareness, with logistic regression analyzing factors associated with receiving help after fractures, adjusting for confounders.\n' +
-      'RESULTS: Among a total of 3,600 participants, 58.7% reported osteoporotic fractures, with 50.2% experiencing life impact, strongly linked to recent falls (93.2%,  < 0.001). Socioeconomic disparities were evident, with insured individuals (OR 2.18, 95% CI 1.95-2.40,  < 0.001) and homeowners (OR 2.65, 95% CI 2.40-2.90,  < 0.001) more likely to receive help after fractures. Low policy awareness - defined as < 3 correct answers on a (0-6) Rural Health-Policy Knowledge Index - (OR 0.22, 95% CI 0.15-0.30,  < 0.001), and a high need for government support (90.1%) highlighted barriers to care. Medical interventions, including supplement use (OR 5.07, 95% CI 4.80-5.35,  < 0.001) and osteoporosis treatment (OR 4.51, 95% CI 4.32-4.73,  < 0.001), were significantly associated with increased odds of receiving help following osteoporotic fractures. Family support dynamics showed variability, with children helping after fracture reducing formal care access (OR 0.79, 95% CI 0.65-0.95,  = 0.013).\n' +
-      'CONCLUSION: Osteoporotic fractures impose a substantial burden on rural Chinese older adult, exacerbated by socioeconomic disparities and low policy awareness. Enhancing insurance coverage, health education, and access to medical interventions is critical to address care inequities and improve outcomes.',
-    published: '2025',
-    authors: [ 'Zhu Qian', 'Ran Caixia' ],
-    journal: 'Frontiers in public health',
-    doi: '10.3389/fpubh.2025.1601892',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40636878/'
+    id: '40642682',
+    title: 'Association Between Severity of COVID-19 Infection and Persistent Dyspnea in Recovered Adults: A Cross-Sectional Study.',
+    abstract: "Introduction The COVID-19 pandemic has led to a high number of survivors with persistent symptoms, such as dyspnea, long after recovery. It is important to understand the association between the severity of the initial COVID-19 infection and the persistence of dyspnea to guide patient management and rehabilitation planning. Methods This cross-sectional analysis involved adult patients who had recovered from laboratory-confirmed COVID-19 infection. Patients were stratified into groups by the severity of their acute infection (mild, moderate, severe) based on the WHO Clinical Progression Scale. Persistent dyspnea was measured with a validated dyspnea scale. Statistical analysis was conducted to examine the association between COVID-19 severity and severity of dyspnea, adjusting for potential confounders. Results A total of 385 individuals took part in the study, where 217 people (56%) fell within the 30 to 39 years age bracket, while female participants constituted 52% (200 individuals). The respondents were primarily widowed people who had received secondary education (n = 119, 31%, and n = 118, 31% respectively). A total of 141 participants were current smokers, while 145 participants reported never smoking. Among the study participants, 73 experienced asthma (19%), and hypertension affected 68 individuals (18%). The COVID-19 severity of patients spanned from mild (n = 144, 37%) to critical (n = 78, 20%), and 51% of patients received hospital care (n = 197). Research findings indicated that dyspnea symptoms and advancement in the disease are closely linked (r = 0.521, p < 0.05). People who got oxygen therapy had higher clinical scores than those who did not (p = 0.01). When comparing the ICU patients to other patients, no important differences were noticed (p = 0.05). Recovery was felt very minimally in the results. According to regression analysis, changes in the patient's clinical condition were highly associated with dyspnea, as shown by a β value of 0.521 and p < 0.001. Conclusion The intensity of COVID-19 infection strongly correlates with both the enduring nature and severity of dyspnea in adults who have recovered from the disease. Post-COVID follow-up and rehabilitation programs require strong evidence behind them to support patients who have experienced severe COVID-19 infections.",
+    published: '2025-Jun',
+    authors: [
+      'Saeed Atif',
+      'Khan Marium Nadeem',
+      'Kamran Momina',
+      'Singla Shivam',
+      'Chikkala Sri Teja',
+      'Malik Moeed Akbar',
+      'Baidoo Joseph Benjamin',
+      'Ullah Farhan',
+      'Singla Bhavna',
+      'Ali Sara',
+      'Alam Fatima'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85666',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642682/'
+  },
+  {
+    id: '40642669',
+    title: 'Assessing the Determinants of Influenza Vaccine Uptake in Malaysia: Strategies to Improve Public Health and Service Delivery.',
+    abstract: 'BACKGROUND: Although the Ministry of Health, Malaysia, has emphasized that the public receive their influenza vaccine shots, with the latest announcement of free vaccines for senior citizens in Malaysia, vaccine hesitancy has been prevalent among society and more pronounced within the public who are not involved in the fields of healthcare. The present study aims to identify the influencing factors in receiving the influenza vaccine based on the vaccine hesitancy matrix proposed by the World Health Organization (WHO).\n' +
+      'METHODS: Healthcare personnel and individuals from the non-healthcare fields were enrolled. A structured questionnaire was prepared and shared by the investigators. A mixed sampling approach was employed, initially utilizing convenience sampling, and then, a respondent-driven sampling (RDS) strategy was used to target all participants consenting to fill out the questionnaire. The participants received a soft copy regarding the importance of influenza vaccination upon completion of the questionnaire.\n' +
+      'RESULTS: The present study showed that of the 176 participants surveyed, 80 (45.5%) were not vaccine hesitant, while 96 (54.5%) had vaccine hesitancy. Vaccine hesitancy was found to be more in number among those who are not in the healthcare sector. Having been affected by influenza previously, personal risk perception and personal vaccination experiences were found to be significant influencing factors of the willingness to receive the vaccine.\n' +
+      'CONCLUSIONS: This study contributes to an increased understanding of the factors influencing the willingness to accept the influenza vaccine. Specific educational programs, academic-community partnerships, transparent doctor-patient communication, and involvement of policymakers could boost the rate of active immunization among the public. The medical staff are suggested to provide health education, improve doctor-patient communication, and recommend vaccinations to the public to increase their risk perception and willingness to get an influenza vaccination.',
+    published: '2025-Jun',
+    authors: [
+      'Manickam Prebha',
+      'Varghese Tina',
+      'Senthilvasan Suwarna',
+      'Ramesh Rubithra',
+      'Balasubramaniam Suveitra Balanei'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.85724',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40642669/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1232,15 +1221,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 38857,
+        _idleStart: 41255,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4895,
-        [Symbol(triggerId)]: 4893
+        [Symbol(asyncId)]: 4769,
+        [Symbol(triggerId)]: 4767
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1372,7 +1361,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Thu, 10 Jul 2025 15:13:12 GMT',
+      date: 'Fri, 11 Jul 2025 15:12:35 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1483,7 +1472,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Thu, 10 Jul 2025 15:13:12 GMT',
+  date: 'Fri, 11 Jul 2025 15:12:35 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1594,15 +1583,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [Timeout],
-        _idleStart: 38904,
+        _idleStart: 41313,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4914,
-        [Symbol(triggerId)]: 4912
+        [Symbol(asyncId)]: 4788,
+        [Symbol(triggerId)]: 4786
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1734,7 +1723,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Thu, 10 Jul 2025 15:13:12 GMT',
+      date: 'Fri, 11 Jul 2025 15:12:35 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1845,7 +1834,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Thu, 10 Jul 2025 15:13:12 GMT',
+  date: 'Fri, 11 Jul 2025 15:12:35 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2023,796 +2012,83 @@ Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
 Translating paper: The Role of Remote Activities in Urban Mobility in...
 Translating paper 22/50
-Translating paper: The Effectiveness of 3D Virtual Environments for B...
+Translating paper: Teaching Practices and Effectiveness Assessment of...
 Translating paper 23/50
-Translating paper: “Flipped” University: LLM-Assisted Lifelong Learni...
+Translating paper: The Effectiveness of 3D Virtual Environments for B...
 Translating paper 24/50
-Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
+Translating paper: “Flipped” University: LLM-Assisted Lifelong Learni...
 Translating paper 25/50
-Translating paper: AI as teacher: effectiveness of an AI-based traini...
+Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
 Translating paper 26/50
-Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
+Translating paper: AI as teacher: effectiveness of an AI-based traini...
 Translating paper 27/50
-Translating paper: Assessing the role of artificial intelligence in q...
+Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
 Translating paper 28/50
-Translating paper: International comparative studies in mathematics e...
+Translating paper: Assessing the role of artificial intelligence in q...
 Translating paper 29/50
-Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
+Translating paper: International comparative studies in mathematics e...
 Translating paper 30/50
-Translating paper: Supplementation Matters: Academic Impact of an Aft...
+Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
 Translating paper 31/50
-Translating paper: Dietary Inflammatory Index: is it really associate...
+Translating paper: Impact of trainee participation on pediatric endos...
 Translating paper 32/50
-Translating paper: Alarm Fatigue and Stress Among Critical Care Nurse...
+Translating paper: Fentanyl demand and seeking in female rats: Role o...
 Translating paper 33/50
-Translating paper: Asserting Indigenous Academic Sovereignty Through ...
+Translating paper: Progressive Retinal Degeneration and Juvenile Neph...
 Translating paper 34/50
-Translating paper: Predictors of Neurodevelopmental and Mental Health...
+Translating paper: Engaging patients and their caregivers in research...
 Translating paper 35/50
-Translating paper: Development of a pain management competency assess...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.771140245243742 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '39s'
-    }
-  ]
-}
+Translating paper: Awareness of Heart Attack Symptoms and Risk Factor...
 Translating paper 36/50
-Translating paper: Patient-Centered Care in Family Medicine: Strategi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.658040630035197 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '35s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2139690350062557 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '32s'
-    }
-  ]
-}
+Translating paper: Assessment of Time in Therapeutic Range (TTR) in a...
 Translating paper 37/50
-Translating paper: Making their minds up: flux and stability in young...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3773086062373197 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"27s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '27s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5586812316113865 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '25s'
-    }
-  ]
-}
+Translating paper: A Cross-Sectional Study to Assess the Healthcare-S...
 Translating paper 38/50
-Translating paper: Health-related quality of life findings from the F...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0205745598484017 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '20s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8472988990419443 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"17s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '17s'
-    }
-  ]
-}
+Translating paper: Knowledge and Attitude of the General Population T...
 Translating paper 39/50
-Translating paper: Health equity follows racial equity: learning the ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.516979140207888 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"13s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '13s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.085050974721319 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"10s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '10s'
-    }
-  ]
-}
+Translating paper: Association Between Severity of COVID-19 Infection...
 Translating paper 40/50
-Translating paper: Health outcomes and care needs after osteoporotic ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.240424117105247 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '6s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.649127311256343 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"3s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '3s'
-    }
-  ]
-}
+Translating paper: Assessing the Determinants of Influenza Vaccine Up...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0557447177786696 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"59s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '59s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.124118294417936 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '56s'
-    }
-  ]
-}
 Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5046053606468464 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"52s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '52s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0812671827848424 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"49s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '49s'
-    }
-  ]
-}
 Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9442649354954114 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '44s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7238359880786325 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"41s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '41s'
-    }
-  ]
-}
 Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.080604000170486 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"37s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '37s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2889947761232126 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"34s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '34s'
-    }
-  ]
-}
 Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3437147190059577 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"30s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '30s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4796703331187193 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"27s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '27s'
-    }
-  ]
-}
 Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.051686421060993 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"23s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '23s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6979212487825843 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '20s'
-    }
-  ]
-}
 Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.499424308676223 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"15s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '15s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8726536119773876 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"12s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '12s'
-    }
-  ]
-}
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.848202404391296 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"7s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '7s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9030104733215154 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"4s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '4s'
-    }
-  ]
-}
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.221782091449896 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"59s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '59s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3602430242272816 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '56s'
-    }
-  ]
-}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.234664600772915 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"52s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '52s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.877209365707832 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"49s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '49s'
-    }
-  ]
-}
 Translation completed: 50 papers
-Removed duplicates: 568 -> 528
-Total papers after merging: 528 (518 existing + 50 new)
-Saved 528 papers to papers.json
+Removed duplicates: 578 -> 539
+Total papers after merging: 539 (528 existing + 50 new)
+Saved 539 papers to papers.json
 Generating HTML files...
-Generating index.html with 528 papers...
+Generating index.html with 539 papers...
 Successfully generated index.html
-Generating archive.html with 528 papers...
+Generating archive.html with 539 papers...
 Successfully generated archive.html
-Generating journal.html with 528 papers...
+Generating journal.html with 539 papers...
 Successfully generated journal.html
-Generating acquisition.html with 528 papers...
+Generating acquisition.html with 539 papers...
 Successfully generated acquisition.html
-Generating publication.html with 528 papers...
+Generating publication.html with 539 papers...
 Successfully generated publication.html
-Generating registration.html with 528 papers...
+Generating registration.html with 539 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 528
+Total papers in database: 539
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-10T15:34:13.053Z
+Timestamp: 2025-07-11T15:39:57.424Z
