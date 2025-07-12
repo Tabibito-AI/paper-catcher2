@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-11T15:11:54.868Z
+Timestamp: 2025-07-12T15:10:23.280Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 528 existing papers from papers.json
+Loaded 539 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -561,190 +560,201 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40642814',
-    title: 'Impact of trainee participation on pediatric endoscopy quality indicators and faculty compensation.',
-    abstract: 'No abstract available',
+    id: '40644746',
+    title: 'Mapping economic outcomes: how biosimilars enhance access to health systems in Latin America and the Caribbean.',
+    abstract: 'Biological therapy has revolutionized the treatment landscape of complex and chronic conditions, including autoimmune diseases and cancer. However, their high costs have significantly limited patient access, particularly in low- and middle-income regions, such as Latin America and the Caribbean (LAC). As cost-effective alternatives, biosimilars have shown the potential to transform this paradigm and improve access to care. This narrative review examines the role of biosimilars in transforming health care across LAC. It highlights their potential to reduce treatment costs, expand access to essential medicines, promote market competition, and ease financial pressures on health systems. The biosimilars industry in LAC is expected to experience accelerated growth, driven by regulatory enhancements, market dynamics, investments, and a greater emphasis on education. Developing the biosimilar industry will improve health care resiliency, economic stability, and patient access throughout LAC.',
+    published: '2025-Jul-10',
+    authors: [ 'Herrán María', 'Anaya Juan-Manuel' ],
+    journal: 'Current opinion in immunology',
+    doi: '10.1016/j.coi.2025.102606',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644746/'
+  },
+  {
+    id: '40644721',
+    title: 'Neurosurgery Research & Education Foundation Medical Student Summer Research Fellowship applicant trends and impact on future career trajectory.',
+    abstract: "OBJECTIVE: The Neurosurgery Research & Education Foundation (NREF) Medical Student Summer Research Fellowship (MSSRF) is a prominent research fellowship offered to medical students. The authors investigated how gender and academic characteristics of the MSSRF applicant pool have evolved since the fellowship's inception. Likewise, they evaluated the impact of the MSSRF on career progression, scholarly productivity, and subsequent grant funding within neurosurgery.\n" +
+      "METHODS: A list of MSSRF awardees (2008-2023) and nonawardee applicants (2015-2023) was provided by the NREF. Demographic and career progression variables were obtained through publicly available platforms, and scholarly productivity metrics were collected using Clarivate Web of Science. The Fisher's exact test was used to compare categorical variables, the Mann-Whitney U-test was used to compare continuous variables, and the Mann-Kendall test was used to assess trends. Binary logistic regression was utilized to explore factors associated with matching into neurosurgery.\n" +
+      'RESULTS: A total of 297 awardees from 2008 to 2023, 183 awardees from 2015 to 2023, and 355 nonawardees from 2015 to 2023 were included. A greater percentage of awardees attended a top 20 medical school than nonawardees (p = 0.002). There was a statistically significant upward trend in the percentage of female awardees since 2010 (p = 0.01). Between 2015 and 2023, there was no difference in the percentage of awardees who matched into neurosurgery compared to nonawardees (60.5% vs 50.2%, p = 0.07), but awardees matched into better Doximity-ranked neurosurgery residency programs (p = 0.04). While there was no difference in the number of total publications or first author publications before residency between awardees and nonawardees who matched into neurosurgery since 2015, awardees had a higher h-index (5.0 vs 4.0, p = 0.03). Specifically among awardees who pursued neurosurgery since 2008, there was a statistically significant upward trend in the median number of total publications before residency (p < 0.001), first author publications (p = 0.001), and h-index (p = 0.007). Among neurosurgery attending physicians who received MSSRF awards, 64.7% practiced in an academic setting. Across academic neurosurgery attending physicians who received MSSRF awards, the ratio of NREF MSSRF award dollars to subsequent National Institutes of Health (NIH) grant funding dollars was $1:$9.05.\n' +
+      'CONCLUSIONS: The NREF MSSRF is associated with high-quality research and strong academic productivity among aspiring medical students, with a high proportion of awardees pursuing neurosurgery and matching into top-ranked residency programs. Likewise, this early-career fellowship has a substantial return on investment in terms of subsequent NIH grant funding.',
     published: '2025-Jul-11',
     authors: [
-      'Huang Jeannie S',
-      'Choi Lillian',
-      'Lightdale Jenifer R',
-      'Lin Tom K',
-      'Walsh Catharine M'
+      'Kann Michael R',
+      'Bhatia Shovan',
+      'Aizooky Taim',
+      'Pugazenthi Sangami',
+      'Huguenard Anna L',
+      'Wang Michael Y',
+      'Arthur Adam S',
+      'Agarwal Nitin',
+      'Zipfel Gregory J'
     ],
-    journal: 'Journal of pediatric gastroenterology and nutrition',
-    doi: '10.1002/jpn3.70133',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642814/'
+    journal: 'Journal of neurosurgery',
+    doi: '10.3171/2025.3.JNS241757',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644721/'
   },
   {
-    id: '40642765',
-    title: 'Fentanyl demand and seeking in female rats: Role of the orexin system and estrous cycle.',
-    abstract: 'The orexin system plays a major role in drug reward. Orexin-1 receptor (OxR1) blockade reduces fentanyl demand in males. However, there are a number of sex differences in the orexin system, and it is unclear how OxR1 antagonism would decrease fentanyl demand in females. Furthermore, the relationships between the estrous cycle and fentanyl intake are yet to be delineated. Here, we conducted a behavioral economics (BE) procedure in female rats to assess the effects of the OxR1 antagonist SB-334867 on fentanyl demand before and after short-(ShA), long- (LgA) or intermittent-access (IntA) self-administration of fentanyl; we also tested the effect of SB-334867 on cued reinstatement of fentanyl seeking. Finally, we measured the impact of the estrous cycle on fentanyl demand, intake and seeking. Results showed that in females SB-334867 did not consistently modulate demand for fentanyl before or after chronic access periods. However, SB-334867 at 30mg/kg reduced the number of active lever presses during cued-reinstatement of fentanyl seeking. We also found that fentanyl self-administration disrupted estrous cyclicity, in particular proestrus epochs, an effect that depended on short versus chronic access. Furthermore, extended access to fentanyl shifted the role of progesterone from facilitation of fentanyl demand during short periods, to attenuation of fentanyl demand after long term exposure. These results indicate that an orexin-based therapy in women for treating opioid use disorder must consider prior drug history as well as cycle phase.',
-    published: '2024-Dec',
+    id: '40644708',
+    title: 'Digital Psychosocial Interventions Tailored for People in Opioid Use Disorder Treatment: Scoping Review.',
+    abstract: 'BACKGROUND: A total of 60% of patients with opioid use disorder (OUD) leave treatment early. Psychosocial interventions can enhance treatment retention by addressing behavioral and mental health needs related to early treatment discontinuation, but intervention engagement is key. If well-designed, digital platforms can increase the engagement, reach, and accessibility of psychosocial interventions. Prior reviews of OUD treatment have predominantly focused on outcomes, such as reductions in substance use, without identifying the underlying behavior change principles that drive the effectiveness of interventions.\n' +
+      'OBJECTIVE: This scoping review aims to document and describe recent digital psychosocial interventions, including their behavior change strategies, for patients receiving medication for OUD (MOUD).\n' +
+      'METHODS: Predefined search terms were used to search Ovid, CINAHL, and PubMed databases for peer-reviewed literature published in the last 10 years. The database search resulted in 1381 relevant studies, and 16 of them remained after applying the inclusion criteria. Studies were included if they (1) evaluated a digital intervention with behavioral, psychosocial, or counseling components for people in OUD treatment and (2) were published in English in peer-reviewed journals.\n' +
+      'RESULTS: The 16 studies reviewed comprised 6 randomized controlled trials, 6 pilot studies, 2 qualitative studies, and 2 retrospective cohort studies. Smartphone apps (n=8) were the most prevalent intervention delivery method, with other studies using telemedicine (n=3), virtual reality (n=1), telephone calls (n=1), or text messaging (n=3) to deliver psychosocial interventions in either a synchronous (n=7) or asynchronous (n=9) manner. The digital interventions reviewed predominately delivered cognitive behavioral therapy education through a phone call (n=1), a text message (n=2), a smartphone app (n=7), or tele-counseling (n=1). The predominant behavior change strategies implemented were self-monitoring, feedback and reinforcement, psychoeducation, cue awareness, and providing instruction. One intervention reviewed uses the evidence base of mindfulness-oriented recovery enhancement.\n' +
+      "CONCLUSIONS: Participants in the studies reviewed indicated a preference for digital, flexible, patient-centered psychosocial interventions that emphasized improved patient-provider relationships. While randomized controlled trials comprised a significant portion of the studies, the inclusion of pilot studies and qualitative research highlights the field's ongoing exploration of feasibility and effectiveness. These findings underscore the growing role of digital health solutions in psychosocial care, though further research is needed to optimize engagement, delivery, and long-term outcomes.",
+    published: '2025-Jul-11',
+    authors: [ 'Scialanca Madison', 'Alexander Karen', 'Tofighi Babak' ],
+    journal: 'Journal of medical Internet research',
+    doi: '10.2196/69538',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644708/'
+  },
+  {
+    id: '40644692',
+    title: 'Integrating Lived Experience Into Medical Education Related to Children With Medical Complexity or Developmental Disabilities: Protocol for a Scoping Review.',
+    abstract: 'BACKGROUND: Involving people with lived experience in medical education can benefit them, their caregivers, and medical students, and may particularly impact medical education about children requiring comprehensive, individualized, multidisciplinary care, including those with medical complexity or developmental disabilities. Yet, there is no summary of how children with medical complexity or developmental disabilities, or their families or caregivers have been included in medical education for medical students, residents, and fellows. To advance the effective inclusion of lived experience in medical education related to this patient population, a synthesis of existing literature is needed.\n' +
+      'OBJECTIVE: This scoping review aims to identify and synthesize the literature on including the lived experiences of children with medical complexity or developmental disabilities and their caregivers in medical education, where in the curricular development process they are involved, and the level of engagement of people with lived experience in the process.\n' +
+      "METHODS: To complete the scoping review, MEDLINE, Scopus, PsycINFO, ERIC, Academic Search Premier, and Google Scholar were searched for studies investigating patient and caregiver involvement in medical education related to children with medical complexity or developmental disabilities. Studies involving continuing professional development or patients who are not children with medical complexity or developmental disabilities were excluded. Data will be extracted to identify the stage of curriculum development in which lived experience is included based on Kern's 6-step approach, and to examine the level of engagement in medical education of children with medical complexity or developmental disabilities, their families, or their caregivers. Data from the scoping review will be presented in tables, diagrams, or matrices to demonstrate how lived experience caring for children with medical complexity or children with developmental disabilities has been included in the 6 steps of curriculum development and to characterize the level of engagement of people with lived experience in this process. Descriptive analysis will be performed to identify the findings from the included sources pertaining to the research objective.\n" +
+      'RESULTS: Database searches were completed on April 19, 2024. In total, 4382 unique articles were identified and screened against the eligibility criteria in July 2024, resulting in 30 articles being included in the scoping review. Data extraction began in July 2024.\n' +
+      'CONCLUSIONS: Our results will identify areas of improvement for medical education pertaining to the care of children with medical complexity or developmental disabilities. The findings will support and contribute to the development of medical school curricula surrounding care for children with medical complexity and children with developmental disabilities that incorporate people with lived experience in crucial roles during curriculum development. These partnerships with people with lived experience will promote more patient- and family-centered physicians, leading to better care of children with medical complexity and children with developmental disabilities.\n' +
+      'INTERNATIONAL REGISTERED REPORT IDENTIFIER (IRRID): DERR1-10.2196/64911.',
+    published: '2025-Jul-11',
     authors: [
-      'De Sa Nogueira David',
-      'Corwin Chuhyon',
-      'Rakholia Yogesh',
-      'Punnuru Varnitha',
-      'Nampally Meghana',
-      'Kohtz Amy S',
-      'Aston-Jones Gary'
+      'Pollard Noah',
+      'Christensen Leslie',
+      'Kloster Heidi',
+      'Gerber Danielle',
+      'Chödrön Gail'
     ],
-    journal: 'Addiction neuroscience',
-    doi: '10.1016/j.addicn.2024.100178',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642765/'
+    journal: 'JMIR research protocols',
+    doi: '10.2196/64911',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644692/'
   },
   {
-    id: '40642756',
-    title: 'Progressive Retinal Degeneration and Juvenile Nephronophthisis in a Patient with Autosomal Recessive Ciliopathy: A Case Report.',
-    abstract: 'INTRODUCTION: Inherited retinal diseases, particularly ciliopathies, often lead to irreversible blindness and are frequently accompanied by systemic manifestations such as nephronophthisis. Current treatment options are limited, necessitating the exploration of supplementary strategies to slow disease progression.\n' +
-      'CASE PRESENTATION: We present a rare case from a retinal surgery clinic involving a 30-year-old male with autosomal recessive retinitis pigmentosa (ARRP) and juvenile nephronophthisis. Comprehensive ocular and genetic evaluations were conducted, followed by the implementation of nutritional interventions aimed at mitigating multi-systemic effects. Genetic testing revealed pathogenic variants in , , and  genes, confirming the diagnosis of ARRP. Nutritional strategies, including omega-3 fatty acids, antioxidants, and tailored dietary modifications for renal health, were integrated alongside standard medical care. These interventions contributed to the stabilization of retinal degeneration and improved management of end-stage renal disease.\n' +
-      'CONCLUSION: Integrating personalized nutritional strategies into the management of ciliopathies can enhance patient out-comes by addressing both ocular and systemic manifestations. These findings underscore the need for policy development around nutritional education and support for patients with inherited ciliopathies.',
+    id: '40644654',
+    title: "Psychosocial risk factors at work: perspectives of master's and doctoral students working in the health sector.",
+    abstract: 'OBJECTIVE: To analyze psychosocial risk factors related to the work of graduate students in health.\n' +
+      "METHOD: An exploratory qualitative study, with master's and doctoral students working in the health area, linked to five graduate programs of a Brazilian public higher education institution. Data collection took place between October and December 2023, using a sociodemographic, academic and professional questionnaire, and focus groups guided by a script. Deductive thematic analysis was used to interpret the data.\n" +
+      'RESULTS: Sixty-two graduate students who worked participated in the study. The following psychosocial risk factors were identified in the work context: organizational culture and function; decision-making and control; organizational changes; worker role in organization; career development; interface between work and family; interpersonal relationships; harassment and violence. In work content, factors were setting and work equipment, task planning, work workload and pace, and schedule.\n' +
+      'CONCLUSION: Training centers and work organizations should pay attention to the psychosocial risk factors to which their graduate students who work are exposed so that strategies for their management can be incorporated.',
     published: '2025',
-    authors: [ 'Pericak Jakob M', 'Chin Eric K', 'Almeida David R P' ],
-    journal: 'Case reports in ophthalmology',
-    doi: '10.1159/000543419',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642756/'
+    authors: [
+      'Cassiano Carolina',
+      'Leal Laura Andrian',
+      'Borges Elisabete Maria das Neves',
+      'Carvaho José Carlos Marques de',
+      'Henriques Silvia Helena'
+    ],
+    journal: 'Revista da Escola de Enfermagem da U S P',
+    doi: '10.1590/1980-220X-REEUSP-2025-0045en',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644654/'
   },
   {
-    id: '40642754',
-    title: 'Engaging patients and their caregivers in research to improve evidence-based, patient-centered and equitable care for chronic limb-threatening ischemia and advanced peripheral artery disease.',
-    abstract: 'Chronic limb-threatening ischemia (CLTI) is the end stage of advanced peripheral artery disease (PAD), a condition that is estimated to affect more than 200 million individuals globally. CLTI poses significant risks to many patients, particularly those from underserved populations (e.g., racial/ethnic minorities, low-income individuals, and rural populations) who experience significant disparities in care and outcomes, including higher rates of amputation, reduced quality of life, and lower survival rates. In 2021, the non-profit Foundation to Advance Vascular Cures, with support from the Patient Centered Outcomes Research Institute (PCORI), created a working group made up of patients, caregivers, researchers, industry experts, and non-profit advocates to develop a roadmap to increase patient engagement in CLTI research. Following a literature review, the working group used surveys, interviews, collaborative discussions, and focus groups to gain information from multiple stakeholder groups over a two-year period. This project built capacity on education and learning with the key observations presented. Our observations include: (1) early engagement of patients and caregivers in the research process improves the study design and enables more meaningful research; (2) frequent interpersonal contact paired with targeted, minimally burdensome education in research and disease increases meaningful engagement of patients with CLTI and their caregivers; (3) building trust between patients, caregivers, and researchers is essential to the success of these initiatives; (4) qualitative research complements quantitative results because it can lead to a nuanced understanding of patient experiences, goals, and perspectives; and (5) patients and caregivers are more likely to engage when research-related information is easy to access and has low burden in terms of time and resources. These observations underscore the need for stakeholder input to research design as well as the plans of funders and investigators in this field. Stakeholders noted the particular need for outreach to traditionally underrepresented and underserved populations, with whom more research is needed to meaningfully address health disparities.',
+    id: '40644653',
+    title: 'Bioethics and human rights in nursing education: a report of a pedagogical experience.',
+    abstract: 'OBJECTIVE: To describe a pedagogical experience with nursing students who used photographs as a teaching tool for teaching human rights.\n' +
+      'METHOD: This is a report of a pedagogical experience of a cross-sectional qualitative study based on narrative bioethics, which uses personal narratives as an analytical instrument to deepen the understanding of ethical problems, and on iconographic analysis, which investigates the deep meanings and contexts underlying the recorded photographs.\n' +
+      'RESULTS: The photographs taken by "photographer students" portray real situations from everyday life in our society, highlighting issues such as poverty, social exclusion and government negligence, which, according to the participants themselves, evoke violations of several articles of the Universal Declaration of Human Rights.\n' +
+      'FINAL CONSIDERATIONS: The pedagogical workshop used photography to engage students in reflections on human rights and social issues, promoting ethical and humanized training. Despite limitations, the study revealed a deficit in university education on human rights, but highlighted the potential of innovative methodologies to strengthen the critical and empathetic preparation of future professionals.',
     published: '2025',
     authors: [
-      'Bjork Isabel',
-      'Weissler Hope',
-      'Herath Thilini',
-      'Patterson Megan',
-      'Patel Rhusheet',
-      'Geraghty Patrick',
-      'Menard Matthew',
-      'Corriere Matthew',
-      'Minc Samantha',
-      'Armstrong David G',
-      'Shalhub Sherene',
-      'Patel Manesh',
-      'Conte Michael S'
+      'Fontenele Alessandra Lima',
+      'Sena Gabriele Pereira de',
+      'Oliveira Simone Luzia Fidelis de',
+      'Guilhem Dirce Bellezi'
     ],
-    journal: 'JVS-vascular insights',
-    doi: '10.1016/j.jvsvi.2025.100222',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642754/'
+    journal: 'Revista da Escola de Enfermagem da U S P',
+    doi: '10.1590/1980-220X-REEUSP-2024-0384en',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644653/'
   },
   {
-    id: '40642730',
-    title: 'Awareness of Heart Attack Symptoms and Risk Factors Among the Elderly in Rural Chennai: A Cross-Sectional Study.',
-    abstract: "Aims and objectives Myocardial infarction (MI) remains a leading cause of mortality and morbidity globally. Timely recognition of symptoms, and understanding of associated risk factors, are critical for early intervention and improved outcomes. However, awareness levels - particularly among the elderly in rural regions - remain poorly studied. This study aimed to assess the awareness of heart attack symptoms and risk factors among the elderly population in rural Chennai. Methodology A cross-sectional study was conducted among 384 individuals, aged 60 years and above, in the rural field practice area of Medavakkam, under Madras Medical College, Chennai, India. An interviewer-administered questionnaire assessed knowledge of 9 symptoms and 11 risk factors associated with MI. Awareness scores were calculated based on participants' spontaneous and prompted responses. Results The mean age of participants was 65 years. Chest pain (248, or 64.58%) and breathlessness (176, or 45.83%) were the most recognized symptoms, while neck pain (12, or 3.12%) was the least known. Among risk factors, hypertension (182, or 47.4%) and stress (178, or 46.35%) were most identified, whereas high salt intake (22, or 5.73%) and obesity (26, or 6.77%) were least known. The average awareness score for symptoms was 5.56, for risk factors, 7.61, and the total knowledge score was 13.18 out of 20. Conclusion The study reveals significant gaps in awareness of heart attack symptoms and risk factors among the rural elderly. These findings underscore the urgent need for community-based health education and preventive strategies, tailored to this vulnerable demographic, to enhance early recognition and reduce MI-related morbidity and mortality.",
-    published: '2025-Jun',
+    id: '40644567',
+    title: 'Insomnia and sleepiness during pregnancy: Associations with gestational diabetes mellitus.',
+    abstract: 'INTRODUCTION: Sleep quality typically deteriorates during pregnancy, and poor sleep is a risk factor for pregnancy complications, including gestational diabetes mellitus (GDM). The present study is the first longitudinal study addressing associations between sleep quality and GDM at separate time-points throughout the pregnancy.\n' +
+      'MATERIAL AND METHODS: This study was a part of the FinnBrain cohort, including 3808 pregnant women. Sleep quality was assessed using the Basic Nordic Sleep Questionnaire four times during pregnancy, and GDM was diagnosed by glucose tolerance testing. Four groups were formed: non-GDM, GDM, and two subgroups of GDM (medical nutritional therapy and GDM with pharmacotherapy). Paired comparisons within the groups between different time-points were conducted, and cross-sectional logistic regression analyses were carried out. The results were adjusted by maternal age, body mass index, parity, education, smoking, mood symptoms, and pre-eclampsia.\n' +
+      'RESULTS: In paired comparisons between time-points, the insomnia score increased during pregnancy, albeit similarly in the GDM and non-GDM groups. However, the pattern of changes in sleepiness score differed between the groups during pregnancy. In the non-GDM group, mean scores showed a U-shape, decreasing in mid-pregnancy. This decrease was not observed in the GDM group, with scores remaining similar between early and mid-pregnancy and higher compared with the non-GDM group. These differences were more pronounced in the pharmacotherapy subgroup. In the cross-sectional analysis, only a few differences emerged between the groups. Women in the GDM group were more likely to report poor general sleep quality in mid-pregnancy compared with women in the non-GDM group (aOR 1.4, 95% CI 1.0-1.9, p = 0.037), but no differences in distinct insomnia symptoms emerged. Sleepiness symptoms were more common in the GDM group in early pregnancy (aOR 1.1, 95% CI 1.0-1.1, p = 0.028) and in mid-pregnancy (aOR 1.1, 95% CI 1.0-1.1, p = 0.030). Women in the GDM pharmacotherapy subgroup reported daytime napping more often in mid-pregnancy (aOR 1.8, 95% CI 1.0-3.3, p = 0.049).\n' +
+      'CONCLUSIONS: Insomnia was found to increase as pregnancy proceeds, independently of GDM. However, the decrease in sleepiness found in women without GDM in mid-pregnancy was not observed in women with GDM, possibly indicating that the effectiveness of sleep is compromised in GDM patients.',
+    published: '2025-Jul-11',
     authors: [
-      'Adalarasan Sahasyaa',
-      'Balasubramani Kanika',
-      'Sathiyamurthy Nithyashree',
-      'Karthikeyan Vedasree',
-      'Subramaniam Sudharshini'
+      'Forsbom Otto',
+      'Perasto Laura',
+      'Aukia Linda',
+      'Paavonen E Juulia',
+      'Mattila Inka',
+      'Reinilä Sanni',
+      'Karlsson Hasse',
+      'Karlsson Linnea',
+      'Polo-Kantola Päivi'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85692',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642730/'
+    journal: 'Acta obstetricia et gynecologica Scandinavica',
+    doi: '10.1111/aogs.70013',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644567/'
   },
   {
-    id: '40642722',
-    title: 'Assessment of Time in Therapeutic Range (TTR) in a Primary Care Warfarin Clinic.',
-    abstract: "Background Anticoagulation is commonly used to prevent thromboembolic events. Warfarin is a cost-effective, widely used anticoagulant that requires close monitoring due to its narrow therapeutic index. Time in therapeutic range (TTR) is a measure of international normalized ratio (INR) control. Using a retrospective approach, we evaluated the TTR of patients using warfarin for anticoagulation in our state-owned urban primary care clinic.  Methods We conducted a retrospective chart review of adult patients on warfarin therapy followed at an urban Level 1 trauma center's ambulatory clinic from January to December 2024. Patients with at least two contiguous INR visits over a two-month period were included. Data on warfarin dosing, INR values, anticoagulation visit history, and demographics were extracted from the electronic medical record. The primary outcome was TTR, calculated using the traditional method. Statistical analysis was performed using R-studio. Results Overall, 103 patients were analyzed in our clinic. The average TTR was 46.7% for this population. Around 17.5% of patients had a TTR >70%, and 30.1% had a TTR >60%. Approximately 29.1% of patients presented with high bleeding risk (INR >4.5) at least once during the measured time period, with 5.8% of patients requiring ED visits for significant elevations in INR. Variables such as gender, age, and insurance status did not significantly contribute to measured TTR.  Conclusions The average TTR of our patient population was suboptimal. These findings highlight the need for more targeted quality improvement efforts to enhance anticoagulation management in our primary care clinic. Further evaluation of our current protocol with the help of pharmacists and the enhancement of patient education may be beneficial in achieving this goal.",
-    published: '2025-Jun',
-    authors: [ 'Viswanathan Divya', 'Sivanandam Abiram', 'De Silva Piyumika' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85653',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642722/'
-  },
-  {
-    id: '40642714',
-    title: 'A Cross-Sectional Study to Assess the Healthcare-Seeking Behaviour of Tribal Communities in a District of Maharashtra.',
-    abstract: 'Introduction Tribal populations in India face longstanding barriers to accessing formal healthcare due to economic, geographic, and cultural constraints. This study assessed the healthcare-seeking behaviour of tribal households in Palghar district, Maharashtra, and examined associated determinants. Methods A community-based cross-sectional study was conducted from August 2023 to March 2024 using multistage cluster random sampling in eight tribal villages located within a 25 km radius of the district hospital. A total of 80 households were selected, and 306 individuals were enumerated. Of these, 84 individuals (27.5%) who reported illness in the past three months were included in the analysis. Data were collected using a pretested structured questionnaire and analysed using R software (R Foundation for Statistical Computing, Vienna, Austria). Chi-square tests were applied to assess associations between healthcare-seeking behaviour and independent variables. Results Only 25 (29.8%) of the ill individuals sought formal healthcare, while 29 (34.5%) accessed informal providers, and 30 (35.7%) took no action. Among all variables analysed, only perceived severity of illness was significantly associated with formal healthcare utilization. Formal care was accessed by 13 of 14 (92.9%) individuals who perceived their illness as severe, compared to 11 of 40 (27.5%) with moderate and five of 30 (16.7%) with mild perception. No significant associations were found with age, gender, education, number of symptoms, or timing of illness. Conclusion The study highlights low formal healthcare utilization and a strong influence of perceived illness severity on care-seeking behaviour. Continued reliance on spiritual healers and non-action reflects persistent cultural and structural barriers. Interventions should include culturally sensitive health promotion, expansion of nearby healthcare services, and financial support mechanisms. Further qualitative research is needed to explore contextual factors influencing healthcare choices in tribal communities.',
-    published: '2025-Jun',
+    id: '40644519',
+    title: 'Puffing topography: a tool to evaluate vaping behavior and exposure risks.',
+    abstract: "The ever-changing popularity of electronic nicotine delivery systems (ENDS) among both youth and adults in the United States has been influential in shaping users' perceptions and behaviors. This behavior driven ENDS usage is described as puffing topography (PT) which includes user's puff duration, flow rate, intra puff interval, the volume of e-liquid used and total number of puffs per session. These metrics are not only useful for characterizing individual vaping behaviors but are also critical for assessing the extent of exposure to potentially harmful substances such as nicotine, volatile organic compounds (VOCs), and particulate matter emitted during use. Previous studies have indicated that puff volume and flow rate are distinct but related parameters that determine exposure to hazardous emissions among users and bystanders. However, current evidence suggests that vaping behavior is also influenced by the age at which users first encounter ENDS, the strength of the nicotine present, and whether users develop circadian patterns of ENDS usage. This review article, which is a part of the Special Issue Science Education and Research on Vaping and Interventions for Community Engagement summarizes the critical aspects of PT and explores how various factors including lifestyle, gender, e-liquid composition (such as flavor and nicotine concentration), and device parameters can influence exposure risks. The standardization of puffing topography as a tool to evaluate vaping behavior and exposure risks to toxic emissions could be instrumental in developing consensus standards for ENDS and protecting public health.",
+    published: '2025-Jul-11',
     authors: [
-      'Asokan Dinesh',
-      'Gate Nita',
-      'Waghmare Rakesh',
-      'Mall Anjali',
-      'Pardeshi Geeta'
+      'Sharma Shaligram',
+      'Meister Maureen',
+      'He Xiaojia',
+      'Wilson Mark',
+      'Zhang Qian',
+      'Park Jin-Ah',
+      'Goldsmith Travis',
+      'Bell-Huff Cristi',
+      'Black Marilyn',
+      'Shannahan Jonathan',
+      'Wright Christa'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85687',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642714/'
+    journal: 'Inhalation toxicology',
+    doi: '10.1080/08958378.2025.2524728',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644519/'
   },
   {
-    id: '40642703',
-    title: 'Knowledge and Attitude of the General Population Toward E-cigarette Use in Khyber Pakhtunkhwa: A Cross-Sectional Study.',
-    abstract: `Introduction Electronic cigarette (e-cigarette) use has risen markedly worldwide in recent years, raising public health concerns. E-cigarettes contain many addictive and dangerous substances, including nicotine, different flavorings, propylene glycol, vegetable glycerin, and others, making them more appealing but, at the same time, have various harmful effects on health. The available literature on e-cigarette and vape use and their adverse effects is insufficient and limited, even in developed countries, let alone in developing nations like Pakistan. This study investigates the knowledge and attitudes of the Khyber Pakhtunkhwa (KPK) population toward e-cigarette use and its adverse effects on human health. This study also disclosed the use of e-cigarettes among different age groups, genders, and socioeconomic classes. Materials and methods A cross-sectional survey was carried out from October to December 2023 after obtaining ethical approval from the Institutional Research and Ethical Review Board (IREB). The sample size of our study was 385, which was determined using Cochran's formula. Using non-probability convenience sampling, we collected data from 403 individuals. A pre-validated questionnaire from a study conducted in Karachi was adopted for our study, which had four sections. The first section dealt with demographics, the second with knowledge of using e-cigarettes, and the third and fourth with attitudes and practices around using e-cigarettes, respectively. The chi-square test was used to compare the knowledge, attitudes, and practices (KAP) of e-cigarette users with gender and level of schooling. To assess the socioeconomic status of the participants and ascertain the percentage of e-cigarette users in each socioeconomic class, we also utilized the Kuppuswamy scale, which has been authorized for use in Pakistan. Results Of those surveyed, the majority (n=340, 84.4%) knew what e-cigarettes were. Although most respondents (n=228, 56.6%) knew about the various compounds and ingredients in e-cigarettes, they had little idea about the different amounts of nicotine in them. The majority of both men and women were aware of what e-cigarettes were and the various ingredients they included; however, women learned about e-cigarettes from the Internet, and men from friends. Regarding education, a greater percentage of intermediate and bachelor's degree holders knew what an e-cigarette was and what its various parts and ingredients were. The vast majority of participants (n=216, 53.6%) expressed that they "definitely will not" try e-cigarettes, even if a close friend were to ask them to, and they did not believe they would even if their guardian approved. Most participants (n=379, 94%) would not recommend or encourage the usage of e-cigarettes. Only 38 (9.4%) participants in our study acknowledged using e-cigarettes. Conclusion This study assessed public knowledge and attitudes toward e-cigarette use. Most individuals lacked adequate knowledge, reflected in their general disapproval. Views were similar across genders, but most users were young adults from higher socioeconomic backgrounds, likely due to greater exposure to marketing and cultural norms. As the first study of its kind in Khyber Pakhtunkhwa, it highlights the need for public education and targeted regulation. Future research should explore the role of e-cigarettes in smoking cessation, usage patterns across demographics, and the impact of marketing on youth.`,
-    published: '2025-Jun',
+    id: '40644515',
+    title: 'Configuration analysis of crop-pollination service management: a novel insight from the theory of planned behavior.',
+    abstract: "As the crisis of crop-pollination service increasingly gains global attention, improving crop-pollination service management (CPSM) has become a key challenge to achieve sustainable agriculture and safeguard food supply. Given that farmers are directly responsible for making decisions and managing agriculture, strategies for promoting CPSM should consider their perceptions, knowledge and role in enhancing pollination. A survey of 267 randomly selected smallholder farmers in Dengkou County was conducted to create and evaluate an integrated index for assessing on-farm pollination management among farmers, and to explore how key factors, grounded in the extending the theory of planned behavior (TPB), can influence their CPSM behaviors. The data is analyzed by using regression analysis, necessary condition analysis, fuzzy-set qualitative comparative analysis (NCA-fsQCA), and independent sample T test, and the findings reveal that education level and agricultural acreage are positively correlated with CPSM; there are three causal configurations to enhance CPSM: AT & PBC path, AT & Economic Incentive path, and PBC & Economic Incentive path; the contrasting effects of antecedent variables on different groups of principles of CPSM; the optimal state of CPSM requires at least Economic Incentive $1900.27. The findings provide practical implications for enhancing CPSM among different farmers through multi-pathways. This study can help to formulate CPSM strategies and increase farmers' participation in pollinator-supporting behaviors in actual agricultural cultivation.",
+    published: '2025',
     authors: [
-      'Khan Muhammad Haris',
-      'Khan Muhammad Ijaz',
-      'Israr Samra',
-      'Haseeb Abdul',
-      'Ariya Fnu',
-      'Khan Muhammad Ibadullah',
-      'Amir Maryam'
+      'Zhao Hongkun',
+      'Yang Yaofeng',
+      'Chen Yajuan',
+      'Yu Huyang',
+      'Chen Zhuo',
+      'Yang Zhenwei'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85704',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642703/'
+    journal: 'PloS one',
+    doi: '10.1371/journal.pone.0326226',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644515/'
   },
   {
-    id: '40642682',
-    title: 'Association Between Severity of COVID-19 Infection and Persistent Dyspnea in Recovered Adults: A Cross-Sectional Study.',
-    abstract: "Introduction The COVID-19 pandemic has led to a high number of survivors with persistent symptoms, such as dyspnea, long after recovery. It is important to understand the association between the severity of the initial COVID-19 infection and the persistence of dyspnea to guide patient management and rehabilitation planning. Methods This cross-sectional analysis involved adult patients who had recovered from laboratory-confirmed COVID-19 infection. Patients were stratified into groups by the severity of their acute infection (mild, moderate, severe) based on the WHO Clinical Progression Scale. Persistent dyspnea was measured with a validated dyspnea scale. Statistical analysis was conducted to examine the association between COVID-19 severity and severity of dyspnea, adjusting for potential confounders. Results A total of 385 individuals took part in the study, where 217 people (56%) fell within the 30 to 39 years age bracket, while female participants constituted 52% (200 individuals). The respondents were primarily widowed people who had received secondary education (n = 119, 31%, and n = 118, 31% respectively). A total of 141 participants were current smokers, while 145 participants reported never smoking. Among the study participants, 73 experienced asthma (19%), and hypertension affected 68 individuals (18%). The COVID-19 severity of patients spanned from mild (n = 144, 37%) to critical (n = 78, 20%), and 51% of patients received hospital care (n = 197). Research findings indicated that dyspnea symptoms and advancement in the disease are closely linked (r = 0.521, p < 0.05). People who got oxygen therapy had higher clinical scores than those who did not (p = 0.01). When comparing the ICU patients to other patients, no important differences were noticed (p = 0.05). Recovery was felt very minimally in the results. According to regression analysis, changes in the patient's clinical condition were highly associated with dyspnea, as shown by a β value of 0.521 and p < 0.001. Conclusion The intensity of COVID-19 infection strongly correlates with both the enduring nature and severity of dyspnea in adults who have recovered from the disease. Post-COVID follow-up and rehabilitation programs require strong evidence behind them to support patients who have experienced severe COVID-19 infections.",
-    published: '2025-Jun',
+    id: '40644507',
+    title: 'The effects of skill-based health education-A randomised-controlled intervention in primary schools in rural Bangladesh.',
+    abstract: "This paper evaluates the impact of skill-based health education (SBHE) on children's hygiene practices and health in rural Bangladesh. Over one year, SBHE was delivered weekly to primary schools through a randomised-controlled trial (RCT) by locally recruited trained para-teachers. The SBHE and soap provision interventions, provided in a cross-cutting manner, were randomly assigned to 180 schools stratified by two school types. Data were collected at both the school and child levels, involving 40 students in grades 1-4 at baseline and expanding to 50 students in grades 1-5 at endline, ten students per grade. The study tracked the same pupils, supplemented by additional and replacement students, resulting in effective sample sizes of 7,192 at baseline and 8,992 at endline. The results indicate that SBHE significantly improved hygiene practices; the average treatment effects on overall hygiene practices was 0.22 SD [0.14-0.31] (p < 0.001), and those on health/hygiene knowledge was 0.44 SD [0.33-0.55] (p < 0.001). While improvements in cold-related symptoms among the SBHE school children were marginally significant (-0.05 SD [-0.10, -0.01], p = 0.09), the overall trends indicated general improvement in health as well as healthy behaviours across all schools, irrespective of treatment status. Additional analysis incorporating inter-school spillover effects provided robust evidence of beneficial healthy practice externalities, extending beyond treatment school children. A cross-cutting soap provision treatment, although implemented imperfectly, did not show any standalone positive health-related effects. Nonetheless, our cost-effectiveness analysis indicated the economic viability of SBHE, particularly when accounting for spillover effects. This study is registered in the AEA RCT registry (No.0004265) and the ISRCTN registry (No.18002856).",
+    published: '2025',
     authors: [
-      'Saeed Atif',
-      'Khan Marium Nadeem',
-      'Kamran Momina',
-      'Singla Shivam',
-      'Chikkala Sri Teja',
-      'Malik Moeed Akbar',
-      'Baidoo Joseph Benjamin',
-      'Ullah Farhan',
-      'Singla Bhavna',
-      'Ali Sara',
-      'Alam Fatima'
+      'Omura Makiko',
+      'Venkatesh Mohini',
+      'Khandaker Ikhtiar',
+      'Rahman Ataur'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85666',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642682/'
-  },
-  {
-    id: '40642669',
-    title: 'Assessing the Determinants of Influenza Vaccine Uptake in Malaysia: Strategies to Improve Public Health and Service Delivery.',
-    abstract: 'BACKGROUND: Although the Ministry of Health, Malaysia, has emphasized that the public receive their influenza vaccine shots, with the latest announcement of free vaccines for senior citizens in Malaysia, vaccine hesitancy has been prevalent among society and more pronounced within the public who are not involved in the fields of healthcare. The present study aims to identify the influencing factors in receiving the influenza vaccine based on the vaccine hesitancy matrix proposed by the World Health Organization (WHO).\n' +
-      'METHODS: Healthcare personnel and individuals from the non-healthcare fields were enrolled. A structured questionnaire was prepared and shared by the investigators. A mixed sampling approach was employed, initially utilizing convenience sampling, and then, a respondent-driven sampling (RDS) strategy was used to target all participants consenting to fill out the questionnaire. The participants received a soft copy regarding the importance of influenza vaccination upon completion of the questionnaire.\n' +
-      'RESULTS: The present study showed that of the 176 participants surveyed, 80 (45.5%) were not vaccine hesitant, while 96 (54.5%) had vaccine hesitancy. Vaccine hesitancy was found to be more in number among those who are not in the healthcare sector. Having been affected by influenza previously, personal risk perception and personal vaccination experiences were found to be significant influencing factors of the willingness to receive the vaccine.\n' +
-      'CONCLUSIONS: This study contributes to an increased understanding of the factors influencing the willingness to accept the influenza vaccine. Specific educational programs, academic-community partnerships, transparent doctor-patient communication, and involvement of policymakers could boost the rate of active immunization among the public. The medical staff are suggested to provide health education, improve doctor-patient communication, and recommend vaccinations to the public to increase their risk perception and willingness to get an influenza vaccination.',
-    published: '2025-Jun',
-    authors: [
-      'Manickam Prebha',
-      'Varghese Tina',
-      'Senthilvasan Suwarna',
-      'Ramesh Rubithra',
-      'Balasubramaniam Suveitra Balanei'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.85724',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40642669/'
+    journal: 'PloS one',
+    doi: '10.1371/journal.pone.0327325',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40644507/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1116,368 +1126,6 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 41255,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4769,
-        [Symbol(triggerId)]: 4767
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 2,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Fri, 11 Jul 2025 15:12:35 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.03.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Fri, 11 Jul 2025 15:12:35 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1582,16 +1230,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 41313,
+        _idleNext: [TimersList],
+        _idleStart: 32153,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4788,
-        [Symbol(triggerId)]: 4786
+        [Symbol(asyncId)]: 4778,
+        [Symbol(triggerId)]: 4776
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1629,7 +1277,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1723,7 +1371,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Fri, 11 Jul 2025 15:12:35 GMT',
+      date: 'Sat, 12 Jul 2025 15:10:54 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1834,7 +1482,369 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Fri, 11 Jul 2025 15:12:35 GMT',
+  date: 'Sat, 12 Jul 2025 15:10:54 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 32380,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4822,
+        [Symbol(triggerId)]: 4820
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Sat, 12 Jul 2025 15:10:55 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.03.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Sat, 12 Jul 2025 15:10:55 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1987,6 +1997,29 @@ Translating paper 8/50
 Translating paper: A physical theory of economic growth...
 Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5511096380189873 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '1s'
+    }
+  ]
+}
 Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
 Translating paper 11/50
@@ -2011,6 +2044,7 @@ Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
 Translating paper: The Role of Remote Activities in Urban Mobility in...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7655903979720775 seconds...
 Translating paper 22/50
 Translating paper: Teaching Practices and Effectiveness Assessment of...
 Translating paper 23/50
@@ -2030,25 +2064,25 @@ Translating paper: International comparative studies in mathematics e...
 Translating paper 30/50
 Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
 Translating paper 31/50
-Translating paper: Impact of trainee participation on pediatric endos...
+Translating paper: Mapping economic outcomes: how biosimilars enhance...
 Translating paper 32/50
-Translating paper: Fentanyl demand and seeking in female rats: Role o...
+Translating paper: Neurosurgery Research & Education Foundation Medic...
 Translating paper 33/50
-Translating paper: Progressive Retinal Degeneration and Juvenile Neph...
+Translating paper: Digital Psychosocial Interventions Tailored for Pe...
 Translating paper 34/50
-Translating paper: Engaging patients and their caregivers in research...
+Translating paper: Integrating Lived Experience Into Medical Educatio...
 Translating paper 35/50
-Translating paper: Awareness of Heart Attack Symptoms and Risk Factor...
+Translating paper: Psychosocial risk factors at work: perspectives of...
 Translating paper 36/50
-Translating paper: Assessment of Time in Therapeutic Range (TTR) in a...
+Translating paper: Bioethics and human rights in nursing education: a...
 Translating paper 37/50
-Translating paper: A Cross-Sectional Study to Assess the Healthcare-S...
+Translating paper: Insomnia and sleepiness during pregnancy: Associat...
 Translating paper 38/50
-Translating paper: Knowledge and Attitude of the General Population T...
+Translating paper: Puffing topography: a tool to evaluate vaping beha...
 Translating paper 39/50
-Translating paper: Association Between Severity of COVID-19 Infection...
+Translating paper: Configuration analysis of crop-pollination service...
 Translating paper 40/50
-Translating paper: Assessing the Determinants of Influenza Vaccine Up...
+Translating paper: The effects of skill-based health education-A rand...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2070,25 +2104,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 578 -> 539
-Total papers after merging: 539 (528 existing + 50 new)
-Saved 539 papers to papers.json
+Removed duplicates: 589 -> 549
+Total papers after merging: 549 (539 existing + 50 new)
+Saved 549 papers to papers.json
 Generating HTML files...
-Generating index.html with 539 papers...
+Generating index.html with 549 papers...
 Successfully generated index.html
-Generating archive.html with 539 papers...
+Generating archive.html with 549 papers...
 Successfully generated archive.html
-Generating journal.html with 539 papers...
+Generating journal.html with 549 papers...
 Successfully generated journal.html
-Generating acquisition.html with 539 papers...
+Generating acquisition.html with 549 papers...
 Successfully generated acquisition.html
-Generating publication.html with 539 papers...
+Generating publication.html with 549 papers...
 Successfully generated publication.html
-Generating registration.html with 539 papers...
+Generating registration.html with 549 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 539
+Total papers in database: 549
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-11T15:39:57.424Z
+Timestamp: 2025-07-12T15:37:14.460Z
