@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-12T15:10:23.280Z
+Timestamp: 2025-07-13T15:10:08.131Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 539 existing papers from papers.json
+Loaded 549 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -560,200 +561,200 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40644746',
-    title: 'Mapping economic outcomes: how biosimilars enhance access to health systems in Latin America and the Caribbean.',
-    abstract: 'Biological therapy has revolutionized the treatment landscape of complex and chronic conditions, including autoimmune diseases and cancer. However, their high costs have significantly limited patient access, particularly in low- and middle-income regions, such as Latin America and the Caribbean (LAC). As cost-effective alternatives, biosimilars have shown the potential to transform this paradigm and improve access to care. This narrative review examines the role of biosimilars in transforming health care across LAC. It highlights their potential to reduce treatment costs, expand access to essential medicines, promote market competition, and ease financial pressures on health systems. The biosimilars industry in LAC is expected to experience accelerated growth, driven by regulatory enhancements, market dynamics, investments, and a greater emphasis on education. Developing the biosimilar industry will improve health care resiliency, economic stability, and patient access throughout LAC.',
-    published: '2025-Jul-10',
-    authors: [ 'Herrán María', 'Anaya Juan-Manuel' ],
-    journal: 'Current opinion in immunology',
-    doi: '10.1016/j.coi.2025.102606',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644746/'
-  },
-  {
-    id: '40644721',
-    title: 'Neurosurgery Research & Education Foundation Medical Student Summer Research Fellowship applicant trends and impact on future career trajectory.',
-    abstract: "OBJECTIVE: The Neurosurgery Research & Education Foundation (NREF) Medical Student Summer Research Fellowship (MSSRF) is a prominent research fellowship offered to medical students. The authors investigated how gender and academic characteristics of the MSSRF applicant pool have evolved since the fellowship's inception. Likewise, they evaluated the impact of the MSSRF on career progression, scholarly productivity, and subsequent grant funding within neurosurgery.\n" +
-      "METHODS: A list of MSSRF awardees (2008-2023) and nonawardee applicants (2015-2023) was provided by the NREF. Demographic and career progression variables were obtained through publicly available platforms, and scholarly productivity metrics were collected using Clarivate Web of Science. The Fisher's exact test was used to compare categorical variables, the Mann-Whitney U-test was used to compare continuous variables, and the Mann-Kendall test was used to assess trends. Binary logistic regression was utilized to explore factors associated with matching into neurosurgery.\n" +
-      'RESULTS: A total of 297 awardees from 2008 to 2023, 183 awardees from 2015 to 2023, and 355 nonawardees from 2015 to 2023 were included. A greater percentage of awardees attended a top 20 medical school than nonawardees (p = 0.002). There was a statistically significant upward trend in the percentage of female awardees since 2010 (p = 0.01). Between 2015 and 2023, there was no difference in the percentage of awardees who matched into neurosurgery compared to nonawardees (60.5% vs 50.2%, p = 0.07), but awardees matched into better Doximity-ranked neurosurgery residency programs (p = 0.04). While there was no difference in the number of total publications or first author publications before residency between awardees and nonawardees who matched into neurosurgery since 2015, awardees had a higher h-index (5.0 vs 4.0, p = 0.03). Specifically among awardees who pursued neurosurgery since 2008, there was a statistically significant upward trend in the median number of total publications before residency (p < 0.001), first author publications (p = 0.001), and h-index (p = 0.007). Among neurosurgery attending physicians who received MSSRF awards, 64.7% practiced in an academic setting. Across academic neurosurgery attending physicians who received MSSRF awards, the ratio of NREF MSSRF award dollars to subsequent National Institutes of Health (NIH) grant funding dollars was $1:$9.05.\n' +
-      'CONCLUSIONS: The NREF MSSRF is associated with high-quality research and strong academic productivity among aspiring medical students, with a high proportion of awardees pursuing neurosurgery and matching into top-ranked residency programs. Likewise, this early-career fellowship has a substantial return on investment in terms of subsequent NIH grant funding.',
-    published: '2025-Jul-11',
+    id: '40652351',
+    title: 'Do Caregivers of Asian Patients with Advanced Cancer Help or Hinder Patient Understanding of Illness and Involvement in Decision Making?',
+    abstract: "PurposeIt is unclear whether caregivers help or hinder patients' involvement in decision making and understanding of illness. We thus investigated the extent to which caregivers' preferred level of patient involvement in decision making and understanding of treatment goals are associated with those of patients.MethodsWe used survey data from 229 patients with metastatic cancer and their family caregivers living in Singapore spanning 2 y prior to the patient's death. We used mixed-effects regressions to investigate the associations between 1) caregiver-preferred level of patient involvement () and patient preferred and perceived level of involvement in decision making at subsequent assessments () and 2) patient and caregiver understanding of treatment goals at the same assessments ().ResultsCaregivers who preferred higher levels of patient involvement in decision making at  were more likely to have patients who also preferred higher levels of involvement (odds ratio [OR] = 1.19;  = 0.03) and who perceived experiencing higher levels of involvement in decision making (OR = 1.24;  < 0.01) at . Compared with an uncertain understanding of treatment goals, caregivers who had an inaccurate understanding at  were more likely to have patients who had an inaccurate understanding (relative risk ratio [RRR] = 8.56;  = 0.03), and caregivers who had an accurate understanding at  were more likely to have patients with an accurate understanding (RRR = 3.02;  = 0.01) at .ConclusionOur findings suggest that caregiver preferences for patient involvement in decision making and understanding of treatment goals are significantly associated with those of patients. Enhancing caregiver education and involvement may be pivotal in improving patient participation and comprehension in the context of metastatic cancer care.HighlightsPatients of caregivers who preferred higher levels of patient involvement in decision making at earlier time points were more likely to prefer and experience higher levels of involvement in decision making at subsequent assessments.Patients of caregivers with an inaccurate understanding of treatment goals were more likely to have an inaccurate understanding, while patients of caregivers with an accurate understanding were also more likely to have an accurate understanding.",
+    published: '2025-Jul-13',
     authors: [
-      'Kann Michael R',
-      'Bhatia Shovan',
-      'Aizooky Taim',
-      'Pugazenthi Sangami',
-      'Huguenard Anna L',
-      'Wang Michael Y',
-      'Arthur Adam S',
-      'Agarwal Nitin',
-      'Zipfel Gregory J'
+      'Ozdemir Semra',
+      'Chaudhry Isha',
+      'Malhotra Chetna',
+      'Van Houtven Courtney',
+      'Finkelstein Eric Andrew'
     ],
-    journal: 'Journal of neurosurgery',
-    doi: '10.3171/2025.3.JNS241757',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644721/'
+    journal: 'Medical decision making : an international journal of the Society for Medical Decision Making',
+    doi: '10.1177/0272989X251347303',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652351/'
   },
   {
-    id: '40644708',
-    title: 'Digital Psychosocial Interventions Tailored for People in Opioid Use Disorder Treatment: Scoping Review.',
-    abstract: 'BACKGROUND: A total of 60% of patients with opioid use disorder (OUD) leave treatment early. Psychosocial interventions can enhance treatment retention by addressing behavioral and mental health needs related to early treatment discontinuation, but intervention engagement is key. If well-designed, digital platforms can increase the engagement, reach, and accessibility of psychosocial interventions. Prior reviews of OUD treatment have predominantly focused on outcomes, such as reductions in substance use, without identifying the underlying behavior change principles that drive the effectiveness of interventions.\n' +
-      'OBJECTIVE: This scoping review aims to document and describe recent digital psychosocial interventions, including their behavior change strategies, for patients receiving medication for OUD (MOUD).\n' +
-      'METHODS: Predefined search terms were used to search Ovid, CINAHL, and PubMed databases for peer-reviewed literature published in the last 10 years. The database search resulted in 1381 relevant studies, and 16 of them remained after applying the inclusion criteria. Studies were included if they (1) evaluated a digital intervention with behavioral, psychosocial, or counseling components for people in OUD treatment and (2) were published in English in peer-reviewed journals.\n' +
-      'RESULTS: The 16 studies reviewed comprised 6 randomized controlled trials, 6 pilot studies, 2 qualitative studies, and 2 retrospective cohort studies. Smartphone apps (n=8) were the most prevalent intervention delivery method, with other studies using telemedicine (n=3), virtual reality (n=1), telephone calls (n=1), or text messaging (n=3) to deliver psychosocial interventions in either a synchronous (n=7) or asynchronous (n=9) manner. The digital interventions reviewed predominately delivered cognitive behavioral therapy education through a phone call (n=1), a text message (n=2), a smartphone app (n=7), or tele-counseling (n=1). The predominant behavior change strategies implemented were self-monitoring, feedback and reinforcement, psychoeducation, cue awareness, and providing instruction. One intervention reviewed uses the evidence base of mindfulness-oriented recovery enhancement.\n' +
-      "CONCLUSIONS: Participants in the studies reviewed indicated a preference for digital, flexible, patient-centered psychosocial interventions that emphasized improved patient-provider relationships. While randomized controlled trials comprised a significant portion of the studies, the inclusion of pilot studies and qualitative research highlights the field's ongoing exploration of feasibility and effectiveness. These findings underscore the growing role of digital health solutions in psychosocial care, though further research is needed to optimize engagement, delivery, and long-term outcomes.",
-    published: '2025-Jul-11',
-    authors: [ 'Scialanca Madison', 'Alexander Karen', 'Tofighi Babak' ],
-    journal: 'Journal of medical Internet research',
-    doi: '10.2196/69538',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644708/'
-  },
-  {
-    id: '40644692',
-    title: 'Integrating Lived Experience Into Medical Education Related to Children With Medical Complexity or Developmental Disabilities: Protocol for a Scoping Review.',
-    abstract: 'BACKGROUND: Involving people with lived experience in medical education can benefit them, their caregivers, and medical students, and may particularly impact medical education about children requiring comprehensive, individualized, multidisciplinary care, including those with medical complexity or developmental disabilities. Yet, there is no summary of how children with medical complexity or developmental disabilities, or their families or caregivers have been included in medical education for medical students, residents, and fellows. To advance the effective inclusion of lived experience in medical education related to this patient population, a synthesis of existing literature is needed.\n' +
-      'OBJECTIVE: This scoping review aims to identify and synthesize the literature on including the lived experiences of children with medical complexity or developmental disabilities and their caregivers in medical education, where in the curricular development process they are involved, and the level of engagement of people with lived experience in the process.\n' +
-      "METHODS: To complete the scoping review, MEDLINE, Scopus, PsycINFO, ERIC, Academic Search Premier, and Google Scholar were searched for studies investigating patient and caregiver involvement in medical education related to children with medical complexity or developmental disabilities. Studies involving continuing professional development or patients who are not children with medical complexity or developmental disabilities were excluded. Data will be extracted to identify the stage of curriculum development in which lived experience is included based on Kern's 6-step approach, and to examine the level of engagement in medical education of children with medical complexity or developmental disabilities, their families, or their caregivers. Data from the scoping review will be presented in tables, diagrams, or matrices to demonstrate how lived experience caring for children with medical complexity or children with developmental disabilities has been included in the 6 steps of curriculum development and to characterize the level of engagement of people with lived experience in this process. Descriptive analysis will be performed to identify the findings from the included sources pertaining to the research objective.\n" +
-      'RESULTS: Database searches were completed on April 19, 2024. In total, 4382 unique articles were identified and screened against the eligibility criteria in July 2024, resulting in 30 articles being included in the scoping review. Data extraction began in July 2024.\n' +
-      'CONCLUSIONS: Our results will identify areas of improvement for medical education pertaining to the care of children with medical complexity or developmental disabilities. The findings will support and contribute to the development of medical school curricula surrounding care for children with medical complexity and children with developmental disabilities that incorporate people with lived experience in crucial roles during curriculum development. These partnerships with people with lived experience will promote more patient- and family-centered physicians, leading to better care of children with medical complexity and children with developmental disabilities.\n' +
-      'INTERNATIONAL REGISTERED REPORT IDENTIFIER (IRRID): DERR1-10.2196/64911.',
-    published: '2025-Jul-11',
+    id: '40652349',
+    title: 'Cohort Profile: The New Zealand Best Start study (Kia Tīmata Pai).',
+    abstract: 'No abstract available',
+    published: '2025-Jun-11',
     authors: [
-      'Pollard Noah',
-      'Christensen Leslie',
-      'Kloster Heidi',
-      'Gerber Danielle',
-      'Chödrön Gail'
+      'Poulton Richie',
+      'Bakir-Demir Tugce',
+      'Guiney Hayley',
+      'Kokaua Jesse',
+      'Salmon Karen',
+      'Schaughency Elizabeth',
+      'Taumoepeau Mele',
+      'Clifford Amanda',
+      'McLauchlan Jimmy',
+      'Edgeler Clair',
+      'Maruariki Natasha',
+      'McNaughton Stuart',
+      'Gluckman Peter',
+      "O'Sullivan Justin",
+      'Wei Ran',
+      'Trudgen Anita',
+      'Reese Elaine'
     ],
-    journal: 'JMIR research protocols',
-    doi: '10.2196/64911',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644692/'
+    journal: 'International journal of epidemiology',
+    doi: '10.1093/ije/dyaf103',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652349/'
   },
   {
-    id: '40644654',
-    title: "Psychosocial risk factors at work: perspectives of master's and doctoral students working in the health sector.",
-    abstract: 'OBJECTIVE: To analyze psychosocial risk factors related to the work of graduate students in health.\n' +
-      "METHOD: An exploratory qualitative study, with master's and doctoral students working in the health area, linked to five graduate programs of a Brazilian public higher education institution. Data collection took place between October and December 2023, using a sociodemographic, academic and professional questionnaire, and focus groups guided by a script. Deductive thematic analysis was used to interpret the data.\n" +
-      'RESULTS: Sixty-two graduate students who worked participated in the study. The following psychosocial risk factors were identified in the work context: organizational culture and function; decision-making and control; organizational changes; worker role in organization; career development; interface between work and family; interpersonal relationships; harassment and violence. In work content, factors were setting and work equipment, task planning, work workload and pace, and schedule.\n' +
-      'CONCLUSION: Training centers and work organizations should pay attention to the psychosocial risk factors to which their graduate students who work are exposed so that strategies for their management can be incorporated.',
-    published: '2025',
+    id: '40652332',
+    title: "Clinical Nurses' Experiences of Discrimination Against Patients: A Qualitative Study in Iran.",
+    abstract: 'BACKGROUND: Any form of discrimination directly opposes the ethical principles and values of the nursing profession. Discriminatory care is a major moral challenge to healthcare systems around the world.\n' +
+      "OBJECTIVE: This study aimed to explore clinical nurses' experiences of discrimination against patients.\n" +
+      "METHODS: This qualitative study used a conventional content analysis approach. Thirteen nurses were selected through purposive sampling from various clinical units at public and private hospitals in Iran. Data collection was conducted through semi-structured interviews, and data analysis was performed using Granheim and Lundman's 5-step method.\n" +
+      `RESULTS: The study identified 3 main themes and 6 subthemes. These include "duplicity in the application of organizational rules" (comprising differences in providing hospitalization and patient accommodation services and ignoring organizational regulations in providing welfare services), "inequality in relationship with patients" (encompassing disregard for ethical considerations in patient relationships and differential physical presence at the patient's bedside), and "differences in the delivery of care and treatment services" (involving neglecting patients' needs in care provision and expediting the provision of interdisciplinary services).\n` +
+      'CONCLUSION: This study underscores that discrimination in health care extends beyond direct patient care, infiltrating physical, material, and even intangible aspects such as communication style and patient attention. To combat this pervasive issue, nurses must receive comprehensive education about the various forms of discrimination. By implementing both immediate and long-term strategies, including policies and programs, we can work toward creating a more inclusive and respectful healthcare environment for all.',
+    published: '2025-Jul-12',
     authors: [
-      'Cassiano Carolina',
-      'Leal Laura Andrian',
-      'Borges Elisabete Maria das Neves',
-      'Carvaho José Carlos Marques de',
-      'Henriques Silvia Helena'
+      'Karimian Aram',
+      'Sadooghiasl Afsaneh',
+      'Khoobi Mitra',
+      'Mohammadi Eesa',
+      'Kazemnejad Anoshirvan'
     ],
-    journal: 'Revista da Escola de Enfermagem da U S P',
-    doi: '10.1590/1980-220X-REEUSP-2025-0045en',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644654/'
+    journal: 'Western journal of nursing research',
+    doi: '10.1177/01939459251352300',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652332/'
   },
   {
-    id: '40644653',
-    title: 'Bioethics and human rights in nursing education: a report of a pedagogical experience.',
-    abstract: 'OBJECTIVE: To describe a pedagogical experience with nursing students who used photographs as a teaching tool for teaching human rights.\n' +
-      'METHOD: This is a report of a pedagogical experience of a cross-sectional qualitative study based on narrative bioethics, which uses personal narratives as an analytical instrument to deepen the understanding of ethical problems, and on iconographic analysis, which investigates the deep meanings and contexts underlying the recorded photographs.\n' +
-      'RESULTS: The photographs taken by "photographer students" portray real situations from everyday life in our society, highlighting issues such as poverty, social exclusion and government negligence, which, according to the participants themselves, evoke violations of several articles of the Universal Declaration of Human Rights.\n' +
-      'FINAL CONSIDERATIONS: The pedagogical workshop used photography to engage students in reflections on human rights and social issues, promoting ethical and humanized training. Despite limitations, the study revealed a deficit in university education on human rights, but highlighted the potential of innovative methodologies to strengthen the critical and empathetic preparation of future professionals.',
-    published: '2025',
-    authors: [
-      'Fontenele Alessandra Lima',
-      'Sena Gabriele Pereira de',
-      'Oliveira Simone Luzia Fidelis de',
-      'Guilhem Dirce Bellezi'
-    ],
-    journal: 'Revista da Escola de Enfermagem da U S P',
-    doi: '10.1590/1980-220X-REEUSP-2024-0384en',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644653/'
+    id: '40652316',
+    title: 'Comment on "Leveraging Large Language Models to Enhance Patient Educational Resources in Rhinology": Implications for ENT Education and Equity.',
+    abstract: 'No abstract available',
+    published: '2025-Jul-12',
+    authors: [ 'Burmeister James R', 'Bohler Forrest' ],
+    journal: 'The Annals of otology, rhinology, and laryngology',
+    doi: '10.1177/00034894251356571',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652316/'
   },
   {
-    id: '40644567',
-    title: 'Insomnia and sleepiness during pregnancy: Associations with gestational diabetes mellitus.',
-    abstract: 'INTRODUCTION: Sleep quality typically deteriorates during pregnancy, and poor sleep is a risk factor for pregnancy complications, including gestational diabetes mellitus (GDM). The present study is the first longitudinal study addressing associations between sleep quality and GDM at separate time-points throughout the pregnancy.\n' +
-      'MATERIAL AND METHODS: This study was a part of the FinnBrain cohort, including 3808 pregnant women. Sleep quality was assessed using the Basic Nordic Sleep Questionnaire four times during pregnancy, and GDM was diagnosed by glucose tolerance testing. Four groups were formed: non-GDM, GDM, and two subgroups of GDM (medical nutritional therapy and GDM with pharmacotherapy). Paired comparisons within the groups between different time-points were conducted, and cross-sectional logistic regression analyses were carried out. The results were adjusted by maternal age, body mass index, parity, education, smoking, mood symptoms, and pre-eclampsia.\n' +
-      'RESULTS: In paired comparisons between time-points, the insomnia score increased during pregnancy, albeit similarly in the GDM and non-GDM groups. However, the pattern of changes in sleepiness score differed between the groups during pregnancy. In the non-GDM group, mean scores showed a U-shape, decreasing in mid-pregnancy. This decrease was not observed in the GDM group, with scores remaining similar between early and mid-pregnancy and higher compared with the non-GDM group. These differences were more pronounced in the pharmacotherapy subgroup. In the cross-sectional analysis, only a few differences emerged between the groups. Women in the GDM group were more likely to report poor general sleep quality in mid-pregnancy compared with women in the non-GDM group (aOR 1.4, 95% CI 1.0-1.9, p = 0.037), but no differences in distinct insomnia symptoms emerged. Sleepiness symptoms were more common in the GDM group in early pregnancy (aOR 1.1, 95% CI 1.0-1.1, p = 0.028) and in mid-pregnancy (aOR 1.1, 95% CI 1.0-1.1, p = 0.030). Women in the GDM pharmacotherapy subgroup reported daytime napping more often in mid-pregnancy (aOR 1.8, 95% CI 1.0-3.3, p = 0.049).\n' +
-      'CONCLUSIONS: Insomnia was found to increase as pregnancy proceeds, independently of GDM. However, the decrease in sleepiness found in women without GDM in mid-pregnancy was not observed in women with GDM, possibly indicating that the effectiveness of sleep is compromised in GDM patients.',
-    published: '2025-Jul-11',
+    id: '40652289',
+    title: 'Nutritional myths in adolescents and young adults with type 1 diabetes: a pilot study.',
+    abstract: "BACKGROUND: The global prevalence of type 1 diabetes mellitus (T1DM) is steadily increasing, particularly among children and young adults. Health-related myths can significantly influence patients' dietary behaviors and treatment adherence, thereby compromising disease management and metabolic outcomes.\n" +
+      'METHODS: This cross-sectional study included 190 adolescents and young adults with T1DM attending a pediatric endocrinology outpatient clinic. Data on demographics, BMI, HbA1c values, and nutrition-related myths were collected through face-to-face interviews. Statistical analyses, including chi-square tests and Spearman correlation coefficients, were performed using SPSS 22.0 software. Logistic regression analysis was conducted to identify independent predictors of metabolic control status (p < 0.05).\n' +
+      'RESULTS: Participants had a mean diabetes duration of 7.5 ± 4.63 years, with a mean HbA1c of 7.9 ± 1.44%. Approximately 27.0% of adolescents and 20.0% of young adults were overweight or obese. Only 29.0% of individuals had good metabolic control (HbA1c <%7), while 71.0% had HbA1c ≥ 7. An increase in diabetes duration was found to elevate the risk of poor metabolic control by 1.107 times, whereas a higher total number of answers was associated with a 0.696-fold decrease in this risk (p < 0.05).\n' +
+      'CONCLUSION: Improved knowledge about nutrition myths is associated with better metabolic control among adolescents and young adults with T1DM. Structured education programs tailored to this population may contribute to improved glycemic outcomes. A multidisciplinary team approach is essential to effectively deliver educational content and reinforce evidence-based dietary practices.',
+    published: '2025-Jul-12',
     authors: [
-      'Forsbom Otto',
-      'Perasto Laura',
-      'Aukia Linda',
-      'Paavonen E Juulia',
-      'Mattila Inka',
-      'Reinilä Sanni',
-      'Karlsson Hasse',
-      'Karlsson Linnea',
-      'Polo-Kantola Päivi'
+      'Kaya Didem Gunes',
+      'Arslan Sabriye',
+      'Yassıbaş Emine',
+      'Ayyıldız Feride',
+      'Bayramoglu Elvan',
+      'Turan Hande',
+      'Evliyaoglu Olcay'
     ],
-    journal: 'Acta obstetricia et gynecologica Scandinavica',
-    doi: '10.1111/aogs.70013',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644567/'
+    journal: 'BMC nutrition',
+    doi: '10.1186/s40795-025-01115-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652289/'
   },
   {
-    id: '40644519',
-    title: 'Puffing topography: a tool to evaluate vaping behavior and exposure risks.',
-    abstract: "The ever-changing popularity of electronic nicotine delivery systems (ENDS) among both youth and adults in the United States has been influential in shaping users' perceptions and behaviors. This behavior driven ENDS usage is described as puffing topography (PT) which includes user's puff duration, flow rate, intra puff interval, the volume of e-liquid used and total number of puffs per session. These metrics are not only useful for characterizing individual vaping behaviors but are also critical for assessing the extent of exposure to potentially harmful substances such as nicotine, volatile organic compounds (VOCs), and particulate matter emitted during use. Previous studies have indicated that puff volume and flow rate are distinct but related parameters that determine exposure to hazardous emissions among users and bystanders. However, current evidence suggests that vaping behavior is also influenced by the age at which users first encounter ENDS, the strength of the nicotine present, and whether users develop circadian patterns of ENDS usage. This review article, which is a part of the Special Issue Science Education and Research on Vaping and Interventions for Community Engagement summarizes the critical aspects of PT and explores how various factors including lifestyle, gender, e-liquid composition (such as flavor and nicotine concentration), and device parameters can influence exposure risks. The standardization of puffing topography as a tool to evaluate vaping behavior and exposure risks to toxic emissions could be instrumental in developing consensus standards for ENDS and protecting public health.",
-    published: '2025-Jul-11',
+    id: '40652288',
+    title: 'A mobile app intervention to support nutrition education for heart failure management: co-design, development and user-testing.',
+    abstract: 'BACKGROUND: Mobile apps show promise in supporting patients with heart failure (HF) in adhering to dietary guidelines for sodium and fluid. Though numerous apps to support HF management exist, only a few have dedicated features to support dietary adherence.\n' +
+      'OBJECTIVES: To describe the process and outcomes from the development and testing of Sodium Navigator, a mobile app intervention to engage patients with HF in dietary education and adherence.\n' +
+      'METHODS: Background research in app development, behaviour change, nutrition and qualitative interviews with patients and healthcare providers informed app content and design. Weekly team meetings were held to establish learning objectives, content, and features of the app until a prototype was developed and approved by the research team. Using a quasi-experimental mixed-methods design, patients with HF (≥ 18 years) evaluated the prototype via one-on-one online user-testing sessions. App engagement, satisfaction, and usability were measured using a 12-question patient-reported Likert-scale questionnaire. Participant feedback on app content and features was gathered using qualitative interviews.\n' +
+      'RESULTS: Six educational modules (dietary sodium recommendations, contributors of sodium in the diet, nutrition labelling, lowering dietary sodium, fluid restriction and goal setting), ten behaviour change techniques (e.g., feedback on behaviour, social support) and gamified components (i.e., avatar, point-system) were integrated into the app. Participants with HF (n = 10, 56±15 years, 80% women) enjoyed using the app (90%), strongly agreed that the information was meaningful and useful for their general health (80%) and was easy to use (70%).\n' +
+      'CONCLUSION: Results demonstrate the potential of Sodium Navigator to support patients with dietary education and adherence for HF management.',
+    published: '2025-Jul-12',
     authors: [
-      'Sharma Shaligram',
-      'Meister Maureen',
-      'He Xiaojia',
-      'Wilson Mark',
-      'Zhang Qian',
-      'Park Jin-Ah',
-      'Goldsmith Travis',
-      'Bell-Huff Cristi',
-      'Black Marilyn',
-      'Shannahan Jonathan',
-      'Wright Christa'
+      'Sivakumar Bridve',
+      'Ricupero Maria',
+      'Mahajan Anisha',
+      'Jefferson Katherine',
+      'Wenger John',
+      'Code Jillianne',
+      'Theodorou Alex',
+      'Arcand JoAnne'
     ],
-    journal: 'Inhalation toxicology',
-    doi: '10.1080/08958378.2025.2524728',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644519/'
+    journal: 'BMC nutrition',
+    doi: '10.1186/s40795-025-01117-y',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652288/'
   },
   {
-    id: '40644515',
-    title: 'Configuration analysis of crop-pollination service management: a novel insight from the theory of planned behavior.',
-    abstract: "As the crisis of crop-pollination service increasingly gains global attention, improving crop-pollination service management (CPSM) has become a key challenge to achieve sustainable agriculture and safeguard food supply. Given that farmers are directly responsible for making decisions and managing agriculture, strategies for promoting CPSM should consider their perceptions, knowledge and role in enhancing pollination. A survey of 267 randomly selected smallholder farmers in Dengkou County was conducted to create and evaluate an integrated index for assessing on-farm pollination management among farmers, and to explore how key factors, grounded in the extending the theory of planned behavior (TPB), can influence their CPSM behaviors. The data is analyzed by using regression analysis, necessary condition analysis, fuzzy-set qualitative comparative analysis (NCA-fsQCA), and independent sample T test, and the findings reveal that education level and agricultural acreage are positively correlated with CPSM; there are three causal configurations to enhance CPSM: AT & PBC path, AT & Economic Incentive path, and PBC & Economic Incentive path; the contrasting effects of antecedent variables on different groups of principles of CPSM; the optimal state of CPSM requires at least Economic Incentive $1900.27. The findings provide practical implications for enhancing CPSM among different farmers through multi-pathways. This study can help to formulate CPSM strategies and increase farmers' participation in pollinator-supporting behaviors in actual agricultural cultivation.",
-    published: '2025',
-    authors: [
-      'Zhao Hongkun',
-      'Yang Yaofeng',
-      'Chen Yajuan',
-      'Yu Huyang',
-      'Chen Zhuo',
-      'Yang Zhenwei'
-    ],
-    journal: 'PloS one',
-    doi: '10.1371/journal.pone.0326226',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644515/'
+    id: '40652285',
+    title: 'Transgenerational transmission of eating disorders: the role of eating disorder symptoms and socio-cultural attitudes.',
+    abstract: "OBJECTIVE: Eating disorders may be transmitted from one generation to the others through various trajectories, including genetic and epigenetic factors, parent-child relationships, and behavioral factors. In the current study, we examined whether parents' eating disorder symptoms and sociocultural attitudes toward appearance are associated with the diagnosis of an eating disorder or the level of eating disorder symptoms among female adolescents and young adults, and the nature of these associations. We also examined whether fathers' and mothers' effects on offsprings' eating disorder symptoms interact.\n" +
+      'METHOD: The study included 65 triads of mothers, fathers, and their female offspring aged 11-22 (N = 195). Thirty-two offspring were diagnosed with an eating disorder and recruited from the in-patient eating disorder unit in a public hospital. The remaining 33 offspring, who formed the control group, were recruited via social media platforms.\n' +
+      "RESULTS: In contrast to our expectations and previous findings, mothers' and fathers' levels of eating disorder symptoms and sociocultural attitudes toward appearance were negatively associated with their offspring's eating disorder symptoms. Also, inconsistent with mental health studies that showed that the behaviors and attitudes of one parent are exacerbated or attenuated by the other parent, we failed to find an interaction effect between mothers' and fathers' variables on their offspring's level of eating disorder symptoms.\n" +
+      'DISCUSSION: The current study adds to the limited number of studies that focused on fathers in the transgenerational transmission of eating disorders and encourages further research on the effects of each parent and the combined effects of both in the development and maintenance of eating disorders in their offspring.',
+    published: '2025-Jul-12',
+    authors: [ 'Zissu Bar', 'Sher Helene', 'Slobodin Ortal' ],
+    journal: 'Journal of eating disorders',
+    doi: '10.1186/s40337-025-01317-8',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652285/'
   },
   {
-    id: '40644507',
-    title: 'The effects of skill-based health education-A randomised-controlled intervention in primary schools in rural Bangladesh.',
-    abstract: "This paper evaluates the impact of skill-based health education (SBHE) on children's hygiene practices and health in rural Bangladesh. Over one year, SBHE was delivered weekly to primary schools through a randomised-controlled trial (RCT) by locally recruited trained para-teachers. The SBHE and soap provision interventions, provided in a cross-cutting manner, were randomly assigned to 180 schools stratified by two school types. Data were collected at both the school and child levels, involving 40 students in grades 1-4 at baseline and expanding to 50 students in grades 1-5 at endline, ten students per grade. The study tracked the same pupils, supplemented by additional and replacement students, resulting in effective sample sizes of 7,192 at baseline and 8,992 at endline. The results indicate that SBHE significantly improved hygiene practices; the average treatment effects on overall hygiene practices was 0.22 SD [0.14-0.31] (p < 0.001), and those on health/hygiene knowledge was 0.44 SD [0.33-0.55] (p < 0.001). While improvements in cold-related symptoms among the SBHE school children were marginally significant (-0.05 SD [-0.10, -0.01], p = 0.09), the overall trends indicated general improvement in health as well as healthy behaviours across all schools, irrespective of treatment status. Additional analysis incorporating inter-school spillover effects provided robust evidence of beneficial healthy practice externalities, extending beyond treatment school children. A cross-cutting soap provision treatment, although implemented imperfectly, did not show any standalone positive health-related effects. Nonetheless, our cost-effectiveness analysis indicated the economic viability of SBHE, particularly when accounting for spillover effects. This study is registered in the AEA RCT registry (No.0004265) and the ISRCTN registry (No.18002856).",
-    published: '2025',
+    id: '40652249',
+    title: 'Factors associated with hospitalizations due to severe malaria in the non-endemic Brazilian region: a case-control study in the extra-Amazon Region from 2011 to 2019.',
+    abstract: "BACKGROUND: Malaria is infectious disease with low occurrence in Brazil extra-Amazon Region. Despite this, higher lethality is observed in this region compared to the country's endemic area. Therefore, this study aimed to analyse factors associated with malaria hospitalizations (severe malaria) in the extra-Amazon Region, in order to prevent deaths.\n" +
+      'METHODS: A case-control design was used, utilizing data from the Brazilian Notifiable Diseases Information System (Sinan) and hospitalization records from the Unified Health System (SIH/SUS) from 2011 to 2019. Cases comprised hospitalized malaria patients, while controls included reported malaria notifications without hospitalization. Probabilistic record linkage techniques were employed, and associations were analysed using multiple logistic regression with a 0.05 significance level.\n' +
+      'RESULTS: The main risk factors identified were: Black or mixed-race ethnicity (OR = 1.22; 95% CI 1.04-1.43), low education (elementary school OR = 2.21; 95% CI 1.78-2.75 or high school OR = 1.72; 95% CI 1.39-2.13), infection outside the extra-Amazon Region (Amazon Region OR = 1.50; 95% CI 1.15-1.96 or abroad OR = 1.72; 95% CI 1.28-2.32), high parasite count (501 to 10,000/mm OR = 1.51; 95% CI 1.27-1.80, 10,001 to 100,000/mm OR = 1.77; 95% CI 2.87-1.96 or higher than 100,000/mm OR = 3.15; 95% CI 2.20-4.50) and delayed treatment (after 3-7 days symptoms onset OR = 1.74; 95% CI 1.36-2.24 or 8 days or more OR = 2.08; 95% CI 1.62-2.66). Active case detection was a protective factor (OR = 0.65; 95% CI 0.54-0.78).\n' +
+      'CONCLUSIONS: Delayed treatment remains a key factor in the occurrence of severe malaria, leading to high parasitaemia and revealing inequalities in access to healthcare based on socioeconomic differences. Travel to the Amazon Region or other countries also poses a challenge, requiring strengthened traveller health strategies and increased surveillance awareness to promptly suspect and identify cases.',
+    published: '2025-Jul-12',
     authors: [
-      'Omura Makiko',
-      'Venkatesh Mohini',
-      'Khandaker Ikhtiar',
-      'Rahman Ataur'
+      'da Silva Anderson Coutinho',
+      'Duarte Elisabeth Carmem',
+      'Marchesini Paola Barbosa',
+      'Viana Giselle Maria Rachid',
+      'Ramalho Walter Massa',
+      'Garcia Klauss K S'
     ],
-    journal: 'PloS one',
-    doi: '10.1371/journal.pone.0327325',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40644507/'
+    journal: 'Malaria journal',
+    doi: '10.1186/s12936-025-05357-y',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652249/'
+  },
+  {
+    id: '40652222',
+    title: 'Navigating challenges in medical english learning: leveraging technology and gamification for interactive education - a qualitative study.',
+    abstract: 'BACKGROUND: Teaching and learning English for Medical Purposes is crucial for medical students, especially in non-English-speaking countries, as it facilitates effective communication, access to global medical literature, and participation in international medical events. However, medical English education faces numerous challenges. This qualitative study explores the challenges faced by medical educators and students in Iran and proposes strategies to enhance medical English education through technology and gamification.\n' +
+      'METHOD: A thematic content analysis was conducted using semi-structured interviews with 13 medical English instructors and 10 medical students from various Iranian universities. Data were collected from September 2023 to February 2024. The interviews focused on challenges in teaching and learning medical English, the role of technology, and potential improvements. Thematic analysis was employed to identify key themes and sub-themes.\n' +
+      'RESULTS: The study identified six main themes: (1) Instructor-related challenges (e.g., knowledge gaps, teaching methodology, and resistance to technology), (2) Student-related challenges (e.g., low language proficiency, pronunciation difficulties, and lack of engagement), (3) Curriculum and content issues (e.g., outdated materials, lack of speaking practice), (4) Organizational challenges (e.g., unclear policies, resistance to technological change), (5) Technology-enhanced learning (e.g., inadequate infrastructure, lack of interactive platforms), and (6) Recommendations for improvement (e.g., joint teaching, gamification, and blended learning).\n' +
+      'CONCLUSION: The study indicated the need for a comprehensive approach to medical English education in Iran, emphasizing instructor training, interactive learning, updated curricula, and technology integration. By addressing these challenges, medical English education can be significantly improved, allowing future physicians to become proficient in linguistic skills which improves the globalized healthcare environment.',
+    published: '2025-Jul-12',
+    authors: [
+      'Zolfaghari Zahra',
+      'Karimian Zahra',
+      'Zarifsanaiey Nahid',
+      'Farahmandi Amir Yousef'
+    ],
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07511-1',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652222/'
+  },
+  {
+    id: '40652212',
+    title: "Development of medical leadership competence during undergraduate medical students' final year - a cross-sectional cohort study.",
+    abstract: 'BACKGROUND: Medical leadership plays an increasing role in quality healthcare. Nearly all physicians hold leadership roles during their career. Therefore, the development of medical leadership competence should start during undergraduate education and continue to postgraduate training. Some medical schools offer specific leadership programs, but in many medical schools, students are just embedded in the clinical environment, observing leaders in action. The goal of our cohort study was to explore how undergraduate medical students assess their leadership competences at the beginning and at the end of the final year without participation in a leadership program.\n' +
+      "METHODS: Between November 2023 and June 2024, we conducted a cross-sectional cohort study with 112 students at the beginning (1 trimester) and 117 students at the end (3 trimester) of their final year. All participants assessed their leadership competence with the Medical Leadership Competence Scale (MeLeCoS) on a 5-point Likert scale (1: 'never', 2: 'rarely', 3: 'sometimes', 4: 'often', 5: 'always'). A t-test and Mann-Whitney-U-tests were calculated for the overall MeLeCoS score, for the six MeLeCoS factors, and the 37 items, respectively, to test for significant differences between both cohorts. Within both cohorts, factors were ordered according to their mean values. Wilcoxon-tests were calculated to look for significant differences between two adjacent factors.\n" +
+      "RESULTS: No significant differences could be found between both cohorts for neither the overall MeLeCoS score nor for any of the factors or any item. In both cohorts, the factor 2 ('Demonstrating responsible behaviour and shaping relations') had the highest level in the self-assessment (1 trimester; 4.32 ± 0.40 and 3 trimester; 4.31 ± 0.36). Factor 4 ('Developing self-management and supporting management in healthcare') and 6 ('Introducing systemic perspectives into organizations') were the only factors that showed no significant difference in their adjacent mean values.\n" +
+      'CONCLUSIONS: Given that there were no significant differences between both cohorts, including teaching of medical leadership into the final year is recommended. As some medical leadership competences are highly developed at the beginning of the final year, a medical leadership curriculum should start before the final year. Individual development could be monitored and reflected by self-assessment using the MeLeCoS.',
+    published: '2025-Jul-12',
+    authors: [ 'Ogurek Barbara', 'Harendza Sigrid' ],
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07635-4',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40652212/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
@@ -1231,15 +1232,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 32153,
+        _idleStart: 37938,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4778,
-        [Symbol(triggerId)]: 4776
+        [Symbol(asyncId)]: 5218,
+        [Symbol(triggerId)]: 5216
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1269,7 +1270,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
+      sockets: [Object: null prototype],
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1277,7 +1278,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 1,
+      totalSocketCount: 2,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1371,7 +1372,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sat, 12 Jul 2025 15:10:54 GMT',
+      date: 'Sun, 13 Jul 2025 15:10:45 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1482,7 +1483,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sat, 12 Jul 2025 15:10:54 GMT',
+  date: 'Sun, 13 Jul 2025 15:10:45 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1592,16 +1593,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 32380,
+        _idleNext: [Timeout],
+        _idleStart: 37945,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4822,
-        [Symbol(triggerId)]: 4820
+        [Symbol(asyncId)]: 5237,
+        [Symbol(triggerId)]: 5235
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1639,7 +1640,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 1,
+      totalSocketCount: 2,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1733,7 +1734,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sat, 12 Jul 2025 15:10:55 GMT',
+      date: 'Sun, 13 Jul 2025 15:10:45 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1844,7 +1845,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sat, 12 Jul 2025 15:10:55 GMT',
+  date: 'Sun, 13 Jul 2025 15:10:45 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1997,29 +1998,6 @@ Translating paper 8/50
 Translating paper: A physical theory of economic growth...
 Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5511096380189873 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '1s'
-    }
-  ]
-}
 Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
 Translating paper 11/50
@@ -2044,7 +2022,6 @@ Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
 Translating paper: The Role of Remote Activities in Urban Mobility in...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7655903979720775 seconds...
 Translating paper 22/50
 Translating paper: Teaching Practices and Effectiveness Assessment of...
 Translating paper 23/50
@@ -2064,25 +2041,25 @@ Translating paper: International comparative studies in mathematics e...
 Translating paper 30/50
 Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
 Translating paper 31/50
-Translating paper: Mapping economic outcomes: how biosimilars enhance...
+Translating paper: Do Caregivers of Asian Patients with Advanced Canc...
 Translating paper 32/50
-Translating paper: Neurosurgery Research & Education Foundation Medic...
+Translating paper: Cohort Profile: The New Zealand Best Start study (...
 Translating paper 33/50
-Translating paper: Digital Psychosocial Interventions Tailored for Pe...
+Translating paper: Clinical Nurses' Experiences of Discrimination Aga...
 Translating paper 34/50
-Translating paper: Integrating Lived Experience Into Medical Educatio...
+Translating paper: Comment on "Leveraging Large Language Models to En...
 Translating paper 35/50
-Translating paper: Psychosocial risk factors at work: perspectives of...
+Translating paper: Nutritional myths in adolescents and young adults ...
 Translating paper 36/50
-Translating paper: Bioethics and human rights in nursing education: a...
+Translating paper: A mobile app intervention to support nutrition edu...
 Translating paper 37/50
-Translating paper: Insomnia and sleepiness during pregnancy: Associat...
+Translating paper: Transgenerational transmission of eating disorders...
 Translating paper 38/50
-Translating paper: Puffing topography: a tool to evaluate vaping beha...
+Translating paper: Factors associated with hospitalizations due to se...
 Translating paper 39/50
-Translating paper: Configuration analysis of crop-pollination service...
+Translating paper: Navigating challenges in medical english learning:...
 Translating paper 40/50
-Translating paper: The effects of skill-based health education-A rand...
+Translating paper: Development of medical leadership competence durin...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2103,26 +2080,49 @@ Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4894537858130823 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"28s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '28s'
+    }
+  ]
+}
 Translation completed: 50 papers
-Removed duplicates: 589 -> 549
-Total papers after merging: 549 (539 existing + 50 new)
-Saved 549 papers to papers.json
+Removed duplicates: 599 -> 559
+Total papers after merging: 559 (549 existing + 50 new)
+Saved 559 papers to papers.json
 Generating HTML files...
-Generating index.html with 549 papers...
+Generating index.html with 559 papers...
 Successfully generated index.html
-Generating archive.html with 549 papers...
+Generating archive.html with 559 papers...
 Successfully generated archive.html
-Generating journal.html with 549 papers...
+Generating journal.html with 559 papers...
 Successfully generated journal.html
-Generating acquisition.html with 549 papers...
+Generating acquisition.html with 559 papers...
 Successfully generated acquisition.html
-Generating publication.html with 549 papers...
+Generating publication.html with 559 papers...
 Successfully generated publication.html
-Generating registration.html with 549 papers...
+Generating registration.html with 559 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 549
+Total papers in database: 559
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-12T15:37:14.460Z
+Timestamp: 2025-07-13T15:37:33.596Z
