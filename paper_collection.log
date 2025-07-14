@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-13T15:10:08.131Z
+Timestamp: 2025-07-14T15:12:44.088Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 549 existing papers from papers.json
+Loaded 559 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -409,6 +408,16 @@ Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
+  {
+    id: '10.1007/978-3-031-85240-4_3',
+    title: 'Using Social Network Analysis to Analyze Eye-Tracking Behavior Data in Education Science',
+    summary: 'This study aims to systematically evaluate the use of social network analysis (SNA) metrics to measure eye-tracking behavior to assess and predict student learning performance. We integrated 11 network metrics from published research and tested them on six eye-tracking datasets. Our preliminary results indicate that no consistent predictor variable can effectively predict student performance across different datasets. The number of nodes, edges, reciprocity, and entropy measures contribute differently to predicting students’ performance. This work deepens our understanding of how different SNA metrics relate to eye-tracking data and advances the methodological framework to predict learning outcomes.',
+    published: '2026-01-01',
+    authors: [ 'Yang, Pingjing' ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Advances in Social Networks Analysis and Mining'
+  },
   {
     id: '10.1007/978-3-031-97638-4_12',
     title: 'The Role of Remote Activities in Urban Mobility in the Post-COVID-19 Era',
@@ -541,220 +550,212 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'ZDM – Mathematics Education'
-  },
-  {
-    id: '10.1007/s35834-024-00462-5',
-    title: 'Die Konzeption von Erfolg aus Sicht von Absolvent:innen mit Beeinträchtigung: Schlüsselaspekte der Inklusion in der deutschen Hochschulbildung',
-    summary: 'Während sich in den letzten Jahren verschiedene Wissenschaftler:innen mit der Inklusion und dem Bildungserfolg von Menschen mit Beeinträchtigungen auseinandergesetzt haben, bleibt die Frage, was diese selbst unter Studienerfolg verstehen, weitgehend außer Acht. Das erste Ziel dieses Artikels ist es, die Konzeptionen von Erfolg in der Hochschulbildung und die Schlüsselfaktoren zu analysieren, die zum Hochschulerfolg von 28 Absolvent:innen mit Beeinträchtigung aus 16 deutschen Hochschulen beigetragen haben. Das zweite Ziel besteht darin, Empfehlungen zu geben, die die Teilnehmenden selbst an andere Studierende mit Beeinträchtigung sowie an die Hochschulen richten, um ihren Erfolg in der Hochschulbildung zu verbessern. Die Ergebnisse zeigen, dass die Teilnehmenden unterschiedliche Konzeptionen von Erfolg haben (Erreichen eines Abschlusses, gute Noten, Erlernen und Entwickeln von Fähigkeiten, Sammeln von praktischen Erfahrungen, Überwinden von Herausforderungen und Aufrechterhalten eines Gleichgewichts zwischen Studium und Gesundheit) sowie verschiedene persönliche Faktoren (die Behinderung als treibende Kraft) und kontextuelle Faktoren (soziales und familiäres Umfeld, Auslandsaufenthalte, positives Feedback, Anerkennung von Leistungen und zugängliche Online-Kurse und digitalisierte Materialien) als relevant für ihren Erfolg identifizierten. Die Ergebnisse zeigen ferner, dass es für den Erfolg in der Hochschulbildung und die Stärkung von Studierenden mit Beeinträchtigung entscheidend ist, die Stimmen von Absolvent:innen mit Behinderung zu hören. While various researchers have explored inclusion and the educational success of people with impairments in recent years, the question of what the latter mean by academic success remains understudied. The first aim of this article is to analyse the conceptualisations of success in higher education and the key factors that contributed to the academic success of 28 graduates with impairments from 16 German universities. The second aim is to provide recommendations from the participants themselves to other students with impairments and to higher education institutions for improving their success in higher education. The results show that the participants have different conceptualisations of success (achieving a degree, getting good grades, learning and developing skills, gaining practical experience, overcoming challenges and maintaining a balance between studies and health) and identified various personal factors (the disability as a driving force) and contextual factors (social and family environment, time abroad, positive feedback, recognition of achievements and accessible online courses and digitised materials), as relevant to their success. The findings further demonstrate that hearing the voices of graduates with impairments is critical to their success in higher education and the empowerment of students with disabilities.',
-    published: '2025-08-01',
-    authors: [
-      'Lopez-Gavira, Rosario',
-      'Orozco, Inmaculada',
-      'Angerhausen, Pascal'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Zeitschrift für Bildungsforschung'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40652351',
-    title: 'Do Caregivers of Asian Patients with Advanced Cancer Help or Hinder Patient Understanding of Illness and Involvement in Decision Making?',
-    abstract: "PurposeIt is unclear whether caregivers help or hinder patients' involvement in decision making and understanding of illness. We thus investigated the extent to which caregivers' preferred level of patient involvement in decision making and understanding of treatment goals are associated with those of patients.MethodsWe used survey data from 229 patients with metastatic cancer and their family caregivers living in Singapore spanning 2 y prior to the patient's death. We used mixed-effects regressions to investigate the associations between 1) caregiver-preferred level of patient involvement () and patient preferred and perceived level of involvement in decision making at subsequent assessments () and 2) patient and caregiver understanding of treatment goals at the same assessments ().ResultsCaregivers who preferred higher levels of patient involvement in decision making at  were more likely to have patients who also preferred higher levels of involvement (odds ratio [OR] = 1.19;  = 0.03) and who perceived experiencing higher levels of involvement in decision making (OR = 1.24;  < 0.01) at . Compared with an uncertain understanding of treatment goals, caregivers who had an inaccurate understanding at  were more likely to have patients who had an inaccurate understanding (relative risk ratio [RRR] = 8.56;  = 0.03), and caregivers who had an accurate understanding at  were more likely to have patients with an accurate understanding (RRR = 3.02;  = 0.01) at .ConclusionOur findings suggest that caregiver preferences for patient involvement in decision making and understanding of treatment goals are significantly associated with those of patients. Enhancing caregiver education and involvement may be pivotal in improving patient participation and comprehension in the context of metastatic cancer care.HighlightsPatients of caregivers who preferred higher levels of patient involvement in decision making at earlier time points were more likely to prefer and experience higher levels of involvement in decision making at subsequent assessments.Patients of caregivers with an inaccurate understanding of treatment goals were more likely to have an inaccurate understanding, while patients of caregivers with an accurate understanding were also more likely to have an accurate understanding.",
+    id: '40654175',
+    title: 'The Usability and Experience of Artificial Intelligence-Based Conversational Agents in Health Education for Cancer Patients: A Scoping Review.',
+    abstract: "BACKGROUND: Artificial intelligence-based conversational agents (CAs) have shown transformative potential in healthcare, yet their application in cancer health education has remained underexplored, particularly regarding usability and patients' experiences. Existing reviews lack a dedicated focus on user perspectives, limiting insights into how CAs can be optimised for patient needs.\n" +
+      'AIM: To explore the usability and experience of artificial intelligence-based conversational agents in health education for cancer from the user perspective.\n' +
+      'DESIGN: A scoping review was conducted with the Joanna Briggs Institute Scoping Reviews conduct guidance and reported according to the preferred reporting items for systematic reviews and meta-analyses extension for scoping reviews checklist.\n' +
+      'METHODS: A search was performed in PubMed, Embase, CINAHL, Web of Science, PsycINFO, IEEE Xplore Digital Library and ACM Digital Library from their inception to March 6, 2024. The references to the articles included were also searched. The Pillar Integration Process was employed to chart data.\n' +
+      "RESULTS: A total of 12 studies were included in this scoping review, which revealed that CAs supported diverse educational contexts, including cancer-related knowledge (41.7%), pretest genetics (33.3%), self-management (16.7%) and psychological skills (8.3%). Three studies reported that patients preferred interactions with multiple options or 'read more' functions. Patients were generally optimistic about the CAs and reported that CAs provided informational, physical, and psychological support for them. However, limitations such as insufficient customisation, lack of empathy, and defects in understanding free-input questions were noted.\n" +
+      'CONCLUSION: This review demonstrated that CAs are promising complementary tools in cancer education, alleviating healthcare burdens while enhancing patient engagement, which was particularly critical in resource-limited settings. However, clinical implementation requires more rigorous validation of safety protocols and high-quality original studies.\n' +
+      'RELEVANCE TO CLINICAL PRACTICE: Nurses and policymakers should consider CAs valuable tools to enhance cancer health education, provided that they align with patient needs and institutional safety standards.',
+    published: '2025-Jul-14',
+    authors: [
+      'Li Kun',
+      'Wu Siyuan',
+      'Zhang Ying',
+      'Zhu Binbin',
+      'Qi Ziyi',
+      'Hou Sijia',
+      'Wang Wei'
+    ],
+    journal: 'Journal of clinical nursing',
+    doi: '10.1111/jocn.70020',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654175/'
+  },
+  {
+    id: '40654168',
+    title: "Impact of Nurses' Knowledge, Self-Efficacy and Clinical Reasoning Competency on Difficulties in Caring for Patients With Delirium in the Intensive Care Unit: A Cross-Sectional Study.",
+    abstract: "AIM: To examine the impact of critical care nurses' delirium knowledge, self-efficacy and clinical reasoning competency on delirium care difficulties based on the information-motivation-behavioural (IMB) skills model from a behavioural perspective.\n" +
+      'DESIGN: Cross-sectional study.\n' +
+      "METHODS: A total of 440 critical care nurses from five hospitals in China were selected using convenience sampling and invited to complete an online questionnaire for measurement. Data were collected in November 2024 and analysed using SPSS/AMOS with descriptive statistics, Pearson's correlation coefficient and multiple regression. Structural equation modelling was constructed to test the hypothesised relationships among the variables, with bootstrapping to assess mediation effects.\n" +
+      'RESULTS: The level of delirium care difficulties was moderated. Delirium care difficulties were negatively correlated with delirium knowledge, self-efficacy and clinical reasoning competency. Clinical reasoning competency partly mediated delirium knowledge and self-efficacy with regard to delirium care difficulties.\n' +
+      "CONCLUSION: Delirium knowledge, self-efficacy and clinical reasoning competency are essential for improving critical care nurses' delirium care competencies. The role of clinical reasoning competency in the relationship between the other two variables and delirium care difficulties was highlighted. Establishing multifaceted innovative delirium education programmes, emphasising individuals' sense of competence and enhancing clinical reasoning competency as behavioural skills were supported. Exploring these pathways using a nurse behaviour change-based perspective is critical.\n" +
+      "IMPLICATIONS FOR THE PROFESSION AND/OR PATIENT CARE: Critical care managers should value nurses' delirium care competencies. Enhancing continuing professional development through system-level support with high reliability and multiform professional education, including innovative theoretical and practical training; advancing policies that increase work motivation and self-planning to stimulate self-efficacy; and exercising critical and reflective thinking to improve clinical reasoning competency may enhance nurses' delirium recognition and care competencies, including prioritisation, potentially improving delirium care dilemmas and patient outcomes.\n" +
+      'REPORTING METHOD: The STROBE checklist was used as a guideline.\n' +
+      'PATIENT OR PUBLIC CONTRIBUTION: Nurses completed questionnaires.\n' +
+      'TRIAL REGISTRATION: Chinese Clinical Trial Registry (ChiCTR2400092177). https://www.chictr.org.cn/bin/project/edit?pid=249216.',
+    published: '2025-Jul-14',
+    authors: [
+      'Dong Jing',
+      'Sui Weijing',
+      'Gong Xiaoyan',
+      'Wang Li',
+      'Ni Qiqi',
+      'Yan Ran',
+      'Yi Jia',
+      'Ding Ying',
+      'Zhuang Yiyu'
+    ],
+    journal: 'Journal of clinical nursing',
+    doi: '10.1111/jocn.70034',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654168/'
+  },
+  {
+    id: '40654165',
+    title: 'Assessment of ChatGPT-3.5 performance on the medical genetics specialist exam.',
+    abstract: 'INTRODUCTION: Artificial intelligence is increasingly used in medical education and testing. ChatGPT, developed by OpenAI, has shown mixed results on various medical exams, but its performance in medical laboratory genetics remains unknown.\n' +
+      'METHODS: This study assessed ChatGPT-3.5 using 456 publicly available questions from the Polish national specialist exam in medical laboratory genetics. Questions were categorized by topic and complexity (simple vs complex) and submitted to ChatGPT 3 times. Accuracy and consistency were statistically evaluated.\n' +
+      'RESULTS: ChatGPT correctly answered 59% of the 456 exam questions, which was statistically significant (P < .001). Accuracy differed by category: 71% for calculation-based questions, approximately 60% for genetic methods and genetic alterations, and only 37% for clinical case-based questions. Question complexity also affected performance: Simple questions had 63% accuracy, while complex questions yielded 43% (P = .001). No statistically significant differences were found across 3 repeated sessions, with performance remaining stable over time (P = .43).\n' +
+      "DISCUSSION: ChatGPT-3.5 demonstrated moderate accuracy and stable performance on a specialist exam in medical genetics. Although it may support education in this field, the tool's limitations in complex, domain-specific reasoning suggest the need for further development before broader implementation.",
+    published: '2025-Jul-12',
+    authors: [ 'Paruzel Klaudia', 'Ordak Michał' ],
+    journal: 'Laboratory medicine',
+    doi: '10.1093/labmed/lmaf038',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654165/'
+  },
+  {
+    id: '40654141',
+    title: 'The Genericization of Mental Health Nursing: A Personal Perspective.',
+    abstract: 'No abstract available',
+    published: '2025-Jul',
+    authors: [ 'Fisher Jane' ],
+    journal: 'International journal of mental health nursing',
+    doi: '10.1111/inm.70013',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654141/'
+  },
+  {
+    id: '40654125',
+    title: 'Bringing Artificial Intelligence (AI) into Health Information Seeking Behavior: A Study of AI and Information Seeking Research.',
+    abstract: 'This paper explores the impact of artificial intelligence (AI) on information seeking behavior research and practice, including the need to scrutinize existing information seeking theory, challenge the understood behavioral norms, and consider redefining information literacy and information retrieval education. The historical examination spans from the 1950s to the present, with a specific focus on recent developments in health information seeking and the evaluation of medical information sources. Key to this exploration are ongoing debates in healthcare, ethics, and AI and information literacy education, which represent important dimensions of the impact of emerging technology on information-seeking behavior. The insights provided by this research can be useful for both researchers and practitioners, aiding them in navigating the evolving landscape shaped by AI technology.',
+    published: '2025-Jul-14',
+    authors: [
+      'Lund Brady D',
+      'Mannuru Nishith Reddy',
+      'Katta Malavika',
+      'Hota Sesha Sai Leela Madhuri',
+      'Pamukuntla Akshaya',
+      'Uppala Sravya',
+      'Kola Sai Madhav',
+      'Mannuru Aashrith'
+    ],
+    journal: 'Journal of health communication',
+    doi: '10.1080/10810730.2025.2533820',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654125/'
+  },
+  {
+    id: '40654107',
+    title: 'A Scoping Review on AI-Supported Interventions for Non-Pharmacological Management of Chronic Rheumatic Diseases.',
+    abstract: 'This review summarizes AI-supported non-pharmacological interventions for adults with chronic rheumatic diseases, detailing their components, purpose, and current evidence base. We searched Embase, PubMed, Cochrane, and Scopus databases for studies describing AI-supported interventions for adults with chronic rheumatic diseases. Eligible interventions targeted clinical outcomes (pain, function, disability, fatigue), psychological measures (depression, anxiety), or behavioral outcomes (physical activity, nutrition). All publication types (journal articles, conference abstracts, protocols) published in English language until January 19, 2025, were considered, and interventions of any duration, frequency, country of origin, or setting (inpatient, outpatient, community, and home setting) were included. Two reviewers independently screened studies and one extracted data on study characteristics, intervention components, AI methodologies, and outcomes. Fifteen AI-supported interventions were identified, primarily targeting osteoarthritis (OA) (73%) and focusing on education and exercise advice (67%). The most common AI tool was rule-based expert systems (40%), followed by natural language processing systems (33%) and machine learning algorithms (27%). The interventions ranged from 3 weeks to 12 months, while sample sizes ranged from 7 to 427 participants reflecting huge variability across studies. Most interventions demonstrated high usability, engagement, and adherence. Improvements in exercise compliance, physical activity, and symptoms such as pain and physical function were reported, though effects varied across studies and were sometimes not sustained long-term. AI-supported interventions show promise in promoting education, exercise, and behavioral guidance for adults with chronic rheumatic diseases. There is evidence for high usability and engagement but the clinical impact on long-term symptom management is uncertain.',
+    published: '2025-Jul-14',
+    authors: [
+      'Shah Nirali',
+      'Castellanos Alexis',
+      'Chen Yen T',
+      'Piette John D',
+      'Bucher Amy',
+      'Murphy Susan L'
+    ],
+    journal: 'Arthritis care & research',
+    doi: '10.1002/acr.25612',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654107/'
+  },
+  {
+    id: '40654052',
+    title: 'Validation of the cerebellar cognitive affective syndrome (CCAS) scale in CCAS patients and cerebellar controls.',
+    abstract: 'OBJECTIVE: The cerebellar cognitive affective syndrome (CCAS) scale has been developed to screen for possible cognitive and affective impairments in cerebellar patients, but previous studies stressed concerns regarding insufficient specificity of the scale. Also, direct comparisons of CCAS scale performance between cerebellar patients with and without CCAS are currently lacking. The aim of this study was to evaluate the validity of the CCAS scale in cerebellar patients.\n' +
+      'METHOD: In this study, cerebellar patients with CCAS ( = 49), without CCAS ( = 30), and healthy controls ( = 32) were included. The Dutch/Flemish version of the CCAS scale was evaluated in terms of validity and reliability using an extensive neuropsychological assessment as the gold standard for CCAS. Correlations were examined between the CCAS scale and possible confounding factors. Additionally, a correction for dysarthria was applied to timed neuropsychological tests to explore the influence of dysarthria on test outcomes.\n' +
+      'RESULTS: Cerebellar patients with CCAS performed significantly worse on the CCAS scale compared to cerebellar controls. Sensitivity was acceptable, but specificity was insufficient due to high false-positive rates. Correlations were found between outcomes of the scale and both education and age. Although dysarthria did not affect the validity of the CCAS scale, it may influence timed neuropsychological test outcomes.\n' +
+      'CONCLUSIONS: Evaluation of the CCAS scale revealed insufficient specificity. Our findings call for age- and education-dependent reference values, which may improve the validity and usability of the scale. Dysarthria might be a confounding factor in timed test items and should be considered to prevent misclassification.',
+    published: '2025-Jul-14',
+    authors: [
+      'Reumers Stacha F I',
+      'Maas Roderick P P W M',
+      'van den Brandt Veerle J M',
+      'Kocken Lotte A H',
+      'Wiegand Iris M',
+      'de Leeuw Frank-Erik',
+      'Schutter Dennis J L G',
+      'van de Warrenburg Bart P C',
+      'Kessels Roy P C'
+    ],
+    journal: 'Journal of the International Neuropsychological Society : JINS',
+    doi: '10.1017/S1355617725101033',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40654052/'
+  },
+  {
+    id: '40653954',
+    title: "Neonatal Nurses' Understanding of the Factors That Enhance and Hinder Early Communication Between Preterm Infants and Their Parents: A Narrative Inquiry Study.",
+    abstract: "BACKGROUND: Infants born preterm are at high risk of facing difficulties with acquiring speech, language and communication skills. Research on the direct benefits of parent-infant communication in neonatal units is limited. This study recognises that although neonatal nurses regard early communication as important, there is scope to develop a wider range of resources to help support professionals' understanding of the importance of communication in neonatal care.\n" +
+      "AIM: To explore neonatal nurses' understanding of factors that can enable or hinder early communication and interaction between preterm infants and parents within a neonatal unit setting.\n" +
+      "METHODS AND PROCEDURES: This study employed a narrative inquiry approach with nine neonatal nurses, selected through purposive sampling. Narrative interviews investigated nurses' views and understanding of the enablers and challenges to communication in this patient group, along with their role in enhancing early communication between infants and parents. Data reporting was undertaken using the Consolidated Criteria for Reporting Qualitative Studies (COREQ), aligning with Enhancing the QUAlity and Transparency of Health Research (EQUATOR) framework.\n" +
+      'OUTCOMES AND RESULTS: Narrative analysis revealed the following four themes: the importance of education and experience in neonatal care; supporting parents of infants receiving neonatal care; encouraging communication strategies; the impact of limiting parental presence and wearing facemasks.\n' +
+      'CONCLUSIONS AND IMPLICATIONS: Neonatal nurses commented that using early communication strategies with infants and supporting parents to learn how to communicate directly with their infant is essential. However, none were able to fully describe the key components of early communication from a linguistic perspective, nor give specific examples beyond skin-to-skin care, bonding, reading infant cues and hearing familial voices during conversation and reading. Although these are very important antecedent skills that provide a framework for developing communication, they are not always a direct means to enhance language development specifically. As preterm infants are at high risk of altered language and communication development, a real need exists for neonatal nurses to develop linguistically rooted methods to support communication for parents and their infants, in conjunction with allied healthcare professionals such as speech and language therapists. This support can enable the development of positive communication, enriched and extended after leaving the neonatal unit.\n' +
+      'WHAT THIS PAPER ADDS: What is already known on the subject Encouraging and supporting parents to learn to develop early communication and interaction skills with their preterm infants, when experiencing neonatal care, is recognised as being important; previous research has clearly identified these infants as being at high risk of speech, language and communication difficulties. These complications, if they arise, are known to impact future outcomes, including educational achievements along with social and friendship skills. Neonatal nurses in conjunction with key allied healthcare professionals such as speech and language therapists are in a prime position to support parents in this vital area of care. What this paper adds to existing knowledge Our study highlights that although neonatal nurses regard early communication as an important part of their role, it identifies a need for them to be further informed and educated about the specifics of early communication, the associated risks and the potential impact on language that poor, unenriched communication environments can lead to. Importantly, although some studies have investigated aspects of early preterm infant-parent interaction, there is still a need for further in-depth investigation into early parent communication confidence and skills, particularly in relation to supporting linguistic development by neonatal nurses and allied healthcare professionals, including speech and language therapists. What are the potential or actual clinical implications of this work? Collaboration between neonatal nurses and other professionals, in particular speech and language therapists, is essential so that preterm infants and their families can experience language-rich learning environments within a neonatal unit; parents can then be supported to use tailored strategies to enable positive language experiences when discharged home. Speech and language therapists working with neonatal nurses can substantially enhance the quality of infant-parent interactions in neonatal environments through direct modelling, education and the creation of resources for both families and neonatal staff, which includes accurate information related to a linguistic framework, on which future work will focus and investigate further.',
+    published: '2025',
+    authors: [ 'Petty Julia', 'Whiting Lisa', 'Harding Celia' ],
+    journal: 'International journal of language & communication disorders',
+    doi: '10.1111/1460-6984.70093',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40653954/'
+  },
+  {
+    id: '40653909',
+    title: 'A Scoping Review of the Observed and Perceived Functional Impacts Associated With Language and Learning Disorders in School-Aged Children.',
+    abstract: 'BACKGROUND: Assessing children with Developmental Language Disorder (DLD) and Specific Learning Disabilities (SLD) requires a clear understanding of how these conditions impact their daily lives. However, existing assessment tools are not systematically grounded in a theoretical framework, and there is a lack of consensus regarding the relevant dimensions and indicators to be evaluated. Notably, the concepts of functional impact and functional impairment-which are essential for identifying needs, informing clinical decision-making and tailoring interventions-remain poorly defined and are frequently used interchangeably, even though they refer to distinct aspects of functioning. This conceptual ambiguity hinders the development of consistent, theory-based assessment models and contributes to inconsistencies across both research and clinical settings.\n' +
+      "AIMS: The study aims to describe and clarify the concepts of 'functional impact' and 'functional impairment,' as well as to identify and classify the leading dimensions and indicators used to measure the functional consequences of DLD and SLD in school-aged children.\n" +
+      'METHODS AND PROCEDURES: A scoping review was performed on a systematic search of studies published between January 2013 and November 2023 across six databases (Medline, PsycINFO, CINAHL, ERIC, Psychology & Behavioural Science Collection and Education Source). In total, 1950 documents were reviewed using predefined eligibility criteria, resulting in 53 documents being included for the final data extraction. The analysis followed a qualitative approach, combining both inductive and deductive analyses. An inductive approach was used to develop a new conceptual framework (definitions and classification system), while a deductive approach was applied to organise the identified dimensions and indicators into five overarching categories.\n' +
+      'MAIN CONTRIBUTION: There is notable variability in the terminology used to describe functional impact and functional impairment, as well as ambiguity surrounding their respective meanings. Using an iterative lexicographical approach, we established operational definitions, distinguishing between two subcategories of functional consequences: observed and perceived functional impacts. This conceptual distinction enhances the clarity and applicability of these constructs in both research and clinical settings. Furthermore, five major categories were identified to guide the assessment of the functional impacts: individual abilities, personal factors, daily and meaningful activities, social relationships and environmental factors. Each category encompasses a range of dimensions and indicators. Based on these findings, we propose a structured and integrated framework: the Observed and Perceived Functional Impacts (OPFI) model for assessing functional consequences.\n' +
+      "CONCLUSIONS AND IMPLICATIONS: Distinguishing between observed and perceived functional impacts provides a clearer and more comprehensive understanding of children's needs. This differentiation supports more targeted and effective clinical recommendations aimed at enhancing their communication skills, daily and meaningful activities, social relationships and overall quality of life. The proposed theoretical framework offers a clear conceptual framework for speech-language pathologists and other healthcare and educational professionals in shaping evaluation and intervention practices. This framework could be used to develop assessment tools aimed at assessing children's real-life functioning.\n" +
+      "WHAT THIS PAPER ADDS: What is already known on this subject DLD and SLD significantly affect children's daily lives, particularly communication, social relationships and academic success. To design interventions tailored to each child's needs, it is crucial to accurately understand and measure these impacts effectively. However, the current terminology used to describe these impacts and the available assessment methods vary widely, leading to uncertainties about what should be evaluated for clinicians. What this paper adds to existing knowledge The scoping review results allow us to disentangle the concepts of 'observed' and 'perceived' functional impacts of language and learning disorders by providing explicit definitions of these two concepts. Key dimensions and indicators were identified for both observed and perceived functional impacts. We propose a structured model based on these dimensions and indicators: Observed and Perceived Functional Impacts (OPFI) model. Considering its dynamic nature, this model will facilitate a more systematic assessment of the functional consequences for children with language or learning disorders. What are the potential or actual clinical implications of this work? Given the limitations of standardised tests, enhancing speech-language assessments by integrating observations from parents, teachers, and other professionals is essential to comprehensively understand the child's strengths, challenges and needs. Focusing on the functional impacts of disorders-such as social interaction, daily activities and adaptation to school and family environments-refines intervention plans adapted to the child's specific needs and enables more precise monitoring of their progress. Including the child's perspective from an early age through well-suited self-report questionnaires or open-ended questions during clinical interviews supports a better understanding of their experiences and perceptions of the disorder.",
+    published: '2025',
+    authors: [
+      'Perichon Jérémy',
+      'Paul Marianne J',
+      'Chabanal Damien',
+      'Maïonchi-Pino Norbert'
+    ],
+    journal: 'International journal of language & communication disorders',
+    doi: '10.1111/1460-6984.70086',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40653909/'
+  },
+  {
+    id: '40653815',
+    title: 'Barriers to public engagement with biodiversity conservation.',
+    abstract: 'Addressing biodiversity loss requires public engagement and action, including changes to individual consumption habits, support for on-the-ground conservation actions, and advocacy for government action and policy change. Conservation organizations are increasingly focused on encouraging probiodiversity attitudes and behaviors through interventions, such as education programs and marketing campaigns. Yet, motivating public audiences to change their behavior or become more active participants in conservation remains a challenge. We used a strategic communication approach to conceptualize barriers to public engagement with conservation and explored how these barriers manifest differently across audiences based on their current level of engagement (e.g., aware vs. active). The psychological, social, and structural barriers discussed are lack of knowledge, misaligned values, low self-efficacy, low personal or social relevance, and limiting structural context. These barriers are recognized across conservation science, behavioral science, and social change literature. Many different communication approaches may be used to overcome these barriers, including raising awareness, working with values, social norming, strategic calls to action, social mobilization, and advocacy. Regardless of the approach, understanding individual behaviors, audience types, and their social context is key to supporting biodiversity conservation actions and positive social change.',
     published: '2025-Jul-13',
     authors: [
-      'Ozdemir Semra',
-      'Chaudhry Isha',
-      'Malhotra Chetna',
-      'Van Houtven Courtney',
-      'Finkelstein Eric Andrew'
+      'Gregg Emily A',
+      'Garrard Georgia E',
+      'Bekessy Sarah A',
+      'Kusmanoff Alexander M',
+      'Martin Jen K',
+      'Selinske Matthew J',
+      'Kidd Lindall R',
+      'Robinson Jennifer A'
     ],
-    journal: 'Medical decision making : an international journal of the Society for Medical Decision Making',
-    doi: '10.1177/0272989X251347303',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652351/'
-  },
-  {
-    id: '40652349',
-    title: 'Cohort Profile: The New Zealand Best Start study (Kia Tīmata Pai).',
-    abstract: 'No abstract available',
-    published: '2025-Jun-11',
-    authors: [
-      'Poulton Richie',
-      'Bakir-Demir Tugce',
-      'Guiney Hayley',
-      'Kokaua Jesse',
-      'Salmon Karen',
-      'Schaughency Elizabeth',
-      'Taumoepeau Mele',
-      'Clifford Amanda',
-      'McLauchlan Jimmy',
-      'Edgeler Clair',
-      'Maruariki Natasha',
-      'McNaughton Stuart',
-      'Gluckman Peter',
-      "O'Sullivan Justin",
-      'Wei Ran',
-      'Trudgen Anita',
-      'Reese Elaine'
-    ],
-    journal: 'International journal of epidemiology',
-    doi: '10.1093/ije/dyaf103',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652349/'
-  },
-  {
-    id: '40652332',
-    title: "Clinical Nurses' Experiences of Discrimination Against Patients: A Qualitative Study in Iran.",
-    abstract: 'BACKGROUND: Any form of discrimination directly opposes the ethical principles and values of the nursing profession. Discriminatory care is a major moral challenge to healthcare systems around the world.\n' +
-      "OBJECTIVE: This study aimed to explore clinical nurses' experiences of discrimination against patients.\n" +
-      "METHODS: This qualitative study used a conventional content analysis approach. Thirteen nurses were selected through purposive sampling from various clinical units at public and private hospitals in Iran. Data collection was conducted through semi-structured interviews, and data analysis was performed using Granheim and Lundman's 5-step method.\n" +
-      `RESULTS: The study identified 3 main themes and 6 subthemes. These include "duplicity in the application of organizational rules" (comprising differences in providing hospitalization and patient accommodation services and ignoring organizational regulations in providing welfare services), "inequality in relationship with patients" (encompassing disregard for ethical considerations in patient relationships and differential physical presence at the patient's bedside), and "differences in the delivery of care and treatment services" (involving neglecting patients' needs in care provision and expediting the provision of interdisciplinary services).\n` +
-      'CONCLUSION: This study underscores that discrimination in health care extends beyond direct patient care, infiltrating physical, material, and even intangible aspects such as communication style and patient attention. To combat this pervasive issue, nurses must receive comprehensive education about the various forms of discrimination. By implementing both immediate and long-term strategies, including policies and programs, we can work toward creating a more inclusive and respectful healthcare environment for all.',
-    published: '2025-Jul-12',
-    authors: [
-      'Karimian Aram',
-      'Sadooghiasl Afsaneh',
-      'Khoobi Mitra',
-      'Mohammadi Eesa',
-      'Kazemnejad Anoshirvan'
-    ],
-    journal: 'Western journal of nursing research',
-    doi: '10.1177/01939459251352300',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652332/'
-  },
-  {
-    id: '40652316',
-    title: 'Comment on "Leveraging Large Language Models to Enhance Patient Educational Resources in Rhinology": Implications for ENT Education and Equity.',
-    abstract: 'No abstract available',
-    published: '2025-Jul-12',
-    authors: [ 'Burmeister James R', 'Bohler Forrest' ],
-    journal: 'The Annals of otology, rhinology, and laryngology',
-    doi: '10.1177/00034894251356571',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652316/'
-  },
-  {
-    id: '40652289',
-    title: 'Nutritional myths in adolescents and young adults with type 1 diabetes: a pilot study.',
-    abstract: "BACKGROUND: The global prevalence of type 1 diabetes mellitus (T1DM) is steadily increasing, particularly among children and young adults. Health-related myths can significantly influence patients' dietary behaviors and treatment adherence, thereby compromising disease management and metabolic outcomes.\n" +
-      'METHODS: This cross-sectional study included 190 adolescents and young adults with T1DM attending a pediatric endocrinology outpatient clinic. Data on demographics, BMI, HbA1c values, and nutrition-related myths were collected through face-to-face interviews. Statistical analyses, including chi-square tests and Spearman correlation coefficients, were performed using SPSS 22.0 software. Logistic regression analysis was conducted to identify independent predictors of metabolic control status (p < 0.05).\n' +
-      'RESULTS: Participants had a mean diabetes duration of 7.5 ± 4.63 years, with a mean HbA1c of 7.9 ± 1.44%. Approximately 27.0% of adolescents and 20.0% of young adults were overweight or obese. Only 29.0% of individuals had good metabolic control (HbA1c <%7), while 71.0% had HbA1c ≥ 7. An increase in diabetes duration was found to elevate the risk of poor metabolic control by 1.107 times, whereas a higher total number of answers was associated with a 0.696-fold decrease in this risk (p < 0.05).\n' +
-      'CONCLUSION: Improved knowledge about nutrition myths is associated with better metabolic control among adolescents and young adults with T1DM. Structured education programs tailored to this population may contribute to improved glycemic outcomes. A multidisciplinary team approach is essential to effectively deliver educational content and reinforce evidence-based dietary practices.',
-    published: '2025-Jul-12',
-    authors: [
-      'Kaya Didem Gunes',
-      'Arslan Sabriye',
-      'Yassıbaş Emine',
-      'Ayyıldız Feride',
-      'Bayramoglu Elvan',
-      'Turan Hande',
-      'Evliyaoglu Olcay'
-    ],
-    journal: 'BMC nutrition',
-    doi: '10.1186/s40795-025-01115-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652289/'
-  },
-  {
-    id: '40652288',
-    title: 'A mobile app intervention to support nutrition education for heart failure management: co-design, development and user-testing.',
-    abstract: 'BACKGROUND: Mobile apps show promise in supporting patients with heart failure (HF) in adhering to dietary guidelines for sodium and fluid. Though numerous apps to support HF management exist, only a few have dedicated features to support dietary adherence.\n' +
-      'OBJECTIVES: To describe the process and outcomes from the development and testing of Sodium Navigator, a mobile app intervention to engage patients with HF in dietary education and adherence.\n' +
-      'METHODS: Background research in app development, behaviour change, nutrition and qualitative interviews with patients and healthcare providers informed app content and design. Weekly team meetings were held to establish learning objectives, content, and features of the app until a prototype was developed and approved by the research team. Using a quasi-experimental mixed-methods design, patients with HF (≥ 18 years) evaluated the prototype via one-on-one online user-testing sessions. App engagement, satisfaction, and usability were measured using a 12-question patient-reported Likert-scale questionnaire. Participant feedback on app content and features was gathered using qualitative interviews.\n' +
-      'RESULTS: Six educational modules (dietary sodium recommendations, contributors of sodium in the diet, nutrition labelling, lowering dietary sodium, fluid restriction and goal setting), ten behaviour change techniques (e.g., feedback on behaviour, social support) and gamified components (i.e., avatar, point-system) were integrated into the app. Participants with HF (n = 10, 56±15 years, 80% women) enjoyed using the app (90%), strongly agreed that the information was meaningful and useful for their general health (80%) and was easy to use (70%).\n' +
-      'CONCLUSION: Results demonstrate the potential of Sodium Navigator to support patients with dietary education and adherence for HF management.',
-    published: '2025-Jul-12',
-    authors: [
-      'Sivakumar Bridve',
-      'Ricupero Maria',
-      'Mahajan Anisha',
-      'Jefferson Katherine',
-      'Wenger John',
-      'Code Jillianne',
-      'Theodorou Alex',
-      'Arcand JoAnne'
-    ],
-    journal: 'BMC nutrition',
-    doi: '10.1186/s40795-025-01117-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652288/'
-  },
-  {
-    id: '40652285',
-    title: 'Transgenerational transmission of eating disorders: the role of eating disorder symptoms and socio-cultural attitudes.',
-    abstract: "OBJECTIVE: Eating disorders may be transmitted from one generation to the others through various trajectories, including genetic and epigenetic factors, parent-child relationships, and behavioral factors. In the current study, we examined whether parents' eating disorder symptoms and sociocultural attitudes toward appearance are associated with the diagnosis of an eating disorder or the level of eating disorder symptoms among female adolescents and young adults, and the nature of these associations. We also examined whether fathers' and mothers' effects on offsprings' eating disorder symptoms interact.\n" +
-      'METHOD: The study included 65 triads of mothers, fathers, and their female offspring aged 11-22 (N = 195). Thirty-two offspring were diagnosed with an eating disorder and recruited from the in-patient eating disorder unit in a public hospital. The remaining 33 offspring, who formed the control group, were recruited via social media platforms.\n' +
-      "RESULTS: In contrast to our expectations and previous findings, mothers' and fathers' levels of eating disorder symptoms and sociocultural attitudes toward appearance were negatively associated with their offspring's eating disorder symptoms. Also, inconsistent with mental health studies that showed that the behaviors and attitudes of one parent are exacerbated or attenuated by the other parent, we failed to find an interaction effect between mothers' and fathers' variables on their offspring's level of eating disorder symptoms.\n" +
-      'DISCUSSION: The current study adds to the limited number of studies that focused on fathers in the transgenerational transmission of eating disorders and encourages further research on the effects of each parent and the combined effects of both in the development and maintenance of eating disorders in their offspring.',
-    published: '2025-Jul-12',
-    authors: [ 'Zissu Bar', 'Sher Helene', 'Slobodin Ortal' ],
-    journal: 'Journal of eating disorders',
-    doi: '10.1186/s40337-025-01317-8',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652285/'
-  },
-  {
-    id: '40652249',
-    title: 'Factors associated with hospitalizations due to severe malaria in the non-endemic Brazilian region: a case-control study in the extra-Amazon Region from 2011 to 2019.',
-    abstract: "BACKGROUND: Malaria is infectious disease with low occurrence in Brazil extra-Amazon Region. Despite this, higher lethality is observed in this region compared to the country's endemic area. Therefore, this study aimed to analyse factors associated with malaria hospitalizations (severe malaria) in the extra-Amazon Region, in order to prevent deaths.\n" +
-      'METHODS: A case-control design was used, utilizing data from the Brazilian Notifiable Diseases Information System (Sinan) and hospitalization records from the Unified Health System (SIH/SUS) from 2011 to 2019. Cases comprised hospitalized malaria patients, while controls included reported malaria notifications without hospitalization. Probabilistic record linkage techniques were employed, and associations were analysed using multiple logistic regression with a 0.05 significance level.\n' +
-      'RESULTS: The main risk factors identified were: Black or mixed-race ethnicity (OR = 1.22; 95% CI 1.04-1.43), low education (elementary school OR = 2.21; 95% CI 1.78-2.75 or high school OR = 1.72; 95% CI 1.39-2.13), infection outside the extra-Amazon Region (Amazon Region OR = 1.50; 95% CI 1.15-1.96 or abroad OR = 1.72; 95% CI 1.28-2.32), high parasite count (501 to 10,000/mm OR = 1.51; 95% CI 1.27-1.80, 10,001 to 100,000/mm OR = 1.77; 95% CI 2.87-1.96 or higher than 100,000/mm OR = 3.15; 95% CI 2.20-4.50) and delayed treatment (after 3-7 days symptoms onset OR = 1.74; 95% CI 1.36-2.24 or 8 days or more OR = 2.08; 95% CI 1.62-2.66). Active case detection was a protective factor (OR = 0.65; 95% CI 0.54-0.78).\n' +
-      'CONCLUSIONS: Delayed treatment remains a key factor in the occurrence of severe malaria, leading to high parasitaemia and revealing inequalities in access to healthcare based on socioeconomic differences. Travel to the Amazon Region or other countries also poses a challenge, requiring strengthened traveller health strategies and increased surveillance awareness to promptly suspect and identify cases.',
-    published: '2025-Jul-12',
-    authors: [
-      'da Silva Anderson Coutinho',
-      'Duarte Elisabeth Carmem',
-      'Marchesini Paola Barbosa',
-      'Viana Giselle Maria Rachid',
-      'Ramalho Walter Massa',
-      'Garcia Klauss K S'
-    ],
-    journal: 'Malaria journal',
-    doi: '10.1186/s12936-025-05357-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652249/'
-  },
-  {
-    id: '40652222',
-    title: 'Navigating challenges in medical english learning: leveraging technology and gamification for interactive education - a qualitative study.',
-    abstract: 'BACKGROUND: Teaching and learning English for Medical Purposes is crucial for medical students, especially in non-English-speaking countries, as it facilitates effective communication, access to global medical literature, and participation in international medical events. However, medical English education faces numerous challenges. This qualitative study explores the challenges faced by medical educators and students in Iran and proposes strategies to enhance medical English education through technology and gamification.\n' +
-      'METHOD: A thematic content analysis was conducted using semi-structured interviews with 13 medical English instructors and 10 medical students from various Iranian universities. Data were collected from September 2023 to February 2024. The interviews focused on challenges in teaching and learning medical English, the role of technology, and potential improvements. Thematic analysis was employed to identify key themes and sub-themes.\n' +
-      'RESULTS: The study identified six main themes: (1) Instructor-related challenges (e.g., knowledge gaps, teaching methodology, and resistance to technology), (2) Student-related challenges (e.g., low language proficiency, pronunciation difficulties, and lack of engagement), (3) Curriculum and content issues (e.g., outdated materials, lack of speaking practice), (4) Organizational challenges (e.g., unclear policies, resistance to technological change), (5) Technology-enhanced learning (e.g., inadequate infrastructure, lack of interactive platforms), and (6) Recommendations for improvement (e.g., joint teaching, gamification, and blended learning).\n' +
-      'CONCLUSION: The study indicated the need for a comprehensive approach to medical English education in Iran, emphasizing instructor training, interactive learning, updated curricula, and technology integration. By addressing these challenges, medical English education can be significantly improved, allowing future physicians to become proficient in linguistic skills which improves the globalized healthcare environment.',
-    published: '2025-Jul-12',
-    authors: [
-      'Zolfaghari Zahra',
-      'Karimian Zahra',
-      'Zarifsanaiey Nahid',
-      'Farahmandi Amir Yousef'
-    ],
-    journal: 'BMC medical education',
-    doi: '10.1186/s12909-025-07511-1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652222/'
-  },
-  {
-    id: '40652212',
-    title: "Development of medical leadership competence during undergraduate medical students' final year - a cross-sectional cohort study.",
-    abstract: 'BACKGROUND: Medical leadership plays an increasing role in quality healthcare. Nearly all physicians hold leadership roles during their career. Therefore, the development of medical leadership competence should start during undergraduate education and continue to postgraduate training. Some medical schools offer specific leadership programs, but in many medical schools, students are just embedded in the clinical environment, observing leaders in action. The goal of our cohort study was to explore how undergraduate medical students assess their leadership competences at the beginning and at the end of the final year without participation in a leadership program.\n' +
-      "METHODS: Between November 2023 and June 2024, we conducted a cross-sectional cohort study with 112 students at the beginning (1 trimester) and 117 students at the end (3 trimester) of their final year. All participants assessed their leadership competence with the Medical Leadership Competence Scale (MeLeCoS) on a 5-point Likert scale (1: 'never', 2: 'rarely', 3: 'sometimes', 4: 'often', 5: 'always'). A t-test and Mann-Whitney-U-tests were calculated for the overall MeLeCoS score, for the six MeLeCoS factors, and the 37 items, respectively, to test for significant differences between both cohorts. Within both cohorts, factors were ordered according to their mean values. Wilcoxon-tests were calculated to look for significant differences between two adjacent factors.\n" +
-      "RESULTS: No significant differences could be found between both cohorts for neither the overall MeLeCoS score nor for any of the factors or any item. In both cohorts, the factor 2 ('Demonstrating responsible behaviour and shaping relations') had the highest level in the self-assessment (1 trimester; 4.32 ± 0.40 and 3 trimester; 4.31 ± 0.36). Factor 4 ('Developing self-management and supporting management in healthcare') and 6 ('Introducing systemic perspectives into organizations') were the only factors that showed no significant difference in their adjacent mean values.\n" +
-      'CONCLUSIONS: Given that there were no significant differences between both cohorts, including teaching of medical leadership into the final year is recommended. As some medical leadership competences are highly developed at the beginning of the final year, a medical leadership curriculum should start before the final year. Individual development could be monitored and reflected by self-assessment using the MeLeCoS.',
-    published: '2025-Jul-12',
-    authors: [ 'Ogurek Barbara', 'Harendza Sigrid' ],
-    journal: 'BMC medical education',
-    doi: '10.1186/s12909-025-07635-4',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40652212/'
+    journal: 'Conservation biology : the journal of the Society for Conservation Biology',
+    doi: '10.1111/cobi.70078',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40653815/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
@@ -1127,368 +1128,6 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 37938,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5218,
-        [Symbol(triggerId)]: 5216
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 2,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Sun, 13 Jul 2025 15:10:45 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Sun, 13 Jul 2025 15:10:45 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1593,16 +1232,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 37945,
+        _idleNext: [TimersList],
+        _idleStart: 41621,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5237,
-        [Symbol(triggerId)]: 5235
+        [Symbol(asyncId)]: 5450,
+        [Symbol(triggerId)]: 5448
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1640,7 +1279,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1734,7 +1373,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sun, 13 Jul 2025 15:10:45 GMT',
+      date: 'Mon, 14 Jul 2025 15:13:25 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1845,7 +1484,369 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sun, 13 Jul 2025 15:10:45 GMT',
+  date: 'Mon, 14 Jul 2025 15:13:25 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 42163,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 5496,
+        [Symbol(triggerId)]: 5494
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Mon, 14 Jul 2025 15:13:25 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Mon, 14 Jul 2025 15:13:25 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2021,45 +2022,45 @@ Translating paper: The Impact of Education for Sustainable Developmen...
 Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
-Translating paper: The Role of Remote Activities in Urban Mobility in...
+Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 22/50
-Translating paper: Teaching Practices and Effectiveness Assessment of...
+Translating paper: The Role of Remote Activities in Urban Mobility in...
 Translating paper 23/50
-Translating paper: The Effectiveness of 3D Virtual Environments for B...
+Translating paper: Teaching Practices and Effectiveness Assessment of...
 Translating paper 24/50
-Translating paper: “Flipped” University: LLM-Assisted Lifelong Learni...
+Translating paper: The Effectiveness of 3D Virtual Environments for B...
 Translating paper 25/50
-Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
+Translating paper: “Flipped” University: LLM-Assisted Lifelong Learni...
 Translating paper 26/50
-Translating paper: AI as teacher: effectiveness of an AI-based traini...
+Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
 Translating paper 27/50
-Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
+Translating paper: AI as teacher: effectiveness of an AI-based traini...
 Translating paper 28/50
-Translating paper: Assessing the role of artificial intelligence in q...
+Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
 Translating paper 29/50
-Translating paper: International comparative studies in mathematics e...
+Translating paper: Assessing the role of artificial intelligence in q...
 Translating paper 30/50
-Translating paper: Die Konzeption von Erfolg aus Sicht von Absolvent:...
+Translating paper: International comparative studies in mathematics e...
 Translating paper 31/50
-Translating paper: Do Caregivers of Asian Patients with Advanced Canc...
+Translating paper: The Usability and Experience of Artificial Intelli...
 Translating paper 32/50
-Translating paper: Cohort Profile: The New Zealand Best Start study (...
+Translating paper: Impact of Nurses' Knowledge, Self-Efficacy and Cli...
 Translating paper 33/50
-Translating paper: Clinical Nurses' Experiences of Discrimination Aga...
+Translating paper: Assessment of ChatGPT-3.5 performance on the medic...
 Translating paper 34/50
-Translating paper: Comment on "Leveraging Large Language Models to En...
+Translating paper: The Genericization of Mental Health Nursing: A Per...
 Translating paper 35/50
-Translating paper: Nutritional myths in adolescents and young adults ...
+Translating paper: Bringing Artificial Intelligence (AI) into Health ...
 Translating paper 36/50
-Translating paper: A mobile app intervention to support nutrition edu...
+Translating paper: A Scoping Review on AI-Supported Interventions for...
 Translating paper 37/50
-Translating paper: Transgenerational transmission of eating disorders...
+Translating paper: Validation of the cerebellar cognitive affective s...
 Translating paper 38/50
-Translating paper: Factors associated with hospitalizations due to se...
+Translating paper: Neonatal Nurses' Understanding of the Factors That...
 Translating paper 39/50
-Translating paper: Navigating challenges in medical english learning:...
+Translating paper: A Scoping Review of the Observed and Perceived Fun...
 Translating paper 40/50
-Translating paper: Development of medical leadership competence durin...
+Translating paper: Barriers to public engagement with biodiversity co...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2078,10 +2079,8 @@ Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
-Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4894537858130823 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"28s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.472877453713504 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2099,30 +2098,78 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '28s'
+      retryDelay: '56s'
+    }
+  ]
+}
+Translating paper 50/50
+Translating paper: Assessing the Technical Efficiency of Public Hospi...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3724817844472157 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '51s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5839138865412266 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '48s'
     }
   ]
 }
 Translation completed: 50 papers
-Removed duplicates: 599 -> 559
-Total papers after merging: 559 (549 existing + 50 new)
-Saved 559 papers to papers.json
+Removed duplicates: 609 -> 570
+Total papers after merging: 570 (559 existing + 50 new)
+Saved 570 papers to papers.json
 Generating HTML files...
-Generating index.html with 559 papers...
+Generating index.html with 570 papers...
 Successfully generated index.html
-Generating archive.html with 559 papers...
+Generating archive.html with 570 papers...
 Successfully generated archive.html
-Generating journal.html with 559 papers...
+Generating journal.html with 570 papers...
 Successfully generated journal.html
-Generating acquisition.html with 559 papers...
+Generating acquisition.html with 570 papers...
 Successfully generated acquisition.html
-Generating publication.html with 559 papers...
+Generating publication.html with 570 papers...
 Successfully generated publication.html
-Generating registration.html with 559 papers...
+Generating registration.html with 570 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 559
+Total papers in database: 570
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-13T15:37:33.596Z
+Timestamp: 2025-07-14T15:40:13.454Z
