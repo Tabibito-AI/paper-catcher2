@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-14T15:12:44.088Z
+Timestamp: 2025-07-15T15:11:05.838Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 559 existing papers from papers.json
+Loaded 570 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -409,6 +409,99 @@ Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
   {
+    id: '10.1007/978-3-031-98185-2_9',
+    title: 'Lesson Plan Designing in the Digital Age: A Multimodal Approach with ChatGPT',
+    summary: 'The rapid development of Artificial Intelligence (AI) is reshaping educational practices, particularly in teacher training. This study explores the integration of Digital Multimodal Simulation (DMS) and ChatGPT in enhancing lesson planning skills among Pre-service English Language Teachers (PELTs). Using a mixed-methods approach that combines rubric-based evaluation, classroom observation, and thematic analysis, the study examines the effectiveness of AI-assisted lesson planning and its perceived benefits. Findings reveal that DMS supported by ChatGPT significantly improved PELTs’ ability to structure, personalize, and align lesson plans with pedagogical standards. While ChatGPT-generated plans demonstrated strengths in clarity and differentiation, human-designed plans showed deeper engagement and resource use. Additionally, PELTs reported increased confidence, practical skills, and reflection through real-time feedback within the simulation environment. The study contributes to the growing body of research on AI integration in teacher education and highlights the complementary role of human and AI collaboration in pedagogical design.',
+    published: '2026-01-01',
+    authors: [
+      'Zhussupova, Roza',
+      'Nurzhanova, Ainura',
+      'Beisembayeva, Zhanargul',
+      'Baibatyrova, Aigul',
+      'Shadiev, Rustam',
+      'Nurzhanova, Zhainash',
+      'Gauriyeva, Gulzhan',
+      'Kozhakanova, Madina',
+      'Alipbay, Bibol'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Technologies and Learning'
+  },
+  {
+    id: '10.1007/978-3-031-98197-5_27',
+    title: 'Model-Based STEM Technical and Vocational Education Explores Student’s Entrepreneurial Scientific Thinking Abilities: Taking Beverage Preparation as an Example',
+    summary: "In today's era of knowledge innovation, STEM workers are the source of motivation for economic progress in many economies, and model-based STEM technical and vocational education is more conducive to establishing students’ entrepreneurial scientific thinking abilities. As a result, this study focuses on 169 students’ assessments and interviews on their entrepreneurial scientific thinking skills following the educational technology experience learning activity. The research results show the following four points: (1) The developed entrepreneurial scientific thinking ability questionnaire has high reliability; (2) This questionnaire is feasible in model-based STEM education; (3) After STEM experiential learning of the entrepreneurial scientific thinking, 47% of students showed high-efficiency entrepreneurial scientific thinking ability; (4) Through thematic interviews, we can better understand the difficulties students face during the experience process, and can use learning experience and interaction to solve technical problems. In the future, STEM learning will enrich the overall ability of entrepreneurial scientific thinking to improve from action, doing and understanding.",
+    published: '2026-01-01',
+    authors: [ 'Su, King-Dow' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Technologies and Learning'
+  },
+  {
+    id: '10.1007/978-3-031-93825-2_19',
+    title: 'Optimization of Corporate Governance from the Perspectives of Law and Economics and Blockchain',
+    summary: 'Blockchain’s spontaneous consensus mechanism, characterized by technologies of decentralization, immutability, high transparency, and codification, helps address agency costs and the formalization of shareholder meetings in traditional corporate governance. With the advancement of blockchain technology, the integration of legal rules and code rules in corporate governance has become the new norm. As per the transaction cost theory of law and economics and the Coase Theorem, blockchain has promoted changes in governance rules by markedly reducing agency costs within companies. Corporate governance will exhibit partial and gradual adjustments when blockchain technology substantially diminishes these costs but falls short of achieving the optimal state of zero transaction costs. These changes not only enhance the transparency and efficiency of corporate governance but also effectively curb the misconduct of controlling shareholders and protect the rights of minority shareholders.',
+    published: '2026-01-01',
+    authors: [ 'Zheng, Xiao-xi', 'Liu, Cheng-yong' ],
+    categories: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    link: [ [Object] ],
+    journal: 'Smart Grid and Internet of Things'
+  },
+  {
+    id: '10.1007/978-3-031-98197-5_30',
+    title: 'Integrating Generative Artificial Intelligence with Self-explanations Scaffolding to Enhance Students’ Problem-Solving Skills and Learning Performance',
+    summary: 'Although Generative Artificial Intelligence (GAI) presents vast opportunities and potential within the educational domain, the optimal integration of educational theory with GAI to enhance academic performance and problem-solving skills remains an area that requires further exploration. Therefore, this study aims to develop an integrating GAI with self-explanations scaffolding platform to enhance students’ learning performance and problem-solving skills through completing scaffolding tasks. Furthermore, this study evaluates students’ perceived ease of use and perceived usefulness of the system based on the Technology Acceptance Model. The findings indicate that students in the experimental group demonstrated a significant improvement in learning performance and problem-solving skills after utilizing the platform proposed by this study. Additionally, the experimental group exhibited positive technology acceptance toward the platform. Finally, results from the semi-structured interviews suggest that learning programming through the self-explanations scaffolding platform can mitigate learning setbacks, provide cognitive guidance, strengthen conceptual connections, facilitate knowledge construction, and enhance application skills.',
+    published: '2026-01-01',
+    authors: [ 'Cheng, Yu-Ping', 'Hsiao, I.', 'Starčič, Andreja Istenič' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Technologies and Learning'
+  },
+  {
+    id: '10.1007/978-3-031-98185-2_19',
+    title: 'AI-Supported Summative Reflection to Foster Motivation and Teamwork in STEM: An Application of the 6E+R Framework',
+    summary: "This study explores the integration of artificial intelligence (AI) in reflective learning processes within STEM education. Based on the 6E+R learning model, an AI-supported summative reflection tool was implemented in a collaborative problem-solving (CPS) activity to examine its effects on students’ learning motivation, teamwork competency, and reflective content. A total of 28 high school students participated in a one-day Micro:bit autonomous vehicle workshop and were randomly assigned to either an experimental or control group. The experimental group used an AI-powered reflection tool that employed large language models (LLMs) to automatically generate structured summaries and feedback, while the control group engaged in traditional reflThis is to inform you that corresponding author has been identified as per the information available in the Copyright form.ection by manually recording and reviewing their learning experiences. Results indicated that the experimental group significantly outperformed the control group in both learAs Per Springer style, both city and country names must be present in the affiliations. Accordingly, we have inserted the city names in all affiliations. Please check and confirm if the inserted city names are correct. If not, please provide us with the correct city names.ning motivation and teamwork competency, with medium effect sizes. Topic modeling using BERTopic revealed that the experimental group's reflections focused more on strategy adjustment, logical reasoning, and conceptual understanding, whereas the control group's reflections were more descriptive and operational. These findings suggest that AI-supported structured feedback can enhance the quality of student reflections, increase learning engagement, and improve collaborative interactions. This study demonstrates the practical value and effectiveness of AI-assisted reflection within the 6E+R instructional model, offering new directions for reflective design in STEM collaborative learning and expanding the potential of generative AI in educational settings.",
+    published: '2026-01-01',
+    authors: [ 'Lin, Chia-Ju', 'Pedaste, Margus', 'Huang, Yueh-Min' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Technologies and Learning'
+  },
+  {
+    id: '10.1007/978-3-031-98185-2_34',
+    title: 'Non-Immersive Virtual Learning Environments (VLEs) with XR Elements in Nursing Education: Learning Interaction and Clinical Competence',
+    summary: 'The way nursing students acquire clinical competence and patient safety awareness has changed as a result of the adoption of virtual learning environments (VLEs) in healthcare education. Non-immersive VLEs that display virtual scenarios offer secure learning experiences. Easily accessible and reasonably priced non-immersive VLEs can safely enhance learning clinical procedures. To the best of our knowledge, there is no earlier research on non-immersive VLEs with extended reality (XR) elements in nursing education, and this research fills that gap. This study investigates nursing students’ expectations and experiences of using non-immersive VLEs with XR elements to learn interaction and clinical competence, such as infusion pump operations. It also explores the strengths, weaknesses, opportunities, and threats related to the use of non-immersive VLEs with XR elements in this context. Fifteen first-year nursing students engaged in two non-immersive learning scenarios. The learning process was structured using a seven-phase simulation pedagogy. The data were collected using pre- and post-questionnaires; group discussions; and strengths, weaknesses, opportunities, and threats (SWOT) analysis. The data were analyzed using both qualitative and quantitative methods. The findings highlight the potential of non-immersive VLEs with XR elements to enhance engagement, confidence, and competence acquisition in nursing students while complementing traditional hands-on training. The study highlights the importance of blended learning strategies that integrate technical and scenario-based approaches, as well as simulation pedagogy, to optimize knowledge retention and clinical competency development. As digital technologies continue to shape healthcare education, non-immersive VLEs with XR elements are valuable in bridging the gap between theory and practice, ultimately contributing to patient safety and improved healthcare outcomes.',
+    published: '2026-01-01',
+    authors: [
+      'Korte, Satu-Maarit',
+      'Ruokamo, Heli',
+      'Reinikka, Loru',
+      'Keskitalo, Tuulikki',
+      'Saukkoriipi, Katja'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Technologies and Learning'
+  },
+  {
+    id: '10.1007/978-3-031-98185-2_35',
+    title: 'A Virtual Reality-Based Co-creation Approach to Developing Narrative Competence and Empathy in EFL Nursing Education',
+    summary: 'This study investigates the use of virtual reality (VR) as a pedagogical tool to foster English narrative competence and empathy among nursing students in an English as a Foreign Language (EFL) context. Through a 16-week course-integrated intervention, 98 third-year nursing students in a five-year associate degree program at a junior nursing college participated in a co-creation project using CoSpaces Edu to collaboratively design immersive, first-person 3D narratives based on an end-of-life care scenario. The project aimed to develop students’ linguistic skills while promoting humanistic understanding through perspective-taking. Employing a mixed-methods design, the study incorporated pre- and post-intervention vocabulary tests, oral narrative evaluations, student reflections, and interviews. Results demonstrated significant gains in English vocabulary and narrative expression, increased oral confidence, and evidence of enhanced empathy as students adopted diverse character roles in their digital stories. The findings underscore the pedagogical affordances of VR-based co-creation in EFL instruction for healthcare students, revealing how immersive storytelling can bridge language learning with humanistic nursing education. Implications for XR-enhanced language education and interdisciplinary curriculum design are discussed.',
+    published: '2026-01-01',
+    authors: [ 'Cheng, Tuyuan' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Innovative Technologies and Learning'
+  },
+  {
     id: '10.1007/978-3-031-85240-4_3',
     title: 'Using Social Network Analysis to Analyze Eye-Tracking Behavior Data in Education Science',
     summary: 'This study aims to systematically evaluate the use of social network analysis (SNA) metrics to measure eye-tracking behavior to assess and predict student learning performance. We integrated 11 network metrics from published research and tested them on six eye-tracking datasets. Our preliminary results indicate that no consistent predictor variable can effectively predict student performance across different datasets. The number of nodes, edges, reciprocity, and entropy measures contribute differently to predicting students’ performance. This work deepens our understanding of how different SNA metrics relate to eye-tracking data and advances the methodological framework to predict learning outcomes.',
@@ -419,341 +512,227 @@ Fetched papers from Springer: [
     journal: 'Advances in Social Networks Analysis and Mining'
   },
   {
-    id: '10.1007/978-3-031-97638-4_12',
-    title: 'The Role of Remote Activities in Urban Mobility in the Post-COVID-19 Era',
-    summary: 'This study examines how remote activities, particularly teleworking and tele-education have been associated with urban mobility patterns in Greece during and after the COVID-19 pandemic. Focusing on shifts in travel behavior and attitudes toward future mobility trends, a questionnaire-based survey was conducted among 1,115 respondents, primarily from Thessaloniki’s academic community. The survey assessed mobility habits across three time periods (pre-, during, and post-pandemic), remote activity practices, future intentions, and socio-demographic factors. Descriptive and inferential statistical analyses were carried out to identify key determinants shaping future mobility and remote activity preferences. Results show significant behavioral changes, with walking, private vehicle, and bus use declining sharply during the pandemic. Prior to COVID-19, 80% of employees had no teleworking experience, yet 60% transitioned to working remotely five or more days weekly at the pandemic’s peak. Findings highlight strong support for continuing telework and remote learning post-pandemic, indicating lasting shifts in work, education, and urban mobility patterns.',
+    id: '10.1007/978-3-031-98185-2_37',
+    title: 'From Peer Educators to Digital Change Agents: Rethinking Health Education Through VR-Enhanced Peer Learning',
+    summary: 'The rapid digital transformation of healthcare necessitates new educational models that foster digital competence, innovation capacity, and student empowerment. This study explores the intersection of virtual reality (VR) and peer-assisted learning (PAL) in health professions education, presenting the development of the VR-PAL Innovation Model—a conceptual framework that integrates immersive simulation with student-led pedagogical leadership. Drawing on reflexive thematic analysis of focus group interviews with three cohorts of peer assistants (N = 10), the study identifies three interconnected components: a pedagogical foundation rooted in sociocultural learning theory, a structured train-the-trainer program cycle, and a set of innovation enablers, including inclusive design, co-creation, and the cultivation of a digital mindset. The findings highlight how peer educators, through their dual roles as learners and facilitators, emerge as digital change agents capable of driving innovation from within the learning environment. The model extends existing PAL frameworks by positioning students not only as knowledge sharers but also as agents of educational technology integration. While grounded in occupational therapy education, the VR-PAL model offers a transferable approach for institutions aiming to scale student-centered digital innovation. Implications for implementation, scalability, and future research are discussed.',
     published: '2026-01-01',
-    authors: [
-      'Dimaki, Elissaia',
-      'Rapti, Evangelia-Anastasia',
-      'Itskos, Vasileios',
-      'Fountas, Grigorios',
-      'Basbas, Socrates'
-    ],
+    authors: [ 'Røe, Yngve', 'Johansen, Truls Sveløkken', 'Bruset, Else Britt' ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Computational Science and Its Applications – ICCSA 2025 Workshops'
+    journal: 'Innovative Technologies and Learning'
   },
   {
-    id: '10.1007/978-981-96-8892-0_8',
-    title: 'Teaching Practices and Effectiveness Assessment of AI Courses Assisted by Large Language Models',
-    summary: "This study explores the transformative potential of integrating Artificial Intelligence (AI) into educational frameworks, focusing on the development and implementation of ViTA (Virtual Teaching Assistant), which is powered by OpenAI's GPT-4. Motivated by the need to enhance interactive learning and improve the relevance of course content delivery, ViTA is designed to provide real-time, adaptive support tailored to a course on machine learning and natural language processing. The deployment of ViTA aims to revolutionize student engagement and learning processes by offering intelligent, context-aware interactions. Utilizing a structured methodological approach, the impact of ViTA on student learning experiences was evaluated through surveys conducted before and after the course integration. These assessments focused on key areas such as student engagement, problem-solving accuracy, and the relevance of AI-generated responses to the curriculum. Statistical analyses using methods like the Wilcoxon Signed Rank Test and McNemar Test revealed that ViTA significantly improved learning efficiency and student interactivity. Despite the benefits observed, instances of response irrelevance highlighted the ongoing need to refine AI tools to better align with educational objectives. This study not only confirms the effectiveness of AI-driven virtual assistants in enhancing educational outcomes but also proposes continued advancements and deeper integration of AI technologies to enrich diverse learning environments.",
+    id: '10.1007/978-3-031-98197-5_42',
+    title: 'An Inquiry on the Usability of Generative AI in Design Education',
+    summary: 'Generative AI is transforming creative disciplines at an unprecedented rate, however there is a lack of studies investigating human-AI interaction in art and design education. To help close the research gap, this study takes a mixed-methods approach to evaluate the usability of text-to-image generators in design processes. The results from the System Usability Scale and semi-structured interviews indicate that while design students perceive the overall usability of generative AI positively, they rate the functionality, system feedback and efficiency of these tools less favorably. In-depth analyses of interview results suggest that limited control, limited interpretability and inconsistency of results are barriers for the usability of generative AI in design education.',
     published: '2026-01-01',
-    authors: [ 'Chang, Shih-Chuan', 'Chang, Yung-Chun' ],
-    categories: [ undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Advances and Trends in Artificial Intelligence. Theory and Applications'
-  },
-  {
-    id: '10.1007/978-3-031-98033-6_5',
-    title: 'The Effectiveness of 3D Virtual Environments for BPMN Teaching: A Quasi-Experimental Study',
-    summary: 'Traditional Business Process Model and Notation (BPMN) diagrams, being static and highly abstract, often hinder comprehension, particularly for novice designers and students. This can lead to misinterpretations and process inefficiencies. In this study, we investigate whether immersive three-dimensional (3D) virtual environments can enhance the understanding of BPMN models. We developed a virtual reality (VR)-based BPMN visualization tool and conducted a quasi -experiment with 48 academic and professional participants, who interacted with a 3D BPMN model using Google Cardboard and a joystick. Participants completed comprehension tasks before and after the VR experience. The results show significant improvements in understanding and engagement, suggesting that immersive virtual reality can be a valuable educational tool for BPMN learning. This study contributes empirical evidence supporting the integration of 3D environments in process modeling education, offering benefits for both academic and professional training.',
-    published: '2026-01-01',
-    authors: [
-      'Matias, Diógenes Carvalho',
-      'Souza Albuquerque, Lenylda Maria',
-      'Silveira, Denis Silva'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Business Modeling and Software Design'
-  },
-  {
-    id: '10.1007/978-981-96-6603-4_16',
-    title: '“Flipped” University: LLM-Assisted Lifelong Learning Environment',
-    summary: 'The rapid development of artificial intelligence technologies, particularly Large Language Models (LLMs), has revolutionized the landscape of lifelong learning. This paper introduces a conceptual framework for a self-constructed lifelong learning environment supported by LLMs. It highlights the inadequacies of traditional education systems in keeping pace with the rapid deactualization of knowledge and skills. The proposed framework emphasizes the transformation from institutionalized education to personalized, self-driven learning. It leverages the natural language capabilities of LLMs to provide dynamic and adaptive learning experiences, facilitating the creation of personal intellectual agents that assist in knowledge acquisition. The framework integrates principles of lifelong learning, including the necessity of building personal world models, the dual modes of learning (training and exploration), and the creation of reusable learning artifacts. Additionally, it underscores the importance of curiosity-driven learning and reflective practices in maintaining an effective learning trajectory. The paper envisions the evolution of educational institutions into “flipped” universities, focusing on supporting global knowledge consistency rather than merely structuring and transmitting knowledge.',
-    published: '2026-01-01',
-    authors: [ 'Krinkin, Kirill', 'Berlenko, Tatiana' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Neural Information Processing'
-  },
-  {
-    id: '10.1007/978-3-031-97651-3_5',
-    title: 'Waste for Knowledge: An IoT-Driven Educational Reward System',
-    summary: 'Wastes should not be wasted - it might be opportunities for a brighter future. That is the idea behind Waste4Knowledge, an IoT-driven kiosk that turns discarded items like plastic bottle aluminum cans into opportunities for children to learn and grow. The system incentivizes children to recycle waste materials by rewarding them with items, stationeries, or access to education contents. It uses IoT sensors and an ESP32 microcontroller to check the recyclables and hand out rewards without a hitch. Its modular hardware design, combined with Firebase software, allows real-time data tracking, enabling administrators to analyze recycling trends, adjust reward strategies, and optimize the user experience dynamically. By integrating recycling and education, the W4K system offers opportunities to underprivileged children, fosters environmental responsibility, and inspires positive community behavior. Its adaptable design positions it as a scalable solution for sustainable development initiatives worldwide.',
-    published: '2026-01-01',
-    authors: [
-      'Anh, Khuat Duc',
-      'Duc, Nguyen Minh',
-      'Anh, Vu Phung',
-      'Linh, Nguyen Thuy',
-      'Hoi, Dao Ba',
-      'Hung, Phan Duy'
-    ],
+    authors: [ 'Pektaş, Şule Taşlı' ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
-    journal: 'Computational Science and Its Applications – ICCSA 2025 Workshops'
-  },
-  {
-    id: '10.1007/s00256-025-04927-0',
-    title: 'AI as teacher: effectiveness of an AI-based training module to improve trainee pediatric fracture detection',
-    summary: 'Objective Prior work has demonstrated that AI access can help residents more accurately detect pediatric fractures. We wished to evaluate the effectiveness of an unsupervised AI-based training module as a pediatric fracture detection educational tool. Materials and methods Two hundred forty radiographic examinations from throughout the pediatric upper extremity were split into two groups of 120 examinations. A previously developed open-source deep learning fracture detection algorithm ( www.childfx.com ) was used to annotate radiographs. Four medical students and four PGY-2 radiology residents first evaluated 120 examinations for fracture without AI assistance and subsequently reviewed AI annotations on these cases via a training module. They then interpreted 120 different examinations without AI assistance. Pre- and post-intervention fracture detection accuracy was evaluated using a chi-squared test. Results Overall resident fracture detection accuracy significantly improved from 71.3% pre-intervention to 77.5% post-intervention ( p  = 0.032). Medical student fracture detection accuracy was not significantly changed from 56.3% pre-intervention to 57.3% post-intervention ( p  = 0.794). Eighty-eight percent of responding participants (7/8) would recommend this model of learning. Conclusion We found that a tailored AI-based training module increased resident accuracy for detecting pediatric fractures by 6.2%. Medical student accuracy was not improved, likely due to their limited background familiarity with the task. AI offers a scalable method for automatically generating annotated teaching cases covering varied pathology, allowing residents to efficiently learn from simulated experience.',
-    published: '2025-09-01',
-    authors: [
-      'O’Rourke, Sean',
-      'Xu, Sophia',
-      'Carrero, Stephanie',
-      'Drebin, Harrison M.',
-      'Felman, Ariel',
-      'Ko, Andrew',
-      'Misseldine, Adam',
-      'Mouchtaris, Sofia G.',
-      'Musialowicz, Brett',
-      'Wong, Tony T.',
-      'Zech, John R.'
-    ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Skeletal Radiology'
-  },
-  {
-    id: '10.1007/s40299-024-00936-0',
-    title: 'Tech-Enhanced Learning: Evaluating General Education in Vocational Colleges Through Technology Integration',
-    summary: 'In vocational education, the role of general education (GE) is pivotal in cultivating a well-rounded skill set among students. As the demands of the job market evolve, it becomes imperative to assess and enhance the efficacy of GE in these specialized settings. Vocational colleges (VC) and higher vocational institutions are essential in getting pupils ready for careers by offering specialized courses. However, the significance of GE cannot be overstated, as it provides a foundation for critical thinking, communication skills, and a broad intellectual perspective. This investigation aims to investigate the evaluation system of GE and related courses within VCs and higher vocational institutions. The study employs a descriptive mixed-methods approach. A purposive sampling technique was utilized to select participants. Using a questionnaire survey and interview method, the data for this paper was gathered from 157 teachers and 208 students. The data collected was analyzed using SPSS for statistical analysis. The findings identified that integrating technology-based evaluation methods enhances the effectiveness of GE programs in VCs. The result clarified that regular feedback and assessment in GE courses in higher VCs lead to better retention and understanding of the course content. The novelty of the study lies in assessing GE and courses in vocational and higher VCs, by exploring unique evaluation systems, it aims to enhance the quality of education, aligning curriculum with industry demands, and promoting well-rounded graduates in vocational settings.',
-    published: '2025-08-01',
-    authors: [ 'Pan, Tingjiang', 'Jiang, Lijuan' ],
-    categories: [
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined
-    ],
-    link: [ [Object] ],
-    journal: 'The Asia-Pacific Education Researcher'
-  },
-  {
-    id: '10.1007/s43681-025-00700-0',
-    title: 'Assessing the role of artificial intelligence in quality of legal education with special reference to sustainable development goal',
-    summary: 'The transformational potential of artificial intelligence (AI) has been increasingly apparent in a variety of fields, including legal education. This study investigates the potential of AI in transforming legal education in order to meet the sustainable development goals (SDGs), 2030. As nations and cultures global struggle to achieve the SDGs, legal professionals play an important role in establishing legal frameworks that support progress toward these goals. It can improve the delivery of legal curricula by providing customized learning experiences targeted to individuals. AI can also help educators to create current content and enhance the evaluation. Education is now more dynamic, accessible, and affordable, expanding its reach. Quality of legal education is a cornerstone of achieving the SDGs set for 2030. The effective utilization of AI in the field of legal education holds significant promise in not only expanding access but also improving the quality of legal education. AI-powered legal research tools have the potential to revolutionize legal research for law students, researchers, and legal practitioners. They can provide more efficient and comprehensive ways to explore legal precedents, case law, and statutes, thus empowering legal professionals to perform their duties with greater accuracy and efficiency. By improving access to legal information, these tools can play a significant role in the formulation of laws and regulations that align with the SDGs. This research paper explores the multifaceted ways in which AI can contribute to advancing legal education and, consequently, supporting the attainment of the SDGs.',
-    published: '2025-08-01',
-    authors: [ 'Varun, Prashant Kumar' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'AI and Ethics'
-  },
-  {
-    id: '10.1007/s11858-025-01700-4',
-    title: 'International comparative studies in mathematics education: a scoping review of the literature from 2014 to 2023',
-    summary: 'This article presents a scoping review of the recent body of cross-national comparative studies in mathematics education from 2014–2023. Following qualitative content analysis of the full texts of 286 journal articles based on a deductive–inductive coding procedure, we identified four main themes: 1) curriculum and textbooks, 2) mathematics teacher education, 3) student mathematics learning, and 4) classroom practices. We first present a descriptive analysis of the general characteristics of the reviewed studies, including the research methods used, target school years, and geographic locations, before discussing the details of the four themes. We also suggest future research directions for each theme.',
-    published: '2025-08-01',
-    authors: [
-      'Yang, Xinrong',
-      'Chan, Man Ching Esther',
-      'Kaur, Berinderjeet',
-      'Deng, Jun',
-      'Luo, Junyang',
-      'Wen, Yuhan'
-    ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'ZDM – Mathematics Education'
+    journal: 'Innovative Technologies and Learning'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40654175',
-    title: 'The Usability and Experience of Artificial Intelligence-Based Conversational Agents in Health Education for Cancer Patients: A Scoping Review.',
-    abstract: "BACKGROUND: Artificial intelligence-based conversational agents (CAs) have shown transformative potential in healthcare, yet their application in cancer health education has remained underexplored, particularly regarding usability and patients' experiences. Existing reviews lack a dedicated focus on user perspectives, limiting insights into how CAs can be optimised for patient needs.\n" +
-      'AIM: To explore the usability and experience of artificial intelligence-based conversational agents in health education for cancer from the user perspective.\n' +
-      'DESIGN: A scoping review was conducted with the Joanna Briggs Institute Scoping Reviews conduct guidance and reported according to the preferred reporting items for systematic reviews and meta-analyses extension for scoping reviews checklist.\n' +
-      'METHODS: A search was performed in PubMed, Embase, CINAHL, Web of Science, PsycINFO, IEEE Xplore Digital Library and ACM Digital Library from their inception to March 6, 2024. The references to the articles included were also searched. The Pillar Integration Process was employed to chart data.\n' +
-      "RESULTS: A total of 12 studies were included in this scoping review, which revealed that CAs supported diverse educational contexts, including cancer-related knowledge (41.7%), pretest genetics (33.3%), self-management (16.7%) and psychological skills (8.3%). Three studies reported that patients preferred interactions with multiple options or 'read more' functions. Patients were generally optimistic about the CAs and reported that CAs provided informational, physical, and psychological support for them. However, limitations such as insufficient customisation, lack of empathy, and defects in understanding free-input questions were noted.\n" +
-      'CONCLUSION: This review demonstrated that CAs are promising complementary tools in cancer education, alleviating healthcare burdens while enhancing patient engagement, which was particularly critical in resource-limited settings. However, clinical implementation requires more rigorous validation of safety protocols and high-quality original studies.\n' +
-      'RELEVANCE TO CLINICAL PRACTICE: Nurses and policymakers should consider CAs valuable tools to enhance cancer health education, provided that they align with patient needs and institutional safety standards.',
-    published: '2025-Jul-14',
+    id: '40662308',
+    title: 'The Burden of Chronic Pain on Women: A Secondary Analysis of Data From the National Study on Disability (ENDISC) in Chile.',
+    abstract: 'BACKGROUND: Chronic pain is a prevalent condition that disproportionately affects women, significantly impairing their functioning. Understanding its prevalence and impact is essential for designing effective interventions. This study aimed to determine the prevalence of chronic pain among women and assess its effects on functioning.\n' +
+      'METHODS: This cross-sectional analysis utilised data from the National Study on Disability (ENDISC-2022) in Chile, focusing on women aged 18 years and older. Chronic pain was assessed through self-reported data, and functioning was evaluated using performance indicators derived from the Model Disability Survey (MDS). Generalised Linear Models (GLM) were applied to examine associations with sociodemographic and psychosocial variables, and stratified analyses compared women with and without chronic pain.\n' +
+      'RESULTS: Among the 30,010 participants in the ENDISC study, 14.8% reported chronic pain, with 67.1% of those affected being women. Women experiencing chronic pain exhibited significantly poorer performance scores across all evaluated domains compared to their counterparts without pain. The GLM regression analysis revealed that women with chronic pain had a significantly higher risk of worse functioning scores compared to those without chronic pain.\n' +
+      'CONCLUSIONS: Sociodemographic factors such as age, education level, and employment status further influenced outcomes, underscoring the vulnerability of women with chronic pain. Chronic pain is a significant and pervasive issue among women in Chile, markedly impairing their functioning and well-being. Gender-sensitive approaches and policies are crucial to reducing the burden of chronic pain and improving the quality of life for affected women, particularly those in vulnerable sociodemographic groups.\n' +
+      'SIGNIFICANCE: The findings highlight the need for targeted interventions that address the multifaceted nature of chronic pain, including its physical, psychological, and social dimensions in women with pain and a more sensitive look at the difficulties encountered by this population, such as work issues.',
+    published: '2025-Aug',
     authors: [
-      'Li Kun',
-      'Wu Siyuan',
-      'Zhang Ying',
-      'Zhu Binbin',
-      'Qi Ziyi',
-      'Hou Sijia',
-      'Wang Wei'
+      'Barreto Marina Carvalho Arruda',
+      'Ávila Mariana Arias',
+      'Cartes-Velásquez Ricardo',
+      'de Castro Shamyr Sulyvan'
     ],
-    journal: 'Journal of clinical nursing',
-    doi: '10.1111/jocn.70020',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654175/'
+    journal: 'European journal of pain (London, England)',
+    doi: '10.1002/ejp.70080',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662308/'
   },
   {
-    id: '40654168',
-    title: "Impact of Nurses' Knowledge, Self-Efficacy and Clinical Reasoning Competency on Difficulties in Caring for Patients With Delirium in the Intensive Care Unit: A Cross-Sectional Study.",
-    abstract: "AIM: To examine the impact of critical care nurses' delirium knowledge, self-efficacy and clinical reasoning competency on delirium care difficulties based on the information-motivation-behavioural (IMB) skills model from a behavioural perspective.\n" +
-      'DESIGN: Cross-sectional study.\n' +
-      "METHODS: A total of 440 critical care nurses from five hospitals in China were selected using convenience sampling and invited to complete an online questionnaire for measurement. Data were collected in November 2024 and analysed using SPSS/AMOS with descriptive statistics, Pearson's correlation coefficient and multiple regression. Structural equation modelling was constructed to test the hypothesised relationships among the variables, with bootstrapping to assess mediation effects.\n" +
-      'RESULTS: The level of delirium care difficulties was moderated. Delirium care difficulties were negatively correlated with delirium knowledge, self-efficacy and clinical reasoning competency. Clinical reasoning competency partly mediated delirium knowledge and self-efficacy with regard to delirium care difficulties.\n' +
-      "CONCLUSION: Delirium knowledge, self-efficacy and clinical reasoning competency are essential for improving critical care nurses' delirium care competencies. The role of clinical reasoning competency in the relationship between the other two variables and delirium care difficulties was highlighted. Establishing multifaceted innovative delirium education programmes, emphasising individuals' sense of competence and enhancing clinical reasoning competency as behavioural skills were supported. Exploring these pathways using a nurse behaviour change-based perspective is critical.\n" +
-      "IMPLICATIONS FOR THE PROFESSION AND/OR PATIENT CARE: Critical care managers should value nurses' delirium care competencies. Enhancing continuing professional development through system-level support with high reliability and multiform professional education, including innovative theoretical and practical training; advancing policies that increase work motivation and self-planning to stimulate self-efficacy; and exercising critical and reflective thinking to improve clinical reasoning competency may enhance nurses' delirium recognition and care competencies, including prioritisation, potentially improving delirium care dilemmas and patient outcomes.\n" +
-      'REPORTING METHOD: The STROBE checklist was used as a guideline.\n' +
-      'PATIENT OR PUBLIC CONTRIBUTION: Nurses completed questionnaires.\n' +
-      'TRIAL REGISTRATION: Chinese Clinical Trial Registry (ChiCTR2400092177). https://www.chictr.org.cn/bin/project/edit?pid=249216.',
-    published: '2025-Jul-14',
+    id: '40662239',
+    title: 'The Mental Health and Well-Being of Adults With Intellectual Disabilities During the COVID-19 Pandemic Across the UK: A Four-Wave Longitudinal Analysis.',
+    abstract: 'BACKGROUND: Research concerning the impact of the COVID-19 pandemic on the mental health and well-being of adults with intellectual disabilities has been cross-sectional and small scale. We examined the trajectory of mental health and well-being across the pandemic period across the UK and the factors which predicted different mental health trajectories.\n' +
+      'METHOD: Adults with intellectual disabilities participated in co-designed structured interviews. Four waves of data were collected between December 2020 and late 2022. At Wave 1, 621 adults with intellectual disabilities participated, with 355 at Wave 4. Well-being, pandemic anxiety, depression, anxiety, anger and loneliness outcomes were measured. Latent class mixed modelling was used to identify subgroups and within-group trajectories.\n' +
+      'RESULTS: Well-being and pandemic anxiety remained relatively stable across time, but levels of anger, depression, anxiety and loneliness reduced gradually over time. Overall patterns masked trajectory subgroups, with differences in intercept and steepness of decline or increase in mental health problems. Different factors were generally influential for trajectory class membership and overall change across time for outcomes. Leaving the house for exercise or green spaces reported increasing well-being and reduced loneliness. Similarly, those working, volunteering or in education at Wave 1 were found to have increasing well-being and reduced loneliness, sadness and worry, and increasing wellbeing and reducing anger if they were working pre-pandemic.\n' +
+      'CONCLUSIONS: Social connection and engagement in purposeful activity were vital to maintaining the mental health and well-being of people with intellectual disabilities. Factors that were found to reduce mental well-being during the pandemic should be considered in planning for future major public health challenges and in promoting better mental well-being for people with intellectual disabilities in everyday life.',
+    published: '2025-Jul-15',
     authors: [
-      'Dong Jing',
-      'Sui Weijing',
-      'Gong Xiaoyan',
-      'Wang Li',
-      'Ni Qiqi',
-      'Yan Ran',
-      'Yi Jia',
-      'Ding Ying',
-      'Zhuang Yiyu'
+      'Gillooly Amanda',
+      'Thompson Paul',
+      'Bradshaw Jill',
+      'Caton Sue',
+      'Hatton Chris',
+      'Jahoda Andrew',
+      'Kelly Rosemary',
+      'Maguire Roseann',
+      'Oloidi Edward',
+      'Taggart Laurence',
+      'Todd Stuart',
+      '',
+      'Hastings Richard P'
     ],
-    journal: 'Journal of clinical nursing',
-    doi: '10.1111/jocn.70034',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654168/'
+    journal: 'Journal of intellectual disability research : JIDR',
+    doi: '10.1111/jir.70006',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662239/'
   },
   {
-    id: '40654165',
-    title: 'Assessment of ChatGPT-3.5 performance on the medical genetics specialist exam.',
-    abstract: 'INTRODUCTION: Artificial intelligence is increasingly used in medical education and testing. ChatGPT, developed by OpenAI, has shown mixed results on various medical exams, but its performance in medical laboratory genetics remains unknown.\n' +
-      'METHODS: This study assessed ChatGPT-3.5 using 456 publicly available questions from the Polish national specialist exam in medical laboratory genetics. Questions were categorized by topic and complexity (simple vs complex) and submitted to ChatGPT 3 times. Accuracy and consistency were statistically evaluated.\n' +
-      'RESULTS: ChatGPT correctly answered 59% of the 456 exam questions, which was statistically significant (P < .001). Accuracy differed by category: 71% for calculation-based questions, approximately 60% for genetic methods and genetic alterations, and only 37% for clinical case-based questions. Question complexity also affected performance: Simple questions had 63% accuracy, while complex questions yielded 43% (P = .001). No statistically significant differences were found across 3 repeated sessions, with performance remaining stable over time (P = .43).\n' +
-      "DISCUSSION: ChatGPT-3.5 demonstrated moderate accuracy and stable performance on a specialist exam in medical genetics. Although it may support education in this field, the tool's limitations in complex, domain-specific reasoning suggest the need for further development before broader implementation.",
-    published: '2025-Jul-12',
-    authors: [ 'Paruzel Klaudia', 'Ordak Michał' ],
-    journal: 'Laboratory medicine',
-    doi: '10.1093/labmed/lmaf038',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654165/'
+    id: '40662233',
+    title: 'Providing gender sensitive mental health care to address the specific needs of women.',
+    abstract: "There has been a renewed focus on improving mental health outcomes and experiences for women with the publication of 'Embedding Women's Mental Health in Sharing the Vision', but much needs to be done to translate this policy into tangible improvements in delivered care. Historical biases in medical education and practice, as well as in research, have led to serious deficiencies in how illnesses are diagnosed and managed in women. This is not solely observed in mental health, and andronormative perspectives and gender blindness are widespread throughout medicine. Trauma informed practices should be adopted in all healthcare settings that treat women. Consideration also needs to be given to reproductive life stage in psychotropic prescribing beyond concerns of the risk of teratogenicity. Medical education and training should play a central role in increasing gender awareness among healthcare professionals. Combining top-down policy initiatives with bottom-up education and training is required to meaningfully integrate gender awareness into mental healthcare and address historical shortcomings in care for women. Implementing gender-sensitive practices is an important step toward delivering more individualised, patient-centred mental health services.",
+    published: '2025-Jul-15',
+    authors: [ 'Hartnett Yvonne', 'MacHale Siobhan', 'Duffy Richard' ],
+    journal: 'Irish journal of psychological medicine',
+    doi: '10.1017/ipm.2025.23',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662233/'
   },
   {
-    id: '40654141',
-    title: 'The Genericization of Mental Health Nursing: A Personal Perspective.',
-    abstract: 'No abstract available',
-    published: '2025-Jul',
-    authors: [ 'Fisher Jane' ],
-    journal: 'International journal of mental health nursing',
-    doi: '10.1111/inm.70013',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654141/'
-  },
-  {
-    id: '40654125',
-    title: 'Bringing Artificial Intelligence (AI) into Health Information Seeking Behavior: A Study of AI and Information Seeking Research.',
-    abstract: 'This paper explores the impact of artificial intelligence (AI) on information seeking behavior research and practice, including the need to scrutinize existing information seeking theory, challenge the understood behavioral norms, and consider redefining information literacy and information retrieval education. The historical examination spans from the 1950s to the present, with a specific focus on recent developments in health information seeking and the evaluation of medical information sources. Key to this exploration are ongoing debates in healthcare, ethics, and AI and information literacy education, which represent important dimensions of the impact of emerging technology on information-seeking behavior. The insights provided by this research can be useful for both researchers and practitioners, aiding them in navigating the evolving landscape shaped by AI technology.',
-    published: '2025-Jul-14',
+    id: '40662212',
+    title: 'The role of inflammation, chronic pain, and hypertension on cognitive functioning in an underserved, rural population: a Project FRONTIER study.',
+    abstract: 'BACKGROUND: Inflammation, chronic pain, and hypertension have been identified as risk factors for cognitive decline; few studies have examined the interplay between multiple risk factors and even fewer have considered these factors in underserved rural populations.\n' +
+      'OBJECTIVE: This study analyzed the relationships between inflammation, chronic pain, and hypertension with cognitive functioning in an underserved, primarily Hispanic, rural population from Project FRONTIER (Facing Rural Obstacles to Healthcare Now Through Intervention, Education, & Research).\n' +
+      'METHODS: This epidemiological study enrolled 1,864 participants (M = 59.68 years, SD = 12.21) living in five rural counties in West Texas. Consented participants disclosed medical diagnoses (e.g. chronic pain), completed five cognitive evaluations (i.e. the Repeatable Battery for the Assessment of Neuropsychological Status, the Trails Making Test A and B, and Clock Drawing 1 and 2), and attended a medical examination during which a physician confirmed existing medical conditions (e.g. hypertension) and collected a blood sample for further analysis (e.g. inflammation markers).\n' +
+      'RESULTS: Analysis via MANOVA revealed a multivariate effect of inflammation (V = .02, F(4, 969) = 3.72,  = .006) and a multivariate effect of hypertension (V = .03, F(4, 969) = 6.69,  < .001). There was no multivariate effect for chronic pain (V = .01, F(4,969) = 2.18,  = .07) and no significant two way or three way interaction. Post-hoc ANOVAs further illustrated the relationships between specific cognitive functioning domains and inflammation or hypertension.\n' +
+      'CONCLUSIONS: The current study findings suggest that underserved rural populations have unique epidemiological experiences that are distinct from prior findings in urban populations. Inflammation and hypertension are important clinical considerations as risk factors for cognitive decline. Future research should explore interventions that support rural-dwelling individuals impacted by provider shortages.',
+    published: '2025-Jul-15',
     authors: [
-      'Lund Brady D',
-      'Mannuru Nishith Reddy',
-      'Katta Malavika',
-      'Hota Sesha Sai Leela Madhuri',
-      'Pamukuntla Akshaya',
-      'Uppala Sravya',
-      'Kola Sai Madhav',
-      'Mannuru Aashrith'
+      'Chrzanowski Lauren',
+      'Singer Jonathan',
+      'Rerick Peter',
+      'Elliott Lauren',
+      'Levitt Danielle E',
+      'Cummings Caroline',
+      'Decourt Boris',
+      'Molinar-Lopez Veronica',
+      'Neugebauer Volker'
     ],
-    journal: 'Journal of health communication',
-    doi: '10.1080/10810730.2025.2533820',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654125/'
+    journal: 'Journal of clinical and experimental neuropsychology',
+    doi: '10.1080/13803395.2025.2527341',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662212/'
   },
   {
-    id: '40654107',
-    title: 'A Scoping Review on AI-Supported Interventions for Non-Pharmacological Management of Chronic Rheumatic Diseases.',
-    abstract: 'This review summarizes AI-supported non-pharmacological interventions for adults with chronic rheumatic diseases, detailing their components, purpose, and current evidence base. We searched Embase, PubMed, Cochrane, and Scopus databases for studies describing AI-supported interventions for adults with chronic rheumatic diseases. Eligible interventions targeted clinical outcomes (pain, function, disability, fatigue), psychological measures (depression, anxiety), or behavioral outcomes (physical activity, nutrition). All publication types (journal articles, conference abstracts, protocols) published in English language until January 19, 2025, were considered, and interventions of any duration, frequency, country of origin, or setting (inpatient, outpatient, community, and home setting) were included. Two reviewers independently screened studies and one extracted data on study characteristics, intervention components, AI methodologies, and outcomes. Fifteen AI-supported interventions were identified, primarily targeting osteoarthritis (OA) (73%) and focusing on education and exercise advice (67%). The most common AI tool was rule-based expert systems (40%), followed by natural language processing systems (33%) and machine learning algorithms (27%). The interventions ranged from 3 weeks to 12 months, while sample sizes ranged from 7 to 427 participants reflecting huge variability across studies. Most interventions demonstrated high usability, engagement, and adherence. Improvements in exercise compliance, physical activity, and symptoms such as pain and physical function were reported, though effects varied across studies and were sometimes not sustained long-term. AI-supported interventions show promise in promoting education, exercise, and behavioral guidance for adults with chronic rheumatic diseases. There is evidence for high usability and engagement but the clinical impact on long-term symptom management is uncertain.',
-    published: '2025-Jul-14',
-    authors: [
-      'Shah Nirali',
-      'Castellanos Alexis',
-      'Chen Yen T',
-      'Piette John D',
-      'Bucher Amy',
-      'Murphy Susan L'
-    ],
-    journal: 'Arthritis care & research',
-    doi: '10.1002/acr.25612',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654107/'
-  },
-  {
-    id: '40654052',
-    title: 'Validation of the cerebellar cognitive affective syndrome (CCAS) scale in CCAS patients and cerebellar controls.',
-    abstract: 'OBJECTIVE: The cerebellar cognitive affective syndrome (CCAS) scale has been developed to screen for possible cognitive and affective impairments in cerebellar patients, but previous studies stressed concerns regarding insufficient specificity of the scale. Also, direct comparisons of CCAS scale performance between cerebellar patients with and without CCAS are currently lacking. The aim of this study was to evaluate the validity of the CCAS scale in cerebellar patients.\n' +
-      'METHOD: In this study, cerebellar patients with CCAS ( = 49), without CCAS ( = 30), and healthy controls ( = 32) were included. The Dutch/Flemish version of the CCAS scale was evaluated in terms of validity and reliability using an extensive neuropsychological assessment as the gold standard for CCAS. Correlations were examined between the CCAS scale and possible confounding factors. Additionally, a correction for dysarthria was applied to timed neuropsychological tests to explore the influence of dysarthria on test outcomes.\n' +
-      'RESULTS: Cerebellar patients with CCAS performed significantly worse on the CCAS scale compared to cerebellar controls. Sensitivity was acceptable, but specificity was insufficient due to high false-positive rates. Correlations were found between outcomes of the scale and both education and age. Although dysarthria did not affect the validity of the CCAS scale, it may influence timed neuropsychological test outcomes.\n' +
-      'CONCLUSIONS: Evaluation of the CCAS scale revealed insufficient specificity. Our findings call for age- and education-dependent reference values, which may improve the validity and usability of the scale. Dysarthria might be a confounding factor in timed test items and should be considered to prevent misclassification.',
-    published: '2025-Jul-14',
-    authors: [
-      'Reumers Stacha F I',
-      'Maas Roderick P P W M',
-      'van den Brandt Veerle J M',
-      'Kocken Lotte A H',
-      'Wiegand Iris M',
-      'de Leeuw Frank-Erik',
-      'Schutter Dennis J L G',
-      'van de Warrenburg Bart P C',
-      'Kessels Roy P C'
-    ],
-    journal: 'Journal of the International Neuropsychological Society : JINS',
-    doi: '10.1017/S1355617725101033',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40654052/'
-  },
-  {
-    id: '40653954',
-    title: "Neonatal Nurses' Understanding of the Factors That Enhance and Hinder Early Communication Between Preterm Infants and Their Parents: A Narrative Inquiry Study.",
-    abstract: "BACKGROUND: Infants born preterm are at high risk of facing difficulties with acquiring speech, language and communication skills. Research on the direct benefits of parent-infant communication in neonatal units is limited. This study recognises that although neonatal nurses regard early communication as important, there is scope to develop a wider range of resources to help support professionals' understanding of the importance of communication in neonatal care.\n" +
-      "AIM: To explore neonatal nurses' understanding of factors that can enable or hinder early communication and interaction between preterm infants and parents within a neonatal unit setting.\n" +
-      "METHODS AND PROCEDURES: This study employed a narrative inquiry approach with nine neonatal nurses, selected through purposive sampling. Narrative interviews investigated nurses' views and understanding of the enablers and challenges to communication in this patient group, along with their role in enhancing early communication between infants and parents. Data reporting was undertaken using the Consolidated Criteria for Reporting Qualitative Studies (COREQ), aligning with Enhancing the QUAlity and Transparency of Health Research (EQUATOR) framework.\n" +
-      'OUTCOMES AND RESULTS: Narrative analysis revealed the following four themes: the importance of education and experience in neonatal care; supporting parents of infants receiving neonatal care; encouraging communication strategies; the impact of limiting parental presence and wearing facemasks.\n' +
-      'CONCLUSIONS AND IMPLICATIONS: Neonatal nurses commented that using early communication strategies with infants and supporting parents to learn how to communicate directly with their infant is essential. However, none were able to fully describe the key components of early communication from a linguistic perspective, nor give specific examples beyond skin-to-skin care, bonding, reading infant cues and hearing familial voices during conversation and reading. Although these are very important antecedent skills that provide a framework for developing communication, they are not always a direct means to enhance language development specifically. As preterm infants are at high risk of altered language and communication development, a real need exists for neonatal nurses to develop linguistically rooted methods to support communication for parents and their infants, in conjunction with allied healthcare professionals such as speech and language therapists. This support can enable the development of positive communication, enriched and extended after leaving the neonatal unit.\n' +
-      'WHAT THIS PAPER ADDS: What is already known on the subject Encouraging and supporting parents to learn to develop early communication and interaction skills with their preterm infants, when experiencing neonatal care, is recognised as being important; previous research has clearly identified these infants as being at high risk of speech, language and communication difficulties. These complications, if they arise, are known to impact future outcomes, including educational achievements along with social and friendship skills. Neonatal nurses in conjunction with key allied healthcare professionals such as speech and language therapists are in a prime position to support parents in this vital area of care. What this paper adds to existing knowledge Our study highlights that although neonatal nurses regard early communication as an important part of their role, it identifies a need for them to be further informed and educated about the specifics of early communication, the associated risks and the potential impact on language that poor, unenriched communication environments can lead to. Importantly, although some studies have investigated aspects of early preterm infant-parent interaction, there is still a need for further in-depth investigation into early parent communication confidence and skills, particularly in relation to supporting linguistic development by neonatal nurses and allied healthcare professionals, including speech and language therapists. What are the potential or actual clinical implications of this work? Collaboration between neonatal nurses and other professionals, in particular speech and language therapists, is essential so that preterm infants and their families can experience language-rich learning environments within a neonatal unit; parents can then be supported to use tailored strategies to enable positive language experiences when discharged home. Speech and language therapists working with neonatal nurses can substantially enhance the quality of infant-parent interactions in neonatal environments through direct modelling, education and the creation of resources for both families and neonatal staff, which includes accurate information related to a linguistic framework, on which future work will focus and investigate further.',
-    published: '2025',
-    authors: [ 'Petty Julia', 'Whiting Lisa', 'Harding Celia' ],
-    journal: 'International journal of language & communication disorders',
-    doi: '10.1111/1460-6984.70093',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40653954/'
-  },
-  {
-    id: '40653909',
-    title: 'A Scoping Review of the Observed and Perceived Functional Impacts Associated With Language and Learning Disorders in School-Aged Children.',
-    abstract: 'BACKGROUND: Assessing children with Developmental Language Disorder (DLD) and Specific Learning Disabilities (SLD) requires a clear understanding of how these conditions impact their daily lives. However, existing assessment tools are not systematically grounded in a theoretical framework, and there is a lack of consensus regarding the relevant dimensions and indicators to be evaluated. Notably, the concepts of functional impact and functional impairment-which are essential for identifying needs, informing clinical decision-making and tailoring interventions-remain poorly defined and are frequently used interchangeably, even though they refer to distinct aspects of functioning. This conceptual ambiguity hinders the development of consistent, theory-based assessment models and contributes to inconsistencies across both research and clinical settings.\n' +
-      "AIMS: The study aims to describe and clarify the concepts of 'functional impact' and 'functional impairment,' as well as to identify and classify the leading dimensions and indicators used to measure the functional consequences of DLD and SLD in school-aged children.\n" +
-      'METHODS AND PROCEDURES: A scoping review was performed on a systematic search of studies published between January 2013 and November 2023 across six databases (Medline, PsycINFO, CINAHL, ERIC, Psychology & Behavioural Science Collection and Education Source). In total, 1950 documents were reviewed using predefined eligibility criteria, resulting in 53 documents being included for the final data extraction. The analysis followed a qualitative approach, combining both inductive and deductive analyses. An inductive approach was used to develop a new conceptual framework (definitions and classification system), while a deductive approach was applied to organise the identified dimensions and indicators into five overarching categories.\n' +
-      'MAIN CONTRIBUTION: There is notable variability in the terminology used to describe functional impact and functional impairment, as well as ambiguity surrounding their respective meanings. Using an iterative lexicographical approach, we established operational definitions, distinguishing between two subcategories of functional consequences: observed and perceived functional impacts. This conceptual distinction enhances the clarity and applicability of these constructs in both research and clinical settings. Furthermore, five major categories were identified to guide the assessment of the functional impacts: individual abilities, personal factors, daily and meaningful activities, social relationships and environmental factors. Each category encompasses a range of dimensions and indicators. Based on these findings, we propose a structured and integrated framework: the Observed and Perceived Functional Impacts (OPFI) model for assessing functional consequences.\n' +
-      "CONCLUSIONS AND IMPLICATIONS: Distinguishing between observed and perceived functional impacts provides a clearer and more comprehensive understanding of children's needs. This differentiation supports more targeted and effective clinical recommendations aimed at enhancing their communication skills, daily and meaningful activities, social relationships and overall quality of life. The proposed theoretical framework offers a clear conceptual framework for speech-language pathologists and other healthcare and educational professionals in shaping evaluation and intervention practices. This framework could be used to develop assessment tools aimed at assessing children's real-life functioning.\n" +
-      "WHAT THIS PAPER ADDS: What is already known on this subject DLD and SLD significantly affect children's daily lives, particularly communication, social relationships and academic success. To design interventions tailored to each child's needs, it is crucial to accurately understand and measure these impacts effectively. However, the current terminology used to describe these impacts and the available assessment methods vary widely, leading to uncertainties about what should be evaluated for clinicians. What this paper adds to existing knowledge The scoping review results allow us to disentangle the concepts of 'observed' and 'perceived' functional impacts of language and learning disorders by providing explicit definitions of these two concepts. Key dimensions and indicators were identified for both observed and perceived functional impacts. We propose a structured model based on these dimensions and indicators: Observed and Perceived Functional Impacts (OPFI) model. Considering its dynamic nature, this model will facilitate a more systematic assessment of the functional consequences for children with language or learning disorders. What are the potential or actual clinical implications of this work? Given the limitations of standardised tests, enhancing speech-language assessments by integrating observations from parents, teachers, and other professionals is essential to comprehensively understand the child's strengths, challenges and needs. Focusing on the functional impacts of disorders-such as social interaction, daily activities and adaptation to school and family environments-refines intervention plans adapted to the child's specific needs and enables more precise monitoring of their progress. Including the child's perspective from an early age through well-suited self-report questionnaires or open-ended questions during clinical interviews supports a better understanding of their experiences and perceptions of the disorder.",
+    id: '40662182',
+    title: 'Reviews in Educational Psychology (Frontiers in Psychology 2010-2024): typology, topics, regional comparative and methodology toward digital and AI approaches.',
+    abstract: 'This study presents a systematic review of reviews published in Frontiers in Psychology (2010-2024) to examine methodological and conceptual advances in educational psychology. The objective is to synthesize research trends over 14 years and explore global challenges, such as the digitalization of education and the integration of emerging technologies. Following PRISMA guidelines, a comprehensive search was conducted in Frontiers in Psychology, Web of Science, and Scopus, identifying 392 reviews. The selection process involved duplicate removal, title and abstract screening, and full-text evaluation, applying predefined inclusion and exclusion criteria to ensure methodological rigor. Data extraction and classification were carried out using an Excel-based structured database, analyzing publication years, methodological design, data sources, statistical and qualitative analysis methods, validation approaches, theoretical frameworks, thematic areas, geographical distribution, study limitations, reported results, practical applications and study populations. The methodological analysis highlights the predominance of systematic reviews, the increasing adoption of qualitative and mixed-method approaches, and a growing emphasis on digital tools and artificial intelligence. The study also reveals significant regional disparities in research output, with some regions being notably underrepresented. Beyond identifying trends, this review of reviews illustrates how psychology adapts to contemporary educational challenges through interdisciplinary methodologies and evidence-based strategies. The findings provide valuable insights into the evolving challenges in educational psychology, reinforcing the role of Frontiers in Psychology in driving methodological innovation and scholarly discourse. Furthermore, they contribute to the advancement of inclusive and sustainable educational practices aligned with the Sustainable Development Goals (SDGs). Future research should focus on meta-analyses of emerging trends, longitudinal methodological studies, and strategies to address regional imbalances, fostering a more globally representative perspective.',
     published: '2025',
     authors: [
-      'Perichon Jérémy',
-      'Paul Marianne J',
-      'Chabanal Damien',
-      'Maïonchi-Pino Norbert'
+      'Díaz-Burgos Alberto',
+      'García-Sánchez Jesús N',
+      'Álvarez-Fernández María-Lourdes',
+      'Brito-Costa Sónia',
+      'Kauffman Douglas F',
+      'Hsu Ting-Chia',
+      'de la Fuente Jesús'
     ],
-    journal: 'International journal of language & communication disorders',
-    doi: '10.1111/1460-6984.70086',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40653909/'
+    journal: 'Frontiers in psychology',
+    doi: '10.3389/fpsyg.2025.1588242',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662182/'
   },
   {
-    id: '40653815',
-    title: 'Barriers to public engagement with biodiversity conservation.',
-    abstract: 'Addressing biodiversity loss requires public engagement and action, including changes to individual consumption habits, support for on-the-ground conservation actions, and advocacy for government action and policy change. Conservation organizations are increasingly focused on encouraging probiodiversity attitudes and behaviors through interventions, such as education programs and marketing campaigns. Yet, motivating public audiences to change their behavior or become more active participants in conservation remains a challenge. We used a strategic communication approach to conceptualize barriers to public engagement with conservation and explored how these barriers manifest differently across audiences based on their current level of engagement (e.g., aware vs. active). The psychological, social, and structural barriers discussed are lack of knowledge, misaligned values, low self-efficacy, low personal or social relevance, and limiting structural context. These barriers are recognized across conservation science, behavioral science, and social change literature. Many different communication approaches may be used to overcome these barriers, including raising awareness, working with values, social norming, strategic calls to action, social mobilization, and advocacy. Regardless of the approach, understanding individual behaviors, audience types, and their social context is key to supporting biodiversity conservation actions and positive social change.',
-    published: '2025-Jul-13',
+    id: '40662168',
+    title: 'Gender Differences for the Associations among Housework, Self-Stigma, and Psychiatric Symptoms among Community Severe Mental Disorder Patients.',
+    abstract: 'PURPOSE: Previous studies have suggested housework might reduce self-stigma and psychiatric symptoms, but it had not been validated in severe mental illness (SMI) patients. Considering gender differences, we examined the relationship between housework, self-stigma, and psychiatric symptoms to link family, social, and disease factors, aiding rehabilitation from a "life-oriented" perspective, promoting patients from "passive treatment" to "active life reconstruction".\n' +
+      'PATIENTS AND METHODS: We collected 486 questionnaires from SMI patients in Shandong, China (210 men, 276 women, 124 in 0-40 age group, 244 in 41-64 age group, and 118 in 65 or older age group). Brief Psychiatric Rating Scale, Self-Stigma Scale for Chronic Illness 8-item version were used to measure psychiatric symptoms and self-stigma. Housework and demographic-variables were collected through a questionnaire complied by our research group. Linear regression explicit the relationship between the study variables, based on which a mediation analysis is established to verify the internal mechanism which controls confounding variables (age, religion, marriage, education, occupation, labor capacity, living alone, liability, chronic disease, disease status).\n' +
+      'RESULTS: Most participants did housework for less than 1 hour, with men more likely than women (76.2% vs 56.2%). Housework reduced psychiatric symptoms in both genders (men: β = -5.563 (95% CI = -9.513, -1.613),  <0.01, and women: β = -4.088 (95% CI = -7.706, -0.469),  <0.01). However, housework only lowered self-stigma in women (β = -2.322 (95% CI = -3.922, -0.723),  <0.01). Self-stigma fully mediated the housework and psychiatric symptoms (indirect effect = -2.228, 95% CI = -4.046, -0.716).\n' +
+      'CONCLUSION: Housework alleviated psychiatric symptoms in both genders, but only reduced the self-stigma of disease in women, suggesting its potential as a modifiable rehabilitation intervention.\n' +
+      'LIMITATION: The cross-sectional design precludes causal inferences, self-reported data may introduce recall bias, the Shandong-based sample limits generalizability, unmeasured confounders (eg, medications, comorbidities) warrant further study, and the small sample size may reduce statistical power.',
+    published: '2025',
     authors: [
-      'Gregg Emily A',
-      'Garrard Georgia E',
-      'Bekessy Sarah A',
-      'Kusmanoff Alexander M',
-      'Martin Jen K',
-      'Selinske Matthew J',
-      'Kidd Lindall R',
-      'Robinson Jennifer A'
+      'Li Qixiu',
+      'Xu Meixia',
+      'Chen Yifan',
+      'Su Xiaoying',
+      'Zhong Yunxi',
+      'Wang Meiqi',
+      'Sun Long'
     ],
-    journal: 'Conservation biology : the journal of the Society for Conservation Biology',
-    doi: '10.1111/cobi.70078',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40653815/'
+    journal: 'International journal of general medicine',
+    doi: '10.2147/IJGM.S511519',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662168/'
+  },
+  {
+    id: '40662156',
+    title: 'ULANC - EUFOREA workshop 2024: bringing the concept of global airways to the frontline of medical care.',
+    abstract: 'The Upper and Lower Airways Northern European Consensus (ULANC) and the European Forum for Research and Education in Allergy and Airways diseases (EUFOREA) organized their first workshop in Copenhagen in January 2024. The aim of the " was to bring the concept of the global airway to the front line of medical care. ULANC is a multidisciplinary European consortium, that aims to improve the management of comorbid ear, nose and throat (ENT) conditions, such as chronic rhinosinusitis with nasal polyposis (CRSwNP), in patients also suffering from asthma. EUFOREA is an international non-profit organization forming an alliance of all stakeholders dedicated to reducing the prevalence and burden of chronic respiratory diseases through the implementation of optimal patient care via educational, research, and advocacy activities. The inclusive and multidisciplinary approach of ULANC and EUFOREA was reflected in the keynote lectures and workshop faculty coming from the allergology, pulmonology, ENT, and primary health care fields around the central theme of global airway diseases. The current report aims at providing a comprehensive overview of the key statements by the faculty of the "Primary care physicians and nurses with interest in Global Airway Diseases 2024", allowing all stakeholders in the respiratory field to be up-dated and ready to join forces in Europe and beyond.',
+    published: '2025',
+    authors: [
+      'Conti D M',
+      'Backer V',
+      'Aanaes K',
+      'Azizi A',
+      'Hellings P W',
+      'Lau S',
+      'Liva G',
+      'Scadding G K',
+      'Toppila-Salmi S'
+    ],
+    journal: 'Frontiers in allergy',
+    doi: '10.3389/falgy.2025.1581694',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662156/'
+  },
+  {
+    id: '40662142',
+    title: 'Do dietary habits and iron-folic acid intake make a difference? Factors associated with anemia in pregnancy: a multi-center cross-sectional study.',
+    abstract: 'BACKGROUND: Anemia in pregnancy impacts the well-being of the women and the conception. Anemia is associated with increased risks of maternal mortality. In Ethiopia, three in ten pregnant women were affected by either mild, moderate, or severe anemia. The recent evidence was limited in the study locations of southern Ethiopia and needs to be updated. No report of anemia as relation to dietary factors observed in the region. This study therefore aimed to assess factors associated with anemia in pregnancy in the region.\n' +
+      'METHODS: A multicenter, cross-sectional study was conducted from January 2 to 30, 2025, in five selected public health facilities in Arba Minch district, South Ethiopia.\n' +
+      'RESULTS: A total of 476 (96%) respondents had participated in the survey. Explanatory variables were modeled in logistic regression to test for statistical associations at a  value of <0.05. The study participants were in the age range of 18 to 40 years. Of the respondents who completed the survey, 103 (21.6%, 95%CI 18.2-25.6%) were diagnosed as anemic. Participants who received iron-folic acid during the current pregnancy were 66% less likely to be anemic, AOR (95% CI), 0.34 (0.19, 0.61). Participants with high education status, sleeping under insecticide-treated bed nets (ITN), not being infected with malaria in the current pregnancy, and age category between 20-29 years were less likely to experience anemia in pregnancy. Evidence was limited to support association of women dietary diversity score (WDDS) and anemia in pregnancy, AOR (95%CI), 0.83 (0.49, 1.40).\n' +
+      'CONCLUSIONS AND RECOMMENDATIONS: Anemia prevalence was a moderate public health problem in the study area. Healthcare workers should encourage antenatal women to receive iron and sleep under insecticide-treated bed nets (ITN) for anemia protection during pregnancy.',
+    published: '2025',
+    authors: [
+      'Chillo Serawit Lakew',
+      'Woldesemayat Endrias Markos',
+      'Dangisso Mesay Hailu'
+    ],
+    journal: "Frontiers in global women's health",
+    doi: '10.3389/fgwh.2025.1599842',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662142/'
+  },
+  {
+    id: '40662141',
+    title: 'Antenatal preparation as care: birth stories and collective learning at work.',
+    abstract: 'Distressing and harmful birth experiences are the norm even in well-resourced countries, and conventional antenatal education struggles to adequately prepare birthing people. Drawing on previous research in support of participant-led antenatal education, a recent UK-based ethnographic study asks how birthing people use collective practices to produce birth knowledge. Data comes from participant observation at 24 antenatal sessions ( = 201) including conventional classes and community-based groups, plus 5 interviews with session leaders. The researcher analysed data using a novel application of template analysis, framed by feminist technoscience, ethnography and socio-narratology. Findings show how group-led sessions, storytelling and other collective knowledge practices  of birthing people. Several facets of care emerge from this inquiry, such as materiality, emotionality, working athwart dominant narratives and creating "care-full" absences or spaces. Excerpts from antenatal preparation sessions specifically demonstrate various approaches to knowledge working - and caring - in practice. A focus on real-life examples and implications ensures findings are useful and relevant for birthing women, midwives, antenatal educators, institutions, policymakers and more.',
+    published: '2025',
+    authors: [ 'De Quattro Leah' ],
+    journal: "Frontiers in global women's health",
+    doi: '10.3389/fgwh.2025.1592538',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662141/'
+  },
+  {
+    id: '40662139',
+    title: 'Construction and validation of a nomogram model for cognitive impairment in heart failure patients.',
+    abstract: 'BACKGROUND: Patients with heart failure face a significantly elevated risk of cognitive impairment, yet clinical recognition remains inadequate-particularly among younger individuals and those with mild symptoms, leading to frequent underdiagnosis. The increasing prevalence among younger patients further worsens prognosis. This study aims to develop a tool to aid clinicians in the early identification of high-risk individuals and support informed clinical decision-making.\n' +
+      'METHODS: Based on evidence-based literature and biopsychosocial holistic model of cardiovascular health, this study included 320 patients with heart failure hospitalized in the Second Hospital of Hebei Medical University from October 2023 to April 2024 to construct the model, and 80 patients from May to July 2024 were selected for temporal validation. MoCA was used to evaluate cognitive function. LASSO regression was used to select variables, Logistic regression was used to construct a nomogram model, and Bootstrap method (1,000 times) was used to evaluate the discrimination, calibration and clinical applicability of the model.\n' +
+      'RESULTS: The incidence of cognitive impairment was 68.75% in the model group and 56.25% in the validation group. Finally, five variables including age, education level, coronary heart disease, cardiac diastolic function and physical frailty were included. The AUC of internal and temporal validation of the model were 80.2% and 72.44%, respectively, which had good prediction performance.\n' +
+      'CONCLUSION: The calibration curve and decision curve of the model showed a high degree of fit, which had strong clinical practicability. This model provides a reliable tool for early identification of cognitive impairment in patients with heart failure.',
+    published: '2025',
+    authors: [
+      'Chen Ni',
+      'Liu Jie',
+      'Liu Wenjia',
+      'Zhang Suzhi',
+      'Zhang Xiaolin',
+      'Zhao Bin'
+    ],
+    journal: 'Frontiers in cardiovascular medicine',
+    doi: '10.3389/fcvm.2025.1612027',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40662139/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
@@ -943,6 +922,730 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 36509,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4872,
+        [Symbol(triggerId)]: 4870
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Tue, 15 Jul 2025 15:11:41 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.03.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Tue, 15 Jul 2025 15:11:41 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 36854,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4916,
+        [Symbol(triggerId)]: 4914
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Tue, 15 Jul 2025 15:11:42 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Tue, 15 Jul 2025 15:11:42 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1128,730 +1831,6 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 41621,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5450,
-        [Symbol(triggerId)]: 5448
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Mon, 14 Jul 2025 15:13:25 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.03.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Mon, 14 Jul 2025 15:13:25 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 42163,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5496,
-        [Symbol(triggerId)]: 5494
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Mon, 14 Jul 2025 15:13:25 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Mon, 14 Jul 2025 15:13:25 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -2022,45 +2001,45 @@ Translating paper: The Impact of Education for Sustainable Developmen...
 Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
-Translating paper: Using Social Network Analysis to Analyze Eye-Track...
+Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
 Translating paper 22/50
-Translating paper: The Role of Remote Activities in Urban Mobility in...
+Translating paper: Model-Based STEM Technical and Vocational Educatio...
 Translating paper 23/50
-Translating paper: Teaching Practices and Effectiveness Assessment of...
+Translating paper: Optimization of Corporate Governance from the Pers...
 Translating paper 24/50
-Translating paper: The Effectiveness of 3D Virtual Environments for B...
+Translating paper: Integrating Generative Artificial Intelligence wit...
 Translating paper 25/50
-Translating paper: “Flipped” University: LLM-Assisted Lifelong Learni...
+Translating paper: AI-Supported Summative Reflection to Foster Motiva...
 Translating paper 26/50
-Translating paper: Waste for Knowledge: An IoT-Driven Educational Rew...
+Translating paper: Non-Immersive Virtual Learning Environments (VLEs)...
 Translating paper 27/50
-Translating paper: AI as teacher: effectiveness of an AI-based traini...
+Translating paper: A Virtual Reality-Based Co-creation Approach to De...
 Translating paper 28/50
-Translating paper: Tech-Enhanced Learning: Evaluating General Educati...
+Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 29/50
-Translating paper: Assessing the role of artificial intelligence in q...
+Translating paper: From Peer Educators to Digital Change Agents: Reth...
 Translating paper 30/50
-Translating paper: International comparative studies in mathematics e...
+Translating paper: An Inquiry on the Usability of Generative AI in De...
 Translating paper 31/50
-Translating paper: The Usability and Experience of Artificial Intelli...
+Translating paper: The Burden of Chronic Pain on Women: A Secondary A...
 Translating paper 32/50
-Translating paper: Impact of Nurses' Knowledge, Self-Efficacy and Cli...
+Translating paper: The Mental Health and Well-Being of Adults With In...
 Translating paper 33/50
-Translating paper: Assessment of ChatGPT-3.5 performance on the medic...
+Translating paper: Providing gender sensitive mental health care to a...
 Translating paper 34/50
-Translating paper: The Genericization of Mental Health Nursing: A Per...
+Translating paper: The role of inflammation, chronic pain, and hypert...
 Translating paper 35/50
-Translating paper: Bringing Artificial Intelligence (AI) into Health ...
+Translating paper: Reviews in Educational Psychology (Frontiers in Ps...
 Translating paper 36/50
-Translating paper: A Scoping Review on AI-Supported Interventions for...
+Translating paper: Gender Differences for the Associations among Hous...
 Translating paper 37/50
-Translating paper: Validation of the cerebellar cognitive affective s...
+Translating paper: ULANC - EUFOREA workshop 2024: bringing the concep...
 Translating paper 38/50
-Translating paper: Neonatal Nurses' Understanding of the Factors That...
+Translating paper: Do dietary habits and iron-folic acid intake make ...
 Translating paper 39/50
-Translating paper: A Scoping Review of the Observed and Perceived Fun...
+Translating paper: Antenatal preparation as care: birth stories and c...
 Translating paper 40/50
-Translating paper: Barriers to public engagement with biodiversity co...
+Translating paper: Construction and validation of a nomogram model fo...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2079,33 +2058,10 @@ Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.472877453713504 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '56s'
-    }
-  ]
-}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3724817844472157 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1701822708798137 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2123,53 +2079,30 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '51s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5839138865412266 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '48s'
+      retryDelay: '44s'
     }
   ]
 }
 Translation completed: 50 papers
-Removed duplicates: 609 -> 570
-Total papers after merging: 570 (559 existing + 50 new)
-Saved 570 papers to papers.json
+Removed duplicates: 620 -> 589
+Total papers after merging: 589 (570 existing + 50 new)
+Saved 589 papers to papers.json
 Generating HTML files...
-Generating index.html with 570 papers...
+Generating index.html with 589 papers...
 Successfully generated index.html
-Generating archive.html with 570 papers...
+Generating archive.html with 589 papers...
 Successfully generated archive.html
-Generating journal.html with 570 papers...
+Generating journal.html with 589 papers...
 Successfully generated journal.html
-Generating acquisition.html with 570 papers...
+Generating acquisition.html with 589 papers...
 Successfully generated acquisition.html
-Generating publication.html with 570 papers...
+Generating publication.html with 589 papers...
 Successfully generated publication.html
-Generating registration.html with 570 papers...
+Generating registration.html with 589 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 570
+Total papers in database: 589
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-14T15:40:13.454Z
+Timestamp: 2025-07-15T15:39:18.129Z
