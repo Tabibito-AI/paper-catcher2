@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-16T15:12:30.134Z
+Timestamp: 2025-07-17T15:12:36.858Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 589 existing papers from papers.json
+Loaded 600 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -509,6 +509,16 @@ Fetched papers from Springer: [
     journal: 'Innovative Technologies and Learning'
   },
   {
+    id: '10.1007/978-3-031-96262-2_8',
+    title: 'Conversion Process in the Production and Distribution of Digital Resources in Higher Education',
+    summary: 'Academics worldwide are the main creators of digital resources for various purposes in educational settings. These digital resources can be created, stored, shared, and accessed across multiple digital platforms. Generally, these resources fall into categories such as online resources, electronic resources, research publications, open educational resources, and open-source materials, among others. While all academics are encouraged to contribute to the production and distribution of these digital resources, challenges remain. It is unclear whether all academics are able or willing to contribute. Currently, there is a lack of a clear conversion process framework to guide academics to convince others to adopt digital resources. This study aims to explore how those who do contribute can persuade others to participate or take the initiative. To address this issue, the study proposed the conversion process as its conceptual framework. An interpretivist approach was adopted, employing qualitative methods as the primary research strategy, which included 54 semi-structured interviews conducted at the University of South Africa. The findings indicate that both academics and institutional social capital play crucial roles in the conversion process, as they influence others to utilize digital resources. Additionally, this study contributes by proposing a conceptual framework for the conversion process and recommends further testing of this framework within the technology development contexts.',
+    published: '2026-01-01',
+    authors: [ 'Mncube, Siphamandla', 'Zincume, Xolile', 'Dlalisa, Sizwe' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'South African Computer Science and Information Systems Research Trends'
+  },
+  {
     id: '10.1007/978-3-031-98185-2_35',
     title: 'A Virtual Reality-Based Co-creation Approach to Developing Narrative Competence and Empathy in EFL Nursing Education',
     summary: 'This study investigates the use of virtual reality (VR) as a pedagogical tool to foster English narrative competence and empathy among nursing students in an English as a Foreign Language (EFL) context. Through a 16-week course-integrated intervention, 98 third-year nursing students in a five-year associate degree program at a junior nursing college participated in a co-creation project using CoSpaces Edu to collaboratively design immersive, first-person 3D narratives based on an end-of-life care scenario. The project aimed to develop students’ linguistic skills while promoting humanistic understanding through perspective-taking. Employing a mixed-methods design, the study incorporated pre- and post-intervention vocabulary tests, oral narrative evaluations, student reflections, and interviews. Results demonstrated significant gains in English vocabulary and narrative expression, increased oral confidence, and evidence of enhanced empathy as students adopted diverse character roles in their digital stories. The findings underscore the pedagogical affordances of VR-based co-creation in EFL instruction for healthcare students, revealing how immersive storytelling can bridge language learning with humanistic nursing education. Implications for XR-enhanced language education and interdisciplinary curriculum design are discussed.',
@@ -527,222 +537,202 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Advances in Social Networks Analysis and Mining'
-  },
-  {
-    id: '10.1007/978-3-031-98185-2_37',
-    title: 'From Peer Educators to Digital Change Agents: Rethinking Health Education Through VR-Enhanced Peer Learning',
-    summary: 'The rapid digital transformation of healthcare necessitates new educational models that foster digital competence, innovation capacity, and student empowerment. This study explores the intersection of virtual reality (VR) and peer-assisted learning (PAL) in health professions education, presenting the development of the VR-PAL Innovation Model—a conceptual framework that integrates immersive simulation with student-led pedagogical leadership. Drawing on reflexive thematic analysis of focus group interviews with three cohorts of peer assistants (N = 10), the study identifies three interconnected components: a pedagogical foundation rooted in sociocultural learning theory, a structured train-the-trainer program cycle, and a set of innovation enablers, including inclusive design, co-creation, and the cultivation of a digital mindset. The findings highlight how peer educators, through their dual roles as learners and facilitators, emerge as digital change agents capable of driving innovation from within the learning environment. The model extends existing PAL frameworks by positioning students not only as knowledge sharers but also as agents of educational technology integration. While grounded in occupational therapy education, the VR-PAL model offers a transferable approach for institutions aiming to scale student-centered digital innovation. Implications for implementation, scalability, and future research are discussed.',
-    published: '2026-01-01',
-    authors: [ 'Røe, Yngve', 'Johansen, Truls Sveløkken', 'Bruset, Else Britt' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Innovative Technologies and Learning'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40667574',
-    title: 'A comparison of the costs and patterns of expenditure for care for severe mental illness in five countries with different levels of economic development.',
-    abstract: 'AIMS: The aim of the article is to undertake the first economic analysis exploring the costs of illness (COIs) and factors affecting COIs in people living with mental disorders using individual patient-level data across five countries with different national income levels. This is done by investigating diagnosis-related and sociodemographic factors for country-specific medical and psychosocial service use in these high, lower-middle and low-income countries.\n' +
-      'METHODS: Using data from the Using Peer Support In Developing Empowering Mental Health Services (UPSIDES) study, a pragmatic randomized controlled trial, costs for medical and psychosocial services have been estimated over 6 months in 615 people with severe mental illness from Germany ( = 171), Uganda ( = 138), Tanzania ( = 110), India ( = 93) and Israel ( = 103). The primary economic analysis included (1) total COI expressed in 2021 international dollars and (2) proportional cost-type expenditures. Generalized linear regression models were also used to estimate the impact of psychiatric diagnosis, social disability, age and gender on the total COI.\n' +
-      'RESULTS: Of the 615 participants (mean [SD] age 38.3 [11.2] years; 335 [54.5%] women), the total 6-month COI ranged from $311.48 [±547.47] in Tanzania to $10,493.19 [±13324.10] in Germany. High-income Germany and low-income Uganda both concentrated >70% of COIs on inpatient care. High-income Israel had the most balanced COI, with the lowest mean share (15.40%) on inpatient care, compared with community (35.12%) and primary care (33.01%). Female gender was associated with lower COI ( = 0.215;  = 0.000) in Tanzania, while in India diagnosis of depression was associated with lower costs than schizophrenia ( = 0.363;  = 0.017). Health of the Nation Outcome Scale scores (social disability) were not significantly associated with COIs in any country. In Tanzania, the total mean COI increased by 3.6% for every additional year of age. Compared to Germany, mean COIs were significantly lower by 90%, 99% and 86% in Uganda, Tanzania and India, respectively, and by 50% in Israel, although this difference was not significant.\n' +
-      'CONCLUSIONS: National income is correlated with the total COI in people living with mental disorders but is a poor predictor of the sector-specific distribution of these expenditures.',
-    published: '2025-Jul-16',
+    id: '40673362',
+    title: "[A timely diagnosis of Parkinson's disease dementia].",
+    abstract: "Dementia is among the most devastating nonmotor features of Parkinson's disease (PD), causing severe decline in quality of life, increased caregiver burden, increased mortality, and often institutionalization. The lack of prominent memory complaints and the increasing physical disabilities due to PD make it difficult for people with Parkinson's disease and their care givers to recognize PD dementia. Education on the profile of cognitive decline to raise awareness in people with PD and caregivers is needed. A timely diagnosis can however result in a better disease management for people with PD and their caregivers, including personalized care, advanced care planning and a reduced risk of unexpected hospitalization. The fear of harming a long term patient-physician relationship can also pose a barrier in the diagnosis and the timing thereof. Interprofessional team-based dementia care can help diagnose and treat people with PD dementia.",
+    published: '2025-Jun-23',
     authors: [
-      'Park A-La',       'Jez Oliver',
-      'Kilian Reinhold', 'Charles Ashleigh',
-      'Kalha Jasmine',   'Korde Palak',
-      'Lachmann Max',    'Mahlke Candelaria',
-      'Moran Galia',     'Nakku Juliet',
-      'Ngakongwa F',     'Niwemuhwezi Jackline',
-      'Nixdorf Rebecca', 'Ryan Grace',
-      'Shamba Donat',    'Slade Mike',
-      'Waldmann T'
+      'van der Kolk Nicolien M',
+      'van Keulen Leonie',
+      'Holleman Meike A',
+      'van Strien Astrid'
     ],
-    journal: 'Epidemiology and psychiatric sciences',
-    doi: '10.1017/S2045796025100140',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667574/'
+    journal: 'Nederlands tijdschrift voor geneeskunde',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673362/'
   },
   {
-    id: '40667479',
-    title: 'Orthodontic Educational Landscape in the Contemporary Context: Insights from Educators.',
-    abstract: 'We sought the perspectives of fourteen orthodontics educators on emerging trends and themes in the orthodontics educational landscape. The focus of this article was on four overarching areas: technology, workforce, research and clinical practice. Strengths, Weaknesses, Opportunities and Threats (SWOT) analysis showed that infusion of newer technologies is poised to change the way we train the next generation of orthodontists, open up new lines of enquiry, and alter the way we render clinical care. Areas of weakness include lack of adequate numbers of orthodontics faculty and lack of progress in Orthodontics research when compared to medical research. Our educational set up is at crucial juncture. We have to make sure that the pipeline of Orthodontics educators is well developed and our new-gen educators have the tools and skillset to adapt to the rapidly evolving healthcare landscape.',
-    published: '2024-Sep',
+    id: '40673291',
+    title: 'Prominent Literature in Surgical Ethics: A Comprehensive Bibliometric Analysis of the Top 50 Most-Cited Articles.',
+    abstract: "The patient-surgeon encounter is a complex relationship characterized by the infliction of pain for the patient's benefit. While surgical interventions are deeply personal, a significant knowledge disparity between patients and surgeons poses challenges in communication. Surgical training emphasizes the cultivation of virtues and practices to prioritize patient interests, but contemporary surgical practice still grapples with ethical quandaries. Addressing these challenges head-on is vital for advancing the field while ensuring patient safety, informed consent, cost-effectiveness, and conflict management. This article aims to contribute to the discourse on surgical ethics by delineating its scope, exploring key ethical issues, and examining strategies employed by surgeons. Additionally, it investigates the impact of surgical ethics on patients, surgeons, and society. Through a bibliometric analysis of the top 50 articles, key themes and influential works are identified. Themes include ethics of surgical innovation, history of surgical ethics, surgical ethics in practice, and ethics education. The analysis also reveals trends in countries of origin, authorship, article types, and journal representation. Findings inform the development of ethical frameworks, guidelines, and ethical competencies in surgical practice, promoting patient-centered care and professionalism. Collaboration among stakeholders is essential to shape the future of surgical ethics.",
+    published: '2025-Jul',
     authors: [
-      'Allareddy Veerasathpurush',
-      'Atsawasuwan Phimon',
-      'Frazier-Bowers Sylvia',
-      'Hong Christine',
-      'Huja Sarandeep',
-      'Katebi Negin',
-      'Lee Min Kyeong',
-      'Mehta Shivam Yogesh',
-      'Padala Soumya',
-      'Utreja Achint',
-      'Vaiid Nikhillesh',
-      'Venugopalan Shankar Rengasamy',
-      'Wadhwa Sunil',
-      'Yadav Sumit'
+      'Shah Muhammad Hamza',
+      'Roy Sakshi',
+      'Ahluwalia Arjun',
+      'Harky Amer'
     ],
-    journal: 'Seminars in orthodontics',
-    doi: '10.1053/j.sodo.2024.05.001',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667479/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87932',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673291/'
   },
   {
-    id: '40667476',
-    title: 'A Confidence and Preparedness Survey: Cognitive Interviews for Tool Assessment and Nursing Student Perspectives.',
-    abstract: 'Safe medication administration is a critical responsibility of registered nurses and is an essential skill developed during nursing education. Student confidence and preparation regarding medication administration are essential aspects of professional skill building. The Confidence and Preparation Survey (CPS) was used previously among homogeneous nursing student samples. The existing dominant discourse, shaped by ideologies and systems, can unfortunately lead to limited perspectives; therefore, the purpose of this study was to evaluate and refine the CPS for feasibility, clarity, and validity among nursing students primarily from groups that have been historically marginalized. A secondary purpose considered the conditions that affect perceived confidence and preparedness. Cognitive interviews were undertaken with baccalaureate nursing students ( = 11) attending an urban college of nursing in the Northeastern region of the United States. Data were analyzed using rapid qualitative techniques and the framework matrix method. The CPS was readily understood and interpreted by this sample. Student perspectives of conditions that influence their understanding and interpretation of the CPS are described under three themes: (1) prior outside of school healthcare experiences influence understanding, (2) school experiences support survey comprehension, and (3) concerns over insufficient training within school. Findings also include a revised CPS instrument ready for further testing.',
+    id: '40673289',
+    title: 'Immune Checkpoint Inhibitor-Induced Myositis, Myocarditis, and Myasthenia Gravis Overlap Syndrome Following Nivolumab and Ipilimumab Combination Therapy in a 60-Year-Old Male With Metastatic Renal Cell Carcinoma.',
+    abstract: 'Immune checkpoint inhibitors (ICIs) are in widespread use for the treatment of some metastatic cancers. While generally well tolerated, these agents can elicit a spectrum of unintended effects due to indiscriminate immune system activation. These side effects may impact multiple organs simultaneously and can become life-threatening if not promptly addressed. One complication of ICI therapy presents with a combination of myasthenia gravis (MG) symptoms and inflammation of both skeletal and cardiac muscles. This report describes a 60-year-old male with metastatic clear cell renal cell carcinoma on nivolumab and ipilimumab combination therapy post-nephrectomy who presented to our emergency department with fatigue and shortness of breath. Although he reported swallowing difficulties on further enquiry, other classic neuromuscular deficits were absent. The MG composite score was 5, and vital signs were stable. Initial creatine kinase and troponin T were 6,376 U/L and 1,694 ng/L, respectively, and the electrocardiograph (ECG) and echocardiogram were unremarkable. Magnetic resonance imaging (MRI) of the thighs and myocardium showed changes consistent with myositis and myocarditis, respectively. Although an autoantibody screen for MG was requested and later came back negative, the initial diagnosis of MG was clinical. The patient was treated with IV methylprednisolone, IV immunoglobulin, pyridostigmine, and mycophenolate (MMF). The decision to pursue an aggressive multi-pronged immunosuppressive strategy was to minimise the risk of rapid deterioration due to inadequate treatment in a patient with a good functional baseline. Symptoms resolved by the third day of admission, and laboratory markers continued to improve steadily. He was successfully discharged on reduced-dose oral prednisolone and MMF with a plan for outpatient follow-up with twice weekly CK, troponins, and ECG. ICIs were permanently discontinued. Myositis, myocarditis, and MG (MMM) overlap syndrome is an uncommon but potentially fatal immune-related adverse event (irAE) associated with ICI therapy and requires urgent medical attention. Clinicians should maintain a high index of suspicion for rapid diagnosis, as symptoms can be vague. Patient education is also strongly recommended for awareness, as the incidence will likely rise with the expanding use of ICIs. Early and aggressive immunosuppression may help prevent morbidity and mortality.',
+    published: '2025-Jul',
+    authors: [ 'Ismail Umar' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.88101',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673289/'
+  },
+  {
+    id: '40673230',
+    title: 'The longitudinal bidirectional association between cardiovascular disease and depressive symptoms among middle-aged and elderly adults: evidence from a nationwide cohort study in China.',
+    abstract: 'BACKGROUND: Although cardiovascular disease (CVD) and depressive symptoms frequently co-occur, their temporal directional relationship remains poorly understood. This study aimed to investigate the bidirectional association between depression and CVD in middle-aged and elderly Chinese adults through longitudinal analyses.\n' +
+      'METHOD: This longitudinal cohort study included 12792 participants from the China Health Retirement Longitudinal Study (CHARLS), 2015-2020. Depressive symptoms were defined as a score of 10 or higher on the 10-item Center for Epidemiological Studies Depression Scale (CES-D-10). Cardiovascular disease (CVD) was defined as physician-diagnosed coronary heart disease (CHD) and/or stroke. Cox proportional hazards models were applied to investigate the longitudinal association of baseline depressive symptoms with follow-up CVD events, as well as the association of baseline CVD status with follow-up depressive symptoms. Cross-lagged panel models were performed to evaluate bidirectional associations and strength of temporal relationships simultaneously. Effect modification by demographic and lifestyle factors was also examined to identify vulnerable populations for each directional pathway.\n' +
+      'RESULTS: Of 12792 participants, the mean (SD) age was 60.8 (8.9) years and 6833 (53.4%) were females. After adjusting for potential confounders, baseline depressive symptoms were associated with higher risks of subsequent CVD (HR=1.55, 95% CI: 1.40-1.72), CHD (HR=1.51, 95% CI: 1.34, 1.70), and stroke (HR=1.71, 95% CI: 1.43-2.04); conversely, baseline conditions of CVD (HR=1.22, 95% CI: 1.10-1.35), CHD (HR=1.20, 95% CI: 1.08-1.33) and stroke (HR=1.43, 95% CI: 1.16-1.77) were associated with increased risk of depressive symptoms at follow-up. The cross-lagged panel analysis further confirmed the bidirectional associations over time (all -values < 0.001), revealing that the standardized effect size of CVD status on depressive symptoms was greater than the effect size in the reverse direction. The directional pathway from depressive symptoms to CVD was modified by body mass index, educational level, residence, and alcohol consumption, while the reverse directional association was modified by education level and alcohol consumption.\n' +
+      'CONCLUSION: There is a longitudinal, bidirectional association between CVD status and depressive symptoms in mid-to-late life, with CVD status emerging as a larger driving force in these dynamic interactions. These findings suggest that targeted interventions addressing either CVD or depressive symptoms may yield reciprocal benefits over time.',
     published: '2025',
     authors: [
-      'Roman Jones Joanne',
-      'Morgan Jennifer',
-      'Lewinski Allison A',
-      'Chan Ryan',
-      'Booth Richard',
-      'Behrens Liza',
-      'Gazarian Priscilla K'
+      'He Jie',
+      'Liu Mingyue',
+      'Zhang Ziying',
+      'Fang Mingzhu',
+      'Wu Liang',
+      'Wu Haisheng',
+      'Li Zhe'
     ],
-    journal: 'Global qualitative nursing research',
-    doi: '10.1177/23333936251349356',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667476/'
+    journal: 'Frontiers in psychiatry',
+    doi: '10.3389/fpsyt.2025.1559092',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673230/'
   },
   {
-    id: '40667433',
-    title: 'Inverse association between dietary fiber intake and gallstone disease in U.S. adults: a cross-sectional study from the NHANES database.',
-    abstract: 'BACKGROUND: The cross-sectional association of dietary fiber intake with gallstone disease in United States adults remains to be comprehensively elucidated.\n' +
-      'METHODS: We used the National Health and Nutrition Examination Survey (NHANES) data from 2017-2023. The assessment of dietary fiber intake was derived from 24-h dietary recalls. Stratified analyses were then used to demonstrate dietary fiber intake corresponding to different groups of gallstone and non-gallstone conditions. The use of weighted logistic regression was employed to explore the correlation between dietary fiber intake and gallstone disease. Subgroup and interaction analyses were used to identify potential interacting factors. Additionally, restricted cubic spline was used to assess the dose-response between dietary fiber and gallstone risk.\n' +
-      'RESULTS: The study population comprised 9,273 patients, with a gallstone prevalence of 10.47% (971 cases). In the context of various subgroups, patients diagnosed with gallstones exhibited a reduced dietary fiber intake in comparison with individuals not bearing gallstones. In the fully adjusted model, an inverse association was observed between dietary fiber intake and gallstone disease (odds ratio (OR), 95% confidence interval (CI); 0.98 (0.96,1.00),  value = 0.039). The highest quartile of dietary fiber intake exhibited a lower risk of gallstone disease in comparison with the lowest quartile (quartile 4 vs. quartile 1: 0.65 (0.45, 0.94),  value = 0.022). The inverse correlation between dietary fiber intake and the prevalence of gallstones was found to be statistically significant in several subgroups, including males, Hispanic individuals, those with less than a high school education, alcohol consumers, and individuals diagnosed with diabetes. Furthermore, the analysis of dose-response curves indicated a nearly linear correlation between dietary fiber intake and the risk of gallstone development.\n' +
-      'CONCLUSION: Dietary fiber intake is inversely associated with gallstone disease in United States adults. Adequate dietary fiber intake may be beneficial in reducing gallstone prevalence.',
-    published: '2025',
+    id: '40673186',
+    title: 'Nairobi motorcycle transit comparison dataset: Fuel vs. electric vehicle performance tracking (2023).',
+    abstract: 'This dataset, titled "Nairobi Motorcycle Transit Comparison Dataset," was compiled to document a simulated transition of motorcycle taxis (boda bodas) in Nairobi, Kenya, from internal combustion engine (ICE) to electric motorcycles. The data collection spanned two distinct phases. The baseline phase, conducted from November 13-26, 2023, involved 120 ICE motorcycles. The transition phase, occurring from December 10-21, 2023, included 110 ICE motorcycles as a control group and 9 electric motorcycles as a treatment group. Data were gathered in Nairobi, a major urban center in East Africa, providing a geographically specific context for the data collection. Recognising the limited availability of data on such transitions in African cities, including historical insights from Kenyan urban transport systems [3,5,6], this dataset provides a unique resource for researchers and policymakers. The data collection process utilised multiple instruments and methods. Trip-level data were recorded using GPS tracking devices installed on each motorcycle, capturing location, speed, and distance at 10-second intervals. Financial data, such as revenue, maintenance costs, fuel costs (for ICE motorcycles), and electricity usage (for electric motorcycles), were collected via daily phone-based surveys administered to riders. Energy consumption for the electric motorcycles was measured using wall-plug meters connected to each battery charger. These methods ensured comprehensive tracking of both operational and economic metrics across the two motorcycle types. The dataset is organised into two primary directories: trip_data and daily_data. The trip_data directory contains CSV files with detailed trip-level metrics, including start and end times, distances travelled, and average speeds. The daily_data directory provides aggregated daily summaries in CSV format, encompassing total distance, revenue, and costs. To safeguard rider privacy, location data for the first and last trips of each day are excluded. The dataset is hosted on Mendeley, with a publicly accessible URL provided below, ensuring availability for researchers, editors, and reviewers. This dataset holds substantial reuse potential for various research domains. It offers a valuable resource for investigating urban mobility patterns, the adoption of e-mobility in developing cities, energy demand forecasting, and transportation economics. Researchers can leverage the data to explore operational differences between ICE and electric motorcycles, evaluate economic impacts on riders, or model energy consumption trends.',
+    published: '2025-Aug',
     authors: [
-      'Zuo Dianbao',
-      'Sang Ming',
-      'Sun Xiaodong',
-      'Chen Guoping',
-      'Ji Kangkang'
+      'Mbutura Alois',
+      'Kitetu Martin',
+      'Stratford Halloran',
+      'Booysen M J'
     ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1624173',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667433/'
+    journal: 'Data in brief',
+    doi: '10.1016/j.dib.2025.111805',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673186/'
   },
   {
-    id: '40667431',
-    title: 'School-informed risk calculator tool for reducing the spread of respiratory viral infection among school-aged children.',
-    abstract: 'School health staff need decision support for responding to respiratory viral outbreaks. Quantitative microbial risk assessment (QMRA) tools are an inexpensive and fast resource. Our objectives were to engage school districts to inform the development of a risk-based calculator tool, test the tool across hypothetical cases, and elicit feedback among school health staff. We administered an online survey for Kindergarten (K) - Grade 5 teachers, school health professionals, and other school staff to gather data about respiratory viral disease interventions and model parameters. A risk calculator tool was developed in which users choose hypothetical scenarios to estimate infection risk per individual and compare interventions. Three case studies (CS) were explored: CS1 - Rhinovirus transmission in a general education classroom with "poor" vs. "great" air quality, CS2 - Influenza A virus transmission in a music classroom with vs. without a portable air purifier, CS3 - SARS-CoV-2 transmission in a special education classroom with vs. without open doors/windows. The prototype tool was presented at a national school nursing meeting, and attendees were surveyed on (dis)likes and anticipated tool uses. For the initial survey of Arizona school personnel (n = 132), the top respiratory viral outbreak strategies reported by teachers were hand (94 %) and surface hygiene (85.1 %). For all case studies, infection risks were above thresholds used in other contexts but were comparable to published student respiratory illness incidence data. At the national meeting, school nurses (n = 12) identified potential uses including advocating for interventions to administrators. This work reflects a unique application of community partnership and QMRA to address school health decision support.',
+    id: '40673178',
+    title: 'Bochun: Automatically annotated stance detection dataset for Sorani Kurdish language.',
+    abstract: 'This Research presents the first-ever, high-quality, automatically annotated Kurdish stance detection dataset in the Sorani dialect to fill the gap of lacking annotated resources for Kurdish, a low-resource language in Natural Language Processing (NLP). The dataset consists of 2,174 Kurdish news articles-1,410 economic and 764 political-that were originally published in 2024 and 2025, which are recent and topically relevant. By selecting these texts from well-known Kurdish news agencies, content validity and linguistic purity were preserved throughout. Necessary preprocessing techniques are applied. Annotation is carried out in two steps. First, a pattern-recognition method with 2,456 phrases and keywords was applied to determine if the subject of every text fell into the economics or politics category. Next, the position of every article was annotated with an extended lexicon of 4,243 adjectives and verbs, categorized under support, oppose, and neutral. Wherever direct matches were not possible, semantic similarity and zero-shot classification were used as fallback measures. In order to verify the automatic annotation, a team of domain experts manually assessed a representative sample of the annotated texts, with a high inter-annotator agreement score confirming the validity of the approach. The dataset is made available in XLSX (Excel) format, facilitating ease of use and versatility for a variety of research tasks in NLP. Due to its annotated and organized corpus, this dataset is a solid starting point for researchers who are building Kurdish language processing models. The dataset is released publicly to allow other researchers to build upon it and push the limits of NLP system performance on low-resource languages.',
+    published: '2025-Aug',
+    authors: [ 'Rostam Payman Sabr', 'Nabi Rebwar Mala' ],
+    journal: 'Data in brief',
+    doi: '10.1016/j.dib.2025.111839',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673178/'
+  },
+  {
+    id: '40673165',
+    title: 'Developing and testing AI-based voice biomarker models to detect cognitive impairment among community dwelling adults: a cross-sectional study in Japan.',
+    abstract: 'BACKGROUND: Voice is a potential biomarker of cognitive impairment because mild cognitive impairment (MCI) can cause changes in speech patterns and tempo. Artificial intelligence (AI) can deliver voice biomarkers as prediction features, leading to a timely, noninvasive, and cost-effective detection of cognitive impairment. This study aimed to develop and test prediction models utilizing voice biomarkers to detect cognitive impairment, which AI derived from voice data of unstructured conversations in community-dwelling adults in Japan.\n' +
+      'METHODS: This observational study with a cross-sectional design, included 1461 community-dwelling adults. The outcome was cognitive impairment assessed by the Memory Performance Index score from the MCI screen. Voice data was collected from 3-min open-question interviews and extracted voice biomarkers based on acoustic and prosodic features as a 512-dimensional vector of individual voice information using the voice generator, Wav2Vec2. Other considerable predictors were age, sex, and education. We developed cognitive impairment prediction models by applying the extreme gradient boosting decision tree algorithm and a deep neural network model using 979 participants. Prediction performances were tested by area under the curves (AUCs) in 482 participants who were not used for model development.\n' +
+      'FINDINGS: We had 967 women (66·2%), 526 cognitive impairment (36·0%) participants with mean (standard deviation) age and education years of 79·5 (6·3) years old and 11·6 (2·2) years, respectively. The inclusion of voice biomarkers significantly improved AUCs (95% confidence intervals), from 0·80 (0·76, 0·84) to 0·88 (0·84, 0·91) for the age sex model and from 0·78 (0·73, 0·82) to 0·89 (0·86, 0·92) for the age sex and education model (p < 0·0001 for both comparisons by DeLong test).\n' +
+      'INTERPRETATION: Our prediction models for cognitive impairment using voice biomarkers can provide significantly timesaving MCI screening with high prediction performances (AUC = 0·89). Voice biomarkers significantly contributed to improving prediction performance.\n' +
+      'FUNDING: Small Business Innovation Research (SBIR Phase 3 Fund), the Intramural Research Fund of Cardiovascular Diseases of the National Cerebral and Cardiovascular Center, and JSPS KAKENHI.',
     published: '2025-Jun',
     authors: [
-      'Wilson Amanda M',
-      'Lowe Ashley A',
-      'Amoh-Asante Nana Adwoa A',
-      'Zhan Yang',
-      'Ashraf Ahamed',
-      'Gerald Lynn B'
+      'Kiyoshige Eri',
+      'Ogata Soshiro',
+      'Kwon Namhee',
+      'Nakaoku Yuriko',
+      'Hayashi Chisato',
+      'Blaylock Nate',
+      'Brueckner Raymond',
+      'Subramanian Vinod',
+      'Joseph OConnell Henry',
+      'Yoshikawa Yusuke',
+      'Teramoto Kanako',
+      'Nakatsuka Kiyomasa',
+      'Saito Satoshi',
+      'Ihara Masafumi',
+      'Takegami Misa',
+      'Nishimura Kunihiro'
     ],
-    journal: 'Indoor environments',
-    doi: '10.1016/j.indenv.2025.100090',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667431/'
+    journal: 'The Lancet regional health. Western Pacific',
+    doi: '10.1016/j.lanwpc.2025.101598',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673165/'
   },
   {
-    id: '40667397',
-    title: "Improving students' performance in geometry: an empirical evidence of the effectiveness of brainstorming learning strategy.",
-    abstract: 'BACKGROUND: The persistent challenges in geometry performance among secondary school students in Nigeria demand innovative teaching methods that extend beyond conventional strategies.\n' +
-      "OBJECTIVE: This pretest and post-test quasi-experimental study investigated the effectiveness of brainstorming as an instructional approach to improve students' geometry performance.\n" +
-      "METHODS: The research involved 140 students from two coeducational public secondary schools, with 73 students assigned to an experimental group taught using the brainstorming strategy. In comparison, 67 students were placed in a control group that received instruction through the conventional method. Data were collected using the Geometry Performance Test (GPT) with a reliability coefficient of 0.83 obtained using the test-retest method. The data generated were analyzed using descriptive and inferential statistics to address the research questions and test the study's hypotheses.\n" +
-      'RESULTS: The results indicated that the experimental group significantly outperformed the control group in posttest scores,   = 227.124,  < 0.001, with a mean score of 66.99 (SD = 9.17) compared to 46.76 (SD = 6.18) in the control group. No significant gender difference was observed in performance gains,   = 1.609,  = 0.213, suggesting that brainstorming is an effective teaching strategy without gender bias.\n' +
-      "CONCLUSION: These findings show the potential of brainstorming as a powerful tool for improving students' performance in geometry with equitable effectiveness among male and female secondary students. Thus, we recommended that educators should integrate brainstorming into their mathematics classrooms as a proxy to close performance gaps among male and female students in mathematics and improve students' performance in mathematics. As this study was conducted in two public secondary schools in Kaduna State, Nigeria, we acknowledge that the findings are context-specific and may not be generalizable without caution.",
+    id: '40673042',
+    title: "Patient's Awareness of Cancer-Associated Thrombosis: A Canadian Nationwide Survey.",
+    abstract: "BACKGROUND: Approximately 20% of patients with cancer will have cancer-associated venous thromboembolism (CAT), which is associated with significant morbidity and mortality. Despite its clinical importance, CAT awareness in cancer patients and caregivers remains low. We sought to assess the patients' knowledge of CAT through a national survey.\n" +
+      'MATERIALS AND METHODS: A survey assessing knowledge of different aspects of CAT was developed by a steering committee including four clinicians with expertise in CAT and a patient partner with lived experience. Survey dissemination among patients with cancer occurred through the Environics network, the Thrombosis Canada member network, the Thrombosis Canada social media platforms, and was advertised through Instagram and Facebook, and the Canadian Cancer Survivor Network newsletter.\n' +
+      'RESULTS: Out of the 312 patients with cancer or survivors who responded to the survey, 179 (57.4%) were female, and 118 (37.8%) were over 65 years old. Overall, 119 patients (38.1%, 95% confidence interval [CI]: 37.7-49.8%) reported having no knowledge of CAT. Only 84 (26.9%, 95% CI: 22.1-32.2%) and 94 (30.1%, 95% CI: 25.1-35.6%) patients reported receiving education about their underlying risk of CAT or education about signs and symptoms of venous thromboembolism, respectively. A total of 66 (21%, 95% CI: 16.8-26.1%) patients reported being informed by a health care professional about considering thromboprophylaxis. Patients were interested in learning more about the risk of CAT, its associated risk factors, and the benefits and potential side effects of thromboprophylaxis.\n' +
+      'CONCLUSION: Many patients with cancer lack awareness or knowledge of CAT. Our results highlight ongoing education and awareness of the CAT burden.',
     published: '2025',
     authors: [
-      'Danlami Kazaik Benjamin',
-      'Zakariya Yusuf Feyisara',
-      'Balarabe Bashir',
-      'Alotaibi Sarah Bader',
-      'Alrosaa Tahani Mohammed'
+      'Pizzarossa Ana C',
+      'Penaloza Andrea',
+      'Vrotniakaite-Bajerciene Kristina',
+      'Chitsike Rufaro',
+      'Tagalakis Vicky',
+      'Calverley Susan',
+      'Carrier Marc'
     ],
-    journal: 'Frontiers in psychology',
-    doi: '10.3389/fpsyg.2025.1577912',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667397/'
+    journal: 'TH open : companion journal to thrombosis and haemostasis',
+    doi: '10.1055/a-2635-9296',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673042/'
   },
   {
-    id: '40667394',
-    title: 'Quality-checking a novel "fact sheet" on ghostly episodes.',
-    abstract: `INTRODUCTION: 'Apparitions, hauntings, and poltergeists' are universally reported phenomena with significant psychological and social implications. Despite their prevalence, the scientific study of these anomalous experiences remains fragmented, and misinformation is widespread. To address this gap, a resource titled "Fact Sheet: Ghostly Episodes at a Glance" was developed to provide an evidence-based summary for educational and clinical use.\n` +
-      "METHODS: This preliminary study evaluated the Fact Sheet's content validity through an AI-based verification procedure. Additionally, we assessed its accessibility, utility, and global favorability among four groups: lay percipients, lay non-percipients (information-seekers), clinical practitioners, and amateur paranormal investigators (information-providers).\n" +
-      'RESULTS: The Fact Sheet demonstrated strong content validity, accessibility, usefulness, and favorability across all groups. However, participants suggested refinements to enhance readability and contextual depth. Statistical analysis revealed small but significant differences in global favorability scores, with information-providers more strongly endorsing the resource than information-seekers.\n' +
-      'CONCLUSION: These findings underscore the importance of scientifically-grounded, accessible resources in educating diverse audiences about anomalous experiences. The study highlights the value of data-driven public education in this domain and offers specific recommendations for improving future iterations of the Fact Sheet to boost engagement and comprehension in both educational and clinical settings.',
+    id: '40673040',
+    title: 'Economic impact of reduced state trauma mortality on lifetime personal income and state tax revenue.',
+    abstract: "BACKGROUND: In 2003, Georgia's trauma mortality rate was 16% above the national average. By 2020, mortality had decreased to 6% below the national average, translating to 1,803 fewer lives lost than might have been expected if 2003 trends had continued. The purpose of this study is to assess the state-wide economic impact of reduced mortality and disability measured in the amount of lifetime personal income and state tax revenue preserved.\n" +
+      "METHODS: Using the Centers for Disease Control and Prevention's Web-Based Injury Statistics Query and Reporting System database, state/national trauma mortality rates for 2020 were compared with 2003. Years of potential life lost (YPLL) for trauma victims up to 65 were calculated for the same time period. Rates of severe disability were calculated based on the average results of four studies (1992-2022) and used to estimate additional YPLL. The per-capita personal income for Georgia and the average percent of personal income paid in state taxes were calculated using federal and state data. These numbers were then multiplied by state YPLL rates to calculate lifetime personal income and state tax revenue lost due to trauma.\n" +
+      'RESULTS: $4.3 billion in lifetime personal income preserved (averted death $1.3 billion and averted disability $2.9 billion). $508 million in lifetime tax revenue preserved (averted death $158 million and averted disability $349 million).\n' +
+      'CONCLUSIONS: Reduced state trauma mortality and disability substantially benefitted lifetime potential personal income and lifetime potential state and local tax revenue. This study provides states with a template to evaluate the economic impact of reducing trauma mortality. While the causes of reduced mortality are manifold, anything that can be done to reduce trauma mortality is a worthwhile investment. Accordingly, state trauma system funding should be considered an , not a cost.\n' +
+      'LEVEL OF EVIDENCE: Economic and value-based evaluations, Level III.',
     published: '2025',
     authors: [
-      'Massullo Brandon Jon',
-      'Houran James',
-      'Escolá Gascón Alex',
-      "O'Keeffe Ciarán",
-      'Drinkwater Kenneth Graham',
-      'Dagnall Neil'
+      'Groce Harold Edward',
+      'Ashley Dennis Wayne',
+      'Robinson Joe Sam'
     ],
-    journal: 'Frontiers in psychology',
-    doi: '10.3389/fpsyg.2025.1585437',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667394/'
+    journal: 'Trauma surgery & acute care open',
+    doi: '10.1136/tsaco-2024-001698',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673040/'
   },
   {
-    id: '40667391',
-    title: 'How does academic self-efficacy influence learning anxiety and academic burnout in Chinese characters learning among international students in China?',
-    abstract: 'BACKGROUND: The interplay between learning self-efficacy, anxiety, and burnout has been extensively documented in English as a Second Language (ESL) education. However, Chinese character learning-a uniquely complex task involving visual-spatial processing, stroke order mastery, and radical decomposition-presents distinct cognitive and affective challenges. The dynamics of self-efficacy, anxiety, and burnout in Chinese character acquisition remain under-explored, creating a critical gap in understanding how these constructs operate in non-alphabetic language contexts.\n' +
-      'OBJECTIVE: The purpose of this study was to investigate how learning anxiety (LA) affects academic burnout (AB) and explores the role of academic self-efficacy (ASE) in the relationship between the two.\n' +
-      'METHODS: A study of 537 international students (50.4% males, mean age = 20.96 years, SD = 1.36) was conducted using the Academic Self-Efficacy Scale (ASES), Foreign Language Learning Anxiety Scale (FLLAS), Academic Burnout Scale (ABS).\n' +
-      'RESULTS: ① LA was significantly and positively correlated with AB, and significantly and negatively correlated with ASE. ② ASE mediated the relationship between LA and AB. ③ Grade level, sleep quality, and parental education level have a significant effect on ASE, LA and AB; and ④ Extroversion has a significant effect on ASE, but not on LA and AB.\n' +
-      "CONCLUSION: The chain mediation model validated by this study provides valuable insights into the effects of international students' learning anxiety (LA) on academic burnout (AB) in China, alongside practical implications for preventing and intervening in LA and AB among other current students.",
+    id: '40673035',
+    title: {
+      _: 'Accuracy of self-collection versus cervical sampling for the molecular diagnosis of  and  in women attending gynecological services.',
+      i: [Array]
+    },
+    abstract: 'OBJECTIVE: Successful measures to address the increasing prevalence of sexually transmitted infections (STIs) require practical and accessible education and detection programs.\n' +
+      'METHODS: The ability to detect  and  may be hindered by a lack of adherence to proper cervical sampling. To address this, we compared the sensitivity and specificity of self-obtained samplings, such as self-collection and first-catch urine samples, to cervical samples taken by a practitioner using the nucleic acid amplification test (NAAT) cobas 4800 for  and  in 244 women attending gynecological services in Quito, Ecuador. Regardless of sampling method, only 12 patients tested positive for  (4.9% prevalence, 95% CI 2.8 to 8.4%), and no samples tested positive for .\n' +
+      'RESULTS: The analysis revealed that self-collection was 100% sensitive (95% CI 66.4% to 100.0%) and 100% specific (95% CI 98.25%-100%), and first-catch urine was 90% sensitive (95% CI 55.5% to 99.8%), and 99% specific (95% CI 96.5% to 99.9%) compared to cervical brushing for the detection of . No symptoms were associated with a positive  result, highlighting the need for testing even in asymptomatic patients. Furthermore, having a stable intimate relationship in the past year was associated with a negative result for  (χ 14.01,  < 0.001).\n' +
+      'CONCLUSION: This study demonstrates the feasibility and reliability of self-collection and first-catch urine samples as alternative methods for detecting  and has practical implications for improving STI detection and management programs.',
     published: '2025',
-    authors: [ 'Lin Yang' ],
-    journal: 'Frontiers in psychology',
-    doi: '10.3389/fpsyg.2025.1555063',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667391/'
-  },
-  {
-    id: '40667390',
-    title: "The impact of sensory modalities and background information on the emotional resonance of Li Bai's classical poetry.",
-    abstract: 'INTRODUCTION: Emotional resonance (ER) refers to the extent to which readers identify with and emotionally connect to the representations in poetry, often drawing parallels between the emotions conveyed in the poem and their own personal experiences. This phenomenon is influenced by sensory modalities-such as visual, auditory, tactile, gustatory, and olfactory-and the cultural context embedded within the poem. Understanding how these factors interact to enhance emotional resonance in poetry is crucial for advancing poetry education and engagement.\n' +
-      'METHODS: This study employs a repeated-measures experimental design to investigate how different sensory modalities and contextual background influence emotional responses to classical poetry. The experiment includes five conditions: three focus on sensory modalities (visual, auditory, and visual-auditory), while the remaining two examine the combined effects of background information (background music and background images) in conjunction with sensory modalities.\n' +
-      'RESULTS: The results indicate that: The visual modality and the visual-auditory modality yield higher emotional resonance ratings compared to the auditory modality. Background information (background music and images) enhances the emotional resonance of the poetry. The synergy between background information and sensory modalities further increases the emotional resonance ratings.\n' +
-      'DISCUSSION: This study highlights the critical role of both sensory modalities and background information in shaping the emotional response to poetry. The findings suggest that integrating different sensory experiences and cultural cues can significantly enhance emotional resonance, offering new theoretical insights for the teaching and appreciation of poetry.',
-    published: '2025',
-    authors: [ 'Zhang Yannan', 'Wang Xiao' ],
-    journal: 'Frontiers in psychology',
-    doi: '10.3389/fpsyg.2025.1541680',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667390/'
-  },
-  {
-    id: '40667314',
-    title: 'The economic strategies of superorganisms.',
-    abstract: 'The leaf economics spectrum links strategies of plant investment in resource-acquiring leaves to overall fitness. We test whether an economic spectrum can also explain variation in ecological strategies of ant species across environmental gradients, where colony investment in workers is analogous to plant investment in leaves. A fast return of resource investment was associated with large colonies of smaller, less robust, short-lived workers with low nitrogen:phosphorus ratios. Slow resource payback was associated with small colonies of densely built, energetically conservative and longer-lived workers with high nitrogen:phosphorus ratios. Species representing the entire economic continuum co-occurred in all communities. Phylogenetic analyses suggest genus level conservation of core investment templates. These results unify studies of plants and ants, suggesting common economic principles apply across the tree of life.',
-    published: '2025-Jun-25',
     authors: [
-      'Leahy Lily',
-      'Riskas Hannah L',
-      'Halliwell Ben',
-      'Wright Ian J',
-      'Carlesso Amelia G',
-      'Sanders Nathan J',
-      'Bishop Tom R',
-      'Parr Catherine L',
-      'Chown Steven L',
-      'Shik Jonathan Z',
-      'Andersen Alan N',
-      'Gibb Heloise'
+      'Vasco Gabriela',
+      'Cruz Cecilia',
+      'Peñaherrera Paterson',
+      'Tipán Katherine',
+      'Pila Sandy',
+      'Guzmán Karol',
+      'Cabascango Marisol',
+      'Logacho Katherine',
+      'Jácome Patricio'
     ],
-    journal: 'bioRxiv : the preprint server for biology',
-    doi: '10.1101/2025.02.21.639603',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40667314/'
+    journal: 'Revista brasileira de ginecologia e obstetricia : revista da Federacao Brasileira das Sociedades de Ginecologia e Obstetricia',
+    doi: '10.61622/rbgo/2025rbgo31',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40673035/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
@@ -1223,16 +1213,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 34206,
+        _idleNext: [Timeout],
+        _idleStart: 32016,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4730,
-        [Symbol(triggerId)]: 4728
+        [Symbol(asyncId)]: 5172,
+        [Symbol(triggerId)]: 5170
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1364,7 +1354,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Wed, 16 Jul 2025 15:13:03 GMT',
+      date: 'Thu, 17 Jul 2025 15:13:08 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1475,7 +1465,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Wed, 16 Jul 2025 15:13:03 GMT',
+  date: 'Thu, 17 Jul 2025 15:13:08 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1586,15 +1576,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 34736,
+        _idleStart: 32325,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4776,
-        [Symbol(triggerId)]: 4774
+        [Symbol(asyncId)]: 5218,
+        [Symbol(triggerId)]: 5216
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1726,7 +1716,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Wed, 16 Jul 2025 15:13:04 GMT',
+      date: 'Thu, 17 Jul 2025 15:13:08 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1837,7 +1827,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Wed, 16 Jul 2025 15:13:04 GMT',
+  date: 'Thu, 17 Jul 2025 15:13:08 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2012,7 +2002,6 @@ Translating paper 19/50
 Translating paper: The Impact of Education for Sustainable Developmen...
 Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7075490918614684 seconds...
 Translating paper 21/50
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
 Translating paper 22/50
@@ -2028,31 +2017,31 @@ Translating paper: AI-Supported Summative Reflection to Foster Motiva...
 Translating paper 27/50
 Translating paper: Non-Immersive Virtual Learning Environments (VLEs)...
 Translating paper 28/50
-Translating paper: A Virtual Reality-Based Co-creation Approach to De...
+Translating paper: Conversion Process in the Production and Distribut...
 Translating paper 29/50
-Translating paper: Using Social Network Analysis to Analyze Eye-Track...
+Translating paper: A Virtual Reality-Based Co-creation Approach to De...
 Translating paper 30/50
-Translating paper: From Peer Educators to Digital Change Agents: Reth...
+Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 31/50
-Translating paper: A comparison of the costs and patterns of expendit...
+Translating paper: [A timely diagnosis of Parkinson's disease dementi...
 Translating paper 32/50
-Translating paper: Orthodontic Educational Landscape in the Contempor...
+Translating paper: Prominent Literature in Surgical Ethics: A Compreh...
 Translating paper 33/50
-Translating paper: A Confidence and Preparedness Survey: Cognitive In...
+Translating paper: Immune Checkpoint Inhibitor-Induced Myositis, Myoc...
 Translating paper 34/50
-Translating paper: Inverse association between dietary fiber intake a...
+Translating paper: The longitudinal bidirectional association between...
 Translating paper 35/50
-Translating paper: School-informed risk calculator tool for reducing ...
+Translating paper: Nairobi motorcycle transit comparison dataset: Fue...
 Translating paper 36/50
-Translating paper: Improving students' performance in geometry: an em...
+Translating paper: Bochun: Automatically annotated stance detection d...
 Translating paper 37/50
-Translating paper: Quality-checking a novel "fact sheet" on ghostly e...
+Translating paper: Developing and testing AI-based voice biomarker mo...
 Translating paper 38/50
-Translating paper: How does academic self-efficacy influence learning...
+Translating paper: Patient's Awareness of Cancer-Associated Thrombosi...
 Translating paper 39/50
-Translating paper: The impact of sensory modalities and background in...
+Translating paper: Economic impact of reduced state trauma mortality ...
 Translating paper 40/50
-Translating paper: The economic strategies of superorganisms....
+Translating paper: Accuracy of self-collection versus cervical sampli...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2069,30 +2058,145 @@ Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3662222017413477 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '43s'
+    }
+  ]
+}
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6164929887249024 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '39s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.132759557073137 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '36s'
+    }
+  ]
+}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0225269468118556 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '32s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2279695413980147 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"30s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '30s'
+    }
+  ]
+}
 Translation completed: 50 papers
-Removed duplicates: 639 -> 600
-Total papers after merging: 600 (589 existing + 50 new)
-Saved 600 papers to papers.json
+Removed duplicates: 650 -> 611
+Total papers after merging: 611 (600 existing + 50 new)
+Saved 611 papers to papers.json
 Generating HTML files...
-Generating index.html with 600 papers...
+Generating index.html with 611 papers...
 Successfully generated index.html
-Generating archive.html with 600 papers...
+Generating archive.html with 611 papers...
 Successfully generated archive.html
-Generating journal.html with 600 papers...
+Generating journal.html with 611 papers...
 Successfully generated journal.html
-Generating acquisition.html with 600 papers...
+Generating acquisition.html with 611 papers...
 Successfully generated acquisition.html
-Generating publication.html with 600 papers...
+Generating publication.html with 611 papers...
 Successfully generated publication.html
-Generating registration.html with 600 papers...
+Generating registration.html with 611 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 600
+Total papers in database: 611
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-16T15:40:54.834Z
+Timestamp: 2025-07-17T15:40:32.455Z
