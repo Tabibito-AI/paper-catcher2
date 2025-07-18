@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-17T15:12:36.858Z
+Timestamp: 2025-07-18T15:11:53.961Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 600 existing papers from papers.json
+Loaded 611 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,8 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
+Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -543,202 +545,199 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40673362',
-    title: "[A timely diagnosis of Parkinson's disease dementia].",
-    abstract: "Dementia is among the most devastating nonmotor features of Parkinson's disease (PD), causing severe decline in quality of life, increased caregiver burden, increased mortality, and often institutionalization. The lack of prominent memory complaints and the increasing physical disabilities due to PD make it difficult for people with Parkinson's disease and their care givers to recognize PD dementia. Education on the profile of cognitive decline to raise awareness in people with PD and caregivers is needed. A timely diagnosis can however result in a better disease management for people with PD and their caregivers, including personalized care, advanced care planning and a reduced risk of unexpected hospitalization. The fear of harming a long term patient-physician relationship can also pose a barrier in the diagnosis and the timing thereof. Interprofessional team-based dementia care can help diagnose and treat people with PD dementia.",
-    published: '2025-Jun-23',
-    authors: [
-      'van der Kolk Nicolien M',
-      'van Keulen Leonie',
-      'Holleman Meike A',
-      'van Strien Astrid'
-    ],
-    journal: 'Nederlands tijdschrift voor geneeskunde',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673362/'
+    id: '40678892',
+    title: 'A FAIR intensive longitudinal data archive on prolonged grief in daily life.',
+    abstract: ' The majority of grief research has assessed Prolonged Grief (PG) symptoms using cross-sectional surveys, which are limited in capturing within-person changes in daily grief reactions. These dynamic PG reactions can be more effectively assessed using Experience Sampling Methodology (ESM). Accordingly, this data note presents a Findable, Accessible, Interoperable, and Reusable (FAIR) archive comprising three existing ESM projects investigating PG reactions in daily life. Participants in this archive completed three data collection phases: baseline measures (including sociodemographic and loss characteristics, and psychopathology measures), a 14-day ESM phase (rating PG reactions and contextual factors up to five times daily), and follow-up psychopathology assessments. The participants provided explicit digital consent for the use and reuse of their data in scientific research. In total, 315 people are included in this archive, with a total of 22,050 ESM-measurement points. The majority of the participants were middle-aged, identified as women, and had completed higher education. Almost half of the sample (48.73%) experienced the loss of a partner or child, the majority of these losses were due to natural causes (70.06%), and happened less than a year ago (59.24%). The data are stored in a trusted repository. This archive demonstrates that it is feasible to develop a FAIR archive including existing data on PG reactions in daily life. Given the resource-intensive nature and richness of these data, we encourage researchers to reuse and/or share ESM-data through this archive, helping to deepen our understanding of grief in natural settings.',
+    published: '2025-Dec',
+    authors: [ 'Pociūnaitė-Ott Justina', 'Lenferink Lonneke I M' ],
+    journal: 'European journal of psychotraumatology',
+    doi: '10.1080/20008066.2025.2526885',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678892/'
   },
   {
-    id: '40673291',
-    title: 'Prominent Literature in Surgical Ethics: A Comprehensive Bibliometric Analysis of the Top 50 Most-Cited Articles.',
-    abstract: "The patient-surgeon encounter is a complex relationship characterized by the infliction of pain for the patient's benefit. While surgical interventions are deeply personal, a significant knowledge disparity between patients and surgeons poses challenges in communication. Surgical training emphasizes the cultivation of virtues and practices to prioritize patient interests, but contemporary surgical practice still grapples with ethical quandaries. Addressing these challenges head-on is vital for advancing the field while ensuring patient safety, informed consent, cost-effectiveness, and conflict management. This article aims to contribute to the discourse on surgical ethics by delineating its scope, exploring key ethical issues, and examining strategies employed by surgeons. Additionally, it investigates the impact of surgical ethics on patients, surgeons, and society. Through a bibliometric analysis of the top 50 articles, key themes and influential works are identified. Themes include ethics of surgical innovation, history of surgical ethics, surgical ethics in practice, and ethics education. The analysis also reveals trends in countries of origin, authorship, article types, and journal representation. Findings inform the development of ethical frameworks, guidelines, and ethical competencies in surgical practice, promoting patient-centered care and professionalism. Collaboration among stakeholders is essential to shape the future of surgical ethics.",
+    id: '40678875',
+    title: 'Empowering Nurses to Enhance Disaster Preparedness for Individuals With Sickle Cell Disease: A Cross-Sectional Study.',
+    abstract: 'AIMS: To assess home disaster preparedness levels of individuals with sickle cell disease to determine education and resource needs and inform policy. To evaluate the association between healthcare provider discussion of preparedness and level of preparedness.\n' +
+      'BACKGROUND: Research demonstrates that extreme weather events and public health emergencies result in increased hospital visits for people with sickle cell disease, yet little is known about home disaster preparedness knowledge and actions of these individuals.\n' +
+      "METHODS: Cross-sectional study of US adults diagnosed with sickle cell disease. The independent variable was the healthcare provider discussion of household disaster preparedness. The dependent variable was the Household Emergency Preparedness Instrument's General Preparedness score. Participants self-reported their preparedness actions and disaster supplies through an online survey. Descriptive statistics were analyzed, along with a Welch t test, to examine the associations between the study variables. This study was reported according to the STROBE checklist.\n" +
+      'RESULTS: The average General Preparedness score of this sample (N = 32) indicated that the majority of participants were not considered well prepared for disasters. Higher scores were found among participants who had discussions with their healthcare providers about how to prepare for disasters.\n' +
+      "DISCUSSION: The sample's average General Preparedness score was higher than other patient populations assessed with this instrument, possibly due to routine discussions about medical emergency preparedness that individuals with sickle cell disease receive from healthcare providers.\n" +
+      'CONCLUSION: Home disaster preparedness levels should be improved to decrease disaster-related morbidity and mortality.\n' +
+      'IMPLICATIONS FOR NURSING PRACTICE AND POLICY: Nurses should develop or advocate for home disaster preparedness lessons, community interventions, and public policies to meet the unique needs of community members with sickle cell disease before, during, and after disasters.',
+    published: '2025-Sep',
+    authors: [ 'Heagele Tara', 'McCrary Brittany' ],
+    journal: 'International nursing review',
+    doi: '10.1111/inr.70067',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678875/'
+  },
+  {
+    id: '40678868',
+    title: "Challenges and Opportunities in Developing Standardized Dental Implant Curriculum for Nigeria's Dental Schools.",
+    abstract: "INTRODUCTION: Dental implant education in many African countries, including Nigeria, is limited due to a lack of expertise and resources. This study assessed the status of implant education in Nigeria's 13 dental schools, evaluated faculty and student willingness to implement a standardized curriculum, and explored student perceptions of implant education.\n" +
+      "MATERIALS AND METHODS: A cross-sectional study with two surveys was conducted in 2020. Survey I targeted faculty overseeing predoctoral curricula, while Survey II assessed dental students' perceptions of implant education. Primary outcomes included implant course offerings, faculty willingness to adopt an integrated curriculum, and student perceptions of implant training across fifth- and sixth-year students and residents.\n" +
+      'RESULTS: The response rate was 64% for Survey I and 65.6% for Survey II. Less than half (45%) of dental schools required implant education, though all faculty (100%) supported online implant courses. Barriers included financial constraints (27%), curricular time (36%), and lack of faculty expertise (27%). Implant courses were primarily taught by restorative departments (53%), with 88% delivered in the final (sixth) year. While 79.8% of students reported exposure to implantology, only 19% felt the coverage was sufficient. Interest in incorporating implants into future practice was high (92%, 87%, and 91% in fifth-year students, sixth-year students, and residents, respectively). However, formal implant education was lower among fifth-year students (49%) compared to residents (81%, p < 0.001).\n' +
+      'CONCLUSIONS: There is a strong consensus to improve implant education in Nigeria. More comprehensive implant courses are needed to support future practitioners and enhance patient care.',
+    published: '2025-Jul-17',
+    authors: [
+      'Onoriobe Uvoh',
+      'Saglik Berna',
+      'Sukotjo Cortino',
+      'Sierraalta Marianella',
+      'Razzoog Michael',
+      'Bencharit Sompop'
+    ],
+    journal: 'Journal of dental education',
+    doi: '10.1002/jdd.13957',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678868/'
+  },
+  {
+    id: '40678867',
+    title: 'Evaluating the Reliability and Accuracy of Senior Veterinary Students in Detecting and Scoring Lameness in Dairy Cows.',
+    abstract: 'BACKGROUND: Lameness detection is essential for effective dairy cattle management, with accurate diagnosis improving animal welfare and reducing economic losses. Senior veterinary students must acquire these skills before graduation to ensure competent diagnosis in the field.\n' +
+      'OBJECTIVES: This study aimed to evaluate the reliability and accuracy of senior veterinary students in detecting and scoring lameness in dairy cows.\n' +
+      "METHODS: The study included 201 senior veterinary students who scored lameness in cows using video recordings and a 5-point scoring system. Students' lameness scores were compared to those assigned by an experienced observer using a confusion matrix, with sensitivity, specificity, and accuracy calculated. Intra-rater reliability was assessed using intraclass correlation coefficients, while inter-rater reliability was evaluated using Krippendorff's alpha. Binary logistic regression was performed to assess the impact of lameness severity on detection accuracy.\n" +
+      'RESULTS: Students demonstrated high accuracy for severe lameness (93.67%) and healthy cases (85.93%), with sensitivities of 75.84% and 74.46%, respectively. However, sensitivity for mild to moderate lameness was lowest. Specificity ranged from 81.87% for mild cases to 98.12% for severe cases. Inter- and intra-rater reliability showed various agreement coefficients across lameness categories. Logistic regression indicated decreased accuracy with increasing lameness severity.\n' +
+      'CONCLUSION: Gaps in detecting intermediate lameness highlight the need for enhanced training methods in veterinary education. Integrating advanced tools can improve diagnostic accuracy and support better lameness detection in practice.',
     published: '2025-Jul',
+    authors: [ 'Ozturan Yalcin Alper', 'Akin Ibrahim' ],
+    journal: 'Veterinary medicine and science',
+    doi: '10.1002/vms3.70496',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678867/'
+  },
+  {
+    id: '40678865',
+    title: 'Navigating Complex Transitions Through School and Work during Crises in Urban Ethiopia.',
+    abstract: "INTRODUCTION: The school-to-work transition is often thought of as a linear pathway, but for many adolescents this is not the case. In recent years, young people in Ethiopia have lived through recurrent crises, including conflict and the COVID-19 pandemic. Yet there is limited longitudinal research that explores the impact of these recurrent, interconnected crises on young people's school-to-work transitions. This article addresses this study gap by exploring how adolescents and young people in urban Ethiopia navigate their educational and working lives during interconnected crises.\n" +
+      'METHODS: The article uses a qualitative longitudinal approach with data involving 32 adolescents (aged 12-19 years during the first round of interviews), 24 caregivers and 35 key informants, across a 4-year period (2017-2021).\n' +
+      "RESULTS: Young people's transitions through education and work are complex, rarely forming linear pathways. Education and work operate in tandem with each other, providing key skills for young people's futures. Over time, work becomes viewed as increasingly important to young people's psychosocial well-being and economic empowerment, especially when education is seen as less secure. In the context of increasing instability, young people's aspirations are becoming more uncertain.\n" +
+      'CONCLUSION: To support young people to successfully navigate their school and working lives, a multidimensional approach is needed. This requires greater flexibility both within school and workplaces, financial incentives to stay in education and financial assistance to support insecure households, and individual and group mental health counselling and psychosocial support.',
+    published: '2025-Jul-17',
+    authors: [ 'Devonald Megan', 'Jones Nicola', 'Yadete Workneh' ],
+    journal: 'Journal of adolescence',
+    doi: '10.1002/jad.70001',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678865/'
+  },
+  {
+    id: '40678821',
+    title: 'Advancing Clinical Pharmacogenomics Worldwide Through the Clinical Pharmacogenetics Implementation Consortium (CPIC).',
+    abstract: "The Clinical Pharmacogenetics Implementation Consortium (CPIC) has advanced clinical pharmacogenomics since 2009 by developing freely available, evidence-based gene/drug guidelines. Covering 34 genes and 164 drugs, CPIC guidelines have become the global standard for translating pharmacogenomic test results into actionable prescribing decisions. This paper summarizes data highlighting CPIC's pivotal role in accelerating the global adoption of pharmacogenomics and establishing itself as the leading resource for clinical implementation. To assess CPIC's growth and impact, we analyzed member demographics, guideline characteristics, author composition, bibliometric data, database/API usage, and real-world implementation using internal tracking, external databases (Scopus, iCite), website analytics, PubMed review (2019-2024), and CPIC member surveys (2012, 2024). CPIC has 28 active guidelines with international authorship and widespread adoption, garnering over 10,000 citations and 1.4 million views. Robust implementation is evident, with 85% of PubMed-indexed pharmacogenomic implementation studies referencing CPIC guidelines. Additionally, 128 healthcare institutions and 40 commercial laboratories report using CPIC content. The CPIC API supports over 80,000 monthly queries, increasingly integrated into EHRs, including Epic's foundational genomics module. Member surveys show a shift from scientific evidence concerns to practical barriers like clinician education, reimbursement, and EHR integration. CPIC has evolved from a guideline development initiative into a global leader in pharmacogenomics implementation, fostering collaboration, standardization, and sustainable integration into diverse healthcare settings.",
+    published: '2025-Jul-18',
     authors: [
-      'Shah Muhammad Hamza',
-      'Roy Sakshi',
-      'Ahluwalia Arjun',
-      'Harky Amer'
+      'Caudle Kelly E',
+      'Whirl-Carrillo Michelle',
+      'Relling Mary V',
+      'Hoffman James M',
+      'Donnelly Roseann S',
+      'Haidar Cyrine E',
+      'Bourque Melissa S',
+      'Frear Samantha',
+      'Gong Li',
+      'Sangkuhl Katrin',
+      'Whaley Ryan',
+      'Klein Teri E'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87932',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673291/'
+    journal: 'Clinical pharmacology and therapeutics',
+    doi: '10.1002/cpt.70005',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678821/'
   },
   {
-    id: '40673289',
-    title: 'Immune Checkpoint Inhibitor-Induced Myositis, Myocarditis, and Myasthenia Gravis Overlap Syndrome Following Nivolumab and Ipilimumab Combination Therapy in a 60-Year-Old Male With Metastatic Renal Cell Carcinoma.',
-    abstract: 'Immune checkpoint inhibitors (ICIs) are in widespread use for the treatment of some metastatic cancers. While generally well tolerated, these agents can elicit a spectrum of unintended effects due to indiscriminate immune system activation. These side effects may impact multiple organs simultaneously and can become life-threatening if not promptly addressed. One complication of ICI therapy presents with a combination of myasthenia gravis (MG) symptoms and inflammation of both skeletal and cardiac muscles. This report describes a 60-year-old male with metastatic clear cell renal cell carcinoma on nivolumab and ipilimumab combination therapy post-nephrectomy who presented to our emergency department with fatigue and shortness of breath. Although he reported swallowing difficulties on further enquiry, other classic neuromuscular deficits were absent. The MG composite score was 5, and vital signs were stable. Initial creatine kinase and troponin T were 6,376 U/L and 1,694 ng/L, respectively, and the electrocardiograph (ECG) and echocardiogram were unremarkable. Magnetic resonance imaging (MRI) of the thighs and myocardium showed changes consistent with myositis and myocarditis, respectively. Although an autoantibody screen for MG was requested and later came back negative, the initial diagnosis of MG was clinical. The patient was treated with IV methylprednisolone, IV immunoglobulin, pyridostigmine, and mycophenolate (MMF). The decision to pursue an aggressive multi-pronged immunosuppressive strategy was to minimise the risk of rapid deterioration due to inadequate treatment in a patient with a good functional baseline. Symptoms resolved by the third day of admission, and laboratory markers continued to improve steadily. He was successfully discharged on reduced-dose oral prednisolone and MMF with a plan for outpatient follow-up with twice weekly CK, troponins, and ECG. ICIs were permanently discontinued. Myositis, myocarditis, and MG (MMM) overlap syndrome is an uncommon but potentially fatal immune-related adverse event (irAE) associated with ICI therapy and requires urgent medical attention. Clinicians should maintain a high index of suspicion for rapid diagnosis, as symptoms can be vague. Patient education is also strongly recommended for awareness, as the incidence will likely rise with the expanding use of ICIs. Early and aggressive immunosuppression may help prevent morbidity and mortality.',
-    published: '2025-Jul',
-    authors: [ 'Ismail Umar' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.88101',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673289/'
-  },
-  {
-    id: '40673230',
-    title: 'The longitudinal bidirectional association between cardiovascular disease and depressive symptoms among middle-aged and elderly adults: evidence from a nationwide cohort study in China.',
-    abstract: 'BACKGROUND: Although cardiovascular disease (CVD) and depressive symptoms frequently co-occur, their temporal directional relationship remains poorly understood. This study aimed to investigate the bidirectional association between depression and CVD in middle-aged and elderly Chinese adults through longitudinal analyses.\n' +
-      'METHOD: This longitudinal cohort study included 12792 participants from the China Health Retirement Longitudinal Study (CHARLS), 2015-2020. Depressive symptoms were defined as a score of 10 or higher on the 10-item Center for Epidemiological Studies Depression Scale (CES-D-10). Cardiovascular disease (CVD) was defined as physician-diagnosed coronary heart disease (CHD) and/or stroke. Cox proportional hazards models were applied to investigate the longitudinal association of baseline depressive symptoms with follow-up CVD events, as well as the association of baseline CVD status with follow-up depressive symptoms. Cross-lagged panel models were performed to evaluate bidirectional associations and strength of temporal relationships simultaneously. Effect modification by demographic and lifestyle factors was also examined to identify vulnerable populations for each directional pathway.\n' +
-      'RESULTS: Of 12792 participants, the mean (SD) age was 60.8 (8.9) years and 6833 (53.4%) were females. After adjusting for potential confounders, baseline depressive symptoms were associated with higher risks of subsequent CVD (HR=1.55, 95% CI: 1.40-1.72), CHD (HR=1.51, 95% CI: 1.34, 1.70), and stroke (HR=1.71, 95% CI: 1.43-2.04); conversely, baseline conditions of CVD (HR=1.22, 95% CI: 1.10-1.35), CHD (HR=1.20, 95% CI: 1.08-1.33) and stroke (HR=1.43, 95% CI: 1.16-1.77) were associated with increased risk of depressive symptoms at follow-up. The cross-lagged panel analysis further confirmed the bidirectional associations over time (all -values < 0.001), revealing that the standardized effect size of CVD status on depressive symptoms was greater than the effect size in the reverse direction. The directional pathway from depressive symptoms to CVD was modified by body mass index, educational level, residence, and alcohol consumption, while the reverse directional association was modified by education level and alcohol consumption.\n' +
-      'CONCLUSION: There is a longitudinal, bidirectional association between CVD status and depressive symptoms in mid-to-late life, with CVD status emerging as a larger driving force in these dynamic interactions. These findings suggest that targeted interventions addressing either CVD or depressive symptoms may yield reciprocal benefits over time.',
-    published: '2025',
-    authors: [
-      'He Jie',
-      'Liu Mingyue',
-      'Zhang Ziying',
-      'Fang Mingzhu',
-      'Wu Liang',
-      'Wu Haisheng',
-      'Li Zhe'
-    ],
-    journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1559092',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673230/'
-  },
-  {
-    id: '40673186',
-    title: 'Nairobi motorcycle transit comparison dataset: Fuel vs. electric vehicle performance tracking (2023).',
-    abstract: 'This dataset, titled "Nairobi Motorcycle Transit Comparison Dataset," was compiled to document a simulated transition of motorcycle taxis (boda bodas) in Nairobi, Kenya, from internal combustion engine (ICE) to electric motorcycles. The data collection spanned two distinct phases. The baseline phase, conducted from November 13-26, 2023, involved 120 ICE motorcycles. The transition phase, occurring from December 10-21, 2023, included 110 ICE motorcycles as a control group and 9 electric motorcycles as a treatment group. Data were gathered in Nairobi, a major urban center in East Africa, providing a geographically specific context for the data collection. Recognising the limited availability of data on such transitions in African cities, including historical insights from Kenyan urban transport systems [3,5,6], this dataset provides a unique resource for researchers and policymakers. The data collection process utilised multiple instruments and methods. Trip-level data were recorded using GPS tracking devices installed on each motorcycle, capturing location, speed, and distance at 10-second intervals. Financial data, such as revenue, maintenance costs, fuel costs (for ICE motorcycles), and electricity usage (for electric motorcycles), were collected via daily phone-based surveys administered to riders. Energy consumption for the electric motorcycles was measured using wall-plug meters connected to each battery charger. These methods ensured comprehensive tracking of both operational and economic metrics across the two motorcycle types. The dataset is organised into two primary directories: trip_data and daily_data. The trip_data directory contains CSV files with detailed trip-level metrics, including start and end times, distances travelled, and average speeds. The daily_data directory provides aggregated daily summaries in CSV format, encompassing total distance, revenue, and costs. To safeguard rider privacy, location data for the first and last trips of each day are excluded. The dataset is hosted on Mendeley, with a publicly accessible URL provided below, ensuring availability for researchers, editors, and reviewers. This dataset holds substantial reuse potential for various research domains. It offers a valuable resource for investigating urban mobility patterns, the adoption of e-mobility in developing cities, energy demand forecasting, and transportation economics. Researchers can leverage the data to explore operational differences between ICE and electric motorcycles, evaluate economic impacts on riders, or model energy consumption trends.',
-    published: '2025-Aug',
-    authors: [
-      'Mbutura Alois',
-      'Kitetu Martin',
-      'Stratford Halloran',
-      'Booysen M J'
-    ],
-    journal: 'Data in brief',
-    doi: '10.1016/j.dib.2025.111805',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673186/'
-  },
-  {
-    id: '40673178',
-    title: 'Bochun: Automatically annotated stance detection dataset for Sorani Kurdish language.',
-    abstract: 'This Research presents the first-ever, high-quality, automatically annotated Kurdish stance detection dataset in the Sorani dialect to fill the gap of lacking annotated resources for Kurdish, a low-resource language in Natural Language Processing (NLP). The dataset consists of 2,174 Kurdish news articles-1,410 economic and 764 political-that were originally published in 2024 and 2025, which are recent and topically relevant. By selecting these texts from well-known Kurdish news agencies, content validity and linguistic purity were preserved throughout. Necessary preprocessing techniques are applied. Annotation is carried out in two steps. First, a pattern-recognition method with 2,456 phrases and keywords was applied to determine if the subject of every text fell into the economics or politics category. Next, the position of every article was annotated with an extended lexicon of 4,243 adjectives and verbs, categorized under support, oppose, and neutral. Wherever direct matches were not possible, semantic similarity and zero-shot classification were used as fallback measures. In order to verify the automatic annotation, a team of domain experts manually assessed a representative sample of the annotated texts, with a high inter-annotator agreement score confirming the validity of the approach. The dataset is made available in XLSX (Excel) format, facilitating ease of use and versatility for a variety of research tasks in NLP. Due to its annotated and organized corpus, this dataset is a solid starting point for researchers who are building Kurdish language processing models. The dataset is released publicly to allow other researchers to build upon it and push the limits of NLP system performance on low-resource languages.',
-    published: '2025-Aug',
-    authors: [ 'Rostam Payman Sabr', 'Nabi Rebwar Mala' ],
-    journal: 'Data in brief',
-    doi: '10.1016/j.dib.2025.111839',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673178/'
-  },
-  {
-    id: '40673165',
-    title: 'Developing and testing AI-based voice biomarker models to detect cognitive impairment among community dwelling adults: a cross-sectional study in Japan.',
-    abstract: 'BACKGROUND: Voice is a potential biomarker of cognitive impairment because mild cognitive impairment (MCI) can cause changes in speech patterns and tempo. Artificial intelligence (AI) can deliver voice biomarkers as prediction features, leading to a timely, noninvasive, and cost-effective detection of cognitive impairment. This study aimed to develop and test prediction models utilizing voice biomarkers to detect cognitive impairment, which AI derived from voice data of unstructured conversations in community-dwelling adults in Japan.\n' +
-      'METHODS: This observational study with a cross-sectional design, included 1461 community-dwelling adults. The outcome was cognitive impairment assessed by the Memory Performance Index score from the MCI screen. Voice data was collected from 3-min open-question interviews and extracted voice biomarkers based on acoustic and prosodic features as a 512-dimensional vector of individual voice information using the voice generator, Wav2Vec2. Other considerable predictors were age, sex, and education. We developed cognitive impairment prediction models by applying the extreme gradient boosting decision tree algorithm and a deep neural network model using 979 participants. Prediction performances were tested by area under the curves (AUCs) in 482 participants who were not used for model development.\n' +
-      'FINDINGS: We had 967 women (66·2%), 526 cognitive impairment (36·0%) participants with mean (standard deviation) age and education years of 79·5 (6·3) years old and 11·6 (2·2) years, respectively. The inclusion of voice biomarkers significantly improved AUCs (95% confidence intervals), from 0·80 (0·76, 0·84) to 0·88 (0·84, 0·91) for the age sex model and from 0·78 (0·73, 0·82) to 0·89 (0·86, 0·92) for the age sex and education model (p < 0·0001 for both comparisons by DeLong test).\n' +
-      'INTERPRETATION: Our prediction models for cognitive impairment using voice biomarkers can provide significantly timesaving MCI screening with high prediction performances (AUC = 0·89). Voice biomarkers significantly contributed to improving prediction performance.\n' +
-      'FUNDING: Small Business Innovation Research (SBIR Phase 3 Fund), the Intramural Research Fund of Cardiovascular Diseases of the National Cerebral and Cardiovascular Center, and JSPS KAKENHI.',
-    published: '2025-Jun',
-    authors: [
-      'Kiyoshige Eri',
-      'Ogata Soshiro',
-      'Kwon Namhee',
-      'Nakaoku Yuriko',
-      'Hayashi Chisato',
-      'Blaylock Nate',
-      'Brueckner Raymond',
-      'Subramanian Vinod',
-      'Joseph OConnell Henry',
-      'Yoshikawa Yusuke',
-      'Teramoto Kanako',
-      'Nakatsuka Kiyomasa',
-      'Saito Satoshi',
-      'Ihara Masafumi',
-      'Takegami Misa',
-      'Nishimura Kunihiro'
-    ],
-    journal: 'The Lancet regional health. Western Pacific',
-    doi: '10.1016/j.lanwpc.2025.101598',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673165/'
-  },
-  {
-    id: '40673042',
-    title: "Patient's Awareness of Cancer-Associated Thrombosis: A Canadian Nationwide Survey.",
-    abstract: "BACKGROUND: Approximately 20% of patients with cancer will have cancer-associated venous thromboembolism (CAT), which is associated with significant morbidity and mortality. Despite its clinical importance, CAT awareness in cancer patients and caregivers remains low. We sought to assess the patients' knowledge of CAT through a national survey.\n" +
-      'MATERIALS AND METHODS: A survey assessing knowledge of different aspects of CAT was developed by a steering committee including four clinicians with expertise in CAT and a patient partner with lived experience. Survey dissemination among patients with cancer occurred through the Environics network, the Thrombosis Canada member network, the Thrombosis Canada social media platforms, and was advertised through Instagram and Facebook, and the Canadian Cancer Survivor Network newsletter.\n' +
-      'RESULTS: Out of the 312 patients with cancer or survivors who responded to the survey, 179 (57.4%) were female, and 118 (37.8%) were over 65 years old. Overall, 119 patients (38.1%, 95% confidence interval [CI]: 37.7-49.8%) reported having no knowledge of CAT. Only 84 (26.9%, 95% CI: 22.1-32.2%) and 94 (30.1%, 95% CI: 25.1-35.6%) patients reported receiving education about their underlying risk of CAT or education about signs and symptoms of venous thromboembolism, respectively. A total of 66 (21%, 95% CI: 16.8-26.1%) patients reported being informed by a health care professional about considering thromboprophylaxis. Patients were interested in learning more about the risk of CAT, its associated risk factors, and the benefits and potential side effects of thromboprophylaxis.\n' +
-      'CONCLUSION: Many patients with cancer lack awareness or knowledge of CAT. Our results highlight ongoing education and awareness of the CAT burden.',
-    published: '2025',
-    authors: [
-      'Pizzarossa Ana C',
-      'Penaloza Andrea',
-      'Vrotniakaite-Bajerciene Kristina',
-      'Chitsike Rufaro',
-      'Tagalakis Vicky',
-      'Calverley Susan',
-      'Carrier Marc'
-    ],
-    journal: 'TH open : companion journal to thrombosis and haemostasis',
-    doi: '10.1055/a-2635-9296',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673042/'
-  },
-  {
-    id: '40673040',
-    title: 'Economic impact of reduced state trauma mortality on lifetime personal income and state tax revenue.',
-    abstract: "BACKGROUND: In 2003, Georgia's trauma mortality rate was 16% above the national average. By 2020, mortality had decreased to 6% below the national average, translating to 1,803 fewer lives lost than might have been expected if 2003 trends had continued. The purpose of this study is to assess the state-wide economic impact of reduced mortality and disability measured in the amount of lifetime personal income and state tax revenue preserved.\n" +
-      "METHODS: Using the Centers for Disease Control and Prevention's Web-Based Injury Statistics Query and Reporting System database, state/national trauma mortality rates for 2020 were compared with 2003. Years of potential life lost (YPLL) for trauma victims up to 65 were calculated for the same time period. Rates of severe disability were calculated based on the average results of four studies (1992-2022) and used to estimate additional YPLL. The per-capita personal income for Georgia and the average percent of personal income paid in state taxes were calculated using federal and state data. These numbers were then multiplied by state YPLL rates to calculate lifetime personal income and state tax revenue lost due to trauma.\n" +
-      'RESULTS: $4.3 billion in lifetime personal income preserved (averted death $1.3 billion and averted disability $2.9 billion). $508 million in lifetime tax revenue preserved (averted death $158 million and averted disability $349 million).\n' +
-      'CONCLUSIONS: Reduced state trauma mortality and disability substantially benefitted lifetime potential personal income and lifetime potential state and local tax revenue. This study provides states with a template to evaluate the economic impact of reducing trauma mortality. While the causes of reduced mortality are manifold, anything that can be done to reduce trauma mortality is a worthwhile investment. Accordingly, state trauma system funding should be considered an , not a cost.\n' +
-      'LEVEL OF EVIDENCE: Economic and value-based evaluations, Level III.',
-    published: '2025',
-    authors: [
-      'Groce Harold Edward',
-      'Ashley Dennis Wayne',
-      'Robinson Joe Sam'
-    ],
-    journal: 'Trauma surgery & acute care open',
-    doi: '10.1136/tsaco-2024-001698',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673040/'
-  },
-  {
-    id: '40673035',
+    id: '40678792',
     title: {
-      _: 'Accuracy of self-collection versus cervical sampling for the molecular diagnosis of  and  in women attending gynecological services.',
+      _: 'Control of  ticks and Rocky Mountain spotted fever informed by an  tool.',
       i: [Array]
     },
-    abstract: 'OBJECTIVE: Successful measures to address the increasing prevalence of sexually transmitted infections (STIs) require practical and accessible education and detection programs.\n' +
-      'METHODS: The ability to detect  and  may be hindered by a lack of adherence to proper cervical sampling. To address this, we compared the sensitivity and specificity of self-obtained samplings, such as self-collection and first-catch urine samples, to cervical samples taken by a practitioner using the nucleic acid amplification test (NAAT) cobas 4800 for  and  in 244 women attending gynecological services in Quito, Ecuador. Regardless of sampling method, only 12 patients tested positive for  (4.9% prevalence, 95% CI 2.8 to 8.4%), and no samples tested positive for .\n' +
-      'RESULTS: The analysis revealed that self-collection was 100% sensitive (95% CI 66.4% to 100.0%) and 100% specific (95% CI 98.25%-100%), and first-catch urine was 90% sensitive (95% CI 55.5% to 99.8%), and 99% specific (95% CI 96.5% to 99.9%) compared to cervical brushing for the detection of . No symptoms were associated with a positive  result, highlighting the need for testing even in asymptomatic patients. Furthermore, having a stable intimate relationship in the past year was associated with a negative result for  (χ 14.01,  < 0.001).\n' +
-      'CONCLUSION: This study demonstrates the feasibility and reliability of self-collection and first-catch urine samples as alternative methods for detecting  and has practical implications for improving STI detection and management programs.',
+    abstract: 'We explored a compartment "susceptible-infected-recovered" model to prioritize and test the effectiveness of dog- and tick-based interventions against Rocky Mountain spotted fever and its tick vector  s.l. In the face of increasingly urban epidemics of RMSF with high case fatality, particularly targeting marginalized communities, wrap-around campaigns (comprising all or some of canine culling, fertility control, and restraint to property; on-dog and environmental acaricide; and education and awareness programs for public health workers and at-risk residents) are unsustainably resource-intensive and may lack efficacy in managing the very hard to control tick. Our model allows us to strategize interventions and develop an optimized campaign against RMSF, using parameters associated with the epidemic in Ensenada, Baja California as an example. Combining usage of acaricides on dogs and the environment optimized success as measured by up to 10 years of no new canine cases, a proxy for human cases, as well as reduced tick burden. Success was greater when the campaign was begun in winter or spring and achieved at least 60 % coverage. This combination was considerably more successful than either dog or environmental acaricide alone, culling of dogs which was only successful with 100 % of dogs removed, and spay/neuter campaigns which did not reduce tick burdens. However, spay/neuter of outside dogs as an adjunct to the acaricide campaign helped stabilize the canine population and encouraged herd immunity. Although parameterized for Ensenada, the model can easily be run for other communities where data on canine tick burden and tick life history traits are available, in order to tailor intervention details such as optimal timing, coverage, and re-application frequency even when public health resources are limited.',
+    published: '2025-Dec',
+    authors: [ 'Rubino Francesca', 'Foley Patrick', 'Foley Janet' ],
+    journal: 'Infectious Disease Modelling',
+    doi: '10.1016/j.idm.2025.06.005',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678792/'
+  },
+  {
+    id: '40678790',
+    title: "Feasibility of large language models for assessing and coaching surgeons' non-technical skills.",
+    abstract: "This study demonstrates Large Language models (LLMs) to assess and coach surgeons on their non-technical skills, traditionally evaluated through subjective and resource-intensive methods. Llama 3.1 and Mistral effectively analyzed robotic-assisted surgery transcripts, identified exemplar and non-exemplar behaviors, and autonomously generated structured coaching feedback to guide surgeons' improvement. Our findings highlight the potential of LLMs as scalable, data-driven tools for enhancing surgical education and supporting consistent coaching practices.",
     published: '2025',
     authors: [
-      'Vasco Gabriela',
-      'Cruz Cecilia',
-      'Peñaherrera Paterson',
-      'Tipán Katherine',
-      'Pila Sandy',
-      'Guzmán Karol',
-      'Cabascango Marisol',
-      'Logacho Katherine',
-      'Jácome Patricio'
+      'Obuseh Marian',
+      'Singh Sneha',
+      'Anton Nicholas E',
+      'Gardiner Robin',
+      'Stefanidis Dimitrios',
+      'Yu Denny'
     ],
-    journal: 'Revista brasileira de ginecologia e obstetricia : revista da Federacao Brasileira das Sociedades de Ginecologia e Obstetricia',
-    doi: '10.61622/rbgo/2025rbgo31',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40673035/'
+    journal: 'npj health systems',
+    doi: '10.1038/s44401-025-00027-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678790/'
+  },
+  {
+    id: '40678772',
+    title: 'The Care Pathway for Patients with Mild Cognitive Impairment in Korea: A Survey of Dementia Specialists.',
+    abstract: 'INTRODUCTION: Mild cognitive impairment (MCI) represents a loss of memory or other cognitive function while maintaining the ability to independently perform most activities of daily living. This study assessed how Korean specialists in dementia care diagnosed and treated patients with MCI symptoms.\n' +
+      'METHODS: A questionnaire on the current management of MCI was developed by 6 experts in MCI care. Specialists in MCI care ( = 24: 14 neurologists/10 psychiatrists) verbally answered questions relating to their experience/views in caring for MCI patients.\n' +
+      "RESULTS: Respondents diagnosed MCI using the Seoul Neuropsychological Screening Battery (79%) and the Consortium to Establish a Registry for Alzheimer's Disease - Korea (21%) neuropsychological battery tests. All or nearly all respondents also assessed patients with Mini-Mental State Examination, Geriatric Depression Scale, Clinical Dementia Rating, Activities of Daily Living (ADL), and Instrumental ADL tests. All respondents used MRI or CT for differential diagnosis of diseases causing MCI, about one-third used amyloid PET. Most respondents (96%) treated patients with MCI due to Alzheimer's disease (AD) with medication, commonly choline alfoscerate (71%) and donepezil (53%), mainly as combination therapy. Unmet needs included patient/caregiver education (63%) and time constraints for consulting patients (54%). Most respondents considered that increased amyloid-β testing for patients with MCI due to AD or subjective cognitive decline is likely to increase.\n" +
+      'CONCLUSIONS: This survey described the current management of MCI due to AD, identified unmet needs and considered possible future developments in the changing landscape of early AD treatment. Early detection and diagnosis and continued development of emerging preventative or therapeutic interventions are critical for MCI outcomes.',
+    published: '2025',
+    authors: [
+      'Choi Seong Hye',
+      'Shim YongSoo',
+      'Kim SangYun',
+      'Yang Dong Won',
+      'Park Kee Hyung',
+      'Kim JinRan',
+      'Youn Young Chul'
+    ],
+    journal: 'Dementia and geriatric cognitive disorders extra',
+    doi: '10.1159/000546791',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678772/'
+  },
+  {
+    id: '40678746',
+    title: 'Acceptability of virtual reality for training health professions students in serious illness communication: A cross-sectional study with educators.',
+    abstract: 'OBJECTIVES: This study investigates i) acceptability, ii) predictors of intention to use, iii) barriers and facilitators, and iv) perceived advantages and disadvantages of incorporating virtual reality (VR) into serious illness communication training from the perspective of health professions educators in Europe.\n' +
+      'METHODS: An online survey was distributed using snowball sampling across health professions educators involved in the creation and/or delivery of difficult communication courses (as educators, developers, coordinators).\n' +
+      'RESULTS: Seventy-five educators from 11 European countries involved in teaching serious illness communication skills completed the survey. While educators viewed VR positively and saw it as useful, their intention to implement it was moderate, possibly, due to low compatibility with current teaching methods and social norms. Major barriers reported by participants included financial constraints (62.7 %) and lack of VR training (54.7 %), while key facilitators were training availability (22 %) and technical support (11 %).\n' +
+      "CONCLUSION/INNOVATION: Educators perceive VR as a potential supplemental tool in difficult communication education; however, overcoming financial, training, and integration barriers is essential for its broader adoption and curricular integration. Further research is necessary to validate VR's effectiveness in developing the nuanced communication skills critical for serious illness communication.\n" +
+      'INNOVATION: VR technology is a promising innovative tool for medical communication training.',
+    published: '2025-Dec',
+    authors: [
+      'Skvortsova Aleksandrina',
+      'Stiel Stephanie',
+      'Afshar Kambiz',
+      'Röwer Hanna A A',
+      'Bausewein Claudia',
+      'Hartigan Irene',
+      'Saab Mohamad M',
+      'Pereira Sandra Martins',
+      'Hernández-Marrero Pablo',
+      'Hrdlička Jan',
+      'Wild Jiri',
+      'Rusinová Kateřina',
+      'Loučka Martin',
+      'Hrdličková Lucie',
+      'Zielina Martin',
+      'Payne Cathy',
+      'Van Vliet Liesbeth M'
+    ],
+    journal: 'PEC innovation',
+    doi: '10.1016/j.pecinn.2025.100411',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40678746/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1109,368 +1108,6 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 32016,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5172,
-        [Symbol(triggerId)]: 5170
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Thu, 17 Jul 2025 15:13:08 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.02.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Thu, 17 Jul 2025 15:13:08 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1575,16 +1212,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 32325,
+        _idleNext: [Timeout],
+        _idleStart: 37143,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 5218,
-        [Symbol(triggerId)]: 5216
+        [Symbol(asyncId)]: 5028,
+        [Symbol(triggerId)]: 5026
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1614,7 +1251,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
+      sockets: [Object: null prototype],
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1622,7 +1259,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 1,
+      totalSocketCount: 2,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1716,7 +1353,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Thu, 17 Jul 2025 15:13:08 GMT',
+      date: 'Fri, 18 Jul 2025 15:12:30 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1827,7 +1464,369 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Thu, 17 Jul 2025 15:13:08 GMT',
+  date: 'Fri, 18 Jul 2025 15:12:30 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 37150,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 5047,
+        [Symbol(triggerId)]: 5045
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 2,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Fri, 18 Jul 2025 15:12:30 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.02.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Fri, 18 Jul 2025 15:12:30 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2002,6 +2001,29 @@ Translating paper 19/50
 Translating paper: The Impact of Education for Sustainable Developmen...
 Translating paper 20/50
 Translating paper: The Effect of Using Simulation on Developing Stude...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3996313569507413 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '44s'
+    }
+  ]
+}
 Translating paper 21/50
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
 Translating paper 22/50
@@ -2023,25 +2045,25 @@ Translating paper: A Virtual Reality-Based Co-creation Approach to De...
 Translating paper 30/50
 Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 31/50
-Translating paper: [A timely diagnosis of Parkinson's disease dementi...
+Translating paper: A FAIR intensive longitudinal data archive on prol...
 Translating paper 32/50
-Translating paper: Prominent Literature in Surgical Ethics: A Compreh...
+Translating paper: Empowering Nurses to Enhance Disaster Preparedness...
 Translating paper 33/50
-Translating paper: Immune Checkpoint Inhibitor-Induced Myositis, Myoc...
+Translating paper: Challenges and Opportunities in Developing Standar...
 Translating paper 34/50
-Translating paper: The longitudinal bidirectional association between...
+Translating paper: Evaluating the Reliability and Accuracy of Senior ...
 Translating paper 35/50
-Translating paper: Nairobi motorcycle transit comparison dataset: Fue...
+Translating paper: Navigating Complex Transitions Through School and ...
 Translating paper 36/50
-Translating paper: Bochun: Automatically annotated stance detection d...
+Translating paper: Advancing Clinical Pharmacogenomics Worldwide Thro...
 Translating paper 37/50
-Translating paper: Developing and testing AI-based voice biomarker mo...
+Translating paper: Control of  ticks and Rocky Mountain spotted fever...
 Translating paper 38/50
-Translating paper: Patient's Awareness of Cancer-Associated Thrombosi...
+Translating paper: Feasibility of large language models for assessing...
 Translating paper 39/50
-Translating paper: Economic impact of reduced state trauma mortality ...
+Translating paper: The Care Pathway for Patients with Mild Cognitive ...
 Translating paper 40/50
-Translating paper: Accuracy of self-collection versus cervical sampli...
+Translating paper: Acceptability of virtual reality for training heal...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2054,37 +2076,15 @@ Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
 Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.1796821135916287 seconds...
 Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3662222017413477 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '43s'
-    }
-  ]
-}
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6164929887249024 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.569435340569259 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"28s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2102,37 +2102,14 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '39s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.132759557073137 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '36s'
+      retryDelay: '28s'
     }
   ]
 }
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0225269468118556 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3525535941472233 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"24s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2150,12 +2127,12 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '32s'
+      retryDelay: '24s'
     }
   ]
 }
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2279695413980147 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"30s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3083890105854197 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"21s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2173,30 +2150,30 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '30s'
+      retryDelay: '21s'
     }
   ]
 }
 Translation completed: 50 papers
-Removed duplicates: 650 -> 611
-Total papers after merging: 611 (600 existing + 50 new)
-Saved 611 papers to papers.json
+Removed duplicates: 661 -> 621
+Total papers after merging: 621 (611 existing + 50 new)
+Saved 621 papers to papers.json
 Generating HTML files...
-Generating index.html with 611 papers...
+Generating index.html with 621 papers...
 Successfully generated index.html
-Generating archive.html with 611 papers...
+Generating archive.html with 621 papers...
 Successfully generated archive.html
-Generating journal.html with 611 papers...
+Generating journal.html with 621 papers...
 Successfully generated journal.html
-Generating acquisition.html with 611 papers...
+Generating acquisition.html with 621 papers...
 Successfully generated acquisition.html
-Generating publication.html with 611 papers...
+Generating publication.html with 621 papers...
 Successfully generated publication.html
-Generating registration.html with 611 papers...
+Generating registration.html with 621 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 611
+Total papers in database: 621
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-17T15:40:32.455Z
+Timestamp: 2025-07-18T15:39:40.715Z
