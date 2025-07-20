@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-19T15:10:46.092Z
+Timestamp: 2025-07-20T15:10:24.955Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 621 existing papers from papers.json
+Loaded 631 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -543,225 +544,167 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40680320',
-    title: 'What digital competencies should medical students in China possess in the AI era?',
-    abstract: 'OBJECTIVE: With the advancement of the digital society and the extensive application of digital medical technologies, the demand for digital competencies among medical students is becoming increasingly critical. Digital competence of medical students refers to the ability of medical students to effectively select and use digital or intelligent technologies and applications to accomplish their studies, research, and future clinical practice. Currently in China, no digital competency framework for medical students has been established based on clinical practice requirements. Therefore, the study aimes to investigate digital competencies for medical students and provide recommendations for future digital competency training initiatives and framework development.\n' +
-      'METHODS: Focusing on competency theory, we reviewed and analyzed literature related to digital competency. Twenty experts participated in a two-round Delphi method to iteratively refine and correct the indicator items. Finally, the weights of indicators were calculated through the Analytic Hierarchy Process.\n' +
-      "RESULTS: Twenty experts were invited to participate in two rounds of the Delphi survey, achievinga 100 % response rate in both rounds, with Expert Authority Coefficients of 0.81 and 0.82, indicating the credibility and professional expertise the panelists. Furthermore, Kendall's consistency coefficient (Kendall's W) ranged from 0.143 to 0.275 (p < 0.05), indicating that experts reached a consensus on the indicators. The final framework comprises 3 domains, 9 primary indicators, and 27 secondary indicators.\n" +
-      'CONCLUSIONS: A digital competency framework for medical students was developed using the Delphi method. This framework facilitates the self-development of medical students and serves as a reference for the development of digital medical curricula.',
-    published: '2025-Jul-12',
+    id: '40684339',
+    title: 'A Higher Education: Age, Sex, and Sexual Orientation as Indicators of Positive Cannabis Use Consequences Among College Students.',
+    abstract: ': As cannabis use in the U.S. has continued to rise among young adults, research is necessary to understand the reinforcing aspects of use. While there are several established demographic indicators of young adult cannabis use, including age, male sex, and sexual orientation, no studies have examined relations between these indicators and facets of cannabis-related positive consequences (i.e., social, mood, cognitive, and sexual enhancement). : The present study examined associations between age, sex, and sexual orientation with facets of cannabis-related positive consequences. College students ( = 615; age  = 19.98, SD = 1.97; 68.3% female; 27.5% sexual minority) completed self-report questionnaires of demographics, cannabis use frequency, and positive and negative consequences of use. Using exploratory path analysis, we examined associations between common indicators of cannabis use (i.e., age, sex, sexual orientation) and positive consequence facets (i.e., social, mood, cognitive, and sexual enhancement), controlling for cannabis use frequency and negative consequences. We tested models for frequency (i.e., how often) and valence (i.e., how strongly) of positive consequences. : Sexual minority orientation was significantly positively associated with several facets of positive consequence frequency and valence, while age was significantly negatively associated with social enhancement consequences. Sex was not associated with positive consequences. Exploratory sensitivity analyses noted similar associations between bisexual/pansexual identity and positive consequence frequency and valence. : The observed associations may help explain use disparities between sexual minorities and their heterosexual peers. Future research is needed to elucidate the role of positive consequences in cannabis use initiation and escalation, which may inform individual tailoring of cannabis prevention and intervention efforts.',
+    published: '2025-Jul-20',
+    authors: [ 'Fetterling Theodore J', 'Parnes Jamie E' ],
+    journal: 'Substance use & misuse',
+    doi: '10.1080/10826084.2025.2533980',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684339/'
+  },
+  {
+    id: '40684333',
+    title: 'Aligning family medicine residency training with societal needs: An international Delphi study.',
+    abstract: 'INTRODUCTION: Primary care is evolving around the world, and the need to address changing societal needs prompted a call to renew family medicine residency training. Experts were asked to generate learning topics around six areas of societal need.\n' +
+      'METHODS: International family medicine experts were invited to participate in a Delphi study that concluded in 2024. The initial round generated 1275 submissions. Through content analysis, we distilled these submissions to 54 learning topics, which were rated for their importance using a 5-point scale. Importance was indicated if the median score was ≥3.5, and consensus was achieved if the interquartile range was ≤1.\n' +
+      "RESULTS: All learning topics were deemed important. Consensus was reached for 46 of 54 learning topics. Topics with low consensus included 'community support and engagement,' 'holistic understanding and proficiency in trauma-informed care,' 'historical and cultural aspects of Indigenous communities,' and 'acquiring research and scholarship competencies in virtual healthcare.'\n" +
+      "CONCLUSIONS: Consensus was reached in 46 learning topics, with low consensus in areas where physicians' roles overlap with other care providers. Learning topics generated in this study could be integrated to ensure residency programs meet current societal needs. These findings are relevant to family medicine and many residency programs.",
+    published: '2025-Jul-20',
     authors: [
-      'Chen Jinjuan',
-      'Hou Xiaorong',
-      'Lv Yalan',
-      'Liu Mimi',
-      'Yang Meijie',
-      'Zhou Xiaoyu',
-      'Du Fei',
-      'Yi Jia',
-      'Zhang Lingqin',
-      'Li Guangying'
+      'Todd Keith J',
+      'Rocha de Oliveira Robson',
+      'Zahedi Sima',
+      'Sandhu Amrita',
+      'Fournier Sandra',
+      'Rodriguez Charo'
     ],
-    journal: 'International journal of medical informatics',
-    doi: '10.1016/j.ijmedinf.2025.106043',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680320/'
+    journal: 'Medical teacher',
+    doi: '10.1080/0142159X.2025.2533404',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684333/'
   },
   {
-    id: '40680308',
-    title: 'A new era in neurosurgery residency applications: the impact of preference signaling on the neurosurgical match.',
-    abstract: 'OBJECTIVE: Applications to neurosurgical residency programs have progressively increased, both in applicant numbers and programs applied to per applicant. The adoption of signaling, beginning with 8 signals in the 2022-2023 cycle and increasing to 25 in the 2023-2024 cycle, has the potential to improve the match process and reduce applicant costs. This study analyzed trends in the neurosurgery residency match from 2017 to 2024 to evaluate the impact of signaling.\n' +
-      'METHODS: The Texas STAR (Seeking Transparency in Application to Residency) is a survey administered annually to US applicants following the match. Data included neurosurgery applicants from 2017 to 2024 and were categorized into pre-COVID-19 (2017-2020), COVID-19 (2021-2022), and signaling (2023-2024) cohorts. Applicant-reported characteristics associated with matching were assessed. For the 2023 and 2024 cycles, signal yield (interviews at signaled programs divided by total signals), signal-to-interview ratio (percentage of interviews at signaled programs), and nonsignal yield (interviews at nonsignaled programs divided by nonsignaled applications) were calculated. Comparative statistics and regression models were applied.\n' +
-      'RESULTS: Among 418 applicants (127 from 2023-2024 with signaling data), those in recent cycles submitted fewer applications (73.9 pre-COVID-19 vs 74.7 COVID-19 vs 64.3 signaling, p = 0.01) and received fewer interview offers (24.7 vs 23.0 vs 18.9, p < 0.001). In the 2023-2024 cycles, matched applicants had more abstracts, posters, presentations (8.65 vs 9.58 vs 10.47, p < 0.001) and publications (5.78 vs 7.71 vs 7.91, p < 0.001), with fewer total applications (72.62 vs 75.03 vs 62.26, p < 0.001) and interviews offered (25.85 vs 23.40 vs 21.02, p = 0.004), compared with matched applicants from previous cycles. A multivariable model showed that fewer applications was associated with greater match likelihood for 2023-2024 applicants (OR 0.87, 95% CI 0.77-0.99). Signal yield (54.0% vs 19.1%, p < 0.001), signal-to-interview ratio (71.5% vs 38.0%, p < 0.001), and nonsignal yield (22.4% vs 8.6%, p = 0.02) were higher among matched applicants versus unmatched applicants in 2024. The signal-to-interview ratio increased for matched applicants from 2023 to 2024 (18.2% vs 71.5%, p < 0.001), while the nonsignal yield decreased (33.7% vs 22.4%, p = 0.005), in line with increases in number of signals.\n' +
-      'CONCLUSIONS: Signaling has changed the landscape of the neurosurgery residency match process, with fewer applications submitted and fewer interviews offered per applicant. Signals seemingly result in increased interview likelihood and may hone the selection process to more efficiently align applicant and program preferences.',
-    published: '2025-Jul-18',
+    id: '40684332',
+    title: "The development and validation of a multi-dimensional medical students' learning self-efficacy questionnaire for clinical education.",
+    abstract: "Learning self-efficacy (SE) assesses how learners understand and evaluate their ability to polish their learning process. Learning clinical medicine requires prolonged training, traditionally premised on longitudinal immersion in patient care. Such a process is domain-specific, whereas learning SE for clinical education remains under-explored. Unidimensional assessment is insufficient for capturing the inherent capabilities upon which well-trained physicians provide care. We aimed to establish a multi-dimensional learning SE questionnaire for clinical education among undergraduate medical students, evaluating the structure validity, followed by assessing the dimensionality of different models. Medical students of 2 to 4 grades from Taiwan in 2022-2023 completed a multi-dimensional medical learning SE (MLSE) questionnaire, including four factors for basic science learning (conceptual understanding (CU), higher-order cognitive skills (HC), practical work (PW), and everyday application (EA)), and three for clinical mastery performance (medical communication (MC), evidence-based medicine (EBM), and Professionalism)). We tested factors' intercorrelation, used exploratory and confirmatory factor analysis (EFA/CFA) for structure and validity assessment, and compared the fitness and dimensionality between models. Twenty-four items grouped into seven independent factors (3, 3, 4, 3, 5, 3, and 3 items in CU, HC, PW, EA, MC, EBM, and Professionalism, respectively) were established and finalized, with sufficient fitness, good convergent and construct validities. All MLSE factors significantly correlated (0.49-0.87;  < 0.001), demonstrating good convergent and discriminant validity. We established six models (first-order uncorrelated or correlated construct, one to three second-order dimensions ('basic medical SE', 'clinical medical SE', 'Cognition', or 'Application' of different structures), and a final model 7 containing four second-order dimensions (Cognition, Application, MC, and clinical medical SE) exhibiting adequate model fitness and measured learning SE satisfactorily. Our MLSE model structure disclosed vital SE factors with intercorrelations associated with medical students' learning processes during clinical education. Polishing these dimensions may help promote their learning SE.",
+    published: '2025-Dec',
+    authors: [ 'Chao Chia-Ter', 'Liang Jyh-Chong' ],
+    journal: 'Medical education online',
+    doi: '10.1080/10872981.2025.2534053',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684332/'
+  },
+  {
+    id: '40684329',
+    title: 'Integrating fixed norms and relational responsiveness in medical education: Redefining autonomy.',
+    abstract: "In this short communication, we reconceptualize autonomy in medical education, particularly within the context of professional identity formation (PIF). Traditionally, autonomy has been framed as independence and achievement based on 'fixed norms'. However, identity is also shaped through 'relational responsiveness', which emphasizes mutual engagement and co-construction. Drawing on Asian cultural understandings of selfhood, we propose viewing autonomy as integrity enacted within a network of mutual responsibility. We argue that both fixed norms and relational responsiveness are essential, and we introduce a preliminary framework that highlights their complementary roles. While responsiveness fosters adaptability and connectedness, it can lead to identity diffusion if not grounded in internal standards. A blended model of both modes offers a more inclusive, culturally sensitive, and resilient approach to PIF in today's complex medical landscape.",
+    published: '2025-Jul-20',
     authors: [
-      'Chung Ryan S',
-      'Cote David J',
-      'Briggs Robert G',
-      'Shah Ishan',
-      'Lin Michelle',
-      'Kang Keiko M',
-      'Tang-Tan Angela',
-      'Gomez David',
-      'Cavaleri Jonathon',
-      'Mihalic Angela P',
-      'Liu John C',
-      'Giannotta Steven L',
-      'Mack William J',
-      'Zada Gabriel'
+      'Haruta Junji',
+      'Miyachi Junichiro',
+      'Kato Koki',
+      'Kuwabara Tomomi',
+      'Imae Akihiro',
+      'Sase Yuji'
     ],
-    journal: 'Journal of neurosurgery',
-    doi: '10.3171/2025.3.JNS2583',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680308/'
+    journal: 'Medical teacher',
+    doi: '10.1080/0142159X.2025.2533406',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684329/'
   },
   {
-    id: '40680303',
-    title: 'Unplanned readmission after cranial tumor surgery in the pediatric National Surgical Quality Improvement Program.',
-    abstract: 'OBJECTIVE: Hospital readmissions are commonly considered an indicator of healthcare quality. The key assumption is that readmissions are preventable, which is especially important in a pediatric population heavily reliant on Medicaid. The aim of this study was to understand the rate, demographics, and independent predictors of unplanned 30-day readmission after pediatric craniotomy for tumor.\n' +
-      'METHODS: A review of the prospective pediatric National Surgical Quality Improvement Program database was performed to identify patients who underwent craniotomy for tumor from 2012 to 2021. The primary outcome was unplanned 30-day readmission, with secondary outcomes of 30-day reoperation or 30-day death. Multivariable logistic regression models were applied to patient characteristics, comorbidities, and surgical factors to identify independent predictors.\n' +
-      'RESULTS: Overall, 9845 patients (55% male, mean age 9 years) were included, of which 9.8% had unplanned readmission, 10.8% underwent reoperation, and 0.8% died within 30 days. The cohort was predominantly of White race and primarily underwent elective surgery. Not surprisingly, reoperation was a strong predictor of readmission; however, other predictors included steroid use and nutritional support. Notably, operative factors such as the duration of surgery or the need for blood transfusion were not predictors of any outcome measured. Independent predictors of reoperation included patient comorbidities, as well as preoperative characteristics and case type. Predictors of 30-day death included emergency surgery, ventilator dependence, nutritional support, and hematological disorders.\n' +
-      'CONCLUSIONS: There were identifiable factors associated with readmission, reoperation, and death among pediatric patients who underwent craniotomy for tumor. Attention to these factors during clinical care could contribute to risk stratification, patient and family education, and transitional care advising.',
-    published: '2025-Jul-18',
+    id: '40684327',
+    title: 'Emerging Use of Low-Dose Ketamine for Pain Management Beyond the ICU.',
+    abstract: "Pain management is a critical challenge in healthcare as acute and chronic pain affect millions of individuals globally. Opioid-based therapies that were once considered the traditional treatment methods are facing scrutiny due to their limitations and risks, due to which it is evident that an equally effective alternative pain management approach is necessary. Ketamine is a promising solution. Ketamine acts as an NMDA (N-methyl-D-aspartate) receptor antagonist, and modulates pain pathways at central and peripheral levels, which enables it to address complex pain mechanisms that opioids cannot adequately target. It is a valuable option for patients who are opioid refractory, intolerant, or have insufficient pain relief from standard therapies. While traditionally used in intensive care units (ICUs), ketamine use has been expanded to general inpatient floors at our institution. This article will present a model for implementing a low-dose ketamine protocol for pain management in a community hospital setting, using our experience as a prototype. It will highlight ketamine's pharmacological advantages, safety considerations, and the staff education, logistics, and collaboration necessary for implementation. By pioneering this model in our county, our goal is to provide a model for other community hospitals to adopt.",
+    published: '2025-Jul-20',
     authors: [
-      'Stanton Amanda N',
-      'DeYoung Chloe',
-      'Still Megan E H',
-      'Moor Rachel S F',
-      'Sun Michael',
-      'Chowdhury Muhammad A B',
-      'Governale Lance S'
+      'Oza Eesha',
+      'Rateshwar Yashvi',
+      'Santhosh Aneesha',
+      'Dave Vinnidhy'
     ],
-    journal: 'Journal of neurosurgery. Pediatrics',
-    doi: '10.3171/2025.5.PEDS24606',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680303/'
+    journal: 'Journal of pain & palliative care pharmacotherapy',
+    doi: '10.1080/15360288.2025.2532657',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684327/'
   },
   {
-    id: '40680289',
-    title: 'Barriers and Enablers to Routine Clinical Implementation of Cardiac Implantable Electronic Device Remote Monitoring in Australia Among Cardiologists, Cardiac Physiologists, Nurses, and Patients: Interview Study.',
-    abstract: 'BACKGROUND: Remote monitoring (RM) of cardiac implantable electronic devices (CIEDs) has demonstrated many patient and health care system benefits. Consequently, the use of RM technology for patients with CIEDs is the standard of care as highlighted by international guidelines. However, RM has not yet been integrated into universal, routine clinical practice.\n' +
-      'OBJECTIVE: We aimed to establish key stakeholder perspectives on the barriers and enablers of CIED RM implementation and to apply the theoretical domain framework to highlight the most effective approaches to facilitate routine adoption of CIED RM.\n' +
-      'METHODS: This was a qualitative study, using semistructured interviews to explore the barriers and enablers encountered when incorporating RM into CIED management. Participants included cardiologists, cardiac clinicians or physiologists, nurses, and patients. Interviews were transcribed verbatim and analyzed through inductive thematic analysis and deductive approaches using the NVivo (version 14; QRS International Pty Ltd) software. The theoretical domains framework was used to understand barriers and enablers. In the inductive phase, we did not assess trustworthiness, as our thematic analysis approach views data as interpretations rather than objective truths. In the deductive phase, we conferred to ensure consistency in theme alignment with existing frameworks.\n' +
-      'RESULTS: Interviews were conducted among 35 participants (16 patients, 10 cardiologists, and 9 cardiac physiologists and nurses). We identified 5 main themes and their associated subthemes, with 1 representing an enabler and 4 representing barriers. They were: (1) patient benefits from RM, such as improved CIED and cardiovascular management, and improved patient-centered care; (2) insufficient allocation of CIED RM resources, which included insufficient RM clinic funding and staffing, insufficient RM service reimbursement, and RM infrastructure and access inequity; (3) suboptimal management of data, which includes inconsistent RM alert interpretation and management, lack of guidance for clinic staff on RM data management, and an increased alert burden for clinics; (4) insufficient patient education post-CIED implant, this was attributed to limited health care worker availability and resulted in inadequate patient CIED and RM knowledge postimplant and patient anxiety associated with RM; and (5) patient engagement with CIED management, which included the need for increased patient interaction with RM alerts and the ability to share data with patients. These subthemes were mapped to 6 specific domains of the theoretical domains framework: "Beliefs About Capabilities," "Environmental Context and Resources," "Beliefs About Consequences," "Knowledge," "Emotions," and "Goals."\n' +
-      'CONCLUSIONS: Patient engagement was identified in 3 of the 5 themes describing barriers and enablers to RM. These highlight the importance of addressing patient engagement with RM to better implement and integrate the use of RM into routine clinical practice. Barriers and enablers extend across multiple domains and suggest that a multipronged approach is required to translate the gold standard care of RM to routine clinical practice.',
-    published: '2025-Jul-18',
+    id: '40684326',
+    title: 'Comparing AI-generated and traditional textbook multiple-choice questions in nursing education: A prompt engineering-based Delphi study.',
+    abstract: 'OBJECTIVE: To explore the potential and challenges of GLM-4 model in nursing test design, and to evaluate its effectiveness in generating multiple-choice questions under the theme of management of surgical shock patients.\n' +
+      "METHODS: The Delphi method was employed, inviting 8 nursing education experts with master's degrees or higher, or associate professor titles and above, to review 25 MCQs generated by GLM-4. Various prompting techniques (e.g. zero-shot prompting, few-shot prompting, Chain-of-Thought, Chain of Thought with Self Consistency, and Tree-of-Thought) were used to guide the model in generating questions, which were assessed for content coverage, difficulty appropriateness, and language quality. Experts rated the questions using a 4-point Likert scale, with consistency analyzed through Kendall's W, ICC3, and coefficient of variation.\n" +
+      "RESULTS: AI excelled in assessing foundational knowledge and clinical judgment, aligning with undergraduate needs. Expert ratings averaged 3-4, with an authority coefficient of 0.86 ± 0.10 and ICC3 > 0.90, indicating high reliability. Chain-of-Thought scored highest (content 3.85, difficulty 3.85, language 3.40) but had poor consistency (Kendall's  ≈ 0.05); Few-shot showed strong consistency (Kendall's  > 0.75) but lower quality (2.0-2.2). Issues included inaccurate language and unrealistic scenarios.\n" +
+      "CONCLUSION: Generative AI offers efficiency and diversity in nursing test design, reducing expert reliance. However, limitations include low difficulty, weak reasoning, and flawed distractors. Human review and iterative prompting are recommended to optimize complex scenarios and enhance AI's role in nursing education.",
+    published: '2025-Jul-20',
+    authors: [ 'Lin Youbei', 'Li Chuang', 'Li Hongyu' ],
+    journal: 'Medical teacher',
+    doi: '10.1080/0142159X.2025.2533401',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684326/'
+  },
+  {
+    id: '40684323',
+    title: 'Language and communication in children with complex tourette syndrome: Insights from five mixed methods case studies.',
+    abstract: 'PURPOSE: This study aimed to understand and describe language skills and day-to-day communication in five children with complex Tourette syndrome.\n' +
+      "METHOD: We conducted five scaffolded mixed methods case studies. Psychosocial functioning and language skills were measured using standardised tests. We collected information about day-to-day communication using communication log books and semi-structured qualitative interviews. Communication was considered using the bioecological model with a focus on microstructure' contexts (i.e. school, home, and peer interaction).\n" +
+      'RESULT: All children had accessed school accommodations, extra services, or alternative education options. While some parents highlighted school successes, others described significant challenges in finding a fitting school environment for their child. Managing family interaction in the home required parents to be thoughtful and proactive in their planning. Parents strategised to keep the home environment calm and productive, adopted attitudes of acceptance and understanding, and accessed outside tools and supports. In some cases, parents provided social coaching and created intentional social experiences so their child could be successful; in other cases, children were thriving socially without need for parental intervention.\n' +
+      'CONCLUSION: The communication profiles and parent-reported experiences of children with complex Tourette syndrome are diverse. Interventions and accommodations need to be individualised to optimise language development and day-to-day communication.',
+    published: '2025-Jul-20',
     authors: [
-      'Sheahen Brodie',
-      "O'Hagan Edel T",
-      'Cho Kenneth',
-      'Shaw Tim',
-      'Lee Astin',
-      'Lal Sean',
-      'Sverdlov Aaron L',
-      'Chow Clara'
+      'Feehan Angela',
+      'Pritchard Lesley',
+      'Colozzo Paola',
+      'Smith Veronica',
+      'Charest Monique'
     ],
-    journal: 'JMIR cardio',
-    doi: '10.2196/67758',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680289/'
+    journal: 'International journal of speech-language pathology',
+    doi: '10.1080/17549507.2025.2529930',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684323/'
   },
   {
-    id: '40680288',
-    title: 'Evaluating the Effectiveness of an Intelligent mHealth Intervention for Child Unintentional Injury Prevention: Protocol for a Cluster Randomized Controlled Trial.',
-    abstract: 'BACKGROUND: Unintentional injury is a leading cause of childhood morbidity and mortality worldwide. In China, real-world implementation of child injury prevention efforts remains inadequate due to constrained workforce capacity and a lack of operational frameworks.\n' +
-      "OBJECTIVE: This study aims to assess the effectiveness of a mobile health (mHealth) intervention, the Intelligent Child Unintentional-Injury Reduction & Education (iCURE) project, embedded within China's National Basic Public Health Service Program. The intervention relies on a WeChat (Tencent) service account for caregivers and a web-based platform for health care providers to deliver standardized unintentional injury prevention strategies for young children. Key features of the program include interactive questions and answers, injury risk assessment with instant feedback, a tailored injury prevention knowledge disseminator, and regular reminders to caregivers.\n" +
-      "METHODS: A double-blind, 12-month follow-up, cluster randomized controlled trial will be implemented in Changsha, Hunan Province, China. Caregivers of children aged ≤5 years will be recruited. Randomization will be conducted at the street or town level. The control group will receive routine safety education, while the intervention group will receive both routine safety education and the iCURE mHealth intervention focused on unintentional injury prevention and delivered via WeChat. Data will be collected at baseline and every 3 months during the study period. The primary outcome is 12-month incidence of unintentional injuries among children, including minor injuries and as reported by caregivers. Secondary outcomes include children's injury risk level and caregiver supervision behaviors assessed using a standard questionnaire. Data analysis will be conducted using generalized linear mixed models with a Poisson link function and generalized estimating equations to assess the effectiveness of the iCURE intervention, following intention-to-treat principles. Sensitivity analyses will be conducted with per-protocol principles and excluding participants with missing primary outcomes.\n" +
-      'RESULTS: As of May 2025, a total of 6701 participants have been successfully enrolled and baseline data were collected for all participants. Of those enrolled, 87.2% (5842/6,701) completed the first follow-up assessment.\n' +
-      "CONCLUSIONS: This trial will examine the effectiveness of an intelligent mHealth intervention for child unintentional injury prevention building on China's National Basic Public Health Service Program. If successful, the iCURE intervention may provide a cost-effective strategy for child injury prevention in low- and middle-income countries.",
-    published: '2025-Jul-18',
+    id: '40684282',
+    title: "Progress or stagnation? Is neurosurgery remaining a men's world?",
+    abstract: 'Although the number of female medical school students is increasing, there is an imbalance regarding women in neurosurgery. In addition, a huge gender gap concerning leading positions as well as scientific careers exists. We performed a questionnaire-based data assessment of former and current neurosurgical residents, medical school students in their final and medical school students in their first year. The questionnaire assessed reasons for resigning from the residency program as well as possible discrimination or gender-specific disadvantages which prevent medical school students from choosing a surgical speciality. We found that significantly more ( = 0.05) female residents left neurosurgical training and indicated gender-based inequalities during the program ( < 0.001). Significantly fewer final-year students would choose a surgical career compared to first-year medical students ( < 0.001). The main reasons against neurosurgical training were poor work-life balance, psychological stress and difficulties in family/child care. Women must continue to be supported to pursue surgical and scientific careers.',
+    published: '2025-Dec',
     authors: [
-      'Yuan Yang',
-      'Jing Yuying',
-      'Li Jiyu',
-      'He Jieyi',
-      'Schwebel David C',
-      'Ning Peishan',
-      'Rao Zhenzhen',
-      'Li Li',
-      'Hu Guoqing'
+      'Rapp Marion',
+      'Makowski Laura',
+      'Staub-Bartelt Franziska',
+      'Steinmann Julia',
+      'Sabel Michael'
     ],
-    journal: 'JMIR public health and surveillance',
-    doi: '10.2196/76195',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680288/'
+    journal: 'Medical education online',
+    doi: '10.1080/10872981.2025.2535414',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684282/'
   },
   {
-    id: '40680282',
-    title: 'Breast Cancer Barriers to Education and Screening in People Experiencing Homelessness.',
-    abstract: 'BACKGROUND: Each year in the United States, approximately 42,211 women and men die from breast cancer. Individuals experiencing homelessness are disproportionately affected, facing a higher incidence of the disease. People experiencing homelessness (PEH) have a higher incidence of breast cancer and mortality than domiciled individuals. Across all 50 states, the Centers for Disease Control and Prevention (CDC) provides free breast cancer screenings for eligible individuals with limited financial resources. However, people experiencing homelessness have screening rates that remain below the national average. Early detection is critical to identifying breast cancer. When detected in the earliest local stages, there is a 90% or better survival rate.\n' +
-      'OBJECTIVE: The objective of the study was to examine the perspective of PEH regarding perceived challenges of obtaining breast cancer screenings, education, and care.\n' +
-      'METHODS: We used a qualitative hermeneutic phenomenology design. Data were gathered using a focus group consisting of PEH in the state of New Jersey. This approach allowed the researchers to access multiple viewpoints of the phenomenon through robust discussions while prioritizing individual contributions and shared experiences. This qualitative hermeneutic phenomenology design used trustworthiness to establish rigor, using essential details in credibility, dependability, transferability, and confirmability.\n' +
-      'RESULTS: Eighteen individuals participated. Major considerations for this PEH focus group were finances, family, time, accessibility, emotions, and education.\n' +
-      'DISCUSSION: The results may be used to assist health care practitioners in becoming more informed about barriers to breast cancer education, screenings, and care. Identifying needs about finances, obligations, accessibility, and education may assist healthcare practitioners in discussing these key factors with patients, which may lead patients to become more open to breast cancer screenings. More dialogue about breast cancer screenings with PEH may lead to more screening participation.',
-    published: '2025-Jul-14',
-    authors: [ 'Brzoza Vicki L', 'Ryan Elyse' ],
-    journal: 'Nursing research',
-    doi: '10.1097/NNR.0000000000000853',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680282/'
-  },
-  {
-    id: '40680274',
-    title: 'Digital Health Portals for Individuals Living With or Beyond Cancer: Patient-Driven Scoping Review.',
-    abstract: 'BACKGROUND: Digital health portals are online platforms allowing individuals to access their personal information and communicate with health care providers. While digital health portals have been associated with improved health outcomes and more streamlined health care processes, their impact on individuals living with or beyond cancer remains underexplored.\n' +
-      'OBJECTIVE: This scoping review aimed to (1) identify the portal functionalities reported in studies involving individuals living with or beyond cancer, as well as the outcomes assessed, and (2) explore the diversity of participant characteristics and potential factors associated with portal use.\n' +
-      'METHODS: We conducted a scoping review in accordance with the JBI methodology (formerly the Joanna Briggs Institute) and the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines. We included primary research studies published between 2014 and 2024 that involved participants living with or beyond cancer, had access to personal health information, and assessed at least one outcome related to health or the health care system. We searched the Embase, Web of Science, MEDLINE (Ovid), and CINAHL Plus with Full Text databases. Five reviewers independently screened all titles, abstracts, and full texts in duplicate using Covidence. We extracted data on study design, participant characteristics, portal functionalities, outcomes assessed, and PROGRESS-Plus (place of residence; race, ethnicity, culture, or language; occupation; gender or sex; religion; education; socioeconomic status; and social capital-Plus) equity factors.\n' +
-      'RESULTS: We included 44 studies; most were conducted in the United States (n=30, 68%) and used quantitative (n=23, 52%), mixed methods (n=11, 25%), or qualitative (n=10, 23%) designs. The most common portal features were access to test results (28/44, 64%) and secure messaging (30/44, 68%). Frequently reported services included appointment-related functions (19/44, 43%), educational resources (13/44, 30%), and prescription management features (11/44, 25%). Behavioral and technology-related outcomes were the most frequently assessed (37/44, 84%), followed by system-level (19/44, 43%), psychosocial (16/44, 36%), and clinical outcomes (5/44, 11%). Overall, 43% (19/44) of the studies addressed PROGRESS-Plus factors. Age was the most frequently reported (13/19, 68%), followed by socioeconomic status (10/19, 53%), race or ethnicity (7/19, 37%), and gender or sex (7/19, 37%). Social capital (2/19, 11%), occupation (1/19, 5%), and disability (1/19, 5%) were rarely considered, and religion was not reported in any study.\n' +
-      'CONCLUSIONS: While digital health portals enhance patient engagement, their clinical impact and equity implications remain insufficiently evaluated. We found disparities in functionalities, outcomes, and PROGRESS-Plus representation. To promote equitable benefits, future studies should adopt inclusive designs and evaluation strategies that address diverse outcomes and integrate social determinants of health.',
-    published: '2025-Jul-18',
+    id: '40684268',
+    title: "Reasons for and perceived barriers to applying for cardiology training: the 2024 British Junior Cardiologists' Association starter survey.",
+    abstract: "BACKGROUND AND AIMS: Understanding the reasons for, and perceived barriers to, applying for cardiology training is vital to interpret current application trends and address modifiable barriers to entry. A cross-sectional survey was conducted on behalf of the British Junior Cardiologists' Association (BJCA) to assess the opinions of resident doctors interested in pursuing a career in cardiology.\n" +
+      'METHODS: Data were collected on six domains: demographic information, intention to pursue a career in cardiology, prior clinical and academic experiences, reasons for and perceived barriers to applying for cardiology training (assessed using a Likert scale from one to five), and the impact of the transition from core medical training to internal medicine training.\n' +
+      'RESULTS: Responses were received from 171 of 307 (56%) eligible BJCA members. Of 171 participants, 109 (63.7%) stated they would definitely, and 29 (17.0%) would probably, apply for cardiology training. Formal research training was limited; of those who had published research, 77 (45.0%) had published fewer than five articles. The primary motivating factor for applying was the opportunity to perform invasive procedures [mean 4.2 ± standard deviation (SD) 1.0]; competition was identified as the most significant barrier, on average (3.8 ± SD 1.2). The transition to internal medicine training was viewed by 111 respondents (64.9%) as primarily serving the purpose of service provision.\n' +
+      'CONCLUSIONS: These data should allow potential applicants to make an informed decision as to their specialty of choice. Addressing modifiable barriers to entry may encourage a more diverse range of resident doctors to apply for cardiology training.',
+    published: '2025-Jul-20',
     authors: [
-      'Ouellet Steven',
-      'Naye Florian',
-      'Supper Wilfried',
-      'Cachinho Chloé',
-      'Gagnon Marie-Pierre',
-      'LeBlanc Annie',
-      'Laferrière Marie-Claude',
-      'Décary Simon',
-      'Sasseville Maxime'
+      'Gupta Ankit',
+      'Lawson Lucy',
+      'Bray Jonathan J H',
+      'Brown Oliver I',
+      'Drozd Michael',
+      'Straw Sam',
+      'Morgan Holly'
     ],
-    journal: 'JMIR cancer',
-    doi: '10.2196/72862',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680274/'
+    journal: 'Postgraduate medical journal',
+    doi: '10.1093/postmj/qgaf111',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684268/'
   },
   {
-    id: '40680270',
-    title: 'Addressing the Ethical, Legal, and Social Issues of Healthtech in Education: Insights From Japan.',
-    abstract: "The increasing application of health technology (healthtech) in educational settings, particularly for monitoring students' mental health, has garnered significant attention. These technologies, which range from wearable devices to digital mental health screenings, offer new opportunities for enhancing student well-being and strengthening support systems. Numerous studies have explored the ethical, legal, and social issues (ELSIs) of healthtech in the field of psychiatry, highlighting its potential benefits while also acknowledging the inherent complexities and risks that demand careful consideration. However, the ELSIs related to the use of healthtech in educational settings remain largely overlooked and insufficiently addressed. This study provides an overview of items that should be considered by researchers, teachers, and education boards or committees to promote healthtech in the educational context. By adapting existing ELSI frameworks from educational technology and digital health, this study systematically reviews ethical concerns surrounding healthtech in schools. Expert consultations were conducted through a project consisting of members with expertise related to healthtech, including developers, a teacher, a school counselor, and university researchers, leading to the identification of 52 ELSI concerns categorized into 8 domains: consent, rights and privacy, algorithms, information management, evaluation, use, role of public institutions, and relationships with private companies. Using Japan as a case study, we examine regulatory and cultural factors affecting healthtech adoption in schools. The findings reveal critical challenges, such as ensuring informed consent for minors, protecting student privacy, preventing biased algorithmic decision-making, and maintaining transparency in data management. In addition, institutional factors, including the role of public education policies and private-sector involvement, shape the ethical landscape of healthtech implementation. This study highlights the need for multistakeholder collaboration to establish guidelines that balance innovation with ethical responsibility. The study underscores the need for a multifaceted approach to mitigate risks such as data misuse, inequitable access, and algorithmic bias, ensuring the ethical and effective use of healthtech in education. The fundamental ELSI framework for healthtech, including privacy, consent, and algorithms, can be applied to educational systems worldwide, while aspects related to public education policies should be considered in accordance with the specific context of each country and culture. Incorporating healthtech into the educational system helps address the barriers associated with traditional approaches, including limited resources, cost constraints, and logistical challenges. Researchers from universities and healthtech companies, along with educators and other stakeholders, should ensure that healthtech projects consider diverse ELSI concerns at every stage before and during implementation.",
-    published: '2025-Jul-18',
-    authors: [
-      'Sumiya Motofumi',
-      'Nishimura Tomoko',
-      'Aizaki Kyoko',
-      'Hirata Ikue',
-      'Tsukui Nobuaki',
-      'Osuka Yuko',
-      'Wakuta Manabu',
-      'Senju Atsushi'
-    ],
-    journal: 'JMIR formative research',
-    doi: '10.2196/72781',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680270/'
-  },
-  {
-    id: '40680255',
-    title: 'Future Me, a Prospection-Based Chatbot to Promote Mental Well-Being in Youth: Two Exploratory User Experience Studies.',
-    abstract: 'BACKGROUND: Digital interventions have been proposed as a solution to meet the growing demand for mental health support. Large language models (LLMs) have emerged as a promising technology for creating more personalized and adaptive mental health chatbots. While LLMs generate responses based on statistical patterns in training data rather than through conscious reasoning, they can be designed to support important psychological processes. Prospection-the ability to envision and plan for future outcomes-represents a transdiagnostic process altered across various mental health conditions that could be effectively targeted through such interventions. We designed "Future Me," an LLM-powered chatbot designed to facilitate future-oriented thinking and promote goal pursuit using evidence-based interventions including visualization, implementation intentions, and values clarification.\n' +
-      "OBJECTIVE: This study aims to understand how users engage with Future Me, evaluate its effectiveness in supporting future-oriented thinking, and assess its acceptability across different populations, with particular attention to postgraduate students' stress management needs. We also seek to identify design improvements that could enhance the chatbot's ability to support users' mental well-being.\n" +
-      'METHODS: In total, 2 complementary studies were conducted. Study 1 (n=20) examined how postgraduate students used Future Me during a single guided session, followed by semistructured interviews. Study 2 (n=14) investigated how postgraduate students interacted with Future Me over a 1-week period, with interviews before and after usage. Both studies analyzed conversation transcripts and interview data using thematic analysis to understand usage patterns, perceived benefits, and limitations.\n' +
-      "RESULTS: Across both studies, participants primarily engaged with Future Me to discuss career or education goals, personal obstacles, and relationship concerns. Users valued Future Me's ability to provide clarity around goal-setting (85% of participants), its nonjudgmental nature, and its 24/7 accessibility (58%). Future Me effectively facilitated self-reflection (80%) and offered new perspectives (70%), particularly for broader future-oriented concerns. However, both studies revealed limitations in the chatbot's ability to provide personalized emotional support during high-stress situations, with participants noting that responses sometimes felt formulaic (50%) or lacked emotional depth. Postgraduate students specifically emphasized the need for greater context awareness during periods of academic stress (58%). Overall, 57% of requests occurred outside office hours, dropping from 40 on day 1 to 12 by day 7.\n" +
-      "CONCLUSIONS: Future Me demonstrates promise as an accessible tool for promoting prospection skills and supporting mental well-being through future-oriented thinking. However, effectiveness appears context-dependent, with prospection techniques more suitable for broader life decisions than acute stress situations. Future development should focus on creating more adaptive systems that can adjust their approach based on the user's emotional state and immediate needs. Rather than attempting to replicate human therapy entirely, chatbots like Future Me may be most effective when designed as complementary tools within broader support ecosystems, offering immediate guidance while facilitating connections to human support when needed.",
-    published: '2025-Jul-18',
-    authors: [
-      'Dechant Martin',
-      'Lash Eva',
-      'Shokr Sarah',
-      "O'Driscoll Ciarán"
-    ],
-    journal: 'JMIR formative research',
-    doi: '10.2196/74411',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680255/'
-  },
-  {
-    id: '40680202',
-    title: 'Arab student facilitators as ambassadors for dementia awareness in Israeli-Arab society.',
-    abstract: 'OBJECTIVES: The aim of this study was to assess the effectiveness of a dementia awareness and stigma reduction program among the Arab minoritized population in Israel. Specifically, we examined changes in knowledge, stigma, perceived susceptibility, and support sources following community-based informational sessions conducted by trained Arab student facilitators.\n' +
-      'METHODS: A mixed-methods approach was used. A pre-post design with 1349 participants was employed for the quantitative component, assessing changes in subjective and objective knowledge, stigma, perceived susceptibility, and support sources. The qualitative component included in-depth interviews with 40 student facilitators to explore their experiences and insights. Data were analyzed using descriptive statistics, regression analyses, and thematic content analysis.\n' +
-      "RESULTS: The findings revealed significant increases in dementia knowledge, positive emotional reactions, and use of formal support sources. However, no significant changes were observed in perceived susceptibility, negative emotional reactions, or behavioral discrimination. Qualitative findings highlighted facilitators' role in challenging misconceptions, fostering engagement, and addressing cultural barriers to dementia discussions.\n" +
-      'CONCLUSION: The program effectively enhanced dementia knowledge and encouraged community dialogue but had limited impact on deep-seated stigma. Future initiatives should incorporate sustained interventions and culturally tailored messaging to further promote dementia awareness and reduce stigma in minoritized communities.',
-    published: '2025-Jul-18',
-    authors: [ 'Shinan-Altman Shiri' ],
-    journal: 'Aging & mental health',
-    doi: '10.1080/13607863.2025.2532658',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40680202/'
+    id: '40684261',
+    title: 'Systematic reviews-an effective tool for academic motivation of advanced trainees.',
+    abstract: 'No abstract available',
+    published: '2025-Jul-20',
+    authors: [ 'Yewale Aabha P', 'Rao Shripada', 'Patole Sanjay' ],
+    journal: 'Postgraduate medical journal',
+    doi: '10.1093/postmj/qgaf107',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40684261/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
@@ -1136,6 +1079,368 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 32946,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4669,
+        [Symbol(triggerId)]: 4667
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 2,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Sun, 20 Jul 2025 15:10:57 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.03.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Sun, 20 Jul 2025 15:10:57 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1240,16 +1545,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 31419,
+        _idleNext: [Timeout],
+        _idleStart: 32949,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4876,
-        [Symbol(triggerId)]: 4874
+        [Symbol(asyncId)]: 4688,
+        [Symbol(triggerId)]: 4686
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1279,7 +1584,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
+      sockets: [Object: null prototype] {},
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1381,7 +1686,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sat, 19 Jul 2025 15:11:16 GMT',
+      date: 'Sun, 20 Jul 2025 15:10:57 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1492,369 +1797,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sat, 19 Jul 2025 15:11:16 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 31761,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4893,
-        [Symbol(triggerId)]: 4891
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 2,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: true,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: false,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Sat, 19 Jul 2025 15:11:17 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.03.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Sat, 19 Jul 2025 15:11:17 GMT',
+  date: 'Sun, 20 Jul 2025 15:10:57 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -2050,25 +1993,25 @@ Translating paper: A Virtual Reality-Based Co-creation Approach to De...
 Translating paper 30/50
 Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 31/50
-Translating paper: What digital competencies should medical students ...
+Translating paper: A Higher Education: Age, Sex, and Sexual Orientati...
 Translating paper 32/50
-Translating paper: A new era in neurosurgery residency applications: ...
+Translating paper: Aligning family medicine residency training with s...
 Translating paper 33/50
-Translating paper: Unplanned readmission after cranial tumor surgery ...
+Translating paper: The development and validation of a multi-dimensio...
 Translating paper 34/50
-Translating paper: Barriers and Enablers to Routine Clinical Implemen...
+Translating paper: Integrating fixed norms and relational responsiven...
 Translating paper 35/50
-Translating paper: Evaluating the Effectiveness of an Intelligent mHe...
+Translating paper: Emerging Use of Low-Dose Ketamine for Pain Managem...
 Translating paper 36/50
-Translating paper: Breast Cancer Barriers to Education and Screening ...
+Translating paper: Comparing AI-generated and traditional textbook mu...
 Translating paper 37/50
-Translating paper: Digital Health Portals for Individuals Living With...
+Translating paper: Language and communication in children with comple...
 Translating paper 38/50
-Translating paper: Addressing the Ethical, Legal, and Social Issues o...
+Translating paper: Progress or stagnation? Is neurosurgery remaining ...
 Translating paper 39/50
-Translating paper: Future Me, a Prospection-Based Chatbot to Promote ...
+Translating paper: Reasons for and perceived barriers to applying for...
 Translating paper 40/50
-Translating paper: Arab student facilitators as ambassadors for demen...
+Translating paper: Systematic reviews-an effective tool for academic ...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2089,49 +2032,26 @@ Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9110712277748565 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"40s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '40s'
-    }
-  ]
-}
 Translation completed: 50 papers
-Removed duplicates: 671 -> 631
-Total papers after merging: 631 (621 existing + 50 new)
-Saved 631 papers to papers.json
+Removed duplicates: 681 -> 641
+Total papers after merging: 641 (631 existing + 50 new)
+Saved 641 papers to papers.json
 Generating HTML files...
-Generating index.html with 631 papers...
+Generating index.html with 641 papers...
 Successfully generated index.html
-Generating archive.html with 631 papers...
+Generating archive.html with 641 papers...
 Successfully generated archive.html
-Generating journal.html with 631 papers...
+Generating journal.html with 641 papers...
 Successfully generated journal.html
-Generating acquisition.html with 631 papers...
+Generating acquisition.html with 641 papers...
 Successfully generated acquisition.html
-Generating publication.html with 631 papers...
+Generating publication.html with 641 papers...
 Successfully generated publication.html
-Generating registration.html with 631 papers...
+Generating registration.html with 641 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 631
+Total papers in database: 641
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-19T15:38:22.133Z
+Timestamp: 2025-07-20T15:38:45.395Z
