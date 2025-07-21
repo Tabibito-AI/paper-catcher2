@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-20T15:10:24.955Z
+Timestamp: 2025-07-21T15:12:30.202Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 631 existing papers from papers.json
+Loaded 641 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -544,170 +543,172 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40684339',
-    title: 'A Higher Education: Age, Sex, and Sexual Orientation as Indicators of Positive Cannabis Use Consequences Among College Students.',
-    abstract: ': As cannabis use in the U.S. has continued to rise among young adults, research is necessary to understand the reinforcing aspects of use. While there are several established demographic indicators of young adult cannabis use, including age, male sex, and sexual orientation, no studies have examined relations between these indicators and facets of cannabis-related positive consequences (i.e., social, mood, cognitive, and sexual enhancement). : The present study examined associations between age, sex, and sexual orientation with facets of cannabis-related positive consequences. College students ( = 615; age  = 19.98, SD = 1.97; 68.3% female; 27.5% sexual minority) completed self-report questionnaires of demographics, cannabis use frequency, and positive and negative consequences of use. Using exploratory path analysis, we examined associations between common indicators of cannabis use (i.e., age, sex, sexual orientation) and positive consequence facets (i.e., social, mood, cognitive, and sexual enhancement), controlling for cannabis use frequency and negative consequences. We tested models for frequency (i.e., how often) and valence (i.e., how strongly) of positive consequences. : Sexual minority orientation was significantly positively associated with several facets of positive consequence frequency and valence, while age was significantly negatively associated with social enhancement consequences. Sex was not associated with positive consequences. Exploratory sensitivity analyses noted similar associations between bisexual/pansexual identity and positive consequence frequency and valence. : The observed associations may help explain use disparities between sexual minorities and their heterosexual peers. Future research is needed to elucidate the role of positive consequences in cannabis use initiation and escalation, which may inform individual tailoring of cannabis prevention and intervention efforts.',
-    published: '2025-Jul-20',
-    authors: [ 'Fetterling Theodore J', 'Parnes Jamie E' ],
-    journal: 'Substance use & misuse',
-    doi: '10.1080/10826084.2025.2533980',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684339/'
-  },
-  {
-    id: '40684333',
-    title: 'Aligning family medicine residency training with societal needs: An international Delphi study.',
-    abstract: 'INTRODUCTION: Primary care is evolving around the world, and the need to address changing societal needs prompted a call to renew family medicine residency training. Experts were asked to generate learning topics around six areas of societal need.\n' +
-      'METHODS: International family medicine experts were invited to participate in a Delphi study that concluded in 2024. The initial round generated 1275 submissions. Through content analysis, we distilled these submissions to 54 learning topics, which were rated for their importance using a 5-point scale. Importance was indicated if the median score was ≥3.5, and consensus was achieved if the interquartile range was ≤1.\n' +
-      "RESULTS: All learning topics were deemed important. Consensus was reached for 46 of 54 learning topics. Topics with low consensus included 'community support and engagement,' 'holistic understanding and proficiency in trauma-informed care,' 'historical and cultural aspects of Indigenous communities,' and 'acquiring research and scholarship competencies in virtual healthcare.'\n" +
-      "CONCLUSIONS: Consensus was reached in 46 learning topics, with low consensus in areas where physicians' roles overlap with other care providers. Learning topics generated in this study could be integrated to ensure residency programs meet current societal needs. These findings are relevant to family medicine and many residency programs.",
-    published: '2025-Jul-20',
-    authors: [
-      'Todd Keith J',
-      'Rocha de Oliveira Robson',
-      'Zahedi Sima',
-      'Sandhu Amrita',
-      'Fournier Sandra',
-      'Rodriguez Charo'
-    ],
-    journal: 'Medical teacher',
-    doi: '10.1080/0142159X.2025.2533404',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684333/'
-  },
-  {
-    id: '40684332',
-    title: "The development and validation of a multi-dimensional medical students' learning self-efficacy questionnaire for clinical education.",
-    abstract: "Learning self-efficacy (SE) assesses how learners understand and evaluate their ability to polish their learning process. Learning clinical medicine requires prolonged training, traditionally premised on longitudinal immersion in patient care. Such a process is domain-specific, whereas learning SE for clinical education remains under-explored. Unidimensional assessment is insufficient for capturing the inherent capabilities upon which well-trained physicians provide care. We aimed to establish a multi-dimensional learning SE questionnaire for clinical education among undergraduate medical students, evaluating the structure validity, followed by assessing the dimensionality of different models. Medical students of 2 to 4 grades from Taiwan in 2022-2023 completed a multi-dimensional medical learning SE (MLSE) questionnaire, including four factors for basic science learning (conceptual understanding (CU), higher-order cognitive skills (HC), practical work (PW), and everyday application (EA)), and three for clinical mastery performance (medical communication (MC), evidence-based medicine (EBM), and Professionalism)). We tested factors' intercorrelation, used exploratory and confirmatory factor analysis (EFA/CFA) for structure and validity assessment, and compared the fitness and dimensionality between models. Twenty-four items grouped into seven independent factors (3, 3, 4, 3, 5, 3, and 3 items in CU, HC, PW, EA, MC, EBM, and Professionalism, respectively) were established and finalized, with sufficient fitness, good convergent and construct validities. All MLSE factors significantly correlated (0.49-0.87;  < 0.001), demonstrating good convergent and discriminant validity. We established six models (first-order uncorrelated or correlated construct, one to three second-order dimensions ('basic medical SE', 'clinical medical SE', 'Cognition', or 'Application' of different structures), and a final model 7 containing four second-order dimensions (Cognition, Application, MC, and clinical medical SE) exhibiting adequate model fitness and measured learning SE satisfactorily. Our MLSE model structure disclosed vital SE factors with intercorrelations associated with medical students' learning processes during clinical education. Polishing these dimensions may help promote their learning SE.",
+    id: '40686295',
+    title: 'Expanding the offer of Vaccinology Education with the Master of Science in Immunology and Vaccinology.',
+    abstract: 'The COVID-19 pandemic revealed the urgency for well-trained professionals in vaccinology. With the purpose of building capacity in the field, the Catholic University of Portugal created the Masters in Immunology and Vaccinology. Here, I describe this innovative program and compare it to the current Vaccinology programs worldwide to reveal its uniqueness, and how it will contribute to reduce the burden of disease, improve disease prevention and promote healthier lives globally.',
     published: '2025-Dec',
-    authors: [ 'Chao Chia-Ter', 'Liang Jyh-Chong' ],
-    journal: 'Medical education online',
-    doi: '10.1080/10872981.2025.2534053',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684332/'
+    authors: [ 'Bettencourt Paulo J G' ],
+    journal: 'Human vaccines & immunotherapeutics',
+    doi: '10.1080/21645515.2025.2536909',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686295/'
   },
   {
-    id: '40684329',
-    title: 'Integrating fixed norms and relational responsiveness in medical education: Redefining autonomy.',
-    abstract: "In this short communication, we reconceptualize autonomy in medical education, particularly within the context of professional identity formation (PIF). Traditionally, autonomy has been framed as independence and achievement based on 'fixed norms'. However, identity is also shaped through 'relational responsiveness', which emphasizes mutual engagement and co-construction. Drawing on Asian cultural understandings of selfhood, we propose viewing autonomy as integrity enacted within a network of mutual responsibility. We argue that both fixed norms and relational responsiveness are essential, and we introduce a preliminary framework that highlights their complementary roles. While responsiveness fosters adaptability and connectedness, it can lead to identity diffusion if not grounded in internal standards. A blended model of both modes offers a more inclusive, culturally sensitive, and resilient approach to PIF in today's complex medical landscape.",
-    published: '2025-Jul-20',
+    id: '40686285',
+    title: 'Women with endometriosis: Experiences with pain management and views on optimal healthcare through the concept of health literacy.',
+    abstract: 'BACKGROUND: Endometriosis is a chronic inflammatory disease, characterised by pain and potential fertility reduction, affecting 6%-10% of women. Pain management courses may promote self-care and enhance patient satisfaction. However, research into the experiences of participation in such courses are lacking.\n' +
+      'OBJECTIVES: The study aims to describe the experiences of Norwegian women with endometriosis after pain management course and their view on optimal healthcare through organisational and individual health literacy.\n' +
+      'DESIGN: Qualitative study as part of a randomised controlled trial (NCT05091268).\n' +
+      'METHODS: Semi-structured individual in-depth interviews were conducted between August and November 2023 with 19 women diagnosed with endometriosis, recruited from two University hospitals specialising in endometriosis care, through a patient organisation and social media, after participation in a multidisciplinary pain management course.\n' +
+      'RESULTS: Reflexive thematic analysis yielded two main themes: (1) Insightful experiences with individual health literacy and (2) frustrating experiences with organisational health literacy. Participants reported a positive shift in their ability to self-manage endometriosis following the pain management course, demonstrating a progression from passive to active participation in their own care. The participants also expressed a strong and recurring need for enhanced dissemination of information, including a need for post-diagnosis educational courses, highlighting a demand for ongoing, interactive support tailored to their condition.\n' +
+      'CONCLUSION: A need emerges for improved dissemination of information, enhanced monitoring, and health expertise at an organisational level within the healthcare system. Thus, future health care services should aim to provide seamless, multidisciplinary treatment to improve patient satisfaction.\n' +
+      'REGISTRATION: Trial registry name: Effect of Physical Activity and Pain Education on Endometriosis-Associated Pain.\n' +
+      'REGISTRATION NUMBER: NCT05091268. URL: https://clinicaltrials.gov/study/NCT05091268.',
+    published: '2025',
     authors: [
-      'Haruta Junji',
-      'Miyachi Junichiro',
-      'Kato Koki',
-      'Kuwabara Tomomi',
-      'Imae Akihiro',
-      'Sase Yuji'
+      'Kvåle Charlotte',
+      'Tokovska Miroslava',
+      'Tennfjord Merete Kolberg'
     ],
-    journal: 'Medical teacher',
-    doi: '10.1080/0142159X.2025.2533406',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684329/'
+    journal: "Women's health (London, England)",
+    doi: '10.1177/17455057251347085',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686285/'
   },
   {
-    id: '40684327',
-    title: 'Emerging Use of Low-Dose Ketamine for Pain Management Beyond the ICU.',
-    abstract: "Pain management is a critical challenge in healthcare as acute and chronic pain affect millions of individuals globally. Opioid-based therapies that were once considered the traditional treatment methods are facing scrutiny due to their limitations and risks, due to which it is evident that an equally effective alternative pain management approach is necessary. Ketamine is a promising solution. Ketamine acts as an NMDA (N-methyl-D-aspartate) receptor antagonist, and modulates pain pathways at central and peripheral levels, which enables it to address complex pain mechanisms that opioids cannot adequately target. It is a valuable option for patients who are opioid refractory, intolerant, or have insufficient pain relief from standard therapies. While traditionally used in intensive care units (ICUs), ketamine use has been expanded to general inpatient floors at our institution. This article will present a model for implementing a low-dose ketamine protocol for pain management in a community hospital setting, using our experience as a prototype. It will highlight ketamine's pharmacological advantages, safety considerations, and the staff education, logistics, and collaboration necessary for implementation. By pioneering this model in our county, our goal is to provide a model for other community hospitals to adopt.",
-    published: '2025-Jul-20',
+    id: '40686214',
+    title: "Global and regional white matter hyperintensities in Alzheimer's disease: Exploring etiologies and cognitive correlates.",
+    abstract: "BackgroundWhite matter hyperintensities (WMH) are commonly observed in Alzheimer's disease (AD), but their underlying pathophysiology remains poorly understood.ObjectiveThis cross-sectional study aims to explore the multifactorial etiologies and cognitive correlates of global and regional WMH in a cohort of biologically diagnosed AD patients.MethodsWe included 170 AD patients who underwent brain MRI, neuropsychological testing, and cerebrospinal fluid (CSF) biomarker evaluation within three months. Linear and logostic regressions were used to assess associations between global/regional WMH and age, cerebral microbleeds (CMB), AD biomarkers, cortical atrophy, and vascular risk scores. Sensitivity analyses included replacing vascular score with hypertension, p-tau181 with t-tau, and inclusion of  ε4 status. Associations between Mini-Mental State Exam scores and WMH and atrophy burden were also evaluated, adjusting for age, sex, and education.ResultsGreater global WMH burden was significantly associated with older age (β = 0.03, p < 0.001), lower CSF Aβ levels (β = -0.0014, p = 0.01), and more severe CMB grade (β = 0.48, p = 0.003), but not with vascular risk scores. Regionally, WMH in the paraventricular, frontal, and parietal lobes were linked to CSF Aβ and CMB. Cognitive impairment was independently associated with increased paraventricular WMH burden (β = -0.22, p < 0.001) and medial temporal atrophy (β = -0.82, p < 0.001).ConclusionsOur findings suggest that WMH in AD-particularly in the paraventricular, frontal, and parietal areas-are driven more by AD-specific pathology, including amyloid deposition and cerebral amyloid angiopathy, than by conventional vascular risk. Paraventricular WMH contribute to cognitive decline independent of cortical atrophy, underscoring their relevance as potential imaging biomarkers in AD.",
+    published: '2025-Jul-21',
     authors: [
-      'Oza Eesha',
-      'Rateshwar Yashvi',
-      'Santhosh Aneesha',
-      'Dave Vinnidhy'
+      'Qiu Yuyue',    'Bao Jialu',
+      'Wang Tianyi',  'Shang Li',
+      'Chu Shanshan', 'Jin Wei',
+      'Wang Wenjun',  'Jiang Yuhan',
+      'Li Bo',        'Huang Yixuan',
+      'Hou Bo',       'Sha Longze',
+      'You Yunfan',   'Li Yuanheng',
+      'Qiu Ling',     'Xu Qi',
+      'Feng Feng',    'Dong Liling',
+      'Mao Chenhui',  'Gao Jing'
     ],
-    journal: 'Journal of pain & palliative care pharmacotherapy',
-    doi: '10.1080/15360288.2025.2532657',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684327/'
+    journal: "Journal of Alzheimer's disease : JAD",
+    doi: '10.1177/13872877251360239',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686214/'
   },
   {
-    id: '40684326',
-    title: 'Comparing AI-generated and traditional textbook multiple-choice questions in nursing education: A prompt engineering-based Delphi study.',
-    abstract: 'OBJECTIVE: To explore the potential and challenges of GLM-4 model in nursing test design, and to evaluate its effectiveness in generating multiple-choice questions under the theme of management of surgical shock patients.\n' +
-      "METHODS: The Delphi method was employed, inviting 8 nursing education experts with master's degrees or higher, or associate professor titles and above, to review 25 MCQs generated by GLM-4. Various prompting techniques (e.g. zero-shot prompting, few-shot prompting, Chain-of-Thought, Chain of Thought with Self Consistency, and Tree-of-Thought) were used to guide the model in generating questions, which were assessed for content coverage, difficulty appropriateness, and language quality. Experts rated the questions using a 4-point Likert scale, with consistency analyzed through Kendall's W, ICC3, and coefficient of variation.\n" +
-      "RESULTS: AI excelled in assessing foundational knowledge and clinical judgment, aligning with undergraduate needs. Expert ratings averaged 3-4, with an authority coefficient of 0.86 ± 0.10 and ICC3 > 0.90, indicating high reliability. Chain-of-Thought scored highest (content 3.85, difficulty 3.85, language 3.40) but had poor consistency (Kendall's  ≈ 0.05); Few-shot showed strong consistency (Kendall's  > 0.75) but lower quality (2.0-2.2). Issues included inaccurate language and unrealistic scenarios.\n" +
-      "CONCLUSION: Generative AI offers efficiency and diversity in nursing test design, reducing expert reliance. However, limitations include low difficulty, weak reasoning, and flawed distractors. Human review and iterative prompting are recommended to optimize complex scenarios and enhance AI's role in nursing education.",
-    published: '2025-Jul-20',
-    authors: [ 'Lin Youbei', 'Li Chuang', 'Li Hongyu' ],
-    journal: 'Medical teacher',
-    doi: '10.1080/0142159X.2025.2533401',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684326/'
-  },
-  {
-    id: '40684323',
-    title: 'Language and communication in children with complex tourette syndrome: Insights from five mixed methods case studies.',
-    abstract: 'PURPOSE: This study aimed to understand and describe language skills and day-to-day communication in five children with complex Tourette syndrome.\n' +
-      "METHOD: We conducted five scaffolded mixed methods case studies. Psychosocial functioning and language skills were measured using standardised tests. We collected information about day-to-day communication using communication log books and semi-structured qualitative interviews. Communication was considered using the bioecological model with a focus on microstructure' contexts (i.e. school, home, and peer interaction).\n" +
-      'RESULT: All children had accessed school accommodations, extra services, or alternative education options. While some parents highlighted school successes, others described significant challenges in finding a fitting school environment for their child. Managing family interaction in the home required parents to be thoughtful and proactive in their planning. Parents strategised to keep the home environment calm and productive, adopted attitudes of acceptance and understanding, and accessed outside tools and supports. In some cases, parents provided social coaching and created intentional social experiences so their child could be successful; in other cases, children were thriving socially without need for parental intervention.\n' +
-      'CONCLUSION: The communication profiles and parent-reported experiences of children with complex Tourette syndrome are diverse. Interventions and accommodations need to be individualised to optimise language development and day-to-day communication.',
-    published: '2025-Jul-20',
+    id: '40686208',
+    title: 'The factors related to the prevention of fall injuries among students in primary schools using the PRECEDE model.',
+    abstract: "Falls are considered one of the important causes of injuries and fatalities among children and adolescents. Students are continuously exposed to the risks of falls, in the school environment. Therefore, a thorough examination of student behaviours and the environmental conditions of schools is of significant importance for preventing fall-related injuries in students. This study aims to investigate the influential factors for preventing fall-related injuries among primary school students using the PRECEDE model. This cross-sectional study has been done among 428 primary school students from grades one to six in schools of Hamadan city, located in western Iran. The students were selected randomly through a multi-stage cluster sampling method and data collection has been done between December 2023 and February 2024. The data collection tool was a researcher-made questionnaire based on the PRECEDE model. The questionnaire was included three sections including demographic questions, questions related to the constructs of the PRECEDE model (preventive behaviour constructs; predisposing factors including knowledge and attitude; reinforcing factors; enabling factors; and environmental factors), and questions concerning the history of fall-related injuries at school. The data collection has been done through interviews with the students. Data were analyzed using SPSS24 software after collection. The results of this study revealed that out of 428 students, 131(30.6%) experienced falls, with ages ranging from 7 to 12 years and an average age of 9.5 ± 1.70 years. Among these, 54 (41.2%) were females and 77 (58.7%) were males. The findings indicate that males experienced more falls than females, and females exhibited better preventive behaviours than males ( = 0.002). Most falls occurred in the schoolyard (37.4%) and during recess time (40.5%). The most common types of injuries were abrasions (28.2%) and head injuries (24.4%). Additionally, the findings showed that parents' education level was significantly associated with preventive fall behaviours among students. Hence, the students with parents who had higher education levels (mothers' education with ( = 0.02) and fathers' education with ( = 0.03) demonstrated better preventive behaviours and were less at risk of falls. Among the constructs of the PRECEDE model, the predisposing factors of knowledge ( = 0.04) and attitude ( = 0.001), enabling factors ( = 0.02), and environmental factors ( = 0.03) had a significant relationship with fall-preventive behaviours. According to the statistical results, the attitude construct was the predictor of students' fall- preventive behaviours. The study results indicated that fall-related injuries in the studied group are high. Additionally, the PRECEDE model can help identify factors associated with fall prevention among students. Given the significant role of behaviour and the school environment in fall prevention in this study, implementing appropriate interventions to enhance students' attitudes and knowledge and creating a safe school environment can be very beneficial and effective in improving fall-preventive behaviours.",
+    published: '2025-Jul-21',
     authors: [
-      'Feehan Angela',
-      'Pritchard Lesley',
-      'Colozzo Paola',
-      'Smith Veronica',
-      'Charest Monique'
+      'Memari Seyedeh Sahar',
+      'Afshari Maryam',
+      'Roshanaei Ghodratollah',
+      'Rezapur-Shahkolai Forouzan'
     ],
-    journal: 'International journal of speech-language pathology',
-    doi: '10.1080/17549507.2025.2529930',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684323/'
+    journal: 'International journal of injury control and safety promotion',
+    doi: '10.1080/17457300.2025.2533198',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686208/'
   },
   {
-    id: '40684282',
-    title: "Progress or stagnation? Is neurosurgery remaining a men's world?",
-    abstract: 'Although the number of female medical school students is increasing, there is an imbalance regarding women in neurosurgery. In addition, a huge gender gap concerning leading positions as well as scientific careers exists. We performed a questionnaire-based data assessment of former and current neurosurgical residents, medical school students in their final and medical school students in their first year. The questionnaire assessed reasons for resigning from the residency program as well as possible discrimination or gender-specific disadvantages which prevent medical school students from choosing a surgical speciality. We found that significantly more ( = 0.05) female residents left neurosurgical training and indicated gender-based inequalities during the program ( < 0.001). Significantly fewer final-year students would choose a surgical career compared to first-year medical students ( < 0.001). The main reasons against neurosurgical training were poor work-life balance, psychological stress and difficulties in family/child care. Women must continue to be supported to pursue surgical and scientific careers.',
-    published: '2025-Dec',
+    id: '40686094',
+    title: 'A cost-effectiveness analysis of behavioural, pharmacological, and surgical obesity treatments in Canada.',
+    abstract: 'AIMS: Effective weight management pharmacotherapies are a new alternative to bariatric surgery or health behaviour intervention (HBI) alone. Comparative cost-effectiveness evaluations can guide decision-making. We aimed to evaluate the cost-effectiveness of sleeve gastrectomy (SG), Roux-en-Y gastric bypass (RYGB), semaglutide, tirzepatide, and HBI compared to no treatment in preventing cardiometabolic complications among Canadian adults with class III obesity.\n' +
+      'MATERIALS AND METHODS: We developed a cohort-based Markov model with a 40-year time horizon. We examined cardiometabolic complications in 40-year-olds with class III obesity (BMI ≥40 kg/m) without type 2 diabetes or cardiovascular disease at baseline. We compared SG, RYGB, semaglutide 2.4 mg, tirzepatide 15 mg, HBI, and no treatment. We obtained data on treatment effects, probabilities, utilities, and costs from published literature. We expressed effectiveness in quality-adjusted life years (QALYs) and estimated costs from a Canadian public payer perspective. Outcomes included incremental cost-effectiveness ratios (ICERs) evaluated at a CAD $50 000/QALY willingness-to-pay threshold.\n' +
+      'RESULTS: RYGB and HBI were cost-effective strategies. HBI was cost-effective versus no treatment (ICER $14 279/QALY). RYGB demonstrated the highest QALYs (20.20) and was the most cost-effective strategy versus tirzepatide (ICER $44 667/QALY). Semaglutide and SG were strongly dominated due to higher costs and lower effectiveness. Tirzepatide was extendedly dominated by RYGB. Sensitivity analyses confirmed these findings and showed that lower drug prices could improve pharmacotherapy cost-effectiveness.\n' +
+      'CONCLUSIONS: RYGB and HBI are cost-effective for managing class III obesity. While RYGB provided the greatest health gains, access remains limited. Neither pharmacotherapy was cost-effective at current prices. Lower drug prices could significantly improve pharmacotherapy cost-effectiveness.',
+    published: '2025-Jul-21',
     authors: [
-      'Rapp Marion',
-      'Makowski Laura',
-      'Staub-Bartelt Franziska',
-      'Steinmann Julia',
-      'Sabel Michael'
+      'Gupta Nisha',
+      'Babyak Allie',
+      'Chorbajian Areni',
+      'Tardio Vanessa',
+      'Ballreich Jeromie',
+      'Dasgupta Kaberi'
     ],
-    journal: 'Medical education online',
-    doi: '10.1080/10872981.2025.2535414',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684282/'
+    journal: 'Diabetes, obesity & metabolism',
+    doi: '10.1111/dom.16627',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686094/'
   },
   {
-    id: '40684268',
-    title: "Reasons for and perceived barriers to applying for cardiology training: the 2024 British Junior Cardiologists' Association starter survey.",
-    abstract: "BACKGROUND AND AIMS: Understanding the reasons for, and perceived barriers to, applying for cardiology training is vital to interpret current application trends and address modifiable barriers to entry. A cross-sectional survey was conducted on behalf of the British Junior Cardiologists' Association (BJCA) to assess the opinions of resident doctors interested in pursuing a career in cardiology.\n" +
-      'METHODS: Data were collected on six domains: demographic information, intention to pursue a career in cardiology, prior clinical and academic experiences, reasons for and perceived barriers to applying for cardiology training (assessed using a Likert scale from one to five), and the impact of the transition from core medical training to internal medicine training.\n' +
-      'RESULTS: Responses were received from 171 of 307 (56%) eligible BJCA members. Of 171 participants, 109 (63.7%) stated they would definitely, and 29 (17.0%) would probably, apply for cardiology training. Formal research training was limited; of those who had published research, 77 (45.0%) had published fewer than five articles. The primary motivating factor for applying was the opportunity to perform invasive procedures [mean 4.2 ± standard deviation (SD) 1.0]; competition was identified as the most significant barrier, on average (3.8 ± SD 1.2). The transition to internal medicine training was viewed by 111 respondents (64.9%) as primarily serving the purpose of service provision.\n' +
-      'CONCLUSIONS: These data should allow potential applicants to make an informed decision as to their specialty of choice. Addressing modifiable barriers to entry may encourage a more diverse range of resident doctors to apply for cardiology training.',
-    published: '2025-Jul-20',
-    authors: [
-      'Gupta Ankit',
-      'Lawson Lucy',
-      'Bray Jonathan J H',
-      'Brown Oliver I',
-      'Drozd Michael',
-      'Straw Sam',
-      'Morgan Holly'
-    ],
-    journal: 'Postgraduate medical journal',
-    doi: '10.1093/postmj/qgaf111',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684268/'
-  },
-  {
-    id: '40684261',
-    title: 'Systematic reviews-an effective tool for academic motivation of advanced trainees.',
+    id: '40686080',
+    title: "Academic psychiatry is everyone's business: commentary, Critchley.",
     abstract: 'No abstract available',
-    published: '2025-Jul-20',
-    authors: [ 'Yewale Aabha P', 'Rao Shripada', 'Patole Sanjay' ],
-    journal: 'Postgraduate medical journal',
-    doi: '10.1093/postmj/qgaf107',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40684261/'
+    published: '2025-Jul',
+    authors: [ 'Critchley Hugo' ],
+    journal: 'The British journal of psychiatry : the journal of mental science',
+    doi: '10.1192/bjp.2025.55',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686080/'
+  },
+  {
+    id: '40686078',
+    title: 'Suicide by throat-cutting in the early 1800s.',
+    abstract: 'No abstract available',
+    published: '2025-Jul',
+    authors: [ 'El-Mallakh Rif S', 'Woods Regina L' ],
+    journal: 'The British journal of psychiatry : the journal of mental science',
+    doi: '10.1192/bjp.2025.34',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686078/'
+  },
+  {
+    id: '40686072',
+    title: "Academic psychiatry is everyone's business: commentary, Morriss.",
+    abstract: 'No abstract available',
+    published: '2025-Jul',
+    authors: [ 'Morriss Richard' ],
+    journal: 'The British journal of psychiatry : the journal of mental science',
+    doi: '10.1192/bjp.2025.31',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686072/'
+  },
+  {
+    id: '40686052',
+    title: 'Building Capacity in Horizon Scanning, Early Awareness, and Disinvestment: A Framework for Education and Training.',
+    abstract: 'No abstract available',
+    published: '2025-Jul-21',
+    authors: [
+      'Otte Maximilian',
+      'Esmail Rosmin',
+      'Ibargoyen-Roteta Nora',
+      'Gutierrez-Ibarluzea Iñaki',
+      'Dauben Hans-Peter'
+    ],
+    journal: 'International journal of technology assessment in health care',
+    doi: '10.1017/S0266462325100354',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686052/'
+  },
+  {
+    id: '40686036',
+    title: 'Medication Causes and Treatment of Delirium in Patients With and Without Dementia.',
+    abstract: 'INTRODUCTION: Medication associated with delirium in adult patients is poorly understood and considered both a predisposing and precipitating factor. Prescribing advice is lacking. This systematic review aims to collate evidence on medication risks in delirium associated with causation and treatment including mechanisms, treatment, and treatment alternatives in adult patients with and without dementia in an attempt to support prescribing decision-making and patient safety in healthcare practice.\n' +
+      'METHODS: A literature review of CNIAHL, IPA, APA PsycArticles, PubMed, Cochrane Library, SAGE Education, Science Direct, SCOPUS, Web of Science Core Collection, National Grey Literature Collection, Google Scholar, Ovid, and Open Access Theses and Dissertations was performed from 2000 for articles published in English. Original, peer-reviewed studies, meta-analyses, systematic and narrative reviews, case reports, commentaries, editorials, and scientific communication focusing on medication-associated delirium risk in adult patients (≥ 18 years) were included. Title, abstract, and full-text screening were completed independently by two reviewers. CASP, MMAT, JBI, and the SANAR tool were used to assess reporting quality. The protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO) (ID: CRD42022366020).\n' +
+      'RESULTS: Out of 3867 papers identified, 106 were included. Information about 20 different drug classes was reported. Despite a respectable quality rating, medication detail provided often lacks specificity about mechanisms of action, individual risk, dosage instructions, symptoms, and avoidable drug-drug combinations. Details on underlying mechanisms, pharmacological treatment, combinations, therapeutic alternatives, and medication associated with delirium in dementia patients were extracted.\n' +
+      'CONCLUSIONS: This summary offers the most detailed summary of medication-related information for delirium in patients with and without dementia to support prescribing decisions. While the detailed results can be used to support a multicomponent approach to delirium care, they also support the call for categorizing delirium into distinct etiological subgroups. The effect of medication on gut microbiome diversity and composition should be considered.',
+    published: '2025-Jul',
+    authors: [
+      'Weidmann Anita Elaine',
+      'Matthíasdóttir Rut',
+      'Proppé Guðný Björk',
+      'Tadić Ivana',
+      'Gunnarsson Pétur Sigurdur',
+      'Jónsdóttir Freyja'
+    ],
+    journal: 'Brain and behavior',
+    doi: '10.1002/brb3.70706',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40686036/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1184,15 +1185,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 32946,
+        _idleStart: 34004,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4669,
-        [Symbol(triggerId)]: 4667
+        [Symbol(asyncId)]: 4939,
+        [Symbol(triggerId)]: 4937
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1222,7 +1223,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       protocol: 'http:',
       options: [Object: null prototype],
       requests: [Object: null prototype] {},
-      sockets: [Object: null prototype],
+      sockets: [Object: null prototype] {},
       freeSockets: [Object: null prototype],
       keepAliveMsecs: 1000,
       keepAlive: true,
@@ -1230,7 +1231,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1324,7 +1325,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sun, 20 Jul 2025 15:10:57 GMT',
+      date: 'Mon, 21 Jul 2025 15:13:03 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1435,7 +1436,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sun, 20 Jul 2025 15:10:57 GMT',
+  date: 'Mon, 21 Jul 2025 15:13:03 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1545,16 +1546,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [Timeout],
-        _idleStart: 32949,
+        _idleNext: [TimersList],
+        _idleStart: 35357,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4688,
-        [Symbol(triggerId)]: 4686
+        [Symbol(asyncId)]: 4981,
+        [Symbol(triggerId)]: 4979
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1592,7 +1593,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 2,
+      totalSocketCount: 1,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1622,7 +1623,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       statusCode: 404,
       statusMessage: 'Not Found',
       client: [Socket],
-      _consuming: false,
+      _consuming: true,
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
@@ -1686,7 +1687,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Sun, 20 Jul 2025 15:10:57 GMT',
+      date: 'Mon, 21 Jul 2025 15:13:04 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1797,7 +1798,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Sun, 20 Jul 2025 15:10:57 GMT',
+  date: 'Mon, 21 Jul 2025 15:13:04 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1956,6 +1957,7 @@ Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
 Translating paper 12/50
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1735189817703517 seconds...
 Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
@@ -1993,25 +1995,25 @@ Translating paper: A Virtual Reality-Based Co-creation Approach to De...
 Translating paper 30/50
 Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 31/50
-Translating paper: A Higher Education: Age, Sex, and Sexual Orientati...
+Translating paper: Expanding the offer of Vaccinology Education with ...
 Translating paper 32/50
-Translating paper: Aligning family medicine residency training with s...
+Translating paper: Women with endometriosis: Experiences with pain ma...
 Translating paper 33/50
-Translating paper: The development and validation of a multi-dimensio...
+Translating paper: Global and regional white matter hyperintensities ...
 Translating paper 34/50
-Translating paper: Integrating fixed norms and relational responsiven...
+Translating paper: The factors related to the prevention of fall inju...
 Translating paper 35/50
-Translating paper: Emerging Use of Low-Dose Ketamine for Pain Managem...
+Translating paper: A cost-effectiveness analysis of behavioural, phar...
 Translating paper 36/50
-Translating paper: Comparing AI-generated and traditional textbook mu...
+Translating paper: Academic psychiatry is everyone's business: commen...
 Translating paper 37/50
-Translating paper: Language and communication in children with comple...
+Translating paper: Suicide by throat-cutting in the early 1800s....
 Translating paper 38/50
-Translating paper: Progress or stagnation? Is neurosurgery remaining ...
+Translating paper: Academic psychiatry is everyone's business: commen...
 Translating paper 39/50
-Translating paper: Reasons for and perceived barriers to applying for...
+Translating paper: Building Capacity in Horizon Scanning, Early Aware...
 Translating paper 40/50
-Translating paper: Systematic reviews-an effective tool for academic ...
+Translating paper: Medication Causes and Treatment of Delirium in Pat...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2028,30 +2030,146 @@ Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.779872201026063 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '56s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3664881839001137 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"53s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '53s'
+    }
+  ]
+}
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9599563403905957 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '48s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.971597828362854 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"45s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '45s'
+    }
+  ]
+}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9738539402813666 seconds...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.627761319862037 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"24s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '24s'
+    }
+  ]
+}
 Translation completed: 50 papers
-Removed duplicates: 681 -> 641
-Total papers after merging: 641 (631 existing + 50 new)
-Saved 641 papers to papers.json
+Removed duplicates: 691 -> 651
+Total papers after merging: 651 (641 existing + 50 new)
+Saved 651 papers to papers.json
 Generating HTML files...
-Generating index.html with 641 papers...
+Generating index.html with 651 papers...
 Successfully generated index.html
-Generating archive.html with 641 papers...
+Generating archive.html with 651 papers...
 Successfully generated archive.html
-Generating journal.html with 641 papers...
+Generating journal.html with 651 papers...
 Successfully generated journal.html
-Generating acquisition.html with 641 papers...
+Generating acquisition.html with 651 papers...
 Successfully generated acquisition.html
-Generating publication.html with 641 papers...
+Generating publication.html with 651 papers...
 Successfully generated publication.html
-Generating registration.html with 641 papers...
+Generating registration.html with 651 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 641
+Total papers in database: 651
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-20T15:38:45.395Z
+Timestamp: 2025-07-21T15:39:38.214Z
