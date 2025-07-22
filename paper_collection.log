@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-21T15:12:30.202Z
+Timestamp: 2025-07-22T15:12:39.822Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 641 existing papers from papers.json
+Loaded 651 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -543,169 +544,192 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40686295',
-    title: 'Expanding the offer of Vaccinology Education with the Master of Science in Immunology and Vaccinology.',
-    abstract: 'The COVID-19 pandemic revealed the urgency for well-trained professionals in vaccinology. With the purpose of building capacity in the field, the Catholic University of Portugal created the Masters in Immunology and Vaccinology. Here, I describe this innovative program and compare it to the current Vaccinology programs worldwide to reveal its uniqueness, and how it will contribute to reduce the burden of disease, improve disease prevention and promote healthier lives globally.',
-    published: '2025-Dec',
-    authors: [ 'Bettencourt Paulo J G' ],
-    journal: 'Human vaccines & immunotherapeutics',
-    doi: '10.1080/21645515.2025.2536909',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686295/'
+    id: '40693440',
+    title: 'Sensory impairment and dementia risk among older adults in rural South Africa.',
+    abstract: 'INTRODUCTION: South Africa faces growing dementia challenges, worsened by limited medical resources and low education. Modifiable risk factors like hearing and vision impairments remain understudied despite their high prevalence.\n' +
+      'METHODS: We analyzed data from 567 participants in a rural South African cohort to examine the associations between vision and hearing impairment, and dementia outcomes. Multinomial logistic regression assessed associations between sensory impairments (distance vision, near vision, hearing) and mild cognitive impairment (MCI) or dementia. Linear regression examined sensory impairment and predicted dementia probability score 2 years later.\n' +
+      'RESULTS: Half of the participants were over 70, with no formal education. Sensory impairments were common, especially in dementia cases. Distance vision impairment was linked to both MCI and dementia, while near vision and hearing impairments were associated with dementia. Hearing impairment also predicted higher dementia probability after 2 years.\n' +
+      'DISCUSSION: Addressing sensory impairments is key to dementia prevention in rural South Africa.\n' +
+      'HIGHLIGHTS: Among rural older South Africans, 65% had near vision impairment and 47% had hearing impairment. Distance or near vision and hearing impairments are linked to an increased risk of dementia. Distance vision impairment is also associated with a higher risk of mild cognitive impairment (MCI). Dementia risk was seven times higher with distance vision, near vision and hearing impairment. Hearing impairment increased the probability of dementia 2 years later in initially non-demented individuals.',
+    published: '2025-Jul',
+    authors: [
+      'Guo Muqi',
+      'Bassil Darina T',
+      'Farrell Meagan T',
+      'Wagner Ryan G',
+      'Tipping Brent',
+      'Mahlalela Nomsa B',
+      'Kapaon David A',
+      'Tollman Stephen',
+      'Berkman Lisa F'
+    ],
+    journal: "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+    doi: '10.1002/alz.70513',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693440/'
   },
   {
-    id: '40686285',
-    title: 'Women with endometriosis: Experiences with pain management and views on optimal healthcare through the concept of health literacy.',
-    abstract: 'BACKGROUND: Endometriosis is a chronic inflammatory disease, characterised by pain and potential fertility reduction, affecting 6%-10% of women. Pain management courses may promote self-care and enhance patient satisfaction. However, research into the experiences of participation in such courses are lacking.\n' +
-      'OBJECTIVES: The study aims to describe the experiences of Norwegian women with endometriosis after pain management course and their view on optimal healthcare through organisational and individual health literacy.\n' +
-      'DESIGN: Qualitative study as part of a randomised controlled trial (NCT05091268).\n' +
-      'METHODS: Semi-structured individual in-depth interviews were conducted between August and November 2023 with 19 women diagnosed with endometriosis, recruited from two University hospitals specialising in endometriosis care, through a patient organisation and social media, after participation in a multidisciplinary pain management course.\n' +
-      'RESULTS: Reflexive thematic analysis yielded two main themes: (1) Insightful experiences with individual health literacy and (2) frustrating experiences with organisational health literacy. Participants reported a positive shift in their ability to self-manage endometriosis following the pain management course, demonstrating a progression from passive to active participation in their own care. The participants also expressed a strong and recurring need for enhanced dissemination of information, including a need for post-diagnosis educational courses, highlighting a demand for ongoing, interactive support tailored to their condition.\n' +
-      'CONCLUSION: A need emerges for improved dissemination of information, enhanced monitoring, and health expertise at an organisational level within the healthcare system. Thus, future health care services should aim to provide seamless, multidisciplinary treatment to improve patient satisfaction.\n' +
-      'REGISTRATION: Trial registry name: Effect of Physical Activity and Pain Education on Endometriosis-Associated Pain.\n' +
-      'REGISTRATION NUMBER: NCT05091268. URL: https://clinicaltrials.gov/study/NCT05091268.',
+    id: '40693395',
+    title: 'Comprehensive Comparative Analysis of the Efficiency of Two Clearing Agents in Natural Transparent Teeth Preparation for Dental Education.',
+    abstract: 'AIM: To assess the effectiveness of the benzyl benzoate and benzyl alcohol (BABB) solution in transparent teeth preparation compared to methyl salicylate using comprehensive digital and radiographic quantitative values analysis.\n' +
+      "METHODOLOGY: Freshly extracted 32 single-rooted teeth were immersed in 10% formalin for 24 h. They were then processed following a standard demineralization and dehydration protocol. The teeth were then divided into two groups: the first group, consisting of 12 teeth, was immersed in the BABB solution for 24 h; the second group of 20 teeth underwent the traditional protocol, which involved soaking the teeth in 99% methyl salicylate for the same duration. The optical properties of the processed teeth's translucency were evaluated by transluminant light imaging using a collimated light source and digital camera. Radiographic images of each tooth included in the study, along with a control group consisting of a freshly extracted natural tooth, were acquired under standardised computer settings, exposure conditions and X-ray tube positioning. The segmentation of the radiographic images into superpixels and the selection of areas of interest were conducted in the same manner as with visible light images. Image processing algorithms within the MatLab computational environment were utilised to assess the colour and intensity of the translucent light at the apical region of the root for each tooth.\n" +
+      'RESULTS: The optical properties of selected anatomical locations were consistent across both groups of teeth when evaluating hue, saturation and value of pixels. The X-ray absorption in the translucent teeth was significantly lower than that in the non-translucent teeth, with notable differences observed between the groups; specifically, teeth affected by BABB material exhibited greater permeability to X-rays than those affected by methyl salicylate.\n' +
+      'CONCLUSIONS: The BABB solution demonstrates comparable efficacy to methyl salicylate regarding the optical properties of translucent teeth. When examining X-ray absorption, teeth treated with the BABB solution exhibited greater permeability to X-ray absorption than those treated with methyl salicylate.',
+    published: '2025-Jul-22',
+    authors: [
+      'Kostenkova Ana',
+      'Onashko Yuliia',
+      'Kriščiukaitis Algimantas',
+      'Petrolis Robertas',
+      'Venskutonis Tadas',
+      'Lodienė Greta'
+    ],
+    journal: 'International endodontic journal',
+    doi: '10.1111/iej.70005',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693395/'
+  },
+  {
+    id: '40693365',
+    title: 'Knowledge, acceptance, uptake barriers and missed opportunities of human papillomavirus vaccine among female adolescents in Benin City, Nigeria: A mixed method study.',
+    abstract: 'INTRODUCTION: The human papillomavirus (HPV) vaccine has shown efficacy against cervical cancer and HPV-related malignancies. The vaccine was recently introduced in Nigeria as a routine immunization, free for young girls aged 9 to 14 years. This study aimed to determine the knowledge, acceptance, uptake barriers and missed opportunities of HPV immunization among adolescents in Benin City, Nigeria.\n' +
+      'METHOD: A descriptive cross-sectional study using mixed methods for data collection was carried out in four secondary schools in Benin City, Nigeria, over a 3-month period, following ethical approval. Quantitative data were analyzed using SPSS 25.0, and qualitative data were analyzed using themes. P-values were set at less than 0.05.\n' +
+      'RESULTS: There were 801 students with a mean age group of 14.3 ± 1.85. Only 56.5% had heard of the HPV vaccine; 15.5% had good knowledge of HPV, 23.4% received the vaccine, while 25.8% were willing to receive the vaccine when available. The reasons for refusal were fear of side effects (56.3%), fear of needles (18.2%), and lack of adequate information (11.3%). The missed opportunity was 71.9%. Fathers with primary level education and an odds ratio of 0.181 (95% confidence interval: 0.034-0.947, P = 0.043) and pupils of schools located in rural settings with an odds ratio of 0.369 (95% confidence interval: 0.205-0.665, P < 0.001) were less likely to accept the HPV vaccine. The teachers agreed that HPV vaccination was a good idea, while the parents shared divergent views.\n' +
+      'CONCLUSION: In this study, the knowledge and acceptance of HPV vaccine were found to be low, and there was a significant proportion of missed opportunities. An improved public awareness campaign is advocated.',
+    published: '2025-Jul-22',
+    authors: [
+      'Imarengiaye Ese-Ose Obehi-Oye',
+      'Iweka Reuben Obioma',
+      'Anya Chidinma Joy',
+      'Nwaogwugwu Joy Chinyere',
+      'Ofili Antoinette Ngozi'
+    ],
+    journal: 'International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics',
+    doi: '10.1002/ijgo.70388',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693365/'
+  },
+  {
+    id: '40693352',
+    title: `"The Technology We've Been Forced to Use": Impact of Online Service Delivery for Kinship Families During the COVID-19 Pandemic.`,
+    abstract: "PURPOSE: The COVID-19 pandemic rapidly changed the service landscape for both professionals and families. Kinship families, who often navigate multiple systems concurrently with higher service needs, were among the most vulnerable. This study explores kinship caregivers' and child welfare professionals' perceptions of changes in service delivery during the pandemic, specifically the sudden shift to virtual platforms.\n" +
+      "MATERIALS AND METHODS: To understand participants' experiences, focus groups with protocols shaped by initial Delphi Rounds were implemented with 25 kinship caregivers and 34 child welfare professionals from a national sample.\n" +
+      "RESULTS: Caregiver and professionals shared themes related to how COVID-19 precautions impacted service delivery; kinship families' access to, knowledge, and use of technology; and benefits and challenges for implementing virtual support.\n" +
+      'DISCUSSION: Based on findings shared by participants, a model illustrating influencing factors for online service delivery was created highlighting technological capital, client factors, provider factors, and service type as key components. Implications of implementing online supports in practice are discussed, including technology access, training in social work education, and future research areas.\n' +
+      "CONCLUSION: Despite the many adversities the COVID-19 pandemic presented for professionals and kinship families, this unprecedented time also paved the way for us think differently about service accessibility and the benefits and challenges of online supports, especially in a world that is quickly moving toward automation. Considering both families' and professionals' perspectives is key to integrating virtual supports into the current service delivery landscape in equitable and effective ways.",
+    published: '2025-Jul-22',
+    authors: [ 'Tobin Angela', 'Klein-Cox Amanda', 'Denby Ramona' ],
+    journal: 'Journal of evidence-based social work (2019)',
+    doi: '10.1080/26408066.2025.2536019',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693352/'
+  },
+  {
+    id: '40693279',
+    title: 'A qualitative exploration of STI partner notification services delivery models among key stakeholders in rural southwestern Uganda.',
+    abstract: "BACKGROUND: Comprehensive STI care requires not only patient treatment but STI partner notification (PN) and evaluation to prevent ongoing STI transmission and reinfection. In rural, southwestern Uganda, we explored healthcare practitioners' views on three STI PN models that focused on task-shifting to non-physician practitioners to inform the development of a novel STI PN services delivery system.\n" +
+      "METHODS: From September to November 2023, we conducted individual in-depth interviews with 32 participants from 4 categories (8 participants from each category): patients with a self-reported history of having an STI in Uganda, healthcare workers (physicians, nurses, and community health workers), pharmacists, and healthcare administrators (Ministry of Health officials and regional referral hospital administrators). Interviews explored participants' views on a nursing-based, pharmacy-based, and community-based STI PN models as well as healthcare system tools and needs to facilitate PN. We used inductive and deductive approaches to generate a codebook guided by the Consolidated Framework for Implementation Research in a thematic analysis.\n" +
+      'RESULTS: Ten female and twenty-two male participants participated in individual in-depth interviews. The median age of the patient and healthcare practitioner participants was 32 and 34 years, respectively. We found that (1) the nursing model was overall supported as nurses (though with one participant noting dissatisfaction with nurses), (2) pharmacies are well-positioned to engage in STI PN as they are early points of contact for patients, incentivized monetarily by PN and patient-delivered partner medication, and have the potential to physically restructure to create private spaces and increase counseling training, (3) the community-based model should center on village health teams and focus on advocacy and education.\n' +
+      'CONCLUSION: Given the high STI incidence globally and in sub-Saharan Africa, exploring innovative STI care models that resonate with patients and healthcare practitioners will be important. Future work includes a Delphi method to refine these models for testing.',
     published: '2025',
     authors: [
-      'Kvåle Charlotte',
-      'Tokovska Miroslava',
-      'Tennfjord Merete Kolberg'
+      'Chitneni Pooja',
+      'Owembabazi Moran',
+      'Kanini Eunice',
+      'Kansiime Rosemary',
+      'Muyindike Winnie R',
+      'Psaros Christina',
+      'Haberer Jessica E',
+      'Matthews Lynn T'
     ],
-    journal: "Women's health (London, England)",
-    doi: '10.1177/17455057251347085',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686285/'
+    journal: 'Frontiers in reproductive health',
+    doi: '10.3389/frph.2025.1564836',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693279/'
   },
   {
-    id: '40686214',
-    title: "Global and regional white matter hyperintensities in Alzheimer's disease: Exploring etiologies and cognitive correlates.",
-    abstract: "BackgroundWhite matter hyperintensities (WMH) are commonly observed in Alzheimer's disease (AD), but their underlying pathophysiology remains poorly understood.ObjectiveThis cross-sectional study aims to explore the multifactorial etiologies and cognitive correlates of global and regional WMH in a cohort of biologically diagnosed AD patients.MethodsWe included 170 AD patients who underwent brain MRI, neuropsychological testing, and cerebrospinal fluid (CSF) biomarker evaluation within three months. Linear and logostic regressions were used to assess associations between global/regional WMH and age, cerebral microbleeds (CMB), AD biomarkers, cortical atrophy, and vascular risk scores. Sensitivity analyses included replacing vascular score with hypertension, p-tau181 with t-tau, and inclusion of  ε4 status. Associations between Mini-Mental State Exam scores and WMH and atrophy burden were also evaluated, adjusting for age, sex, and education.ResultsGreater global WMH burden was significantly associated with older age (β = 0.03, p < 0.001), lower CSF Aβ levels (β = -0.0014, p = 0.01), and more severe CMB grade (β = 0.48, p = 0.003), but not with vascular risk scores. Regionally, WMH in the paraventricular, frontal, and parietal lobes were linked to CSF Aβ and CMB. Cognitive impairment was independently associated with increased paraventricular WMH burden (β = -0.22, p < 0.001) and medial temporal atrophy (β = -0.82, p < 0.001).ConclusionsOur findings suggest that WMH in AD-particularly in the paraventricular, frontal, and parietal areas-are driven more by AD-specific pathology, including amyloid deposition and cerebral amyloid angiopathy, than by conventional vascular risk. Paraventricular WMH contribute to cognitive decline independent of cortical atrophy, underscoring their relevance as potential imaging biomarkers in AD.",
-    published: '2025-Jul-21',
+    id: '40693256',
+    title: 'Exploring professional vision of vet students and tutors: noticing, evaluating and reasoning about practice.',
+    abstract: "In dual vocational education and training (VET) programs, students learn across school and work contexts. Educators in both these contexts reside in different socio-cultural practices and can have different or even contradicting views on practice, influencing their guidance. In this study, we used the concept of professional vision to explore differing views on practice between participants with various educational roles, namely students, school teachers and workplace supervisors. In total, 11 students, 11 school teachers and seven workplace supervisors were asked to view the same set of five videos showing apprentices in the domain of underground infrastructure performing domain-specific tasks. Participants were asked to explain what they noticed in the videos and evaluate the apprentices' performance. The data analysis consisted of a mixed-method approach. We quantitatively compared how educational roles viewed and evaluated task performance, followed by a qualitative ventriloquial analysis of their reasoning. Our findings highlight the diversity in professional vision among participants. Participants focused on different elements of practice, evaluated the same elements differently and showed variations in their reasoning. However, this could only be partly explained by their educational role. These findings suggest a need to prepare VET students for the different views of practice they will encounter during their careers, ultimately forming their well-founded professional vision.",
+    published: '2025',
     authors: [
-      'Qiu Yuyue',    'Bao Jialu',
-      'Wang Tianyi',  'Shang Li',
-      'Chu Shanshan', 'Jin Wei',
-      'Wang Wenjun',  'Jiang Yuhan',
-      'Li Bo',        'Huang Yixuan',
-      'Hou Bo',       'Sha Longze',
-      'You Yunfan',   'Li Yuanheng',
-      'Qiu Ling',     'Xu Qi',
-      'Feng Feng',    'Dong Liling',
-      'Mao Chenhui',  'Gao Jing'
+      'Brands Sietse',
+      'Endedijk Maaike D',
+      'Kollöffel Bas',
+      'Savelsbergh Elwin R'
     ],
-    journal: "Journal of Alzheimer's disease : JAD",
-    doi: '10.1177/13872877251360239',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686214/'
+    journal: 'Vocations and learning',
+    doi: '10.1007/s12186-025-09375-4',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693256/'
   },
   {
-    id: '40686208',
-    title: 'The factors related to the prevention of fall injuries among students in primary schools using the PRECEDE model.',
-    abstract: "Falls are considered one of the important causes of injuries and fatalities among children and adolescents. Students are continuously exposed to the risks of falls, in the school environment. Therefore, a thorough examination of student behaviours and the environmental conditions of schools is of significant importance for preventing fall-related injuries in students. This study aims to investigate the influential factors for preventing fall-related injuries among primary school students using the PRECEDE model. This cross-sectional study has been done among 428 primary school students from grades one to six in schools of Hamadan city, located in western Iran. The students were selected randomly through a multi-stage cluster sampling method and data collection has been done between December 2023 and February 2024. The data collection tool was a researcher-made questionnaire based on the PRECEDE model. The questionnaire was included three sections including demographic questions, questions related to the constructs of the PRECEDE model (preventive behaviour constructs; predisposing factors including knowledge and attitude; reinforcing factors; enabling factors; and environmental factors), and questions concerning the history of fall-related injuries at school. The data collection has been done through interviews with the students. Data were analyzed using SPSS24 software after collection. The results of this study revealed that out of 428 students, 131(30.6%) experienced falls, with ages ranging from 7 to 12 years and an average age of 9.5 ± 1.70 years. Among these, 54 (41.2%) were females and 77 (58.7%) were males. The findings indicate that males experienced more falls than females, and females exhibited better preventive behaviours than males ( = 0.002). Most falls occurred in the schoolyard (37.4%) and during recess time (40.5%). The most common types of injuries were abrasions (28.2%) and head injuries (24.4%). Additionally, the findings showed that parents' education level was significantly associated with preventive fall behaviours among students. Hence, the students with parents who had higher education levels (mothers' education with ( = 0.02) and fathers' education with ( = 0.03) demonstrated better preventive behaviours and were less at risk of falls. Among the constructs of the PRECEDE model, the predisposing factors of knowledge ( = 0.04) and attitude ( = 0.001), enabling factors ( = 0.02), and environmental factors ( = 0.03) had a significant relationship with fall-preventive behaviours. According to the statistical results, the attitude construct was the predictor of students' fall- preventive behaviours. The study results indicated that fall-related injuries in the studied group are high. Additionally, the PRECEDE model can help identify factors associated with fall prevention among students. Given the significant role of behaviour and the school environment in fall prevention in this study, implementing appropriate interventions to enhance students' attitudes and knowledge and creating a safe school environment can be very beneficial and effective in improving fall-preventive behaviours.",
-    published: '2025-Jul-21',
+    id: '40693209',
+    title: 'The Need to Enhance the Use of Teleconsultation: A Qualitative Study Among Health Providers to Reduce the Burden of Low Birth Weight.',
+    abstract: ' Low birth weight remains a health concern in the Special Region of Yogyakarta, Indonesia. Effective management of low birth weight cases is crucial, yet community-based health programs face challenges in addressing this issue.  This study is aimed at exploring the needs, experience, and perspectives of healthcare providers regarding low birth weight prevention programs.  This was a qualitative descriptive study. Data were collected from June to December 2023 in Kulon Progo District, Yogyakarta, Indonesia. Data were collected through a focus group discussion with nine midwives. Triangulation was conducted with 12 breastfeeding mothers, one nutritionist, and one head of the primary health center through in-depth interviews. Each discussion and interview were recorded, transcribed, and subjected to thematic analysis to identify key themes.  Three themes were discovered in this study: programmatic initiatives of healthcare providers; poor knowledge, attitude, and practice with limited resources and access; enhancing the use of teleconsultations. Programmatic initiatives from primary healthcare centers have focused on preventing low birth weight through targeted outreach, education, and prenatal care for at-risk mothers. However, the persistent challenge of insufficient human resources for health has hindered the effectiveness and reach of these efforts. To enhance LBW prevention strategies, the needs of digital technology by integrating digital tools and electronic health records are imperative.  Effectively managing low birth weight requires utilization of technology to strengthen healthcare interventions. Digital solutions enhance communication, broaden service reach, and enable timely support, especially in underserved areas. Incorporating these tools into health programs improves the delivery and accessibility of care, presenting a valuable approach to advancing maternal and child health outcomes.',
+    published: '2025',
     authors: [
-      'Memari Seyedeh Sahar',
-      'Afshari Maryam',
-      'Roshanaei Ghodratollah',
-      'Rezapur-Shahkolai Forouzan'
+      'Lismidiati Wiwin',
+      'Widyawati Widyawati',
+      'Hapsari Elsi D',
+      'Akhmadi Akhmadi',
+      'Sumunar Dimas S E W'
     ],
-    journal: 'International journal of injury control and safety promotion',
-    doi: '10.1080/17457300.2025.2533198',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686208/'
+    journal: 'International journal of telemedicine and applications',
+    doi: '10.1155/ijta/2336484',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693209/'
   },
   {
-    id: '40686094',
-    title: 'A cost-effectiveness analysis of behavioural, pharmacological, and surgical obesity treatments in Canada.',
-    abstract: 'AIMS: Effective weight management pharmacotherapies are a new alternative to bariatric surgery or health behaviour intervention (HBI) alone. Comparative cost-effectiveness evaluations can guide decision-making. We aimed to evaluate the cost-effectiveness of sleeve gastrectomy (SG), Roux-en-Y gastric bypass (RYGB), semaglutide, tirzepatide, and HBI compared to no treatment in preventing cardiometabolic complications among Canadian adults with class III obesity.\n' +
-      'MATERIALS AND METHODS: We developed a cohort-based Markov model with a 40-year time horizon. We examined cardiometabolic complications in 40-year-olds with class III obesity (BMI ≥40 kg/m) without type 2 diabetes or cardiovascular disease at baseline. We compared SG, RYGB, semaglutide 2.4 mg, tirzepatide 15 mg, HBI, and no treatment. We obtained data on treatment effects, probabilities, utilities, and costs from published literature. We expressed effectiveness in quality-adjusted life years (QALYs) and estimated costs from a Canadian public payer perspective. Outcomes included incremental cost-effectiveness ratios (ICERs) evaluated at a CAD $50 000/QALY willingness-to-pay threshold.\n' +
-      'RESULTS: RYGB and HBI were cost-effective strategies. HBI was cost-effective versus no treatment (ICER $14 279/QALY). RYGB demonstrated the highest QALYs (20.20) and was the most cost-effective strategy versus tirzepatide (ICER $44 667/QALY). Semaglutide and SG were strongly dominated due to higher costs and lower effectiveness. Tirzepatide was extendedly dominated by RYGB. Sensitivity analyses confirmed these findings and showed that lower drug prices could improve pharmacotherapy cost-effectiveness.\n' +
-      'CONCLUSIONS: RYGB and HBI are cost-effective for managing class III obesity. While RYGB provided the greatest health gains, access remains limited. Neither pharmacotherapy was cost-effective at current prices. Lower drug prices could significantly improve pharmacotherapy cost-effectiveness.',
-    published: '2025-Jul-21',
+    id: '40693206',
+    title: 'Factors influencing nutritional literacy among rural older adults: a cross-sectional survey based on the theory of planned behavior.',
+    abstract: 'OBJECTIVE: To investigate the factors influencing nutritional literacy among rural elderly individuals in northern Sichuan based on the theory of planned behavior (TPB).\n' +
+      'METHODS: A convenience sampling method was employed to recruit 311 elderly participants (aged ≥60 years) from Sanlin Village (Cangxi County, Guangyuan City), Puji Village (Yilong County, Nanchong City), and Luhua Village (Bazhou District, Bazhong City). The survey instruments included general demographic questionnaires, the nutrition attitude scale (NAS), the multidimensional scale of perceived social support (MSPSS), the instrumental activities of daily living scale (IADLS), the general self-efficacy scale (GSES), and the nutrition literacy questionnaire for the Chinese elderly (NLQ-E). Data were analyzed using SPSS 26.0 and AMOS 23.0.\n' +
+      'RESULTS: Hierarchical regression analysis revealed that education level positively predicted nutritional literacy (β = 0.126,  = 2.659,  < 0.01), while denture use due to tooth damage negatively predicted nutritional literacy (β = -0.077,  = -2.375,  < 0.05). Nutrition attitude (β = 0.312,  = 6.662,  < 0.001) and perceived social support (β = 0.243,  = 4.283,  < 0.001) were positive predictors, whereas daily living ability exhibited a negative predictive effect (β = -0.251,  = -4.445,  < 0.001). Structural equation modeling (SEM) indicated that nutrition attitude had a direct effect of 0.333 and an indirect effect of 0.050 on nutritional literacy. Daily living ability showed a direct effect of -0.481 and an indirect effect of -0.101. Self-efficacy partially mediated the relationships between nutrition attitude and nutritional literacy, as well as between daily living ability and nutritional literacy.\n' +
+      'CONCLUSION: Elderly individuals in northern Sichuan with more positive nutrition attitudes, higher perceived social support, and stronger daily living abilities demonstrated higher nutritional literacy. Self-efficacy partially mediated the influence of nutrition attitude and daily living ability on nutritional literacy.',
+    published: '2025',
+    authors: [ 'Liu Shasha', 'Fan Xiaomei', 'Jiang Li', 'Liu Tao' ],
+    journal: 'Frontiers in nutrition',
+    doi: '10.3389/fnut.2025.1578836',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693206/'
+  },
+  {
+    id: '40693187',
+    title: "A Novel Microlearning Asynchronous Curriculum to Improve Internal Medicine Trainees' Confidence and Skill in Interpreting ECGs.",
+    abstract: 'BACKGROUND: Skills in electrocardiogram (ECG) interpretation are critical in clinical decision making but remain poor among Internal Medicine residents. There remains no standardized method for teaching ECG interpretation.\n' +
+      'METHODS: This study aimed to leverage the benefits of microlearning by assessing an asynchronous microlearning ECG curriculum for Internal Medicine residents at a single academic residency program between September 2023 and June 2024. The ECG curriculum was comprised of 30 mandatory weekly ECGs which included a clinical vignette, a 12-lead ECG, and a single multiple-choice or free response question posted on Microsoft Teams. Residents were required to submit interpretations within 1 week, after which the answer, a short description of ECG findings, and clinical pearls were posted. Data collection included pre-post surveys with a 1- to 5-Likert scale measuring self-reported confidence and a test containing 15 unique ECGs.\n' +
+      'RESULTS: Of 151 total categorical and preliminary Internal Medicine residents, 38 (25.2%) completed pre-post surveys and were analyzed as matched pairs. Residents demonstrated increases in Likert ratings of confidence (mean post-pre score difference 0.44 of 5,  = <.01), overall performance (mean post-pre raw score difference 0.97 of 15,  = <.01), and performance in identifying normal variants (mean post-pre score subset difference 14.21%,  = .017). Residents had no significant change in performance in identifying tachyarrhythmias (mean post-pre score subset difference 5.9%,  = .24), ST-segment changes (0.88%,  = 0.89), or conduction disease (-0.65%,  = .92).\n' +
+      'CONCLUSIONS: Overall, this curriculum was effective in improving resident confidence in and knowledge of ECG interpretation, with a particular strength in identifying normal/normal variants. Next steps include targeting specific ECG pathologies in which residents show particular knowledge gaps and creation of a 3-year longitudinal curriculum to reinforce knowledge over the course of a 3-year residency.',
+    published: '2025',
     authors: [
-      'Gupta Nisha',
-      'Babyak Allie',
-      'Chorbajian Areni',
-      'Tardio Vanessa',
-      'Ballreich Jeromie',
-      'Dasgupta Kaberi'
+      'Capustin Matthew',
+      'Weintraub Spencer',
+      'Hsieh Ji-Cheng',
+      'Alboucai Jack',
+      'Antara Farzana',
+      'Friedman Karen'
     ],
-    journal: 'Diabetes, obesity & metabolism',
-    doi: '10.1111/dom.16627',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686094/'
+    journal: 'Journal of medical education and curricular development',
+    doi: '10.1177/23821205251358038',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693187/'
   },
   {
-    id: '40686080',
-    title: "Academic psychiatry is everyone's business: commentary, Critchley.",
-    abstract: 'No abstract available',
-    published: '2025-Jul',
-    authors: [ 'Critchley Hugo' ],
-    journal: 'The British journal of psychiatry : the journal of mental science',
-    doi: '10.1192/bjp.2025.55',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686080/'
-  },
-  {
-    id: '40686078',
-    title: 'Suicide by throat-cutting in the early 1800s.',
-    abstract: 'No abstract available',
-    published: '2025-Jul',
-    authors: [ 'El-Mallakh Rif S', 'Woods Regina L' ],
-    journal: 'The British journal of psychiatry : the journal of mental science',
-    doi: '10.1192/bjp.2025.34',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686078/'
-  },
-  {
-    id: '40686072',
-    title: "Academic psychiatry is everyone's business: commentary, Morriss.",
-    abstract: 'No abstract available',
-    published: '2025-Jul',
-    authors: [ 'Morriss Richard' ],
-    journal: 'The British journal of psychiatry : the journal of mental science',
-    doi: '10.1192/bjp.2025.31',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686072/'
-  },
-  {
-    id: '40686052',
-    title: 'Building Capacity in Horizon Scanning, Early Awareness, and Disinvestment: A Framework for Education and Training.',
-    abstract: 'No abstract available',
-    published: '2025-Jul-21',
-    authors: [
-      'Otte Maximilian',
-      'Esmail Rosmin',
-      'Ibargoyen-Roteta Nora',
-      'Gutierrez-Ibarluzea Iñaki',
-      'Dauben Hans-Peter'
-    ],
-    journal: 'International journal of technology assessment in health care',
-    doi: '10.1017/S0266462325100354',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686052/'
-  },
-  {
-    id: '40686036',
-    title: 'Medication Causes and Treatment of Delirium in Patients With and Without Dementia.',
-    abstract: 'INTRODUCTION: Medication associated with delirium in adult patients is poorly understood and considered both a predisposing and precipitating factor. Prescribing advice is lacking. This systematic review aims to collate evidence on medication risks in delirium associated with causation and treatment including mechanisms, treatment, and treatment alternatives in adult patients with and without dementia in an attempt to support prescribing decision-making and patient safety in healthcare practice.\n' +
-      'METHODS: A literature review of CNIAHL, IPA, APA PsycArticles, PubMed, Cochrane Library, SAGE Education, Science Direct, SCOPUS, Web of Science Core Collection, National Grey Literature Collection, Google Scholar, Ovid, and Open Access Theses and Dissertations was performed from 2000 for articles published in English. Original, peer-reviewed studies, meta-analyses, systematic and narrative reviews, case reports, commentaries, editorials, and scientific communication focusing on medication-associated delirium risk in adult patients (≥ 18 years) were included. Title, abstract, and full-text screening were completed independently by two reviewers. CASP, MMAT, JBI, and the SANAR tool were used to assess reporting quality. The protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO) (ID: CRD42022366020).\n' +
-      'RESULTS: Out of 3867 papers identified, 106 were included. Information about 20 different drug classes was reported. Despite a respectable quality rating, medication detail provided often lacks specificity about mechanisms of action, individual risk, dosage instructions, symptoms, and avoidable drug-drug combinations. Details on underlying mechanisms, pharmacological treatment, combinations, therapeutic alternatives, and medication associated with delirium in dementia patients were extracted.\n' +
-      'CONCLUSIONS: This summary offers the most detailed summary of medication-related information for delirium in patients with and without dementia to support prescribing decisions. While the detailed results can be used to support a multicomponent approach to delirium care, they also support the call for categorizing delirium into distinct etiological subgroups. The effect of medication on gut microbiome diversity and composition should be considered.',
-    published: '2025-Jul',
-    authors: [
-      'Weidmann Anita Elaine',
-      'Matthíasdóttir Rut',
-      'Proppé Guðný Björk',
-      'Tadić Ivana',
-      'Gunnarsson Pétur Sigurdur',
-      'Jónsdóttir Freyja'
-    ],
-    journal: 'Brain and behavior',
-    doi: '10.1002/brb3.70706',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40686036/'
+    id: '40693170',
+    title: 'Early Detection and Intervention Practices Provided by Physical and Occupational Therapists in Saudi Arabia for Children with or at Risk for Cerebral Palsy.',
+    abstract: 'PURPOSE: Accurate cerebral Palsy (CP) diagnosis is possible before or at the age of 5 months. However, little is known about the practice of early detection guidelines in Saudi Arabia. The objective of this study was to explore the current physical therapy (PT) and occupational therapy (OT) early detection practices for children (0-3 years) with or at risk for CP and knowledge and application of evidence-based practices (EBP) for these children.\n' +
+      'PATIENTS AND METHODS: A cross-sectional study using a purpose-developed electronic survey was distributed to physical and occupational therapists who work with young children with or at risk of CP. Descriptive statistics and cross-tabulations were employed to analyse the data.\n' +
+      "RESULTS: A total of 76 participants completed the survey questions and were included in the analysis. Less than half of the patients (46%) received a diagnosis of being at risk for CP between 0 and 5 months of age. Only 16% of the participants are certified in using the Prechtl Qualitative Assessment. Seventy-eight percent of the participants provide parents with prognostic information regarding their children's diagnosis. Sixty-six percent of the providers always used goal-oriented therapy, 30% always used Neurodevelopmental Treatment, 22% always used passive intervention, and 84% always used caregiver education in their treatment. Application of constraint-induced movement therapy was significantly correlated with a number of demographic variables.\n" +
+      'CONCLUSION: This study showed that the majority of therapists consider EBP in evaluating and treating young children with CP. However, more attention should be directed toward training therapists to utilize sensitive tools to detect CP early, enabling them to incorporate EBP in their management plan. Although therapists follow some of the recommended interventions, many therapists still use ineffective treatments with children with CP. A national guideline is required to unify practice and illustrate the role of PT and OT in the management of CP.',
+    published: '2025',
+    authors: [ 'Gmmash Afnan', 'Aljuhani Turki', 'Albesher Reem A' ],
+    journal: 'Journal of multidisciplinary healthcare',
+    doi: '10.2147/JMDH.S526999',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40693170/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
@@ -895,6 +919,368 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
+    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
+    at Unzip.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.ijsim.net',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 6,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 48421,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 4935,
+        [Symbol(triggerId)]: 4933
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.ijsim.net\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 2,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.ijsim.net',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 1,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _timeout: null,
+      _isRedirect: true,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'text/html',
+      'cache-control': 'private, no-cache, max-age=0',
+      pragma: 'no-cache',
+      date: 'Tue, 22 Jul 2025 15:13:27 GMT',
+      server: 'LiteSpeed',
+      vary: 'Accept-Encoding',
+      'transfer-encoding': 'chunked',
+      connection: 'Keep-Alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      maxRedirects: 5,
+      method: 'get',
+      url: 'https://doi.org/10.15556/ijsim.02.03.002',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html style="height:100%">\n' +
+      '<head>\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
+      '<title> 404 Not Found\r\n' +
+      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
+      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
+      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
+      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
+      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
+      '</h2>\n' +
+      '<p>The resource requested could not be found on this server!</p>\n' +
+      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
+      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
+  },
+  status: 404
+}
+Status: 404
+Headers: Object [AxiosHeaders] {
+  'content-type': 'text/html',
+  'cache-control': 'private, no-cache, max-age=0',
+  pragma: 'no-cache',
+  date: 'Tue, 22 Jul 2025 15:13:27 GMT',
+  server: 'LiteSpeed',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked',
+  connection: 'Keep-Alive'
+}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1080,368 +1466,6 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: Request failed with status code 404
-    at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
-    at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
-    at Unzip.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: Socket {
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'www.ijsim.net',
-      _closeAfterHandlingError: false,
-      _events: [Object],
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _eventsCount: 6,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: null,
-      _server: null,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TCP],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 34004,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4939,
-        [Symbol(triggerId)]: 4937
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: true,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0
-    },
-    _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: www.ijsim.net\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 80,
-      protocol: 'http:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [Socket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 18,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'www.ijsim.net',
-    protocol: 'http:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 1,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _timeout: null,
-      _isRedirect: true,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'text/html',
-      'cache-control': 'private, no-cache, max-age=0',
-      pragma: 'no-cache',
-      date: 'Mon, 21 Jul 2025 15:13:03 GMT',
-      server: 'LiteSpeed',
-      vary: 'Accept-Encoding',
-      'transfer-encoding': 'chunked',
-      connection: 'Keep-Alive'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 10000,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      maxRedirects: 5,
-      method: 'get',
-      url: 'https://doi.org/10.15556/ijsim.02.03.002',
-      allowAbsoluteUrls: true,
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: '<!DOCTYPE html>\n' +
-      '<html style="height:100%">\n' +
-      '<head>\n' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n' +
-      '<title> 404 Not Found\r\n' +
-      '</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n' +
-      '<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">\n' +
-      '<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">\n' +
-      '        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>\n' +
-      '<h2 style="margin-top:20px;font-size: 30px;">Not Found\r\n' +
-      '</h2>\n' +
-      '<p>The resource requested could not be found on this server!</p>\n' +
-      '</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">\n' +
-      '<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n'
-  },
-  status: 404
-}
-Status: 404
-Headers: Object [AxiosHeaders] {
-  'content-type': 'text/html',
-  'cache-control': 'private, no-cache, max-age=0',
-  pragma: 'no-cache',
-  date: 'Mon, 21 Jul 2025 15:13:03 GMT',
-  server: 'LiteSpeed',
-  vary: 'Accept-Encoding',
-  'transfer-encoding': 'chunked',
-  connection: 'Keep-Alive'
-}
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: Request failed with status code 404
     at settle (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:599:11)
@@ -1546,16 +1570,16 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       [Symbol(timeout)]: Timeout {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 35357,
+        _idleNext: [Timeout],
+        _idleStart: 48501,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 4981,
-        [Symbol(triggerId)]: 4979
+        [Symbol(asyncId)]: 4958,
+        [Symbol(triggerId)]: 4956
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -1593,7 +1617,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       maxFreeSockets: 256,
       scheduling: 'lifo',
       maxTotalSockets: Infinity,
-      totalSocketCount: 1,
+      totalSocketCount: 2,
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false
     },
@@ -1623,7 +1647,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       statusCode: 404,
       statusMessage: 'Not Found',
       client: [Socket],
-      _consuming: true,
+      _consuming: false,
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
@@ -1687,7 +1711,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       'content-type': 'text/html',
       'cache-control': 'private, no-cache, max-age=0',
       pragma: 'no-cache',
-      date: 'Mon, 21 Jul 2025 15:13:04 GMT',
+      date: 'Tue, 22 Jul 2025 15:13:27 GMT',
       server: 'LiteSpeed',
       vary: 'Accept-Encoding',
       'transfer-encoding': 'chunked',
@@ -1798,7 +1822,7 @@ Headers: Object [AxiosHeaders] {
   'content-type': 'text/html',
   'cache-control': 'private, no-cache, max-age=0',
   pragma: 'no-cache',
-  date: 'Mon, 21 Jul 2025 15:13:04 GMT',
+  date: 'Tue, 22 Jul 2025 15:13:27 GMT',
   server: 'LiteSpeed',
   vary: 'Accept-Encoding',
   'transfer-encoding': 'chunked',
@@ -1957,7 +1981,6 @@ Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
 Translating paper 12/50
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1735189817703517 seconds...
 Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
@@ -1995,25 +2018,25 @@ Translating paper: A Virtual Reality-Based Co-creation Approach to De...
 Translating paper 30/50
 Translating paper: Using Social Network Analysis to Analyze Eye-Track...
 Translating paper 31/50
-Translating paper: Expanding the offer of Vaccinology Education with ...
+Translating paper: Sensory impairment and dementia risk among older a...
 Translating paper 32/50
-Translating paper: Women with endometriosis: Experiences with pain ma...
+Translating paper: Comprehensive Comparative Analysis of the Efficien...
 Translating paper 33/50
-Translating paper: Global and regional white matter hyperintensities ...
+Translating paper: Knowledge, acceptance, uptake barriers and missed ...
 Translating paper 34/50
-Translating paper: The factors related to the prevention of fall inju...
+Translating paper: "The Technology We've Been Forced to Use": Impact ...
 Translating paper 35/50
-Translating paper: A cost-effectiveness analysis of behavioural, phar...
+Translating paper: A qualitative exploration of STI partner notificat...
 Translating paper 36/50
-Translating paper: Academic psychiatry is everyone's business: commen...
+Translating paper: Exploring professional vision of vet students and ...
 Translating paper 37/50
-Translating paper: Suicide by throat-cutting in the early 1800s....
+Translating paper: The Need to Enhance the Use of Teleconsultation: A...
 Translating paper 38/50
-Translating paper: Academic psychiatry is everyone's business: commen...
+Translating paper: Factors influencing nutritional literacy among rur...
 Translating paper 39/50
-Translating paper: Building Capacity in Horizon Scanning, Early Aware...
+Translating paper: A Novel Microlearning Asynchronous Curriculum to I...
 Translating paper 40/50
-Translating paper: Medication Causes and Treatment of Delirium in Pat...
+Translating paper: Early Detection and Intervention Practices Provide...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -2030,146 +2053,30 @@ Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.779872201026063 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '56s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3664881839001137 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"53s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '53s'
-    }
-  ]
-}
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9599563403905957 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '48s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.971597828362854 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"45s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '45s'
-    }
-  ]
-}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9738539402813666 seconds...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.627761319862037 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"24s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '24s'
-    }
-  ]
-}
 Translation completed: 50 papers
-Removed duplicates: 691 -> 651
-Total papers after merging: 651 (641 existing + 50 new)
-Saved 651 papers to papers.json
+Removed duplicates: 701 -> 661
+Total papers after merging: 661 (651 existing + 50 new)
+Saved 661 papers to papers.json
 Generating HTML files...
-Generating index.html with 651 papers...
+Generating index.html with 661 papers...
 Successfully generated index.html
-Generating archive.html with 651 papers...
+Generating archive.html with 661 papers...
 Successfully generated archive.html
-Generating journal.html with 651 papers...
+Generating journal.html with 661 papers...
 Successfully generated journal.html
-Generating acquisition.html with 651 papers...
+Generating acquisition.html with 661 papers...
 Successfully generated acquisition.html
-Generating publication.html with 651 papers...
+Generating publication.html with 661 papers...
 Successfully generated publication.html
-Generating registration.html with 651 papers...
+Generating registration.html with 661 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 651
+Total papers in database: 661
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-21T15:39:38.214Z
+Timestamp: 2025-07-22T15:41:30.559Z
