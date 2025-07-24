@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-23T15:13:12.523Z
+Timestamp: 2025-07-24T15:12:10.465Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 661 existing papers from papers.json
+Loaded 674 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -543,188 +544,190 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40694409',
-    title: 'The Effect of Overcoming the Digital Divide on Middle Frontal Gyrus Atrophy in Aging Adults: Large-Scale Retrospective Magnetic Resonance Imaging Cohort Study.',
-    abstract: 'BACKGROUND: The rapid integration of information technology into daily life has exacerbated the digital divide (DD), particularly among older adults, who often face barriers to technology adoption. Although prior research has linked technology use to cognitive benefits, the long-term neurostructural and cognitive consequences of the DD remain poorly understood.\n' +
-      'OBJECTIVE: The aim of this study is to use large-scale neuroimaging data to examine how the DD affects long-term brain structure and cognitive aging in older adults. It specifically investigates (1) structural and cognitive differences between older adults with and without DD engagement, (2) predictive relationships between group-distinctive brain regions and cognitive outcomes, and (3) longitudinal impacts of DD exposure on accelerated aging trajectories of neural substrates and cognitive functions.\n' +
-      "METHODS: The study included 1280 community-dwelling older adults (aged 65-90 y) who completed comprehensive cognitive assessments and structural magnetic resonance imaging scans at baseline. Longitudinal data were available for 689 participants (mean follow-up 3.2 y). Participants were classified into the DD (n=640) and overcoming DD (n=640) groups using rigorous propensity score matching to control for age, education, gender, and baseline health conditions. A computational framework using the searchlight technique and cross-validation classification model investigated group differences in structural features and cognitive representation. The aging rate of each voxel's structural feature was calculated to explore the long-term influence of the DD.\n" +
-      'RESULTS: The DD group showed significant deficits in executive function (t=4.75; P<.001; Cohen d=0.38) and processing speed (t=4.62; P<.001; Cohen d=0.37) compared to the overcoming DD group. Reduced gray matter volume in the DD group spanned the fusiform gyrus, hippocampus, parahippocampal gyrus, and superior temporal sulcus (false discovery rate-corrected P<.05). The computational framework identified the key structural substrates related to executive function and processing speed, excluding the ventro-orbitofrontal lobe (classification accuracy <0.6). Longitudinal findings highlighted the long-term impact of the DD. The DD group exhibited faster gray matter volume decline in the middle frontal gyrus (t=3.95 for the peak voxel in this cluster, false discovery rate-corrected P<.05), which mediated 17% of episodic memory decline (P=.02).\n' +
-      'CONCLUSIONS: Older adults who overcome the DD demonstrate preserved gray matter structure and slower cognitive decline, particularly in frontotemporal regions critical for executive function. Our findings underscore that mobile digital interventions should be explored as potential cognitive decline prevention strategies.',
-    published: '2025-Jul-22',
-    authors: [
-      'Li Yumeng',
-      'Zhang Xinyue',
-      'Sun Jiaqing',
-      'Zhang Junying',
-      'Zhu Aiqin',
-      'Li Xin',
-      'Zhang Zhanjun'
-    ],
-    journal: 'Journal of medical Internet research',
-    doi: '10.2196/73360',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694409/'
-  },
-  {
-    id: '40694399',
-    title: 'Self-Reported Bruxism, Masticatory Muscle Pain, Psychological Profile and Bowel Symptoms: A Retrospective Study.',
-    abstract: 'AIM: To investigate associations between self-reported bruxism, masticatory muscle pain and bowel symptoms, and their relationship to the 9 dimensions of the Symptom Checklist-90- Revised (SCL-90-R).\n' +
-      'METHODS: Data from 3 separate validated questionnaires - Bowel Symptom Questionnaire (BSQ) to classify bowel status, Research Diagnostic Criteria for Temporomandibular Disorders (RDC/TMD) to determine self-reported bruxism and masticatory muscle pain on palpation, and SCL-90-R for psychometric assessment were collected for each patient. BSQ used the Rome II criteria to identify the presence or absence of bowel symptoms but did not analyse sub-sets of bowel symptoms. Chi-squared tests were used to test for pairwise associations between bruxism, masticatory muscle pain and bowel status. Multiple logistic regression analysis was used to identify the independent predictors of bruxism and bowel symptoms.\n' +
-      "RESULTS: Data from 246 surveys were collected for self- reported bruxism, muscle pain and bowel status of which 191 patients completed the SCL- 90R. There was significant association between self-reported bruxism and muscle pain (p=0.004) and bowel symptoms (p=0.020). Bowel problems were identified in 53% patients and 48% patients presented with both self-reported bruxism and bowel problems. There was no significant association between bowel symptoms and muscle pain. Multiple logistic regression analysis identified 'muscle pain' and 'bowel symptoms' as independent predictors of self-reported bruxism, and 'somatization' as the sole independent predictor of bowel symptoms.\n" +
-      'CONCLUSION: These data establish a possible relationship between self-reporte bruxism and bowel symptoms, necessitating need for education and formulation of clinical practice guidelines for interdisciplinary care of this group of patients.',
-    published: '2025-Jul-21',
-    authors: [
-      'Huang Michelle',
-      'Whittle Terry',
-      'Garg Pooja',
-      'Klineberg Iven'
-    ],
-    journal: 'The International journal of prosthodontics',
-    doi: '10.11607/ijp.9250',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694399/'
-  },
-  {
-    id: '40694380',
-    title: 'Supporting our survivors: an evaluation of the facilitators and barriers to advocacy in cervical and breast cancer survivors.',
-    abstract: 'PURPOSE: This study aimed to evaluate the facilitators and barriers to self-advocacy and advocacy in the community of cervical and breast cancer survivors.\n' +
-      'METHODS: A mixed-methods approach was used to collect data from patients with breast and cervical cancer. Qualitative interviews were conducted after presenting for routine oncologic follow-up appointments All interviews were transcribed and coded by two separate investigators. The Female Self-Advocacy in Cancer Survivorship Scale (FSACS) was administered and demographic data were collected to quantitatively evaluate self-advocacy behaviors and socioeconomic characteristics in the two groups.\n' +
-      'RESULTS: Twenty-one patients were interviewed: 11 cervical cancer (CC) patients and 10 breast cancer (BC) patients. The median age was 47 years, with approximately half having early-stage disease and half having advanced or recurrent disease. The facilitators to self-advocacy included being open with their support system, wanting more information, and being determined to fight. Barriers to self-advocacy included fear, not opening up to family and friends, and not wanting additional information. Facilitators to advocacy in the community were talking with their children about their diagnosis, having an interest in support groups, and a desire to help. Barriers to community advocacy included not always feeling supported, a lack of confidence, and a lack of understanding of their disease process. CC participants scored lower on the FSACS survey compared to BC patients, with mean scores of 95 and 107, respectively.\n' +
-      'CONCLUSIONS: Facilitators to advocacy involve having a strong social network and a determination to fight or desire to help. Barriers include fear, lack of confidence, and lack of knowledge. Increasing resources to encourage social connection, education, and advocacy opportunities can positively impact cancer survivors well-being.',
-    published: '2025-Jul-04',
-    authors: [
-      'Bos Lia',
-      'Pinto Elizabeth',
-      'Longinos Norma',
-      'Ketch Peter',
-      'Cockrell Dillon',
-      'Boitano Teresa',
-      'Scarinci Isabel'
-    ],
-    journal: 'The oncologist',
-    doi: '10.1093/oncolo/oyaf130',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694380/'
-  },
-  {
-    id: '40694372',
-    title: 'Does universal healthcare coverage ensure equal access to contraception? Socioeconomic inequalities on contraceptive use in a young-adult population in Porto, Portugal.',
-    abstract: "INTRODUCTION: Access to effective and safe contraception is important to women, individually, and to the population's health and well-being. Universal free access to family planning is provided in Portugal, yet it is unknown if socioeconomic inequalities remain in access and use of contraceptives.\n" +
-      'PURPOSE: To study the association between socioeconomic status and use of contraceptives by young Portuguese women, and whether healthcare use contributes to socioeconomic inequalities.\n' +
-      'MATERIAL AND METHODS: We analysed data from 552 young-adult women from the EPITeen cohort. We regressed use and method of contraception against individual net monthly income, education level, and the number of medical appointments in the past year.\n' +
-      'RESULTS: Most women (84.1%) currently used contraceptives. Though, contraceptive use was less frequent among women with lower incomes [adjusted OR (aOR) = 0.340,  < 0.005] especially the vaginal ring or contraceptive patch (aOR = 0.164,  < 0.05). Women with lower education status were less likely to use contraceptives (aOR = 0.402,  < 0.05). The number of medical appointments in the last year was not associated with the use and method of contraception. Similar results were found for the ever use of contraceptives.\n' +
-      'CONCLUSIONS: Despite universal health coverage policies in Portugal, contraceptive use is still socioeconomically patterned. To achieve their full potential, family planning programs and policies must be revised, ensuring equitable access for all.',
-    published: '2025-Jul-22',
-    authors: [ 'Galvão Joana', 'Leão Teresa' ],
-    journal: 'The European journal of contraception & reproductive health care : the official journal of the European Society of Contraception',
-    doi: '10.1080/13625187.2025.2533933',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694372/'
-  },
-  {
-    id: '40694347',
-    title: 'Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care.',
-    abstract: 'IMPORTANCE: Artificial intelligence (AI)-assisted ambient documentation technologies that use audio from clinic visits to generate documentation are being deployed across hospital systems to optimize clinical note writing and reduce administrative burden. However, little is known about optimal approaches to engage patients in informed consent for these tools.\n' +
-      'OBJECTIVES: To explore clinician and patient experiences with consent processes and examine the association between the use of ambient documentation tools and the patient-clinician relationship.\n' +
-      'DESIGN, SETTING, AND PARTICIPANTS: This study was conducted from March 1 to December 31, 2024, in ambulatory practices across specialties in a large urban academic health center as part of an ongoing operational quality improvement initiative. Participants included clinicians and patients participating in an operational proof-of-concept exploration of ambient documentation technology.\n' +
-      'MAIN OUTCOMES AND MEASURES: A pragmatic, sequential, inductive-deductive qualitative evaluation was conducted of informed consent contexts, processes, and challenges among ambulatory clinicians and patients exposed to ambient documentation technology. Evaluation included site visits, clinical observations, clinician interviews, and patient surveys to explore perceptions and challenges related to consent.\n' +
-      'RESULTS: A total of 121 ambient documentation pilot users included 18 clinicians (mean [SD] years of practice, 18.6 [100]; 10 men [55.6%]) and 103 patients (mean [SD] age, 37 [12.5] years; 65 women [63.1%]). The most common consent approach was a verbal patient-clinician conversation prior to an individual encounter. Patients and clinicians had a spectrum of comfort with ambient technology; 77 patients (74.8%) reported being comfortable or very comfortable with their physician using ambient documentation. Patient trust, detail in the consent discussion, and intended tool use were associated with patient comfort and intent to consent. Technical understanding was associated with comfort with consent conversations: when provided basic information about the technology, 84 patients (81.6%) consented; this decreased to 57 patients (55.3%) when details about AI features, data storage, and corporate involvement were disclosed. Perceived benefits included reduced documentation burden, improved decision-making, and enhanced communication. Concerns included data security, legal liability, cognitive impacts, and equity. When asked about responsibility for medical errors linked to ambient documentation, 66 patients (64.1%) held physicians accountable; for data security breaches, 79 patients (76.7%) believed vendors should be responsible. Participants suggested a flexible consent model with digital touchpoints, education, nonclinical staff support, and opt-out options.\n' +
-      'CONCLUSIONS AND RELEVANCE: In this quality improvement study of 121 pilot users of AI-assisted ambient documentation technology, informed consent relied primarily on verbal conversations that varied based on time, knowledge, and the patient-clinician relationship. A flexible, multimodal approach-including education, time to discuss risks and benefits, digital resources, nonclinical staff involvement, and clear opt-out options-may improve consent processes and support broader acceptance of ambient documentation tools.',
-    published: '2025-Jul-01',
-    authors: [
-      'Lawrence Katharine',
-      'Kuram Vasudev S',
-      'Levine Defne L',
-      'Sharif Sarah',
-      'Polet Conner',
-      'Malhotra Kiran',
-      'Owens Kellie'
-    ],
-    journal: 'JAMA network open',
-    doi: '10.1001/jamanetworkopen.2025.22400',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694347/'
-  },
-  {
-    id: '40694319',
-    title: 'Serum NPTX2 and cognitive impairment in geriatric diabetes: A cross-sectional study.',
-    abstract: 'Cognitive impairment is an increasingly common complication of diabetes, yet its underlying pathophysiological mechanisms remain poorly understood. Neuronal pentraxin 2 (NPTX2), a recently identified synaptic biomarker linked to cognitive disorders, has not previously been examined in relation to cognitive function in geriatric individuals with diabetes. This cross-sectional study enrolled 90 participants-46 geriatric patients with diabetes and 44 age-matched non-diabetic controls. Demographic and clinical data were collected for all participants. After informed consent, cognitive function was assessed with the Montreal Cognitive Assessment (MoCA) and the Mini-Mental State Examination (MMSE). Serum NPTX2 levels were measured by ELISA. No significant differences were found between the diabetic and control groups in age, sex, education level, marital status, smoking history, comorbid conditions, or polypharmacy. However, the groups differed significantly in MoCA scores (p < 0.001), MMSE scores (p = 0.028), and NPTX2 levels (p = 0.048); the diabetic group showed lower cognitive scores and biomarker levels. NPTX2 levels correlated positively with MoCA and MMSE scores and negatively with diabetes duration, patient age, and the presence of microvascular complications. In conclusion, cognitive function was significantly lower in geriatric patients with diabetes than in controls, and serum NPTX2 levels were significantly associated with cognitive performance. These findings suggest a possible role for NPTX2 in diabetes-related cognitive decline and support further investigation of its utility within a broader biomarker panel.',
-    published: '2025-Jul-22',
-    authors: [
-      'Çadırcı Kenan',
-      'Bayrak Muharrem',
-      'Lazoğlu Özkaya Alev',
-      'Yılmaz Gamze Nur',
-      'Pak Nur',
-      'Karahan Büşra',
-      'Kiziltunc Ozmen Hilal'
-    ],
-    journal: 'Biomolecules & biomedicine',
-    doi: '10.17305/bb.2025.12632',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694319/'
-  },
-  {
-    id: '40694300',
-    title: 'Challenging Stigma Through Experiential Learning in Clinical and Non-Clinical Mental Health Trainees.',
-    abstract: 'Mental health stigma is a pervasive issue which can adversely affect patient care and outcomes. Stigma may manifest through discrimination and negative stereotypes, and can be damaging when inadvertently perpetuated by practitioners and trainees. This study aims explore the effect of experiential learning in decreasing stigma measured by changes in the perceived attitudes and behaviours of trainees at a specialized mental health hospital. Participants (N = 139) are trainees who were scheduled to undergo clinical or non-clinical placement at a mental health hospital. Participants completed a demographic survey prior to placement and a qualitative student evaluation after placement. Validated scales measuring changes in attitude (MICA-4) and behaviour (RIBS), were used as both pre- and post-placement evaluations. Trainee placement variations were accounted for using correlation analysis of the MICA-4 and RIBS data. Most participants identified as females with a college or university education, in their second to fourth years of study. Analysis of both MICA-4 (P = 0.0001) and RIBS (P = 0.009) revealed significant differences between pre-placement and post-placement scores on stigma-related attitudes and behaviours, respectively. These results were supported by qualitative responses which revealed alignment with recovery-oriented philosophy and reflections of stigma. Overall, this study demonstrates possible benefits of experiential learning in mental health care settings to address stigma in clinical and non-clinical trainees.',
-    published: '2025-Jul-22',
-    authors: [
-      'Giovannetti Olivia',
-      'Francis Erica',
-      'Pauley Noah',
-      'Arbour Simone'
-    ],
-    journal: 'Community mental health journal',
-    doi: '10.1007/s10597-025-01493-6',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694300/'
-  },
-  {
-    id: '40694298',
-    title: 'Development of a nomogram based on METS-IR and SPISE index for predicting mild cognitive impairment in type 2 diabetes mellitus.',
-    abstract: 'BACKGROUND: Insulin resistance (IR) is central to metabolic syndrome and contributes to the development of type 2 diabetes mellitus (T2DM) as well as mild cognitive impairment (MCI). Several low-cost surrogate markers have been proposed to assess IR, such as the triglyceride-glucose (TyG) index, TyG-BMI, TG/HDL-C, metabolic score for insulin resistance (METS-IR), and single-point insulin sensitivity estimator (SPISE). This study aimed to develop nomogram models integrating these indices with clinical data to predict MCI in patients with T2DM.\n' +
-      'METHODS: A total of 600 patients diagnosed with T2DM were recruited. Demographic, clinical, and biochemical parameters were documented, and cognitive performance was assessed using the Montreal Cognitive Assessment (MoCA) and Mini-Mental State Examination (MMSE). Logistic regression analyses identified predictors of MCI, and receiver operating characteristic (ROC) curves evaluated their predictive accuracy. Two nomogram models were constructed: Model 1 included METS-IR, age, sex, education level, and hypertension; Model 2 substituted SPISE for METS-IR, retaining other clinical variables.\n' +
-      'RESULTS: All IR surrogate indices were significantly associated with MCI and reduced MMSE scores (P < 0.001). METS-IR and SPISE exhibited higher predictive accuracy (AUC: METS-IR = 0.809, SPISE = 0.805) compared to TyG, TyG-BMI, and TG/HDL-C, particularly among female participants. Nomogram models demonstrated robust predictive performance (AUC: Model 1 = 0.846; Model 2 = 0.838).\n' +
-      'CONCLUSIONS: Nomogram models incorporating METS-IR or SPISE alongside key clinical parameters effectively predicted the risk of MCI among patients with T2DM. These indices notably outperformed other surrogate markers, highlighting their clinical value for early assessment of cognitive risk.',
-    published: '2025-Jul-22',
-    authors: [
-      'Tong Niu',
-      'Kunyu Liu',
-      'Xueling Zhou',
-      'Ruoyu Sun',
-      'Diejing Niu',
-      'Shaohua Wang',
-      'Yang Yuan'
-    ],
-    journal: 'Journal of endocrinological investigation',
-    doi: '10.1007/s40618-025-02629-x',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694298/'
-  },
-  {
-    id: '40694288',
-    title: 'Perspectives in Medical Education : CBS Publishers and Distributors Pvt Ltd, Pages 400, Price Rs. 695/.',
+    id: '40704445',
+    title: 'An Enduring Passion for Paediatric Radiology.',
     abstract: 'No abstract available',
-    published: '2025-Jul-22',
-    authors: [ 'Dabas Aashima' ],
-    journal: 'Indian pediatrics',
-    doi: '10.1007/s13312-025-00127-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694288/'
+    published: '2025-Jul-24',
+    authors: [ 'Ditchfield Michael', 'Coleman Lee', 'Rodda Christine' ],
+    journal: 'Journal of paediatrics and child health',
+    doi: '10.1111/jpc.70141',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704445/'
   },
   {
-    id: '40694197',
-    title: "Health shocks and households' vulnerability to poverty in Nigeria: a quasi-experimental analysis.",
-    abstract: "Health shocks are a critical driver of poverty in low- and middle-income countries (LMICs). This study investigates the impact of health shocks on household poverty risk in Nigeria and evaluates the protective capacity of existing health insurance mechanisms, using data from the 2023/2024 General Household Survey (n = 4,779 households). We first estimated household vulnerability using Chaudhuri's (2003) Vulnerability as Expected Poverty framework, addressing heteroskedasticity in consumption estimation via feasible generalized least squares. We then modeled the probability of household vulnerability following health shocks using probit regression. Finally, we implemented propensity score matching to isolate the effect of health shocks on households' vulnerability. Our results indicate that 56.1% and 59.2% of Nigerian households are vulnerable to poverty, using the international ($2.15/day) and national ($2.48/day) poverty lines, respectively. Vulnerable households are more prevalent in northern regions, rural areas, larger households, and poorer households. We found evidence that, based on the international poverty line, health shocks significantly increased the probability of household vulnerability (ATT = 0.053, SE = 0.023) compared to matched households without health shocks, with a slightly higher impact (ATT = 0.054, SE = 0.023) if using the national poverty line. Household size, dependency ratio, household head's education and employment status, and residence were significant predictors of vulnerability. Despite their potential, health insurance, covering only 2.2% of households, did not offer adequate protection against health shocks. This study provides robust evidence that health shocks increase households' vulnerability to poverty and perpetuate existing poverty. Financial protection measures need to be considered in broader poverty reduction policies.",
-    published: '2025-Jul-21',
-    authors: [ 'Eze Paul', 'Iheonu Chimere O' ],
-    journal: 'Health economics review',
-    doi: '10.1186/s13561-025-00660-5',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40694197/'
+    id: '40704435',
+    title: 'Hepatitis C virus infection in blood donors in Santa Catarina, Brazil, 2010-2020.',
+    abstract: 'INTRODUCTION: Hepatitis C is a silent disease characterised by a persistent inflammatory process in the liver. Since blood is the main route of transmission, the objective of this study was to estimate the positivity rate of hepatitis C virus (HCV) infection in blood donations from the Public Blood Network of the State of Santa Catarina and to analyse the temporal trend and spatial distribution of cases between 2010 and 2020.\n' +
+      'METHODS: This historical cohort study included blood donors who tested positive for HCV and donated blood at the service between January 1, 2010, and December 31, 2020.\n' +
+      'RESULTS: Out of a total of 1 316 605 blood donations, 782 new samples tested positive for HCV, corresponding to an overall positivity rate of 59.4 per 100 000 donations. The majority of HCV-positive donors were adults, male, of white skin colour, married, and had at least a secondary education. Most HCV-positive cases were found in the South and Coastal Regions of Santa Catarina, although municipalities with high positivity rates were observed across all macro-regions of the state.\n' +
+      'CONCLUSIONS: The HCV positivity rate in blood donations from the Public Blood Network of the State of Santa Catarina demonstrated a downward trend over time, while maintaining sociodemographic characteristics similar to those reported in other regional studies. Furthermore, although HCV cases were reported in all macro-regions, the highest positivity rates occurred in the South, Alto Vale do Itajaí, Meio Oeste, Serra Catarinense, and Grande Oeste regions.',
+    published: '2025-Jul-24',
+    authors: [
+      'Schuelter-Trevisol Fabiana',
+      'Ossani Gabriel Tadeu',
+      'Parma Gabriel Oscar Cremona',
+      'Trevisol Daisson José'
+    ],
+    journal: 'Transfusion medicine (Oxford, England)',
+    doi: '10.1111/tme.70004',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704435/'
+  },
+  {
+    id: '40704427',
+    title: 'Scaling up a success story: how do we achieve universal access to transcranial magnetic stimulation?',
+    abstract: 'PURPOSE OF REVIEW: Over one billion people suffer from psychiatric and/or neurological disorders for which transcranial magnetic stimulation (TMS) has shown efficacy. Achieving widespread TMS access will require major improvements to cost and convenience. A key figure of merit for a given TMS protocol concerns not its remission rate or tolerability, but simply its treatment time per remission (TTPR).\n' +
+      'RECENT FINDINGS: Outcomes for conventional bilateral TMS protocols imply a TTPR of more than 100 h - incompatible with widespread access. However, briefer accelerated and/or theta-burst protocols may improve TTPR to less than 20 h. Personalization strategies that improve remission rates sometime improve TTPR, depending on associated cost-penalties of time or complexity. A potentially groundbreaking new strategy to improve TTPR involves pharmacological augmentation of neuroplasticity, using agents such as D-cycloserine. Plasticity-augmentation may improve TTPR by improving remission rates, and by reducing the number of required sessions. Recent literature suggests that TTPR values of under 5 h per remission may be achievable via neuroplasticity augmentation.\n' +
+      'SUMMARY: The most recent plasticity-augmented TMS protocols may approach or exceed cost-parity with pharmacotherapy, in terms of reducing the prevalence of depression. With the health economics of TMS improving steadily, a pathway to universal access may be within reach.',
+    published: '2025-Jul-18',
+    authors: [ 'Downar Jonathan' ],
+    journal: 'Current opinion in psychiatry',
+    doi: '10.1097/YCO.0000000000001029',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704427/'
+  },
+  {
+    id: '40704372',
+    title: 'Getting even: occurrence of histopathological primitive melanoma diagnoses three years after the COVID-19 lockdown.',
+    abstract: "The COVID-19 lockdown in 2020 caused a significant delay in histopathological melanoma diagnoses in Rome, Italy, leading to an increase in Breslow thickness and more aggressive tumor characteristics in the following years. Although there was a partial recovery in the number of diagnoses in 2021 and 2022, melanoma thickness remained higher than pre-pandemic levels. In 2023, our analysis of primary melanoma cases from the Histopathology Registry of Istituto Dermopatico dell'Immacolata (IDI)-IRCCS in Rome showed that Breslow thickness had finally returned to, or even improved beyond, 2019 levels - indicating a resolution of the diagnostic delay. At the same time, the proportion of ulcerated and nodular melanomas declined. These findings underscore the long-term effects of pandemic-related diagnostic disruptions and highlight the importance of maintaining continuous screening programs, even during public health crises. Ongoing public education on melanoma awareness and early detection remains crucial to preventing future delays.",
+    published: '2025-Jul-23',
+    authors: [
+      'Ricci Francesco',
+      'Pistore Gianluca',
+      'Di Lella Giovanni',
+      'Fania Luca',
+      'Ricci Francesca',
+      'Rahimi Siavash',
+      'Panebianco Annarita',
+      'Fortes Cristina',
+      'Abeni Damiano'
+    ],
+    journal: 'Dermatology reports',
+    doi: '10.4081/dr.2025.10318',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704372/'
+  },
+  {
+    id: '40704319',
+    title: 'Determinants of household food security and maternal dietary diversity in rural Gedeo zone, southern Ethiopia: results from a cross-sectional study.',
+    abstract: 'BACKGROUND: In Ethiopia, food insecurity and poor dietary diversity continue to affect maternal and child health, particularly in rural regions.\n' +
+      'OBJECTIVE: We examined the status and determinants of household food security and maternal dietary diversity in rural Gedeo zone, southern Ethiopia.\n' +
+      "METHODS: A cross-sectional study was conducted among randomly selected 422 households, and household food insecurity and women's dietary diversity was measured. We conducted bivariable and multivariable logistic regression.\n" +
+      "RESULTS: In this study, 65.5% of mothers (95% CI: 60.7-70.0%) and 27.9% (95% CI: 23.7-32.5%) of households had adequate dietary diversity and food security, respectively. Severe or moderate food insecurity predispose to inadequate dietary diversity, whereas, higher wealth status increased the odds of adequate dietary diversity. Maternal education increased the odds of adequate dietary diversity. Regarding household food insecurity, the size of the household having a member of 5-7 and 8-12 were 78 and 76% less likely to be food insecure among households compared to 1-4 members size [OR = 0.22 (95%CI: 0.07, 0.70)] and [OR = 0.24 (95% CI: 0.07, 0.83)] respectively. Those household having high in women's dietary diversity were 83% less likely to have to food insecure among households compared to the lowest women's dietary diversity [AOR = 0.17 (95% CI: 0.10, 0.31)].\n" +
+      'CONCLUSION: Household wealth status, maternal education, household food security status, pregnancy status were factors affected maternal dietary diversity. Family size and dietary diversity affected household food security status. Interventions should focus on maternal literacy, empowering women on income, assuring food security to increase maternal dietary diversity.',
+    published: '2025',
+    authors: [
+      'Jisso Meskerem',
+      'Biadgilign Sibhatu',
+      'Tareke Amare Abera',
+      'Tesfaye Tizalegn',
+      'Zerfu Tadesse Alemu'
+    ],
+    journal: 'Frontiers in nutrition',
+    doi: '10.3389/fnut.2025.1523344',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704319/'
+  },
+  {
+    id: '40704312',
+    title: 'The effect of conservation agriculture technologies adoption on food production and security in Northern Malawi: evidence from Mzimba district.',
+    abstract: 'BACKGROUND: Adoption of conservation agriculture technologies (CATs) has emerged as a strategy to improve farm productivity and achieve food security in many parts of the world.\n' +
+      'AIM: This study aimed to assess the effect of CAT adoption on food production and security.\n' +
+      'METHODS: This quantitative cross-sectional study was conducted in the Vibangalala Extension Planning Area (EPA) in Mzimba district, Northern Malawi. Data was collected using structured questionnaires. The data were entered in SPSS version 27. Descriptive statistics included frequency, percentage, weighted percentage, means, standard deviations, and standard error mean. Inferential statistics included a -test and a linear regression model, with the value of  < 0.05 considered statistically significant.\n' +
+      'FINDINGS: The study found that households that adopted CATs have high food production and experience food security compared to non-adopters. Adoption of CATs significantly boosts production, with adopters experiencing lower food insecurity and better dietary diversity than non-adopters.\n' +
+      'CONCLUSION AND RECOMMENDATION: The study confirms that adopting conservation agricultural technologies is integral to improving agricultural production, but remains entangled in disparities related to gender, farm size, and education. Efforts should be made to ensure equity and equality in conservation agricultural technology adoption to improve food security for all.',
+    published: '2025',
+    authors: [
+      'Munthali George N Chidimbah',
+      'Puming He',
+      'Banda Lazarus Obed Livingstone',
+      'Ngulube Peter Stephen Donald',
+      'Daru Gama Rivas',
+      'Mzumara Thokozani',
+      'Chitete Moses M N',
+      'Jere Zondiwe Mabilabo'
+    ],
+    journal: 'Frontiers in nutrition',
+    doi: '10.3389/fnut.2025.1615990',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704312/'
+  },
+  {
+    id: '40704290',
+    title: "Exploring Greek midwives' knowledge, attitudes, and practices in perinatal smoking: A cross-sectional study.",
+    abstract: 'INTRODUCTION: Smoking during pregnancy remains a significant global public health concern. Midwives, as frontline healthcare providers, play a crucial role in supporting smoking cessation among pregnant women. This study aimed to explore the factors associated with the implementation of smoking practices by midwives in Greece.\n' +
+      "METHODS: We conducted a cross-sectional survey between December 2022 and December 2023 among 150 midwives working in the 1st and 2nd Health Districts of Greece, as well as in private practices. Data were collected using a self-administered, anonymized questionnaire assessing demographics, knowledge, opinions, perceptions, and smoking cessation practices. Composite scores were calculated for knowledge, opinions, perceptions, and practices. Exploratory factor analysis was applied to examine the structure of midwives' opinions and perceptions. Multivariate linear regression was used to identify independent predictors of smoking cessation practices.\n" +
+      "RESULTS: Among the respondents, 78% had not received formal education on smoking cessation, although 77.3% expressed a desire for training. Only 35.3% recognized that secondhand smoke affects newborns, and 32.7% felt confident in supporting pregnant women to quit smoking. Factor analysis identified two key dimensions: midwives' contribution to smoking cessation during pregnancy, and information and help to stop smoking during pregnancy, explaining 27.7% and 16.9% of the variance, respectively. Multivariate regression revealed that both factors were independently associated with more frequent implementation of smoking cessation practices (p<0.05).\n" +
+      "CONCLUSIONS: The study underscores the pivotal role of midwives in smoking cessation during pregnancy and highlights the importance of perceptions, self-efficacy, and access to information in shaping their practices. Targeted education and institutional support are essential to strengthen midwives' capacity to deliver effective smoking cessation interventions. These findings can inform policy and training programs aiming to improve maternal and neonatal outcomes by reducing tobacco use during pregnancy.",
+    published: '2025',
+    authors: [
+      'Delakovia Taxiarchoula',
+      'Katsaounou Paraskevi',
+      'Sarantaki Antigoni',
+      'Bakou Angeliki',
+      'Lykeridou Aikaterini',
+      'Diamanti Athina'
+    ],
+    journal: 'Tobacco prevention & cessation',
+    doi: '10.18332/tpc/205916',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704290/'
+  },
+  {
+    id: '40704229',
+    title: 'Developing a Longitudinal Point-of-Care Ultrasound (POCUS) Curriculum for Internal Medicine Residents.',
+    abstract: 'Introduction Point-of-care ultrasound (POCUS) is increasingly recognized as a valuable tool, enhancing diagnostic accuracy and reducing complications. Despite these benefits, barriers such as limited faculty training, equipment access, and time constraints hinder POCUS integration into internal medicine programs. We evaluated the feasibility of a multimodal, longitudinal ultrasound curriculum designed for internal medicine residents. Methods The POCUS Training Program (PTP) was implemented in an internal medicine residency program at a quaternary care center. This longitudinal curriculum comprised self-directed online modules, faculty-led didactic and scanning sessions, and the compilation of a portfolio. Program effectiveness was assessed through pre- and post-program surveys with five-point Likert scales measuring confidence with image acquisition and interpretation. Results Among the 50 initial program enrollees for the 2021-2022 academic year, only nine completed the curriculum, with two meeting full requirements including completing the image portfolio. Post-program surveys responses (derived from 11 respondents among 96 total program participants at the end of 2023, 11% response rate) indicated significant improvements in confidence with the cardiac and volume assessments. In-person didactics and independent scanning were rated as the most effective learning modalities. Time constraints, inconsistent equipment access, and POCUS experience variability among supervising senior residents and attendings were the most commonly cited barriers. Suggestions for improvement included more supervised image reviews, patient scanning sessions, and streamlined image-saving workflows. Discussion We demonstrated that implementing a longitudinal POCUS curriculum can be challenging with low completion rates for the full program, but such a curriculum has the potential to improve confidence with POCUS exams. Addressing barriers, including equipment accessibility and faculty training, is paramount. Integrating POCUS into core residency curricula and increasing faculty development may also improve efficacy. This pilot program serves as a scaffold for future iterations.',
+    published: '2025-Jun',
+    authors: [
+      'Chen Jenny Y',
+      'Trieu Megan',
+      'Custer Adam',
+      'Holman Patrick',
+      'Sarnoff Rachel',
+      'Ward Lindsey',
+      'Cha Beda',
+      'Kahn Daniel'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.86598',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704229/'
+  },
+  {
+    id: '40704227',
+    title: 'Academic writing and critical appraisal in physiology education: discerning the benefits of using large language models as knowledge receivers or knowledge providers.',
+    abstract: 'No abstract available',
+    published: '2025',
+    authors: [ 'Hardy Matthew' ],
+    journal: 'Current research in physiology',
+    doi: '10.1016/j.crphys.2025.100156',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704227/'
+  },
+  {
+    id: '40704220',
+    title: 'Medication Adherence and Perceptions According to the Presence or Absence of a Migration Background in a Dialysis Unit (DIANA Qualitative Study).',
+    abstract: "PURPOSE: Migration status has received little attention in the context of medication adherence. This qualitative study aims to consolidate the findings of the quantitative DIANA study by: 1) exploring medication management, medication knowledge and perceptions and 2) identifying whether there are differences in medication management, knowledge and perceptions between patients according to the patients' migration status.\n" +
+      'PATIENTS AND METHODS: This monocentric qualitative study was part of the research protocol DIANA (). Patients were recruited at the chronic dialysis unit of the Lausanne University Hospital. In-depth, face-to-face interviews were conducted; for allophone patients, an interpreter was present. Each interview was recorded and transcribed verbatim. A content analysis was performed.\n' +
+      'RESULTS: Eighteen interviews were performed. Nine patients were Swiss, 3 had a residence/settlement permit, 6 were provisionally admitted/asylum seekers. Six interviews were performed with an interpreter. Core themes were: (1) treatment management (medication intake had become a habit, forgetting was rare), (2) heterogeneous treatment knowledge but highly perceived necessity, (3) reported medication disadvantages were pill burden and side effects, (4) role of the patient in the medical environment (trust in physicians but patients making decisions regarding their treatment on their own, without consulting healthcare professionals). Swiss patients engaged more in shared decision-making and were more likely to talk about side effects than migrant patients. Provisionally admitted foreign nationals/asylum seekers talked more about their gratitude to the healthcare system.\n' +
+      "CONCLUSION: More studies are needed to understand how shared decision-making can be established between health professionals and patients, taking into account their migration status. To provide tailored education, it is essential to evaluate patients' health literacy and to use the teach-back method to find the best way to convey health messages. The acquisition of transcultural clinical skills by health professionals is necessary to support medication adherence.",
+    published: '2025',
+    authors: [
+      'Dotta-Celio Jennifer',
+      'Lelubre Mélanie',
+      'Bolzon Sabrina',
+      'Halabi Georges',
+      'Burnier Michel',
+      'Bodenmann Patrick',
+      'Pruijm Menno',
+      'Schneider Marie P'
+    ],
+    journal: 'Patient preference and adherence',
+    doi: '10.2147/PPA.S503025',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40704220/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
@@ -1099,23 +1102,32 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at runNextTicks (node:internal/process/task_queues:60:5)
-    at listOnTimeout (node:internal/timers:545:9)
-    at process.processTimers (node:internal/timers:519:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
     at async Promise.all (index 3)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34) {
-  code: 'ECONNABORTED',
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1245,7 +1257,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       aborted: false,
       timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
-      parser: [HTTPParser],
+      parser: null,
       maxHeadersCount: null,
       reusedSocket: false,
       host: 'www.ijsim.net',
@@ -1267,15 +1279,29 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
@@ -1284,7 +1310,11 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ECONNABORTED',
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1414,7 +1444,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       aborted: false,
       timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
-      parser: [HTTPParser],
+      parser: null,
       maxHeadersCount: null,
       reusedSocket: false,
       host: 'www.ijsim.net',
@@ -1436,6 +1466,14 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
   }
 }
 Fetched papers from CrossRef: [
@@ -1628,25 +1666,25 @@ Translating paper: Leveraging Artificial Intelligence Integration in ...
 Translating paper 30/50
 Translating paper: Non-Immersive Virtual Learning Environments (VLEs)...
 Translating paper 31/50
-Translating paper: The Effect of Overcoming the Digital Divide on Mid...
+Translating paper: An Enduring Passion for Paediatric Radiology....
 Translating paper 32/50
-Translating paper: Self-Reported Bruxism, Masticatory Muscle Pain, Ps...
+Translating paper: Hepatitis C virus infection in blood donors in San...
 Translating paper 33/50
-Translating paper: Supporting our survivors: an evaluation of the fac...
+Translating paper: Scaling up a success story: how do we achieve univ...
 Translating paper 34/50
-Translating paper: Does universal healthcare coverage ensure equal ac...
+Translating paper: Getting even: occurrence of histopathological prim...
 Translating paper 35/50
-Translating paper: Informed Consent for Ambient Documentation Using G...
+Translating paper: Determinants of household food security and matern...
 Translating paper 36/50
-Translating paper: Serum NPTX2 and cognitive impairment in geriatric ...
+Translating paper: The effect of conservation agriculture technologie...
 Translating paper 37/50
-Translating paper: Challenging Stigma Through Experiential Learning i...
+Translating paper: Exploring Greek midwives' knowledge, attitudes, an...
 Translating paper 38/50
-Translating paper: Development of a nomogram based on METS-IR and SPI...
+Translating paper: Developing a Longitudinal Point-of-Care Ultrasound...
 Translating paper 39/50
-Translating paper: Perspectives in Medical Education : CBS Publishers...
+Translating paper: Academic writing and critical appraisal in physiol...
 Translating paper 40/50
-Translating paper: Health shocks and households' vulnerability to pov...
+Translating paper: Medication Adherence and Perceptions According to ...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1668,25 +1706,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 711 -> 674
-Total papers after merging: 674 (661 existing + 50 new)
-Saved 674 papers to papers.json
+Removed duplicates: 724 -> 684
+Total papers after merging: 684 (674 existing + 50 new)
+Saved 684 papers to papers.json
 Generating HTML files...
-Generating index.html with 674 papers...
+Generating index.html with 684 papers...
 Successfully generated index.html
-Generating archive.html with 674 papers...
+Generating archive.html with 684 papers...
 Successfully generated archive.html
-Generating journal.html with 674 papers...
+Generating journal.html with 684 papers...
 Successfully generated journal.html
-Generating acquisition.html with 674 papers...
+Generating acquisition.html with 684 papers...
 Successfully generated acquisition.html
-Generating publication.html with 674 papers...
+Generating publication.html with 684 papers...
 Successfully generated publication.html
-Generating registration.html with 674 papers...
+Generating registration.html with 684 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 674
+Total papers in database: 684
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-23T15:41:48.791Z
+Timestamp: 2025-07-24T15:40:03.385Z
