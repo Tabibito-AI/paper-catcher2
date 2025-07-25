@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-24T15:12:10.465Z
+Timestamp: 2025-07-25T15:12:35.609Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 674 existing papers from papers.json
+Loaded 684 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -457,6 +456,27 @@ Fetched papers from Springer: [
     journal: 'Innovative Technologies and Learning'
   },
   {
+    id: '10.1007/978-3-031-94924-1_16',
+    title: 'Advancing Digital Privacy Education: A Global Curriculum Initiative',
+    summary: 'As digital privacy becomes a critical concern across industries, structured education in this field is urgently needed. To address this gap, ACM, IEEE, and IFIP have launched a collaborative initiative to develop a Privacy Curricular Guideline for graduate programs. This framework defines core knowledge areas and aligns academic training with real-world needs. A Joint Taks Force of global experts identified eight foundational pillars for digital privacy education: (1) Privacy Body of Knowledge, (2) Privacy Foundations, (3) General Computer Science Concepts for Privacy, (4) Privacy-Preserving Computer Science/Software Engineering, (5) Information Systems/Technology, (6) Privacy Development Lifecycle, (7) Applied Domains, and (8) Privacy-related Industry Perspective. These are now being refined by dedicated Working Groups. This work is highly relevant to IFIP TC11 WG11.8, as privacy complements security but requires distinct focus areas addressing issues of user autonomy, data governance, and ethical considerations. Currently, privacy topics are often scattered across computer security and information security courses, leaving graduates unprepared for specialized privacy technologist roles. The initiative aims to bridge the education-practice gap and equip students with skills for emerging privacy challenges.',
+    published: '2026-01-01',
+    authors: [
+      'Tejay, Gurvirender P. S.',
+      'Bonaci, Tamara',
+      'Breaux, Travis',
+      'Cali, Ümit',
+      'Cuadross-Vargas, Ernesto',
+      'Foresti, Sara',
+      'McGettrick, Andrew',
+      'Raj, Rajendra',
+      'Rannenberg, Kai',
+      'Seely, Andrew'
+    ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Information Security Education. Empowering People Through Information Security Education'
+  },
+  {
     id: '10.1007/978-3-031-93825-2_19',
     title: 'Optimization of Corporate Governance from the Perspectives of Law and Economics and Blockchain',
     summary: 'Blockchain’s spontaneous consensus mechanism, characterized by technologies of decentralization, immutability, high transparency, and codification, helps address agency costs and the formalization of shareholder meetings in traditional corporate governance. With the advancement of blockchain technology, the integration of legal rules and code rules in corporate governance has become the new norm. As per the transaction cost theory of law and economics and the Coase Theorem, blockchain has promoted changes in governance rules by markedly reducing agency costs within companies. Corporate governance will exhibit partial and gradual adjustments when blockchain technology substantially diminishes these costs but falls short of achieving the optimal state of zero transaction costs. These changes not only enhance the transparency and efficiency of corporate governance but also effectively curb the misconduct of controlling shareholders and protect the rights of minority shareholders.',
@@ -504,37 +524,21 @@ Fetched papers from Springer: [
     journal: 'System Design in Software Engineering'
   },
   {
+    id: '10.1007/978-3-031-94924-1_5',
+    title: 'Using Attack Trees for Security Education and Training: Simplifying Threat Analysis',
+    summary: 'Modern cybersecurity education must prepare learners to understand how security threats can be realized and to diagnose and respond to attacks, under real-world constraints—such as incomplete or ambiguous information. This paper introduces two educational approaches. First, we adapt attack trees , a threat-modeling technique, into an intuitive framework for teaching security reasoning to non-experts, including children. By breaking down attacks into visual, step-by-step scenarios, learners systematically identify risks and countermeasures, fostering critical thinking and collaboration. Second, we propose a method to quantify the diagnosability of attacks, measuring how much information is needed to identify an attacker’s actions (which are unseen). This approach helps educators design realistic training exercises where learners prioritize evidence and act decisively under uncertainty. Finally, we discuss how this framework could be translated into a security tool accessible to a wide range of users.',
+    published: '2026-01-01',
+    authors: [ 'Gruska, Damas', 'Ali, Aliyu Tanko', 'Leucker, Martin' ],
+    categories: [ undefined, undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Information Security Education. Empowering People Through Information Security Education'
+  },
+  {
     id: '10.1007/978-3-031-98185-2_19',
     title: 'AI-Supported Summative Reflection to Foster Motivation and Teamwork in STEM: An Application of the 6E+R Framework',
     summary: "This study explores the integration of artificial intelligence (AI) in reflective learning processes within STEM education. Based on the 6E+R learning model, an AI-supported summative reflection tool was implemented in a collaborative problem-solving (CPS) activity to examine its effects on students’ learning motivation, teamwork competency, and reflective content. A total of 28 high school students participated in a one-day Micro:bit autonomous vehicle workshop and were randomly assigned to either an experimental or control group. The experimental group used an AI-powered reflection tool that employed large language models (LLMs) to automatically generate structured summaries and feedback, while the control group engaged in traditional reflThis is to inform you that corresponding author has been identified as per the information available in the Copyright form.ection by manually recording and reviewing their learning experiences. Results indicated that the experimental group significantly outperformed the control group in both learAs Per Springer style, both city and country names must be present in the affiliations. Accordingly, we have inserted the city names in all affiliations. Please check and confirm if the inserted city names are correct. If not, please provide us with the correct city names.ning motivation and teamwork competency, with medium effect sizes. Topic modeling using BERTopic revealed that the experimental group's reflections focused more on strategy adjustment, logical reasoning, and conceptual understanding, whereas the control group's reflections were more descriptive and operational. These findings suggest that AI-supported structured feedback can enhance the quality of student reflections, increase learning engagement, and improve collaborative interactions. This study demonstrates the practical value and effectiveness of AI-assisted reflection within the 6E+R instructional model, offering new directions for reflective design in STEM collaborative learning and expanding the potential of generative AI in educational settings.",
     published: '2026-01-01',
     authors: [ 'Lin, Chia-Ju', 'Pedaste, Margus', 'Huang, Yueh-Min' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Innovative Technologies and Learning'
-  },
-  {
-    id: '10.1007/978-3-031-92517-7_16',
-    title: 'Leveraging Artificial Intelligence Integration in Regional Sports Education to Foster Equitable and Sustainable Development',
-    summary: 'Objective: Regional disparities in sports education have become a critical issue in the education sector. Variances in sports education resources, educational levels, and participation exist among different regions, leading to disparities in students’ physical fitness, health conditions, and developmental opportunities. Method: This paper aims to demonstrate the feasibility of using artificial intelligence to improve equity in regional sports education through literature review, expert interviews, and data analysis. Conclusion: The causes of this phenomenon primarily involve various factors such as differences in economic development levels, urban-rural disparities, regional differences, and ethnic disparities. Measures to address this issue include raising public awareness and demand for artificial intelligence technology, developing suitable solutions, enhancing teacher training, and establishing demonstration points and cooperative schools. The application of artificial intelligence technology in regional sports education involves balancing benefits and risks, including risks related to data privacy and security, technological reliability and effectiveness, education and teaching quality, regional and cultural differences, as well as legal and ethical risks. Recommendations: It is recommended to strengthen data privacy protection, improve technological reliability, emphasize teacher guidance and supervision, and establish clear legal and ethical guidelines when promoting the application of artificial intelligence technology in regional sports education. Additionally, diversification in development pathways should be established, encouraging participation and support from various sectors of society to collectively promote the reasonable application and development of artificial intelligence technology.',
-    published: '2026-01-01',
-    authors: [ 'Li, Shuyi', 'Zhang, Zhongxin' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Cloud Computing'
-  },
-  {
-    id: '10.1007/978-3-031-98185-2_34',
-    title: 'Non-Immersive Virtual Learning Environments (VLEs) with XR Elements in Nursing Education: Learning Interaction and Clinical Competence',
-    summary: 'The way nursing students acquire clinical competence and patient safety awareness has changed as a result of the adoption of virtual learning environments (VLEs) in healthcare education. Non-immersive VLEs that display virtual scenarios offer secure learning experiences. Easily accessible and reasonably priced non-immersive VLEs can safely enhance learning clinical procedures. To the best of our knowledge, there is no earlier research on non-immersive VLEs with extended reality (XR) elements in nursing education, and this research fills that gap. This study investigates nursing students’ expectations and experiences of using non-immersive VLEs with XR elements to learn interaction and clinical competence, such as infusion pump operations. It also explores the strengths, weaknesses, opportunities, and threats related to the use of non-immersive VLEs with XR elements in this context. Fifteen first-year nursing students engaged in two non-immersive learning scenarios. The learning process was structured using a seven-phase simulation pedagogy. The data were collected using pre- and post-questionnaires; group discussions; and strengths, weaknesses, opportunities, and threats (SWOT) analysis. The data were analyzed using both qualitative and quantitative methods. The findings highlight the potential of non-immersive VLEs with XR elements to enhance engagement, confidence, and competence acquisition in nursing students while complementing traditional hands-on training. The study highlights the importance of blended learning strategies that integrate technical and scenario-based approaches, as well as simulation pedagogy, to optimize knowledge retention and clinical competency development. As digital technologies continue to shape healthcare education, non-immersive VLEs with XR elements are valuable in bridging the gap between theory and practice, ultimately contributing to patient safety and improved healthcare outcomes.',
-    published: '2026-01-01',
-    authors: [
-      'Korte, Satu-Maarit',
-      'Ruokamo, Heli',
-      'Reinikka, Loru',
-      'Keskitalo, Tuulikki',
-      'Saukkoriipi, Katja'
-    ],
     categories: [ undefined, undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Innovative Technologies and Learning'
@@ -544,379 +548,154 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40704445',
-    title: 'An Enduring Passion for Paediatric Radiology.',
-    abstract: 'No abstract available',
-    published: '2025-Jul-24',
-    authors: [ 'Ditchfield Michael', 'Coleman Lee', 'Rodda Christine' ],
-    journal: 'Journal of paediatrics and child health',
-    doi: '10.1111/jpc.70141',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704445/'
+    id: '40709539',
+    title: 'No effect of additional education on long-term brain structure, a preregistered natural experiment in thousands of individuals.',
+    abstract: "Education is related to a wide variety of beneficial health, behavioral, and societal outcomes. However, whether education causes long-term structural changes in the brain remains unclear. A pressing challenge is that individuals self-select into continued education, thereby introducing a wide variety of environmental and genetic confounders. Fortunately, natural experiments allow us to isolate the causal impact of increased education from individual (and societal) characteristics. Here, we exploit a policy change in the UK (the 1972 ROSLA act) that increased the amount of mandatory schooling from 15 to 16 years of age to study the impact of education on long-term structural brain outcomes in the UK Biobank. Using regression discontinuity (RD) - a causal inference method - we find no evidence of an effect from an additional year of education on any structural neuroimaging outcomes. This null result is robust across modalities, regions, and analysis strategies. An additional year of education is a substantial cognitive intervention, yet we find no evidence for sustained experience-dependent plasticity. Our results provide a challenge for prominent accounts of cognitive or 'brain reserve' theories which identify education as a major protective factor to lessen adverse aging effects. Our preregistered findings are one of the first implementations of RD on neural data - opening the door for causal inference in population-based neuroimaging.",
+    published: '2025-Jul-25',
+    authors: [ 'Judd Nicholas', 'Kievit Rogier' ],
+    journal: 'eLife',
+    doi: '10.7554/eLife.101526',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709539/'
   },
   {
-    id: '40704435',
-    title: 'Hepatitis C virus infection in blood donors in Santa Catarina, Brazil, 2010-2020.',
-    abstract: 'INTRODUCTION: Hepatitis C is a silent disease characterised by a persistent inflammatory process in the liver. Since blood is the main route of transmission, the objective of this study was to estimate the positivity rate of hepatitis C virus (HCV) infection in blood donations from the Public Blood Network of the State of Santa Catarina and to analyse the temporal trend and spatial distribution of cases between 2010 and 2020.\n' +
-      'METHODS: This historical cohort study included blood donors who tested positive for HCV and donated blood at the service between January 1, 2010, and December 31, 2020.\n' +
-      'RESULTS: Out of a total of 1 316 605 blood donations, 782 new samples tested positive for HCV, corresponding to an overall positivity rate of 59.4 per 100 000 donations. The majority of HCV-positive donors were adults, male, of white skin colour, married, and had at least a secondary education. Most HCV-positive cases were found in the South and Coastal Regions of Santa Catarina, although municipalities with high positivity rates were observed across all macro-regions of the state.\n' +
-      'CONCLUSIONS: The HCV positivity rate in blood donations from the Public Blood Network of the State of Santa Catarina demonstrated a downward trend over time, while maintaining sociodemographic characteristics similar to those reported in other regional studies. Furthermore, although HCV cases were reported in all macro-regions, the highest positivity rates occurred in the South, Alto Vale do Itajaí, Meio Oeste, Serra Catarinense, and Grande Oeste regions.',
-    published: '2025-Jul-24',
+    id: '40709524',
+    title: 'Full, free, and informed: defining and operationalizing informed choice for menstrual supplies.',
+    abstract: `Informed choice is a cornerstone of bodily autonomy and dignity, yet remains underdeveloped in menstrual health programs and markets, particularly in low- and middle-income countries. Currently, menstruation-related stigma and gaps in access, availability, and education constrain individuals' ability to choose menstrual supplies that best suit their needs. This article proposes a gender-transformative definition of informed choice for menstrual supplies, adapted from the "full, free, and informed" framework widely used in family planning. Informed choice for menstrual supplies means having access to the broadest possible range of supplies, the freedom to choose without stigma or coercion, and access to accurate, unbiased information. The range of menstrual supplies should include single-use and reusable products, contraception, pain relief, and supportive items. Pathways for operationalising this framework in both commercial and free distribution settings are explored, with recommendations for expanding choice, addressing systemic barriers, and improving menstrual literacy. Ultimately, enabling full, free, and informed choice in menstrual health can improve individual health outcomes, reduce stigma, enhance equity, and foster well-functioning markets responsive to the needs of all who menstruate.`,
+    published: '2025-Jul-25',
+    authors: [ 'Wilson Lucy C', 'Mahajan Tanya Dargan' ],
+    journal: 'Sexual and reproductive health matters',
+    doi: '10.1080/26410397.2025.2538357',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709524/'
+  },
+  {
+    id: '40709523',
+    title: 'Disaster Management Education and Training for Paramedics: A Scoping Review.',
+    abstract: 'OBJECTIVES: The aim of the present scoping review is to provide a comprehensive description and classification of the published research studies on education and training of paramedics and paramedic students in the context of disaster management with emphasis on educational/training techniques and their efficacy and the recent trends in this evolving field. The review is also designed to identify the main research gaps and to suggest recommendations for future research plans.\n' +
+      "METHODS: PubMed, Web of Science Core Collection, Scopus, Google Scholar, and ProQuest Dissertations and Theses were searched. Studies were included in the final analysis if they studied any aspect of paramedics or paramedic students' education or training in the context of disaster management.\n" +
+      'RESULTS: Forty-three studies fulfilled the selection criteria. Three themes were identified: 1) Conventional disaster education/training techniques; 2) Smart technology-based disaster education/training techniques; and 3) Development of and/or assessment of disaster education/training courses, programs, packages, or curricula.\n' +
+      'CONCLUSIONS: While disaster triage training is the focus of many studies, a new trend is emerging that integrates smart technology into educational and training programs. Also, there is increasing international interest in developing disaster training programs and curricula.',
+    published: '2025-Jul-25',
+    authors: [ 'Alqahtani Mohammed Ali', 'Sav Adem', 'Toloo Ghasem Sam' ],
+    journal: 'Disaster medicine and public health preparedness',
+    doi: '10.1017/dmp.2025.10137',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709523/'
+  },
+  {
+    id: '40709522',
+    title: 'Geospatial Analysis for Identifying Socially Vulnerable Areas to Natural Disasters.',
+    abstract: 'OBJECTIVES: Disaster risk reduction measures are now being developed based on social vulnerability. This study aimed to identify socially vulnerable areas to disasters in Razavi Khorasan Province, Iran.\n' +
+      "METHODS: The research utilized a mixed method approach conducted in 2 stages. First, a vulnerability index was created using 8 sub-indices, and the value of the index was calculated for each of the 91 rural districts in the study area. In the second stage, spatial analysis using Anselin's Local Moran's I was performed to identify the most vulnerable districts.\n" +
+      "RESULTS: Results indicated that 40 of 91 districts, covering 49% of the total area, had high social vulnerability to disasters. Anselin's Local Moran's I analysis identified 2 high-high clusters consisting of 5 districts. The study also found that areas with higher social vulnerability were more susceptible to natural hazards such as floods and earthquakes.\n" +
+      'CONCLUSIONS: Nearly half of the studied areas exhibited a high level of social vulnerability and were at risk of natural disasters. Implementing general measures to improve the socio-economic status of the population, such as increasing education and income levels, along with specific actions like assisting vulnerable populations in relocating to safer areas, can help mitigate disaster risks.',
+    published: '2025-Jul-25',
+    authors: [ 'Salari Maryam', 'Abbasiyazdi Alam', 'Shabanikiya Hamidreza' ],
+    journal: 'Disaster medicine and public health preparedness',
+    doi: '10.1017/dmp.2025.123',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709522/'
+  },
+  {
+    id: '40709457',
+    title: 'Comparative effectiveness of porcine placental extracellular matrix against other cellular, acellular and matrix-like products in diabetic foot ulcers from the Medicare database.',
+    abstract: " Diabetic foot ulcers (DFUs) are often hard to heal and may require advanced treatment with cellular, acellular and matrix-like products (CAMPs). This retrospective cohort study examines the Medicare fee-for-service population to compare clinical outcomes and health resources utilization in patients receiving porcine placental extracellular matrix (PPECM [InnovaMatrix AC, Convatec Triad Life Sciences, LLC, TN, USA]) against other CAMPs.  The Center for Medicare & Medicaid Services 100% Research Identifiable Files database was searched for potentially eligible patients using relevant ICD-10 diagnosis codes between 1 January 2020 and 31 December 2023. Patients with confirmed diagnoses of DFU and non-pressure chronic ulcers were selected for further evaluation. Eligible patients were categorized into groups according to treatment received: PPECM, PPECM's 510(k) predicate† (OASIS Wound Matrix, Cook Biotech Inc., IN, USA), or other similar CAMPs (OSC [Marigen Shield and Omega3 (Kerecis, Ísafjörður, Iceland); Integra Dermal Regeneration Template and Primatrix (Integra LifeSciences, NJ, USA); GraftJacket (Stryker, MI, USA); Theraskin and Dermacell (LifeNet Health, VA, USA); FlexHD/AllopatchHD and Amnioband (MTF Biologics, NJ, USA); Grafix/Stravix (Smith + Nephew, MA, USA); Epicord and Epifix (MiMedx, GA, USA); Affinity, Apligraf and Dermagraft (Organogenesis, MA, USA)]). Patient demographics, comorbidities and ulcer location were assessed for cohort homogeneity and balanced via inverse probability of treatment weighting, to adjust for potential confounding factors when comparing health outcomes.  There were 940,910 patients with a DFU diagnosis; of these, 738,124 (78.4%) also had same-day diagnosis of a non-pressure chronic ulcer. After application of eligibility criteria, there were a total of 34,664 patients with DFUs with 37,380 episodes of care that included one of the CAMP treatments (PPECM: number of patients (n) = 186, number of episodes (e) = 186; PPECM's 510(k) predicate: n = 369, e = 370; and OSC: n = 33,858, e = 36,559). In the inverse probability of treatment weighting-balanced model, patients with OSC episodes were 1.309-times more likely to undergo outpatient amputation than those with PPECM (95% CI: 1.251-1.371, p < 0.0001). Bacteremia was 2.75-times more likely in OSC episodes than in PPECM episodes (95% CI: 2.471-3.053, p < 0.0001). PPECM episodes had significantly fewer outpatient hospital visits compared with both OSC and PPECM's 510(k) predicate (5.84, 8.79 and 10.24, respectively, p < 0.0001). There were no differences in physician office visits or hospital admissions.  The findings suggest that PPECM performed clinically as well as or better than other well-established CAMPs. Notably, episodes of DFU care that involved PPECM were associated with significantly fewer outpatient amputations, fewer episodes of bacteremia, and fewer outpatient hospital visits. These data suggest that PPECM offers a clinically competitive treatment option for patients with DFUs.",
+    published: '2025-Jul-25',
     authors: [
-      'Schuelter-Trevisol Fabiana',
-      'Ossani Gabriel Tadeu',
-      'Parma Gabriel Oscar Cremona',
-      'Trevisol Daisson José'
+      'Marcinek Brad',
+      'Levinson Jenny',
+      'Nally Serena',
+      'Varghese Irene',
+      'Sheetz Caitlin',
+      'Kardel Peter',
+      'Taylor Cristin'
     ],
-    journal: 'Transfusion medicine (Oxford, England)',
-    doi: '10.1111/tme.70004',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704435/'
+    journal: 'Journal of comparative effectiveness research',
+    doi: '10.57264/cer-2025-0092',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709457/'
   },
   {
-    id: '40704427',
-    title: 'Scaling up a success story: how do we achieve universal access to transcranial magnetic stimulation?',
-    abstract: 'PURPOSE OF REVIEW: Over one billion people suffer from psychiatric and/or neurological disorders for which transcranial magnetic stimulation (TMS) has shown efficacy. Achieving widespread TMS access will require major improvements to cost and convenience. A key figure of merit for a given TMS protocol concerns not its remission rate or tolerability, but simply its treatment time per remission (TTPR).\n' +
-      'RECENT FINDINGS: Outcomes for conventional bilateral TMS protocols imply a TTPR of more than 100 h - incompatible with widespread access. However, briefer accelerated and/or theta-burst protocols may improve TTPR to less than 20 h. Personalization strategies that improve remission rates sometime improve TTPR, depending on associated cost-penalties of time or complexity. A potentially groundbreaking new strategy to improve TTPR involves pharmacological augmentation of neuroplasticity, using agents such as D-cycloserine. Plasticity-augmentation may improve TTPR by improving remission rates, and by reducing the number of required sessions. Recent literature suggests that TTPR values of under 5 h per remission may be achievable via neuroplasticity augmentation.\n' +
-      'SUMMARY: The most recent plasticity-augmented TMS protocols may approach or exceed cost-parity with pharmacotherapy, in terms of reducing the prevalence of depression. With the health economics of TMS improving steadily, a pathway to universal access may be within reach.',
-    published: '2025-Jul-18',
-    authors: [ 'Downar Jonathan' ],
-    journal: 'Current opinion in psychiatry',
-    doi: '10.1097/YCO.0000000000001029',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704427/'
+    id: '40709453',
+    title: '"Being Integrated Does Not Mean Being Included": What Factors Contribute to School Exclusion for Autistic Children?',
+    abstract: "Autistic students face a heightened risk of exclusion from school and related activities, yet the factors contributing to this issue remain poorly understood. To address this gap, the current study took place in Ontario, Canada's largest province, where diverse populations and varied inclusive education policies create unique challenges. The study had two primary objectives: (1) to examine the relationship between parent satisfaction with the individual education plan (IEP) process and school exclusion, and (2) to identify key factors parents perceive as predictors of school exclusion in their autistic children. A total of 412 caregivers from Ontario completed an online survey, available in English and French, between April and July 2018. Quantitative analysis revealed that greater satisfaction with the IEP process was associated with a lower likelihood of school exclusion (b = -0.297, OR = 0.743, p < 0.001). Qualitative analysis of open-ended responses identified two primary contributors to exclusion: bullying by peers and inadequate training and support for school staff. These findings highlight the need for improved supports in educational settings, including comprehensive anti-bullying initiatives, stronger collaboration with parents in the development of IEPs, greater accountability in ensuring that IEPs are properly implemented, a more inclusive approach to meeting student needs, and increased funding for support staff. Addressing these areas could help reduce the risk of exclusion and foster a more equitable learning environment for autistic students.",
+    published: '2025-Jul-25',
+    authors: [ 'Schneider Margaret', 'Fong Vanessa C', 'McLaughlin Janet' ],
+    journal: 'Autism research : official journal of the International Society for Autism Research',
+    doi: '10.1002/aur.70088',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709453/'
   },
   {
-    id: '40704372',
-    title: 'Getting even: occurrence of histopathological primitive melanoma diagnoses three years after the COVID-19 lockdown.',
-    abstract: "The COVID-19 lockdown in 2020 caused a significant delay in histopathological melanoma diagnoses in Rome, Italy, leading to an increase in Breslow thickness and more aggressive tumor characteristics in the following years. Although there was a partial recovery in the number of diagnoses in 2021 and 2022, melanoma thickness remained higher than pre-pandemic levels. In 2023, our analysis of primary melanoma cases from the Histopathology Registry of Istituto Dermopatico dell'Immacolata (IDI)-IRCCS in Rome showed that Breslow thickness had finally returned to, or even improved beyond, 2019 levels - indicating a resolution of the diagnostic delay. At the same time, the proportion of ulcerated and nodular melanomas declined. These findings underscore the long-term effects of pandemic-related diagnostic disruptions and highlight the importance of maintaining continuous screening programs, even during public health crises. Ongoing public education on melanoma awareness and early detection remains crucial to preventing future delays.",
-    published: '2025-Jul-23',
-    authors: [
-      'Ricci Francesco',
-      'Pistore Gianluca',
-      'Di Lella Giovanni',
-      'Fania Luca',
-      'Ricci Francesca',
-      'Rahimi Siavash',
-      'Panebianco Annarita',
-      'Fortes Cristina',
-      'Abeni Damiano'
-    ],
-    journal: 'Dermatology reports',
-    doi: '10.4081/dr.2025.10318',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704372/'
-  },
-  {
-    id: '40704319',
-    title: 'Determinants of household food security and maternal dietary diversity in rural Gedeo zone, southern Ethiopia: results from a cross-sectional study.',
-    abstract: 'BACKGROUND: In Ethiopia, food insecurity and poor dietary diversity continue to affect maternal and child health, particularly in rural regions.\n' +
-      'OBJECTIVE: We examined the status and determinants of household food security and maternal dietary diversity in rural Gedeo zone, southern Ethiopia.\n' +
-      "METHODS: A cross-sectional study was conducted among randomly selected 422 households, and household food insecurity and women's dietary diversity was measured. We conducted bivariable and multivariable logistic regression.\n" +
-      "RESULTS: In this study, 65.5% of mothers (95% CI: 60.7-70.0%) and 27.9% (95% CI: 23.7-32.5%) of households had adequate dietary diversity and food security, respectively. Severe or moderate food insecurity predispose to inadequate dietary diversity, whereas, higher wealth status increased the odds of adequate dietary diversity. Maternal education increased the odds of adequate dietary diversity. Regarding household food insecurity, the size of the household having a member of 5-7 and 8-12 were 78 and 76% less likely to be food insecure among households compared to 1-4 members size [OR = 0.22 (95%CI: 0.07, 0.70)] and [OR = 0.24 (95% CI: 0.07, 0.83)] respectively. Those household having high in women's dietary diversity were 83% less likely to have to food insecure among households compared to the lowest women's dietary diversity [AOR = 0.17 (95% CI: 0.10, 0.31)].\n" +
-      'CONCLUSION: Household wealth status, maternal education, household food security status, pregnancy status were factors affected maternal dietary diversity. Family size and dietary diversity affected household food security status. Interventions should focus on maternal literacy, empowering women on income, assuring food security to increase maternal dietary diversity.',
+    id: '40709349',
+    title: 'Developing an Adult Living Donor Liver Transplant Program in Western Europe: The Rotterdam Experience.',
+    abstract: 'Liver transplantation (LT) is curative for end stage liver disease. Expanding LT indications with limited deceased donor grafts has created organ shortages. Living donor liver transplant (LDLT) increases available organs. In 2019, we restarted our adult LDLT program. We describe our steps to create a successful LDLT program, and our outcomes. Critical steps of program development included market analysis, creation of protocols based on best care practices and a rigorous education program. Patients and donors were then actively recruited for LDLT. Outcomes were measured as morbidity (≥3 on the Clavien-Dindo grading system) and mortality. Between January 2019 and August 2024, 54 LDLT were performed. 2 (3%) donors experienced grade 3A and 7 (12%) donors experience grade 3B complications. There was no donor mortality. 22 (41%) patients were transplanted for PSC, the average MELD score was 13 (6-32). 35 (65%) patients had Roux-en-Y reconstructions. 25 (46%) complications were experienced in 22 (40%) patients, there were 2 recipient deaths. Patient and graft survival after LDLT was 97% and 97%, respectively. This paper reported the successful establishment of a LDLT program in the Netherlands. Establishing a LDLT program brings its own unique challenges, with careful planning and persistence, these challenges can be overcome.',
     published: '2025',
     authors: [
-      'Jisso Meskerem',
-      'Biadgilign Sibhatu',
-      'Tareke Amare Abera',
-      'Tesfaye Tizalegn',
-      'Zerfu Tadesse Alemu'
+      'Chorley Alicia Jane',
+      'Polak Wojciech G',
+      'Tran Khe C K',
+      'Terkivatan Turkan',
+      'Kissler Jenny',
+      'Doukas Michail',
+      'Den Hoed Caroline',
+      'Thomeer Maarten G',
+      'Dwarkasing Roy',
+      'Metselaar Herold',
+      'Ijzermans Jan N M',
+      'Porte Robert J',
+      'Kuipers Ernst Johan',
+      'Minnee Robert C',
+      'Boehnert Markus'
     ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1523344',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704319/'
+    journal: 'Transplant international : official journal of the European Society for Organ Transplantation',
+    doi: '10.3389/ti.2025.14442',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709349/'
   },
   {
-    id: '40704312',
-    title: 'The effect of conservation agriculture technologies adoption on food production and security in Northern Malawi: evidence from Mzimba district.',
-    abstract: 'BACKGROUND: Adoption of conservation agriculture technologies (CATs) has emerged as a strategy to improve farm productivity and achieve food security in many parts of the world.\n' +
-      'AIM: This study aimed to assess the effect of CAT adoption on food production and security.\n' +
-      'METHODS: This quantitative cross-sectional study was conducted in the Vibangalala Extension Planning Area (EPA) in Mzimba district, Northern Malawi. Data was collected using structured questionnaires. The data were entered in SPSS version 27. Descriptive statistics included frequency, percentage, weighted percentage, means, standard deviations, and standard error mean. Inferential statistics included a -test and a linear regression model, with the value of  < 0.05 considered statistically significant.\n' +
-      'FINDINGS: The study found that households that adopted CATs have high food production and experience food security compared to non-adopters. Adoption of CATs significantly boosts production, with adopters experiencing lower food insecurity and better dietary diversity than non-adopters.\n' +
-      'CONCLUSION AND RECOMMENDATION: The study confirms that adopting conservation agricultural technologies is integral to improving agricultural production, but remains entangled in disparities related to gender, farm size, and education. Efforts should be made to ensure equity and equality in conservation agricultural technology adoption to improve food security for all.',
+    id: '40709347',
+    title: 'The Oral Health Disparity Among Refugee Children: A Systematic Review.',
+    abstract: 'OBJECTIVE: We sought to understand oral health problems among refugee children resettled in developed nations and determine best practices for addressing them.\n' +
+      'METHODS: A systematic review was performed and reported in accordance with Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. A comprehensive search was performed using the PubMed, CINAHL, and Scopus databases from 1980 through 2024 using Medical Subject Heading terms: "children," "refugee," and "oral health," and a separate search in which "oral health" was replaced with "dental caries." Interventional, qualitative, and epidemiological studies about children resettled in developed nations were included. Critical study appraisal was done using the Critical Appraisal Skills Program (CASP) tool developed at Oxford University. Final data were synthesized in tables and graphs, depicting the study designs, locations, dates of data collection, sample sizes, sample characteristics, and major findings.\n' +
+      "RESULTS: Of 30 studies, 25 analyzed oral health in refugee children directly, and six were qualitative studies interviewing parents/caregivers and key informants. Twelve cross-sectional studies included clinical exams, identifying as many as 78% of refugee children with dental caries. Eight studies comparing refugee children to age-and sex-matched children in respective developed countries showed refugee status conferred significantly worse oral health. Two interventional studies demonstrated that parental education improved knowledge but did not improve children's oral health, whereas oral screenings at dedicated refugee health clinics facilitated children receiving referrals and completing treatment. Review data was limited by the lack of standardized or comprehensive measures of oral health.\n" +
+      'CONCLUSIONS: The refugee pediatric population is at higher risk of oral disease than nonrefugee immigrant and native-born patient populations. Developed nations should address this disparity with community and healthcare partnerships and research, particularly prospective and interventional studies. Otolaryngologists care for the clinical consequences of poor oral health and hygiene and therefore share responsibility in facilitating preventive efforts.',
+    published: '2025-Aug',
+    authors: [ 'Kandahari Nazineen', 'Moulana Zada Fareha', 'Farzal Zainab' ],
+    journal: 'Laryngoscope investigative otolaryngology',
+    doi: '10.1002/lio2.70194',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709347/'
+  },
+  {
+    id: '40709345',
+    title: 'Personalized Dietary Self-Management and Its Influence on Disease Progression in Chronic Hepatitis B.',
+    abstract: " Clinical treatment of chronic hepatitis B (CHB) patients nowadays is still focusing on the clearance ratio of HBsAg. However, the quality of the CHB patients' lives and the recovery of their liver organs also need to be considered in the clinic, especially in the nursing field. Here, we evaluated a newly personalized dietary self-management, which emphasized vegetable oil rather than the oneness requirement of a low-oil diet for the patients, accommodating the thinner patient group for their sufficient energy intake.  An observational study was conducted with 90 individual CHB patients through the double-arm randomized study method. The newly personalized dietary self-management education was performed among the participants in the refined group, and their physiological detection results after 6 months from enrollment would be compared with those of the control group participants who received traditional dietary self-management education.  Compared to the control group with traditional dietary self-management education, we found that the results in the refined group presented a faster reduction speed in ALT, AST, and TBIL.  The results of this study showed the benefit of the vegetable oil for CHB patients when it appropriately served as the way of energy intake, during the patients' treatment period. A larger scale of this personalized dietary self-management education should be permitted for further assessment.",
+    published: '2025',
+    authors: [ 'Wang Yuan-Yuan', 'Yao Yu-Qian', 'Sun Yue', 'Qian Xiang-Yun' ],
+    journal: 'Journal of nutrition and metabolism',
+    doi: '10.1155/jnme/5585004',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709345/'
+  },
+  {
+    id: '40709329',
+    title: "Project-based learning with arduino robots: impact on undergraduate students' achievement and task persistence in robotics programming.",
+    abstract: "INTRODUCTION: Programming is a fundamental skill in the 21st century, yet there is a global shortage of skilled programmers for high-tech jobs. This study determined the effects of Project-Based Arduino Robot Application (PARA) on undergraduate students' achievement and task persistence in robotics programming.\n" +
+      'METHODS: The quasi-experimental research design was adopted for the study. A sample of 74 second-year computer and robotics education students from three intact classes in three tertiary institutions offering robotics programming II were selected forthe study.\n' +
+      "RESULTS AND DISCUSSION: PARA improved the academic achievement of students in robotics programming (63.00 ± 16.81) more than the conventional method, which uses Interactive PowerPoint (IPP) (43.79 ± 12.07). PARA improved the task persistence of students in robotics programming (73.75 ± 13.46) more than the conventional method (40.00 ± 13.70). Male students taught robotics programming using PARA had a slightly higher mean achievement score (69.60 ± 11.50) than their female counterparts (52.00 ± 19.43). Female students taught robotics programming using PARA had a slightly higher mean task persistence score (78.67 ± 11.96) than their male counterparts (70.80 ± 14.02). There was a significant difference (p < 0.05) in students' mean achievement scores based on the instruction method used in teaching robotics programming, among others. These findings have implications for instructing students who find robotics programming difficult and abstract.",
     published: '2025',
     authors: [
-      'Munthali George N Chidimbah',
-      'Puming He',
-      'Banda Lazarus Obed Livingstone',
-      'Ngulube Peter Stephen Donald',
-      'Daru Gama Rivas',
-      'Mzumara Thokozani',
-      'Chitete Moses M N',
-      'Jere Zondiwe Mabilabo'
+      'Nannim Fadip Audu',
+      'Ibezim Nnenna E',
+      'Mosia Moeketsi',
+      'Oguguo Basil C E'
     ],
-    journal: 'Frontiers in nutrition',
-    doi: '10.3389/fnut.2025.1615990',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704312/'
-  },
-  {
-    id: '40704290',
-    title: "Exploring Greek midwives' knowledge, attitudes, and practices in perinatal smoking: A cross-sectional study.",
-    abstract: 'INTRODUCTION: Smoking during pregnancy remains a significant global public health concern. Midwives, as frontline healthcare providers, play a crucial role in supporting smoking cessation among pregnant women. This study aimed to explore the factors associated with the implementation of smoking practices by midwives in Greece.\n' +
-      "METHODS: We conducted a cross-sectional survey between December 2022 and December 2023 among 150 midwives working in the 1st and 2nd Health Districts of Greece, as well as in private practices. Data were collected using a self-administered, anonymized questionnaire assessing demographics, knowledge, opinions, perceptions, and smoking cessation practices. Composite scores were calculated for knowledge, opinions, perceptions, and practices. Exploratory factor analysis was applied to examine the structure of midwives' opinions and perceptions. Multivariate linear regression was used to identify independent predictors of smoking cessation practices.\n" +
-      "RESULTS: Among the respondents, 78% had not received formal education on smoking cessation, although 77.3% expressed a desire for training. Only 35.3% recognized that secondhand smoke affects newborns, and 32.7% felt confident in supporting pregnant women to quit smoking. Factor analysis identified two key dimensions: midwives' contribution to smoking cessation during pregnancy, and information and help to stop smoking during pregnancy, explaining 27.7% and 16.9% of the variance, respectively. Multivariate regression revealed that both factors were independently associated with more frequent implementation of smoking cessation practices (p<0.05).\n" +
-      "CONCLUSIONS: The study underscores the pivotal role of midwives in smoking cessation during pregnancy and highlights the importance of perceptions, self-efficacy, and access to information in shaping their practices. Targeted education and institutional support are essential to strengthen midwives' capacity to deliver effective smoking cessation interventions. These findings can inform policy and training programs aiming to improve maternal and neonatal outcomes by reducing tobacco use during pregnancy.",
-    published: '2025',
-    authors: [
-      'Delakovia Taxiarchoula',
-      'Katsaounou Paraskevi',
-      'Sarantaki Antigoni',
-      'Bakou Angeliki',
-      'Lykeridou Aikaterini',
-      'Diamanti Athina'
-    ],
-    journal: 'Tobacco prevention & cessation',
-    doi: '10.18332/tpc/205916',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704290/'
-  },
-  {
-    id: '40704229',
-    title: 'Developing a Longitudinal Point-of-Care Ultrasound (POCUS) Curriculum for Internal Medicine Residents.',
-    abstract: 'Introduction Point-of-care ultrasound (POCUS) is increasingly recognized as a valuable tool, enhancing diagnostic accuracy and reducing complications. Despite these benefits, barriers such as limited faculty training, equipment access, and time constraints hinder POCUS integration into internal medicine programs. We evaluated the feasibility of a multimodal, longitudinal ultrasound curriculum designed for internal medicine residents. Methods The POCUS Training Program (PTP) was implemented in an internal medicine residency program at a quaternary care center. This longitudinal curriculum comprised self-directed online modules, faculty-led didactic and scanning sessions, and the compilation of a portfolio. Program effectiveness was assessed through pre- and post-program surveys with five-point Likert scales measuring confidence with image acquisition and interpretation. Results Among the 50 initial program enrollees for the 2021-2022 academic year, only nine completed the curriculum, with two meeting full requirements including completing the image portfolio. Post-program surveys responses (derived from 11 respondents among 96 total program participants at the end of 2023, 11% response rate) indicated significant improvements in confidence with the cardiac and volume assessments. In-person didactics and independent scanning were rated as the most effective learning modalities. Time constraints, inconsistent equipment access, and POCUS experience variability among supervising senior residents and attendings were the most commonly cited barriers. Suggestions for improvement included more supervised image reviews, patient scanning sessions, and streamlined image-saving workflows. Discussion We demonstrated that implementing a longitudinal POCUS curriculum can be challenging with low completion rates for the full program, but such a curriculum has the potential to improve confidence with POCUS exams. Addressing barriers, including equipment accessibility and faculty training, is paramount. Integrating POCUS into core residency curricula and increasing faculty development may also improve efficacy. This pilot program serves as a scaffold for future iterations.',
-    published: '2025-Jun',
-    authors: [
-      'Chen Jenny Y',
-      'Trieu Megan',
-      'Custer Adam',
-      'Holman Patrick',
-      'Sarnoff Rachel',
-      'Ward Lindsey',
-      'Cha Beda',
-      'Kahn Daniel'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.86598',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704229/'
-  },
-  {
-    id: '40704227',
-    title: 'Academic writing and critical appraisal in physiology education: discerning the benefits of using large language models as knowledge receivers or knowledge providers.',
-    abstract: 'No abstract available',
-    published: '2025',
-    authors: [ 'Hardy Matthew' ],
-    journal: 'Current research in physiology',
-    doi: '10.1016/j.crphys.2025.100156',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704227/'
-  },
-  {
-    id: '40704220',
-    title: 'Medication Adherence and Perceptions According to the Presence or Absence of a Migration Background in a Dialysis Unit (DIANA Qualitative Study).',
-    abstract: "PURPOSE: Migration status has received little attention in the context of medication adherence. This qualitative study aims to consolidate the findings of the quantitative DIANA study by: 1) exploring medication management, medication knowledge and perceptions and 2) identifying whether there are differences in medication management, knowledge and perceptions between patients according to the patients' migration status.\n" +
-      'PATIENTS AND METHODS: This monocentric qualitative study was part of the research protocol DIANA (). Patients were recruited at the chronic dialysis unit of the Lausanne University Hospital. In-depth, face-to-face interviews were conducted; for allophone patients, an interpreter was present. Each interview was recorded and transcribed verbatim. A content analysis was performed.\n' +
-      'RESULTS: Eighteen interviews were performed. Nine patients were Swiss, 3 had a residence/settlement permit, 6 were provisionally admitted/asylum seekers. Six interviews were performed with an interpreter. Core themes were: (1) treatment management (medication intake had become a habit, forgetting was rare), (2) heterogeneous treatment knowledge but highly perceived necessity, (3) reported medication disadvantages were pill burden and side effects, (4) role of the patient in the medical environment (trust in physicians but patients making decisions regarding their treatment on their own, without consulting healthcare professionals). Swiss patients engaged more in shared decision-making and were more likely to talk about side effects than migrant patients. Provisionally admitted foreign nationals/asylum seekers talked more about their gratitude to the healthcare system.\n' +
-      "CONCLUSION: More studies are needed to understand how shared decision-making can be established between health professionals and patients, taking into account their migration status. To provide tailored education, it is essential to evaluate patients' health literacy and to use the teach-back method to find the best way to convey health messages. The acquisition of transcultural clinical skills by health professionals is necessary to support medication adherence.",
-    published: '2025',
-    authors: [
-      'Dotta-Celio Jennifer',
-      'Lelubre Mélanie',
-      'Bolzon Sabrina',
-      'Halabi Georges',
-      'Burnier Michel',
-      'Bodenmann Patrick',
-      'Pruijm Menno',
-      'Schneider Marie P'
-    ],
-    journal: 'Patient preference and adherence',
-    doi: '10.2147/PPA.S503025',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40704220/'
+    journal: 'Frontiers in robotics and AI',
+    doi: '10.3389/frobt.2025.1615427',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40709329/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1102,7 +881,7 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
     at RedirectableRequest.emit (node:events:536:35)
@@ -1118,16 +897,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
+    at async Promise.all (index 5)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1152,7 +930,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     },
     maxRedirects: 5,
     method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
     allowAbsoluteUrls: true,
     data: undefined
   },
@@ -1184,7 +962,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxRedirects: 5,
       maxBodyLength: Infinity,
       protocol: 'http:',
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
       method: 'GET',
       headers: [Object: null prototype],
       agents: [Object],
@@ -1192,12 +970,12 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       family: undefined,
       beforeRedirect: [Function: dispatchBeforeRedirect],
       beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
+      hostname: 'www.ijiim.net',
       port: '',
       agent: undefined,
       nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
       query: undefined,
       search: '',
       hash: ''
@@ -1236,11 +1014,11 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       _headerSent: true,
       _closed: false,
       socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
         'Accept: application/json, text/plain, */*\r\n' +
         'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
+        'Host: www.ijiim.net\r\n' +
         'Connection: keep-alive\r\n' +
         '\r\n',
       _keepAliveTimeout: 0,
@@ -1251,7 +1029,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
       _ended: false,
       res: null,
       aborted: false,
@@ -1260,7 +1038,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       parser: null,
       maxHeadersCount: null,
       reusedSocket: false,
-      host: 'www.ijsim.net',
+      host: 'www.ijiim.net',
       protocol: 'http:',
       _redirectable: [Circular *1],
       [Symbol(shapeMode)]: false,
@@ -1274,19 +1052,18 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
     _timeout: null,
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
   },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
@@ -1476,6 +1253,197 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     port: 80
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1590,141 +1558,132 @@ Fetched papers from CrossRef: [
     authors: [],
     journal: 'International Journal of Humanities, Social Sciences and Education',
     link: 'https://doi.org/10.20431/2349-0381.0303002'
-  },
-  {
-    id: '10.20431/2349-0381.0303005',
-    title: 'Assessing the Technical Efficiency of Public Hospitals in Cameroon: An Application of Data Envelopment Analysis (DEA)',
-    summary: 'No abstract available from web scraping',
-    published: '2106',
-    authors: [],
-    journal: 'International Journal of Humanities, Social Sciences and Education',
-    link: 'https://doi.org/10.20431/2349-0381.0303005'
   }
 ]
-Collected 10 papers from crossref
-Total papers collected: 50
-Removed duplicates: 50 -> 50
-Starting translation of 50 papers...
-Translating paper 1/50
+Collected 9 papers from crossref
+Total papers collected: 49
+Removed duplicates: 49 -> 49
+Starting translation of 49 papers...
+Translating paper 1/49
 Translating paper: Big data in economics...
-Translating paper 2/50
+Translating paper 2/49
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
+Translating paper 3/49
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/50
+Translating paper 4/49
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
+Translating paper 5/49
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
+Translating paper 6/49
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/50
+Translating paper 7/49
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/50
+Translating paper 8/49
 Translating paper: A physical theory of economic growth...
-Translating paper 9/50
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7819614240687796 seconds...
+Translating paper 9/49
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/50
+Translating paper 10/49
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/50
+Translating paper 11/49
 Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/50
+Translating paper 12/49
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
-Translating paper 13/50
+Translating paper 13/49
 Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 14/50
+Translating paper 14/49
 Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 15/50
+Translating paper 15/49
 Translating paper: Experience and education...
-Translating paper 16/50
+Translating paper 16/49
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 17/50
+Translating paper 17/49
 Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 18/50
+Translating paper 18/49
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 19/50
+Translating paper 19/49
 Translating paper: The Impact of Education for Sustainable Developmen...
-Translating paper 20/50
+Translating paper 20/49
 Translating paper: The Effect of Using Simulation on Developing Stude...
-Translating paper 21/50
+Translating paper 21/49
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
-Translating paper 22/50
+Translating paper 22/49
 Translating paper: Integrating Artificial Intelligence in English Lan...
-Translating paper 23/50
+Translating paper 23/49
 Translating paper: Model-Based STEM Technical and Vocational Educatio...
-Translating paper 24/50
+Translating paper 24/49
+Translating paper: Advancing Digital Privacy Education: A Global Curr...
+Translating paper 25/49
 Translating paper: Optimization of Corporate Governance from the Pers...
-Translating paper 25/50
+Translating paper 26/49
 Translating paper: AI and Forensics Security with Cloud, Networks Imp...
-Translating paper 26/50
+Translating paper 27/49
 Translating paper: Integrating Generative Artificial Intelligence wit...
-Translating paper 27/50
+Translating paper 28/49
 Translating paper: Building an Ontology for Supporting Relationship M...
-Translating paper 28/50
+Translating paper 29/49
+Translating paper: Using Attack Trees for Security Education and Trai...
+Translating paper 30/49
 Translating paper: AI-Supported Summative Reflection to Foster Motiva...
-Translating paper 29/50
-Translating paper: Leveraging Artificial Intelligence Integration in ...
-Translating paper 30/50
-Translating paper: Non-Immersive Virtual Learning Environments (VLEs)...
-Translating paper 31/50
-Translating paper: An Enduring Passion for Paediatric Radiology....
-Translating paper 32/50
-Translating paper: Hepatitis C virus infection in blood donors in San...
-Translating paper 33/50
-Translating paper: Scaling up a success story: how do we achieve univ...
-Translating paper 34/50
-Translating paper: Getting even: occurrence of histopathological prim...
-Translating paper 35/50
-Translating paper: Determinants of household food security and matern...
-Translating paper 36/50
-Translating paper: The effect of conservation agriculture technologie...
-Translating paper 37/50
-Translating paper: Exploring Greek midwives' knowledge, attitudes, an...
-Translating paper 38/50
-Translating paper: Developing a Longitudinal Point-of-Care Ultrasound...
-Translating paper 39/50
-Translating paper: Academic writing and critical appraisal in physiol...
-Translating paper 40/50
-Translating paper: Medication Adherence and Perceptions According to ...
-Translating paper 41/50
+Translating paper 31/49
+Translating paper: No effect of additional education on long-term bra...
+Translating paper 32/49
+Translating paper: Full, free, and informed: defining and operational...
+Translating paper 33/49
+Translating paper: Disaster Management Education and Training for Par...
+Translating paper 34/49
+Translating paper: Geospatial Analysis for Identifying Socially Vulne...
+Translating paper 35/49
+Translating paper: Comparative effectiveness of porcine placental ext...
+Translating paper 36/49
+Translating paper: "Being Integrated Does Not Mean Being Included": W...
+Translating paper 37/49
+Translating paper: Developing an Adult Living Donor Liver Transplant ...
+Translating paper 38/49
+Translating paper: The Oral Health Disparity Among Refugee Children: ...
+Translating paper 39/49
+Translating paper: Personalized Dietary Self-Management and Its Influ...
+Translating paper 40/49
+Translating paper: Project-based learning with arduino robots: impact...
+Translating paper 41/49
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 42/50
+Translating paper 42/49
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 43/50
+Translating paper 43/49
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 44/50
+Translating paper 44/49
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 45/50
+Translating paper 45/49
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 46/50
+Translating paper 46/49
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 47/50
+Translating paper 47/49
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 48/50
+Translating paper 48/49
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 49/50
+Translating paper 49/49
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
-Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 50 papers
-Removed duplicates: 724 -> 684
-Total papers after merging: 684 (674 existing + 50 new)
-Saved 684 papers to papers.json
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.5132209845987514 seconds...
+Translation completed: 49 papers
+Removed duplicates: 733 -> 696
+Total papers after merging: 696 (684 existing + 49 new)
+Saved 696 papers to papers.json
 Generating HTML files...
-Generating index.html with 684 papers...
+Generating index.html with 696 papers...
 Successfully generated index.html
-Generating archive.html with 684 papers...
+Generating archive.html with 696 papers...
 Successfully generated archive.html
-Generating journal.html with 684 papers...
+Generating journal.html with 696 papers...
 Successfully generated journal.html
-Generating acquisition.html with 684 papers...
+Generating acquisition.html with 696 papers...
 Successfully generated acquisition.html
-Generating publication.html with 684 papers...
+Generating publication.html with 696 papers...
 Successfully generated publication.html
-Generating registration.html with 684 papers...
+Generating registration.html with 696 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 684
-New papers processed: 50
+Total papers in database: 696
+New papers processed: 49
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-24T15:40:03.385Z
+Timestamp: 2025-07-25T15:40:03.085Z
