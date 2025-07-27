@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-26T15:10:49.713Z
+Timestamp: 2025-07-27T15:10:46.648Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 696 existing papers from papers.json
+Loaded 698 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,22 +297,114 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: '60dfd50de8b3b43861ddaa0544a95f9652ea5ee1',
+    title: 'Handbook of THE ECONOMICS OF EDUCATION',
+    abstract: 'A substantial amount of money is spent on technology by schools, families, and policymakers with the hope of improving educational outcomes. This chapter explores the theoretical and empirical literature on the impacts of technology on educational outcomes. The literature focuses on two primary contexts in which technology may be used for educational purposes: (i) classroom use in schools and (ii) home use by students. Theoretically, information and communications technology (ICT) investment and computer-aided instruction (CAI) use by schools and the use of computers at home have ambiguous implications for educational achievement: expenditures devoted to technology necessarily offset inputs that may be more or less efficient, and time allocated to using technology may displace traditional classroom instruction and educational activities at home. However, much of the evidence in the schooling literature is based on interventions that provide supplemental funding for technology or additional class time, and thus favor finding positive effects. Nonetheless, studies of ICT and CAI in schools produce mixed evidence with a pattern of null results. Notable exceptions to this pattern occur in studies of developing countries and CAI interventions that target math rather than language. In the context of home use, early studies based on multivariate and instrumental variables approaches tend to find large positive (and in a few cases negative) effects while recent studies based on randomized con-trol experiments tend to find small or null effects. Early research focused on developed countries while more recently several experiments have been conducted in developing countries.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ 'G. Bulman', 'R. W. Fairlie' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/60dfd50de8b3b43861ddaa0544a95f9652ea5ee1'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -410,6 +502,54 @@ Fetched papers from Springer: [
     journal: 'Internet of Things, Smart Spaces, and Next Generation Networks and Systems'
   },
   {
+    id: '10.1007/978-3-031-78623-5_23',
+    title: 'AI and Pre-service Teachers: Attitudes to and the Prospect of Applying AI-Based Tools in Education',
+    summary: 'Artificial intelligence (AI) has seamlessly woven itself into the daily routines and scholarly pursuits of pre-service teachers, thus substantially changing their perceptions of and attitudes to the use of AI and AI-based tools in the processes of teaching and learning. While these perceptions and attitudes to AI and AI-based tools may have a positive impact on these teachers’ ability to use and utilize AI-based tools, the challenge is that this ability is but intuitive. As such, the efficiency of the use of the AI-based tools in education is affected by insufficient methodology, fragmented integration of AI-based tools in the overall curriculum, thus raising questions of sustainability and overall purpose. As research on AI and AI-based tools in pre-service training is still nascent, the objective of this paper is delve into this multifaceted challenge. The findings of this research suggests that while a vast majority of future teachers engage with AI on a daily basis, their interaction primarily involves leveraging the fundamental features of freely accessible applications. It is only a few future teachers who engage with a more advanced exploration of the potential inherent in AI and related applications.',
+    published: '2026-01-01',
+    authors: [
+      'Baťko, Jan',
+      'Frolík, Dominik',
+      'Rohlíková, Lucie',
+      'Vejvodová, Jana',
+      'Visvizi, Anna',
+      'Voltrová, Michaela',
+      'Vrbová, Viola'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Research and Innovation Forum 2024'
+  },
+  {
+    id: '10.1007/978-3-031-78623-5_24',
+    title: 'ChatGPT and University Students: How Family Education and Disciplinary Fields of Study Matter?',
+    summary: 'Advanced AI models, like ChatGPT, offer significant innovation potential in higher education. Their ability to adapt learning to users’ individual needs results in improvements in performance, engagement and self-efficacy contributing to a deeper understanding of the topics covered. The use of chatbots in learning is pushing the scientific community to examine the potential and also the relative risks of these tools. This study aims to preliminarily investigate the level of knowledge and propensity to use ChatGPT to understand the key factors influencing the adoption of these tools among university students. A semi-structured questionnaire was administered to over 300 students at the University of Salerno (Italy), involving various faculties to explore how the field of study influences interest in using ChatGPT. The results will allow profiling of students based on the variables examined, revealing their level of knowledge and attitude towards using ChatGPT for educational purposes. This research, involving students from humanities and scientific disciplines, underscores their crucial role in shaping the future of educational technologies. Practical and theoretical implications could lead to more effective and personalized forms of learning, revolutionizing the education and learning sector.',
+    published: '2026-01-01',
+    authors: [
+      'Apuzzo, Adriana',
+      'Della Volpe, Maddalena',
+      'Perisano, Giuseppe',
+      'Testa, Mario'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Research and Innovation Forum 2024'
+  },
+  {
+    id: '10.1007/978-3-031-78623-5_25',
+    title: 'Analyzing the User Experience of Virtual Pedagogy in Architecture Education',
+    summary: 'This study aims to analyze the user experience of virtual pedagogy in architecture education. It seeks to gather valuable feedback and perceptions from teachers and students regarding the effectiveness, challenges, and benefits of virtual pedagogy. The study employs a quantitative research design using a survey questionnaire. The questionnaire consists of closed-ended and open-ended questions to collect both quantitative and qualitative data on the user experience, challenges, advantages, and overall satisfaction with virtual pedagogy in architecture education. The findings reveal the widespread use of tools and applications, such as Google Meet, Google Classroom, and Zoom etc., for delivering both studio-based and non-studio-based courses in the virtual learning environment. The study highlights several challenges associated with virtual pedagogy, particularly for studio-based subjects, including the lack of in-person experience crucial for effective learning, difficulties in providing hands-on training, discouragement of active learning, and inadequate access to specialized tools and software. Additionally, the findings indicate that while virtual pedagogy offers flexibility and accessibility, it faces challenges in replicating the spontaneous interactions and hands-on nature of traditional in-person design studios.',
+    published: '2026-01-01',
+    authors: [
+      'Salman, Mohammad',
+      'Samadi, Zalina',
+      'Saquib, Mohammad',
+      'Yusoff, Zaharah Mohd'
+    ],
+    categories: [ undefined, undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Research and Innovation Forum 2024'
+  },
+  {
     id: '10.1007/978-3-031-94924-1_16',
     title: 'Advancing Digital Privacy Education: A Global Curriculum Initiative',
     summary: 'As digital privacy becomes a critical concern across industries, structured education in this field is urgently needed. To address this gap, ACM, IEEE, and IFIP have launched a collaborative initiative to develop a Privacy Curricular Guideline for graduate programs. This framework defines core knowledge areas and aligns academic training with real-world needs. A Joint Taks Force of global experts identified eight foundational pillars for digital privacy education: (1) Privacy Body of Knowledge, (2) Privacy Foundations, (3) General Computer Science Concepts for Privacy, (4) Privacy-Preserving Computer Science/Software Engineering, (5) Information Systems/Technology, (6) Privacy Development Lifecycle, (7) Applied Domains, and (8) Privacy-related Industry Perspective. These are now being refined by dedicated Working Groups. This work is highly relevant to IFIP TC11 WG11.8, as privacy complements security but requires distinct focus areas addressing issues of user autonomy, data governance, and ethical considerations. Currently, privacy topics are often scattered across computer security and information security courses, leaving graduates unprepared for specialized privacy technologist roles. The initiative aims to bridge the education-practice gap and equip students with skills for emerging privacy challenges.',
@@ -446,77 +586,36 @@ Fetched papers from Springer: [
     ],
     link: [ [Object] ],
     journal: 'Smart Grid and Internet of Things'
-  },
-  {
-    id: '10.1007/978-3-031-92517-7_9',
-    title: 'AI and Forensics Security with Cloud, Networks Impact on Education',
-    summary: 'The generative Artificial Intelligence (AI) innovation to cloud-edge computing and wireless networks has impact on forensics sciences education and pedagogy. A research has been carried out, concentrating on the influence on recent generative AI innovations affected the cloud-edge computing. Case studies in digital forensics were investigated, currently. Research has been conducted in information communications technology data, and so on relevant field. It should be significant to let the forensics sciences educators aware the challenges they face, and mitigation would be helpful for teaching and learning. The outcome of this research is to update the curriculum strategy, in order to mitigate AI impact to forensics sciences using computer laws.',
-    published: '2026-01-01',
-    authors: [ 'Feng, Xiaohua' ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Cloud Computing'
-  },
-  {
-    id: '10.1007/978-3-031-98197-5_30',
-    title: 'Integrating Generative Artificial Intelligence with Self-explanations Scaffolding to Enhance Students’ Problem-Solving Skills and Learning Performance',
-    summary: 'Although Generative Artificial Intelligence (GAI) presents vast opportunities and potential within the educational domain, the optimal integration of educational theory with GAI to enhance academic performance and problem-solving skills remains an area that requires further exploration. Therefore, this study aims to develop an integrating GAI with self-explanations scaffolding platform to enhance students’ learning performance and problem-solving skills through completing scaffolding tasks. Furthermore, this study evaluates students’ perceived ease of use and perceived usefulness of the system based on the Technology Acceptance Model. The findings indicate that students in the experimental group demonstrated a significant improvement in learning performance and problem-solving skills after utilizing the platform proposed by this study. Additionally, the experimental group exhibited positive technology acceptance toward the platform. Finally, results from the semi-structured interviews suggest that learning programming through the self-explanations scaffolding platform can mitigate learning setbacks, provide cognitive guidance, strengthen conceptual connections, facilitate knowledge construction, and enhance application skills.',
-    published: '2026-01-01',
-    authors: [ 'Cheng, Yu-Ping', 'Hsiao, I.', 'Starčič, Andreja Istenič' ],
-    categories: [ undefined, undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Innovative Technologies and Learning'
-  },
-  {
-    id: '10.1007/978-3-031-94770-4_43',
-    title: 'Building an Ontology for Supporting Relationship Management with Future Employers of Students in Higher Education Institutions',
-    summary: 'The aim of this paper is to develop an ontology for maintaining relationships with future employers of students in higher education institutions to support their professional realization. The paper presents the development of an ontology called “StudentsAsProducts”, which aims to model the profiles of students and employers. The main goal is to improve the interaction between higher education institutions and employers, supporting the professional realization of students. Student profile and recruitment ontologies have been explored as tools for data structuring and process customization. Sample SPARQL queries are presented that demonstrate the usability of the ontology in various cases, such as participation in internships, student evaluation, and job offers. In conclusion, “StudentsАsProducts” has the potential to offer a new way for universities to prepare students for the labor market, providing good talent to businesses. The final task is to increase the quality of education, which will directly affect the quality of business.',
-    published: '2026-01-01',
-    authors: [ 'Petrov, Pavel', 'Milev, Vassil', 'Ileana, Marian' ],
-    categories: [ undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'System Design in Software Engineering'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
-Error fetching PubMed papers: Error: Unexpected close tag
-Line: 48
-Column: 12
-Char: >
-    at error (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:667:10)
-    at strictFail (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:693:7)
-    at closeTag (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:887:9)
-    at SAXParser.write (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:1449:13)
-    at exports.Parser.Parser.parseString (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:337:31)
-    at Parser.parseString (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:5:59)
-    at /home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:352:24
-    at new Promise (<anonymous>)
-    at exports.Parser.Parser.parseStringPromise (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:350:14)
-    at Parser.parseStringPromise (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:5:59)
-Error collecting papers from pubmed: Error: Unexpected close tag
-Line: 48
-Column: 12
-Char: >
-    at error (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:667:10)
-    at strictFail (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:693:7)
-    at closeTag (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:887:9)
-    at SAXParser.write (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/sax/lib/sax.js:1449:13)
-    at exports.Parser.Parser.parseString (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:337:31)
-    at Parser.parseString (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:5:59)
-    at /home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:352:24
-    at new Promise (<anonymous>)
-    at exports.Parser.Parser.parseStringPromise (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:350:14)
-    at Parser.parseStringPromise (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/xml2js/lib/parser.js:5:59)
+Request failed. Retrying after 400ms...
+Request failed. Retrying after 800ms...
+Request failed. Retrying after 1600ms...
+Error fetching PubMed papers: Error: PubMed API request failed with status 500
+    at PubMedClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:440:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PubMedClient.fetchPubMedPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:458:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1075:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Error collecting papers from pubmed: Error: PubMed API request failed with status 500
+    at PubMedClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:440:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PubMedClient.fetchPubMedPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:458:30)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1075:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
@@ -1391,89 +1490,109 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 30
-Removed duplicates: 30 -> 30
-Starting translation of 30 papers...
-Translating paper 1/30
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
 Translating paper: Big data in economics...
-Translating paper 2/30
+Translating paper 2/40
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/30
+Translating paper 3/40
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/30
+Translating paper 4/40
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/30
+Translating paper 5/40
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/30
+Translating paper 6/40
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/30
+Translating paper 7/40
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/30
+Translating paper 8/40
 Translating paper: A physical theory of economic growth...
-Translating paper 9/30
+Translating paper 9/40
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/30
+Translating paper 10/40
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/30
+Translating paper 11/40
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/40
+Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+Translating paper 13/40
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 14/40
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 15/40
+Translating paper: Experience and education...
+Translating paper 16/40
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 17/40
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 18/40
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 19/40
+Translating paper: The Impact of Education for Sustainable Developmen...
+Translating paper 20/40
+Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 21/40
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
-Translating paper 12/30
+Translating paper 22/40
 Translating paper: Digitalization of Higher Education: Experience of ...
-Translating paper 13/30
+Translating paper 23/40
 Translating paper: Integrating Artificial Intelligence in English Lan...
-Translating paper 14/30
+Translating paper 24/40
 Translating paper: Model-Based STEM Technical and Vocational Educatio...
-Translating paper 15/30
+Translating paper 25/40
 Translating paper: E-Learning and E-Pedagogy in Uzbekistan, Benefits ...
-Translating paper 16/30
+Translating paper 26/40
+Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
+Translating paper 27/40
+Translating paper: ChatGPT and University Students: How Family Educat...
+Translating paper 28/40
+Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
+Translating paper 29/40
 Translating paper: Advancing Digital Privacy Education: A Global Curr...
-Translating paper 17/30
+Translating paper 30/40
 Translating paper: Optimization of Corporate Governance from the Pers...
-Translating paper 18/30
-Translating paper: AI and Forensics Security with Cloud, Networks Imp...
-Translating paper 19/30
-Translating paper: Integrating Generative Artificial Intelligence wit...
-Translating paper 20/30
-Translating paper: Building an Ontology for Supporting Relationship M...
-Translating paper 21/30
+Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 22/30
+Translating paper 32/40
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 23/30
+Translating paper 33/40
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 24/30
+Translating paper 34/40
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 25/30
+Translating paper 35/40
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 26/30
+Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 27/30
+Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 28/30
+Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 29/30
+Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 30/30
+Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 30 papers
-Removed duplicates: 726 -> 698
-Total papers after merging: 698 (696 existing + 30 new)
-Saved 698 papers to papers.json
+Translation completed: 40 papers
+Removed duplicates: 738 -> 701
+Total papers after merging: 701 (698 existing + 40 new)
+Saved 701 papers to papers.json
 Generating HTML files...
-Generating index.html with 698 papers...
+Generating index.html with 701 papers...
 Successfully generated index.html
-Generating archive.html with 698 papers...
+Generating archive.html with 701 papers...
 Successfully generated archive.html
-Generating journal.html with 698 papers...
+Generating journal.html with 701 papers...
 Successfully generated journal.html
-Generating acquisition.html with 698 papers...
+Generating acquisition.html with 701 papers...
 Successfully generated acquisition.html
-Generating publication.html with 698 papers...
+Generating publication.html with 701 papers...
 Successfully generated publication.html
-Generating registration.html with 698 papers...
+Generating registration.html with 701 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 698
-New papers processed: 30
+Total papers in database: 701
+New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-26T15:26:58.717Z
+Timestamp: 2025-07-27T15:32:45.922Z
