@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-29T15:14:32.212Z
+Timestamp: 2025-07-30T15:12:39.933Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 711 existing papers from papers.json
+Loaded 723 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,8 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
+Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -589,210 +591,210 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40727689',
-    title: 'Associations Between Intention to Leave, Job Satisfaction, and Work Environment Among Registered Nurses: A Cross-Sectional Study in the United Arab Emirates.',
-    abstract: 'OBJECTIVE: To explore the relationships between job satisfaction, work environment, and intention to leave among registered nurses in the United Arab Emirates (UAE), and to identify potential predictors of intention to leave.\n' +
-      'METHODS: A cross-sectional study was conducted to collect data from registered nurses working in governmental hospitals in the UAE between October and November 2022. A convenience sampling method was used to recruit 294 participants.\n' +
-      'RESULTS: Approximately 40.8% of nurses reported a high intention to leave their jobs. Significant correlations were found between the intention to leave and several factors, including education level ( = .038), years of experience ( = .033), employment status ( = .002), and nationality ( = .037). Regression analysis revealed that both the work environment and job satisfaction were significant predictors of intention to leave (β = 1.156,  = .015; β = 0.857,  = .015, respectively).\n' +
-      "CONCLUSIONS: The findings of this study indicate that both the work environment and job satisfaction are significant and independent predictors of nurses' intention to leave their positions in the UAE. To reduce turnover, nursing managers and healthcare leaders should prioritize strategies that enhance work conditions, support professional development, reduce burnout, and offer competitive compensation, ultimately promoting nurse retention and better patient care.",
+    id: '40735871',
+    title: 'Factors associated with the age of natural menopause in the ELSA-Brasil cohort.',
+    abstract: 'OBJECTIVE: This study aimed to investigate socio-demographic, reproductive, lifestyle and health factors associated with the age of natural menopause in the Brazilian context.\n' +
+      'METHOD: The cross-sectional study was conducted with data from 3538 women who reported natural menopause from the baseline (2008-2010) to the date of the second visit (2012-2014) of the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil). The outcome of the study was the age of natural menopause. The association between socio-demographic, reproductive, lifestyle and health characteristics and the age of menopause were investigated using multiple linear regression.\n' +
+      'RESULTS: The mean age of natural menopause was 49.5 years. The following conditions were associated with a younger age at onset of menopause: lower education level, historically marginalized races/skin colors and smoking. By contrast, multiparity and contraceptive use for less than 3 years were associated with a higher mean age at the onset of menopause, related to no previous pregnancies and no contraceptive use.\n' +
+      "CONCLUSION: The study findings provide relevant support for the development of public policies aimed at preventing early menopause and promoting comprehensive and continuous care for women's health.",
+    published: '2025-Jul-30',
+    authors: [
+      'Leite Luana Karla',
+      'Camelo Lidyane V',
+      'Rodrigues Rafaela Dias',
+      'de Almeida Maria da Conceição Chagas',
+      'Felisbino-Mendes Mariana Santos',
+      'Velasquez-Melendez Gustavo',
+      'Griep Rosane Harter',
+      'Barreto Sandhi Maria',
+      'Moreira Alexandra Dias'
+    ],
+    journal: 'Climacteric : the journal of the International Menopause Society',
+    doi: '10.1080/13697137.2025.2530458',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735871/'
+  },
+  {
+    id: '40735819',
+    title: 'Evaluating the Educational Value and Content Quality of YouTube Videos on Myasthenia Gravis.',
+    abstract: 'INTRODUCTION/AIMS: Although numerous YouTube videos on myasthenia gravis (MG) are available, the educational quality and comprehensiveness of this digital health information have not been assessed. This study addresses that gap using structured scoring tools to evaluate informational value for both patients and healthcare professionals.\n' +
+      "METHODS: A systematic search on December 3, 2024, retrieved the top 50 English-language YouTube videos on MG. The videos were assessed using the modified DISCERN scale (1-5), Global Quality Scale (GQS; 1-5), and a custom comprehensiveness checklist (0-5). Descriptive, comparative, and inter-rater analyses were performed. Group comparisons used the Kruskal-Wallis test; associations were analyzed with Spearman's correlation.\n" +
+      'RESULTS: Substantial agreement was observed (κ = 0.79). The median video duration was 8 min with a median of 53,459 views. The mean DISCERN score was 3.18 (±1.06), indicating moderate quality of treatment-related information; the mean GQS score was 2.88 (±1.02), reflecting moderate overall usefulness and coherence; and the mean comprehensiveness score was 2.78 (±1.11), showing moderate coverage of educational content. Higher comprehensiveness was positively associated with longer duration, more likes, and professional orientation (p < 0.05). The educational content varied: symptoms (84%) and treatments (70%) were commonly covered, whereas rehabilitation (8%) and long-term management (10%) were rarely included.\n' +
+      'DISCUSSION: Although the mean scores indicated moderate quality, significant variability in educational depth was observed. The limited representation of rehabilitation and chronic care content suggests the need for more comprehensive and balanced digital resources on MG.',
+    published: '2025-Jul-30',
+    authors: [ 'Meral Hatice Betigül', 'Aliyeva Tehran', 'Toplutaş Eren' ],
+    journal: 'Muscle & nerve',
+    doi: '10.1002/mus.28490',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735819/'
+  },
+  {
+    id: '40735795',
+    title: 'Awareness, and interest in personalized medicine: a cross-sectional survey study of health professionals.',
+    abstract: "BACKGROUND: Personalized medicine (PM) is advancing disease prevention and treatment, but regulatory and clinical concerns persist, requiring evaluation of healthcare professionals' (HPs) knowledge and attitudes.\n" +
+      'METHODS: His study assessed PM awareness among HPs at Tabriz University of Medical Sciences, Iran. Participants from diverse clinical departments completed a survey covering PM definitions, benefits, ethical concerns, genetic testing knowledge, attitudes, and barriers. A literature review guided question development.\n' +
+      'RESULTS: Among 141 HPs (55.3% male, 44.7% female), only 27.7% reported sufficient PM knowledge, though 82.3% acknowledged genetic health influences. Those with adequate knowledge more often endorsed PM tools (92.3% vs. 68.6%,  = 0.01) but expressed greater concern about healthcare disparities (82.1% vs. 67.6%,  = 0.03). Key barriers included cost (17%) and ethical risks, with 72% fearing PM would widen economic gaps and 23.4% anticipating insurance discrimination. Females and married HPs were more concerned about discrimination ( = 0.039 and  = 0.038, respectively). Despite concerns, 80% of physicians supported genome-guided prescribing.\n' +
+      "CONCLUSION: While HPs recognize PM's potential, limited awareness and ethical concerns hinder adoption. Addressing knowledge gaps and equity issues through education is crucial for PM integration in Iran.",
+    published: '2025-Jul-30',
+    authors: [
+      'Mostafaei Ali',
+      'Rahmani Aysan',
+      'Shahsavarinia Kavous',
+      'Harzand-Jadidi Sepideh',
+      'Milanchian Nooshin',
+      'Rahmati Fatemeh',
+      'Salehi-Pourmehr Hanieh',
+      'Hajebrahimi Sakineh'
+    ],
+    journal: 'Personalized medicine',
+    doi: '10.1080/17410541.2025.2538427',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735795/'
+  },
+  {
+    id: '40735691',
+    title: 'Locally-tailored vs. centrally-administered strategies for implementation of primary human papillomavirus (HPV) screening in an integrated healthcare system: a qualitative research study.',
+    abstract: 'INTRODUCTION: Primary human papillomavirus HPV testing is recommended for cervical cancer screening for women aged 30-65 years without a history of abnormal results. However, there is little clear guidance regarding effective strategies for implementing primary HPV screening. As part of an ongoing randomized trial comparing implementation strategies for primary HPV testing (a centrally administered + usual care strategy vs. centrally administered + locally tailored strategy), we evaluated clinician experiences and perceptions of large-scale implementation of primary HPV screening in an integrated healthcare system, Kaiser Permanente Southern California.\n' +
+      'MATERIALS AND METHODS: We conducted qualitative interviews with internal medicine, family medicine and obstetrics/gynecology clinicians to gain insight into fidelity to the interventions and implementation strategies, barriers and facilitators to implementation, and recommendations. Participants from both arms of the trial were recruited. Interview guides were developed with the Consolidated Framework for Implementation Research (CFIR). We recruited physicians, licensed vocational nurses, and medical assistants after primary HPV screening had been implemented. Interviews were recorded and transcribed. Using a team coding approach, we developed an initial coding structure refined during iterative analysis; data were subsequently organized thematically into domains, key themes, and sub-themes using thematic analysis, followed by framework analysis informed by CFIR.\n' +
+      'RESULTS: Thirty-two interviews were conducted. Participants in both arms of the trial noted high awareness, preparedness, buy-in, and fidelity to the new screening process. Initial barriers concerned specimen collection, proper ordering, and lab delays. An unanticipated barrier was the length of time needed to return lab results for reflexive cytology tests after a positive HPV result which reportedly increased patient anxiety. Participants in both arms reported fidelity to the centralized strategy (e.g., attending webinars, leadership announcements). In the local-tailored arm, few participants recalled the local-tailored resources.\n' +
+      'DISCUSSION: The centralized strategy was perceived as highly acceptable and feasible, and fidelity to the associated interventions appear to be facilitators of practice change. Recommendations for improving implementation included patient education, outreach and ongoing clinician training. Findings can be applied to other health systems and settings considering primary HPV screening implementation, particularly those within the U.S. or with a similar health care model.\n' +
+      'TRIAL REGISTRATION: ClinicalTrials.gov, identifier #NCT04371887.',
     published: '2025',
     authors: [
-      'Aljawarneh Yousef',
-      'Al-Bashaireh Ahmad',
-      'Alotaibi Nader E',
-      'Kawafha Mariam',
-      'Alkouri Osama',
-      'Almesmari Tarfah',
-      'Alnuaimi Bashayer',
-      'Alabdouli Sarah',
-      'Alsereidi Maryam'
+      'Hahn Erin E',
+      'Munoz-Plaza Corrine',
+      'Hsu Chunyi',
+      'Cannizzaro Nancy T',
+      'Ngo-Metzger Quyen',
+      'Gould Michael K',
+      'Mittman Brian S',
+      'Hodeib Melissa',
+      'Tewari Devansu',
+      'Chao Chun R'
     ],
-    journal: 'SAGE open nursing',
-    doi: '10.1177/23779608251362315',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727689/'
+    journal: 'Frontiers in health services',
+    doi: '10.3389/frhs.2025.1595934',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735691/'
   },
   {
-    id: '40727660',
-    title: { _: ': worldwide advances in biophysics.', i: [Array] },
-    abstract: 'This Editorial introduces the contents of Volume 17, Issue 3 of , the official journal of the International Union for Pure and Applied Biophysics (IUPAB). This Issue contains 14 contributions. The broad scope of the articles and the geographically widespread locations of the contributing authors mirror the goals of IUPAB, namely to organize worldwide advancements, cooperation, communication, and education in biophysics.',
-    published: '2025-Jun',
-    authors: [ 'Olson Wilma K' ],
-    journal: 'Biophysical reviews',
-    doi: '10.1007/s12551-025-01325-7',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727660/'
-  },
-  {
-    id: '40727654',
-    title: 'Exploring the impact of a daily sport uniform policy in primary schools: a qualitative study with students and teachers.',
-    abstract: 'BACKGROUND: Identifying effective, scalable interventions that promote physical activity in children, is a public health priority. Implementing daily sport uniform wear (activity enabling uniforms) in schools represents one such option. This qualitative study explored the perspectives of students and teachers at primary schools (elementary schools) where a daily sport uniform policy had been implemented.\n' +
-      'METHODS: We used a pragmatic, exploratory qualitative study design with data collected from participants in the intervention arm of a randomised controlled trial. One-on-one interviews with teachers were conducted following a semi-structured guide and student focus groups used an activity-based structure. Thirteen students and two teachers from two schools participated in data collection between August-September 2023. The two data sets (students and teachers) were analysed inductively using Framework Analysis identifying three overarching themes.\n' +
-      "RESULTS: The first two themes were synthesised from both data sets while teacher's perspectives primarily contributed to the final theme. First, daily sport uniform wear was highly accepted, due to their visual appeal, simplicity and cost-savings relative to formal uniforms. Second, daily sport uniform wear positively impacted students by enabling physical activity, enhancing wellbeing, providing comfort, and promoting equity. Third, formal uniforms were perceived as the norm, associated with tradition and societal expectation.\n" +
-      'CONCLUSION: This study deepens our understanding of the potential health and wellbeing benefits a daily sport uniform policy may have and highlights barriers such as traditions persist in school settings. Policy sustainment may require considered implementation support and consulting students in uniform designs and options.',
-    published: '2025',
-    authors: [
-      'Gardner Carly',
-      'Lane Cassandra',
-      'Hall Alix',
-      'McCarthy Nicole',
-      'Pollock Emma',
-      'Sutherland Rachel',
-      'Wolfenden Luke',
-      'Nathan Nicole'
-    ],
-    journal: 'Frontiers in sports and active living',
-    doi: '10.3389/fspor.2025.1633045',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727654/'
-  },
-  {
-    id: '40727653',
-    title: "Barriers to positive bystander behavior: understanding undergraduate physical education students' attitudes and intentional behavior in gender-based violence prevention.",
-    abstract: "INTRODUCTION: Gender-based violence (GBV) is a global issue that is reported in multiple contexts, including higher education institutes (HEI) and sports settings. Individuals whose gender identity or gender expression diverges from the dominant norms within sports or HEIs are at an increased risk of experiencing GBV. Gender-based violence is broadly defined as any form of interpersonal violence directed at individuals based on their gender identity or gender expression. Undergraduate physical education (PE) students are uniquely positioned to act as change agents in the prevention of GBV, given their connection to both education and their ambition to become professionals in the sport sector. The aim of this study is to investigate PE students' perceptions of GBV, their attitudes, and intentional bystander behavior when witnessing GBV.\n" +
-      'METHODS: An explorative qualitative research design using focus groups was conducted in Spain and Belgium and involved 65 undergraduate PE students selected through convenience sampling from 5 HEIs, 41 identified as males and 24 identified as females. Data were gathered through 9 focus groups guided by a semi-structured interview guide and subsequently analyzed via Nvivo through reflective thematic analysis.\n' +
-      'RESULTS: Students perceived GBV as psychological, physical, and sexual violence directed at individuals based on their sex or gender identity. Their perceptions of GBV prevention were shaped by social norms and generational differences. Key barriers to intervening in GBV situations included societal norms, a lack of competencies, and the natural stress response PE students experienced when witnessing GBV.\n' +
-      'DISCUSSION: The findings of this study underscore the need to shift GBV prevention interventions from merely raising awareness and disseminating knowledge to equipping PE students with skills in stress management and self-regulation. These insights lay the groundwork for developing more effective, context-sensitive GBV prevention interventions within HEIs.',
-    published: '2025',
-    authors: [ 'Clerincx Tiphaine', 'Schaillée Hebe', 'Derom Inge' ],
-    journal: 'Frontiers in sports and active living',
-    doi: '10.3389/fspor.2025.1569307',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727653/'
-  },
-  {
-    id: '40727627',
-    title: 'Exploring the spatial and temporal dynamics of the health index of Bangladesh using Bayesian framework.',
-    abstract: 'BACKGROUND: Health is vital for survival and societal well-being, with global goals focusing on improved access and achieving progress in public health. In Bangladesh, investigating health determinants and disparities is crucial for effective interventions.\n' +
-      'OBJECTIVE: This study investigates spatial and temporal variations in the influence of socioeconomic and health-related factors on the health index at a detailed district level in Bangladesh, aiming to discern disparities in health indicators among districts. Based on 21 years of secondary data across 64 districts in Bangladesh, this research deploys four Bayesian spatial-temporal models to analyze the health index and relevant variables.\n' +
-      'DESIGN AND METHODS: The study identifies the optimal model by evaluating linear, analysis of variance, and autoregressive models of orders one and two. Comparative analysis utilizing the WAIC and DIC aids model selection. The MCMC method enhances precision in determining health index determinants, providing valuable insights for policymakers and researchers.\n' +
-      "RESULTS: Our findings reveal that the AR (2) model demonstrated superior performance among all the spatiotemporal models. The health index demonstrated a consistent upward trend overall, but regional variations in residents' health indices were noted. Positive spatial autocorrelation was identified in the health index, emphasizing interconnected health outcomes. Spatiotemporal models underscored the significance of the income index, child mortality, life expectancy, and the proportion of the active population as crucial factors shaping the health index in Bangladesh.\n" +
-      'CONCLUSIONS: This study provides actionable insights for targeted health interventions in districts with specific needs, emphasizing focused policies on poverty, education, and healthcare to enhance overall well-being in Bangladesh.',
+    id: '40735658',
+    title: 'Comparative Analysis of Artificial Intelligence-Generated and Human-Written Personal Statements in Emergency Medicine Applications.',
+    abstract: 'Introduction Personal statements (PSs) have long been part of the Electronic Residency Application Service (ERAS) application; however, there exist only limited guidelines for their creation and even fewer for their role in the application review process. Applicants invest significant time in writing their PSs, and still, program directors rank PSs among the least important factors in interview and rank order list decisions. The emergence of generative artificial intelligence (AI), particularly large language models (LLMs) like ChatGPT, has introduced questions of ethics and originality across all aspects of education, particularly in the generation of free-form documents such as the PS. This study evaluates whether AI-generated PSs are distinguishable from authentic ones written by applicants and their perceived impact on residency selection. Methods Five AI-generated PSs were created using ChatGPT, incorporating applicant location, hobbies, and career background. Five de-identified, authentic PSs randomly selected from incoming emergency medicine (EM) interns were used for comparison. A Qualtrics survey was distributed electronically to the Council of Residency Directors (CORD) community. Respondents rated the PSs on writing quality, ability to convey personal attributes, and perceived influence on interview decisions. Statistical analyses (ANOVA and Wilcoxon tests) were used to assess differences between AI-generated and authentic statements. Results A total of 66 responses were collected over a two-month period. Of these, eight respondents did not regularly review ERAS applications, and 28 did not complete the survey beyond the initial question, leaving 30 responses for analysis. There were no statistically significant differences between AI-generated and authentic PSs in grammar and writing style (p = 0.5897), expression of personal attributes (p = 0.6827), overall quality (p = 0.2757), or perceived influence on interview decisions (p = 0.5457). Free-text comments reflected skepticism about the value of the PS in the selection process. Conclusion AI-generated PSs performed comparably to authentic ones, potentially further challenging the relevance of PSs in residency applications. These findings suggest an inherent lack of originality in the PS and may support re-evaluating the role of the PS and even exploring more meaningful ways to assess applicant fit in the residency selection process. Novel methods, such as structured interviews, standardized video responses, personality inventories, or situational judgment tests, may be considered to supplement the role intended for the PS.',
     published: '2025-Jul',
     authors: [
-      'Sultana Afroza',
-      'Ali Akher',
-      'Salan Sifat Ar',
-      'Kabir Mohammad Alamgir'
+      'Steele Elizabeth',
+      'Steratore Anthony',
+      'Dilcher Brian Z',
+      'Bandi Kathryn'
     ],
-    journal: 'Journal of public health research',
-    doi: '10.1177/22799036251351156',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727627/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.88818',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735658/'
   },
   {
-    id: '40727606',
-    title: 'Towards proton therapy guidelines for radiation therapists and dosimetrists: A scoping review.',
-    abstract: 'With the increasing number of proton therapy centers worldwide, particularly in Europe, proton therapy is becoming a more established treatment option. However, education and guidelines, specifically tailored to radiation therapists (RTTs) and dosimetrists, are lacking. Through the "Towards a Sustainable RTT Network" (TaSeRnet) project, efforts are underway to harmonize proton therapy practices among RTTs and dosimetrists across Europe. This scoping review aims to identify and summarize existing guidelines relevant to RTTs and dosimetrists working in proton therapy, providing a necessary first step toward the future development of specific guidelines and education for these professions. Ten articles were identified that include guidelines covering certain aspects of proton therapy workflows in several clinical indications. However, significant gaps remain regarding the specific tasks performed by RTTs and dosimetrists. In particular, no guidelines were found addressing treatment execution, a workflow typically performed by RTTs. Moreover, the limited involvement of RTTs and dosimetrists in the development of existing guidelines may result in the exclusion of essential practical knowledge and expertise. As they play a critical role in the daily delivery of proton therapy, their input is vital to ensure comprehensive and applicable guidelines. In conclusion, this review underscores the need for developing guidelines specifically for RTTs and dosimetrists in collaboration with the broader multidisciplinary team. Developing such guidelines will support the standardization of clinical practice and contribute to improved quality of care.',
-    published: '2025-Sep',
-    authors: [
-      'van Weerd E',
-      'Jacobs J J',
-      'Moerman A M',
-      'Xavier C',
-      'Kuijper I T',
-      'de Nie N',
-      'Bijwaard H',
-      'Hoogeman M S'
-    ],
-    journal: 'Technical innovations & patient support in radiation oncology',
-    doi: '10.1016/j.tipsro.2025.100322',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727606/'
-  },
-  {
-    id: '40727593',
-    title: 'Use of double PGF2a in a 7-day CIDRSynch timed artificial insemination in water buffloes during summer.',
-    abstract: "Water buffaloes often experience reduced fertility during the summer due to factors like temperature, photoperiod, and nutrition. This seasonal decline in reproduction affects calf and milk production, impacting farm economics. This research focuses on creating a breeding program tailored to the summer conditions in the Philippines to improve artificial insemination (AI) conception rates and boost production. During the summer months (March-June), water buffaloes may experience decreased luteal function or persistent corpus luteum, lowering fertility. To address this, a timed AI (TAI) protocol was developed, utilizing CIDR + GnRH on Day 0, followed by CIDR removal + PGF2a on Days 7-8, and hCG injection with AI on Day 10. The summer protocol included a double PGF2a injection on Days 7 and 8, compared to the control protocol with a single PGF2a injection on Day 7. Results from the PCC Genepool farm showed a 52.63 % conception rate in 2023 with the summer protocol (10/19), compared to 27.27 % with the control (3/11). In 2024, the summer protocol alone led to a 57.14 % conception rate (20/35). Additionally, milk production per cow per day ranged from 5.16 to 5.45 liters in 2024, compared to 2.62 to 3.0 liters in 2023. The summer protocol's effectiveness in increasing AI conception rates contributed to higher milk production, supporting sustainable livestock farming year-round.",
-    published: '2025-Sep',
-    authors: [
-      'Maylem Excel Rio S',
-      'Ablaza Noel F',
-      'Lofranco Joseph Oliver C',
-      'Dela Cruz Carlito F',
-      'Tadeo Roseline D',
-      'Atabay Eufrocina P',
-      'Atabay Edwin C'
-    ],
-    journal: 'Veterinary and animal science',
-    doi: '10.1016/j.vas.2025.100474',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727593/'
-  },
-  {
-    id: '40727569',
-    title: 'How effective is the implementation of the valproate pregnancy prevention programme in Montenegro? - A 7-year national retrospective study.',
-    abstract: 'BACKGROUND: Valproate (valproic acid, sodium valproate) is authorised in Montenegro for epilepsy and bipolar disorder treatment. Due to known teratogenicity, risk minimisation measures were introduced in 2014 and further reinforced in 2018 by the implementation of the Pregnancy Prevention Programme (PPP). Despite these measures, consumption of valproate in Montenegro increased in the period 2016-2022.\n' +
-      'OBJECTIVES: To investigate the effects of risk minimisation measures on valproate prescription in Montenegro.\n' +
-      'DESIGN: A retrospective, observational, 7-year, nationwide study.\n' +
-      'METHODS: The Primary Health Care Information System (PHCIS) was used as a data source. The health records of women of childbearing potential (12-55 years) for the period 2016-2022 were analysed. Additionally, unstructured data were reviewed to determine the number and characteristics of valproate-exposed pregnancies. The software PASW, version 25.0 (SPSS Inc., Chicago, IL, USA) was used for the statistical analysis.\n' +
-      'RESULTS: A total of 2247 women of childbearing potential using valproate were identified during the observed period. The number of patients using valproate for epilepsy treatment decreased by 24% while the use of valproate in psychiatry increased by 45% over the observed period. The age of the patient was the only predictive factor for successful PPP implementation (chi-square = 35.811, df = 4 and  < 0.001). The odds ratio (OR) for the age category was 1.22 (95% CI: 1.10-1.35). Contraception prescription was recorded in only 1.5% of patients following the PPP implementation. A total of 11 cases of exposed pregnancies were identified, while epilepsy was the indication in 5 (45%) cases.\n' +
-      'CONCLUSION: Regulatory risk minimisation measures had a limited impact on reducing the risk of valproate teratogenicity in Montenegro, with the most success in the group of youngest patients. Measures were more effective in the epilepsy indication. The rising use of valproate for psychiatric indications is concerning. Targeted education, better preconception care and improved coordination among healthcare professionals are necessary.',
+    id: '40735607',
+    title: "Assessing and enhancing pediatric residents' knowledge and skills in tracheostomy care through simulation-based training.",
+    abstract: 'BACKGROUND AND OBJECTIVES: The pediatric residency program in Saudi Arabia currently does not include tracheostomy care as a competency. Research has indicated that nonsurgical residents have limited knowledge of tracheostomy management. This study aimed to establish the need for pediatric residents to be trained in tracheostomy care and the effectiveness of having such a training program.\n' +
+      'METHODS: This cross-sectional and interventional study included all pediatric residents who completed a self-assessment questionnaire of confidence levels, an objective knowledge assessment, and a hands-on routine pediatric tracheostomy tube change assessment on a mannequin. A targeted tracheostomy workshop was tailored to pediatric residents using didactic presentations and hands-on simulation practice.\n' +
+      'RESULTS: Forty-two residents participated in this study. The residents had limited experience with tracheostomy care, as they had not received formal training in this area nor practiced changing a tracheostomy tube independently. Thirty-one residents (73.81%) felt incompetent in assessing patients with a tracheostomy, and 39 (92.86%) lacked confidence in performing tracheostomy tube change care. The levels of confidence among the residents, knowledge regarding management of tracheostomy, and clinical expertise in tracheostomy tube change was significantly higher after the workshop than their scores measured prior to the workshop.\n' +
+      'CONCLUSION: This study illustrates that the healthcare professionals in pediatrics are not self-assured and knowledgeable in the field of tracheostomy care and, thereby, establishes the necessity of a specific tracheostomy educational program to enhance the self-assurance, knowledge, and competency in performing the practice.',
     published: '2025',
     authors: [
-      'Vukićević Veselinka',
-      'Mugoša Snežana',
-      'Stanojević Gordana',
-      'Vezmar Kovačević Sandra'
+      'Ghandourah Hasan',
+      'Townsi Nada',
+      'Abualjdyel Meral',
+      'Khan Muhammed A',
+      'Seebran Narvanie',
+      'Mowalled Salma',
+      'El Jamal Winifred Mary',
+      'Kashqari Haifaa',
+      'Selati Saif'
     ],
-    journal: 'Therapeutic advances in drug safety',
-    doi: '10.1177/20420986251360888',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727569/'
+    journal: 'Frontiers in pediatrics',
+    doi: '10.3389/fped.2025.1551517',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735607/'
   },
   {
-    id: '40727529',
-    title: {
-      _: '"": exploring identity-strengths amongst medical students from widening participation backgrounds.',
-      i: [Array]
-    },
-    abstract: 'BACKGROUND: Widening participation is an important consideration in medicine, which has been historically elitist. Despite the evolving evidence base on WP in medicine and advancing of discourse around conceptualizing WP, the identity of students from WP backgrounds remains problematized. Currently, there are few studies exploring how WP medical students have found strength in their experiences of adversity and developed skills which will be an asset to their career. To address this gap, the aim of this study is to understand, using a strengths-based approach, the strengths and resources that WP students draw on to enact success in medicine.\n' +
-      "METHODS: This is a qualitative study using individual interviews for data collection. We selected the identity-specific strength lens to understand how WP students in medicine draw on their strengths and resources to enact success in pursuing careers in medicine. We recruited eligible students who had completed, or were undertaking, a 'gateway' programme and had directly entered the undergraduate medical degree and who had fulfilled university WP criteria prior to entry. Interviews were recorded electronically and transcribed verbatim. Data were coded inductively and in accordance with thematic analysis.\n" +
-      'RESULTS: Five main themes were constructed from the analysis. Participants drew on the following strengths and resources to enact success in medicine: (i) Not taking no for an answer: determination and perseverance; (ii) Learning from the past: using their lived experience; (iii) Making things work: resourcefulness; (iv) Drawing on their sense of self: Self-awareness, reflection and independence; and, (v) Growing a support network: Having strong relationships with others.\n' +
-      'CONCLUSION: There is still much to be done in creating inclusive environments in medical education which promote belonging and development of diverse values and beliefs. However, using strengths-based approaches can reframe study of widening participation in medicine and shift thinking and discourses from deficit to anti-deficit ways of thinking and discourses.',
-    published: '2025',
+    id: '40735572',
+    title: 'Exploring the role of DeepSeek-R1, ChatGPT-4, and Google Gemini in medical education: How valid and reliable are they?',
+    abstract: 'OBJECTIVE: In recent years, Artificial Intelligence (AI) has led to rapid advancements in science, technology, industries, healthcare settings, and medical education. A Chinese-built large language model, DeepSeek-R1, inspires the scientific community as an affordable and open alternative to earlier established US-based AI models, ChatGPT-4 and Google Gemini 1.5 Pro. This study aimed to explore the role of "DeepSeek-R1, ChatGPT-4 and Google Gemini 1.5 Pro" and to assess the validity and reliability of these AI tools in medical education.\n' +
+      'METHODS: The current cross-sectional study was performed in the Department of Physiology, College of Medicine, King Saud University, Riyadh, Saudi Arabia during the period January 25, 2025, to February 28, 2025. The Multiple-Choice Questions (MCQs) bank was created with a pool of basic medical sciences (60 MCQs) and clinical medical sciences (40 MCQs). The one hundred MCQs were prepared from various medical textbooks, journals, and examination pools. The MCQs were individually entered into the given area of the "DeepSeek-R1, ChatGPT-4 and Google Gemini 1.5 Pro" to assess the level of knowledge in various disciplines of medical sciences.\n' +
+      'RESULTS: The marks obtained in basic medical sciences by DeepSeek R1 47/60 (78.33%), ChatGPT-4 47/60 (78.33%), and Google Gemini 1.5 Pro 49/60 (81.7%). However, in clinical medical sciences, the marks obtained by DeepSeek R1 were 35/40 (87.5%), ChatGPT-4 36/40 (90.0%), and Google Gemini 1.5 Pro 33/40 (82.5%). The total marks obtained by DeepSeekR1 were 82/100 (82.0%), Chat GPT-4 84/100 (84.0%), and Google Gemini-1.5 Pro 82/100 (82.0%).\n' +
+      'CONCLUSIONS: The Chinese-based DeepSeek-R1, the US-based ChatGPT-4, and Google Gemini-1.5 Pro achieved similar scores, exceeding 80% marks, in various medical sciences subjects. The study findings demonstrate that the knowledge, validity, and reliability levels of DeepSeek R1, ChatGPT-4, and Google Gemini 1.5 Pro are similar for their potential future use in medical education.',
+    published: '2025-Jul',
     authors: [
-      'Smith Kathrine Gibson',
-      'Cleland Jennifer A',
-      'Walker Kim',
-      'Lumsden Colin',
-      'Laidlaw Anita'
+      'Meo Sultan Ayoub',
+      'Abukhalaf Farah A',
+      'ElToukhy Riham A',
+      'Sattar Kamran'
     ],
-    journal: 'Frontiers in medicine',
-    doi: '10.3389/fmed.2025.1530738',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727529/'
+    journal: 'Pakistan journal of medical sciences',
+    doi: '10.12669/pjms.41.7.12183',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735572/'
   },
   {
-    id: '40727524',
-    title: 'Development and innovation in a new distributed medical programme: Scottish Graduate Entry Medicine (ScotGEM).',
-    abstract: 'INTRODUCTION: Addressing the shortage of primary-care physicians, especially in remote and rural areas, is a crucial target in many countries. This article introduces the Scottish Graduate Entry Medicine (ScotGEM) programme: a compressed, tailor-made curriculum designed to equip and enthuse its graduates to practice generalist and rural medicine in Scotland, within the ethos of socially accountable medicine.\n' +
-      'METHODS: This curriculum paper describes ScotGEM in sufficient detail for the reader to translate elements to their own context. It then collates findings from evaluations, research projects and many critical discussions about the programme. This work is used to describe and evaluate the curriculum design and delivery, with a focus on the distributed aspects.\n' +
-      'RESULTS: Three key innovations of the curriculum are explored in detail: the Generalist Clinical Mentor (GCM) role; the year-long primary care Longitudinal Integrated Clerkship (LIC); and the Agents of Change curriculum. There are early signs that ScotGEM is encouraging generalist, rural careers within Scotland. There is also growing evidence of the benefits ScotGEM faculty and students bring to the clinical workforce in the distributed settings.\n' +
-      'DISCUSSION: Distributed programmes require additional organization for students and faculty. Partnerships can be challenging but immensely rewarding. Healthcare partners in rural areas need to be involved early in planning and strong relationships fostered with local "champions."',
+    id: '40735569',
+    title: 'English Enhancing Exercises: An effective strategy to upgrade and enhance the English proficiency of medical students in non-English speaking countries.',
+    abstract: 'English as a medium of Instruction (EMI) has been adopted by the majority of non-native English-speaking countries for teaching science subjects. Medicine is no exception. The decision is based on enormous associated advantages both during the undergraduate period and in professional life as a doctor. However, the linguistic barrier does impose numerous deficiencies related to proficiency in English. This, if not corrected, leads to suboptimal learning and affects the career and output. Formal and dense measures have been suggested but are against the cognitive load on a medical student. English Enhancing Exercises (EEE) is an easy-to-do student-friendly approach, that gradually and spirally helps out without any additional burden.',
+    published: '2025-Jul',
+    authors: [ 'Zubairi Nadeem Alam' ],
+    journal: 'Pakistan journal of medical sciences',
+    doi: '10.12669/pjms.41.7.12632',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735569/'
+  },
+  {
+    id: '40735560',
+    title: 'Facing the struggle alone; Insights into the experience of PhD scholars in Pakistan.',
+    abstract: 'OBJECTIVE: Explore the key challenges encountered by PhD scholars in Pakistan and the coping strategies they employ to address these challenges.\n' +
+      'METHOD: A qualitative phenomenological approach with purposive sampling was used to conduct six in-depth interviews with PhD scholars and five in-depth interviews with the supervisors. Guiding questions were searched from the literature, authenticated by three experts in the Medical Education Department of Khyber Medical University, and piloted before implementing the study. The duration of the study was two years. Data was recorded verbatim using a Dictaphone. Transcription was done through transcriber software. Thematic analysis was performed.\n' +
+      'RESULTS: Four themes were extracted, namely: Always alone in the struggle (subtheme: experience), Progress, not perfection (subtheme: enablers), confined by the invisible walls (subtheme: inhibitors/barriers), and the Key to Success (subtheme: recommendations).\n' +
+      "CONCLUSION: PhD is a lonely journey with many ups and downs during its progression. Enablers contain essential skills, dedication, and a robust support system. Socioeconomic status, marital status, and financial limits strongly influence this journey. Recommendations include financial support, workshops, encouraging self-reliance, and excellent time management. Understanding these factors provides a framework for establishing policies to enhance PhD scholars' success in the unique setting of developing nations like Pakistan.",
+    published: '2025-Jul',
+    authors: [ 'Mahsood Naheed', 'Mahboob Usman', 'Khan Naveed Afzal' ],
+    journal: 'Pakistan journal of medical sciences',
+    doi: '10.12669/pjms.41.7.11414',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735560/'
+  },
+  {
+    id: '40735547',
+    title: 'Beyond individual barriers and facilitators: Digital interventions to address diabetes in urban Ghana.',
+    abstract: 'OBJECTIVE: The prevalence of type 2 diabetes (T2D) and other non-communicable diseases (NCDs) in Ghana and other countries in sub-Saharan Africa (SSA) is increasing at a rate notably higher than the rest of the world. Consequently, there is an urgent need to develop low-cost community interventions for diseases including T2D in Ghana, with digital tools potentially empowering community members in prevention and management. This research aimed to identify effective strategies for leveraging digital tools to address T2D in Ga Mashie, Ghana, through community-driven empowerment and action.\n' +
+      'METHOD: This was a mixed methods study involving focus groups (N = 13), qualitative interviews with community representatives (N = 69) and two community workshops (N = 35 participants in each).\n' +
+      'RESULTS: The focus groups and interviews identified strong facilitators for an individual-level digital intervention focused on education; however, workshops highlighted that the community wants greater access to in-person education and healthcare services in Ga Mashie, limiting the likely impact of an individual digital intervention.\n' +
+      'CONCLUSION: Our findings challenge the widespread assumption that digital interventions should be targeted at the individual; rather, digital tools might be used to empower community leaders in Ga Mashie with training and clinical guidance to function as healthcare agents, scaling-up the delivery of education and screening services to their broader community. This suggests a novel system-level strategy for designing community-based, empowerment-focused digital health interventions that reflect the practices and values of community members, though further work is needed to validate this approach.',
     published: '2025',
     authors: [
-      'Graham Fiona',
-      'Dowell Jon',
-      'Flynn Angela',
-      'Gupta Shalini',
-      'MacFarlane Andrew David',
-      "O'Malley Andrew",
-      'Scully Robert',
-      'Sullivan Francis Michael',
-      'Thompson Lloyd Samuel John',
-      'Alexander Kirsty'
+      'Gray Ethan',
+      'Blandford Ann',
+      'Amon Samuel',
+      'Antwi Publa',
+      'Asah-Ayeh Vida',
+      'Awuah Raphael Baffour',
+      'Baatiema Leonard',
+      'Kushitor Sandra Boatemaa',
+      'Haghparast-Bidgoli Hassan',
+      'Jennings Hannah Maria',
+      'Kretchy Irene Akwo',
+      'Strachan Daniel',
+      'Vaughan Megan',
+      'Fottrell Edward'
     ],
-    journal: 'Frontiers in medicine',
-    doi: '10.3389/fmed.2025.1586851',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40727524/'
+    journal: 'Digital health',
+    doi: '10.1177/20552076251349705',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40735547/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1727,25 +1729,25 @@ Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Associations Between Intention to Leave, Job Satis...
+Translating paper: Factors associated with the age of natural menopau...
 Translating paper 32/50
-Translating paper: : worldwide advances in biophysics....
+Translating paper: Evaluating the Educational Value and Content Quali...
 Translating paper 33/50
-Translating paper: Exploring the impact of a daily sport uniform poli...
+Translating paper: Awareness, and interest in personalized medicine: ...
 Translating paper 34/50
-Translating paper: Barriers to positive bystander behavior: understan...
+Translating paper: Locally-tailored vs. centrally-administered strate...
 Translating paper 35/50
-Translating paper: Exploring the spatial and temporal dynamics of the...
+Translating paper: Comparative Analysis of Artificial Intelligence-Ge...
 Translating paper 36/50
-Translating paper: Towards proton therapy guidelines for radiation th...
+Translating paper: Assessing and enhancing pediatric residents' knowl...
 Translating paper 37/50
-Translating paper: Use of double PGF2a in a 7-day CIDRSynch timed art...
+Translating paper: Exploring the role of DeepSeek-R1, ChatGPT-4, and ...
 Translating paper 38/50
-Translating paper: How effective is the implementation of the valproa...
+Translating paper: English Enhancing Exercises: An effective strategy...
 Translating paper 39/50
-Translating paper: "": exploring identity-strengths amongst medical s...
+Translating paper: Facing the struggle alone; Insights into the exper...
 Translating paper 40/50
-Translating paper: Development and innovation in a new distributed me...
+Translating paper: Beyond individual barriers and facilitators: Digit...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1764,28 +1766,97 @@ Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7619640735457494 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '55s'
+    }
+  ]
+}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3724167748562963 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '51s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.535179744138783 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '48s'
+    }
+  ]
+}
 Translation completed: 50 papers
-Removed duplicates: 761 -> 723
-Total papers after merging: 723 (711 existing + 50 new)
-Saved 723 papers to papers.json
+Removed duplicates: 773 -> 733
+Total papers after merging: 733 (723 existing + 50 new)
+Saved 733 papers to papers.json
 Generating HTML files...
-Generating index.html with 723 papers...
+Generating index.html with 733 papers...
 Successfully generated index.html
-Generating archive.html with 723 papers...
+Generating archive.html with 733 papers...
 Successfully generated archive.html
-Generating journal.html with 723 papers...
+Generating journal.html with 733 papers...
 Successfully generated journal.html
-Generating acquisition.html with 723 papers...
+Generating acquisition.html with 733 papers...
 Successfully generated acquisition.html
-Generating publication.html with 723 papers...
+Generating publication.html with 733 papers...
 Successfully generated publication.html
-Generating registration.html with 723 papers...
+Generating registration.html with 733 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 723
+Total papers in database: 733
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-29T15:42:54.409Z
+Timestamp: 2025-07-30T15:41:13.907Z
