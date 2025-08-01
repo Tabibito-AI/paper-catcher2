@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-07-31T15:13:03.273Z
+Timestamp: 2025-08-01T15:12:59.119Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 733 existing papers from papers.json
+Loaded 743 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -589,163 +590,202 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40741636',
-    title: 'Potential Efficacy of the MOVERS Professional Development Programme: A Pilot Randomised Controlled Trial.',
-    abstract: "BACKGROUND: High-quality early childhood education (ECE) environments positively impact child outcomes. This study examined the potential efficacy of a professional development (PD) programme on improving the quality of the ECE movement environment and children's physical activity, motor, literacy and numeracy skills.\n" +
-      "METHODS: A 6-month RCT involving 5 ECE services and 157 children (mean age 3.84 ± 0.61 years) was conducted. ECE services were randomly assigned to the intervention group (n = 3) or wait-list control group (n = 2). The PD comprised five monthly face-to-face sessions, including theory, practice and reflective thinking components. Outcomes included the quality of the ECE movement environment (MOVERS), children's gross motor skills (TGMD-2), physical activity (GT3X accelerometers), fine motor skills (ASQ-3), receptive vocabulary (PPVT-4) and numeracy (PENS). All outcomes were assessed at baseline and follow-up. Data were analysed using linear mixed models (SPSS, Version 26) and effect sizes were calculated. Educator engagement was collected using questionnaires.\n" +
-      "RESULTS: Large effect sizes were reported for the quality of the ECE movement environment (d = 1.77-9.35). Medium to large effect sizes were reported for children's gross motor skills (d = 0.68-1.23), and small to medium effect sizes were reported for three subscales of the numeracy test (d = 0.43-0.63). In the intervention group, a significantly greater number of children moved from being at risk of delay or delayed to normal development in fine motor skills (Phi = 0.21). Educators reported that the PD content was relevant and clearly explained, highlighting the hands-on components as the most valued aspect.\n" +
-      "CONCLUSION: The MOVERS PD pilot programme resulted in changes in educators' pedagogy and practice and in children's gross and fine motor skills and numeracy skills. Future studies with larger sample sizes will be important to confirm these results.",
+    id: '40747640',
+    title: 'Exploring Practices for Implementing Smoking Cessation in Oncology Settings: A Rapid Systematic Review Update.',
+    abstract: "IntroductionSmoking cessation among individuals with cancer increases the effectiveness of cancer treatments and reduces the risks of death. However, individuals receiving cancer treatments in Ontario's 14 regional cancer centres are provided advice on the benefits of quitting smoking and referrals to smoking cessation treatments at different rates. This rapid systematic review was conducted, with funding from the Canadian Cancer Society, to update a published systematic review (Young et al, 2023) and to (1) identify implementation strategies and related implementation outcomes used in oncology settings; (2) describe the characteristics of these implementation strategies and implementation outcomes; and (3) determine whether specific implementation strategies are associated with increased smoking cessation efforts, referred to as the 3As (Ask, Advise, and Act) approach to smoking cessation.MethodsThis rapid systematic review was registered in The International Prospective Register of Systematic Reviews (registration number CRD42023491391). Three databases were searched for relevant studies: MEDLINE, Embase, and Cochrane Library. The quality of included studies was assessed based on their study design and narrative synthesis was used to summarize the data extracted.Results3158 studies were found, and eighteen new studies met our inclusion criteria. All eighteen studies had a low to moderate risk of bias. The implementation strategies training and educating stakeholders, using evaluative and iterative strategies, providing interactive assistance, supporting clinicians, and developing stakeholder interrelationships were associated with increased asking, advising, and acting, although these associations do not imply causality. Only 5 studies measured implementation outcomes; however, heterogeneity in the measurement tools used prevented analysis.ConclusionAlthough abundant data on implementation strategies was found, implementation outcomes were sparse and connections between the implementation strategies and implementation outcomes could not be drawn. Future studies should pilot the implementation strategies associated with increased asking, advising, and acting, and measure their success, considering both implementation strategies and implementation outcomes, as this information is lacking in the current literature.",
+    published: '2025',
+    authors: [
+      'DeVuono Isabella R',  'Posa Stephanie',
+      'Lafond Naomy M C',    'Woodley Basilhea D',
+      'Coroiu Adina',        'Chaiton Michael O',
+      'Evans William K',     'Veldhuizen Scott',
+      'Zawertailo Laurie A', 'Melamed Osnat C',
+      'Eng Lawson',          'George Matthew M',
+      'Halligan Michelle H', 'Silverman Caroline B',
+      'Stewart Archie',      'Krames Lester',
+      'Bradley MaryAnn',     'Hussain Sarwar',
+      'Selby Peter',         'Minian Nadia'
+    ],
+    journal: 'Cancer control : journal of the Moffitt Cancer Center',
+    doi: '10.1177/10732748251359835',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747640/'
+  },
+  {
+    id: '40747621',
+    title: 'Psychosocial impact of inherited arrhythmia syndromes on anxiety in paediatric patients and their families.',
+    abstract: 'BACKGROUND: Inherited cardiac arrhythmias are life-threatening conditions associated with a high risk of sudden cardiac death. These diseases impose a substantial psychological burden. Parents experience heightened anxiety due to uncertainty, medical interventions, and risk of adverse events. However, limited research has examined anxiety levels in affected individuals and their families.\n' +
+      'OBJECTIVE: This study aimed to assess anxiety levels in children and adolescents diagnosed with inherited cardiac arrhythmias, specifically Long QT Syndrome and Catecholaminergic Polymorphic Ventricular Tachycardia, and to identify factors influencing anxiety in both patients and parents.\n' +
+      'METHODS: A prospective, survey-based cohort study was conducted between June 2023 and June 2024, including 53 patients (0-18 years) diagnosed with inherited arrhythmias. Anxiety was assessed using the State-Trait Anxiety Inventory. Demographic and clinical variables, including disease type, invasive procedures, family history of sudden cardiac death, and parental education, were analysed.\n' +
+      'RESULTS: Mothers exhibited the highest anxiety (STAI-T: 46.6 ± 10.6) while fathers had the lowest (37.3 ± 7.0). Catecholaminergic polymorphic ventricular tachycardia patients reported significantly higher anxiety (49.2 ± 7.7) than long QT syndrome patients (38.0 ± 7.0,  < 0.01). Children undergoing invasive procedures, particularly sympathetic denervation, had elevated anxiety (45.1 ± 8.2 vs. 36.5 ± 6.4,  < 0.05). Mothers of male children and those with a family history of sudden cardiac death had significantly higher anxiety ( < 0.01).\n' +
+      'CONCLUSION: Inherited arrhythmias significantly impact psychological well-being, with mothers experiencing the highest anxiety levels. Disease severity, invasive procedures, and family history of sudden cardiac death contribute to increased anxiety, emphasising the need for psychological support in managing these conditions.',
+    published: '2025-Aug-01',
+    authors: [
+      'Babayeva Sevil',
+      'Akgül Sinem',
+      'Karagöz Tevfik',
+      'Ertuğrul İlker'
+    ],
+    journal: 'Cardiology in the young',
+    doi: '10.1017/S1047951125101236',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747621/'
+  },
+  {
+    id: '40747608',
+    title: 'When the earth shakes unexpectedly: impact on nephrology services and patients.',
+    abstract: 'PURPOSE OF REVIEW: This review examines the impact of earthquakes on nephrology services and patients, highlighting the urgent need for integrated disaster preparedness in renal care. With earthquakes increasing in frequency and affecting densely populated regions, the relevance of this topic to both clinical practice and policy has never been greater.\n' +
+      'RECENT FINDINGS: Earthquakes disrupt dialysis infrastructure, impede access to care, and create surges in acute kidney injury (AKI) due to crush syndrome. Hemodialysis (HD) services are highly vulnerable to power, water, and transportation failures, whereas peritoneal dialysis (PD) offers greater resilience but faces hygiene and supply challenges. Special populations - pediatric patients, transplant recipients, and displaced persons - face unique vulnerabilities. Global experiences demonstrate that flexible modalities, patient education, and coordinated international responses can mitigate risks. Despite this, PD remains underutilized and disaster-specific planning is often lacking.\n' +
+      'SUMMARY: Earthquakes expose critical weaknesses in nephrology systems but also provide lessons in resilience. Proactive strategies - including PD-first policies, interoperable patient registries, emergency kits, and mobile dialysis units - are essential to protect kidney patients during future disasters. Integrating nephrology into disaster frameworks is both a clinical imperative and a humanitarian necessity.',
+    published: '2025-Aug-01',
+    authors: [ 'Tuğcu Murat', 'Tuğlular Z Serhan' ],
+    journal: 'Current opinion in nephrology and hypertension',
+    doi: '10.1097/MNH.0000000000001110',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747608/'
+  },
+  {
+    id: '40747602',
+    title: 'Do not overlook the children: the unique needs of children with kidney diseases during disasters.',
+    abstract: 'PURPOSE OF REVIEW: Children with kidney diseases are among the most vulnerable populations in disaster settings due to their age-specific physiological features, need for specialized care, and dependence on caregivers. This review highlights the importance of disaster preparedness tailored to pediatric kidney patients and proposes practical measures.\n' +
+      'RECENT FINDINGS: Natural and man-made disasters continue to disrupt healthcare globally, often leading to poor outcomes in patients with chronic diseases. Despite international efforts, preparedness for pediatric kidney patients - including those with chronic kidney disease not on dialysis, those on hemodialysis or peritoneal dialysis, and transplant recipients - remains limited. Disasters frequently cause medication shortages, treatment interruptions, underdialysis, and increased risk of infection. Pediatric patients face unique logistical and clinical challenges, such as lack of age-appropriate dialysis supplies and trained personnel.\n' +
+      'SUMMARY: Disaster preparedness strategies at the unit, regional, and national levels are essential to reduce risks and improve outcomes for pediatric kidney patients during disasters. These strategies must include pediatric-specific resources, trained personnel, caregiver education, and integration with broader emergency systems and official authorities. International nephrology societies and humanitarian organizations can also provide valuable support.',
+    published: '2025-Aug-01',
+    authors: [ 'Sever Lale', 'Canpolat Nur' ],
+    journal: 'Current opinion in nephrology and hypertension',
+    doi: '10.1097/MNH.0000000000001108',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747602/'
+  },
+  {
+    id: '40747567',
+    title: 'Sociodemographic and lifestyle factors and the first 1000 days of life associated with obesity in Vietnamese preschool children.',
+    abstract: 'Childhood overweight and obesity (OW&OB) have become major public health concerns worldwide, including in Vietnam, where rapid urbanization and lifestyle transitions may contribute to this trend. This study aims to examine the associations between sociodemographic factors, lifestyle behaviors, and exposures during the first 1000 days of life with OW&OB in Vietnamese preschool children. A cross-sectional study was conducted among 14 740 preschool children representative of three socioeconomic areas of Hanoi, Vietnam. Data on sociodemographic characteristics, lifestyle behaviors, and prenatal and postnatal factors were collected via parental and teacher reporting. Anthropometric measurements were recorded, and OW&OB were defined using World Health Organization standards. The generalized estimating equation model was used to examine associations. Factors found to be significantly and positively associated with both OW&OB include gestational weight gain >20 kg (OR*OW = 1.71, OR*OB = 2.05), birth weight >4000 grams (OR*OW = 1.90, OR*OB = 2.10), meal duration <20 min (OR*OW = 2.19, OR*OB = 3.49), preference for fatty foods (OR*OW = 1.48, OR*OB = 2.20), and bedtime snack (OR*OW = 1.39, OR*OB = 1.73). Place of residence, gestational age, delivery mode, and breastfeeding practice are also significantly associated with OW, but not with OB. The results of this study highlight the multifactorial nature of childhood obesity, emphasizing the need to focus on parental education, urban planning, and early-life nutrition as essential aspects to address this growing epidemic in public health interventions.',
+    published: '2025-Jul-01',
+    authors: [
+      'Le Thi Tuyet',
+      'Pham Bui Quang Minh',
+      'Do Nam Khanh',
+      'Nguyen Thi Trung Thu',
+      'Nguyen Thi Hong Hanh'
+    ],
+    journal: 'Health promotion international',
+    doi: '10.1093/heapro/daaf129',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747567/'
+  },
+  {
+    id: '40747511',
+    title: 'The Current Status of Medical Parasitology in Iran: Developing a Roadmap, Structural Mapping, and Proposed Scenarios for the Future of This Field.',
+    abstract: 'BACKGROUND: We aimed to review and analyze the status of Medical Parasitology course including current problems and challenges on human resources, infrastructure, research capacities, educational and investigative priorities in Iran, and to develop a roadmap and future development in this field.\n' +
+      'METHODS: A questionnaire was prepared to obtain information on Medical Parasitology departments in the country followed by field visits in many cases to collect data on the status of the faculty members, laboratory experts, physical spaces, laboratory equipment, microscopic slides, training Parasitology techniques, research projects and theses, published articles and books, access to Parasitology journals, books and e-books during 2022-2023. A roadmap and future development for Medical Parasitology in Iran and the formulation of a desirable status concerning short term to long-term goals was compiled.\n' +
+      'RESULTS: While prominent strengths such as capable research laboratories, experienced faculty, suitable educational spaces, active research centers, the existence of centers for keeping and working with laboratory animals, international and national collaborations are seen in a number of medium to large centers, shortcomings related to expert human resources, lack of educational equipment and slides, the need to upgrade especially in practical subjects, journal clubs, and lab meetings, research infrastructure such as laboratory animal houses, budget for theses and research projects urgently need attention. Among 132 universities, faculties, and educational-research centers training personnel in allied medical sciences disciplines, a considerable number lack Parasitology specialists.\n' +
+      'CONCLUSION: Iran has a strong foundation in Medical Parasitology. However, using non-permanent faculty paid per course in medical education undermines quality and strains resources, exacerbating shortages. Universities must implement tailored strategic plans for parasitology, regularly updated to strengthen education, research, and health services, ensuring sustained excellence in training and public health contributions.',
+    published: '2025',
+    authors: [
+      'Sadjjadi Seyed Mahmoud',
+      'Mohebali Mehdi',
+      'Sharifi Iraj',
+      'Dalimi Asl Abdolhossein',
+      'Haghighi Ali',
+      'Rafiei Abdollah',
+      'Rezaeian Mostafa',
+      'Edrissian Gholamhossein',
+      'Keshavarz Valian Hossein',
+      'Rokni Mohammad Bagher',
+      'Fallah Mohammad',
+      'Yousefi Darani Hossein',
+      'Razmjoo Elham',
+      'Saraei Mehrzad',
+      'Haniloo Ali',
+      'Hooshyar Hossein',
+      'Heidari Ali Ehsan',
+      'Gholami Shirzad',
+      'Mahami Oskouei Mahmoud',
+      'Kheirandish Farnaz',
+      'Mohammadzadeh Tahereh',
+      'Sharifi Yosef'
+    ],
+    journal: 'Iranian journal of parasitology',
+    doi: '10.18502/ijpa.v20i2.19020',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747511/'
+  },
+  {
+    id: '40747399',
+    title: 'Physicians and Disabilities.',
+    abstract: 'The care of patients with disabilities remains a significant challenge for the healthcare system. This challenge is made worse by gaps in education and awareness among medical providers. Despite the passage of the Americans with Disabilities Act (ADA), which seeks to protect the rights of individuals with disabilities, healthcare providers often struggle to deliver comprehensive patient centered care to this diverse population. This article explores the relationship between medical providers and patients with disabilities, highlighting the importance of individualized care and recommending strategies to improve healthcare delivery for these patients.',
+    published: '2025',
+    authors: [ 'Jones Vovanti', 'Dryer Blake' ],
+    journal: 'Missouri medicine',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747399/'
+  },
+  {
+    id: '40747398',
+    title: 'Navigating Low Back Pain: A Multidisciplinary Approach to Diagnosis, Management, and Education.',
+    abstract: 'Low back pain (LBP) is a leading cause of disability globally, with substantial socioeconomic impacts, including reduced productivity and increased healthcare costs. Most LBP cases are nonspecific and benign, but a thorough assessment is necessary to rule out serious underlying conditions such as infections, tumors, and fractures. This article reviews common etiologies, including mechanical back pain, degenerative disc disease, and spinal stenosis, and discusses both urgent and nonurgent spinal pathologies. Emphasis is placed on the role of non-operative spine clinics, which coordinate multidisciplinary care to improve outcomes and reduce unnecessary interventions and imaging. Conservative management for acute and chronic non-specific LBP focuses on patient education, exercise, and physical therapy. Evidence suggests that early education on spinal health and appropriate care pathways can significantly reduce surgery rates, enhance patient satisfaction, and improve long-term outcomes.',
+    published: '2025',
+    authors: [ 'Finneman Zacharie', 'Swartz Connor', 'Drymalski Mark' ],
+    journal: 'Missouri medicine',
+    doi: null,
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747398/'
+  },
+  {
+    id: '40747371',
+    title: "Medical collaboration enhances schoolteachers' support for children with neurodevelopmental disorders.",
+    abstract: 'AIM: Neurodevelopmental disorders (NDDs) present significant challenges for affected children and those responsible for their education. This study aims to examine the impact of medical collaboration with schoolteachers on the management of NDDs. It is essential to evaluate how structured collaborations may enhance educational support and reduce teacher stress.\n' +
+      'METHODS: A web-based anonymous survey was conducted from August to December 2023 among elementary and junior high school teachers across Ehime and Kyoto prefectures. Teachers completed an original questionnaire assessing their knowledge, attitudes toward students with NDDs, and responses to the Brief Job Stress Questionnaire (BJSQ). The survey categorized teachers based on their perceived effectiveness of medical collaboration. Logistic regression analysis, using 19 BJSQ subscales as independent variables, identified stress-related factors associated with collaboration effectiveness.\n' +
+      'RESULTS: A total of 812 valid responses were received, with 654 teachers reporting experience with medical collaboration. Among these, 249 teachers reported that collaboration was highly effective. The logistic regression analysis revealed that teachers who found medical collaboration effective had higher levels of qualitative job overload (odds ratio [OR]: 1.18, 95% confidence interval [CI]: 1.03-1.35,  = 0.02) and physical stress (OR: 1.04, 95% CI: 1.00-1.08,  = 0.04), but lower levels of interpersonal conflict (OR: 0.81, 95% CI: 0.71-0.92,  = 0.002).\n' +
+      'CONCLUSION: Teachers who perceived medical collaboration as effective reported lower levels of interpersonal conflict, suggesting a possible association between collaboration and reduced teacher burden. The findings support further integration of medical consultation in educational settings to better manage NDD-related challenges.',
     published: '2025-Sep',
     authors: [
-      'Kazmierska-Kowalewska Kalina M',
-      'Okely Anthony D',
-      'Siraj Iram',
-      'Archer Carol',
-      'Veldman Sanne L C',
-      'Jones Rachel A'
+      'Kawabe Kentaro',
+      'Inoue Saori',
+      'Kozuki Haruka',
+      'Matsumoto Yu',
+      'Kusunoki Maya',
+      'Yamada Akiko',
+      'Sasaki Saeko',
+      'Isobe Masanori',
+      'Murai Toshiya',
+      'Ueno Shu-Ichi',
+      'Horiuchi Fumie'
     ],
-    journal: 'Child: care, health and development',
-    doi: '10.1111/cch.70146',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741636/'
+    journal: 'PCN reports : psychiatry and clinical neurosciences',
+    doi: '10.1002/pcn5.70171',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747371/'
   },
   {
-    id: '40741628',
-    title: 'Factors affecting health promotion behavior of school-aged children in South Korea: a cross-sectional study.',
-    abstract: 'PURPOSE: This study aimed to identify the factors affecting the health promotion behavior of school-aged children informed by the Information-Motivation-Behavioral Skills Model.\n' +
-      "METHODS: A cross-sectional study was conducted with 209 fifth- and sixth-grade elementary school students from Seoul, selected through convenience sampling. Data were collected from March 13 to 31, 2023, using a self-administered questionnaire. The questionnaire included validated tools that measured health literacy, attitude toward health behaviors, social support, self-efficacy, and health promotion behavior. Data were analyzed using descriptive statistics, Pearson's correlation, and stepwise multiple regression, using IBM SPSS/WIN ver. 29.0.\n" +
-      'RESULTS: The factors influencing the health promotion behavior of school-aged children were social support (β=.43, p<.001), attitude toward health behaviors (β=.27, p<.001), interest in health (high interest group) (β=.14, p=.003), self-efficacy (β=.13, p=.014), and health literacy (β=.10, p=.026). The explanatory power of the model was 63% (F=68.37, p<.001).\n' +
-      "CONCLUSION: Based on the results of this study, it is highly recommended to develop and apply health education and health promotion programs that consider health literacy, attitude toward health behaviors, social support, self-efficacy, and interest in health to foster school-aged children's health promotion behavior.",
-    published: '2025-Jul',
-    authors: [ 'Lim Bo Ra', 'Kim Dong Hee', 'Cho Chung Min' ],
-    journal: 'Child health nursing research',
-    doi: '10.4094/chnr.2025.014',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741628/'
-  },
-  {
-    id: '40741624',
-    title: 'Pediatric nursing in the AI era: from clinical integration to ethical practice to education.',
-    abstract: 'No abstract available',
-    published: '2025-Jul',
-    authors: [ 'Kim Yunsoo' ],
-    journal: 'Child health nursing research',
-    doi: '10.4094/chnr.2025.025',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741624/'
-  },
-  {
-    id: '40741610',
-    title: 'Sodium-glucose co-transporter 2 inhibitors use and the risks of genital and urinary tract infection: What should we know?',
-    abstract: 'Sodium-glucose co-transporter 2 (SGLT2) inhibitors have convincingly demonstrated efficacy in reducing cardiovascular (CV) and renal complications in patients with diabetes mellitus, chronic kidney disease, and heart failure. However, their use is also linked to the concern of some adverse events, the most common being genital and urinary tract infections (UTIs). This review summarizes the risks of genital and UTIs of SGLT2 inhibitors across large-scale clinical trials, meta-analyses, and real-world cohort studies. SGLT2 inhibitors are shown to significantly increase the risk of genital infections in clinical trials and real-world observational studies and marginally increase the risk of UTI in meta-analyses. We also discuss the potential pathogenesis of SGLT2 inhibitor-related infections and identify the susceptible risk factors. Since most genital and UTIs associated with SGLT2 inhibitors are mild and treatable and severe infections are rare, the use of SGLT2 inhibitors is highly recommended in patients who meet the inclusion criteria of clinical trials, where the CV and renal benefits outweigh the infection risks. For all users of SGLT2 inhibitors, preventive strategies, patient education, and careful monitoring are essential to minimize the infection risks. Furthermore, we address an unmet need regarding SGLT2 inhibitors among vulnerable populations, such as older adults, frail, and immunocompromised patients, underscoring the importance of observational studies from the real-world data. Future research should focus on identifying the high-risk groups, developing SGLT2 inhibitors with a lower infection profile and establishing effective prevention strategies to mitigate the risk of genital and UTIs associated with these medications.',
-    published: '2025',
-    authors: [ 'Wu Du-An', 'Hsu Bang-Gee', 'Lin Yu-Li' ],
-    journal: 'Tzu chi medical journal',
-    doi: '10.4103/tcmj.tcmj_275_24',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741610/'
-  },
-  {
-    id: '40741585',
-    title: 'Body Art: A Study on Aesthetics and Postural Instability in Patients With Piercings.',
-    abstract: "Body art is increasing in popularity around the world and may now be considered a mainstream activity even in Western society. In fact, nowadays, this practice has become customary, independent of social and cultural origin. The key motivating factors for obtaining body piercings are individual expression, personal image management, and art. Research in psychology and sociology has shown that the body is not considered acceptable if it is not covered with signs of belonging; that is the reason why an increasing number of people adorn themselves with often permanent decorations. As the prevalence of body art has increased, adverse health risks associated with body piercing have also been documented. In this work, after taking into consideration how piercings stimulate certain nerve endings and having specifically evaluated the areas pertaining to the trigeminal nerve and those related to the hypoglossal nerve, we carried out a clinical study on 26 patients according to the Integrated Postural Analysis (API) method by the Italian Association for Postural Occlusal Re-education (AIROP) on how facial piercings can influence the individual's posture. These evaluations led us to consider how the systems involved, postural and proprioceptive, can respond more or less intensely to the stimuli induced by piercings and that these cause alterations; furthermore, the responses to such solicitation can vary based on the onset and integration of the stimulus itself and the compensatory capacity of the neurophysiological system. We can thus affirm the existence of a well-founded correlation between postural alterations and the presence or removal of piercings, which can lead to manifestations referable to postural dysfunction syndromes (PDS).",
-    published: '2025-Jun',
+    id: '40747366',
+    title: 'Intimate partner violence during pregnancy against 601,534 women aged 15 to 49 years in 57 LMICs: prevalence, disparities, trends and associated factors using Demographic and Health Survey data.',
+    abstract: 'BACKGROUND: Pregnant women are at increased risk of intimate partner violence (IPV), with harmful outcomes for both mother and unborn baby. As this public health issue remained poorly documented in low- and middle-income countries (LMICs), this comprehensive study aimed to investigate prevalence and disparities of intimate partner violence during pregnancy (IPVDP) in 57 LMICs, grouped into WHO Regions and World Bank 2022 Income Classification. We also examined changes in IPVDP in LMICs and associated factors.\n' +
+      'METHODS: Data for this study were extracted from Demographic and Health Surveys conducted in 57 LMICs from 2000 to 2024. Countries without domestic violence data were excluded from the study. We estimated overall, regional, sub-regional, and national-weighted prevalence of IPVDP among women aged 15-49 years. Trends in IPVDP were calculated at the national level using the average annual rate of change (AARC) in a subset of 31 countries with at least two survey rounds. A Poisson regression model was fitted for identifying factors associated with IPVDP.\n' +
+      'FINDINGS: The study included a total weighted sample of 601,534 women. The pooled prevalence of IPVDP was 6.3% (95% CI 6.2-6.4). The Eastern Mediterranean region recorded the highest prevalence of IPVDP (11.3% [95% CI 10.8-11.9]), while the South-East Asia region (3.3% [95% CI 3.0-3.5]) the lowest. Similarly, low-income countries (LICs) reported the highest prevalence of IPVDP (8.2% [95% CI 7.9-8.4]). Further, prevalence varied greatly across countries, ranging from 1.1% (95% CI 0.6-1.5) in South Africa to 17.6% (95% CI 15.3-20.0) in Papua New Guinea. Examining AARC, most countries (23/31) experienced a decreasing trend in IPVDP, however, seven countries showed increasing trends, with the largest of 8.3% (95% CI 6.8-9.9) in Gambia and the smallest of 0.6% (95% CI -0.7 to 1.8) in the Democratic Republic of Congo. Similarly, we found that women: aged 15-19 years, from poor households, with primary education and below, who had more than 5 children, married before 18, who had not participated in household decision-making, and whose partners exhibited controlling behaviour had higher likelihood of experiencing IPVDP.\n' +
+      'INTERPRETATION: Despite the implementation of numerous development programs aimed at reducing violence against women in LMICs in recent decades, IPVDP remains high in some countries and has even increased in others. Our findings indicate that efforts to reduce IPVDP and the associated health burdens need to be improved in many LMICs. In alignment with the 5.2 Sustainable Development Goal target (i.e., eliminate all forms of violence against women and girls), stakeholders such as NGOs and policymakers can use these findings to roll out interventions based on observed geographic and socio-demographic inequities to end IPVDP among vulnerable groups.\n' +
+      'FUNDING: The Fonds de Recherche du Québec-Santé (2022-2023-BF15-314279).',
+    published: '2025-Aug',
     authors: [
-      'Caricato Fabrizio',
-      'Noto Anna Maria',
-      'Sanzone Eleonora',
-      'Donati Paola',
-      'Parchi Paolo Domenico'
+      'Jean Simon David',
+      'Kondo Tokpovi Vénunyé Claude',
+      'Ouedraogo Adama',
+      'Dianou Kassoum',
+      'Kiragu Ann',
+      'Olorunsaiye Comfort Z',
+      'Paul Bénédique'
     ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87017',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741585/'
-  },
-  {
-    id: '40741578',
-    title: 'Exploring Near-Peer Teaching for Examination Preparation Among Undergraduate Medical Students: Perceptions of Peer Tutors and Tutees.',
-    abstract: 'BACKGROUND: Near-peer teaching (NPT), where students take on the role of educators for peers, is widely used in medical education to enhance the learning experience. We sought to explore the perspectives of near-peer tutors and the advantages of NPT among tutors and tutees in the context of exam preparation.\n' +
-      'IMPLEMENTATION: We conducted NPT sessions for examination-oriented revision.\n' +
-      'RESULTS: The feedback included rating the session and open-ended questions for scope and for free-text comments. Likert scale analysis revealed that almost 50% of tutees strongly agreed that tutors have a strong knowledge base, clarity of concepts, and an approachable attitude, and provided valuable resource materials. Free text comments were categorized into common themes: empathy and relatability, studying tips, drafting answers, tailored guidance, exam-specific approach, and precise revision.\n' +
-      'CONCLUSION: Based on the feedback of tutees and tutors, initiating NPT in medical colleges for exam preparation will go a long way in benefiting the students.',
-    published: '2025-Jun',
-    authors: [ 'Pokale Aarati B', 'Karmarkar Mandar' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87018',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741578/'
-  },
-  {
-    id: '40741567',
-    title: 'From Cadaver to Clinic: Transforming First-Year Anatomy Education Through Early Ultrasound Integration.',
-    abstract: "Anatomy forms the foundational pillar of medical education, traditionally taught through cadaveric dissection. However, in light of evolving clinical demands and advancements in imaging technology, there is a growing need to enrich preclinical teaching methods. This article advocates for the structured integration of ultrasound into the first-year anatomy curriculum, in alignment with the National Medical Commission's competency-based framework, which emphasizes early clinical exposure and hands-on learning. While cadaveric dissection cultivates spatial orientation and tactile skills, it lacks the dynamic representation of physiological processes essential in modern diagnostic practice. Ultrasound bridges this gap by offering real-time, radiation-free visualization of living anatomy, enabling students to correlate theoretical knowledge with functional observations such as cardiac motion, vascular flow, and visceral organ activity. For students, this integration fosters improved spatial understanding, early diagnostic reasoning, and enhanced retention through experiential learning. For example, visualizing the pulsating vessels on a color Doppler or the dynamic movement of abdominal organs during sonographic sessions makes anatomical learning more engaging and clinically meaningful. Such exposure equips students with foundational skills in image acquisition and interpretation, preparing them for future clinical encounters from their formative years. For educators, ultrasound promotes active learning strategies and interdepartmental collaboration, encouraging innovation in teaching methodologies. It also complements didactic lectures and dissection sessions, creating a hybrid model that strengthens knowledge transfer and long-term retention. From a healthcare perspective, early ultrasound training helps develop clinicians who are better prepared to identify normal and pathological findings, particularly in primary care and resource-limited settings. This aligns with the vision of producing Indian medical graduates capable of serving as first-contact physicians in the community. Furthermore, literature evidence, including systematic reviews, demonstrates improved academic performance, diagnostic confidence, and clinical preparedness among students trained with ultrasound-enhanced curricula. In conclusion, incorporating ultrasound into first-year anatomy education is not merely an enhancement but a necessary evolution. It addresses limitations of traditional methods, meets regulatory mandates, and directly benefits students, educators, and the healthcare system. This integrated approach ensures medical graduates are equipped with both foundational anatomical knowledge and the clinical competencies required in contemporary practice.",
-    published: '2025-Jun',
-    authors: [ 'Sehgal Garima', 'Aggarwal Nikhil' ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87013',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741567/'
-  },
-  {
-    id: '40741565',
-    title: 'Evaluating the Quality of Online Information on Percutaneous Endoscopic Lumbar Discectomy (PELD) Using the DISCERN Instrument.',
-    abstract: 'INTRODUCTION: Percutaneous endoscopic lumbar discectomy (PELD) is a minimally invasive surgical procedure increasingly referenced in patient-oriented websites. However, the quality of such online health information is inconsistent. This study evaluates the quality of Italian-language web content on PELD using the DISCERN tool.\n' +
-      `METHODS: A systematic search was conducted on 25 May 2025 using the Italian-language interface of Google (Google LLC, Mountain View, California, United States) with the keywords "PELD," "discectomia endoscopica percutanea," and "ernia del disco PELD." Twenty websites targeted at the general public were selected. Each was independently assessed using the 16-item DISCERN instrument by two trained reviewers. Inter-rater reliability was calculated using Cohen's kappa coefficient.\n` +
-      "RESULTS: The mean overall DISCERN score across the 20 websites was 39.5 (SD = 8.7) out of 80, indicating moderate-to-low quality. High-scoring domains included clarity of procedural explanation (mean = 4.2/5), while critical aspects such as citation of sources (mean = 2.1/5) and discussion of uncertainties (mean = 1.7/5) were underrepresented. Cohen's kappa was 0.82, indicating strong agreement between reviewers.\n" +
-      'CONCLUSION: Online Italian-language resources on PELD exhibit moderate quality and frequently omit essential components such as treatment risks and alternative options. Enhancing transparency and evidence citation is essential to improve the quality of patient education materials.',
-    published: '2025-Jun',
-    authors: [
-      'Tarantino Alessio',
-      'Buharaja Rodrigo',
-      'Aureli Alessandro',
-      'Basile Attilio',
-      'Tornatore Ignazio'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87045',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741565/'
-  },
-  {
-    id: '40741557',
-    title: "Impact of Simulation-Based Medical Education on Pre-clerkship Medical Students' Confidence in Key Areas of Clinical Competence: An Exploratory Pre- and Post-survey Study.",
-    abstract: "Background Medical education is adapting to meet the growing demands of healthcare and patient care complexities. Traditional clinical training often relies on limited patient encounters, which may not fully develop clinical competence. Simulation-based medical education (SBME) offers controlled, immersive environments for practicing clinical skills and decision-making without risking patient safety. While SBME has been well-studied in advanced training, its effectiveness in first- and second-year medical students remains underexplored. This study aims to explore and quantify pre-clerkship medical students' perspectives on how SBME impacts confidence in clinical decision-making, communication, and clinical skills, compared to traditional learning methods alone. Methods This pre- and post-survey-based study assessed the impact of simulation (SIM) on students' self-reported confidence in clinical decision-making, communication, and clinical skills. Six simulation scenarios that aligned with the undergraduate medical curriculum of one Canadian institution were conducted from October 2023 to March 2024. Participants completed pre- and post-simulation surveys using 5-point Likert scales. A total of 67 surveys were analyzed. Results  All 67 surveys were analyzed (35 pre-, 32 post-simulation) using one-sided Wilcoxon Signed Rank Tests. Pre-simulation responses indicated low baseline confidence, with only one item rated above neutrality. Post-simulation ratings showed statistically significant improvements across all domains (p < 0.01). Students also reported that they perceived simulation as more effective than traditional didactic learning in preparing them for clinical practice.  Conclusions This exploratory study suggests that simulation-based education can enhance pre-clerkship students' confidence in clinical decision-making, communication, and procedural skills, domains often underdeveloped at this stage of training. These findings offer early evidence that high-fidelity simulation may accelerate perceived clinical readiness. However, due to the small, self-selected sample, non-parallel survey design, and reliance on subjective outcomes, results should be treated as exploratory. Further multi-site studies using objective measures are needed to assess long-term impact on knowledge and skill retention as well as clinical performance.",
-    published: '2025-Jun',
-    authors: [
-      'Friesen Danica K',
-      'Rebello Lyndon',
-      'Reel Riley',
-      'Espinosa Victor',
-      'Lelj Garolla Di Bard Barbara'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87059',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741557/'
-  },
-  {
-    id: '40741549',
-    title: 'Attitudes of People With Chronic Musculoskeletal Disorders Towards Telerehabilitation: A Cross-Sectional Survey.',
-    abstract: "Introduction Chronic musculoskeletal disorders have a significant impact on morbidity, daily functioning, and quality of life. They represent a key priority for intervention, particularly in the context of an aging population and increased life expectancy. Recently, telerehabilitation has been shown to be effective; however, the attitudes of this clinical population toward telerehabilitation have not yet been thoroughly explored in the literature. The aim of this study was to investigate the knowledge, beliefs, and willingness of people with chronic musculoskeletal disorders in Greece to use telerehabilitation. Materials and methods In this cross-sectional study, 160 individuals (95 women and 65 men) with a mean age of 44.1 years and diagnosed with chronic musculoskeletal problems completed a survey. The sample included participants with low back pain (56, 36.9%), overuse tendinopathies (30, 18.8%), neck pain (34, 21.3%), arthritis (14, 8.8%), and upper back pain (3, 1.9%). Participants were recruited from physiotherapy clinics in Athens. The study protocol was approved by the Ethical Committee of the University of West Attica, Greece. The survey questionnaire included 26 items (16 general and 10 telerehabilitation-specific) covering demographic background, familiarization with technology, overall perceptions, willingness to follow telerehabilitation, and preferred mode of delivery. Results The survey was first pilot-tested, and relevant modifications were made. The final version demonstrated acceptable internal consistency (Cronbach's alpha = 0.648). Principal Components Analysis (PCA) revealed a three-factor solution, familiarization with technology, preferred mode of telerehabilitation, and willingness to attend telerehabilitation, with eigenvalues of 2.19, 1.98, and 1.22 respectively, explaining 53.97% of total variance. Overall, fewer than half of the participants (59, 36.9%) reported willingness to follow telerehabilitation. The preferred mode of delivery was video-based sessions. Their perspective towards telerehabilitation appeared to be related to seeking information about their problem online (X  11.1, p=0.03) and technological familiarity (Likelihood Ratio, p=0.048) but not with the specific type of musculoskeletal condition (X =12.7, p=ns). Conclusion Telerehabilitation, which leverages technology to deliver rehabilitation services remotely, is indeed seeing its culture constructed and integrated into healthcare systems. However, this survey highlights barriers based on patient attitudes, as less than half of respondents were receptive to the approach. Higher education levels, greater familiarity with technology, and a tendency to seek medical information online were associated with a greater willingness to engage in telerehabilitation. Further research involving larger samples and populations from rural areas across Greece is needed to assess the generalizability of these findings, particularly in regions where health equity is challenged by limited access and technological disparities.",
-    published: '2025-Jun',
-    authors: [
-      'Tsolakou Evgenia',
-      'Gioftsos Georgios',
-      'Grammatopoulou Eirini',
-      'Koumantakis George A',
-      'Karanasios Stefanos',
-      'Moutzouri Maria'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87012',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40741549/'
+    journal: 'EClinicalMedicine',
+    doi: '10.1016/j.eclinm.2025.103382',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40747366/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1117,32 +1157,23 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:545:9)
+    at process.processTimers (node:internal/timers:519:7)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
     at async Promise.all (index 3)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34) {
+  code: 'ECONNABORTED',
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1272,7 +1303,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       aborted: false,
       timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
-      parser: null,
+      parser: [HTTPParser],
       maxHeadersCount: null,
       reusedSocket: false,
       host: 'www.ijsim.net',
@@ -1294,29 +1325,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
-  },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: timeout of 10000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
@@ -1325,11 +1342,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
+  code: 'ECONNABORTED',
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1459,7 +1472,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       aborted: false,
       timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
-      parser: null,
+      parser: [HTTPParser],
       maxHeadersCount: null,
       reusedSocket: false,
       host: 'www.ijsim.net',
@@ -1481,14 +1494,6 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
-  },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
   }
 }
 Fetched papers from CrossRef: [
@@ -1640,6 +1645,7 @@ Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
 Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9371461390652414 seconds...
 Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
 Translating paper 12/50
@@ -1648,6 +1654,7 @@ Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3133067090495105 seconds...
 Translating paper 15/50
 Translating paper: Experience and education...
 Translating paper 16/50
@@ -1681,25 +1688,25 @@ Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Potential Efficacy of the MOVERS Professional Deve...
+Translating paper: Exploring Practices for Implementing Smoking Cessa...
 Translating paper 32/50
-Translating paper: Factors affecting health promotion behavior of sch...
+Translating paper: Psychosocial impact of inherited arrhythmia syndro...
 Translating paper 33/50
-Translating paper: Pediatric nursing in the AI era: from clinical int...
+Translating paper: When the earth shakes unexpectedly: impact on neph...
 Translating paper 34/50
-Translating paper: Sodium-glucose co-transporter 2 inhibitors use and...
+Translating paper: Do not overlook the children: the unique needs of ...
 Translating paper 35/50
-Translating paper: Body Art: A Study on Aesthetics and Postural Insta...
+Translating paper: Sociodemographic and lifestyle factors and the fir...
 Translating paper 36/50
-Translating paper: Exploring Near-Peer Teaching for Examination Prepa...
+Translating paper: The Current Status of Medical Parasitology in Iran...
 Translating paper 37/50
-Translating paper: From Cadaver to Clinic: Transforming First-Year An...
+Translating paper: Physicians and Disabilities....
 Translating paper 38/50
-Translating paper: Evaluating the Quality of Online Information on Pe...
+Translating paper: Navigating Low Back Pain: A Multidisciplinary Appr...
 Translating paper 39/50
-Translating paper: Impact of Simulation-Based Medical Education on Pr...
+Translating paper: Medical collaboration enhances schoolteachers' sup...
 Translating paper 40/50
-Translating paper: Attitudes of People With Chronic Musculoskeletal D...
+Translating paper: Intimate partner violence during pregnancy against...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1708,8 +1715,14 @@ Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
 Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.472193529822458 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"59s"}]
+Translating paper 45/50
+Translating paper: A criticism of the paradigm of rational choice in ...
+Translating paper 46/50
+Translating paper: Modeling and Transformation of the Evaluation Mech...
+Translating paper 47/50
+Translating paper: Impact of lactation support program on Initiation ...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2208734188887402 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"57s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1727,14 +1740,12 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '59s'
+      retryDelay: '57s'
     }
   ]
 }
-Translating paper 45/50
-Translating paper: A criticism of the paradigm of rational choice in ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7551486796511675 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0853132593489785 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1756,8 +1767,10 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     }
   ]
 }
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.944247994591252 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+Translating paper 48/50
+Translating paper: Influence of Personal Teacher Efficacy on Selectio...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2472905004729533 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"50s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1775,14 +1788,12 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '51s'
+      retryDelay: '50s'
     }
   ]
 }
-Translating paper 46/50
-Translating paper: Modeling and Transformation of the Evaluation Mech...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4360682215945166 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9418996403568953 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1804,8 +1815,10 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     }
   ]
 }
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8964815714417242 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44s"}]
+Translating paper 49/50
+Translating paper: Availability and Utilization of Tools and Equipmen...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4686517387596316 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"42s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1823,14 +1836,12 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '44s'
+      retryDelay: '42s'
     }
   ]
 }
-Translating paper 47/50
-Translating paper: Impact of lactation support program on Initiation ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.393904319984975 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8996533605208543 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1852,129 +1863,10 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     }
   ]
 }
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.515583158623911 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"36s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '36s'
-    }
-  ]
-}
-Translating paper 48/50
-Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8285182952861163 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"31s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '31s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.644189590146569 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"28s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '28s'
-    }
-  ]
-}
-Translating paper 49/50
-Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1751523446995225 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"24s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '24s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.432461130685301 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"21s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '21s'
-    }
-  ]
-}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.1643713007052874 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"17s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.557764783268378 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"34s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -1992,12 +1884,12 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '17s'
+      retryDelay: '34s'
     }
   ]
 }
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.860276174081864 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"14s"}]
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0253996169315105 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
     at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
@@ -2015,30 +1907,30 @@ Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Err
     { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
     {
       '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '14s'
+      retryDelay: '32s'
     }
   ]
 }
 Translation completed: 50 papers
-Removed duplicates: 783 -> 743
-Total papers after merging: 743 (733 existing + 50 new)
-Saved 743 papers to papers.json
+Removed duplicates: 793 -> 753
+Total papers after merging: 753 (743 existing + 50 new)
+Saved 753 papers to papers.json
 Generating HTML files...
-Generating index.html with 743 papers...
+Generating index.html with 753 papers...
 Successfully generated index.html
-Generating archive.html with 743 papers...
+Generating archive.html with 753 papers...
 Successfully generated archive.html
-Generating journal.html with 743 papers...
+Generating journal.html with 753 papers...
 Successfully generated journal.html
-Generating acquisition.html with 743 papers...
+Generating acquisition.html with 753 papers...
 Successfully generated acquisition.html
-Generating publication.html with 743 papers...
+Generating publication.html with 753 papers...
 Successfully generated publication.html
-Generating registration.html with 743 papers...
+Generating registration.html with 753 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 743
+Total papers in database: 753
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-07-31T15:38:47.887Z
+Timestamp: 2025-08-01T15:40:30.084Z
