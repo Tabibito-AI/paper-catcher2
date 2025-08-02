@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-01T15:12:59.119Z
+Timestamp: 2025-08-02T15:10:47.481Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 743 existing papers from papers.json
+Loaded 753 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,7 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -590,199 +589,213 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40747640',
-    title: 'Exploring Practices for Implementing Smoking Cessation in Oncology Settings: A Rapid Systematic Review Update.',
-    abstract: "IntroductionSmoking cessation among individuals with cancer increases the effectiveness of cancer treatments and reduces the risks of death. However, individuals receiving cancer treatments in Ontario's 14 regional cancer centres are provided advice on the benefits of quitting smoking and referrals to smoking cessation treatments at different rates. This rapid systematic review was conducted, with funding from the Canadian Cancer Society, to update a published systematic review (Young et al, 2023) and to (1) identify implementation strategies and related implementation outcomes used in oncology settings; (2) describe the characteristics of these implementation strategies and implementation outcomes; and (3) determine whether specific implementation strategies are associated with increased smoking cessation efforts, referred to as the 3As (Ask, Advise, and Act) approach to smoking cessation.MethodsThis rapid systematic review was registered in The International Prospective Register of Systematic Reviews (registration number CRD42023491391). Three databases were searched for relevant studies: MEDLINE, Embase, and Cochrane Library. The quality of included studies was assessed based on their study design and narrative synthesis was used to summarize the data extracted.Results3158 studies were found, and eighteen new studies met our inclusion criteria. All eighteen studies had a low to moderate risk of bias. The implementation strategies training and educating stakeholders, using evaluative and iterative strategies, providing interactive assistance, supporting clinicians, and developing stakeholder interrelationships were associated with increased asking, advising, and acting, although these associations do not imply causality. Only 5 studies measured implementation outcomes; however, heterogeneity in the measurement tools used prevented analysis.ConclusionAlthough abundant data on implementation strategies was found, implementation outcomes were sparse and connections between the implementation strategies and implementation outcomes could not be drawn. Future studies should pilot the implementation strategies associated with increased asking, advising, and acting, and measure their success, considering both implementation strategies and implementation outcomes, as this information is lacking in the current literature.",
-    published: '2025',
+    id: '40751497',
+    title: "Learning Variability Network Exchange (LEVANTE): A Global Framework for Measuring Children's Learning Variability Through Collaborative Data Sharing.",
+    abstract: "Despite the ubiquity of variation in child development within individuals, across groups, and across tasks, timescales, and contexts, dominant methods in developmental science and education research still favor group averages, short snapshots of time, and single environments. The Learning Variability Network Exchange (LEVANTE) is a framework designed to enable coordinated data collection by research teams worldwide, with the goal of measuring variability in children's learning and development. The LEVANTE measure set aims to capture variability in learning outcomes (literacy and numeracy) as well as in core cognitive and social constructs. LEVANTE will yield a large, open access longitudinal dataset for long-term research use, both creating a multidisciplinary research network and facilitating the science of learning variability.",
+    published: '2025-Aug-02',
     authors: [
-      'DeVuono Isabella R',  'Posa Stephanie',
-      'Lafond Naomy M C',    'Woodley Basilhea D',
-      'Coroiu Adina',        'Chaiton Michael O',
-      'Evans William K',     'Veldhuizen Scott',
-      'Zawertailo Laurie A', 'Melamed Osnat C',
-      'Eng Lawson',          'George Matthew M',
-      'Halligan Michelle H', 'Silverman Caroline B',
-      'Stewart Archie',      'Krames Lester',
-      'Bradley MaryAnn',     'Hussain Sarwar',
-      'Selby Peter',         'Minian Nadia'
+      'Frank Michael C',   'Baumgartner Heidi A',
+      'Braginsky Mika',    'Kachergis George',
+      'Lightbody Amy A',   'Sparks Robert Z',
+      'Zhu Rebecca',       'Carlson Stephanie M',
+      'Graham Sandra',     'Lipina Sebastián J',
+      'Newcombe Nora S',   'Odgers Candice L',
+      'Pianta Robert C',   'Siegler Robert S',
+      'Snowling Margaret', 'Yoshikawa Hirokazu',
+      'Cubillo Ana',       'Dodge Kenneth A'
     ],
-    journal: 'Cancer control : journal of the Moffitt Cancer Center',
-    doi: '10.1177/10732748251359835',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747640/'
+    journal: 'Child development',
+    doi: '10.1111/cdev.70011',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751497/'
   },
   {
-    id: '40747621',
-    title: 'Psychosocial impact of inherited arrhythmia syndromes on anxiety in paediatric patients and their families.',
-    abstract: 'BACKGROUND: Inherited cardiac arrhythmias are life-threatening conditions associated with a high risk of sudden cardiac death. These diseases impose a substantial psychological burden. Parents experience heightened anxiety due to uncertainty, medical interventions, and risk of adverse events. However, limited research has examined anxiety levels in affected individuals and their families.\n' +
-      'OBJECTIVE: This study aimed to assess anxiety levels in children and adolescents diagnosed with inherited cardiac arrhythmias, specifically Long QT Syndrome and Catecholaminergic Polymorphic Ventricular Tachycardia, and to identify factors influencing anxiety in both patients and parents.\n' +
-      'METHODS: A prospective, survey-based cohort study was conducted between June 2023 and June 2024, including 53 patients (0-18 years) diagnosed with inherited arrhythmias. Anxiety was assessed using the State-Trait Anxiety Inventory. Demographic and clinical variables, including disease type, invasive procedures, family history of sudden cardiac death, and parental education, were analysed.\n' +
-      'RESULTS: Mothers exhibited the highest anxiety (STAI-T: 46.6 ± 10.6) while fathers had the lowest (37.3 ± 7.0). Catecholaminergic polymorphic ventricular tachycardia patients reported significantly higher anxiety (49.2 ± 7.7) than long QT syndrome patients (38.0 ± 7.0,  < 0.01). Children undergoing invasive procedures, particularly sympathetic denervation, had elevated anxiety (45.1 ± 8.2 vs. 36.5 ± 6.4,  < 0.05). Mothers of male children and those with a family history of sudden cardiac death had significantly higher anxiety ( < 0.01).\n' +
-      'CONCLUSION: Inherited arrhythmias significantly impact psychological well-being, with mothers experiencing the highest anxiety levels. Disease severity, invasive procedures, and family history of sudden cardiac death contribute to increased anxiety, emphasising the need for psychological support in managing these conditions.',
-    published: '2025-Aug-01',
-    authors: [
-      'Babayeva Sevil',
-      'Akgül Sinem',
-      'Karagöz Tevfik',
-      'Ertuğrul İlker'
-    ],
-    journal: 'Cardiology in the young',
-    doi: '10.1017/S1047951125101236',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747621/'
-  },
-  {
-    id: '40747608',
-    title: 'When the earth shakes unexpectedly: impact on nephrology services and patients.',
-    abstract: 'PURPOSE OF REVIEW: This review examines the impact of earthquakes on nephrology services and patients, highlighting the urgent need for integrated disaster preparedness in renal care. With earthquakes increasing in frequency and affecting densely populated regions, the relevance of this topic to both clinical practice and policy has never been greater.\n' +
-      'RECENT FINDINGS: Earthquakes disrupt dialysis infrastructure, impede access to care, and create surges in acute kidney injury (AKI) due to crush syndrome. Hemodialysis (HD) services are highly vulnerable to power, water, and transportation failures, whereas peritoneal dialysis (PD) offers greater resilience but faces hygiene and supply challenges. Special populations - pediatric patients, transplant recipients, and displaced persons - face unique vulnerabilities. Global experiences demonstrate that flexible modalities, patient education, and coordinated international responses can mitigate risks. Despite this, PD remains underutilized and disaster-specific planning is often lacking.\n' +
-      'SUMMARY: Earthquakes expose critical weaknesses in nephrology systems but also provide lessons in resilience. Proactive strategies - including PD-first policies, interoperable patient registries, emergency kits, and mobile dialysis units - are essential to protect kidney patients during future disasters. Integrating nephrology into disaster frameworks is both a clinical imperative and a humanitarian necessity.',
-    published: '2025-Aug-01',
-    authors: [ 'Tuğcu Murat', 'Tuğlular Z Serhan' ],
-    journal: 'Current opinion in nephrology and hypertension',
-    doi: '10.1097/MNH.0000000000001110',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747608/'
-  },
-  {
-    id: '40747602',
-    title: 'Do not overlook the children: the unique needs of children with kidney diseases during disasters.',
-    abstract: 'PURPOSE OF REVIEW: Children with kidney diseases are among the most vulnerable populations in disaster settings due to their age-specific physiological features, need for specialized care, and dependence on caregivers. This review highlights the importance of disaster preparedness tailored to pediatric kidney patients and proposes practical measures.\n' +
-      'RECENT FINDINGS: Natural and man-made disasters continue to disrupt healthcare globally, often leading to poor outcomes in patients with chronic diseases. Despite international efforts, preparedness for pediatric kidney patients - including those with chronic kidney disease not on dialysis, those on hemodialysis or peritoneal dialysis, and transplant recipients - remains limited. Disasters frequently cause medication shortages, treatment interruptions, underdialysis, and increased risk of infection. Pediatric patients face unique logistical and clinical challenges, such as lack of age-appropriate dialysis supplies and trained personnel.\n' +
-      'SUMMARY: Disaster preparedness strategies at the unit, regional, and national levels are essential to reduce risks and improve outcomes for pediatric kidney patients during disasters. These strategies must include pediatric-specific resources, trained personnel, caregiver education, and integration with broader emergency systems and official authorities. International nephrology societies and humanitarian organizations can also provide valuable support.',
-    published: '2025-Aug-01',
-    authors: [ 'Sever Lale', 'Canpolat Nur' ],
-    journal: 'Current opinion in nephrology and hypertension',
-    doi: '10.1097/MNH.0000000000001108',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747602/'
-  },
-  {
-    id: '40747567',
-    title: 'Sociodemographic and lifestyle factors and the first 1000 days of life associated with obesity in Vietnamese preschool children.',
-    abstract: 'Childhood overweight and obesity (OW&OB) have become major public health concerns worldwide, including in Vietnam, where rapid urbanization and lifestyle transitions may contribute to this trend. This study aims to examine the associations between sociodemographic factors, lifestyle behaviors, and exposures during the first 1000 days of life with OW&OB in Vietnamese preschool children. A cross-sectional study was conducted among 14 740 preschool children representative of three socioeconomic areas of Hanoi, Vietnam. Data on sociodemographic characteristics, lifestyle behaviors, and prenatal and postnatal factors were collected via parental and teacher reporting. Anthropometric measurements were recorded, and OW&OB were defined using World Health Organization standards. The generalized estimating equation model was used to examine associations. Factors found to be significantly and positively associated with both OW&OB include gestational weight gain >20 kg (OR*OW = 1.71, OR*OB = 2.05), birth weight >4000 grams (OR*OW = 1.90, OR*OB = 2.10), meal duration <20 min (OR*OW = 2.19, OR*OB = 3.49), preference for fatty foods (OR*OW = 1.48, OR*OB = 2.20), and bedtime snack (OR*OW = 1.39, OR*OB = 1.73). Place of residence, gestational age, delivery mode, and breastfeeding practice are also significantly associated with OW, but not with OB. The results of this study highlight the multifactorial nature of childhood obesity, emphasizing the need to focus on parental education, urban planning, and early-life nutrition as essential aspects to address this growing epidemic in public health interventions.',
-    published: '2025-Jul-01',
-    authors: [
-      'Le Thi Tuyet',
-      'Pham Bui Quang Minh',
-      'Do Nam Khanh',
-      'Nguyen Thi Trung Thu',
-      'Nguyen Thi Hong Hanh'
-    ],
-    journal: 'Health promotion international',
-    doi: '10.1093/heapro/daaf129',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747567/'
-  },
-  {
-    id: '40747511',
-    title: 'The Current Status of Medical Parasitology in Iran: Developing a Roadmap, Structural Mapping, and Proposed Scenarios for the Future of This Field.',
-    abstract: 'BACKGROUND: We aimed to review and analyze the status of Medical Parasitology course including current problems and challenges on human resources, infrastructure, research capacities, educational and investigative priorities in Iran, and to develop a roadmap and future development in this field.\n' +
-      'METHODS: A questionnaire was prepared to obtain information on Medical Parasitology departments in the country followed by field visits in many cases to collect data on the status of the faculty members, laboratory experts, physical spaces, laboratory equipment, microscopic slides, training Parasitology techniques, research projects and theses, published articles and books, access to Parasitology journals, books and e-books during 2022-2023. A roadmap and future development for Medical Parasitology in Iran and the formulation of a desirable status concerning short term to long-term goals was compiled.\n' +
-      'RESULTS: While prominent strengths such as capable research laboratories, experienced faculty, suitable educational spaces, active research centers, the existence of centers for keeping and working with laboratory animals, international and national collaborations are seen in a number of medium to large centers, shortcomings related to expert human resources, lack of educational equipment and slides, the need to upgrade especially in practical subjects, journal clubs, and lab meetings, research infrastructure such as laboratory animal houses, budget for theses and research projects urgently need attention. Among 132 universities, faculties, and educational-research centers training personnel in allied medical sciences disciplines, a considerable number lack Parasitology specialists.\n' +
-      'CONCLUSION: Iran has a strong foundation in Medical Parasitology. However, using non-permanent faculty paid per course in medical education undermines quality and strains resources, exacerbating shortages. Universities must implement tailored strategic plans for parasitology, regularly updated to strengthen education, research, and health services, ensuring sustained excellence in training and public health contributions.',
-    published: '2025',
-    authors: [
-      'Sadjjadi Seyed Mahmoud',
-      'Mohebali Mehdi',
-      'Sharifi Iraj',
-      'Dalimi Asl Abdolhossein',
-      'Haghighi Ali',
-      'Rafiei Abdollah',
-      'Rezaeian Mostafa',
-      'Edrissian Gholamhossein',
-      'Keshavarz Valian Hossein',
-      'Rokni Mohammad Bagher',
-      'Fallah Mohammad',
-      'Yousefi Darani Hossein',
-      'Razmjoo Elham',
-      'Saraei Mehrzad',
-      'Haniloo Ali',
-      'Hooshyar Hossein',
-      'Heidari Ali Ehsan',
-      'Gholami Shirzad',
-      'Mahami Oskouei Mahmoud',
-      'Kheirandish Farnaz',
-      'Mohammadzadeh Tahereh',
-      'Sharifi Yosef'
-    ],
-    journal: 'Iranian journal of parasitology',
-    doi: '10.18502/ijpa.v20i2.19020',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747511/'
-  },
-  {
-    id: '40747399',
-    title: 'Physicians and Disabilities.',
-    abstract: 'The care of patients with disabilities remains a significant challenge for the healthcare system. This challenge is made worse by gaps in education and awareness among medical providers. Despite the passage of the Americans with Disabilities Act (ADA), which seeks to protect the rights of individuals with disabilities, healthcare providers often struggle to deliver comprehensive patient centered care to this diverse population. This article explores the relationship between medical providers and patients with disabilities, highlighting the importance of individualized care and recommending strategies to improve healthcare delivery for these patients.',
-    published: '2025',
-    authors: [ 'Jones Vovanti', 'Dryer Blake' ],
-    journal: 'Missouri medicine',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747399/'
-  },
-  {
-    id: '40747398',
-    title: 'Navigating Low Back Pain: A Multidisciplinary Approach to Diagnosis, Management, and Education.',
-    abstract: 'Low back pain (LBP) is a leading cause of disability globally, with substantial socioeconomic impacts, including reduced productivity and increased healthcare costs. Most LBP cases are nonspecific and benign, but a thorough assessment is necessary to rule out serious underlying conditions such as infections, tumors, and fractures. This article reviews common etiologies, including mechanical back pain, degenerative disc disease, and spinal stenosis, and discusses both urgent and nonurgent spinal pathologies. Emphasis is placed on the role of non-operative spine clinics, which coordinate multidisciplinary care to improve outcomes and reduce unnecessary interventions and imaging. Conservative management for acute and chronic non-specific LBP focuses on patient education, exercise, and physical therapy. Evidence suggests that early education on spinal health and appropriate care pathways can significantly reduce surgery rates, enhance patient satisfaction, and improve long-term outcomes.',
-    published: '2025',
-    authors: [ 'Finneman Zacharie', 'Swartz Connor', 'Drymalski Mark' ],
-    journal: 'Missouri medicine',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747398/'
-  },
-  {
-    id: '40747371',
-    title: "Medical collaboration enhances schoolteachers' support for children with neurodevelopmental disorders.",
-    abstract: 'AIM: Neurodevelopmental disorders (NDDs) present significant challenges for affected children and those responsible for their education. This study aims to examine the impact of medical collaboration with schoolteachers on the management of NDDs. It is essential to evaluate how structured collaborations may enhance educational support and reduce teacher stress.\n' +
-      'METHODS: A web-based anonymous survey was conducted from August to December 2023 among elementary and junior high school teachers across Ehime and Kyoto prefectures. Teachers completed an original questionnaire assessing their knowledge, attitudes toward students with NDDs, and responses to the Brief Job Stress Questionnaire (BJSQ). The survey categorized teachers based on their perceived effectiveness of medical collaboration. Logistic regression analysis, using 19 BJSQ subscales as independent variables, identified stress-related factors associated with collaboration effectiveness.\n' +
-      'RESULTS: A total of 812 valid responses were received, with 654 teachers reporting experience with medical collaboration. Among these, 249 teachers reported that collaboration was highly effective. The logistic regression analysis revealed that teachers who found medical collaboration effective had higher levels of qualitative job overload (odds ratio [OR]: 1.18, 95% confidence interval [CI]: 1.03-1.35,  = 0.02) and physical stress (OR: 1.04, 95% CI: 1.00-1.08,  = 0.04), but lower levels of interpersonal conflict (OR: 0.81, 95% CI: 0.71-0.92,  = 0.002).\n' +
-      'CONCLUSION: Teachers who perceived medical collaboration as effective reported lower levels of interpersonal conflict, suggesting a possible association between collaboration and reduced teacher burden. The findings support further integration of medical consultation in educational settings to better manage NDD-related challenges.',
+    id: '40751492',
+    title: "Podiatrists' Reflections on Content and Delivery of Their Pre-Registration Podiatry Programme at a Regional University in New South Wales, Australia: A Survey of Graduates.",
+    abstract: "INTRODUCTION: Understanding podiatrists' perceptions of their undergraduate education is important to ensure that educational content and delivery meets the needs of the current workforce to inform future planning. This study aims to explore podiatrists' perceptions of their undergraduate podiatry training at the University of Newcastle, Australia, and their preferences regarding educational content and delivery.\n" +
+      "METHODS: We conducted an online survey of podiatry graduates from the University of Newcastle, Australia. Data were analysed using descriptive statistics and Fisher's exact test to compare responses between groups. Qualitative responses were analysed using inductive content analysis.\n" +
+      'RESULTS: A total of 114 podiatrists responded. Nail avulsions, business management and modifying orthoses were perceived as being given insufficient time and focus in undergraduate training, with a higher proportion of private (71%) compared to public (33%) podiatrists reporting business management as lacking (p = 0.02). There was strong support for embedding endorsed scheduled medicines training within the programme (80%) and for delivering theoretical content face-to-face rather than online. Inductive content analysis revealed four areas to be emphasised in future curricula: modern technologies, biomechanics, wound care and routine podiatric care. Potential strategies to reduce examination stress included mock assessments, changed assessment weighting, reduced exam structure rigidity and reducing assessor bias.\n' +
+      "CONCLUSIONS: This study provides insights into Australian podiatrists' preferences for pre-registration curricula. Topics to emphasise in future curricula at the University of Newcastle, Australia, include greater manual skills and business training, modern technologies, biomechanics and routine podiatric care. Our results suggest exercising caution when substituting face-to-face with online learning. These findings provide valuable guidance for future curricula in a context of declining student numbers and increasing healthcare demands.",
     published: '2025-Sep',
     authors: [
-      'Kawabe Kentaro',
-      'Inoue Saori',
-      'Kozuki Haruka',
-      'Matsumoto Yu',
-      'Kusunoki Maya',
-      'Yamada Akiko',
-      'Sasaki Saeko',
-      'Isobe Masanori',
-      'Murai Toshiya',
-      'Ueno Shu-Ichi',
-      'Horiuchi Fumie'
+      'Chua Wen Ting Hazel',
+      'Fellas Antoni',
+      'Coda Andrea',
+      'Hawke Fiona'
     ],
-    journal: 'PCN reports : psychiatry and clinical neurosciences',
-    doi: '10.1002/pcn5.70171',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747371/'
+    journal: 'Journal of foot and ankle research',
+    doi: '10.1002/jfa2.70053',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751492/'
   },
   {
-    id: '40747366',
-    title: 'Intimate partner violence during pregnancy against 601,534 women aged 15 to 49 years in 57 LMICs: prevalence, disparities, trends and associated factors using Demographic and Health Survey data.',
-    abstract: 'BACKGROUND: Pregnant women are at increased risk of intimate partner violence (IPV), with harmful outcomes for both mother and unborn baby. As this public health issue remained poorly documented in low- and middle-income countries (LMICs), this comprehensive study aimed to investigate prevalence and disparities of intimate partner violence during pregnancy (IPVDP) in 57 LMICs, grouped into WHO Regions and World Bank 2022 Income Classification. We also examined changes in IPVDP in LMICs and associated factors.\n' +
-      'METHODS: Data for this study were extracted from Demographic and Health Surveys conducted in 57 LMICs from 2000 to 2024. Countries without domestic violence data were excluded from the study. We estimated overall, regional, sub-regional, and national-weighted prevalence of IPVDP among women aged 15-49 years. Trends in IPVDP were calculated at the national level using the average annual rate of change (AARC) in a subset of 31 countries with at least two survey rounds. A Poisson regression model was fitted for identifying factors associated with IPVDP.\n' +
-      'FINDINGS: The study included a total weighted sample of 601,534 women. The pooled prevalence of IPVDP was 6.3% (95% CI 6.2-6.4). The Eastern Mediterranean region recorded the highest prevalence of IPVDP (11.3% [95% CI 10.8-11.9]), while the South-East Asia region (3.3% [95% CI 3.0-3.5]) the lowest. Similarly, low-income countries (LICs) reported the highest prevalence of IPVDP (8.2% [95% CI 7.9-8.4]). Further, prevalence varied greatly across countries, ranging from 1.1% (95% CI 0.6-1.5) in South Africa to 17.6% (95% CI 15.3-20.0) in Papua New Guinea. Examining AARC, most countries (23/31) experienced a decreasing trend in IPVDP, however, seven countries showed increasing trends, with the largest of 8.3% (95% CI 6.8-9.9) in Gambia and the smallest of 0.6% (95% CI -0.7 to 1.8) in the Democratic Republic of Congo. Similarly, we found that women: aged 15-19 years, from poor households, with primary education and below, who had more than 5 children, married before 18, who had not participated in household decision-making, and whose partners exhibited controlling behaviour had higher likelihood of experiencing IPVDP.\n' +
-      'INTERPRETATION: Despite the implementation of numerous development programs aimed at reducing violence against women in LMICs in recent decades, IPVDP remains high in some countries and has even increased in others. Our findings indicate that efforts to reduce IPVDP and the associated health burdens need to be improved in many LMICs. In alignment with the 5.2 Sustainable Development Goal target (i.e., eliminate all forms of violence against women and girls), stakeholders such as NGOs and policymakers can use these findings to roll out interventions based on observed geographic and socio-demographic inequities to end IPVDP among vulnerable groups.\n' +
-      'FUNDING: The Fonds de Recherche du Québec-Santé (2022-2023-BF15-314279).',
+    id: '40751474',
+    title: `Multi-cohort evaluation of "Don't know" responders to self-report oral health questions: Implications for etiologic research.`,
+    abstract: `BACKGROUND: Self-reported data can extend the reach of oral health research, but "Don't know" responses may threaten validity. We explored characteristics of participants who responded "Don't know" to a periodontal health question across three distinct cohorts.\n` +
+      `METHODS: We used data from three questionnaire-based observational studies, namely, the Pregnancy Study Online (PRESTO) (N = 10,996), the Black Women's Health Study (BWHS) (N = 479), and the National Health and Nutrition Examination Survey (NHANES) (N = 15,502), to evaluate responses to questionnaire items related to periodontal health (e.g., "Has a dentist or dental hygienist ever told you that you have periodontitis or gum disease?"). We compared sociodemographic and behavioral factors across each response category ("Yes," "No," "Don't know"). We used Monte Carlo simulation to create multiple datasets of 100,000 participants under different scenarios to calculate the percent change in observed effect estimates in analyses using the full cohort compared to analytic cohorts excluding "Don't know" respondents.\n` +
+      `RESULTS: "Don't know" prevalences ranged from 1.6% to 4.1%. We observed differences between "Don't know" responders and those who answered "Yes" or "No" across all three cohorts. "Don't know" responders were more likely to have lower educational attainment, lower income, and reduced engagement with oral healthcare services. We observed substantial bias in complete-case effect estimates in some simulated scenarios. Bias was larger when the underlying population prevalence of "Don't know" responses was higher.\n` +
+      `CONCLUSIONS: "Don't know" responders had distinct patterns of sociodemographic characteristics and oral healthcare engagement. The degree of bias in complete-case analysis was dependent on simulated factors.\n` +
+      `PLAIN LANGUAGE SUMMARY: Research about oral health often asks people to answer questions about their teeth and gums. Sometimes people respond that they "Don't know" the answer to these questions, which can make data challenging for researchers to analyze. In this study, we used three different data sources to look at whether there were particular characteristics that were more common among people who said they "Don't know" in response to a question about their gum health. "Don't know" responses were not very common in any of the three groups, ranging from 1.6% in a representative survey of people in the United States to 4.1% in a group of women in the United States and Canada trying to become pregnant. In all three groups, people who said "Don't know" had a lower household income, less education, and were less likely to have seen a dentist recently. We also used simulated datasets to evaluate when excluding people who responded "Don't know" would be expected to cause the most bias in analyses. The expected bias increased with the number of "Don't know" responses in the data.`,
+    published: '2025-Aug-02',
+    authors: [
+      'Bond Julia C',
+      'Velez Mabeline',
+      'McDonough Robert',
+      'Casey Sharon M',
+      'Wise Lauren A',
+      'Cozier Yvette C',
+      'Fox Matthew P',
+      'Garcia Raul I',
+      'Heaton Brenda'
+    ],
+    journal: 'Journal of periodontology',
+    doi: '10.1002/jper.11378',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751474/'
+  },
+  {
+    id: '40751468',
+    title: 'Factors influencing tooth loss over 9-11 years in young individuals with periodontitis.',
+    abstract: 'BACKGROUND: Herein, we aimed to identify factors associated with tooth loss over a 9- to 11-year period in young individuals with periodontitis, with a specific focus on the impact of patient compliance. The secondary outcome was to identify factors associated with discontinuation of active periodontal treatment.\n' +
+      'METHODS: This retrospective register-based cohort study included 446 patients under the age of 36, diagnosed with periodontitis at 2 periodontal clinics, between 2003 and 2009. Variables were collected from digital dental records combined with 2 national health registers. The follow-up period was between 2009 and 2019. Negative binomial and logistic regression analyses identified factors significantly associated with tooth loss and discontinuation of periodontal treatment.\n' +
+      'RESULTS: The majority of patients had lost none or maximum of 3 teeth due to periodontitis, while 3.6% had lost ≥ 10 teeth. The mean number of teeth lost due to periodontitis was 1.3 (range 0-26). Generalized periodontitis, stage IV, low level of education, smoking, and discontinuation of active periodontal treatment (APT) were significantly correlated with tooth loss. The variables periodontal stage, low level of education together with low income were correlated to discontinuation of APT.\n' +
+      'CONCLUSIONS: In this register-based study, discontinuation of APT, severe periodontal disease, smoking, and low level of education increased the risk for tooth loss. Additionally, low education level, low income, and severe periodontal disease were also significantly associated with discontinuation of APT.\n' +
+      'PLAIN LANGUAGE SUMMARY: There are few studies focusing on tooth loss in young individuals with periodontitis. To increase knowledge on this issue, this register-based study focused on 446 individuals who were younger than 36 years of age at time of their periodontal diagnosis. During a follow-up period from 2009 to 2019, most individuals lost few or no teeth, while a minority accounted for most of the tooth losses. Patients with a generalized severe periodontal disease, low educational level, and who smoked were at the highest risk of tooth loss. Additionally, interruption of periodontal treatment was observed to be more common in patients with severe disease.',
+    published: '2025-Aug-02',
+    authors: [
+      'Modin Carolina',
+      'Cederlund Andreas',
+      'Gustafsson Anders',
+      'Yucel-Lindberg Tülay',
+      'Jansson Leif E'
+    ],
+    journal: 'Journal of periodontology',
+    doi: '10.1002/JPER.24-0687',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751468/'
+  },
+  {
+    id: '40751378',
+    title: 'Breastfeeding Self-Efficacy Among First-Time Mothers: A Mixed-Methods Study Comparing Spontaneous and Assisted Conceptions in Turkey.',
+    abstract: 'AIM: This mixed-method study aimed to examine the relationship between mode of conception and breastfeeding self-efficacy among first-time mothers in Turkey, comparing outcomes between those who conceived spontaneously and those who conceived through assisted reproductive technologies (ART). A secondary objective was to explore the lived experiences of women with low breastfeeding self-efficacy in both groups.\n' +
+      "METHODS: Using an exploratory sequential mixed-methods design, quantitative data were collected from 100 mothers, 50 with spontaneous pregnancies and 50 with ART-conceived pregnancies, using a validated breastfeeding self-efficacy scale. In the qualitative phase, in-depth interviews were conducted with six mothers who scored low on the scale or reported breastfeeding difficulties. The qualitative component was guided by Dennis' Breastfeeding Self-Efficacy Framework.\n" +
+      'RESULTS: Quantitative findings revealed significantly higher breastfeeding self-efficacy scores among mothers with spontaneous pregnancies compared to those who conceived through ART. Qualitative analysis identified key influencing factors such as emotional adjustment to motherhood, perceived social expectations and physical challenges related to breastfeeding. A critical gap in targeted breastfeeding education and postnatal support was noted across both groups.\n' +
+      'CONCLUSIONS: The findings underscore the need for individualized, culturally sensitive breastfeeding interventions, particularly for mothers who have conceived through ART. Tailored support strategies addressing both psychological and physical aspects of the postpartum experience may enhance breastfeeding outcomes in this growing population.',
+    published: '2025-Aug',
+    authors: [ 'Özöztürk Sevcan', 'Tokat Merlinda Aluş', 'Aslan Hande' ],
+    journal: 'International journal of nursing practice',
+    doi: '10.1111/ijn.70036',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751378/'
+  },
+  {
+    id: '40751374',
+    title: 'Photoprotection in Skin of Color: A Scoping Review of Barriers, Behaviors, and Pediatric Considerations.',
+    abstract: 'Individuals with skin of color (SOC) can sunburn and develop skin cancer, often presenting at advanced stages with higher morbidity and melanoma-related mortality. However, patient education on photoprotection for SOC populations remains limited. This scoping review investigated the benefits of photoprotection and the factors influencing sun protective behaviors in SOC populations. EMBASE, MEDLINE, and PubMed were searched from January 1st, 2018 to December 31st, 2022, using the overarching terms of "SOC," "skin cancer," and "photoprotection." Original, English-language studies were included, while non-human and incomplete studies were excluded. The review found that while photoprotection benefits SOC populations, individuals within these groups exhibit lower knowledge of and participation in sun-protective behaviors. This gap is influenced by a complex interplay of factors, including cultural values, family dynamics, gender, education, and societal norms surrounding beauty. Misconceptions about innate sun protection contribute to this gap. To address this, culturally relevant education, community engagement, healthcare integration, and increased representation of SOC in dermatological research are essential to improving sun-safe habits in these communities.',
+    published: '2025-Aug-02',
+    authors: [
+      'King Aliyah',
+      'Sabbah Sami G',
+      'Bose Reetesh',
+      'Heath Candrice R',
+      'Silverberg Nanette B'
+    ],
+    journal: 'Pediatric dermatology',
+    doi: '10.1111/pde.16041',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751374/'
+  },
+  {
+    id: '40751373',
+    title: "Forward Outlook on Oral Health: The American Association of Public Health Dentistry's 2025 Research Agenda for Dental Public Health.",
+    abstract: 'OBJECTIVES: Dental public health (DPH) research is crucial in improving and promoting community oral health by generating and translating new knowledge into practice. Since the last AAPHD research agenda in 1992, the DPH field has made significant advancements. This research agenda aims to outline key research areas in DPH, including priority topics and evidence gaps in our scientific understanding of factors influencing population oral health and oral health equity.\n' +
+      'METHODS: A workgroup under the AAPHD Council on Scientific Information (CSI) surveyed 503 AAPHD members in September 2021 to gather feedback on seven draft research objectives. The survey used a Likert scale to assess agreement and included open-ended suggestions.\n' +
+      'RESULTS: A total of 115 AAPHD members responded to the survey, resulting in a response rate of about 23%. Six of the seven objectives were agreed or strongly agreed upon by respondents as important areas of focus for DPH research. The final research agenda includes six key areas: oral health policy and legislation, delivery system innovations and care models, oral health workforce, DPH education, social determinants of health, and epidemiology and surveillance systems. The research agenda describes advancements and gaps in these areas, existing evidence, example priority topics, and research questions.\n' +
+      'CONCLUSIONS: The AAPHD encourages DPH partners, including federal agencies, DPH organizations, foundations, and dental associations, to advocate for, support, use, and fund high-quality DPH research. This support is crucial for translating emerging evidence into oral health improvements and equity across the diverse US communities.',
+    published: '2025-Aug-02',
+    authors: [
+      'Banava Sepideh',
+      'Reynolds Julie C',
+      'Naavaal Shillpa',
+      'Frantsve-Hawley Julie',
+      'Habibian Mina',
+      'Murphey Christina'
+    ],
+    journal: 'Journal of public health dentistry',
+    doi: '10.1111/jphd.70005',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751373/'
+  },
+  {
+    id: '40751359',
+    title: 'Does Metabolic Status Associate With IVF Outcomes in Women Within Similar Body Mass Index Category: Evidence From a Large Cohort Study.',
+    abstract: 'OBJECTIVES: Whether diverse metabolic statuses within a similar body mass index (BMI) category associate with different in vitro fertilization (IVF) outcomes.\n' +
+      'DESIGN: A retrospective cohort study.\n' +
+      'SETTING: Wenzhou, Zhengjiang Province, China.\n' +
+      'POPULATION: This retrospective cohort study prescreened 16 458 women who underwent their first IVF and fresh embryo transfer cycle between January 2010 and December 2021.\n' +
+      'METHODS: Metabolic status was assessed using the National Cholesterol Education Program-Adult Treatment Panel III criteria. Patients were then categorized into six groups: metabolically healthy normal weight, metabolically unhealthy normal weight, metabolically healthy overweight, metabolically unhealthy overweight, metabolically healthy obese, and metabolically unhealthy obese.\n' +
+      'MAIN OUTCOME MEASURES: The primary outcome was live birth rate.\n' +
+      'RESULTS: Regarding live birth, rates in normal weight women were initially lower for metabolically unhealthy normal weight versus metabolically healthy normal weight (44.6% vs. 48.6%), but this was not significant after multivariate adjustment. In obese women, live birth rates were similar between metabolically unhealthy obese and metabolically healthy obese (41.5% vs. 43.9%), with no adjusted difference. For secondary outcomes, metabolically unhealthy normal weight patients had lower biochemical pregnancy rates than metabolically healthy normal weight (OR: 0.86, 95% CI: 0.76-0.98); high blood pressure was a significant risk factor for this outcome in metabolically unhealthy normal weight (OR: 0.84, 95% CI: 0.72-0.98).\n' +
+      'CONCLUSION: Our findings indicated that different cardio-metabolic risk factors but a similar BMI category may have limited adverse effects on live birth rate.',
     published: '2025-Aug',
     authors: [
-      'Jean Simon David',
-      'Kondo Tokpovi Vénunyé Claude',
-      'Ouedraogo Adama',
-      'Dianou Kassoum',
-      'Kiragu Ann',
-      'Olorunsaiye Comfort Z',
-      'Paul Bénédique'
+      'Ding Lin',
+      'Lin Xiaojing',
+      'Pan Peipei',
+      'Li Yan',
+      'Chen Wei',
+      'He Liying',
+      'Xu Yunsheng',
+      'Chang Hsun-Ming',
+      'Yang Haiyan',
+      'Wang Guiquan',
+      'Mu Liangshan'
     ],
-    journal: 'EClinicalMedicine',
-    doi: '10.1016/j.eclinm.2025.103382',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40747366/'
+    journal: 'Journal of diabetes',
+    doi: '10.1111/1753-0407.70132',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751359/'
+  },
+  {
+    id: '40751325',
+    title: 'Approaches to Addressing Pediatric Cancer Treatment Refusal Beyond Legal Action.',
+    abstract: 'INTRODUCTION: Parental refusal and abandonment of recommended treatment in pediatric oncology can have significant consequences for patients and cause moral and emotional distress for clinicians. We sought to describe the spectrum of approaches to treatment refusal and abandonment that pediatric oncologists utilize when trying to avoid legal intervention, prior to deciding to seek legal intervention, and/or when legal intervention had been deemed inappropriate.\n' +
+      'METHODS: US-based pediatric oncologists were recruited to participate in qualitative interviews through purposive and referral sampling to maximize diversity. The semi-structured interview guide covered types of conflicts encountered; factors and approaches considered in response; effects of treatment refusal, personally and professionally; role of ethical frameworks and legal requirements; and the resources needed to manage refusal cases. Interviews were recorded, transcribed, and coded using applied thematic analysis within the overall framework of grounded theory.\n' +
+      'RESULTS: Participants reported using multiple tactics comprising three themes: logistics of communication, establishment of trust, and negotiation and compromise. They also described resources utilized, discussed how their experiences changed their practice, and what they would advise colleagues in the future, and identified barriers to successful resolution. Most participants did not have institutional policies or processes beyond the use of ethics consultation and desired more in-depth preparation and guidance.\n' +
+      'CONCLUSIONS: Our work has created a foundation for the development of additional resources, including education and training, consensus guidelines that include the best available evidence for treatment modifications and the inclusion of alternative therapies, and better access to mental healthcare for those patients and families who need it.',
+    published: '2025-Aug-01',
+    authors: [ 'Caruso Brown Amy E', 'Beskow Laura M', 'Benedetti Daniel J' ],
+    journal: 'Pediatric blood & cancer',
+    doi: '10.1002/pbc.31949',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751325/'
+  },
+  {
+    id: '40751324',
+    title: 'Statewide Academic Performance of High School Students With Sickle Cell Disease.',
+    abstract: 'PURPOSE: Among patients with sickle cell disease (SCD), poor academic attainment in adolescence is associated with a greater frequency of acute care visits and a poorer health-related quality of life in adulthood. We compared the academic performance of high school students with SCD to students without SCD after controlling for race and sex.\n' +
+      'METHODS: This retrospective cohort study was constructed based on the Tennessee Medicaid program claims data and Tennessee Department of Education Race to the Top educational data from October 1, 2007 to September 30, 2019. For every ninth grade student with SCD identified, eight students without SCD were identified. Academic achievement was measured using rates of proficiency on end-of-course assessments. The number of days absent per school year, grade retention, and school withdrawal were used as measures of academic attainment.\n' +
+      'RESULTS: The analysis included 498 students with SCD and 3188 students without SCD. After race and sex were adjusted for, students with SCD had English proficiency odds of 0.8 times (95% confidence interval [CI]: 0.7-0.9; p < 0.001) those of students without SCD. Students with SCD were 1.2 times (95% CI: 1.0-1.5; p = 0.045) more likely to be retained in the ninth grade. The effect of SCD on grade retention was mediated by days absent from school (odds ratio for indirect effect, 1.18 (95% CI: 1.1-1.26; p < 0.0001).\n' +
+      'DISCUSSION: SCD negatively affects academic performance partly through frequent school absence.',
+    published: '2025-Aug-01',
+    authors: [
+      'Heitzer Andrew M',
+      'Ray Meredith',
+      'Wiese Andrew',
+      'Dudley Judy',
+      'Harris Kelly M',
+      'King Allison A',
+      'Hankins Jane S',
+      'Cooper William O',
+      'Smeltzer Matthew P',
+      'Davis Robert'
+    ],
+    journal: 'Pediatric blood & cancer',
+    doi: '10.1002/pbc.31947',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40751324/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
@@ -1645,7 +1658,6 @@ Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
 Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9371461390652414 seconds...
 Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
 Translating paper 12/50
@@ -1654,7 +1666,6 @@ Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.3133067090495105 seconds...
 Translating paper 15/50
 Translating paper: Experience and education...
 Translating paper 16/50
@@ -1688,25 +1699,25 @@ Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Exploring Practices for Implementing Smoking Cessa...
+Translating paper: Learning Variability Network Exchange (LEVANTE): A...
 Translating paper 32/50
-Translating paper: Psychosocial impact of inherited arrhythmia syndro...
+Translating paper: Podiatrists' Reflections on Content and Delivery o...
 Translating paper 33/50
-Translating paper: When the earth shakes unexpectedly: impact on neph...
+Translating paper: Multi-cohort evaluation of "Don't know" responders...
 Translating paper 34/50
-Translating paper: Do not overlook the children: the unique needs of ...
+Translating paper: Factors influencing tooth loss over 9-11 years in ...
 Translating paper 35/50
-Translating paper: Sociodemographic and lifestyle factors and the fir...
+Translating paper: Breastfeeding Self-Efficacy Among First-Time Mothe...
 Translating paper 36/50
-Translating paper: The Current Status of Medical Parasitology in Iran...
+Translating paper: Photoprotection in Skin of Color: A Scoping Review...
 Translating paper 37/50
-Translating paper: Physicians and Disabilities....
+Translating paper: Forward Outlook on Oral Health: The American Assoc...
 Translating paper 38/50
-Translating paper: Navigating Low Back Pain: A Multidisciplinary Appr...
+Translating paper: Does Metabolic Status Associate With IVF Outcomes ...
 Translating paper 39/50
-Translating paper: Medical collaboration enhances schoolteachers' sup...
+Translating paper: Approaches to Addressing Pediatric Cancer Treatmen...
 Translating paper 40/50
-Translating paper: Intimate partner violence during pregnancy against...
+Translating paper: Statewide Academic Performance of High School Stud...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1721,216 +1732,32 @@ Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
 Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2208734188887402 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"57s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '57s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0853132593489785 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '55s'
-    }
-  ]
-}
 Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.2472905004729533 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"50s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '50s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9418996403568953 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '47s'
-    }
-  ]
-}
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4686517387596316 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"42s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '42s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8996533605208543 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"39s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '39s'
-    }
-  ]
-}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.557764783268378 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"34s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '34s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.0253996169315105 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '32s'
-    }
-  ]
-}
 Translation completed: 50 papers
-Removed duplicates: 793 -> 753
-Total papers after merging: 753 (743 existing + 50 new)
-Saved 753 papers to papers.json
+Removed duplicates: 803 -> 763
+Total papers after merging: 763 (753 existing + 50 new)
+Saved 763 papers to papers.json
 Generating HTML files...
-Generating index.html with 753 papers...
+Generating index.html with 763 papers...
 Successfully generated index.html
-Generating archive.html with 753 papers...
+Generating archive.html with 763 papers...
 Successfully generated archive.html
-Generating journal.html with 753 papers...
+Generating journal.html with 763 papers...
 Successfully generated journal.html
-Generating acquisition.html with 753 papers...
+Generating acquisition.html with 763 papers...
 Successfully generated acquisition.html
-Generating publication.html with 753 papers...
+Generating publication.html with 763 papers...
 Successfully generated publication.html
-Generating registration.html with 753 papers...
+Generating registration.html with 763 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 753
+Total papers in database: 763
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-01T15:40:30.084Z
+Timestamp: 2025-08-02T15:39:57.381Z
