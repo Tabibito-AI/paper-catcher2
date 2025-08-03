@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-02T15:10:47.481Z
+Timestamp: 2025-08-03T15:10:53.691Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 753 existing papers from papers.json
+Loaded 763 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -589,216 +589,213 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40751497',
-    title: "Learning Variability Network Exchange (LEVANTE): A Global Framework for Measuring Children's Learning Variability Through Collaborative Data Sharing.",
-    abstract: "Despite the ubiquity of variation in child development within individuals, across groups, and across tasks, timescales, and contexts, dominant methods in developmental science and education research still favor group averages, short snapshots of time, and single environments. The Learning Variability Network Exchange (LEVANTE) is a framework designed to enable coordinated data collection by research teams worldwide, with the goal of measuring variability in children's learning and development. The LEVANTE measure set aims to capture variability in learning outcomes (literacy and numeracy) as well as in core cognitive and social constructs. LEVANTE will yield a large, open access longitudinal dataset for long-term research use, both creating a multidisciplinary research network and facilitating the science of learning variability.",
+    id: '40753447',
+    title: 'Wearable sensor data visualization for patient monitoring and management: a Cancer Wellness application in Vietnam.',
+    abstract: ' This study incorporates Fitbit wearable sensor technology into a mobile application named Cancer Wellness Program (CWP) for patient monitoring. The objective of this study is to explore the experiences of healthcare providers in using the CWP application for managing symptoms of people with cancer and in delivering health education programs. : A qualitative study design with a purposive sampling approach was employed, using a structured, in-depth interview method to involve 15 healthcare workers.  Key features of the CWP application include a patient education platform, a dashboard to monitor patient health data and learning progress, and interactive communication between the two parties. Multiple advantages of this application were identified by healthcare providers, namely user-friendliness, data aggregation and personalization.  Despite minor technical drawbacks, the CWP application proves to be a powerful assistant for healthcare providers to optimize patient care.',
+    published: '2025-Dec',
+    authors: [
+      'Nguyen Huyen Thi Hoa',
+      'Tran Tran Ngoc',
+      'Nguyen Giang Huong',
+      'Nguyen Tung Truong',
+      'Nguyen Ngan Thi Thuy',
+      'Pham Hieu Huy',
+      'Bui Linh Khanh',
+      'Nguyen Anh Chau',
+      'Anderson Debra J'
+    ],
+    journal: 'Future science OA',
+    doi: '10.1080/20565623.2025.2541522',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753447/'
+  },
+  {
+    id: '40753444',
+    title: 'The medical student stressor questionnaire (MSSQ): validation and reliability in Turkish students.',
+    abstract: 'BACKGROUND: Medical training is a highly stressful environment for students. In previous studies, many instruments have been used to measure stress levels among medical students. However, these stress measurements are not specific tools for medical settings. This study aims to adapt the Medical Student Stressor Questionnaire (MSSQ) to Turkish, conduct validity and reliability studies, and provide a practical tool to evaluate medical school-related stressors of medical students in Turkey.\n' +
+      `METHODS: All students studying at the (Manisa Celal Bayar University) School of Medicine were invited to the study. The data was collected between January-March 2024. The research was completed with 412 students. The MSSQ consists of 40 items and 6 subscales. The psychometric properties of the MSSQ were evaluated through tests for validity and reliability. Using RStudio version 1.3.1093 (R Studio, PBC) with the lavaan package, confirmatory factor analysis (CFA) with the "diagonally weighted least squares (DWLS)" estimator was conducted. Internal consistency was tested by Cronbach's alpha coefficient and test-retest reliability was examined by intraclass correlation coefficient (ICC).\n` +
+      'RESULTS: A total of 412 students participated in this study. The median (minimum-maximum) age of the students was found to be 20.00 (18.00-26.00) years. CFA was performed and the appropriate modification indices suggested by the model were added to the model. All 40 items loaded 0.38 or higher. The fit indices calculated as a result of the CFA were determined to be Root Mean Square Error of Approximation (RMSEA) = 0.060 (95% CI: 0.057-0.064)(p < 0.001), Comparative Fit Index (CFI) = 0.899 and Tucker-Lewis Index (TLI) = 0.888. The fit indices were at acceptable level. In the analyses conducted for the subscales, the Cronbach Alpha Coefficients were adequate.\n' +
+      'CONCLUSION: In conclusion, this study has provided preliminary evidence for the validity and reliability of a Turkish version of the MSSQ. The six-factor structure was confirmed by CFA. We propose using the Turkish version of MSSQ to evaluate the stress level of medical students. Therefore, further research is needed to investigate the relationship between MSSQ and the other scales which used to measure stress.',
     published: '2025-Aug-02',
     authors: [
-      'Frank Michael C',   'Baumgartner Heidi A',
-      'Braginsky Mika',    'Kachergis George',
-      'Lightbody Amy A',   'Sparks Robert Z',
-      'Zhu Rebecca',       'Carlson Stephanie M',
-      'Graham Sandra',     'Lipina Sebastián J',
-      'Newcombe Nora S',   'Odgers Candice L',
-      'Pianta Robert C',   'Siegler Robert S',
-      'Snowling Margaret', 'Yoshikawa Hirokazu',
-      'Cubillo Ana',       'Dodge Kenneth A'
+      'Özalp Ateş Funda Seher',
+      'Akçay Elif',
+      'Gökmen Derya',
+      'Rahman Süheyla'
     ],
-    journal: 'Child development',
-    doi: '10.1111/cdev.70011',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751497/'
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07689-4',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753444/'
   },
   {
-    id: '40751492',
-    title: "Podiatrists' Reflections on Content and Delivery of Their Pre-Registration Podiatry Programme at a Regional University in New South Wales, Australia: A Survey of Graduates.",
-    abstract: "INTRODUCTION: Understanding podiatrists' perceptions of their undergraduate education is important to ensure that educational content and delivery meets the needs of the current workforce to inform future planning. This study aims to explore podiatrists' perceptions of their undergraduate podiatry training at the University of Newcastle, Australia, and their preferences regarding educational content and delivery.\n" +
-      "METHODS: We conducted an online survey of podiatry graduates from the University of Newcastle, Australia. Data were analysed using descriptive statistics and Fisher's exact test to compare responses between groups. Qualitative responses were analysed using inductive content analysis.\n" +
-      'RESULTS: A total of 114 podiatrists responded. Nail avulsions, business management and modifying orthoses were perceived as being given insufficient time and focus in undergraduate training, with a higher proportion of private (71%) compared to public (33%) podiatrists reporting business management as lacking (p = 0.02). There was strong support for embedding endorsed scheduled medicines training within the programme (80%) and for delivering theoretical content face-to-face rather than online. Inductive content analysis revealed four areas to be emphasised in future curricula: modern technologies, biomechanics, wound care and routine podiatric care. Potential strategies to reduce examination stress included mock assessments, changed assessment weighting, reduced exam structure rigidity and reducing assessor bias.\n' +
-      "CONCLUSIONS: This study provides insights into Australian podiatrists' preferences for pre-registration curricula. Topics to emphasise in future curricula at the University of Newcastle, Australia, include greater manual skills and business training, modern technologies, biomechanics and routine podiatric care. Our results suggest exercising caution when substituting face-to-face with online learning. These findings provide valuable guidance for future curricula in a context of declining student numbers and increasing healthcare demands.",
-    published: '2025-Sep',
-    authors: [
-      'Chua Wen Ting Hazel',
-      'Fellas Antoni',
-      'Coda Andrea',
-      'Hawke Fiona'
-    ],
-    journal: 'Journal of foot and ankle research',
-    doi: '10.1002/jfa2.70053',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751492/'
-  },
-  {
-    id: '40751474',
-    title: `Multi-cohort evaluation of "Don't know" responders to self-report oral health questions: Implications for etiologic research.`,
-    abstract: `BACKGROUND: Self-reported data can extend the reach of oral health research, but "Don't know" responses may threaten validity. We explored characteristics of participants who responded "Don't know" to a periodontal health question across three distinct cohorts.\n` +
-      `METHODS: We used data from three questionnaire-based observational studies, namely, the Pregnancy Study Online (PRESTO) (N = 10,996), the Black Women's Health Study (BWHS) (N = 479), and the National Health and Nutrition Examination Survey (NHANES) (N = 15,502), to evaluate responses to questionnaire items related to periodontal health (e.g., "Has a dentist or dental hygienist ever told you that you have periodontitis or gum disease?"). We compared sociodemographic and behavioral factors across each response category ("Yes," "No," "Don't know"). We used Monte Carlo simulation to create multiple datasets of 100,000 participants under different scenarios to calculate the percent change in observed effect estimates in analyses using the full cohort compared to analytic cohorts excluding "Don't know" respondents.\n` +
-      `RESULTS: "Don't know" prevalences ranged from 1.6% to 4.1%. We observed differences between "Don't know" responders and those who answered "Yes" or "No" across all three cohorts. "Don't know" responders were more likely to have lower educational attainment, lower income, and reduced engagement with oral healthcare services. We observed substantial bias in complete-case effect estimates in some simulated scenarios. Bias was larger when the underlying population prevalence of "Don't know" responses was higher.\n` +
-      `CONCLUSIONS: "Don't know" responders had distinct patterns of sociodemographic characteristics and oral healthcare engagement. The degree of bias in complete-case analysis was dependent on simulated factors.\n` +
-      `PLAIN LANGUAGE SUMMARY: Research about oral health often asks people to answer questions about their teeth and gums. Sometimes people respond that they "Don't know" the answer to these questions, which can make data challenging for researchers to analyze. In this study, we used three different data sources to look at whether there were particular characteristics that were more common among people who said they "Don't know" in response to a question about their gum health. "Don't know" responses were not very common in any of the three groups, ranging from 1.6% in a representative survey of people in the United States to 4.1% in a group of women in the United States and Canada trying to become pregnant. In all three groups, people who said "Don't know" had a lower household income, less education, and were less likely to have seen a dentist recently. We also used simulated datasets to evaluate when excluding people who responded "Don't know" would be expected to cause the most bias in analyses. The expected bias increased with the number of "Don't know" responses in the data.`,
+    id: '40753436',
+    title: 'Integration of early clinical exposure into curriculum enhances self-assessment of professional competencies in medical practice.',
+    abstract: 'BACKGROUND: Medical education has predominantly adhered to a process-based education model. Recently, outcome-based education (OBE) has emerged as a dominant pedagogical framework, facilitating simultaneous acquisition of theoretical knowledge, practical skills, and clinical experience. In 2020, our medical school implemented a new curriculum designed to integrate clinical skills training and experiential learning with foundational knowledge from the first year. Herein, we evaluated whether the clinical competencies of New Curriculum Students (NCS) are superior to the clinical competencies of Traditional Curriculum Students (TCS). Specifically, we clarified how self-assessment scores related to competencies in "Professional practice skills" evolved over time, and analyzed the longitudinal trends in self-assessment scores.\n' +
+      `METHODS: We included TCS enrolled between 2016 and 2019, and NCS enrolled between 2020 and 2023. Self-assessment of students' competencies in "Professional practice skills," a core component of our institution's competency framework, was conducted by online survey. Competency levels were categorized into Levels A, B, and C.\n` +
+      'RESULTS: The self-assessment scores of NCS were significantly higher than those of TCS across most competency domains of "Professional practice skills." The "Medical interview and physical examination" competency revealed that first-year NCS achieved scores equivalent to those of fourth-year TCS. These scores were either maintained or improved as students progressed in years. In the "Clinical skills" competency, NCS outperformed TCS at all levels from the first to the third year, and at Level A in the fourth year. In the "Medical record charting" competency, NCS achieved significantly higher scores than TCS across all levels during the first and second years.\n' +
+      'DISCUSSION: The early acquisition of clinical skills and exposure to clinical practice enabled students to consistently maintain high self-assessment scores. A curriculum design aligned with OBE appears to foster a heightened sense of self-efficacy among students. This approach is anticipated to facilitate a seamless transition into clinical responsibilities as future physicians.',
     published: '2025-Aug-02',
     authors: [
-      'Bond Julia C',
-      'Velez Mabeline',
-      'McDonough Robert',
-      'Casey Sharon M',
-      'Wise Lauren A',
-      'Cozier Yvette C',
-      'Fox Matthew P',
-      'Garcia Raul I',
-      'Heaton Brenda'
+      'Oshiro Tsuyoshi',
+      'Suzuki Shintaro',
+      'Kagawa Naoki',
+      'Ono Himawari',
+      'Goto Rieko',
+      'Furuta Atsuko',
+      'Arima Makiko',
+      'Tsuchiya Shizuma',
+      'Ogata Hiroaki',
+      'Barroga Edward',
+      'Izumi Miki'
     ],
-    journal: 'Journal of periodontology',
-    doi: '10.1002/jper.11378',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751474/'
+    journal: 'BMC medical education',
+    doi: '10.1186/s12909-025-07678-7',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753436/'
   },
   {
-    id: '40751468',
-    title: 'Factors influencing tooth loss over 9-11 years in young individuals with periodontitis.',
-    abstract: 'BACKGROUND: Herein, we aimed to identify factors associated with tooth loss over a 9- to 11-year period in young individuals with periodontitis, with a specific focus on the impact of patient compliance. The secondary outcome was to identify factors associated with discontinuation of active periodontal treatment.\n' +
-      'METHODS: This retrospective register-based cohort study included 446 patients under the age of 36, diagnosed with periodontitis at 2 periodontal clinics, between 2003 and 2009. Variables were collected from digital dental records combined with 2 national health registers. The follow-up period was between 2009 and 2019. Negative binomial and logistic regression analyses identified factors significantly associated with tooth loss and discontinuation of periodontal treatment.\n' +
-      'RESULTS: The majority of patients had lost none or maximum of 3 teeth due to periodontitis, while 3.6% had lost ≥ 10 teeth. The mean number of teeth lost due to periodontitis was 1.3 (range 0-26). Generalized periodontitis, stage IV, low level of education, smoking, and discontinuation of active periodontal treatment (APT) were significantly correlated with tooth loss. The variables periodontal stage, low level of education together with low income were correlated to discontinuation of APT.\n' +
-      'CONCLUSIONS: In this register-based study, discontinuation of APT, severe periodontal disease, smoking, and low level of education increased the risk for tooth loss. Additionally, low education level, low income, and severe periodontal disease were also significantly associated with discontinuation of APT.\n' +
-      'PLAIN LANGUAGE SUMMARY: There are few studies focusing on tooth loss in young individuals with periodontitis. To increase knowledge on this issue, this register-based study focused on 446 individuals who were younger than 36 years of age at time of their periodontal diagnosis. During a follow-up period from 2009 to 2019, most individuals lost few or no teeth, while a minority accounted for most of the tooth losses. Patients with a generalized severe periodontal disease, low educational level, and who smoked were at the highest risk of tooth loss. Additionally, interruption of periodontal treatment was observed to be more common in patients with severe disease.',
+    id: '40753429',
+    title: 'Tendency to consume alcohol among Poles in the light of coping with stress and selected socio-demographic factors during the COVID-19 pandemic.',
+    abstract: 'INTRODUCTION: The research aimed to assess the linkages between alcohol propensity and stress and coping styles among Poles during the COVID-19 pandemic. The project also focused on investigating the significance of differences in alcohol propensity, taking into account selected sociodemographic characteristics.\n' +
+      'MATERIALS AND METHODS: A total of 1246 people (23.93 ± 2.88 y.o.) participated in the research, including 928 women (23.84 ± 2.89 y.o.) and 318 men (24.21 ± 2.85 y.o.). A self-administered questionnaire, CISS, PSS-10 and AUDIT were used for the study. The statistical procedures used the Pearson correlation coefficient, as well as the Mann-Whitney U test and the Kruskal-Wallis test.\n' +
+      'RESULTS: Positive correlations were found between the intensity of stress symptoms and emotional style in female and male groups. Among adults, factors contributed to high-intensity of alcohol propensity included: male gender, childlessness, living in cities of more than 100.000 inhabitants, people with secondary education, lack of a close personal relationship or being in a partnership, as well as a professional situation related to occasional or casual employment.\n' +
+      'CONCLUSIONS: Alcohol consumption is associated with an emotion- and avoidant-oriented stress-coping styles. 39% women and 43% men of the surveyed were among those at risk of developing alcohol addiction. It implies that the age group remains one of the social groups most exposed to the development of alcohol use disorders. Such situation requires development of prevention programmes that take into account the needs of young people.',
     published: '2025-Aug-02',
     authors: [
-      'Modin Carolina',
-      'Cederlund Andreas',
-      'Gustafsson Anders',
-      'Yucel-Lindberg Tülay',
-      'Jansson Leif E'
+      'Dębski Paweł',
+      'Garczarczyk Monika',
+      'Lisowska Lidia',
+      'Turska-Czyż Dorota'
     ],
-    journal: 'Journal of periodontology',
-    doi: '10.1002/JPER.24-0687',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751468/'
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-24016-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753429/'
   },
   {
-    id: '40751378',
-    title: 'Breastfeeding Self-Efficacy Among First-Time Mothers: A Mixed-Methods Study Comparing Spontaneous and Assisted Conceptions in Turkey.',
-    abstract: 'AIM: This mixed-method study aimed to examine the relationship between mode of conception and breastfeeding self-efficacy among first-time mothers in Turkey, comparing outcomes between those who conceived spontaneously and those who conceived through assisted reproductive technologies (ART). A secondary objective was to explore the lived experiences of women with low breastfeeding self-efficacy in both groups.\n' +
-      "METHODS: Using an exploratory sequential mixed-methods design, quantitative data were collected from 100 mothers, 50 with spontaneous pregnancies and 50 with ART-conceived pregnancies, using a validated breastfeeding self-efficacy scale. In the qualitative phase, in-depth interviews were conducted with six mothers who scored low on the scale or reported breastfeeding difficulties. The qualitative component was guided by Dennis' Breastfeeding Self-Efficacy Framework.\n" +
-      'RESULTS: Quantitative findings revealed significantly higher breastfeeding self-efficacy scores among mothers with spontaneous pregnancies compared to those who conceived through ART. Qualitative analysis identified key influencing factors such as emotional adjustment to motherhood, perceived social expectations and physical challenges related to breastfeeding. A critical gap in targeted breastfeeding education and postnatal support was noted across both groups.\n' +
-      'CONCLUSIONS: The findings underscore the need for individualized, culturally sensitive breastfeeding interventions, particularly for mothers who have conceived through ART. Tailored support strategies addressing both psychological and physical aspects of the postpartum experience may enhance breastfeeding outcomes in this growing population.',
-    published: '2025-Aug',
-    authors: [ 'Özöztürk Sevcan', 'Tokat Merlinda Aluş', 'Aslan Hande' ],
-    journal: 'International journal of nursing practice',
-    doi: '10.1111/ijn.70036',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751378/'
-  },
-  {
-    id: '40751374',
-    title: 'Photoprotection in Skin of Color: A Scoping Review of Barriers, Behaviors, and Pediatric Considerations.',
-    abstract: 'Individuals with skin of color (SOC) can sunburn and develop skin cancer, often presenting at advanced stages with higher morbidity and melanoma-related mortality. However, patient education on photoprotection for SOC populations remains limited. This scoping review investigated the benefits of photoprotection and the factors influencing sun protective behaviors in SOC populations. EMBASE, MEDLINE, and PubMed were searched from January 1st, 2018 to December 31st, 2022, using the overarching terms of "SOC," "skin cancer," and "photoprotection." Original, English-language studies were included, while non-human and incomplete studies were excluded. The review found that while photoprotection benefits SOC populations, individuals within these groups exhibit lower knowledge of and participation in sun-protective behaviors. This gap is influenced by a complex interplay of factors, including cultural values, family dynamics, gender, education, and societal norms surrounding beauty. Misconceptions about innate sun protection contribute to this gap. To address this, culturally relevant education, community engagement, healthcare integration, and increased representation of SOC in dermatological research are essential to improving sun-safe habits in these communities.',
+    id: '40753361',
+    title: "Dentists' role in oral care for head and neck cancer patients in GCC countries.",
+    abstract: "This study evaluates dentists' knowledge of oral and dental procedures before and after radiotherapy for head and neck cancer patients in Gulf Cooperation Council (GCC) countries. A web-based cross-sectional survey was distributed via social media to dentists in six GCC countries, assessing knowledge of pre- and post-radiotherapy oral care. Data were analysed using descriptive statistics, Chi-square tests, and logistic regression. Among 1,223 participants, the highest representation was from Saudi Arabia (n = 387). Overall, 40.1% had poor knowledge, 51.3% moderate, and 8.7% good. Dentists with less than five years of experience demonstrated better knowledge (p < 0.0033). Saudi dentists and those in government clinics had higher knowledge than private practitioners and dentists in other GCC countries. General practitioners outperformed specialists (p < 0.0033). Knowledge of post-radiotherapy care was better than pre-radiotherapy, with significant gaps in management awareness. The findings highlight substantial knowledge deficiencies, particularly in pre-radiotherapy care. Surprisingly, less experienced dentists performed better, likely due to recent education. Despite relatively higher knowledge among Saudi dentists and government employees, overall knowledge remains suboptimal. These findings underscore the need for targeted education and training programs to enhance dentists' understanding of radiotherapy-related oral care.",
     published: '2025-Aug-02',
     authors: [
-      'King Aliyah',
-      'Sabbah Sami G',
-      'Bose Reetesh',
-      'Heath Candrice R',
-      'Silverberg Nanette B'
+      'Tarakji Bassel',
+      'Alsalhani Anas B',
+      'Alali Faisal Mehsen',
+      'Rastam Samer',
+      'Alqhtani Nasser Raqe',
+      'Alqahtahni Abdullah Saad',
+      'Robaian Ali',
+      'Alhedyan Faisal S',
+      'Nabhan Abdullah Bin',
+      'Alenazi Adel',
+      'Alqahtani Khalid Ayidh',
+      'Alrafedah Ali',
+      'Alleft Abdullah Ahmed Abbas',
+      'Alnufaiy Banna',
+      'Alshenaiber Rafif',
+      'Alghabban Rawda Omar',
+      'Alagla Maram',
+      'Abuelqomsan Mohammed A S',
+      'Alqarni Adel S',
+      'Albaijan Refal',
+      'Almufleh Laila S',
+      'Hashem Qamar',
+      'Noushad Mohammed',
+      'Nassani Mohammad Zakaria'
     ],
-    journal: 'Pediatric dermatology',
-    doi: '10.1111/pde.16041',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751374/'
+    journal: 'Scientific reports',
+    doi: '10.1038/s41598-025-14039-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753361/'
   },
   {
-    id: '40751373',
-    title: "Forward Outlook on Oral Health: The American Association of Public Health Dentistry's 2025 Research Agenda for Dental Public Health.",
-    abstract: 'OBJECTIVES: Dental public health (DPH) research is crucial in improving and promoting community oral health by generating and translating new knowledge into practice. Since the last AAPHD research agenda in 1992, the DPH field has made significant advancements. This research agenda aims to outline key research areas in DPH, including priority topics and evidence gaps in our scientific understanding of factors influencing population oral health and oral health equity.\n' +
-      'METHODS: A workgroup under the AAPHD Council on Scientific Information (CSI) surveyed 503 AAPHD members in September 2021 to gather feedback on seven draft research objectives. The survey used a Likert scale to assess agreement and included open-ended suggestions.\n' +
-      'RESULTS: A total of 115 AAPHD members responded to the survey, resulting in a response rate of about 23%. Six of the seven objectives were agreed or strongly agreed upon by respondents as important areas of focus for DPH research. The final research agenda includes six key areas: oral health policy and legislation, delivery system innovations and care models, oral health workforce, DPH education, social determinants of health, and epidemiology and surveillance systems. The research agenda describes advancements and gaps in these areas, existing evidence, example priority topics, and research questions.\n' +
-      'CONCLUSIONS: The AAPHD encourages DPH partners, including federal agencies, DPH organizations, foundations, and dental associations, to advocate for, support, use, and fund high-quality DPH research. This support is crucial for translating emerging evidence into oral health improvements and equity across the diverse US communities.',
+    id: '40753357',
+    title: 'Digital technologies for climate-related health education, behavior and risk reduction: a systematic scoping review.',
+    abstract: 'Digital technologies improve health outcomes, access to education and health care. However, their application in the context of climate change is limited. This scoping review aimed to identify the use of digital technologies for climate-related health education, behavior change and health risk reduction in a rapidly changing climate. After screening 20,342 titles, 24 studies published between 2012 and 2025, with 18,749 participants (~54% female), were included in the analysis. Digital technology was used to improve health education (n = 11 studies) health outcomes (n = 9 studies) or health behavior (n = 6 studies). Common climate change topics focused on general climate change (n = 6), heatwaves (n = 4), and earthquakes (n = 3). Commonly used technologies were virtual reality (n = 9), smartphone applications (n = 7) and online platforms (n = 4). While this field is still nascent, there is a clear opportunity to utilize digital technology to reduce the negative health impacts of climate change, with an emphasis on interdisciplinary research and co-designed technologies.',
     published: '2025-Aug-02',
     authors: [
-      'Banava Sepideh',
-      'Reynolds Julie C',
-      'Naavaal Shillpa',
-      'Frantsve-Hawley Julie',
-      'Habibian Mina',
-      'Murphey Christina'
+      'Morris Nathan B',
+      'Barnes Megan',
+      'Rybarczyk Autumn',
+      'Chaseling Georgia K'
     ],
-    journal: 'Journal of public health dentistry',
-    doi: '10.1111/jphd.70005',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751373/'
+    journal: 'NPJ digital medicine',
+    doi: '10.1038/s41746-025-01907-5',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753357/'
   },
   {
-    id: '40751359',
-    title: 'Does Metabolic Status Associate With IVF Outcomes in Women Within Similar Body Mass Index Category: Evidence From a Large Cohort Study.',
-    abstract: 'OBJECTIVES: Whether diverse metabolic statuses within a similar body mass index (BMI) category associate with different in vitro fertilization (IVF) outcomes.\n' +
-      'DESIGN: A retrospective cohort study.\n' +
-      'SETTING: Wenzhou, Zhengjiang Province, China.\n' +
-      'POPULATION: This retrospective cohort study prescreened 16 458 women who underwent their first IVF and fresh embryo transfer cycle between January 2010 and December 2021.\n' +
-      'METHODS: Metabolic status was assessed using the National Cholesterol Education Program-Adult Treatment Panel III criteria. Patients were then categorized into six groups: metabolically healthy normal weight, metabolically unhealthy normal weight, metabolically healthy overweight, metabolically unhealthy overweight, metabolically healthy obese, and metabolically unhealthy obese.\n' +
-      'MAIN OUTCOME MEASURES: The primary outcome was live birth rate.\n' +
-      'RESULTS: Regarding live birth, rates in normal weight women were initially lower for metabolically unhealthy normal weight versus metabolically healthy normal weight (44.6% vs. 48.6%), but this was not significant after multivariate adjustment. In obese women, live birth rates were similar between metabolically unhealthy obese and metabolically healthy obese (41.5% vs. 43.9%), with no adjusted difference. For secondary outcomes, metabolically unhealthy normal weight patients had lower biochemical pregnancy rates than metabolically healthy normal weight (OR: 0.86, 95% CI: 0.76-0.98); high blood pressure was a significant risk factor for this outcome in metabolically unhealthy normal weight (OR: 0.84, 95% CI: 0.72-0.98).\n' +
-      'CONCLUSION: Our findings indicated that different cardio-metabolic risk factors but a similar BMI category may have limited adverse effects on live birth rate.',
-    published: '2025-Aug',
+    id: '40753291',
+    title: 'Progress of chronic kidney disease and associated predictors among patients under treatment at Gambi and Felege-Hiwote hospitals.',
+    abstract: 'Chronic kidney disease (CKD) is a leading cause of mortality, particularly in developing countries. The main objective of current research was to assess the progress and associated factors among CKD patients under treatment at Felege-Hiwot Referral Hospital and Gambi Teaching Hospitals. A study was conducted on a randomly selected 343 CKD outpatients whose follow ups were from September 2017 to January 2021. A longitudinal data were analyzed using logistic regression and Markov Chain techniques. Among the predictors in the current study, rural patients (AOR = 0.698; 95% CI: (0.551, 0.883) and p-value = 0.003), patients with high urinary protein (AOR = 0.771: 95% CI: (0.609,0.976) and p-value = 0.03, patients with high blood urea nitrogen (AOR = 0.961:95%CI: (0.942,0.980) and p-value < 0.01), patients with high hematocrit (AOR = 1.073:95%CI: (1.052,1.094) and p-value < 0.001) and Visiting time of CKD patients (AOR = 1.041: 95% CI: (1.021, 1.061), p-value < 0.001 and the dependence of the parameter (AOR = 1.733:95% CI: (1.345, 1.986) and p-value < 0.001) significantly affected the status of CKD in the study area. Among the potential predictor variables, Blood urea nitrogen, Urinary protein and Lasix had negatively affected the status of CKD patients to be categorized in normal range, whereas, Visiting time and hematocrit positively affected the progress of status of CKD patients to be categorized in normal range. According to the current study, CKD outpatients in rural areas are less likely to have a normal status. More attention should be given those patients living in rural area, patients with high level of blood urea nitrogen and high amount of urinary protein. Health related education should be given to CKD patients to attend closely and adhere the prescribed medication while patients visits the hospitals for treatment and check ups. More attention is also recommended for those CKD with comorbidities.',
+    published: '2025-Aug-02',
     authors: [
-      'Ding Lin',
-      'Lin Xiaojing',
-      'Pan Peipei',
-      'Li Yan',
-      'Chen Wei',
-      'He Liying',
-      'Xu Yunsheng',
-      'Chang Hsun-Ming',
-      'Yang Haiyan',
-      'Wang Guiquan',
-      'Mu Liangshan'
+      'Demssie Melese Enyew',
+      'Tegegne Awoke Seyoum',
+      'Workie Demeke Lakew'
     ],
-    journal: 'Journal of diabetes',
-    doi: '10.1111/1753-0407.70132',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751359/'
+    journal: 'Scientific reports',
+    doi: '10.1038/s41598-025-13031-1',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753291/'
   },
   {
-    id: '40751325',
-    title: 'Approaches to Addressing Pediatric Cancer Treatment Refusal Beyond Legal Action.',
-    abstract: 'INTRODUCTION: Parental refusal and abandonment of recommended treatment in pediatric oncology can have significant consequences for patients and cause moral and emotional distress for clinicians. We sought to describe the spectrum of approaches to treatment refusal and abandonment that pediatric oncologists utilize when trying to avoid legal intervention, prior to deciding to seek legal intervention, and/or when legal intervention had been deemed inappropriate.\n' +
-      'METHODS: US-based pediatric oncologists were recruited to participate in qualitative interviews through purposive and referral sampling to maximize diversity. The semi-structured interview guide covered types of conflicts encountered; factors and approaches considered in response; effects of treatment refusal, personally and professionally; role of ethical frameworks and legal requirements; and the resources needed to manage refusal cases. Interviews were recorded, transcribed, and coded using applied thematic analysis within the overall framework of grounded theory.\n' +
-      'RESULTS: Participants reported using multiple tactics comprising three themes: logistics of communication, establishment of trust, and negotiation and compromise. They also described resources utilized, discussed how their experiences changed their practice, and what they would advise colleagues in the future, and identified barriers to successful resolution. Most participants did not have institutional policies or processes beyond the use of ethics consultation and desired more in-depth preparation and guidance.\n' +
-      'CONCLUSIONS: Our work has created a foundation for the development of additional resources, including education and training, consensus guidelines that include the best available evidence for treatment modifications and the inclusion of alternative therapies, and better access to mental healthcare for those patients and families who need it.',
-    published: '2025-Aug-01',
-    authors: [ 'Caruso Brown Amy E', 'Beskow Laura M', 'Benedetti Daniel J' ],
-    journal: 'Pediatric blood & cancer',
-    doi: '10.1002/pbc.31949',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751325/'
-  },
-  {
-    id: '40751324',
-    title: 'Statewide Academic Performance of High School Students With Sickle Cell Disease.',
-    abstract: 'PURPOSE: Among patients with sickle cell disease (SCD), poor academic attainment in adolescence is associated with a greater frequency of acute care visits and a poorer health-related quality of life in adulthood. We compared the academic performance of high school students with SCD to students without SCD after controlling for race and sex.\n' +
-      'METHODS: This retrospective cohort study was constructed based on the Tennessee Medicaid program claims data and Tennessee Department of Education Race to the Top educational data from October 1, 2007 to September 30, 2019. For every ninth grade student with SCD identified, eight students without SCD were identified. Academic achievement was measured using rates of proficiency on end-of-course assessments. The number of days absent per school year, grade retention, and school withdrawal were used as measures of academic attainment.\n' +
-      'RESULTS: The analysis included 498 students with SCD and 3188 students without SCD. After race and sex were adjusted for, students with SCD had English proficiency odds of 0.8 times (95% confidence interval [CI]: 0.7-0.9; p < 0.001) those of students without SCD. Students with SCD were 1.2 times (95% CI: 1.0-1.5; p = 0.045) more likely to be retained in the ninth grade. The effect of SCD on grade retention was mediated by days absent from school (odds ratio for indirect effect, 1.18 (95% CI: 1.1-1.26; p < 0.0001).\n' +
-      'DISCUSSION: SCD negatively affects academic performance partly through frequent school absence.',
-    published: '2025-Aug-01',
+    id: '40753281',
+    title: 'Predicting academic performance with fuzzy logic in prospective physical education and sports teachers.',
+    abstract: "Numerous factors contribute to student success in educational settings, with academic support and learning strategies identified as key influences. Existing research highlights that various academic assistance and individual learning approaches shape student success. Although different methods are available for predicting academic achievement, the application of fuzzy logic in this context remains relatively underexplored. This study seeks to address this gap by employing a fuzzy logic model to forecast the exam performance of prospective physical education and sports teachers. Specifically, the study examines how the learning approaches and perceived levels of academic support among these candidates influence their exam outcomes. The results indicate that fuzzy logic provides a viable tool for predicting student success, demonstrating its potential as an alternative to traditional predictive methods. Furthermore, the findings suggest that students' learning approaches and perceptions of academic support play a significant role in shaping their academic achievements. By integrating fuzzy logic into educational research, this study contributes to a broader understanding of how non-linear and complex interactions between academic support and learning strategies impact student performance. These results highlight the practical potential of fuzzy logic models in identifying at-risk students and designing targeted interventions to improve academic outcomes. Educators and institutions can create more effective and personalised learning environments by fostering deep learning approaches and enhancing academic support systems.",
+    published: '2025-Aug-02',
     authors: [
-      'Heitzer Andrew M',
-      'Ray Meredith',
-      'Wiese Andrew',
-      'Dudley Judy',
-      'Harris Kelly M',
-      'King Allison A',
-      'Hankins Jane S',
-      'Cooper William O',
-      'Smeltzer Matthew P',
-      'Davis Robert'
+      'Anapalı Şenel Ayşe',
+      'Göksu Berika',
+      'Şenel Ender',
+      'Solmaz Fatma İrem'
     ],
-    journal: 'Pediatric blood & cancer',
-    doi: '10.1002/pbc.31947',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40751324/'
+    journal: 'Scientific reports',
+    doi: '10.1038/s41598-025-99124-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753281/'
+  },
+  {
+    id: '40753270',
+    title: 'Relationship between height of cheer basket toss and specific physical ability of bases from a kinematic perspective.',
+    abstract: 'In competitive cheerleading, the basket toss is one of the most important and typical skills of cheer. This study aims to address the lack of theoretical research on improving the height of the basket toss. Structural observations and a video recording were made of the straight ride. Factor analysis, Spearman correlation analysis and the grey correlation analysis method were used to determine the relationship between the height of the basket toss and the specific physical ability of the bases. According to the law of kinematics, to increase the height of the basket toss, the bases and flyer should follow the basic principles of maximizing the dynamics and training to master the stability skills for the basket toss. When using the same flyer and athletes of similar skill levels, coaches can choose bases with a large hand-foot distance and arrange base training in the following order: core strength & stability > explosive upper/lower limb power development.',
+    published: '2025-Aug-02',
+    authors: [ 'Qin Xiaojun', 'Li Haike' ],
+    journal: 'Scientific reports',
+    doi: '10.1038/s41598-025-14328-x',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753270/'
+  },
+  {
+    id: '40753247',
+    title: 'Evaluating knowledge, awareness, attitudes, and practices regarding vitamin D in pregnant and postnatal Ghanaian women: a cross-sectional study.',
+    abstract: 'BACKGROUND: Vitamin D plays a crucial role in maternal and foetal health during pregnancy and lactation. However, its deficiency remains prevalent among pregnant and post-natal women globally, potentially leading to adverse health outcomes. We assessed and compared the knowledge, awareness, attitudes, and practices regarding vitamin D among pregnant and postnatal women in the Greater Accra Region of Ghana.\n' +
+      'METHODS: This cross-sectional study recruited 310 pregnant women and postnatal women from a Municipal Hospital between January to August 2024. A well-structured questionnaire was used to obtain data on demographic, clinical and lifestyle characteristics of participants. Information on awareness, knowledge, attitude and practices regarding vitamin D were also obtained. The binary logistic regression analysis model was used to determine the independent predictors of awareness and knowledge. P < 0.05 was considered statistically significant.\n' +
+      'RESULTS: Most pregnant women (82%) were aware of vitamin D, compared to postnatal women (71.1%). Pregnant women also showed higher knowledge levels (62% vs. 50.3%). Nearly all postnatal women (100%) and pregnant women (98.1%) had positive attitudes toward vitamin D, with comparable good practices (88.8% for pregnant, 89.9% for postnatal). Having non-formal education [(aOR = 17.639, 95% CI (3.218-96.686), p = 0.001)] or basic education [(aOR = 24.956, 95% CI (6.084-102.366), p < 0.001)] was significantly associated with increased odds of non-awareness. Moreover, having basic education [(aOR = 20.946, 95% CI (6.264-70.042), p < 0.001)] or SHS education [(aOR = 2.725, 95% CI (1.160-6.402), p = 0.021)] were the independent predictors of poor knowledge regarding vitamin D.\n' +
+      'CONCLUSION: Awareness and knowledge of vitamin D were higher among pregnant women compared to postnatal women, with educational level being a significant predictor. Future interventions should prioritize education on the importance of vitamin D, appropriate sun exposure, and dietary sources to mitigate deficiency risks, associated complications, and improve maternal health outcomes during and after pregnancy.',
+    published: '2025-Aug-02',
+    authors: [
+      'Appiah Benedicta',
+      'Effah Alfred',
+      'Danso Samuel Ankomah',
+      'Kwabena Abraham Ameyaw',
+      'Agomuo Samuel Kwame Sopuruchi',
+      'Kwarteng Samuel',
+      'Mensah Bismark Opoku',
+      'Senu Ebenezer',
+      'Awuah Enoch Ofori',
+      'Fondjo Linda Ahenkorah'
+    ],
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-23986-5',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40753247/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1699,25 +1696,25 @@ Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Learning Variability Network Exchange (LEVANTE): A...
+Translating paper: Wearable sensor data visualization for patient mon...
 Translating paper 32/50
-Translating paper: Podiatrists' Reflections on Content and Delivery o...
+Translating paper: The medical student stressor questionnaire (MSSQ):...
 Translating paper 33/50
-Translating paper: Multi-cohort evaluation of "Don't know" responders...
+Translating paper: Integration of early clinical exposure into curric...
 Translating paper 34/50
-Translating paper: Factors influencing tooth loss over 9-11 years in ...
+Translating paper: Tendency to consume alcohol among Poles in the lig...
 Translating paper 35/50
-Translating paper: Breastfeeding Self-Efficacy Among First-Time Mothe...
+Translating paper: Dentists' role in oral care for head and neck canc...
 Translating paper 36/50
-Translating paper: Photoprotection in Skin of Color: A Scoping Review...
+Translating paper: Digital technologies for climate-related health ed...
 Translating paper 37/50
-Translating paper: Forward Outlook on Oral Health: The American Assoc...
+Translating paper: Progress of chronic kidney disease and associated ...
 Translating paper 38/50
-Translating paper: Does Metabolic Status Associate With IVF Outcomes ...
+Translating paper: Predicting academic performance with fuzzy logic i...
 Translating paper 39/50
-Translating paper: Approaches to Addressing Pediatric Cancer Treatmen...
+Translating paper: Relationship between height of cheer basket toss a...
 Translating paper 40/50
-Translating paper: Statewide Academic Performance of High School Stud...
+Translating paper: Evaluating knowledge, awareness, attitudes, and pr...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1739,25 +1736,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 803 -> 763
-Total papers after merging: 763 (753 existing + 50 new)
-Saved 763 papers to papers.json
+Removed duplicates: 813 -> 773
+Total papers after merging: 773 (763 existing + 50 new)
+Saved 773 papers to papers.json
 Generating HTML files...
-Generating index.html with 763 papers...
+Generating index.html with 773 papers...
 Successfully generated index.html
-Generating archive.html with 763 papers...
+Generating archive.html with 773 papers...
 Successfully generated archive.html
-Generating journal.html with 763 papers...
+Generating journal.html with 773 papers...
 Successfully generated journal.html
-Generating acquisition.html with 763 papers...
+Generating acquisition.html with 773 papers...
 Successfully generated acquisition.html
-Generating publication.html with 763 papers...
+Generating publication.html with 773 papers...
 Successfully generated publication.html
-Generating registration.html with 763 papers...
+Generating registration.html with 773 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 763
+Total papers in database: 773
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-02T15:39:57.381Z
+Timestamp: 2025-08-03T15:39:43.630Z
