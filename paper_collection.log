@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-03T15:10:53.691Z
+Timestamp: 2025-08-04T15:13:09.913Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 763 existing papers from papers.json
+Loaded 773 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -589,213 +589,182 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40753447',
-    title: 'Wearable sensor data visualization for patient monitoring and management: a Cancer Wellness application in Vietnam.',
-    abstract: ' This study incorporates Fitbit wearable sensor technology into a mobile application named Cancer Wellness Program (CWP) for patient monitoring. The objective of this study is to explore the experiences of healthcare providers in using the CWP application for managing symptoms of people with cancer and in delivering health education programs. : A qualitative study design with a purposive sampling approach was employed, using a structured, in-depth interview method to involve 15 healthcare workers.  Key features of the CWP application include a patient education platform, a dashboard to monitor patient health data and learning progress, and interactive communication between the two parties. Multiple advantages of this application were identified by healthcare providers, namely user-friendliness, data aggregation and personalization.  Despite minor technical drawbacks, the CWP application proves to be a powerful assistant for healthcare providers to optimize patient care.',
-    published: '2025-Dec',
+    id: '40755520',
+    title: 'Implementation of Piperacillin-Tazobactam Continuous Infusions for Critically Ill Patients: A Single-Centre Retrospective Chart Review.',
+    abstract: 'BACKGROUND: In critically ill patients, pharmacokinetic variability can lead to inadequate antimicrobial concentrations. Antimicrobial resistance to β-lactam antibiotics is increasing among the nonfermenting gram-negative bacilli (NFGNB). Current guidelines recommend optimizing β-lactam pharmacokinetics/pharmacodynamics with prolonged infusion of these antibiotics. In 2019, a protocol for continuous infusion of piperacillin-tazobactam (P/T) was implemented in 2 intensive care units (ICUs) as a quality improvement initiative.\n' +
+      'OBJECTIVES: The primary objective was to describe and evaluate implementation of the practice change to continuous infusion of P/T. The secondary objectives were to describe ICU mortality and length of stay (LOS), identify safety incidents related to the protocol, and determine the prevalence of NFGNB and associated minimum inhibitory concentrations of P/T.\n' +
+      "METHODS: This single-centre retrospective study involved a convenience sample of 200 patients who received 2 or more doses of P/T during an ICU admission between October 2020 and October 2022. Data on drug administration, characteristics of the hospital stay, and patient outcomes were collected from patients' digital records and the Critical Care Database of the study institution. Eight criteria for successful implementation of the protocol were established, with implementation deemed successful if at least 6 of these criteria were met.\n" +
+      'RESULTS: Implementation of the continuous-infusion protocol was successful for 156 (78.0%) of the 200 ICU patients, 41 (20.5%) of the patients died during the ICU admission, and the median LOS in the ICU was 4.9 (interquartile range 2.4-10.7) days. No safety incidents were identified. The prevalence of NFGNB was 3.1% for all ICU patients over the 2-year study period.\n' +
+      'CONCLUSIONS: Implementation of the continuous-infusion protocol was successful in most patients. Areas for improvement include editing the order set, providing interprofessional education, and enhancing interprofessional collaboration.',
+    published: '2025',
     authors: [
-      'Nguyen Huyen Thi Hoa',
-      'Tran Tran Ngoc',
-      'Nguyen Giang Huong',
-      'Nguyen Tung Truong',
-      'Nguyen Ngan Thi Thuy',
-      'Pham Hieu Huy',
-      'Bui Linh Khanh',
-      'Nguyen Anh Chau',
-      'Anderson Debra J'
+      'Landry Kylie',
+      'MacKenzie Meghan',
+      'Burgess Sarah',
+      'Bonnar Paul',
+      'Shabi Yahya',
+      'Patriquin Glenn',
+      'Holland Karolynn',
+      'Eichhorn Volker'
     ],
-    journal: 'Future science OA',
-    doi: '10.1080/20565623.2025.2541522',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753447/'
+    journal: 'The Canadian journal of hospital pharmacy',
+    doi: '10.4212/cjhp.3710',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755520/'
   },
   {
-    id: '40753444',
-    title: 'The medical student stressor questionnaire (MSSQ): validation and reliability in Turkish students.',
-    abstract: 'BACKGROUND: Medical training is a highly stressful environment for students. In previous studies, many instruments have been used to measure stress levels among medical students. However, these stress measurements are not specific tools for medical settings. This study aims to adapt the Medical Student Stressor Questionnaire (MSSQ) to Turkish, conduct validity and reliability studies, and provide a practical tool to evaluate medical school-related stressors of medical students in Turkey.\n' +
-      `METHODS: All students studying at the (Manisa Celal Bayar University) School of Medicine were invited to the study. The data was collected between January-March 2024. The research was completed with 412 students. The MSSQ consists of 40 items and 6 subscales. The psychometric properties of the MSSQ were evaluated through tests for validity and reliability. Using RStudio version 1.3.1093 (R Studio, PBC) with the lavaan package, confirmatory factor analysis (CFA) with the "diagonally weighted least squares (DWLS)" estimator was conducted. Internal consistency was tested by Cronbach's alpha coefficient and test-retest reliability was examined by intraclass correlation coefficient (ICC).\n` +
-      'RESULTS: A total of 412 students participated in this study. The median (minimum-maximum) age of the students was found to be 20.00 (18.00-26.00) years. CFA was performed and the appropriate modification indices suggested by the model were added to the model. All 40 items loaded 0.38 or higher. The fit indices calculated as a result of the CFA were determined to be Root Mean Square Error of Approximation (RMSEA) = 0.060 (95% CI: 0.057-0.064)(p < 0.001), Comparative Fit Index (CFI) = 0.899 and Tucker-Lewis Index (TLI) = 0.888. The fit indices were at acceptable level. In the analyses conducted for the subscales, the Cronbach Alpha Coefficients were adequate.\n' +
-      'CONCLUSION: In conclusion, this study has provided preliminary evidence for the validity and reliability of a Turkish version of the MSSQ. The six-factor structure was confirmed by CFA. We propose using the Turkish version of MSSQ to evaluate the stress level of medical students. Therefore, further research is needed to investigate the relationship between MSSQ and the other scales which used to measure stress.',
-    published: '2025-Aug-02',
+    id: '40755510',
+    title: 'Gender disparities in the adoption of improved management practices for soybean cultivation in North East Nigeria.',
+    abstract: "This study examined gender disparities in the adoption and intensity of improved soybean management practices among 800 farming households in Borno State, Nigeria, with equal representation of male-led and female-led households. The findings reveal that while both male and female farmers adopt improved soybean varieties, fertilizer, and herbicides, the intensity of adoption varies due to differences in socioeconomic constraints. Male farmers demonstrated slightly higher adoption rates across all practices, particularly for herbicide use. However, financial and market-related barriers, such as high input costs and distance to seed markets, disproportionately hindered female farmers' ability to fully integrate improved practices into their farming activities. The analysis indicates that the adoption of improved soybean varieties by male farmers was mainly influenced by income and pest/disease constraints, whereas female farmers were more affected by age, extension visits, and community tenure. Herbicide use among male farmers was driven by farm size and input costs, while for female farmers, it was influenced by education, input costs, and proximity to seed markets. Fertilizer adoption among male farmers was linked to income and farming experience, whereas female farmers' fertilizer use was shaped by farm size and financial constraints. Ordered probit regression results suggest that age negatively affects adoption intensity for both genders, but income and community tenure play a stronger role for men, while market access and cost barriers are more significant for women. Improving access to extension services can significantly enhance adoption rates, especially for female farmers who face higher input costs and limited access to seed markets. Targeted subsidies and credit programs tailored to smallholder farmers will help alleviate financial barriers, enabling both men and women to invest in essential inputs and expand production. Strengthening rural infrastructure, including better road networks and input market accessibility, will further reduce logistical challenges and support increased soybean cultivation.",
+    published: '2025-Aug',
     authors: [
-      'Özalp Ateş Funda Seher',
-      'Akçay Elif',
-      'Gökmen Derya',
-      'Rahman Süheyla'
+      'Kamara Amadu Yaya',
+      'Kamsang Lucy Sahbong',
+      'Mustapha Amina',
+      'Kamara Alpha Yaya',
+      'Kolapo Adetomiwa',
+      'Kamai Nkeki'
     ],
-    journal: 'BMC medical education',
-    doi: '10.1186/s12909-025-07689-4',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753444/'
+    journal: 'Journal of agriculture and food research',
+    doi: '10.1016/j.jafr.2025.102032',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755510/'
   },
   {
-    id: '40753436',
-    title: 'Integration of early clinical exposure into curriculum enhances self-assessment of professional competencies in medical practice.',
-    abstract: 'BACKGROUND: Medical education has predominantly adhered to a process-based education model. Recently, outcome-based education (OBE) has emerged as a dominant pedagogical framework, facilitating simultaneous acquisition of theoretical knowledge, practical skills, and clinical experience. In 2020, our medical school implemented a new curriculum designed to integrate clinical skills training and experiential learning with foundational knowledge from the first year. Herein, we evaluated whether the clinical competencies of New Curriculum Students (NCS) are superior to the clinical competencies of Traditional Curriculum Students (TCS). Specifically, we clarified how self-assessment scores related to competencies in "Professional practice skills" evolved over time, and analyzed the longitudinal trends in self-assessment scores.\n' +
-      `METHODS: We included TCS enrolled between 2016 and 2019, and NCS enrolled between 2020 and 2023. Self-assessment of students' competencies in "Professional practice skills," a core component of our institution's competency framework, was conducted by online survey. Competency levels were categorized into Levels A, B, and C.\n` +
-      'RESULTS: The self-assessment scores of NCS were significantly higher than those of TCS across most competency domains of "Professional practice skills." The "Medical interview and physical examination" competency revealed that first-year NCS achieved scores equivalent to those of fourth-year TCS. These scores were either maintained or improved as students progressed in years. In the "Clinical skills" competency, NCS outperformed TCS at all levels from the first to the third year, and at Level A in the fourth year. In the "Medical record charting" competency, NCS achieved significantly higher scores than TCS across all levels during the first and second years.\n' +
-      'DISCUSSION: The early acquisition of clinical skills and exposure to clinical practice enabled students to consistently maintain high self-assessment scores. A curriculum design aligned with OBE appears to foster a heightened sense of self-efficacy among students. This approach is anticipated to facilitate a seamless transition into clinical responsibilities as future physicians.',
-    published: '2025-Aug-02',
-    authors: [
-      'Oshiro Tsuyoshi',
-      'Suzuki Shintaro',
-      'Kagawa Naoki',
-      'Ono Himawari',
-      'Goto Rieko',
-      'Furuta Atsuko',
-      'Arima Makiko',
-      'Tsuchiya Shizuma',
-      'Ogata Hiroaki',
-      'Barroga Edward',
-      'Izumi Miki'
-    ],
-    journal: 'BMC medical education',
-    doi: '10.1186/s12909-025-07678-7',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753436/'
+    id: '40755486',
+    title: 'The challenges of expanding medical student numbers in the UK: A scoping review.',
+    abstract: 'BACKGROUND: With one of the lowest numbers of doctors per capita in Europe, coupled with an ageing UK population, the NHS faces an unprecedented workforce crisis. The NHS Long Term Workforce Plan (LTWP) outlined how this will be addressed, headlining a proposed doubling of UK medical school places.\n' +
+      "METHODS: A scoping review utilising the Arksey and O'Malley model searched articles related to increasing UK medical student numbers. A total of 6,217 articles were identified, and 23 were selected for further analysis.\n" +
+      'RESULTS: Funding was the most frequently raised concern, followed by educator shortage, limited stakeholder engagement, placement capacity shortage, and failure to support Widening Access agendas. Notably, seven articles were opinion pieces, with only two formal research papers.\n' +
+      'CONCLUSION: Key issues to implementing the current LTWP were identified, and further research to address these challenges and identify potential solutions is urgently required to support evidence-based decision making to influence future workforce plans.',
+    published: '2025-Sep',
+    authors: [ 'Sassoon Eli C', 'Craig Rhiannon C', "O'Brien David G" ],
+    journal: 'Future healthcare journal',
+    doi: '10.1016/j.fhj.2025.100278',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755486/'
   },
   {
-    id: '40753429',
-    title: 'Tendency to consume alcohol among Poles in the light of coping with stress and selected socio-demographic factors during the COVID-19 pandemic.',
-    abstract: 'INTRODUCTION: The research aimed to assess the linkages between alcohol propensity and stress and coping styles among Poles during the COVID-19 pandemic. The project also focused on investigating the significance of differences in alcohol propensity, taking into account selected sociodemographic characteristics.\n' +
-      'MATERIALS AND METHODS: A total of 1246 people (23.93 ± 2.88 y.o.) participated in the research, including 928 women (23.84 ± 2.89 y.o.) and 318 men (24.21 ± 2.85 y.o.). A self-administered questionnaire, CISS, PSS-10 and AUDIT were used for the study. The statistical procedures used the Pearson correlation coefficient, as well as the Mann-Whitney U test and the Kruskal-Wallis test.\n' +
-      'RESULTS: Positive correlations were found between the intensity of stress symptoms and emotional style in female and male groups. Among adults, factors contributed to high-intensity of alcohol propensity included: male gender, childlessness, living in cities of more than 100.000 inhabitants, people with secondary education, lack of a close personal relationship or being in a partnership, as well as a professional situation related to occasional or casual employment.\n' +
-      'CONCLUSIONS: Alcohol consumption is associated with an emotion- and avoidant-oriented stress-coping styles. 39% women and 43% men of the surveyed were among those at risk of developing alcohol addiction. It implies that the age group remains one of the social groups most exposed to the development of alcohol use disorders. Such situation requires development of prevention programmes that take into account the needs of young people.',
-    published: '2025-Aug-02',
+    id: '40755444',
+    title: "Association between Chinese youth's sources of sexual knowledge and sexual and reproductive health: a mediation analysis of sexual knowledge level.",
+    abstract: "Changing sexual behaviours among Chinese youth have emerged along with China's rapid socioeconomic transition. In the context of enduring Confucian traditions and limited formal sexuality education, there is an increasing demand from Chinese youth for accessible and inclusive sexuality education. This research explores how young people in China seek out and engage with sexual knowledge within this shifting cultural landscape. While previous studies indicate that a lack of knowledge in sexual and reproductive health (SRH) is associated with risky sexual behaviours, investigations on how Chinese youth access SRH knowledge and its impact on their behaviours remain unclear. Based on the survey data collected in 2019, this cross-sectional study of 52,256 Chinese youth highlighted how young people access and apply sexual knowledge. Boys were more likely to learn from media (primarily pornography), while girls tended to rely on school-based education and parental communication. Mediation analyses were performed to explore the association between sources of sexual knowledge and sexual and reproductive health with a mediator of sexual knowledge scores. The results show that youth who acquired SRH knowledge from the media were more likely to engage in sexual intercourse and experience early sexual debut, while youth gaining SRH knowledge from school were less likely to have sexual intercourse and early debut. Sexual knowledge acquisition occurs not only in one setting but across various settings in young people's lives. This study provides insights for future sexuality education improvement through different learning sources and emphasises how young people's learning experiences impact their sexual behaviour.",
+    published: '2025-Aug-04',
     authors: [
-      'Dębski Paweł',
-      'Garczarczyk Monika',
-      'Lisowska Lidia',
-      'Turska-Czyż Dorota'
+      'Zou Xinye',
+      'Xue Kefan',
+      'Zou Siyu',
+      'Xiao Angela Y',
+      'Cao Wenzhen',
+      'Tang Kun'
     ],
-    journal: 'BMC public health',
-    doi: '10.1186/s12889-025-24016-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753429/'
+    journal: 'Sexual and reproductive health matters',
+    doi: '10.1080/26410397.2025.2517430',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755444/'
   },
   {
-    id: '40753361',
-    title: "Dentists' role in oral care for head and neck cancer patients in GCC countries.",
-    abstract: "This study evaluates dentists' knowledge of oral and dental procedures before and after radiotherapy for head and neck cancer patients in Gulf Cooperation Council (GCC) countries. A web-based cross-sectional survey was distributed via social media to dentists in six GCC countries, assessing knowledge of pre- and post-radiotherapy oral care. Data were analysed using descriptive statistics, Chi-square tests, and logistic regression. Among 1,223 participants, the highest representation was from Saudi Arabia (n = 387). Overall, 40.1% had poor knowledge, 51.3% moderate, and 8.7% good. Dentists with less than five years of experience demonstrated better knowledge (p < 0.0033). Saudi dentists and those in government clinics had higher knowledge than private practitioners and dentists in other GCC countries. General practitioners outperformed specialists (p < 0.0033). Knowledge of post-radiotherapy care was better than pre-radiotherapy, with significant gaps in management awareness. The findings highlight substantial knowledge deficiencies, particularly in pre-radiotherapy care. Surprisingly, less experienced dentists performed better, likely due to recent education. Despite relatively higher knowledge among Saudi dentists and government employees, overall knowledge remains suboptimal. These findings underscore the need for targeted education and training programs to enhance dentists' understanding of radiotherapy-related oral care.",
-    published: '2025-Aug-02',
-    authors: [
-      'Tarakji Bassel',
-      'Alsalhani Anas B',
-      'Alali Faisal Mehsen',
-      'Rastam Samer',
-      'Alqhtani Nasser Raqe',
-      'Alqahtahni Abdullah Saad',
-      'Robaian Ali',
-      'Alhedyan Faisal S',
-      'Nabhan Abdullah Bin',
-      'Alenazi Adel',
-      'Alqahtani Khalid Ayidh',
-      'Alrafedah Ali',
-      'Alleft Abdullah Ahmed Abbas',
-      'Alnufaiy Banna',
-      'Alshenaiber Rafif',
-      'Alghabban Rawda Omar',
-      'Alagla Maram',
-      'Abuelqomsan Mohammed A S',
-      'Alqarni Adel S',
-      'Albaijan Refal',
-      'Almufleh Laila S',
-      'Hashem Qamar',
-      'Noushad Mohammed',
-      'Nassani Mohammad Zakaria'
-    ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-14039-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753361/'
+    id: '40755431',
+    title: 'Can Hobbies Shape Fine Motor Skills Development in First-Year Dental and Oral Health Students?',
+    abstract: 'INTRODUCTION: Dental students develop fine motor skills that include a complex interplay of finger dexterity, posture and progressive visual-tactile improvement through spatial awareness and cognition facilitated through university simulation training. Identifying students with a natural aptitude for these skills is vital to make the most of available resources. This study examines the relationship between pre-existing hobbies and fine motor skills before and after a five-week training module.\n' +
+      "MATERIALS AND METHODS: Seventy-two first-year students at an Australian University completed a questionnaire that measured their personal interests. Students' performance on a foundational cavity preparation task was assessed before and after five weeks of simulation clinic training on plastic typodont teeth. In-class assessment tasks aimed to evaluate innate and acquired skills. The relationships between personal interests and cavity preparation skills, before and after the simulation training, were explored.\n" +
+      'RESULTS: The three hobbies with the highest mean cavity preparation percentage at baseline were playing music (51.7%; 95% CI: 41.5, 61.9), cooking (50.3%; 95% CI: 45.1, 55.5) and participating in sports (48.4%; 95% CI: 42.9, 53.8). Estimated mean improvement in cavity preparation was highest for participants that had cooking as the only hobby (19.2%; 95% CI: 14.4, 24.1). Participants with four hobbies had the lowest mean improvement in cavity preparation, with 11.3 (95% CI: 5.1, 17.5) percentage units. Participants with zero hobbies improved by 11.7 (95% CI: 7.7, 15.7) percentage units.\n' +
+      'CONCLUSION: Cooking at least once a week has a better impact on the mean improvement in scores after formal university simulation training than other hobbies. Students without any identified hobbies might benefit from task-specific training for fine motor skills improvement.',
+    published: '2025-Aug-04',
+    authors: [ 'Shetty Sowmya', 'Tran Carol', 'Sexton Christopher' ],
+    journal: 'European journal of dental education : official journal of the Association for Dental Education in Europe',
+    doi: '10.1111/eje.70021',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755431/'
   },
   {
-    id: '40753357',
-    title: 'Digital technologies for climate-related health education, behavior and risk reduction: a systematic scoping review.',
-    abstract: 'Digital technologies improve health outcomes, access to education and health care. However, their application in the context of climate change is limited. This scoping review aimed to identify the use of digital technologies for climate-related health education, behavior change and health risk reduction in a rapidly changing climate. After screening 20,342 titles, 24 studies published between 2012 and 2025, with 18,749 participants (~54% female), were included in the analysis. Digital technology was used to improve health education (n = 11 studies) health outcomes (n = 9 studies) or health behavior (n = 6 studies). Common climate change topics focused on general climate change (n = 6), heatwaves (n = 4), and earthquakes (n = 3). Commonly used technologies were virtual reality (n = 9), smartphone applications (n = 7) and online platforms (n = 4). While this field is still nascent, there is a clear opportunity to utilize digital technology to reduce the negative health impacts of climate change, with an emphasis on interdisciplinary research and co-designed technologies.',
-    published: '2025-Aug-02',
-    authors: [
-      'Morris Nathan B',
-      'Barnes Megan',
-      'Rybarczyk Autumn',
-      'Chaseling Georgia K'
-    ],
-    journal: 'NPJ digital medicine',
-    doi: '10.1038/s41746-025-01907-5',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753357/'
+    id: '40755374',
+    title: 'A Profession Divided: Critical Reflection on the Evolution of Registered Psychiatric Nursing in Western Canada.',
+    abstract: 'INTRODUCTION: In Canada, two distinct nursing professions-Registered Nurses (RNs) and Registered Psychiatric Nurses (RPNs)-serve complementary roles, with RPNs primarily practising in Western provinces.\n' +
+      'BACKGROUND: The development of RPNs as a unique professional group is rooted in the establishment of key institution. In British Columbia (BC) this was notably Riverview Hospital and the BC School of Psychiatric Nursing. These and similar institutions across Western Canada contributed significantly to shaping the standards and education pathways for RPNs.\n' +
+      'AIM: This paper examines the evolution of RPNs as a unique designation in Western Canada, focusing on their historical development, including the foundational role of Riverview Hospital and the BC School of Psychiatric Nursing until its closure in 2012. In contrast to RNs, whose education incorporates mental health as one of several focuses, RPNs receive specialized training centred on psychiatric and mental health care, shaping distinct professional identities and scopes of practice.\n' +
+      "METHOD: A historical lens is used to identify the organizational and educational reforms that shaped the identity and integration of RPNs within the broader nursing landscape. An exploration of the historical and contemporary dynamics that shaped RPN role and identity is offered, comparing it with RNs' roles in mental health services and examining the impact of educational and organisational changes. The historical and current role of RPNs remains crucial in mental health care.\n" +
+      'DISCUSSION: Key issues include the shift from psychiatric to mental health nursing terminology and the integration of RPNs within the broader nursing landscape.\n' +
+      'ANALYSIS: The analysis highlights the challenges and opportunities in redefining psychiatric nursing role and identity amidst evolving healthcare practices and educational trends.',
+    published: '2025-Aug-04',
+    authors: [ 'Danda Michelle C' ],
+    journal: 'Journal of psychiatric and mental health nursing',
+    doi: '10.1111/jpm.70013',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755374/'
   },
   {
-    id: '40753291',
-    title: 'Progress of chronic kidney disease and associated predictors among patients under treatment at Gambi and Felege-Hiwote hospitals.',
-    abstract: 'Chronic kidney disease (CKD) is a leading cause of mortality, particularly in developing countries. The main objective of current research was to assess the progress and associated factors among CKD patients under treatment at Felege-Hiwot Referral Hospital and Gambi Teaching Hospitals. A study was conducted on a randomly selected 343 CKD outpatients whose follow ups were from September 2017 to January 2021. A longitudinal data were analyzed using logistic regression and Markov Chain techniques. Among the predictors in the current study, rural patients (AOR = 0.698; 95% CI: (0.551, 0.883) and p-value = 0.003), patients with high urinary protein (AOR = 0.771: 95% CI: (0.609,0.976) and p-value = 0.03, patients with high blood urea nitrogen (AOR = 0.961:95%CI: (0.942,0.980) and p-value < 0.01), patients with high hematocrit (AOR = 1.073:95%CI: (1.052,1.094) and p-value < 0.001) and Visiting time of CKD patients (AOR = 1.041: 95% CI: (1.021, 1.061), p-value < 0.001 and the dependence of the parameter (AOR = 1.733:95% CI: (1.345, 1.986) and p-value < 0.001) significantly affected the status of CKD in the study area. Among the potential predictor variables, Blood urea nitrogen, Urinary protein and Lasix had negatively affected the status of CKD patients to be categorized in normal range, whereas, Visiting time and hematocrit positively affected the progress of status of CKD patients to be categorized in normal range. According to the current study, CKD outpatients in rural areas are less likely to have a normal status. More attention should be given those patients living in rural area, patients with high level of blood urea nitrogen and high amount of urinary protein. Health related education should be given to CKD patients to attend closely and adhere the prescribed medication while patients visits the hospitals for treatment and check ups. More attention is also recommended for those CKD with comorbidities.',
-    published: '2025-Aug-02',
-    authors: [
-      'Demssie Melese Enyew',
-      'Tegegne Awoke Seyoum',
-      'Workie Demeke Lakew'
-    ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-13031-1',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753291/'
+    id: '40755314',
+    title: '"A Real WEA Tutor": G. D. H. Cole, Socialist Democracy, and the Politics of Persona.',
+    abstract: "G. D. H. Cole is best known as a disillusioned theorist of guild socialism, but this article argues his work here must be read in tandem with his ideas of workers' education. It focuses on his construction of the WEA tutor who, as a pedagogical and political persona, embodied and transmitted the qualities needed to sustain a socialist democracy. In this way, Cole reconciled commitments to pluralism and individuality with a practical political program. Although dismissed as naive in the 1930s, this persona proved influential for early New Left thinkers seeking alternatives to the pessimism of the Cold War liberal critique.",
+    published: '2025',
+    authors: [ 'Scott-Brown Sophie' ],
+    journal: 'Journal of the history of ideas',
+    doi: '10.1353/jhi.2025.a966907',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755314/'
   },
   {
-    id: '40753281',
-    title: 'Predicting academic performance with fuzzy logic in prospective physical education and sports teachers.',
-    abstract: "Numerous factors contribute to student success in educational settings, with academic support and learning strategies identified as key influences. Existing research highlights that various academic assistance and individual learning approaches shape student success. Although different methods are available for predicting academic achievement, the application of fuzzy logic in this context remains relatively underexplored. This study seeks to address this gap by employing a fuzzy logic model to forecast the exam performance of prospective physical education and sports teachers. Specifically, the study examines how the learning approaches and perceived levels of academic support among these candidates influence their exam outcomes. The results indicate that fuzzy logic provides a viable tool for predicting student success, demonstrating its potential as an alternative to traditional predictive methods. Furthermore, the findings suggest that students' learning approaches and perceptions of academic support play a significant role in shaping their academic achievements. By integrating fuzzy logic into educational research, this study contributes to a broader understanding of how non-linear and complex interactions between academic support and learning strategies impact student performance. These results highlight the practical potential of fuzzy logic models in identifying at-risk students and designing targeted interventions to improve academic outcomes. Educators and institutions can create more effective and personalised learning environments by fostering deep learning approaches and enhancing academic support systems.",
-    published: '2025-Aug-02',
+    id: '40755262',
+    title: 'The Effect of Animated Educational Video to Reduce Anxiety Levels Before Outpatient Medical Abortion: A Randomised Controlled Trial.',
+    abstract: 'OBJECTIVE: To determine the efficacy of an animated educational video combined with traditional counselling to reduce anxiety levels among pregnant women seeking outpatient medical abortion.\n' +
+      'DESIGN: Randomised controlled trial with two parallel groups.\n' +
+      'SETTING: Single centre in Bangkok, Thailand.\n' +
+      'POPULATION OR SAMPLE: 60 pregnant women seeking outpatient medical abortion.\n' +
+      'METHODS: Participants received either an animated educational video combined with traditional counselling (n = 30) or traditional counselling alone (n = 30).\n' +
+      'MAIN OUTCOME MEASURES: Postintervention anxiety levels were assessed by the Spielberger State-Trait Anxiety Inventory (STAI), and satisfaction levels were measured by a 5-point Likert-type scale.\n' +
+      'RESULTS: There were no significant differences in demographic characteristics between groups. The postintervention STAI scores were significantly lower in the video group compared to the non-video group (32.70 ± 4.96 vs. 41.47 ± 8.57, p < 0.01). The odds of moderate to severe anxiety were significantly lower in the video group (OR 10.29, 95% CI 2.56-41.37). Patient satisfaction levels were similarly high in both groups (4.92 ± 0.27 vs. 4.85 ± 0.36, p = 0.42).\n' +
+      'CONCLUSIONS: Incorporating an animated educational video into traditional counselling effectively reduced anxiety in pregnant women seeking outpatient medical abortion while maintaining high levels of satisfaction with the medical service provided.',
+    published: '2025-Aug-04',
     authors: [
-      'Anapalı Şenel Ayşe',
-      'Göksu Berika',
-      'Şenel Ender',
-      'Solmaz Fatma İrem'
+      'Dejchaiyasak Nuttamon',
+      'Lertrat Waranyu',
+      'Aimjirakul Komkrit',
+      'Chinthakanan Orawee',
+      'Vallibhakara Orawin'
     ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-99124-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753281/'
+    journal: 'BJOG : an international journal of obstetrics and gynaecology',
+    doi: '10.1111/1471-0528.18321',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755262/'
   },
   {
-    id: '40753270',
-    title: 'Relationship between height of cheer basket toss and specific physical ability of bases from a kinematic perspective.',
-    abstract: 'In competitive cheerleading, the basket toss is one of the most important and typical skills of cheer. This study aims to address the lack of theoretical research on improving the height of the basket toss. Structural observations and a video recording were made of the straight ride. Factor analysis, Spearman correlation analysis and the grey correlation analysis method were used to determine the relationship between the height of the basket toss and the specific physical ability of the bases. According to the law of kinematics, to increase the height of the basket toss, the bases and flyer should follow the basic principles of maximizing the dynamics and training to master the stability skills for the basket toss. When using the same flyer and athletes of similar skill levels, coaches can choose bases with a large hand-foot distance and arrange base training in the following order: core strength & stability > explosive upper/lower limb power development.',
-    published: '2025-Aug-02',
-    authors: [ 'Qin Xiaojun', 'Li Haike' ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-14328-x',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753270/'
+    id: '40755180',
+    title: 'Adverse Outcomes and Associated Factors Among Children and Youths With Diabetes Mellitus in East Africa: A Systematic Review and Meta-Analysis.',
+    abstract: 'AIM: To identify adverse outcomes and factors associated with diabetes mellitus among children and youths in East Africa.\n' +
+      'DESIGN: This review was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines.\n' +
+      'DATA SOURCES: No date restrictions were applied to searches of the Ovid MEDLINE, Embase, PubMed, CINAHL, Scopus, Web of Science, Cochrane Library databases and Google Scholar. The review identified and included literature published between 2007 and 2024.\n' +
+      'METHODS: Independent reviewers conducted study selection, data extraction, and quality assessment. Data were organised in Microsoft Excel, detailing study characteristics, demographics, exposures, and outcomes. Narrative synthesis summarised the data, while meta-analysis yielded pooled proportions.\n' +
+      'RESULTS: From 3797 publications, 30 studies involving 6109 children and youths with type 1 diabetes were included. Findings revealed that between 39.3% and 99% did not achieve target glycaemic levels. Diabetic ketoacidosis at diagnosis ranged from 35.8% to 78.7%. Pooled estimates indicated mortality in 6.47%, nephropathy in 15.66%, and retinopathy in 27.49% of the cases. Other complications included decreased health-related quality of life, lipodystrophy, psychiatric disorders, and stunting.\n' +
+      'CONCLUSION: This review highlights the need for context-specific, personalised diabetes care for children and youths in East Africa. It underscores the need for healthcare professionals, particularly nurse diabetes educators, to provide personalised, holistic care and education. Policies that strengthen health systems, expand health insurance, and improve access to care are critical priorities to improve outcomes for these populations.\n' +
+      'IMPACT: This study provides new information on diabetes-related complications and management challenges among children and youths in East Africa. Findings flag the urgent need for integrated care, standardised diagnostic criteria, and improved access to resources, with implications for healthcare providers, policymakers, and researchers to enhance health outcomes and quality of life.\n' +
+      'PATIENT OR PUBLIC CONTRIBUTION: This study did not include patient or public involvement in its design, conduct, or reporting.',
+    published: '2025-Aug-04',
+    authors: [
+      'Tiruneh Chalie Marew',
+      'Cruickshank Marilyn',
+      'Chutiyami Muhammad',
+      'Perry Lin'
+    ],
+    journal: 'Journal of advanced nursing',
+    doi: '10.1111/jan.70124',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755180/'
   },
   {
-    id: '40753247',
-    title: 'Evaluating knowledge, awareness, attitudes, and practices regarding vitamin D in pregnant and postnatal Ghanaian women: a cross-sectional study.',
-    abstract: 'BACKGROUND: Vitamin D plays a crucial role in maternal and foetal health during pregnancy and lactation. However, its deficiency remains prevalent among pregnant and post-natal women globally, potentially leading to adverse health outcomes. We assessed and compared the knowledge, awareness, attitudes, and practices regarding vitamin D among pregnant and postnatal women in the Greater Accra Region of Ghana.\n' +
-      'METHODS: This cross-sectional study recruited 310 pregnant women and postnatal women from a Municipal Hospital between January to August 2024. A well-structured questionnaire was used to obtain data on demographic, clinical and lifestyle characteristics of participants. Information on awareness, knowledge, attitude and practices regarding vitamin D were also obtained. The binary logistic regression analysis model was used to determine the independent predictors of awareness and knowledge. P < 0.05 was considered statistically significant.\n' +
-      'RESULTS: Most pregnant women (82%) were aware of vitamin D, compared to postnatal women (71.1%). Pregnant women also showed higher knowledge levels (62% vs. 50.3%). Nearly all postnatal women (100%) and pregnant women (98.1%) had positive attitudes toward vitamin D, with comparable good practices (88.8% for pregnant, 89.9% for postnatal). Having non-formal education [(aOR = 17.639, 95% CI (3.218-96.686), p = 0.001)] or basic education [(aOR = 24.956, 95% CI (6.084-102.366), p < 0.001)] was significantly associated with increased odds of non-awareness. Moreover, having basic education [(aOR = 20.946, 95% CI (6.264-70.042), p < 0.001)] or SHS education [(aOR = 2.725, 95% CI (1.160-6.402), p = 0.021)] were the independent predictors of poor knowledge regarding vitamin D.\n' +
-      'CONCLUSION: Awareness and knowledge of vitamin D were higher among pregnant women compared to postnatal women, with educational level being a significant predictor. Future interventions should prioritize education on the importance of vitamin D, appropriate sun exposure, and dietary sources to mitigate deficiency risks, associated complications, and improve maternal health outcomes during and after pregnancy.',
-    published: '2025-Aug-02',
-    authors: [
-      'Appiah Benedicta',
-      'Effah Alfred',
-      'Danso Samuel Ankomah',
-      'Kwabena Abraham Ameyaw',
-      'Agomuo Samuel Kwame Sopuruchi',
-      'Kwarteng Samuel',
-      'Mensah Bismark Opoku',
-      'Senu Ebenezer',
-      'Awuah Enoch Ofori',
-      'Fondjo Linda Ahenkorah'
-    ],
-    journal: 'BMC public health',
-    doi: '10.1186/s12889-025-23986-5',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40753247/'
+    id: '40755161',
+    title: 'Group Prenatal Care and Group Facilitation Student Workshop.',
+    abstract: 'No abstract available',
+    published: '2025-Aug-03',
+    authors: [ 'Novick Gina', 'Rising Sharon Schindler' ],
+    journal: "Journal of midwifery & women's health",
+    doi: '10.1111/jmwh.70008',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40755161/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1663,6 +1632,7 @@ Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.0431944224984515 seconds...
 Translating paper 15/50
 Translating paper: Experience and education...
 Translating paper 16/50
@@ -1693,28 +1663,29 @@ Translating paper 28/50
 Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 29/50
 Translating paper: ChatGPT and University Students: How Family Educat...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.5523570453100466 seconds...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Wearable sensor data visualization for patient mon...
+Translating paper: Implementation of Piperacillin-Tazobactam Continuo...
 Translating paper 32/50
-Translating paper: The medical student stressor questionnaire (MSSQ):...
+Translating paper: Gender disparities in the adoption of improved man...
 Translating paper 33/50
-Translating paper: Integration of early clinical exposure into curric...
+Translating paper: The challenges of expanding medical student number...
 Translating paper 34/50
-Translating paper: Tendency to consume alcohol among Poles in the lig...
+Translating paper: Association between Chinese youth's sources of sex...
 Translating paper 35/50
-Translating paper: Dentists' role in oral care for head and neck canc...
+Translating paper: Can Hobbies Shape Fine Motor Skills Development in...
 Translating paper 36/50
-Translating paper: Digital technologies for climate-related health ed...
+Translating paper: A Profession Divided: Critical Reflection on the E...
 Translating paper 37/50
-Translating paper: Progress of chronic kidney disease and associated ...
+Translating paper: "A Real WEA Tutor": G. D. H. Cole, Socialist Democ...
 Translating paper 38/50
-Translating paper: Predicting academic performance with fuzzy logic i...
+Translating paper: The Effect of Animated Educational Video to Reduce...
 Translating paper 39/50
-Translating paper: Relationship between height of cheer basket toss a...
+Translating paper: Adverse Outcomes and Associated Factors Among Chil...
 Translating paper 40/50
-Translating paper: Evaluating knowledge, awareness, attitudes, and pr...
+Translating paper: Group Prenatal Care and Group Facilitation Student...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1736,25 +1707,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 813 -> 773
-Total papers after merging: 773 (763 existing + 50 new)
-Saved 773 papers to papers.json
+Removed duplicates: 823 -> 783
+Total papers after merging: 783 (773 existing + 50 new)
+Saved 783 papers to papers.json
 Generating HTML files...
-Generating index.html with 773 papers...
+Generating index.html with 783 papers...
 Successfully generated index.html
-Generating archive.html with 773 papers...
+Generating archive.html with 783 papers...
 Successfully generated archive.html
-Generating journal.html with 773 papers...
+Generating journal.html with 783 papers...
 Successfully generated journal.html
-Generating acquisition.html with 773 papers...
+Generating acquisition.html with 783 papers...
 Successfully generated acquisition.html
-Generating publication.html with 773 papers...
+Generating publication.html with 783 papers...
 Successfully generated publication.html
-Generating registration.html with 773 papers...
+Generating registration.html with 783 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 773
+Total papers in database: 783
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-03T15:39:43.630Z
+Timestamp: 2025-08-04T15:42:17.372Z
