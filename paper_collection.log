@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-04T15:13:09.913Z
+Timestamp: 2025-08-05T15:14:30.794Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 773 existing papers from papers.json
+Loaded 783 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -589,177 +590,174 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40755520',
-    title: 'Implementation of Piperacillin-Tazobactam Continuous Infusions for Critically Ill Patients: A Single-Centre Retrospective Chart Review.',
-    abstract: 'BACKGROUND: In critically ill patients, pharmacokinetic variability can lead to inadequate antimicrobial concentrations. Antimicrobial resistance to β-lactam antibiotics is increasing among the nonfermenting gram-negative bacilli (NFGNB). Current guidelines recommend optimizing β-lactam pharmacokinetics/pharmacodynamics with prolonged infusion of these antibiotics. In 2019, a protocol for continuous infusion of piperacillin-tazobactam (P/T) was implemented in 2 intensive care units (ICUs) as a quality improvement initiative.\n' +
-      'OBJECTIVES: The primary objective was to describe and evaluate implementation of the practice change to continuous infusion of P/T. The secondary objectives were to describe ICU mortality and length of stay (LOS), identify safety incidents related to the protocol, and determine the prevalence of NFGNB and associated minimum inhibitory concentrations of P/T.\n' +
-      "METHODS: This single-centre retrospective study involved a convenience sample of 200 patients who received 2 or more doses of P/T during an ICU admission between October 2020 and October 2022. Data on drug administration, characteristics of the hospital stay, and patient outcomes were collected from patients' digital records and the Critical Care Database of the study institution. Eight criteria for successful implementation of the protocol were established, with implementation deemed successful if at least 6 of these criteria were met.\n" +
-      'RESULTS: Implementation of the continuous-infusion protocol was successful for 156 (78.0%) of the 200 ICU patients, 41 (20.5%) of the patients died during the ICU admission, and the median LOS in the ICU was 4.9 (interquartile range 2.4-10.7) days. No safety incidents were identified. The prevalence of NFGNB was 3.1% for all ICU patients over the 2-year study period.\n' +
-      'CONCLUSIONS: Implementation of the continuous-infusion protocol was successful in most patients. Areas for improvement include editing the order set, providing interprofessional education, and enhancing interprofessional collaboration.',
-    published: '2025',
-    authors: [
-      'Landry Kylie',
-      'MacKenzie Meghan',
-      'Burgess Sarah',
-      'Bonnar Paul',
-      'Shabi Yahya',
-      'Patriquin Glenn',
-      'Holland Karolynn',
-      'Eichhorn Volker'
-    ],
-    journal: 'The Canadian journal of hospital pharmacy',
-    doi: '10.4212/cjhp.3710',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755520/'
+    id: '40762138',
+    title: 'Posttraumatic growth after stroke: a systematic review and meta-regression.',
+    abstract: 'PURPOSE: To examine posttraumatic growth (PTG) in stroke survivors, including how PTG evolves over time and factors associated with PTG in this population.\n' +
+      'METHOD: The CINAHL, EMBASE, MEDLINE, ProQuest Health and Medicine and PsycINFO databases were searched up until October 2024 (updated April 2025). The reporting quality of included studies was assessed (Systematic Review Quality Rating Tool for PTG) and a multi-level meta-regression conducted to examine PTG scores at various time points after discharge. PTG correlates were narratively synthesised.\n' +
+      'RESULTS: Ten independent studies, involving 1046 stroke survivor participants, were included in this review. Methodological reporting quality across the studies was good. The meta-regression analysis revealed a significant gradual increase in PTG scores at each month post-discharge. Positive correlates of PTG included higher education level, cognitive processing, and social support.\n' +
+      "CONCLUSIONS: There is potential for positive psychological change after stroke. However, PTG it is not a universal experience. Further research is needed to understand how PTG can be promoted as a therapeutic target to enhance stroke survivors' well-being and long-term adjustment.",
+    published: '2025-Aug-05',
+    authors: [ 'Klass Megan', 'Rogers Kris', 'Dorstyn Diana', 'Kneebone Ian I' ],
+    journal: 'Disability and rehabilitation',
+    doi: '10.1080/09638288.2025.2540070',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40762138/'
   },
   {
-    id: '40755510',
-    title: 'Gender disparities in the adoption of improved management practices for soybean cultivation in North East Nigeria.',
-    abstract: "This study examined gender disparities in the adoption and intensity of improved soybean management practices among 800 farming households in Borno State, Nigeria, with equal representation of male-led and female-led households. The findings reveal that while both male and female farmers adopt improved soybean varieties, fertilizer, and herbicides, the intensity of adoption varies due to differences in socioeconomic constraints. Male farmers demonstrated slightly higher adoption rates across all practices, particularly for herbicide use. However, financial and market-related barriers, such as high input costs and distance to seed markets, disproportionately hindered female farmers' ability to fully integrate improved practices into their farming activities. The analysis indicates that the adoption of improved soybean varieties by male farmers was mainly influenced by income and pest/disease constraints, whereas female farmers were more affected by age, extension visits, and community tenure. Herbicide use among male farmers was driven by farm size and input costs, while for female farmers, it was influenced by education, input costs, and proximity to seed markets. Fertilizer adoption among male farmers was linked to income and farming experience, whereas female farmers' fertilizer use was shaped by farm size and financial constraints. Ordered probit regression results suggest that age negatively affects adoption intensity for both genders, but income and community tenure play a stronger role for men, while market access and cost barriers are more significant for women. Improving access to extension services can significantly enhance adoption rates, especially for female farmers who face higher input costs and limited access to seed markets. Targeted subsidies and credit programs tailored to smallholder farmers will help alleviate financial barriers, enabling both men and women to invest in essential inputs and expand production. Strengthening rural infrastructure, including better road networks and input market accessibility, will further reduce logistical challenges and support increased soybean cultivation.",
+    id: '40762119',
+    title: "School-Home Communication Predicts Children's Enjoyment of School and Academic Performance in the USA: A Mediation Analysis.",
+    abstract: "PURPOSE: Children's enjoyment of school (ES) and academic performance (AP) are two important factors of educational success. This study investigated the mechanism of the effect of school-home communication (SHC) on ES and AP, testing the mediating roles of caregiver participation in school activities (CPSA), interactive learning (IL), and cultural learning (CL).\n" +
+      'METHODS: We used a nationally representative sample of 4935 children (ages 6-12) from the 2019 National Household Education Surveys. We employed structural equation models (SEM) to analyze the direct and indirect pathways among SHC, ES, and AP.\n' +
+      'RESULTS: Results showed that SHC positively predicted both ES and AP. CL partially mediated these associations, while IL only significantly mediated the association between SHC and ES.\n' +
+      'DISCUSSION: These findings highlighted the importance of caregiver involvement, including bridging communication, direct school participation, and home-based enrichment. Implications include schools promoting structured communication systems and encouraging culturally responsive homework.',
+    published: '2025-Aug-05',
+    authors: [ 'Cui Jiawen', 'Wen Hao' ],
+    journal: 'The Journal of school health',
+    doi: '10.1111/josh.70053',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40762119/'
+  },
+  {
+    id: '40762112',
+    title: 'Effect of Parent-Based Sexual Health Education on Parent-Adolescent Communication and Adolescent Sexual Behavior: A Systematic Review and Meta-Analysis.',
+    abstract: 'BACKGROUND: Parent-based sexual education interventions have a positive impact on adolescent sexual and reproductive health. However, despite these positive outcomes, there is a lack of comprehensive research to understand the effectiveness of these programs across different communities and demographics.\n' +
+      'METHODS: We conducted a systematic search of databases from January 2013 to April 2023 and identified 51 published studies conducted globally on the effects of parent-based sexual education. We conducted meta-analyses to understand the pooled effect of interventions on parent-adolescent communication outcomes and adolescent sexual and reproductive behaviors.\n' +
+      "RESULTS: This review includes 51 studies. Most of the included studies (n = 36, 68.6%) were conducted in high-income countries; 17 (33.3%) involved only mothers, and 37 (72.5%) stated they were based on theoretical frameworks. The systematic review showed that interventions on sexual communication had mixed effects on parent and adolescent-related outcomes. The meta-analysis, however, showed positive effects on parent-reported sexual health communication frequency, adolescent-reported sexual health communication frequency, parental attitude, and parental self-efficacy, Cohen's d = 0.32, 0.26, 0.38, and 0.41, respectively.\n" +
+      'CONCLUSION: Parent-based sexual health education interventions positively impact various aspects of parent-adolescent sexual health communication and behavior, suggesting the effectiveness of the intervention in different social, cultural, and economic contexts. The lack of research in low- and middle-income nations and limited paternal participation highlights the need for further research.',
+    published: '2025-Aug-05',
+    authors: [
+      'Gutu Birhanu',
+      'Mahimbo Abela',
+      'Percival Nikki',
+      'Demant Daniel'
+    ],
+    journal: 'Perspectives on sexual and reproductive health',
+    doi: '10.1111/psrh.70029',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40762112/'
+  },
+  {
+    id: '40762070',
+    title: 'The prevalence of pharmacogenetic testing in the United States.',
+    abstract: 'It is unknown how many people in the US have had pharmacogenetic (PGx) testing and whether people want to be tested. We conducted a nationally representative survey of the general US adult population to determine the prevalence of adults that have had PGx testing using a validated confidential online survey, the Non-Medical Use of Prescription Drugs Program. A weighted logistic regression was used to test health characteristics associated with PGx testing and determine those who desire to be tested. The analysis included 29 146 individuals who completed the survey, which represents approximately 260 000 000 adults in the US. The prevalence of US adults who have been PGx tested is 6.6% [95% confidence interval (CI): 6.2-7.0]. Only 32.2% (95% CI: 31.5-32.9), an estimated 79 million individuals, desired PGx testing. Adults who had or want PGx testing were more likely to be female, have higher education, be students, current or former members of the military, use medications, and have a mental health disorder. The prevalence of adults who have been PGx tested remains low in the US. There are knowledge gaps about the benefits of PGx testing that must be bridged to increase implementation.',
+    published: '2025-Aug-05',
+    authors: [
+      'Czizik Annika M',
+      'Burkett Hannah',
+      'Black Joshua C',
+      'Rockhill Karilynn M',
+      'Jewell Jennifer',
+      'Monte Andrew A'
+    ],
+    journal: 'Pharmacogenetics and genomics',
+    doi: '10.1097/FPC.0000000000000573',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40762070/'
+  },
+  {
+    id: '40762007',
+    title: 'The Development and Implementation of a Simulated Patient Resource for Teaching and Assessment in Optometry Low Vision Rehabilitation.',
+    abstract: 'PURPOSE: To report on the development, evaluation, and acceptability of a simulated patient resource designed for teaching and assessment in low vision rehabilitation. The findings aim to inform possible future integration of this method into optometric education.\n' +
+      'METHODS: In response to COVID-19 restrictions, a simulated patient resource was developed to allow students undertaking the practical elements of postgraduate modules in low vision practice at Cardiff University to complete their training. Using a mixed methods case study approach, the evaluation examined perspectives from students, assessors, and simulated patients, to establish if there was a consensus of opinion on its use. The study did not seek to demonstrate educational impact or validate SiP against existing methods.\n' +
+      'RESULTS: Five assessors, five simulated patients and seven students completed evaluations. Both assessors and students broadly accepted the method for both teaching and assessment, with mean scores across all groups ranging from 7.3 to 9.6 on a 1-10 scale (where 1 indicated very poor acceptance and 10 excellent acceptance). The discussion and establishing magnification elements of the encounter were the least well accepted. Simulated patients found the level of preparation for the role adequate. There were no significant differences between Likert scores between assessors and students in both the teaching and assessment sessions. Thematic analysis of free text comments showed in the main positive responses, with all groups highlighting the benefits of detailed scenarios and pre-session training. The method was acceptable to the professional governing and accrediting body, the College of Optometrists.\n' +
+      'CONCLUSION: Implementing a guideline-compliant simulated patient resource for high-stakes assessment requires significant time and resources. Our single cohort analysis indicates broad acceptance amongst assessors and students. Further research is needed to evaluate its educational impact across a wider range of scenarios and competencies while also further assessing its validity. Though simulated patients offer a viable alternative for teaching and assessing low vision practice, real patient encounters remain preferable.',
+    published: '2025',
+    authors: [ 'Karas Marek', 'Lucas Natalie', 'Ryan Barbara' ],
+    journal: 'Clinical optometry',
+    doi: '10.2147/OPTO.S525505',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40762007/'
+  },
+  {
+    id: '40761979',
+    title: 'Oncology Treatment in India: A Narrative Exploration of Patient Engagement and Care Strategies.',
+    abstract: "The growing burden of cancer poses a significant public health challenge, with late-stage diagnoses leading to severe health complications. As a life-altering disease, cancer not only impacts individuals but also affects their families, communities, and the nation as a whole. Effective patient engagement is crucial for improving health outcomes, and while India has made considerable progress in this area, several challenges persist. This narrative review aims to explore patient engagement and care strategies implemented by oncology healthcare providers across India. In order to do this, a comprehensive search was conducted across PubMed, ScienceDirect, and Google, using keywords such as patient engagement, patient engagement in oncology, patient engagement by cancer care hospitals, community engagement, community outreach, and patient-centered care by oncology service providers. Websites of key oncology service providers were also explored to identify the patient engagement and care strategies implemented by these service providers. The review specifically examines research from India to ensure relevance to the country's healthcare landscape. These strategies include patient education and empowerment, technology-driven innovations, community-based initiatives, patient-centered communication, health gamification and incentive programs, and caregiver and family involvement. Findings indicate that enhancing community participation, expanding financial support programs, integrating artificial intelligence (AI)-powered digital health solutions, and increasing telemedicine accessibility can significantly improve patient involvement and health outcomes. The review found numerous barriers that hinder widespread adoption, including disparities in healthcare access, low health literacy, lack of awareness and motivation, technological challenges, increasing out-of-pocket expenses, an insufficient medical workforce, and limited cancer research. Systematically addressing these challenges is essential for establishing an inclusive, accessible, and patient-centered oncology care system in India.",
+    published: '2025-Jul',
+    authors: [
+      'Ansari Shamsuzzaman',
+      'Patel Geetika',
+      'Malaviya Anushka',
+      'Dehankar Vaishnavee',
+      'Bs Rajeswari'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87329',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40761979/'
+  },
+  {
+    id: '40761978',
+    title: 'Interstitial Nephritis Induced by Repeated Nonsteroidal Anti-inflammatory Drugs (NSAIDs) Use for Persistent Fever: A Case Report.',
+    abstract: 'Nonsteroidal anti-inflammatory drugs (NSAIDs) are extensively utilized for their analgesic and anti-inflammatory efficacy, yet they pose a significant risk for renal adverse events, notably drug-induced acute interstitial nephritis (DI-AIN). Prompt recognition and appropriate management are paramount to prevent irreversible kidney damage. We present the case of a 46-year-old male with NSAID-induced DI-AIN, emphasizing the diagnostic utility of a specific urinary biomarker profile and the rationale for empirical steroid therapy initiated before histopathological confirmation. Our patient developed acute kidney injury (AKI) following daily ibuprofen administration for persistent fever. Despite ibuprofen discontinuation on day eight, renal function failed to improve, necessitating hospital admission on day 14. On day 15, his serum creatinine (Cr) level was 1.86 mg/dL. Urinalysis revealed mild proteinuria [urine protein-to-creatinine ratio (UPCR): 0.24 g/gCr] but strikingly elevated urinary tubular injury markers: N-acetyl-β-D-glucosaminidase (NAG): 20.9 U/L (on day one), β2-microglobulin (β2MG): 6028 μg/L, and L-type fatty acid-binding protein (L-FABP): 27.75 ng/mL. Based on a strong clinical suspicion of DI-AIN, a kidney biopsy was performed on day 15, and oral prednisolone (PSL, 0.8 mg/kg/day) was commenced the same evening before biopsy results were available. Serum creatinine improved to 1.56 mg/dL by discharge on day 23. Post-discharge, kidney biopsy results confirmed AIN. PSL was gradually tapered and discontinued after approximately 10 months, with sustained renal function recovery (serum creatinine: ~1.1 mg/dL). This report underscores the importance of suspecting DI-AIN in patients with AKI and a history of NSAID exposure. The pronounced elevation of urinary tubular markers, despite only mild proteinuria, was pivotal in raising clinical suspicion. The negative autoimmune serology further strengthened the diagnosis of a drug-induced etiology. Empirical steroid therapy, initiated due to compelling clinical evidence before histopathological confirmation, appeared to be an effective intervention. While this single case cannot establish a therapeutic standard, it illustrates a clinical scenario where early, empirically-guided treatment may be justified. Kidney biopsy remains indispensable for definitive diagnosis. The report also highlights the pressing need for enhanced patient education on appropriate NSAID utilization. Repeated use of common NSAIDs can precipitate DI-AIN. A diagnostic profile of elevated urinary tubular markers with only mild proteinuria can be a key indicator for suspecting this condition. Empirical steroid therapy, guided by strong clinical suspicion, can be an effective early intervention, with subsequent kidney biopsy providing definitive diagnostic validation. Enhanced patient education on appropriate NSAID use is essential.',
+    published: '2025-Jul',
+    authors: [
+      'Yoshida Norihito',
+      'Suzuki Yusuke',
+      'Hitaka Mai',
+      'Yamazaki Keisuke',
+      'Ohashi Yasushi'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87304',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40761978/'
+  },
+  {
+    id: '40761974',
+    title: 'Enhancing Childhood-Educator Knowledge and Confidence: Virtual "Coffee Chat" Interventions with Medical Professionals.',
+    abstract: `Context Early childhood educators (ECEs) are central to the development and care of children, but they often lack adequate access to resources and expert guidance for managing common childhood health issues. These challenges can lead to significant stress for both educators and parents. To address this gap, a pilot intervention involving virtual "coffee chat" sessions was implemented. These sessions aimed to provide ECEs with evidence-based knowledge and practical strategies to handle frequent childhood health concerns. Objective The primary objective of this study was to enhance the knowledge and confidence of ECEs in addressing common health and behavioral issues among children in the New River Valley, USA. The sessions, facilitated by pediatricians and medical students, covered a range of topics identified as high-priority by educators. The goal was to create a sustainable educational model for improving child health management in childcare settings. Methods This study used a self-designed pre- and post-survey format to measure the effectiveness of eight virtual "coffee chat" sessions conducted over two years. The initial sessions focused on educators in the New River Valley, USA, and the final session expanded across Virginia, USA. Topics included common illnesses (e.g., cough, diarrhea), trauma management, obesity, and behavioral issues such as self-regulation and temper tantrums. Each session consisted of a brief evidence-based presentation followed by interactive discussions. Participants were recruited through local and statewide child care organizations, and surveys were used to assess changes in their confidence and knowledge levels. Descriptive statistics and a Wilcoxon Signed Rank test were applied to analyze the data, while qualitative feedback from open-ended responses was categorized thematically. Results Across the eight sessions, 30 registrations were recorded, with 19 participants, some of whom attended multiple sessions. Pre- and post-survey results demonstrated significant improvements in knowledge and confidence, with an overall p-value of <0.001. Six out of eight topics showed increased post-survey scores, with the session on self-regulation and temper tantrums, which had the largest cohort (N=10), yielding a significant improvement (p=0.0041), highlighting its broad impact and relevance. Feedback from participants highlighted the value of practical, evidence-based strategies and the opportunity to engage directly with healthcare professionals. However, variability was observed in some topics, such as diarrhea, where post-survey scores declined slightly, pointing to potential areas for improvement. Conclusion Virtual "coffee chat" sessions proved to be an effective, scalable method for improving the health management skills of ECEs. The intervention's interactive and accessible format was particularly appreciated by participants and shows promise as a model for ongoing professional development. However, given the study's design and sample size, these findings should be interpreted as preliminary. Future efforts should focus on refining content, expanding participation, and exploring long-term impacts on both educator practices and child outcomes.`,
+    published: '2025-Jul',
+    authors: [
+      'Patel Prutha',
+      'Desai Yash',
+      'Bhagtani Harsha',
+      'Redden David',
+      'Abraham-Hardee Sofia'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87290',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40761974/'
+  },
+  {
+    id: '40761968',
+    title: 'Unrolling the Mat: A Mixed-Methods Study of Yoga Awareness, Perceptions, and Barriers to Daily Practice Among MBBS Students.',
+    abstract: "Introduction Yoga, rooted in Indian tradition, is recognized for its holistic health benefits. With a growing global emphasis on preventive health, yoga has gained attention for its capacity to mitigate stress, improve concentration and enhance general well-being. Burdened with academic pressures, irregular routines and sedentary lifestyles, medical students represent a group that could significantly benefit from incorporating yoga into their daily lives. This study aims to bridge this gap by evaluating MBBS students' awareness, perceptions, readiness to adopt yoga and the practical challenges they face, along with their views on integrating structured yoga sessions into their curriculum. Methods A cross-sectional study was conducted at AIIMS, Nagpur, among MBBS students, with a total of 155 students (100%) from the 2019 to 2023 batches. A structured, pre-validated questionnaire (Cronbach's α=0.973) was administered electronically using a Google Form link shared via student WhatsApp groups. The survey comprised five sections: awareness about yoga, perceptions about its preventive role in lifestyle disorders, readiness to integrate it into daily life, barriers to practice and preferences regarding formal integration of yoga practice in the MBBS curriculum. Responses were recorded on 5-point Likert scales. Data analysis was performed using Python (Jupyter) for cleaning, statistics and reliability testing, and Jamovi (v2.3.28) for non-parametric tests due to non-normal distribution. Results The findings revealed a high awareness among participants, with an average awareness score (87.6%), high agreement on yoga's role in stress reduction (4.45%) and overall health (4.63%). Perception of yoga as preventive and therapeutic for lifestyle disorders was strong (mean=84.0%). Batch-wise differences were noted in yoga awareness scores (p<0.001), and interns were more likely to endorse yoga as a complementary therapy (p=0.037). The readiness score was 68.2%, with only a 3.41/5 average agreement on willingness to integrate yoga daily. A significant gender-based difference was observed for perceived physical preparedness (p=0.035) and preference for educational content in yoga, with males scoring higher. Major barriers included time constraints (112, 72.2%), inconsistency (93, 60%) and lack of motivation to wake up early (84, 54.54%). Overall, 140 (90.3%) agreed that yoga practice should be part of the MBBS curriculum. Most preferred physical sessions (116, 74.84%), held three days a week (63, 40.65%), for 20-30 mins (93, 61.59%), with a focus on postures, breathing, meditation and stress relief. Some students preferred sessions to be optional and scheduled flexibly around academic hours. Conclusion This study highlights a significant gap between high levels of awareness and relatively low readiness to incorporate yoga into daily life among MBBS students. Despite recognizing its benefits, students face notable practical challenges, especially time management and consistency. However, the overwhelming support for integrating structured yoga sessions into the medical curriculum presents an actionable opportunity. Addressing identified barriers through flexible scheduling, optional participation and an emphasis on stress management may enhance adoption. These findings underscore the potential of yoga not just as a wellness tool but as an integral component of medical education aimed at fostering personal resilience and long-term professional well-being.",
+    published: '2025-Jul',
+    authors: [
+      'Rathod Sachin B',
+      'Sorte Smita R',
+      'Phatak Mrunal',
+      'Sharma Atul K',
+      'Mulchandani Kratika'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87306',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40761968/'
+  },
+  {
+    id: '40761945',
+    title: 'Diet Quality and Weight Status are Predicted by Federal Nutrition Assistance Program Participation, Health, and Demographics.',
+    abstract: 'BACKGROUND: Programs, such as Medicaid, the Supplemental Nutrition Assistance Program, and the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC), provide access to vital medical and nutrition services. Few studies have investigated whether demographic, social, and economic determinants of health, including length of time spent on these programs, are associated with diet quality and weight status in early childhood.\n' +
+      'OBJECTIVES: Classification and regression tree analysis, a machine learning method, was used to determine health predictors to identify patterns of children with higher compared with lower diet quality and higher compared with lower weight status.\n' +
+      'METHODS: Using the WIC infant and toddler feeding practices study-2 (unweighted  = 3051; weighted  = 413,211), classification and regression tree identified the sequence of binary splits that best differentiated the sample on Healthy Eating Index-2020 (HEI-2020; range 0-100) and HEI-2020 subscales (adequacy and moderation), and body mass index (BMI in kg/m) -score at 2-5 y. Predictors, including maternal BMI, child birthweight, sociodemographics, and length of time spent on safety net programs, were considered.\n' +
+      'RESULTS: Higher HEI-2020 scores were primarily predicted by race and ethnicity (e.g., Hispanic, Spanish, or non-Hispanic White), and longer WIC and shorter Supplemental Nutrition Assistance Program duration. In examining HEI-2020 subscales, higher HEI adequacy was primarily predicted by higher education, older maternal age, longer WIC duration, and race and ethnicity. Higher HEI moderation was primarily predicted by race and ethnicity and longer WIC duration. Higher BMI -score was primarily predicted by higher birth weight.\n' +
+      'CONCLUSIONS: Child diet quality and weight status were associated with different social determinants of health, which included maternal weight status, race and ethnicity, and food assistance program participation, particularly WIC.',
     published: '2025-Aug',
     authors: [
-      'Kamara Amadu Yaya',
-      'Kamsang Lucy Sahbong',
-      'Mustapha Amina',
-      'Kamara Alpha Yaya',
-      'Kolapo Adetomiwa',
-      'Kamai Nkeki'
+      'Au Lauren E',
+      'Arnold Charles D',
+      'Domfe Christabel',
+      'Ritchie Lorrene D',
+      'Whaley Shannon E',
+      'Bitler Marianne',
+      'Frongillo Edward A'
     ],
-    journal: 'Journal of agriculture and food research',
-    doi: '10.1016/j.jafr.2025.102032',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755510/'
-  },
-  {
-    id: '40755486',
-    title: 'The challenges of expanding medical student numbers in the UK: A scoping review.',
-    abstract: 'BACKGROUND: With one of the lowest numbers of doctors per capita in Europe, coupled with an ageing UK population, the NHS faces an unprecedented workforce crisis. The NHS Long Term Workforce Plan (LTWP) outlined how this will be addressed, headlining a proposed doubling of UK medical school places.\n' +
-      "METHODS: A scoping review utilising the Arksey and O'Malley model searched articles related to increasing UK medical student numbers. A total of 6,217 articles were identified, and 23 were selected for further analysis.\n" +
-      'RESULTS: Funding was the most frequently raised concern, followed by educator shortage, limited stakeholder engagement, placement capacity shortage, and failure to support Widening Access agendas. Notably, seven articles were opinion pieces, with only two formal research papers.\n' +
-      'CONCLUSION: Key issues to implementing the current LTWP were identified, and further research to address these challenges and identify potential solutions is urgently required to support evidence-based decision making to influence future workforce plans.',
-    published: '2025-Sep',
-    authors: [ 'Sassoon Eli C', 'Craig Rhiannon C', "O'Brien David G" ],
-    journal: 'Future healthcare journal',
-    doi: '10.1016/j.fhj.2025.100278',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755486/'
-  },
-  {
-    id: '40755444',
-    title: "Association between Chinese youth's sources of sexual knowledge and sexual and reproductive health: a mediation analysis of sexual knowledge level.",
-    abstract: "Changing sexual behaviours among Chinese youth have emerged along with China's rapid socioeconomic transition. In the context of enduring Confucian traditions and limited formal sexuality education, there is an increasing demand from Chinese youth for accessible and inclusive sexuality education. This research explores how young people in China seek out and engage with sexual knowledge within this shifting cultural landscape. While previous studies indicate that a lack of knowledge in sexual and reproductive health (SRH) is associated with risky sexual behaviours, investigations on how Chinese youth access SRH knowledge and its impact on their behaviours remain unclear. Based on the survey data collected in 2019, this cross-sectional study of 52,256 Chinese youth highlighted how young people access and apply sexual knowledge. Boys were more likely to learn from media (primarily pornography), while girls tended to rely on school-based education and parental communication. Mediation analyses were performed to explore the association between sources of sexual knowledge and sexual and reproductive health with a mediator of sexual knowledge scores. The results show that youth who acquired SRH knowledge from the media were more likely to engage in sexual intercourse and experience early sexual debut, while youth gaining SRH knowledge from school were less likely to have sexual intercourse and early debut. Sexual knowledge acquisition occurs not only in one setting but across various settings in young people's lives. This study provides insights for future sexuality education improvement through different learning sources and emphasises how young people's learning experiences impact their sexual behaviour.",
-    published: '2025-Aug-04',
-    authors: [
-      'Zou Xinye',
-      'Xue Kefan',
-      'Zou Siyu',
-      'Xiao Angela Y',
-      'Cao Wenzhen',
-      'Tang Kun'
-    ],
-    journal: 'Sexual and reproductive health matters',
-    doi: '10.1080/26410397.2025.2517430',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755444/'
-  },
-  {
-    id: '40755431',
-    title: 'Can Hobbies Shape Fine Motor Skills Development in First-Year Dental and Oral Health Students?',
-    abstract: 'INTRODUCTION: Dental students develop fine motor skills that include a complex interplay of finger dexterity, posture and progressive visual-tactile improvement through spatial awareness and cognition facilitated through university simulation training. Identifying students with a natural aptitude for these skills is vital to make the most of available resources. This study examines the relationship between pre-existing hobbies and fine motor skills before and after a five-week training module.\n' +
-      "MATERIALS AND METHODS: Seventy-two first-year students at an Australian University completed a questionnaire that measured their personal interests. Students' performance on a foundational cavity preparation task was assessed before and after five weeks of simulation clinic training on plastic typodont teeth. In-class assessment tasks aimed to evaluate innate and acquired skills. The relationships between personal interests and cavity preparation skills, before and after the simulation training, were explored.\n" +
-      'RESULTS: The three hobbies with the highest mean cavity preparation percentage at baseline were playing music (51.7%; 95% CI: 41.5, 61.9), cooking (50.3%; 95% CI: 45.1, 55.5) and participating in sports (48.4%; 95% CI: 42.9, 53.8). Estimated mean improvement in cavity preparation was highest for participants that had cooking as the only hobby (19.2%; 95% CI: 14.4, 24.1). Participants with four hobbies had the lowest mean improvement in cavity preparation, with 11.3 (95% CI: 5.1, 17.5) percentage units. Participants with zero hobbies improved by 11.7 (95% CI: 7.7, 15.7) percentage units.\n' +
-      'CONCLUSION: Cooking at least once a week has a better impact on the mean improvement in scores after formal university simulation training than other hobbies. Students without any identified hobbies might benefit from task-specific training for fine motor skills improvement.',
-    published: '2025-Aug-04',
-    authors: [ 'Shetty Sowmya', 'Tran Carol', 'Sexton Christopher' ],
-    journal: 'European journal of dental education : official journal of the Association for Dental Education in Europe',
-    doi: '10.1111/eje.70021',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755431/'
-  },
-  {
-    id: '40755374',
-    title: 'A Profession Divided: Critical Reflection on the Evolution of Registered Psychiatric Nursing in Western Canada.',
-    abstract: 'INTRODUCTION: In Canada, two distinct nursing professions-Registered Nurses (RNs) and Registered Psychiatric Nurses (RPNs)-serve complementary roles, with RPNs primarily practising in Western provinces.\n' +
-      'BACKGROUND: The development of RPNs as a unique professional group is rooted in the establishment of key institution. In British Columbia (BC) this was notably Riverview Hospital and the BC School of Psychiatric Nursing. These and similar institutions across Western Canada contributed significantly to shaping the standards and education pathways for RPNs.\n' +
-      'AIM: This paper examines the evolution of RPNs as a unique designation in Western Canada, focusing on their historical development, including the foundational role of Riverview Hospital and the BC School of Psychiatric Nursing until its closure in 2012. In contrast to RNs, whose education incorporates mental health as one of several focuses, RPNs receive specialized training centred on psychiatric and mental health care, shaping distinct professional identities and scopes of practice.\n' +
-      "METHOD: A historical lens is used to identify the organizational and educational reforms that shaped the identity and integration of RPNs within the broader nursing landscape. An exploration of the historical and contemporary dynamics that shaped RPN role and identity is offered, comparing it with RNs' roles in mental health services and examining the impact of educational and organisational changes. The historical and current role of RPNs remains crucial in mental health care.\n" +
-      'DISCUSSION: Key issues include the shift from psychiatric to mental health nursing terminology and the integration of RPNs within the broader nursing landscape.\n' +
-      'ANALYSIS: The analysis highlights the challenges and opportunities in redefining psychiatric nursing role and identity amidst evolving healthcare practices and educational trends.',
-    published: '2025-Aug-04',
-    authors: [ 'Danda Michelle C' ],
-    journal: 'Journal of psychiatric and mental health nursing',
-    doi: '10.1111/jpm.70013',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755374/'
-  },
-  {
-    id: '40755314',
-    title: '"A Real WEA Tutor": G. D. H. Cole, Socialist Democracy, and the Politics of Persona.',
-    abstract: "G. D. H. Cole is best known as a disillusioned theorist of guild socialism, but this article argues his work here must be read in tandem with his ideas of workers' education. It focuses on his construction of the WEA tutor who, as a pedagogical and political persona, embodied and transmitted the qualities needed to sustain a socialist democracy. In this way, Cole reconciled commitments to pluralism and individuality with a practical political program. Although dismissed as naive in the 1930s, this persona proved influential for early New Left thinkers seeking alternatives to the pessimism of the Cold War liberal critique.",
-    published: '2025',
-    authors: [ 'Scott-Brown Sophie' ],
-    journal: 'Journal of the history of ideas',
-    doi: '10.1353/jhi.2025.a966907',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755314/'
-  },
-  {
-    id: '40755262',
-    title: 'The Effect of Animated Educational Video to Reduce Anxiety Levels Before Outpatient Medical Abortion: A Randomised Controlled Trial.',
-    abstract: 'OBJECTIVE: To determine the efficacy of an animated educational video combined with traditional counselling to reduce anxiety levels among pregnant women seeking outpatient medical abortion.\n' +
-      'DESIGN: Randomised controlled trial with two parallel groups.\n' +
-      'SETTING: Single centre in Bangkok, Thailand.\n' +
-      'POPULATION OR SAMPLE: 60 pregnant women seeking outpatient medical abortion.\n' +
-      'METHODS: Participants received either an animated educational video combined with traditional counselling (n = 30) or traditional counselling alone (n = 30).\n' +
-      'MAIN OUTCOME MEASURES: Postintervention anxiety levels were assessed by the Spielberger State-Trait Anxiety Inventory (STAI), and satisfaction levels were measured by a 5-point Likert-type scale.\n' +
-      'RESULTS: There were no significant differences in demographic characteristics between groups. The postintervention STAI scores were significantly lower in the video group compared to the non-video group (32.70 ± 4.96 vs. 41.47 ± 8.57, p < 0.01). The odds of moderate to severe anxiety were significantly lower in the video group (OR 10.29, 95% CI 2.56-41.37). Patient satisfaction levels were similarly high in both groups (4.92 ± 0.27 vs. 4.85 ± 0.36, p = 0.42).\n' +
-      'CONCLUSIONS: Incorporating an animated educational video into traditional counselling effectively reduced anxiety in pregnant women seeking outpatient medical abortion while maintaining high levels of satisfaction with the medical service provided.',
-    published: '2025-Aug-04',
-    authors: [
-      'Dejchaiyasak Nuttamon',
-      'Lertrat Waranyu',
-      'Aimjirakul Komkrit',
-      'Chinthakanan Orawee',
-      'Vallibhakara Orawin'
-    ],
-    journal: 'BJOG : an international journal of obstetrics and gynaecology',
-    doi: '10.1111/1471-0528.18321',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755262/'
-  },
-  {
-    id: '40755180',
-    title: 'Adverse Outcomes and Associated Factors Among Children and Youths With Diabetes Mellitus in East Africa: A Systematic Review and Meta-Analysis.',
-    abstract: 'AIM: To identify adverse outcomes and factors associated with diabetes mellitus among children and youths in East Africa.\n' +
-      'DESIGN: This review was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines.\n' +
-      'DATA SOURCES: No date restrictions were applied to searches of the Ovid MEDLINE, Embase, PubMed, CINAHL, Scopus, Web of Science, Cochrane Library databases and Google Scholar. The review identified and included literature published between 2007 and 2024.\n' +
-      'METHODS: Independent reviewers conducted study selection, data extraction, and quality assessment. Data were organised in Microsoft Excel, detailing study characteristics, demographics, exposures, and outcomes. Narrative synthesis summarised the data, while meta-analysis yielded pooled proportions.\n' +
-      'RESULTS: From 3797 publications, 30 studies involving 6109 children and youths with type 1 diabetes were included. Findings revealed that between 39.3% and 99% did not achieve target glycaemic levels. Diabetic ketoacidosis at diagnosis ranged from 35.8% to 78.7%. Pooled estimates indicated mortality in 6.47%, nephropathy in 15.66%, and retinopathy in 27.49% of the cases. Other complications included decreased health-related quality of life, lipodystrophy, psychiatric disorders, and stunting.\n' +
-      'CONCLUSION: This review highlights the need for context-specific, personalised diabetes care for children and youths in East Africa. It underscores the need for healthcare professionals, particularly nurse diabetes educators, to provide personalised, holistic care and education. Policies that strengthen health systems, expand health insurance, and improve access to care are critical priorities to improve outcomes for these populations.\n' +
-      'IMPACT: This study provides new information on diabetes-related complications and management challenges among children and youths in East Africa. Findings flag the urgent need for integrated care, standardised diagnostic criteria, and improved access to resources, with implications for healthcare providers, policymakers, and researchers to enhance health outcomes and quality of life.\n' +
-      'PATIENT OR PUBLIC CONTRIBUTION: This study did not include patient or public involvement in its design, conduct, or reporting.',
-    published: '2025-Aug-04',
-    authors: [
-      'Tiruneh Chalie Marew',
-      'Cruickshank Marilyn',
-      'Chutiyami Muhammad',
-      'Perry Lin'
-    ],
-    journal: 'Journal of advanced nursing',
-    doi: '10.1111/jan.70124',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755180/'
-  },
-  {
-    id: '40755161',
-    title: 'Group Prenatal Care and Group Facilitation Student Workshop.',
-    abstract: 'No abstract available',
-    published: '2025-Aug-03',
-    authors: [ 'Novick Gina', 'Rising Sharon Schindler' ],
-    journal: "Journal of midwifery & women's health",
-    doi: '10.1111/jmwh.70008',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40755161/'
+    journal: 'Current developments in nutrition',
+    doi: '10.1016/j.cdnut.2025.107505',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40761945/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
@@ -1632,7 +1630,6 @@ Translating paper 13/50
 Translating paper: The New Economics for Industry, Government, Educat...
 Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.0431944224984515 seconds...
 Translating paper 15/50
 Translating paper: Experience and education...
 Translating paper 16/50
@@ -1663,29 +1660,28 @@ Translating paper 28/50
 Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 29/50
 Translating paper: ChatGPT and University Students: How Family Educat...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.5523570453100466 seconds...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Implementation of Piperacillin-Tazobactam Continuo...
+Translating paper: Posttraumatic growth after stroke: a systematic re...
 Translating paper 32/50
-Translating paper: Gender disparities in the adoption of improved man...
+Translating paper: School-Home Communication Predicts Children's Enjo...
 Translating paper 33/50
-Translating paper: The challenges of expanding medical student number...
+Translating paper: Effect of Parent-Based Sexual Health Education on ...
 Translating paper 34/50
-Translating paper: Association between Chinese youth's sources of sex...
+Translating paper: The prevalence of pharmacogenetic testing in the U...
 Translating paper 35/50
-Translating paper: Can Hobbies Shape Fine Motor Skills Development in...
+Translating paper: The Development and Implementation of a Simulated ...
 Translating paper 36/50
-Translating paper: A Profession Divided: Critical Reflection on the E...
+Translating paper: Oncology Treatment in India: A Narrative Explorati...
 Translating paper 37/50
-Translating paper: "A Real WEA Tutor": G. D. H. Cole, Socialist Democ...
+Translating paper: Interstitial Nephritis Induced by Repeated Nonster...
 Translating paper 38/50
-Translating paper: The Effect of Animated Educational Video to Reduce...
+Translating paper: Enhancing Childhood-Educator Knowledge and Confide...
 Translating paper 39/50
-Translating paper: Adverse Outcomes and Associated Factors Among Chil...
+Translating paper: Unrolling the Mat: A Mixed-Methods Study of Yoga A...
 Translating paper 40/50
-Translating paper: Group Prenatal Care and Group Facilitation Student...
+Translating paper: Diet Quality and Weight Status are Predicted by Fe...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1707,25 +1703,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 823 -> 783
-Total papers after merging: 783 (773 existing + 50 new)
-Saved 783 papers to papers.json
+Removed duplicates: 833 -> 793
+Total papers after merging: 793 (783 existing + 50 new)
+Saved 793 papers to papers.json
 Generating HTML files...
-Generating index.html with 783 papers...
+Generating index.html with 793 papers...
 Successfully generated index.html
-Generating archive.html with 783 papers...
+Generating archive.html with 793 papers...
 Successfully generated archive.html
-Generating journal.html with 783 papers...
+Generating journal.html with 793 papers...
 Successfully generated journal.html
-Generating acquisition.html with 783 papers...
+Generating acquisition.html with 793 papers...
 Successfully generated acquisition.html
-Generating publication.html with 783 papers...
+Generating publication.html with 793 papers...
 Successfully generated publication.html
-Generating registration.html with 783 papers...
+Generating registration.html with 793 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 783
+Total papers in database: 793
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-04T15:42:17.372Z
+Timestamp: 2025-08-05T15:44:10.514Z
