@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-06T15:13:54.295Z
+Timestamp: 2025-08-07T15:13:53.028Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 793 existing papers from papers.json
+Loaded 803 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,8 +297,6 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -591,205 +589,180 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40767117',
-    title: 'Anxiety and quality-of-life for parents of children with undiagnosed rare conditions: A multi-site quantitative survey study.',
-    abstract: "Parenting a child with a rare undiagnosed genetic condition can impact psychological well-being, including anxiety and health-related quality-of-life. We conducted a multi-site quantitative survey with parents to understand which parent and child characteristics are predictive of poorer psychological outcomes. 1366 surveys were sent out across seven NHS Trusts in England; 383 were returned and included in analysis (27% response rate). We used the GAD-7 to measure parents' generalized anxiety and the PedsQL Family Impact Module (FIM) to measure self-reported physical, emotional, social, and cognitive functioning (the health-related quality-of-life [HRQOL] summary score), communication, worry, daily activities, and family relationships (the family functioning [FF] summary score). Participant characteristics included: the 6-item Brief Resilience Scale to measure parental resilience, a bespoke single question to assess parents' tolerance for uncertainty, the EQ-5D-Y-3L to measure child health-related quality-of-life, two bespoke questions to assess the perceived seriousness/consequences of the child's condition, and standard characteristics questions (e.g., age, ethnicity, education, income). Overall, parental anxiety was low (mean = 5.31; SD = 5.82, range 0-21), although 21.9% had moderate (11.4%) or severe (10.5%) anxiety. A multivariable analysis indicated that higher anxiety scores were significantly associated with younger parental age (p = 0.010), lower education attainment (0.004), lower resilience (p = 0.049), and lower tolerance for uncertainty (p = 0.021). FIM total scores ranged from 0 to 100 (mean = 53.68, SD 20.45). Parents scored lowest on the subscale daily activities (43.68), worry (47.29), communication (51.31), and physical functioning (52.45). Family functioning summary scores were significantly lower for parents of children with developmental disorders compared to other conditions (p = 0.016). Multivariable analysis identified that lower scores (reflecting poorer outcomes) were significantly associated with lower parental resilience and lower tolerance for uncertainty (p < 0.001, respectively). Our findings highlight the significant psychological burden parenting a child with a rare undiagnosed condition can have on some parents and the importance of developing tailored support strategies.",
-    published: '2025-Aug',
+    id: '40772332',
+    title: 'Cognitive function in Chinese patients with schizophrenia: the Chinese Brief Cognitive Test (C-BCT) profile of impairment.',
+    abstract: 'BACKGROUND: The aim of the study was to investigate the empirical validity of the Chinese Brief Cognitive Test (C-BCT) and examine the correlation between cognitive symptoms and functional outcomes in people with schizophrenia.\n' +
+      'METHODS: Patients with schizophrenia ( = 145) together with 723 healthy controls underwent testing with C-BCT and MATRICS Consensus Cognitive Battery (MCCB). Clinical staff measured Positive and Negative Syndrome Scale (PANSS) and Personal and Social Performance (PSP) Scale for patients. One-way analysis of covariance was conducted to compare cognitive performance across groups. The correlation between C-BCT performance and PANSS and PSP was examined using the Pearson product moment correlation. The Global Deficit Score (GDS) was used to identify the severity of cognitive impairment. The generalized linear model was used to analyze the effects of age, sex and education.\n' +
+      'RESULTS: The four scales of C-BCT alongside composite scaled score (Css) demonstrated statistical differences between groups with partial eta squared scores between 0.049 and 0.171. Composite scaled score was weakly correlated with each scale of the PANSS (-value ranged from -0.242 to -0.190), and weakly correlated with PSP. In addition to Digit Span Task, scales of C-BCT had different correlations with PANSS and PSP. There were differences in GDS among patients with different employment status ( < .05). 55.9% of the patient sample had been identified as cognitive impaired using C-BCT.\n' +
+      'CONCLUSIONS: The C-BCT exhibits good empirical validity in Chinese patients with schizophrenia. Information processing speed, executive function, attention/vigilance, and overall cognitive performance were differently related to clinical symptoms and social function.\n' +
+      'HIGHLIGHTS: Cognitive impairment is one of the core symptoms and dimensions of schizophrenia.The Chinese Brief Cognitive Test (C-BCT) is a simplified cognitive assessment tool based on the Chinese cultural environment.The C-BCT has good empirical validity in Chinese patients with schizophrenia, and can evaluate neurocognition in Chinese patients with schizophrenia in a shorter time.The C-BCT may be helpful for clinicians and researcher because of its convenience and efficiency.',
+    published: '2025-Aug-07',
     authors: [
-      'Patel Ria',
-      'Friedrich Bettina',
-      'Sanderson Saskia C',
-      'Ellard Holly',
-      'Lewis Celine'
+      'Xie Mengjuan',  'Yu Xin',
+      'Ye Shuling',    'Han Han',
+      'Wu Renrong',    'Liu Dengtang',
+      'Hu Shaohua',    'Xu Yong',
+      'Liu Huanzhong', 'Wang Xijin',
+      'Zhu Gang',      'Wang Huaning',
+      'Zou Shaohong',  'Li Tao',
+      'Guo Wanjun',    'Xu Xiufeng',
+      'Cheng Yuqi',    'Li Yi',
+      'Yang Juan',     'Peng Min',
+      'Shi Chuan'
     ],
-    journal: 'Journal of genetic counseling',
-    doi: '10.1002/jgc4.70085',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40767117/'
+    journal: 'Nordic journal of psychiatry',
+    doi: '10.1080/08039488.2025.2539782',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772332/'
   },
   {
-    id: '40767085',
-    title: 'User testing of a previsit chatbot developed for population genomic screening and counseling.',
-    abstract: "Many emerging service delivery models triage genetic counselor time with patients to postgenetic testing, including population genomic screening followed by genetic counseling (GC). To prime patients and help genetic counselors tailor such visits, a previsit (PV) chatbot was created to assess patient understanding, emotional response to, and family communication about genetic results. This study explored patients' perceptions of the PV chatbot and how they would use it. User testing was conducted via videoconference with patients who had completed GC. A codebook thematic analysis informed by Proctor's Conceptual Model of Implementation Research in a postpositivist paradigm was conducted. In total, 16 participants completed user testing, of whom 12 were women and 4 were men with a mean age of 55.4 (range 32-69). Participants had a variety of genetic results out of 78 genes among cancer (PMS2 n = 2; PALB2 n = 4; BRCA2 n = 1) and cardiovascular (LDLR n = 1; MYBPC3 n = 1; DSP n = 1; TTN n = 5; MYH7 n = 1) conditions. Participants reported high acceptability (M = 4.53/5, SD = 0.45) and feasibility (M = 4.43/5, SD = 1.04) of the chatbot. Participants reported liking the chatbot because of its ease of use and anticipated benefit to GC. Participants viewed the chatbot as complementary to GC and shared that the chatbot would have helped prepare them for GC in ways they may not have considered, including inviting a family member to join the appointment. Participants desired more personalization within the chatbot, including responsiveness to their personal/family history, optional supplementary education, and more emotionally supportive language. Some participants described challenges with certain aspects of the chatbot, including the repetitiveness and phrasing of validated scaled measures. Overall, participants perceived the PV chatbot to be of value in educating and preparing them for GC and reflected on how the PV chatbot may have enhanced GC. Many of the perceived benefits of this chatbot are applicable across GC settings.",
-    published: '2025-Aug',
-    authors: [
-      'Morgan Kelly M',
-      'Goehringer Jessica',
-      'Lindsey-Mills Zoe',
-      'Brangan Andrew',
-      'Kaur Jasleen',
-      'Walters Nicole L',
-      'Savage Sarah K',
-      'Sturm Amy C',
-      'Campbell-Salome Gemme'
-    ],
-    journal: 'Journal of genetic counseling',
-    doi: '10.1002/jgc4.70090',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40767085/'
-  },
-  {
-    id: '40767068',
-    title: '[Trends in the sufficiency of long-term care as perceived by older care recipients between 2012 and 2022 in the Netherlands].',
-    abstract: 'Due to population ageing and rising healthcare costs, Dutch long-term care was reformed in 2015/16. Important measures were stricter admission requirements for nursing homes and decentralization of homecare to municipalities. The consequences of these changes for the perceived quality of care are still unknown. We examined to which extent the sufficiency of care as experienced by older people has changed during this period. We also examined the relationship with individual characteristics, such as care needs, care use, and wishes regarding care. Data from older care recipients at four observations from the Longitudinal Aging Study Amsterdam (LASA) between 2012 and 2022 (N=1316) were used. Multilevel logistic regression analysis were performed. Perceived care sufficiency decreased a little after the healthcare reform in 2015/16 and 2018/19, but recovered in 2022. There appeared no difference based on living region, but care sufficiency was higher in less urban areas (OR=0,89). In addition, functional limitations (OR=0,94), chronic diseases (OR=0,80), use of public care (OR=0,67), and higher education level (OR=1,53) were strongly associated with care sufficiency. However, use of publicly paid care appeared to be the type of care that contributed least to care sufficiency; a lack of perceived control over care may be an explanatory factor.',
-    published: '2024-Sep-25',
-    authors: [
-      'Gardeniers Maura K M',
-      'Huisman Martijn',
-      'Meijboom Erik Jan',
-      'Broese van Groenou Marjolein I'
-    ],
-    journal: 'Tijdschrift voor gerontologie en geriatrie',
-    doi: '10.54195/tgg18816',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40767068/'
-  },
-  {
-    id: '40767045',
-    title: 'Access in all areas? A round up of developments in market access and health technology assessment: part 9.',
-    abstract: "In this update, we examine Spain's comprehensive pharmaceutical legislation reform; France's refined health economic evaluation approach; and the US' proposed Most Favored Nation pricing mechanism.",
-    published: '2025-Aug-06',
-    authors: [ 'Ramagopalan Sreeram V', 'Pannelay Annie Jullien' ],
-    journal: 'Journal of comparative effectiveness research',
-    doi: '10.57264/cer-2025-0120',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40767045/'
-  },
-  {
-    id: '40766976',
-    title: 'The Impact of Race, Education, Economic Vulnerability, and Stigma on Viral Load Detectability Among People Living with HIV in Brazil.',
-    abstract: 'BACKGROUND: Understanding barriers to viral undetectability is crucial for developing targeted interventions for populations struggling with treatment adherence. The aim of this study was to investigate the impact of race, education, economic vulnerability and HIV-related stigma on viral load detectability among people living with HIV (PLWHA) in Brazil.\n' +
-      'METHODS: This was a cross-sectional, community-based study. The sample consisted of 1767 participants. We used the Brazilian version of the HIV Stigma Index 2.0 questionnaire, the Internalized AIDS-Related Stigma Scale, and a sociodemographic questionnaire. Viral load was self-reported. Data were collected by 30 PLHV themselves in 2019, after receiving training on the Brazilian Stigma Index. Data was analyzed with both descriptive and inferential statistics using SPSS.\n' +
-      'RESULTS: Our generalized linear model showed that participants who were non-white, with low education and of lower economic status had a lower likelihood of reporting undetectable viral load (UVL) compared compared to their respective counterparts (white participants, those with higher education, and those of higher economic status). Key population group membership was not significantly associated with UVL. Higher internalized stigma was negatively associated with lower UVL.\n' +
-      'CONCLUSION: Our findings highlight the impact of racial, educational and economic disparities and internalized stigma on HIV outcomes and underscore the need for tailored interventions that address the specific challenges faced by different racial/ethnic and more vulnerable groups. These findings challenge the dominant treatment-as-prevention framework that focuses primarily on key populations, suggesting the need to broaden our focus to include other vulnerable populations, such as non-whites and those experiencing economic hardship. Such approach is critical to avoid overlooking situations where community viral load remains high.',
+    id: '40772254',
+    title: 'Outsourcing Trouble: A Home International Comparison of Alternative Provision Across the UK.',
+    abstract: "This paper explores the complex landscape of alternative provision across the UK and its implications for school exclusion. Drawing on interviews with over 400 professionals, parents, and pupils in ten selected local authorities in England, Northern Ireland, Scotland and Wales, we find marked differences in the scale and nature of provision. These differences reflect the UK's diverging political economies of education. England's provision reflects its preference for quasi-market mechanisms. Scotland's reflects a commitment to inclusive education. Wales supports public provision but bears the legacy of historic control by England, while Northern Ireland's landscape is almost entirely publicly provided. The data suggest that the scale and diversity of alternative provision does not reduce school exclusions. England has the highest rates of exclusion and the greater number and diversity of providers. Scotland has lower rates of exclusions and fewer providers. It may even be that the availability of alternative provision creates its own demand. However, the relationship between exclusion rates and alternative provision is not straightforward, nor are its implications for educational parity. The paper concludes by arguing there is a pressing need for research on the opportunity costs of alternative provision for young people and the public sector.",
     published: '2025',
     authors: [
-      'Brandelli Costa Angelo',
-      'Graeff Bins-Ely Isadora',
-      'Penzato Valentina',
-      'Vaitses Fontanari Anna Martha',
-      'Alckmin-Carvalho Felipe',
-      'Pereira Henrique',
-      'Welter Wendt Guilherme'
+      'Power Sally',
+      'Bridgeman Jemma',
+      'Duffy Gavin',
+      'McCluskey Gillean',
+      'Tawell Alice',
+      'Taylor Annie'
     ],
-    journal: 'HIV/AIDS (Auckland, N.Z.)',
-    doi: '10.2147/HIV.S534526',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40766976/'
+    journal: 'British journal of educational studies',
+    doi: '10.1080/00071005.2025.2481869',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772254/'
   },
   {
-    id: '40766949',
-    title: 'Dementia-related stigma in physicians: a scoping review of stigma-reduction interventions.',
-    abstract: 'INTRODUCTION: Despite progress in dementia diagnosis and treatment, physician-held stigma remains a significant barrier to early recognition and effective care. Stigmatizing attitudes among healthcare professionals can negatively impact diagnosis rates, clinical interactions, and care quality for people living with dementia.\n' +
-      "METHODS: This scoping review was conducted following Arksey and O'Malley's framework. Peer-reviewed literature from 2014 to 2024 was systematically reviewed to identify and evaluate interventions aimed at reducing dementia-related stigma among physicians. A total of 14 studies met inclusion criteria, examining educational, skill-building, and person-centered approaches.\n" +
-      "RESULTS: Interventions included brief workshops, online modular training, and interdisciplinary methods integrating person-centered frameworks and behavior management tools. Validated outcome measures used in the studies included the Alzheimer's Disease Knowledge Scale (ADKS), the Dementia Negative Stereotype Scale (DNS), and the General Practitioners Confidence and Attitude Scale for Dementia (GPACS-D). Across studies, interventions were found to improve clinical confidence, reduce negative stereotypes, and enhance care quality.\n" +
-      'DISCUSSION: Findings highlight the importance of culturally sensitive and interdisciplinary interventions to address stigma, improve clinical confidence, and enhance care quality, particularly in low-resource settings. Notable gaps remain in understanding the long-term impact and scalability of such interventions. This review aims to contribute a deeper understanding of the barriers and facilitators to implementing dementia care practices, offering a conceptualization for enhanced physician education and improved health outcomes for persons with dementia. We offer recommendations for future research to develop tailored strategies that support stigma reduction and improve care delivery.',
-    published: '2025',
-    authors: [ 'Warren Alison', 'Wynia Zan' ],
-    journal: 'Frontiers in dementia',
-    doi: '10.3389/frdem.2025.1601462',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40766949/'
-  },
-  {
-    id: '40766942',
-    title: 'A Longitudinal, Practical Curriculum for Faculty Development as New Coaches in Graduate Medical Education.',
-    abstract: 'AUDIENCE AND TYPE OF CURRICULUM: This coach development curriculum is designed for faculty physicians who have little to no prior experience with coaching in medical education.\n' +
-      'LENGTH OF CURRICULUM: The curriculum was developed for use over an entire academic year (12 months), but can be scaled to as few as 6 months due to the degree of schedule flexibility allowed by the structure of the educational approaches.\n' +
-      'INTRODUCTION: As coaching becomes more common in medical education, faculty educators are in a prime position to integrate a coaching approach in interactions with trainees. Because coaching is a unique skill set that requires targeted training and deliberate practice, there is a need for a detailed curriculum for faculty development as coaches. Adequate training will ensure faculty understand the coaching principles and have built a level of comfortability with the coaching approach prior to implementation with learners.\n' +
-      'EDUCATIONAL GOALS: The aim of this curriculum is to provide a longitudinal, practical, and interactive coach training curriculum for faculty with no prior coaching experience.\n' +
-      'EDUCATIONAL METHODS: The educational strategies used in this curriculum include: asynchronous learning with assigned reading material to ensure a basic understanding of core coaching principles; high-yield synchronous sessions involving a mix of didactics, small-group discussion and reflection, and simulated case-based scenarios to provide opportunity for faculty to practice coaching skills. Each phase of the curriculum (three in total) uses a different educational strategy to address a specific goal and associated objectives.\n' +
-      'RESEARCH METHODS: The educational content was evaluated with anonymous pre- and post-surveys that consisted of both Likert-style and open-ended questions. Surveys were designed based on the Kirkpatrick Evaluation Model. Three post-surveys were used to evaluate each phase of the curriculum.\n' +
-      'RESULTS: Seven faculty participated in this curriculum. Kirkpatrick Levels 1 and 3 were used to evaluate faculty reactions and behaviors, respectively, in response to the curriculum. Participants reported a high satisfaction with the overall curriculum, increased understanding of coaching approach, increased comfort with incorporating coaching relational and communication skills, and increased comfort in approaching select resident scenarios. Unexpected results include faculty reporting use of coaching skills in interpersonal interactions outside of the professional space and an improved bond with other faculty participants.\n' +
-      'DISCUSSION: This curriculum is an effective method for increasing faculty knowledge and comfort with coaching skills. This curriculum and its materials can be adapted for other audiences who have no prior coaching experience and seek to learn the fundamentals of coaching and its use in medical education.\n' +
-      'TOPICS: Faculty development, coaching in medical education.',
+    id: '40772222',
+    title: 'Minimally Invasive Techniques for Managing Dental Caries in Children: Efficacy, Applications, and Future Directions.',
+    abstract: 'Minimally Invasive Dentistry (MID) represents a transformative approach in pediatric caries management, emphasizing tooth preservation, patient comfort, and preventive care over conventional invasive methods. The aim of this narrative review is to evaluate the efficacy, clinical applications, and future directions of various MID techniques in children, including silver diamine fluoride (SDF), atraumatic restorative treatment (ART), the Hall Technique, resin infiltration, and bioactive restorative materials. These methods have shown considerable success in reducing treatment complexity and improving outcomes, especially for high-risk and special healthcare needs (SHCN) populations. A structured literature search was conducted across PubMed, Scopus, and Google Scholar databases for studies published between 2000 and 2025. Search terms included "minimally invasive dentistry in children," "silver diamine fluoride pediatric caries," "atraumatic restorative treatment," and related techniques. Inclusion criteria encompassed clinical trials, systematic reviews, and expert consensus articles, while animal studies and those lacking rigorous methodology were excluded. Results indicate that MID techniques such as SDF can arrest caries in 80-90% of cases, while ART and the Hall Technique provide minimally invasive, cost-effective alternatives to conventional restorations. Resin infiltration improves esthetics and arrests lesion progression in non-cavitated teeth, while bioactive materials promote remineralization and pulp preservation. Emerging technologies, including laser-assisted caries removal, air abrasion, and AI-driven diagnostics, further enhance MID accessibility and precision. Despite promising outcomes, challenges such as clinician training deficits, parental concerns, and lack of long-term evidence persist. Future efforts should focus on addressing these barriers through research, education, and policy reform to facilitate the integration of MID into routine pediatric dental practice.',
     published: '2025-Jul',
     authors: [
-      'Mand Simanjit K',
-      'Gent Chariti',
-      'Barbour Sharon',
-      'Schnapp Benjamin H'
+      'Al-Kaff Arwa A',
+      'Alshehri Abdulrahman Z',
+      'Alasmari Rana A',
+      'Alsubaie Najd',
+      'Aldaws Albandari',
+      'Althaqeel Ameera',
+      'Alshehri Rola S',
+      'Alawaji Yasmin M'
     ],
-    journal: 'Journal of education & teaching in emergency medicine',
-    doi: '10.21980/J88M08',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40766942/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87450',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772222/'
   },
   {
-    id: '40766941',
-    title: 'A Comprehensive and Modality Diverse Cervical Spine and Back Musculoskeletal Physical Exam Curriculum for Medical Students.',
-    abstract: 'AUDIENCE: The target audience for this small group session focused on the cervical spine and back musculoskeletal physical exam is medical students of all levels, although it is most useful for those early in their career such as first- and second-year medical students. These videos can also be used for other health care professionals such as physicians, physician associates, nurses, or nurse practitioners learning or refreshing their physical exam skills.\n' +
-      `INTRODUCTION: The physical exam (PE) is one of the core components of a physician's toolkit and learning to perform the neck and back exam is important. When done correctly, physical exams are a useful tool in evaluating patients and in creating a differential diagnosis. This is especially true for many patient concerns such as neck and back pain and in specialties such as neurology where diagnoses may be established using empiric observation by trained clinicians.1Beginning in 2019, the University of California, Irvine, School of Medicine (UCISOM) revised the physical exam portion of the Clinical Foundations (CF; "doctoring" course) which serves as a four-year longitudinal course for UCISOM students to learn, practice, and improve their history-taking, physical exam, differential diagnosis, and physicianship skills. Focusing on the PE component of the curriculum, a team of physicians reviewed the materials utilized to teach all PE sessions, and these videos specifically, the cervical spine and back musculoskeletal PE for the first- and second-year students. These materials included book chapters and third-party videos; additionally, student and physician feedback were reviewed. Previous student feedback felt that the third-party videos were not engaging and too long (run length per video was upwards of 60 minutes), and students requested videos with slightly more detail for future clinical exams. Utilizing the UCISOM clinical faculty and standardized patients (SP), a team of physician educators and students researched PE best practices for the cervical spine and back musculoskeletal physical exam and developed new video scripts and slides, and ultimately filmed, edited, and produced a series of eight videos demonstrating the cervical and back musculoskeletal PE maneuvers. These videos were one part of a series of fifty-six PE videos developed for learners of a comprehensive physical exam. Other portions of the series focus on vital signs, the cardiovascular exam, pulmonary exam, gastrointestinal exam, neurological exam, head, eyes, ears, nose and throat, and upper and lower extremity exams.\n` +
-      'EDUCATIONAL OBJECTIVES: By the end of this session, students will be able to: 1) demonstrate how to properly perform a cervical spine and back physical exam, 2) understand the reasoning behind cervical spine and back PE maneuvers, 3) identify the proper technique and equipment to use for the cervical spine and back PE, 4) understand normal and abnormal findings in the cervical spine and back PE, 5) accurately record and report exam findings for the cervical spine and back PE.\n' +
-      `EDUCATIONAL METHODS: The first-year medical student physical exam small group sessions used a flipped classroom model with the videos serving as a learning resource center (LRC) followed by an in-person, hands-on PE session with standardized patients (SP) led by a Dean's Scholar.Prior to the in-person session, the students were required to watch, at minimum, the English cervical spine and back "Full Video" physical exam. Bilingual Spanish speaking students in the UCISOM PRIME-LC (Program in Medical Education for the Latino Community) cohort were also encouraged to watch the Spanish "Full Videos" because their hands-on sessions are completed in Spanish. Learners were also given the option to read about the physical exam, its purpose and steps to perform each maneuver via the Bates Guide to Physical Examination and History Taking which is available via the UCISOM Library.The in-person, hands-on cervical spine and back musculoskeletal PE sessions occurred in a large group setting with approximately fifty students and four to six faculty members present; students were separated into groups of three to six students at a table with a standardized patient, and the session occurred over the span of two hours. When students arrived at the PE didactic session, the cervical spine and back musculoskeletal exam was discussed, and then groups would practice the PE with the facilitator and standardized patient using the video to guide the examination.\n` +
-      'RESEARCH METHODS: After completion of the small group session, learners from the first- and second-year medical school classes were encouraged to complete a Qualtrics survey regarding the videos and small group sessions. The survey asked students if they felt the videos were helpful, whether they made them more confident at performing physical exams, and if they had high production quality.\n' +
-      'RESULTS: As of January 2023, the musculoskeletal cervical spine and back videos received 372 views and downloads, 318 unique viewers, and delivered 1,776 minutes of content. Thirty-one learners (response rate of approximately 25%) responded to the survey. The educational quality of all the musculoskeletal videos, including cervical spine and back, averaged 4.71 out of 5, the usefulness averaged 4.63 out of 5, and the production quality averaged 4.56 out of 5.\n' +
-      'DISCUSSION: Based on the results from our survey as well as end-of-course feedback and verbal feedback sessions with leaners, we deem this educational content efficacious. The videos and all content related to them (eg, scripts, graphics, voice over) were assessed by a team of seven physicians. We feel the efficacy of the videos increases when implemented with other modalities of LRC such as written material or podcasts. Using multiple other modalities allows learners to experiment and utilize the modality that will aid their learning the best. Importantly, we also learned from the implementation of the videos that auto-generated subtitles for the videos in Spanish were often incorrect. This was in part due to the learning management system used to maintain the videos, but also could have been alleviated by including subtitles within the videos themselves. Overall, video content demonstrating these maneuvers, both with and without additional graphics and voice-over, and in two languages, was highly efficacious for UCISOM students in the CF course.\n' +
-      'TOPICS: Physical exam, cervical spine, neck, back, low back, musculoskeletal, video, voice-over, medical student education.',
+    id: '40772189',
+    title: 'Nurse-Led Educational Intervention Improves Self-Care Knowledge in Type 2 Diabetes: A Pre-Post Study Using the Diabetes Knowledge Questionnaire.',
+    abstract: "Objective Type 2 diabetes mellitus (T2DM) is a chronic, non-communicable disease that is becoming increasingly prevalent around the world, particularly in low- and middle-income countries. Patient education plays a critical role in promoting the self-care behaviours that are essential for glycemic control and preventing complications. The aim of this study was to evaluate the effectiveness of a nurse-led educational intervention in improving diabetes knowledge in adults with T2DM, as measured by the Diabetes Knowledge Questionnaire (DKQ-24). Materials and methods A quasi-experimental pre-post study was conducted at the Medical Care and Research Centre in Mérida, Yucatán, Mexico, from April to May 2025. Thirty adult patients with confirmed T2DM and no prior structured diabetes education participated in a three-session educational programme delivered by trained nurses. The DKQ-24 was administered before and after the intervention. Descriptive statistics and paired t-tests were used to analyse changes in total and domain-specific knowledge scores. A Shapiro-Wilk test confirmed normality, with a significance level of p < 0.05 applied. Results The mean DKQ-24 score increased significantly from 24.1 ± 5.8 to 26.4 ± 4.5 (p = 0.0039). Notable improvements were seen in items addressing misconceptions about special diets, wound care, and insulin production. The most significant knowledge gains occurred in the disease control and complications domain. Nine out of 24 items showed statistically significant improvement post-intervention. Conclusion A brief educational intervention led by nurses significantly improved patients' knowledge of diabetes, particularly by dispelling persistent myths. These findings highlight the important role of nurses in therapeutic education and support the incorporation of structured educational programmes into clinical diabetes care.",
     published: '2025-Jul',
     authors: [
-      'Davis Konnor',
-      'Frank Aaron',
-      'Alcala-Arcos Trinidad',
-      'Godenzi Claire',
-      'Allison Melissa',
-      'Riggle Clara',
-      'Sakaria Sangeeta',
-      'Nelson Ariana M',
-      'Wray Alisa',
-      'Kim Brian Y'
+      'Ayuso-Diaz Victor M',
+      'Colli-Garcia Jonathan J',
+      'Hernandez-Pat Michelle A'
     ],
-    journal: 'Journal of education & teaching in emergency medicine',
-    doi: '10.21980/J8RQ0N',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40766941/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87477',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772189/'
   },
   {
-    id: '40766925',
-    title: 'Implementation of generative AI for the assessment and treatment of autism spectrum disorders: a scoping review.',
-    abstract: 'INTRODUCTION: Autism spectrum disorder (ASD) is characterized by persistent deficits in social communication and restrictive, repetitive behaviors. Current diagnostic and intervention pathways rely heavily on clinician expertise, leading to delays and limited scalability. Generative artificial intelligence (GenAI) offers emerging opportunities for automatically assisting and personalizing ASD care, though technical and ethical concerns persist.\n' +
-      'METHODS: We conducted systematic searches in Embase, PsycINFO, PubMed, Scopus, and Web of Science (January 2014 to February 2025). Two reviewers independently screened and extracted eligible studies reporting empirical applications of GenAI in ASD screening, diagnosis, or intervention. Data were charted across GenAI architectures, application domains, evaluation metrics, and validation strategies. Comparative performance against baseline methods was synthesized where available.\n' +
-      'RESULTS: From 553 records, 10 studies met the inclusion criteria across three domains: (1) screening and diagnosis (e.g., transformer-based classifiers and GAN-based data augmentation), (2) assessment and intervention, (e.g., multimodal emotion recognition and feedback systems), and (3) caregiver education and support (e.g., LLM-based chatbots). While most studies reported potential performance improvements, they also highlighted limitations such as small sample sizes, data biases, limited validation, and model hallucinations. Comparative analyses were sparse and lacked standardized metrics.\n' +
-      "DISCUSSION: This review (i) maps GenAI applications in ASD care, (ii) compares GenAI and traditional approaches, (iii) highlights methodological and ethical challenges, and (iv) proposes future research directions. Our findings underscore GenAI's emerging potential in autism care and the prerequisites for its ethical, transparent, and clinically validated implementation.\n" +
-      'SYSTEMATIC REVIEW REGISTRATION: https://osf.io/4gsyj/, identifier DOI: 10.17605/OSF.IO/4GSYJ.',
+    id: '40772177',
+    title: 'Sporadic Dup15q Syndrome Presenting With Developmental Delay, Intellectual Disability, Attention-Deficit/Hyperactivity Disorder, and Epilepsy: A Case Report.',
+    abstract: 'Chromosome 15q duplication (Dup15q) syndrome is a rare genetic disorder that presents with a range of psychiatric and neurological symptoms. To date, no cases have been reported involving a patient with a 300 kb microduplication on chromosome 15 presenting with developmental delay, intellectual disability, attention-deficit/hyperactivity disorder (ADHD), and epilepsy. We describe a 20-year-old male diagnosed with Dup15q syndrome at the age of nine. His early development was marked by congenital strabismus, global developmental delay, and intellectual disability, which required enrollment in a special education program until age 11. He also exhibited hyperactivity, aggression, and self-injurious behavior. Since then, both his motor and cognitive functions have progressively declined. At age 14, he was diagnosed with ADHD. Treatment with atomoxetine, methylphenidate, and risperidone provided partial symptom relief. However, escitalopram triggered episodes of severe tantrums and was subsequently discontinued. From the age of 16, he began experiencing epilepsy, characterized by focal seizures, generalized tonic-clonic seizures, and absence seizures. Valproic acid (VPA) was effective in significantly reducing his seizure activity. This case highlights that Dup15q syndrome associated with a 300 kb microduplication can predominantly affect the central nervous system and may respond favorably to atomoxetine, methylphenidate, risperidone, and VPA. Dup15q syndrome should be considered in the differential diagnosis of individuals presenting with developmental delay, intellectual disability, ADHD, and epilepsy.',
+    published: '2025-Jul',
+    authors: [ 'Finsterer Josef', 'Barwari Awini' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87458',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772177/'
+  },
+  {
+    id: '40772176',
+    title: 'Assessment of the Knowledge, Attitudes, and Practices of Primary Care Physicians Toward Prediabetes in Qassim, Saudi Arabia.',
+    abstract: 'Background Prediabetes is a growing public health concern globally as well as in Saudi Arabia, where early detection and intervention are crucial. Primary care physicians (PCPs) play a pivotal role in the prevention and management of prediabetes. However, gaps in knowledge, attitude, and practice (KAP) may hinder effective care delivery. This study aimed to assess the knowledge, attitudes, and practices of PCPs toward prediabetes in Qassim, Saudi Arabia, and to explore perceived barriers and potential strategies for improving its management. Methods A cross-sectional survey was conducted among 163 PCPs working in primary healthcare centers across Qassim province. Data were collected using a structured online questionnaire assessing the awareness of risk factors, diagnostic criteria, management approaches, screening attitudes, and practical behaviors related to prediabetes. Results We found that the mean knowledge, attitude, and practice scores were 3.41/5 (±0.84), 12.84/16 (±1.78), and 3.38/5 (±0.54). The mean knowledge score was significantly higher among family physicians (3.84/5) as compared to general practitioners (2.85/5), p-value <0.001. Urban physicians also scored higher (3.52/5) than their rural counterparts (2.65/5), p-value <0.001. Attitude scores demonstrated a weak but significant correlation with age (r = 0.227, p-value 0.004) and years of experience (r = 0.202, p-value 0.010), while practice scores showed a similar pattern. Gender and location of practice were not significantly associated with practice behaviors. Notably, family physicians exhibited more favorable attitudes than general practitioners (p-value 0.004). The most common barriers in prediabetes management included a lack of patient awareness (96.9%), non-compliance (96.3%), follow-up difficulties (92%), and referral issues (86.5%). Conclusion Although PCPs in Qassim express generally positive attitudes toward prediabetes management, knowledge and practice gaps remain, particularly among general practitioners and those practicing in rural areas. These findings underscore the need for targeted interventions, such as mandatory continuing medical education (CME), integration of prediabetes care into routine workflows, and the use of region-specific decision-support tools like red flags in the current EHR system of PHCs. Broader national studies are recommended to validate these findings and guide policy at a systemic level.',
+    published: '2025-Jul',
+    authors: [ 'Alyahya Abdullah K', 'Rabbani Unaib' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87454',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772176/'
+  },
+  {
+    id: '40772159',
+    title: 'Patient Partnership in Stroke Care: A Scoping Review.',
+    abstract: "Patient partnership is increasingly recognised as a core component of high-quality healthcare. This review aims to explore how patient partnership is implemented across the stroke pathway, where recovery trajectories are complex and multidimensional. It will also show how medical education can shift student learning from a transactional process to one of partnership and collaboration. A literature search was conducted across Cochrane Library, Embase, and PubMed, in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews (PRISMA-ScR) guidelines. Studies were screened by title, abstract, and full text against eligibility criteria. Eleven articles were included in the review. Each article underwent quality appraisal using the Critical Appraisal Skills Programme (CASP) tool. Thematic synthesis was used, mapping findings onto three key stages of the Stroke RightCare Pathway: hyperacute, the stroke unit and early supported discharge, and long-term rehabilitation. This review found that the role of the patient and clinician has changed in modern-day healthcare from paternalistic to one that aims to actively bring clinicians and patients together to form a collaborative partnership. Tailoring this partnership in each stage of stroke care is vital. In the hyperacute stroke setting, clinician-led decisions were found to be most beneficial for the patient due to the short time window to initiate treatment. During the acute phase, educating patients to understand their condition can allow for meaningful and collaborative goal-setting to take place, which has demonstrated improved patient outcomes. In medical education, introducing patient partnership early in a student's training is essential for creating a lasting impact on healthcare. Patient partnership must be tailored across the stroke pathway, and embedding these principles in medical education is important in shaping future clinicians' attitudes and practices. Future research should explore formal patient partnership training strategies for both students and clinicians. It should also assess whether clinicians find this approach appropriate across different medical conditions and clinical settings.",
+    published: '2025-Jul',
+    authors: [
+      'Bux Hussain',
+      'Zurel Furkan',
+      'Rashid Zakaria',
+      'Sani Immanuel'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87446',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772159/'
+  },
+  {
+    id: '40772154',
+    title: 'A Narrative Review of Neurodevelopmental, Psychiatric, and Behavioral Consequences of Preterm Birth.',
+    abstract: 'Preterm infants survive into adulthood. However, this survival often comes with increased health and social challenges during adolescence and adulthood, including medical disabilities, learning difficulties, and behavioral and psychological issues. Understanding the long-term outcomes of preterm birth is crucial for developing prevention and treatment strategies, as well as setting future research priorities. Research in this area can be complex due to the need for long follow-up periods and changes in the classification of diseases and outcomes over time, which make it challenging to establish meaningful associations. This narrative literature review aims to consolidate information about the long-term neurodevelopmental, psychiatric, and behavioral outcomes and management of individuals born preterm. Key risk factors affecting preterm survivors include comorbid conditions and socioeconomic status. Prematurity disrupts cortical growth and myelination, making the brain vulnerable to vascular injury. These issues can lead to white matter injury, interventricular hemorrhage, and cerebellar hemorrhage, resulting in motor, language, and learning deficits. Cognitive impairments and difficulties with executive functions can adversely affect academic performance in preterm children. Research consistently shows that early intervention and long-term follow-up can improve neurological impairment. Because the brains of preterm infants are still developing, they require continuous care to support their social and educational development. Early physiotherapy, targeted speech therapy, and individualized education programs tailored to assess school readiness can significantly enhance motor skills and mitigate the neurological impacts of prematurity. Additionally, prenatal interventions and preventive strategies can help reduce the risk of long-term neurodevelopmental impairments. More studies with extended follow-up into adulthood are needed to better understand the social, behavioral, and psychological impacts of prematurity.',
+    published: '2025-Jul',
+    authors: [
+      'Palanivel Siddharth',
+      'Menon Vaishnavi B',
+      'Mohammed Salih Idrees',
+      'Rajmohankumar Vijayalakshmi',
+      'Sudhir Velani Khushi',
+      'Kathiresan Sasikala',
+      'Campbell Colleen',
+      'Upadhyay Eshita',
+      'Ram Sankar',
+      'Pendem Harini',
+      'Lysak Yuliya'
+    ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.87423',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772154/'
+  },
+  {
+    id: '40772127',
+    title: 'Perceptions of Meat Alternatives Among Adolescents in Korea.',
+    abstract: "We investigated adolescents' perceptions of meat alternatives and examined the relationships among their views on various types of these alternatives. A survey was conducted with 372 middle and high school students, focusing on their perceptions of 3 categories of meat alternatives: plant-based meats, edible insects, and cultured meats. The relationships among these perceptions were subsequently analyzed. Overall, 77.4% of respondents were aware of meat alternatives, and 38.7% reported having consumed them. Perception levels differed by category, with plant-based meats receiving the highest scores, followed by cultured meats and edible insects. Notably, perceptions across the different categories of meat alternatives were significantly correlated. These findings suggest that increasing awareness about meat alternatives-particularly through education-may help promote sustainable and healthy eating behaviors among adolescents.",
+    published: '2025-Jul',
+    authors: [
+      'Lyum Bo-Young',
+      'Han Su-Ryeon',
+      'Choi Minseo',
+      'Choi Mi-Kyeong'
+    ],
+    journal: 'Clinical nutrition research',
+    doi: '10.7762/cnr.2025.14.3.174',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772127/'
+  },
+  {
+    id: '40772108',
+    title: 'A virtual-based educational intervention for nurses about trauma patients triage: A mixed-method study protocol.',
+    abstract: 'BACKGROUND: The lack of professional knowledge and clinical skills of nurses about triage has been a serious issue for health care managers. Therefore, considering the importance of applying learner-based methods and using virtual learning, the present study will be conducted with the aim of designing a web-based educational intervention for nurses about the triage of trauma patients.\n' +
+      'MATERIALS AND METHODS: This mixed-method study (qualitative-quantitative) will be conducted in four phases: literature review, qualitative research, program design and validation, and quantitative evaluation. In the first phase, a comprehensive literature review will be conducted to extract educational methods used in Iran and other countries. The second phase involves conventional content analysis based on semi-structured interviews with nurses and emergency medicine specialists to identify educational needs in triage. Participants will be selected through purposive sampling. In the third phase, a web-based educational program will be designed using the findings from the first two phases. The program will then be validated through the classic Delphi method (RAND approach). In the final phase, the educational program will be implemented in an experimental study involving control and intervention groups, and the effectiveness of the intervention will be evaluated.\n' +
+      "CONCLUSION: The development of web-based training programs that consider learners' needs can significantly enhance the effectiveness and implementation of educational initiatives. Furthermore, integrating educational technology --such as designing an experimental platform tailored to the social and cultural context of Iran --can improve triage-related training for nurses beyond their formal academic education.",
     published: '2025',
-    authors: [
-      'Sohn Jun-Seok',
-      'Lee Eojin',
-      'Kim Jae-Jin',
-      'Oh Hyang-Kyeong',
-      'Kim Eunjoo'
-    ],
-    journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1628216',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40766925/'
-  },
-  {
-    id: '40766853',
-    title: 'Prevalence of psychological symptoms in low and high-risk pregnant women: A cross-sectional study.',
-    abstract: 'BACKGROUND: Common psychological disorders during pregnancy can have obvious harmful effects on both mother and fetus.\n' +
-      'OBJECTIVE: This study aimed to investigate the prevalence of psychological symptoms in low and high-risk pregnant women.\n' +
-      'MATERIALS AND METHODS: This cross-sectional study was conducted on 400 low-risk and high-risk pregnant women in Afzalipour hospital, Kerman, Iran from December 2017-2018. Participants were selected by census method, and the data collection tool was a 90-item questionnaire named Symptom Checklist-90.\n' +
-      'RESULTS: The mean age of pregnant women was 29.1  6.8 yr. 7.6% had gestational diabetes mellitus, 5.9% had pregnancy hypertension, 6.6% had a history of in vitro fertilization, and 17.5% had a history of one miscarriage. 61.2 and 65.5% of high-risk women had depression and anxiety, respectively. A significant difference was observed between low-risk and high-risk women in terms of depression (p = 0.019), anxiety (p = 0.049), and aggression (p = 0.013), and the frequency of these variables was higher in high-risk women than in low-risk women.\n' +
-      'CONCLUSION: According to age, education, and gestational period, the differences between 2 groups (low-risk and high-risk) were significant. Compared with low-risk women, high-risk pregnant women reported a higher prevalence of psychological symptoms in 10 factors. High-risk pregnant women had a significantly higher prevalence of somatization symptoms, obsessive-compulsive symptoms, depression symptoms, anxiety symptoms, hostility symptoms, and paranoid ideation than low-risk women. Therefore, educational programs during pregnancy for high-risk women can be useful.',
-    published: '2025-Apr',
-    authors: [
-      'Dalili Maryam',
-      'Mehdizadeh Ali',
-      'Nodinnejad Maryam',
-      'Karami Robati Fatemeh'
-    ],
-    journal: 'International journal of reproductive biomedicine',
-    doi: '10.18502/ijrm.v23i4.18781',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40766853/'
+    authors: [ 'Askari Reihane', 'Rafiei Malihe', 'Mohamadirizi Shahla' ],
+    journal: 'Journal of education and health promotion',
+    doi: '10.4103/jehp.jehp_121_24',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40772108/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1658,6 +1631,7 @@ Translating paper 14/50
 Translating paper: The effectiveness of the emergency eLearning durin...
 Translating paper 15/50
 Translating paper: Experience and education...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.2599004777082983 seconds...
 Translating paper 16/50
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
 Translating paper 17/50
@@ -1689,25 +1663,25 @@ Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
 Translating paper 31/50
-Translating paper: Anxiety and quality-of-life for parents of childre...
+Translating paper: Cognitive function in Chinese patients with schizo...
 Translating paper 32/50
-Translating paper: User testing of a previsit chatbot developed for p...
+Translating paper: Outsourcing Trouble: A Home International Comparis...
 Translating paper 33/50
-Translating paper: [Trends in the sufficiency of long-term care as pe...
+Translating paper: Minimally Invasive Techniques for Managing Dental ...
 Translating paper 34/50
-Translating paper: Access in all areas? A round up of developments in...
+Translating paper: Nurse-Led Educational Intervention Improves Self-C...
 Translating paper 35/50
-Translating paper: The Impact of Race, Education, Economic Vulnerabil...
+Translating paper: Sporadic Dup15q Syndrome Presenting With Developme...
 Translating paper 36/50
-Translating paper: Dementia-related stigma in physicians: a scoping r...
+Translating paper: Assessment of the Knowledge, Attitudes, and Practi...
 Translating paper 37/50
-Translating paper: A Longitudinal, Practical Curriculum for Faculty D...
+Translating paper: Patient Partnership in Stroke Care: A Scoping Revi...
 Translating paper 38/50
-Translating paper: A Comprehensive and Modality Diverse Cervical Spin...
+Translating paper: A Narrative Review of Neurodevelopmental, Psychiat...
 Translating paper 39/50
-Translating paper: Implementation of generative AI for the assessment...
+Translating paper: Perceptions of Meat Alternatives Among Adolescents...
 Translating paper 40/50
-Translating paper: Prevalence of psychological symptoms in low and hi...
+Translating paper: A virtual-based educational intervention for nurse...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1729,25 +1703,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 843 -> 803
-Total papers after merging: 803 (793 existing + 50 new)
-Saved 803 papers to papers.json
+Removed duplicates: 853 -> 813
+Total papers after merging: 813 (803 existing + 50 new)
+Saved 813 papers to papers.json
 Generating HTML files...
-Generating index.html with 803 papers...
+Generating index.html with 813 papers...
 Successfully generated index.html
-Generating archive.html with 803 papers...
+Generating archive.html with 813 papers...
 Successfully generated archive.html
-Generating journal.html with 803 papers...
+Generating journal.html with 813 papers...
 Successfully generated journal.html
-Generating acquisition.html with 803 papers...
+Generating acquisition.html with 813 papers...
 Successfully generated acquisition.html
-Generating publication.html with 803 papers...
+Generating publication.html with 813 papers...
 Successfully generated publication.html
-Generating registration.html with 803 papers...
+Generating registration.html with 813 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 803
+Total papers in database: 813
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-06T15:44:04.106Z
+Timestamp: 2025-08-07T15:44:12.731Z
