@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-08T15:12:25.274Z
+Timestamp: 2025-08-09T15:10:24.322Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 813 existing papers from papers.json
+Loaded 823 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,22 +297,114 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 429
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Fetched papers from Semantic Scholar: [
+  {
+    id: '220861296c6034a194f9c62612c12973a35b5c05',
+    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
+    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
+    published: '1996-01-01T00:00:00.000Z',
+    authors: [ 'Scott Key' ],
+    journal: 'No journal available',
+    doi: '10.1080/00221546.1996.11780256',
+    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
+  },
+  {
+    id: '60dfd50de8b3b43861ddaa0544a95f9652ea5ee1',
+    title: 'Handbook of THE ECONOMICS OF EDUCATION',
+    abstract: 'A substantial amount of money is spent on technology by schools, families, and policymakers with the hope of improving educational outcomes. This chapter explores the theoretical and empirical literature on the impacts of technology on educational outcomes. The literature focuses on two primary contexts in which technology may be used for educational purposes: (i) classroom use in schools and (ii) home use by students. Theoretically, information and communications technology (ICT) investment and computer-aided instruction (CAI) use by schools and the use of computers at home have ambiguous implications for educational achievement: expenditures devoted to technology necessarily offset inputs that may be more or less efficient, and time allocated to using technology may displace traditional classroom instruction and educational activities at home. However, much of the evidence in the schooling literature is based on interventions that provide supplemental funding for technology or additional class time, and thus favor finding positive effects. Nonetheless, studies of ICT and CAI in schools produce mixed evidence with a pattern of null results. Notable exceptions to this pattern occur in studies of developing countries and CAI interventions that target math rather than language. In the context of home use, early studies based on multivariate and instrumental variables approaches tend to find large positive (and in a few cases negative) effects while recent studies based on randomized con-trol experiments tend to find small or null effects. Early research focused on developed countries while more recently several experiments have been conducted in developing countries.',
+    published: '2016-01-01T00:00:00.000Z',
+    authors: [ 'G. Bulman', 'R. W. Fairlie' ],
+    journal: 'No journal available',
+    doi: null,
+    link: 'https://www.semanticscholar.org/paper/60dfd50de8b3b43861ddaa0544a95f9652ea5ee1'
+  },
+  {
+    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
+    title: 'The New Economics for Industry, Government, Education',
+    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
+    published: '2018-01-01T00:00:00.000Z',
+    authors: [ 'A. Propst', 'W. Deming' ],
+    journal: 'No journal available',
+    doi: '10.2307/1270625',
+    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
+  },
+  {
+    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
+    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
+    abstract: 'No abstract available',
+    published: '2021-01-01T00:00:00.000Z',
+    authors: [ 'M. Roman', 'A. Plopeanu' ],
+    journal: 'International Review of Economic Education',
+    doi: '10.1016/j.iree.2021.100218',
+    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
+  },
+  {
+    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
+    title: 'Experience and education',
+    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
+    published: '2019-01-01T00:00:00.000Z',
+    authors: [ 'K. John-Alder' ],
+    journal: 'Ian McHarg and the Search for Ideal Order',
+    doi: '10.4324/9781315545639-2',
+    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
+  },
+  {
+    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
+    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
+    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [
+      'W. Geerling',
+      'G. D. Mateer',
+      'Jadrian Wooten',
+      'Nikhil Damodaran'
+    ],
+    journal: 'The American Economist',
+    doi: '10.1177/05694345231169654',
+    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
+  },
+  {
+    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
+    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
+    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci10080205',
+    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
+  },
+  {
+    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
+    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
+    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
+    published: '2023-01-01T00:00:00.000Z',
+    authors: [ 'C. Lo' ],
+    journal: 'Education sciences',
+    doi: '10.3390/educsci13040410',
+    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
+  },
+  {
+    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
+    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
+    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
+    journal: 'Sustainability',
+    doi: '10.3390/SU12198169',
+    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
+  },
+  {
+    id: 'dfe1638926b75aa7be50299ad0d3eb3954673350',
+    title: 'The Effect of Using Simulation on Developing Students’ Character Education in Learning Economics',
+    abstract: 'This research aims to explain the effect in using simulation to develop students’ educated character in learning economics. The quantitative analysis uses pre-and post-test experimental design, while descriptive analysis is completed with percentage analysis and the category of the mean score. Instruments of data collection use observation rule and questionnaire by using four scale assessments start from very good/strongly agree until very bad/strongly disagree. The result of the research shows that there are different characters in education development before and after implementation simulation in learning economics. The use of simulation in learning economics has an effect on the development of student character education. The simulation in learning economics can develop the students’ character with very good category, with a total percentage that shows the number of good at 56.29% and very good at 42.71%. Through simulation, learning economics conducted is easier to develop the very important character education in students’ life. The simulation which presents the real situation in learning economics improves the students’ learning experience in economics field, so that the students can feel that real condition, especially for learning activity to do the economical activity by implementing good characters (by using good ways) and avoids the bad ways which can be harmful for others.',
+    published: '2020-01-01T00:00:00.000Z',
+    authors: [ 'Fahimul Amri', 'E. Djatmika', 'H. Wahyono', 'S. Widjaja' ],
+    journal: 'International Journal of Instruction',
+    doi: '10.29333/IJI.2020.13424A',
+    link: 'https://www.semanticscholar.org/paper/dfe1638926b75aa7be50299ad0d3eb3954673350'
+  }
+]
+Collected 10 papers from semanticScholar
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
 Fetched papers from Springer: [
@@ -497,202 +589,228 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40778423',
-    title: 'Design, Psychometric Validation, and Network Analysis of the Evaluation Scale for Puberty Health Education Programs (EPHEP-Scale) for Students Aged 10-18.',
-    abstract: 'INTRODUCTION: Puberty health, as a fundamental aspect of adolescent health, requires targeted and evaluated educational programs. However, to date, a comprehensive tool to measure the effectiveness of these programs has not been developed. Therefore, this study aimed at the design and psychometric validation of the Evaluation Scale for Puberty Health Education Programs (EPHEP-Scale) for students aged 10-18.\n' +
-      'METHOD: To develop and validate this scale, a sequential exploratory mixed-methods design was used. The samples included 850 students aged 10 to 18 from four Arab countries. The study also utilized Exploratory Graph Analysis (EGA) from a network perspective.\n' +
-      'RESULTS: The results of the EFA and CFA showed that this scale includes six factors: Behavioral Reflexivity in Health Practices, Cognitive Resonance with Puberty, Transformative Impact on Self and Aspirations, Interpersonal Connectivity and Social Navigation, Emotional Synchrony and Adaptation, and Meta-Cognition and Reflective Learning. Additionally, network analysis further supported the six-factor structure of the EPHEP. These results indicate that the EPHEP-Scale is an accurate and reliable tool for evaluating puberty health education programs, making it suitable for use in various educational settings.\n' +
-      'IMPLICATIONS FOR SCHOOL HEALTH POLICY, PRACTICE, AND EQUITY: The EPHEP-Scale offers policymakers and school health practitioners a culturally validated, equity-focused tool to assess and refine puberty health curricula. By capturing psychosocial and behavioral dimensions, it enables targeted resource allocation, particularly in resource-limited or culturally diverse settings, and promotes equitable evaluation of program impacts across gender and regional contexts. Adoption of this instrument can support data-driven policy decisions to enhance access, reduce stigma, and ensure that all students benefit from high-quality, contextually relevant puberty education.\n' +
-      'CONCLUSION: By providing a comprehensive framework to measure multiple aspects of puberty health development, the EPHEP enhances the effectiveness of these programs and enables their optimization for diverse student groups. With its broad impact on the design and implementation of educational initiatives, this scale plays a crucial role in improving the quality of life of puberties, as well as their mental and social well-being, ultimately fostering healthier and more informed generations across different communities.',
+    id: '40779803',
+    title: 'Does back pain catastrophizing influence 60-month surgical outcomes for patients with degenerative lumbar spondylolisthesis? A Quality Outcomes Database study.',
+    abstract: "OBJECTIVE: Degenerative lumbar spondylolisthesis is a common cause of back and leg pain influenced by factors like instability, disc degeneration, facet arthropathy, and psychosocial phenotype. Patients' experience of high-severity pain is complex, with significant implications for surgical planning. The goal of this study was to assess the impact of back pain catastrophizing on long-term outcomes following lumbar spondylolisthesis surgery.\n" +
+      'METHODS: This study uses the Quality Outcomes Database (QOD) lumbar spondylolisthesis dataset and includes prospectively collected data from the 12 highest-enrolling clinical sites participating in the QOD lumbar module. The authors reviewed patients undergoing single-segment surgery for grade 1 degenerative lumbar spondylolisthesis. Severe baseline numeric rating scale for back pain (NRS-BP) scores (≥ 8) were classified as "catastrophizing," and mild to moderate pain scores (< 8) were classified as "non-catastrophizing." Patient-reported outcomes (PROs) were compared for catastrophizing versus non-catastrophizing patients at 60 months. Univariate and multivariate analyses were conducted to assess the impact of catastrophizing on PROs, with multivariate analysis controlling for variables initially reaching a p value < 0.10.\n' +
+      'RESULTS: Of the 608 patients in this analysis, 260 (42.8%) experienced catastrophizing while 348 (57.2%) did not. Catastrophizing patients were significantly younger (59.9 ± 12.2 years vs 63.9 ± 11.7 years, p < 0.001), less often had ≥ 4 years of college education (31.2% vs 42.5%, p = 0.004), and more often used private insurance (58.8% vs 47.7%, p = 0.01). The catastrophizing cohort also had higher rates of depression (24.6% vs 17.0%, p = 0.02) and back pain predominance (45.4% vs 32.2%, p < 0.001). Surgical and perioperative characteristics did not significantly differ between cohorts. Although catastrophizing patients typically reported worse PRO scores at both baseline and 60 months, they demonstrated significantly greater improvement and minimal clinically important difference (MCID) achievement across almost all PROs at 60 months (p < 0.05). However, North American Spine Society (NASS) satisfaction scores at 60 months did not differ significantly between cohorts. Multivariate analysis found that catastrophizing significantly predicted 60-month NRS-BP change (β -1.45, 95% CI -1.81 to -1.09; p < 0.001) and MCID achievement (OR 1.98, 95% CI 1.52-2.58; p < 0.001) but not mean NRS-BP score or other metrics, including NASS satisfaction.\n' +
+      'CONCLUSIONS: Despite presenting with worse baseline symptoms, patients with pain catastrophizing experienced substantial and clinically meaningful improvement following surgery for degenerative lumbar spondylolisthesis. Patient satisfaction was comparable between cohorts, reflecting a nuanced balance between greater absolute improvement and persistence of residual symptoms. These findings underscore that catastrophizing should not be viewed as a barrier to surgical success, while pointing to the need for proactive expectation setting and shared decision-making.',
     published: '2025-Aug-08',
     authors: [
-      'Al-Rousan Ayoub Hamdan',
-      'Ayasrah Mohammad Nayef',
-      'Khasawneh Mohamad Ahmad Saleem',
-      'Khasawneh Yusra Jadallah Abed'
+      'Yang Eunice',
+      'Schonfeld Elan',
+      'Boyett Deborah',
+      'Mummaneni Praveen V',
+      'Chou Dean',
+      'Bydon Mohamad',
+      'Bisson Erica F',
+      'Shaffrey Christopher I',
+      'Glassman Steven D',
+      'Foley Kevin T',
+      'Potts Eric A',
+      'Yen Chun-Po',
+      'Coric Domagoj',
+      'Knightly John J',
+      'Park Paul',
+      'Wang Michael Y',
+      'Fu Kai-Ming',
+      'Slotkin Jonathan R',
+      'Asher Anthony L',
+      'Virk Michael S',
+      'Haid Regis W',
+      'Chan Andrew K'
     ],
-    journal: 'The Journal of school health',
-    doi: '10.1111/josh.70060',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778423/'
+    journal: 'Journal of neurosurgery. Spine',
+    doi: '10.3171/2025.5.SPINE25310',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779803/'
   },
   {
-    id: '40778382',
-    title: 'Navigating online health information: empowerment vs. misinformation.',
-    abstract: 'No abstract available',
-    published: '2025',
-    authors: [ 'Silburn Alan' ],
-    journal: 'Frontiers in digital health',
-    doi: '10.3389/fdgth.2025.1555290',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778382/'
-  },
-  {
-    id: '40778369',
-    title: "Women's health facility choices for antenatal, delivery, and postnatal care in Eastern Visayas, Philippines.",
-    abstract: 'BACKGROUND: This study aims to identify socioeconomic factors associated with the choice of antenatal care (ANC) facilities and to analyze trends in the utilization of health facilities for delivery and postnatal care (PNC) based on the type of ANC facility in Eastern Visayas, Philippines.\n' +
-      'METHODS: This secondary data analysis uses baseline and one-year follow-up survey data from a quasi-experimental study conducted in September 2023 and 2024. Data from 1,414 women with information on maternal health facility utilization was analyzed. ANC facilities were categorized into four groups: Barangay Health Station (BHS), Rural Health Unit (RHU), hospital/clinic and others. Multinomial logistic regressions were applied, adjusting for socio-economic status and Barangay location, to examine associations between socio-economic factors and ANC facility choice, as well as trends in delivery and PNC facility utilization based on ANC facility type.\n' +
-      'RESULTS: Among 1,414 postpartum mothers, 35.6% received ANC at BHS, 34.1% at RHU, 32.7% at hospital/clinic, and 0.6% did not receive ANC. Most deliveries (83.3%) and PNC (61.4%) services occurred in hospital/clinic settings. Mothers who received ANC at a hospital/clinic were more likely to have higher education (aRRR = 7.04, 95% CI: 3.97, 12.50) and be wealthier (aRRR = 2.00, 95% CI: 1.09, 3.69) compared to those who received ANC at BHS. Mothers receiving ANC at RHU (aRRR = 0.52, 95% CI: 0.34, 0.79) or hospital/clinic (aRRR = 0.55, 95% CI: 0.38, 0.78) were less likely to be single with a partner compared to those receiving ANC at BHS. Mothers who received ANC at hospital/clinic were more likely to deliver at a hospital/clinic (aRRR = 8.49, 95% CI: 3.56, 20.26) than at a RHU/BHS, and to receive PNC at a hospital/clinic (aRRR = 2.07, 95% CI: 1.32, 3.24) instead of at a BHS, compared to those receiving ANC at BHS. Mothers receiving ANC at RHU were more likely to also receive PNC at an RHU (aRRR = 16.13, 95% CI: 7.80, 33.36) compared to those receiving ANC at BHS.\n' +
-      'CONCLUSIONS: Socioeconomic disparities are associated with ANC facility choice, which in turn affects subsequent decisions regarding facilities for delivery and PNC in Eastern Visayas. As such, facility selection should be guided by healthcare needs rather than socioeconomic status.',
-    published: '2025',
+    id: '40779763',
+    title: 'Optimizing Cardiovascular Risk Management in Primary Care Using a Personalized eCoach Solution Enhanced by an Artificial Intelligence-Driven Clinical Prediction Model: Protocol from the Coronary Artery Disease Risk Estimation and Early Detection Consortium.',
+    abstract: "BACKGROUND: Atherosclerotic cardiovascular disease poses a heavy burden on the population's health and health care costs. Identifying apparently healthy individuals at risk of developing cardiovascular diseases using clinical prediction models raises awareness, facilitates shared decision-making, and supports tailored management of disease prevention. In the CARRIER project, a personalized cardiovascular risk management (CVRM) eCoach approach is cocreated, in which identified individuals receive education, guidance, and monitoring to prevent atherosclerotic cardiovascular disease through existing interventions. In this approach, an artificial intelligence-driven clinical prediction model calculates the 10-year risk for atherosclerotic cardiovascular disease, which supports informed decision-making.\n" +
+      'OBJECTIVE: This study aims to assess the effectiveness of our CVRM eCoach approach through a 10-year risk calculation of atherosclerotic cardiovascular disease, including risk factors contributing to this risk.\n' +
+      'METHODS: This pretest-posttest interventional study provides the CVRM eCoach approach for 6 months to 100 apparently healthy individuals eligible for CVRM. The CVRM eCoach approach is a multicomponent eHealth solution, including a clinical prediction under intervention model that not only calculates the 10-year risk of cardiovascular disease through conventional risk factors (smoking, blood pressure, and lipid profile) and individual characteristics (age, gender, socioeconomic status, physical activity, and diet) but also calculates how the risk changes after hypothetical lifestyle or medical interventions. The CVRM eCoach approach includes features that encourage behavior change. Most of these features include goal setting, decision cards to help decide on an intervention, intervention monitoring, remote communication, and education, all accessible from one dashboard. A practice nurse or physician consults the individuals after risk calculation with the clinical prediction model and uses behavior change features, such as the decision cards, to support shared decision-making. Data are primarily collected via the eCoach, after which the 10-year risk for atherosclerotic cardiovascular disease and its components are analyzed using paired-sample analyses.\n' +
+      'RESULTS: Recruitment began in March 2024 and will continue until 100 participants have been recruited, which is expected in 2025.\n' +
+      'CONCLUSIONS: We anticipate that our CVRM eCoach approach will be valuable in the primary prevention setting. During the crucial initial first months of habit formation, factors such as education, regular check-ups via the eCoach, and clear risk communication could support individuals in sustaining their medical or lifestyle interventions. We hypothesize that there will be a slight to moderate reduction in the 10-year risk of atherosclerotic cardiovascular disease, which over time will lead to significant health improvements on a larger scale.\n' +
+      'TRIAL REGISTRATION: CCMO NL84584.096.23; https://onderzoekmetmensen.nl/nl/trial/56578.',
+    published: '2025-Aug-08',
     authors: [
-      'Choi Ahreum',
-      'Kim Heunghee',
-      'Provido Sherlyn Mae P',
-      'Kim Hee Sun',
-      'Juson Romil Jeffrey',
-      'Lucas Diana',
-      'Ji Heyeon',
-      'Jeon Jihwan',
-      'Kang Yunhee'
+      'van Mierlo Rutger',
+      'Scheenstra Bart',
+      'Verbeek Joost',
+      'Bruninx Anke',
+      'Kalendralis Petros',
+      'Bermejo Inigo',
+      'Dekker Andre',
+      "van 't Hof Arnoud",
+      'Spreeuwenberg Marieke',
+      'Hochstenbach Laura'
     ],
-    journal: "Frontiers in global women's health",
-    doi: '10.3389/fgwh.2025.1575896',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778369/'
+    journal: 'JMIR research protocols',
+    doi: '10.2196/66068',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779763/'
   },
   {
-    id: '40778332',
-    title: 'TOWARD: a metabolic health intervention that improves food addiction and binge eating symptoms.',
-    abstract: 'Food Addiction is an increasingly relevant clinical and public health issue given its impact on metabolic health, mental health, and quality of life. Therapeutic carbohydrate reduction (TCR) has been shown to improve the symptoms of food addiction as measured by the modified Yale Food Addiction Scale (mYFAS) 2.0. We discuss a novel telemedicine intervention, in an employee wellness setting, utilizing TOWARD principles: Text-based communications, Online interactions, Wellness coaching, Asynchronous education and community support, Real-time biofeedback and remote monitoring, and Dietary modification with an emphasis on TCR to treat symptoms of food addiction and binge eating. Food addiction symptoms decreased by 40.7% and binge eating symptoms decreased by 34.7%. In an employee wellness setting, we observe a metabolic health intervention can improve weight, lower financial cost through medication deprescription, and improve mental health symptoms related to food.',
-    published: '2025',
+    id: '40779753',
+    title: 'Technology Integration in Syrian Medical Education From the Perspective of Students and Faculty: A Cross-Sectional Evaluation.',
+    abstract: 'BACKGROUND: Technology-enhanced learning (TEL) has become increasingly vital in global medical education, offering significant advantages in knowledge acquisition, communication, motivation, and student engagement. In Syria, a country facing prolonged crises, there is an urgent need to evaluate the integration of technology within medical education to address institutional limitations and support student learning.\n' +
+      'OBJECTIVE: The aim of this study is to evaluate the awareness, perceived challenges, and needs regarding the integration of technology in medical education from the perspectives of students and faculty at Syrian medical colleges.\n' +
+      'METHODS: A cross-sectional survey was conducted during the 2023-2024 academic year across Syrian universities. Stratified random sampling was used to recruit 500 medical students and 200 faculty members. Two tailored, self-administered questionnaires were used, covering motivation, perceived benefits, challenges, and suggestions for technology integration. Validity was assessed through expert review and pilot testing (n=30), and internal consistency was confirmed (Cronbach α=0.6-0.7). Quantitative data were analyzed using descriptive statistics, t tests, ANOVA, and Kruskal-Wallis tests.\n' +
+      'RESULTS: Among medical students, 94% (470\\500) agreed that integrating technology into medical education is essential, with similar agreement from 93.5% (187\\200) of faculty. No significant differences were found in student responses based on specialization (P=.32) or university type (P=.11). Likewise, faculty perspectives did not significantly differ by academic qualification or years of experience (P>.05). There were several perceived benefits; for instance, 93.2% (n=466) of students reported that technology kept them up to date with new developments, 88% stated it enhanced research skills, and 86.8% found TEL more enjoyable than traditional learning methods. Most respondents (95% n=475) said TEL created a flexible, interactive environment. Among faculty, 77% (n=154) agreed TEL improves clinical skill development. Respondents noted there were some challenges; specifically, 57% (n=285) of students cited poor internet service, 33% (n=165) noted the financial burden, and 82.2% (n=411) called for behavioral guidelines. Among faculty, 85.5% (n=171) cited lack of institutional support and 90% (n=180) emphasized the need for training. Both groups supported the development of communication platforms, curriculum revisions, and faculty development programs.\n' +
+      'CONCLUSIONS: There is a strong consensus among Syrian medical students and faculty on the value and necessity of integrating technology in medical education. Despite infrastructure and administrative challenges, both groups recognize TEL as a powerful tool for improving clinical competencies, student motivation, and academic engagement. Institutional commitment, curricular reform, and tailored training are essential to achieving sustainable, effective technology integration.',
+    published: '2025-Aug-08',
+    authors: [ 'Hassoun Subhiya', 'Dashash Mayssoon', 'Baddour Adnan' ],
+    journal: 'JMIR formative research',
+    doi: '10.2196/76958',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779753/'
+  },
+  {
+    id: '40779743',
+    title: 'Effects of a Theory- and Evidence-Based, Motivational Interviewing-Oriented Artificial Intelligence Digital Assistant on Vaccine Attitudes: A Randomized Controlled Trial.',
+    abstract: 'BACKGROUND: Attitude-targeted interventions are important approaches for promoting vaccination. Educational approaches alone cannot effectively cultivate positive vaccine attitudes. Artificial intelligence (AI)-driven chatbots and motivational interviewing (MI) techniques show high promise in improving vaccine attitudes and facilitating readiness for vaccination.\n' +
+      'OBJECTIVE: This study aimed to evaluate the effectiveness of a theory and evidence-based, MI-oriented AI digital assistant in improving COVID-19 vaccine attitudes among adults in Hong Kong.\n' +
+      'METHODS: This 2 parallel-armed randomized controlled trial was conducted from October 2022 to June 2024. Hong Kong adults (N=177) who were vaccine-hesitant were randomly assigned into 2 study groups. The intervention group (n=91) interacted with the AI digital assistant over 5 weeks, including receiving a web-based education program comprising 5 educational modules and communicating with an AI-driven chatbot equipped with MI techniques. The control group (n=86) received WhatsApp (Meta) messages directing them to government websites for COVID-19 vaccine information and knowledge, with the same dosage as the intervention group. Primary outcomes included vaccine hesitancy. Secondary outcomes included vaccine readiness, confidence, trust in government, and health literacy. Outcomes were measured at baseline, postintervention, 3-month, and 6-month follow-up. Focus group interviews were conducted postintervention. Intervention effects were analyzed using the generalized estimating equation model. Interview data were content analyzed.\n' +
+      'RESULTS: Decreases in vaccine hesitancy were observed while no statistically significant time-by-group interaction effects were found. The intervention showed significant time-by-group interaction effects on vaccine readiness (P=.04), confidence (P=.02), and trust in government (P=.04). Significant between-group differences with medium effect sizes were identified for vaccine readiness (Cohen d=0.52) and trust in government (Cohen d=0.54) postintervention, respectively. Increases in vaccine-related health literacy were observed, and a significant time effect was found (P=.01). In total, three categories were summarized from interview data: (1) improved vaccine literacy, confidence, and trust in government; (2) hesitancy varied while readiness improved; and (3) facilitators, barriers, and recommendations of modifications on the intervention.\n' +
+      "CONCLUSIONS: The intervention indicated promising yet significant effects on vaccine readiness while the effects on vaccine hesitancy require further confirmation. The qualitative findings; however, further consolidate the significant effects on participants' attitudes toward vaccines. The findings provide novel evidence to encourage the adoption and refinement of a MI-oriented AI digital assistant in vaccine promotion.",
+    published: '2025-Aug-08',
     authors: [
-      'Saner Erin',
-      'Kalayjian Tro',
-      'Buchanan Laura',
-      'Calkins Matthew',
-      'Soto-Mota Adrian',
-      'Jun Daekwang',
-      'Sethi Shebani'
+      'Li Yan',
+      'Li Mengqi',
+      'Yorke Janelle',
+      'Bressington Daniel',
+      'Chung Joyce',
+      'Xie Yao-Jie',
+      'Yang Lin',
+      'He Mengting',
+      'Sun Tsz-Ching',
+      'Leung Angela Y M'
     ],
-    journal: 'Frontiers in psychiatry',
-    doi: '10.3389/fpsyt.2025.1612551',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778332/'
+    journal: 'Journal of medical Internet research',
+    doi: '10.2196/72637',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779743/'
   },
   {
-    id: '40778311',
-    title: 'Sociodemographic correlates of perceived physical literacy in Spanish adolescents: results from the EHDLA study.',
-    abstract: "BACKGROUND/OBJECTIVE: Perceived physical literacy (PPL) is a crucial factor influencing adolescents' engagement in physical activity and overall well-being. This study tried to determine the sociodemographic correlates of PPL among adolescents in Spain.\n" +
-      'METHODS: A total of 1,378 participants [51% girls, median age = 14 years, interquartile range (IQR) 13 to 16] were analyzed. PPL was assessed via the Spanish Perceived Physical Literacy Scale (S-PPLL), with a median score of 33.0 (IQR 30.0 to 37.0). A generalized linear model was carried out to determine the correlates associated with a higher PPL.\n' +
-      "RESULTS: The model revealed significant associations between sex, SES, and maternal education with PPL. Compared with boys, girls presented a lower association with PPL [unstandardized beta coefficient [] = -1.24, 95% confidence interval [CI] -1.93 to -0.55,  < 0.001]. A higher SES was positively associated with greater PPL (medium SES:  = 1.76, 95% CI 0.81 to 2.70,  < 0.001; high SES:  = 2.34, 95% CI 1.22 to 3.45,  < 0.001), in comparison with those with lower SES. Additionally, maternal education level was positively associated with adolescents' PPL scores, with higher education levels linked to greater PPL ( = 1.48, 95% CI 0.41 to 2.55,  = 0.007). However, factors such as immigrant status, paternal education, family structure, number of siblings, type of schooling, and area of residence were not significantly associated with PPL ( > 0.05).\n" +
-      "CONCLUSION: Sex, SES, and maternal education could influence adolescents' PPL, highlighting the need for targeted interventions to address disparities and promote PL.",
-    published: '2025',
+    id: '40779716',
+    title: 'Embedding Social-Emotional Learning in Elementary School-Based Speech-Language Therapy: A Pilot Randomized Controlled Trial.',
+    abstract: 'PURPOSE: Many students with communication disorders have unique social-emotional needs, yet school speech-language pathologists (SLPs) are not typically trained in how to address those needs. We developed a new training (STIRS [SLP Training to Increase Resilience in Students]) to equip elementary school SLPs to embed social-emotional learning (SEL) practices within their routine speech-language sessions with K-3 students with communication disorders. The primary objective of this pilot trial was to evaluate the preliminary effects and feasibility of STIRS.\n' +
+      "METHOD: This was a single-blind, parallel two-arm pilot randomized controlled trial with elementary school SLPs within a local education agency in Iowa. At a scheduled professional development meeting, the SLPs were randomly assigned to either the STIRS condition or active control condition (speech assessment of bilingual students). Both conditions involved a one-time 3-hr training. SLPs' attitudes, knowledge, and self-efficacy in addressing SEL with their K-3 students were measured immediately before and after the training. After the training, we also collected data on acceptability, appropriateness, and feasibility to inform a future definitive trial.\n" +
+      "RESULTS: Twenty SLPs who attended the professional development meeting consented to participate, were randomized by remote web-based allocation, and completed both pretraining and posttraining measures (12 SLPs in the STIRS condition and eight in the active control condition). Compared to the control group, there was a small positive main effect of the STIRS training on SLPs' openness, knowledge, and self-efficacy immediately posttraining. The SLPs in the STIRS condition also reported adequate levels of acceptability, appropriateness, and feasibility of the training.\n" +
+      "CONCLUSIONS: The one-time STIRS training has the potential to increase SLPs' willingness and confidence to support SEL of K-3 students with communication disorders. In a future definitive trial, engagement could be enhanced through more clinical application training. Enrollment challenges may be mitigated by using a different design (e.g., team-based coaching, waitlist control).",
+    published: '2025-Aug-08',
     authors: [
-      'Mendoza-Muñoz María',
-      'López-Gil José Francisco',
-      'Pereira-Payo Damián',
-      'Pastor-Cisneros Raquel'
+      'Rodgers Naomi H',
+      'Zhang Yanchen',
+      'Combiths Philip',
+      'Walker Elizabeth A'
     ],
-    journal: 'Frontiers in sports and active living',
-    doi: '10.3389/fspor.2025.1601852',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778311/'
+    journal: 'Language, speech, and hearing services in schools',
+    doi: '10.1044/2025_LSHSS-25-00001',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779716/'
   },
   {
-    id: '40778302',
-    title: 'Storage-Induced Collapse of Lignin Macromolecular Structure and Its Impacts on the Biorefinery.',
-    abstract: "Lignin plays a vital role in the economics of biorefineries, serving as a source of process energy and a feedstock for sustainable fuels and chemical production. While understanding lignin's chemical composition is crucial, emerging evidence suggests that a more comprehensive understanding of its macromolecular structure is critical to explaining its complex behavior in the biorefinery. This study investigated the collapse of the lignin network in corn stover feedstock after harvest and storage as a result of the microbial digestion of hemicellulose. Fluorescence microscopy was used to detect the collapse of lignin by the changes in lignin's fluorescence lifetime, anisotropy, and the number of effective emitters. Our in situ microscopic results revealed lignin's coil-globule transition phenomena, which was only previously predicted by molecular dynamics modeling of extracted lignin in solvent. This collapse of lignin macromolecular structure was supported by results from NMR, IR, Raman, and powder X-ray diffraction. Our study revealed that the two major approaches for lignin valorization in the lignin-first biorefinery model, namely, monomer extraction and milled wood lignin extraction, were negatively impacted by the lignin collapse. As changes during storage are a source of feedstock variability, our study highlights the importance of understanding the effect of feedstock handling on biorefinery operations and economics.",
-    published: '2025-Aug-04',
-    authors: [
-      'Zeng Yining',
-      'Lin Kuan-Ting',
-      'Happs Renee M',
-      'Leal Juan H',
-      'Kang Xihui',
-      'Dou Chang',
-      'Kruger Jacob S',
-      'Ding Ling',
-      'Sale Kenneth L',
-      'Semelsberger Troy A',
-      'Ray Allison E',
-      'Sun Ning',
-      'Donohoe Bryon S'
-    ],
-    journal: 'ACS sustainable chemistry & engineering',
-    doi: '10.1021/acssuschemeng.5c04284',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778302/'
+    id: '40779714',
+    title: 'The Perceived Value of Interprofessional Practice According to Classroom Teachers, Special Education Teachers, and Speech-Language Pathologists.',
+    abstract: 'PURPOSE: When working with students with speech, language, and communication needs, classroom teachers (CLTs), special education teachers (SETs), and speech-language pathologists (SLPs) must engage in interprofessional practice (IPP). According to the expectancy-value model, IPP adoption is partially contingent on its perceived value. The objective of this study was to analyze whether and how the perceived value of IPP differs across four domains (interest, costs, benefits for the specialist, and benefits for the students) among the three professional groups and the extent to which various factors affect this perception. This study focuses on school-based professionals in the Canton of Bern, Switzerland, working under the same administrative authority and in accordance with the same guidelines.\n' +
+      'METHOD: A total of 317 staff members from mainstream schools in Bern, Switzerland (142 CLTs, 89 SETs, and 86 SLPs), completed an IPP questionnaire. Confirmatory factor analysis was used to compare the four domains of perceived values between groups, and structural equation modeling was used to assess the impact of various factors.\n' +
+      'RESULTS: SETs showed the most positive perception of IPP across all domains, whereas CLTs and SLPs were less positive. Self-reported competencies in IPP positively influenced the perceived value of CLTs and SLPs; however, perceptions were more negative at the secondary school level for CLTs and SLPs.\n' +
+      'CONCLUSION: Since CLTs, SETs, and SLPs in the Canton of Bern, Switzerland, operate under the same administrative guidelines, the differences in perceived value of IPP are attributed to their distinct professional backgrounds and work environments.\n' +
+      'SUPPLEMENTAL MATERIAL: https://doi.org/10.23641/asha.29637284.',
+    published: '2025-Aug-08',
+    authors: [ 'Till Christoph' ],
+    journal: 'Language, speech, and hearing services in schools',
+    doi: '10.1044/2025_LSHSS-24-00154',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779714/'
   },
   {
-    id: '40778242',
-    title: 'Opioid Prescription Patterns in Hand Surgery: A Medicare Part D Analysis.',
-    abstract: 'BACKGROUND: The opioid crisis continues to be a significant public health concern in the United States, with postoperative prescriptions contributing to the problem. Older adults face increased risks from opioid use, yet prescribing practices for hand surgery in the Medicare population remain understudied. This research aims to elucidate opioid prescription patterns among hand surgeons treating Medicare patients, focusing on national trends, regional variations, and gender differences.\n' +
-      'METHODS: A retrospective analysis was conducted using data from the Centers for Medicare and Medicaid Services Medicare Part D Prescription Drug Program Prescribers Public Use File for hand surgeons from 2015 to 2019. National trends, regional variations based on US Census Bureau divisions, state-level differences, and gender disparities in opioid prescribing patterns were examined. Key metrics included opioid prescribing rates, proportion of opioid claims to total claims, average prescription duration, and total opioid claims per surgeon.\n' +
-      'RESULTS: From 2015 to 2019, a total of 1752 hand surgeons were identified in the Medicare Part D database with a 5-year average of 231 405 opioid claims, comprising 53% of all claims made by hand surgeons. The median opioid prescribing rate decreased from 61.4% in 2015 to 55.3% in 2019. The proportion of opioid claims to total claims fell from 55.4% to 48.27%, and the average prescription duration decreased from 6.3 to 4.67 days. Significant regional and state-level variation was identified. Overall, the South had higher numbers of opioid prescriptions per hand surgeon and prescribed for more days compared with all other regions, but the Midwest and West regions had larger proportions of opioid claims.\n' +
-      'CONCLUSIONS: Despite an overall decrease in opioid prescribing by hand surgeons for Medicare patients from 2015 to 2019, significant regional and gender-based variations persist. These findings underscore the need for standardized guidelines, improved prescriber education, and better integration of monitoring programs.',
-    published: '2025',
-    authors: [
-      'Wang Sabrina M',
-      'Zeng Steven L',
-      'Wu Victoria',
-      'Emovon Emmanuel O',
-      'Hernandez J Andres',
-      'Tian William M',
-      'Feltner Cynthia',
-      'Mithani Suhail K'
-    ],
-    journal: 'Eplasty',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778242/'
-  },
-  {
-    id: '40778225',
-    title: 'The Intersection of Caregiving and Financial Vulnerability: Empowerment Barriers for Women in Sex Work.',
-    abstract: "This study explores the factors that shape the savings behaviors of women engaged in sex work (WESW) in southwestern Uganda, with a particular focus on the intersection of caregiving responsibilities and economic vulnerability. Drawing on qualitative data from the Kyaterekera study-an intervention that combined economic empowerment strategies (savings, financial literacy, and mentorship) with HIV risk reduction-we examine how WESW navigate financial decision-making in the context of structural and social constraints. While participants demonstrated motivation and resilience in pursuing financial stability, they encountered significant and intersecting barriers, including fluctuating income, caregiving demands, gendered norms, and the absence of formal social support systems. Findings reveal that caregiving is not merely a personal role but a structurally marginalized identity that shapes economic behavior in profound ways as these caregiving responsibilities intersect with factors such as marital status, household composition, and urban-rural location to produce differentiated financial challenges. Despite these constraints, participants engaged in strategic saving to meet essential needs, respond to emergencies, and invest in long-term goals such as homeownership and their children's education. These insights underscore the importance of adopting an intersectional approach to economic empowerment-one that accounts for the diverse and overlapping realities of WESW. Tailored interventions that integrate financial literacy, peer mentoring, and potentially self-help groups can more effectively address both individual and structural barriers. By centering caregiving within economic empowerment strategies, programs can better support the long-term financial autonomy and well-being of WESW and their families.",
-    published: '2025-Sep',
-    authors: [
-      'Mutumba Massy',
-      'Sensoy-Bahar Ozge',
-      'Nabunya Proscovia',
-      'Witte Susan',
-      'Nattabi Jennifer',
-      'Nsubuga Edward',
-      'Nabayinda Josephine',
-      'Kiyingi Joshua',
-      'Ssewamala Fred M'
-    ],
-    journal: 'Children and youth services review',
-    doi: '10.1016/j.childyouth.2025.108374',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778225/'
-  },
-  {
-    id: '40778200',
-    title: 'Mapping the Neuroeducation Landscape: A Bibliometric Analysis (2020-2025).',
-    abstract: 'BACKGROUND: Neuroeducation is an interdisciplinary area of study which combines insights of neuroscience, psychology, and education to enhance learning, using the body of scientific knowledge regarding the brain. Even though scholars have already investigated different details related to neuroeducation, thorough bibliometric research in the area remains absent.\n' +
-      'SUMMARY: This review will provide a conceptual framework that will be used to analyse neuroeducation studies published in 2020-2025 on a medical database that would be accessed through Dimensions AI. The analyses involving VOSviewer of co-authorship, co-citation, and keywords in relation to 1,507 peer-reviewed articles were assessed. Key contributors, institutions, and theme clusters are suggested in the study. The United States, Canada and Spain became the leading contributors whereas such researchers as Antonopoulou Hera and Steve Masson made a significant contribution to the field.\n' +
-      'KEY MESSAGE: The current bibliometric analysis gives us a vivid picture of the development of neuroeducation, its trends, and collaboration which can be used by educators, researchers, and policymakers when establishing the global network of research and filling the conceptual divide between neuroscience and practice in education.',
+    id: '40779688',
+    title: 'Building Capacity in Public Health: Effects of the Pacific Public Health Fellowship Program in the US-Affiliated Islands.',
+    abstract: 'CONTEXT: Public health agencies require a competent, well-trained workforce to protect health and meet the specific needs of the communities served. In the US-Affiliated Pacific Islands (USAPI), geographic and educational barriers, and limited availability of culturally and linguistically appropriate training programs are unique challenges that contribute to public health workforce shortages.\n' +
+      'PROGRAM AND IMPLEMENTATION: The Pacific Public Health Fellowship Program (PPHFP) was introduced through a partnership between the Centers for Diseases Control and Prevention and the Pacific Island Health Officers Association. It was designed to address barriers to public health workforce development and capacity in USAPI. Established in 2019, PPHFP is a 2-year, full-time training program designed for USAPI residents who are recent college graduates with interests in pursuing careers in public health. The program includes a competency-based training curriculum and field-based projects at participating host sites to address local public health challenges. PPHFP has expanded from 2 fellows in 2021 to 43 fellows in 2024, with each USAPI having hosted fellows.\n' +
+      'EVALUATION: All 2021-2023 cohort respondents to the PPHFP exit survey have reported satisfaction with the program, increased knowledge and skills in public health, and readiness to enter the public health workforce. In addition, respondents reported that they have contributed to public health workforce capacity at their local host sites. In total, 16 of 17 graduates from these cohorts have been employed or continued their education in the public health field.\n' +
+      'DISCUSSION: PPHFP is a successful approach to addressing unique public health workforce challenges in USAPI through recruitment, training, and placement of residents at local host sites. This fellowship program can serve as a model for enhancing public health workforce capacity in other regions and globally.',
     published: '2025-Aug-05',
     authors: [
-      'Shukla Shruti',
-      'Shukla Priya',
-      'Gore Rashmi',
-      'Mishra Badri Narayan',
-      'Katiyar Ashish Kumar',
-      'Singh Vimal'
+      'Frazier Cassandra Martin',
+      'Concepción Acevedo Jeniffer',
+      'Holmes Gayle',
+      'Argotsinger Brittany',
+      'Irizarry-Ramos Jessica',
+      'Rostami Soulmaz',
+      'Colman Laura',
+      'Dean Hazel D',
+      'Dauphin Leslie A'
     ],
-    journal: 'Annals of neurosciences',
-    doi: '10.1177/09727531251355822',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778200/'
+    journal: 'Journal of public health management and practice : JPHMP',
+    doi: '10.1097/PHH.0000000000002204',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779688/'
   },
   {
-    id: '40778197',
-    title: 'How Art Museums Can Foster the Flourishing of Future Physicians.',
-    abstract: "Medical schools are increasingly incorporating the arts and humanities into their curricula, often emphasizing their benefits in enhancing students' clinical skills. However, the potential for these curricula to foster flourishing is equally, if not more, crucial. Although limited in scope, current literature suggests that art museum-based medical education, particularly as Visual Thinking Strategies, may support flourishing among medical learners-although more research is needed to assess the impact of these methods and their mechanisms on learners. In this article, the authors explore how integrating art museum-based programs into medical school curricula can enhance all five domains of the VanderWeele model of human flourishing: physical and mental health, happiness and life satisfaction, meaning and purpose, character and virtue, and close social relationships.",
-    published: '2025',
-    authors: [ 'Liu Winnie L', 'Chisolm Margaret S' ],
-    journal: 'Perspectives on medical education',
-    doi: '10.5334/pme.1905',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40778197/'
+    id: '40779687',
+    title: 'Diagnostic validity of the Persian version of Montreal Cognitive Assessment - basic for cognitive screening.',
+    abstract: 'BACKGROUND: The growing number of older people with Mild Cognitive Impairment (MCI) highlights the need for suitable and effective neuropsychological assessments. The Montreal Cognitive Assessment Basic (MoCA-B) is designed to identify MCI in individuals with lower literacy and education levels. This study seeks to validate the use of MoCA-B in the Persian-speaking population.\n' +
+      "METHODS: In this cross-sectional study, the original English version of the MoCA-B test was translated into Persian using the forward-backward method. The study involved 60 cognitively healthy aging individuals, 30 with Alzheimer's disease, and 30 MCI patients. All participants met the MMSE, MoCA-B, DSM-5, and Albert's criteria.\n" +
+      'RESULTS: MoCA-B scores in patients with AD were significantly lower than in the patients with MCI and healthy individuals (P < 0.001). They were significantly lower in MCI than individuals without cognitive impairment (P < 0.001). The cutoff score for discriminating between patients with AD/MCI and individuals without cognitive impairment was 20.5 (sensitivity = 95.0%, specificity = 88.3%, AUC = 0.972).\n' +
+      'CONCLUSION: This study shows that the MoCA-B is a suitable screening tool for distinguishing persons with cognitive impairment (MCI and AD) in the Persian-speaking population.',
+    published: '2025-Aug-08',
+    authors: [
+      'Khatoonabadi Ahmad R',
+      'Jafari Shirin',
+      'Modarres Zadeh Amin',
+      'Maroufizadeh Saman'
+    ],
+    journal: 'Applied neuropsychology. Adult',
+    doi: '10.1080/23279095.2025.2541812',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779687/'
+  },
+  {
+    id: '40779669',
+    title: 'Integrating Planetary Health Into Residencies: A Vital Step for Medical Education.',
+    abstract: "The escalating climate crisis necessitates that health care and medical education adapt to the increasing health impacts of extreme weather events, rising temperatures, and shifting ecosystems. Patients and medical trainees are already confronting the health consequences of climate change, pollution, and environmental degradation, while health care systems grapple with effects on service delivery. These environmental challenges underscore the need for health care and medical education that is resilient and proactive in addressing emerging threats.Planetary health is a field inclusive of the effects of climate change and environmental degradation on human health and the broader systems that sustain life. Many U.S. medical schools have begun integrating planetary health into their curricula. However, without deliberate and scaffolded inclusion of planetary health education throughout graduate medical education, trainees may lack the ability to translate environmental determinants of health into actionable clinical strategies that improve patient outcomes and health care system resilience, as graduate medical education plays a pivotal role in shaping physicians' practice patterns. The Accreditation Council for Graduate Medical Education (ACGME), which sets the standard for routine graduate medical education, has the opportunity to help prepare trainees to meet societal needs and equip them for the challenges they will encounter in their medical practice.Incorporating planetary health into the Common Program Requirements would establish a training standard for planetary health, now widely recognized as fundamental to human health. Existing ACGME priorities, such as health equity, quality improvement, systems-based practice, and interdisciplinary collaboration, align with planetary health approaches. The ACGME's endorsement of planetary health education would ensure all residents acquire the skills and knowledge necessary to address the health consequences of climate change and are prepared to practice sustainable health care, thus fostering a health care workforce capable of meeting the needs of patients and delivering resilient, sustainable, and equitable care.",
+    published: '2025-Aug-08',
+    authors: [
+      'Cerceo Elizabeth',
+      'Marwah Harleen',
+      'Philipsborn Rebecca Pass'
+    ],
+    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
+    doi: '10.1097/ACM.0000000000006184',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779669/'
+  },
+  {
+    id: '40779650',
+    title: 'Competency Framework Development for Genomics Nurse Educators: Defining a Specialty Role in Academic Nursing Education.',
+    abstract: "BACKGROUND: As genomics becomes increasingly integral to health care, enhancing nurse educators' competence in teaching genomics is vital for sustaining nursing's role in precision health.\n" +
+      'PROBLEM: Many nurses lack confidence in applying genomics in practice, highlighting the need for improved genomics nursing education.\n' +
+      'APPROACH: The International Society for Nurses in Genetics convened a steering committee to develop a competency framework defining the role of Genomics Nurse Educators. We applied the Six-Step Model for Competency Framework Development in Healthcare Professions, drawing on targeted literature review and international stakeholder input to draft the framework.\n' +
+      'OUTCOMES: The resulting framework includes 3 domains and 7 competency areas defining the knowledge, expertise, and leadership required for Genomics Nurse Educators.\n' +
+      'CONCLUSIONS: The framework advances genomic nursing education globally, transitioning it from an emerging to an evolving specialty; provides a structured pathway for faculty development, supports integration of genomics into curricula, and promotes education of genomics-informed nurses.',
+    published: '2025-Aug-04',
+    authors: [
+      'Himes Deborah O',
+      'Dungan Jennifer R',
+      'Dewell Sarah',
+      'Davis Sarah H',
+      'Ward Linda D',
+      'Lucas Ruth F'
+    ],
+    journal: 'Nurse educator',
+    doi: '10.1097/NNE.0000000000001947',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40779650/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1529,109 +1647,176 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
 Translating paper: Big data in economics...
-Translating paper 2/40
+Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/40
+Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/40
+Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/40
+Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/40
+Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/40
+Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/40
+Translating paper 8/50
 Translating paper: A physical theory of economic growth...
-Translating paper 9/40
+Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/40
+Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/40
+Translating paper 11/50
+Translating paper: Economics or Education: The Establishment of Ameri...
+Translating paper 12/50
+Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
+Translating paper 13/50
+Translating paper: The New Economics for Industry, Government, Educat...
+Translating paper 14/50
+Translating paper: The effectiveness of the emergency eLearning durin...
+Translating paper 15/50
+Translating paper: Experience and education...
+Translating paper 16/50
+Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
+Translating paper 17/50
+Translating paper: From Theory to Practice of Promoting Student Engag...
+Translating paper 18/50
+Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
+Translating paper 19/50
+Translating paper: The Impact of Education for Sustainable Developmen...
+Translating paper 20/50
+Translating paper: The Effect of Using Simulation on Developing Stude...
+Translating paper 21/50
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
-Translating paper 12/40
+Translating paper 22/50
 Translating paper: Digital University: Building a Flexible, Inclusive...
-Translating paper 13/40
+Translating paper 23/50
 Translating paper: Digitalization of Higher Education: Experience of ...
-Translating paper 14/40
+Translating paper 24/50
 Translating paper: Media Education as AI Education—An Experiential Ap...
-Translating paper 15/40
+Translating paper 25/50
 Translating paper: Integrating Artificial Intelligence in English Lan...
-Translating paper 16/40
+Translating paper 26/50
 Translating paper: Model-Based STEM Technical and Vocational Educatio...
-Translating paper 17/40
+Translating paper 27/50
 Translating paper: E-Learning and E-Pedagogy in Uzbekistan, Benefits ...
-Translating paper 18/40
+Translating paper 28/50
 Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
-Translating paper 19/40
+Translating paper 29/50
 Translating paper: ChatGPT and University Students: How Family Educat...
-Translating paper 20/40
+Translating paper 30/50
 Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
-Translating paper 21/40
-Translating paper: Design, Psychometric Validation, and Network Analy...
-Translating paper 22/40
-Translating paper: Navigating online health information: empowerment ...
-Translating paper 23/40
-Translating paper: Women's health facility choices for antenatal, del...
-Translating paper 24/40
-Translating paper: TOWARD: a metabolic health intervention that impro...
-Translating paper 25/40
-Translating paper: Sociodemographic correlates of perceived physical ...
-Translating paper 26/40
-Translating paper: Storage-Induced Collapse of Lignin Macromolecular ...
-Translating paper 27/40
-Translating paper: Opioid Prescription Patterns in Hand Surgery: A Me...
-Translating paper 28/40
-Translating paper: The Intersection of Caregiving and Financial Vulne...
-Translating paper 29/40
-Translating paper: Mapping the Neuroeducation Landscape: A Bibliometr...
-Translating paper 30/40
-Translating paper: How Art Museums Can Foster the Flourishing of Futu...
-Translating paper 31/40
+Translating paper 31/50
+Translating paper: Does back pain catastrophizing influence 60-month ...
+Translating paper 32/50
+Translating paper: Optimizing Cardiovascular Risk Management in Prima...
+Translating paper 33/50
+Translating paper: Technology Integration in Syrian Medical Education...
+Translating paper 34/50
+Translating paper: Effects of a Theory- and Evidence-Based, Motivatio...
+Translating paper 35/50
+Translating paper: Embedding Social-Emotional Learning in Elementary ...
+Translating paper 36/50
+Translating paper: The Perceived Value of Interprofessional Practice ...
+Translating paper 37/50
+Translating paper: Building Capacity in Public Health: Effects of the...
+Translating paper 38/50
+Translating paper: Diagnostic validity of the Persian version of Mont...
+Translating paper 39/50
+Translating paper: Integrating Planetary Health Into Residencies: A V...
+Translating paper 40/50
+Translating paper: Competency Framework Development for Genomics Nurs...
+Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 32/40
+Translating paper 42/50
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 33/40
+Translating paper 43/50
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 34/40
+Translating paper 44/50
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 35/40
+Translating paper 45/50
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 36/40
+Translating paper 46/50
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 37/40
+Translating paper 47/50
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 38/40
+Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 39/40
+Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 40/40
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.464275064118493 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"29s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '29s'
+    }
+  ]
+}
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.071285040267097 seconds...
+Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"27s"}]
+    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
+    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
+    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
+    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [
+    {
+      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
+      violations: [Array]
+    },
+    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
+    {
+      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
+      retryDelay: '27s'
+    }
+  ]
+}
+Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 40 papers
-Removed duplicates: 853 -> 823
-Total papers after merging: 823 (813 existing + 40 new)
-Saved 823 papers to papers.json
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.033255746774153 seconds...
+Translation completed: 50 papers
+Removed duplicates: 873 -> 833
+Total papers after merging: 833 (823 existing + 50 new)
+Saved 833 papers to papers.json
 Generating HTML files...
-Generating index.html with 823 papers...
+Generating index.html with 833 papers...
 Successfully generated index.html
-Generating archive.html with 823 papers...
+Generating archive.html with 833 papers...
 Successfully generated archive.html
-Generating journal.html with 823 papers...
+Generating journal.html with 833 papers...
 Successfully generated journal.html
-Generating acquisition.html with 823 papers...
+Generating acquisition.html with 833 papers...
 Successfully generated acquisition.html
-Generating publication.html with 823 papers...
+Generating publication.html with 833 papers...
 Successfully generated publication.html
-Generating registration.html with 823 papers...
+Generating registration.html with 833 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 823
-New papers processed: 40
+Total papers in database: 833
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-08T15:35:49.490Z
+Timestamp: 2025-08-09T15:38:56.991Z
