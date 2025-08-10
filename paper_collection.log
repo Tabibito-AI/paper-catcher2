@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-09T15:10:24.322Z
+Timestamp: 2025-08-10T15:10:22.866Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 823 existing papers from papers.json
+Loaded 833 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -429,6 +429,16 @@ Fetched papers from Springer: [
     journal: 'Innovative Technologies and Learning'
   },
   {
+    id: '10.1007/978-3-032-01592-1_8',
+    title: 'The Future of Accounting Education Under the Developments in AI',
+    summary: 'The development of science depends on the basics and principles of Science and scientific research in this science or field, and due to the fact that the nature of the science and field of accounting is developing and improving continuously and rapidly associated with many relationships and fields under many variables and factors, and then this research deals with difficulties between the three variables represented in scientific research, accounting education, and AI, specifically under of the widespread reliance on the preparation and preparation of scientific research using many advanced methods of AI, and then increasing the connection between and the development provided by scientific research. Accounting science and what is repeated in different formats follow the methods of AI. The research also aims to clarify the relationship between AI, accounting education, and accounting scientific research by conducting a questionnaire on a sample of 84 university professors and researchers in the field of accounting. The statistical analysis of the data collected by applying SPSS 25. It was concluded that the relationship between the three variables is considered close and interconnected. Without the first (accounting education), the development of the second (accounting scientific research) stops, which is considered inappropriate for the current business environment in all its categories, whether teaching or learning. Both scientific research and accounting education depend on the latter (AI) to provide technical and analytical support and classify opinions to reduce repetition and avoid deficiencies in the feasibility of research in accounting education.',
+    published: '2026-01-01',
+    authors: [ 'Hammood, Salim Swadi', 'Mohmed, Hesham Zakaria' ],
+    categories: [ undefined, undefined, undefined ],
+    link: [ [Object] ],
+    journal: 'Digital Transformation in Achieving Sustainable Development of Management, Economic, and Applied Sciences'
+  },
+  {
     id: '10.1007/978-3-031-95296-8_16',
     title: 'Digital University: Building a Flexible, Inclusive, and Sustainable Education System',
     summary: "This paper explores the concept of a “Digital University” aimed at reshaping higher education to align with the needs of a digital economy. The study introduces a comprehensive model that integrates innovative digital solutions to enhance learning experiences, streamline university management, and develop core digital competencies among students. Using empirical data from five universities in Uzbekistan, the research examines the readiness of educational institutions to adopt digital infrastructure, faculty competencies in utilizing digital tools, and student satisfaction with technology-based learning. Findings indicate that digital integration positively influences educational outcomes, supporting the model's potential as a transformative approach in higher education. The study's novelty lies in its structural framework for a Digital University, emphasizing flexibility, inclusivity, and sustainability. This model not only enhances academic experiences but also positions universities to respond effectively to the growing demands of the digital economy.",
@@ -568,249 +578,193 @@ Fetched papers from Springer: [
     categories: [ undefined, undefined, undefined, undefined ],
     link: [ [Object] ],
     journal: 'Research and Innovation Forum 2024'
-  },
-  {
-    id: '10.1007/978-3-031-78623-5_25',
-    title: 'Analyzing the User Experience of Virtual Pedagogy in Architecture Education',
-    summary: 'This study aims to analyze the user experience of virtual pedagogy in architecture education. It seeks to gather valuable feedback and perceptions from teachers and students regarding the effectiveness, challenges, and benefits of virtual pedagogy. The study employs a quantitative research design using a survey questionnaire. The questionnaire consists of closed-ended and open-ended questions to collect both quantitative and qualitative data on the user experience, challenges, advantages, and overall satisfaction with virtual pedagogy in architecture education. The findings reveal the widespread use of tools and applications, such as Google Meet, Google Classroom, and Zoom etc., for delivering both studio-based and non-studio-based courses in the virtual learning environment. The study highlights several challenges associated with virtual pedagogy, particularly for studio-based subjects, including the lack of in-person experience crucial for effective learning, difficulties in providing hands-on training, discouragement of active learning, and inadequate access to specialized tools and software. Additionally, the findings indicate that while virtual pedagogy offers flexibility and accessibility, it faces challenges in replicating the spontaneous interactions and hands-on nature of traditional in-person design studios.',
-    published: '2026-01-01',
-    authors: [
-      'Salman, Mohammad',
-      'Samadi, Zalina',
-      'Saquib, Mohammad',
-      'Yusoff, Zaharah Mohd'
-    ],
-    categories: [ undefined, undefined, undefined, undefined ],
-    link: [ [Object] ],
-    journal: 'Research and Innovation Forum 2024'
   }
 ]
 Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40779803',
-    title: 'Does back pain catastrophizing influence 60-month surgical outcomes for patients with degenerative lumbar spondylolisthesis? A Quality Outcomes Database study.',
-    abstract: "OBJECTIVE: Degenerative lumbar spondylolisthesis is a common cause of back and leg pain influenced by factors like instability, disc degeneration, facet arthropathy, and psychosocial phenotype. Patients' experience of high-severity pain is complex, with significant implications for surgical planning. The goal of this study was to assess the impact of back pain catastrophizing on long-term outcomes following lumbar spondylolisthesis surgery.\n" +
-      'METHODS: This study uses the Quality Outcomes Database (QOD) lumbar spondylolisthesis dataset and includes prospectively collected data from the 12 highest-enrolling clinical sites participating in the QOD lumbar module. The authors reviewed patients undergoing single-segment surgery for grade 1 degenerative lumbar spondylolisthesis. Severe baseline numeric rating scale for back pain (NRS-BP) scores (≥ 8) were classified as "catastrophizing," and mild to moderate pain scores (< 8) were classified as "non-catastrophizing." Patient-reported outcomes (PROs) were compared for catastrophizing versus non-catastrophizing patients at 60 months. Univariate and multivariate analyses were conducted to assess the impact of catastrophizing on PROs, with multivariate analysis controlling for variables initially reaching a p value < 0.10.\n' +
-      'RESULTS: Of the 608 patients in this analysis, 260 (42.8%) experienced catastrophizing while 348 (57.2%) did not. Catastrophizing patients were significantly younger (59.9 ± 12.2 years vs 63.9 ± 11.7 years, p < 0.001), less often had ≥ 4 years of college education (31.2% vs 42.5%, p = 0.004), and more often used private insurance (58.8% vs 47.7%, p = 0.01). The catastrophizing cohort also had higher rates of depression (24.6% vs 17.0%, p = 0.02) and back pain predominance (45.4% vs 32.2%, p < 0.001). Surgical and perioperative characteristics did not significantly differ between cohorts. Although catastrophizing patients typically reported worse PRO scores at both baseline and 60 months, they demonstrated significantly greater improvement and minimal clinically important difference (MCID) achievement across almost all PROs at 60 months (p < 0.05). However, North American Spine Society (NASS) satisfaction scores at 60 months did not differ significantly between cohorts. Multivariate analysis found that catastrophizing significantly predicted 60-month NRS-BP change (β -1.45, 95% CI -1.81 to -1.09; p < 0.001) and MCID achievement (OR 1.98, 95% CI 1.52-2.58; p < 0.001) but not mean NRS-BP score or other metrics, including NASS satisfaction.\n' +
-      'CONCLUSIONS: Despite presenting with worse baseline symptoms, patients with pain catastrophizing experienced substantial and clinically meaningful improvement following surgery for degenerative lumbar spondylolisthesis. Patient satisfaction was comparable between cohorts, reflecting a nuanced balance between greater absolute improvement and persistence of residual symptoms. These findings underscore that catastrophizing should not be viewed as a barrier to surgical success, while pointing to the need for proactive expectation setting and shared decision-making.',
+    id: '40783802',
+    title: 'Citizenship Status and the Family and Medical Leave Act: Examining Inequities in Eligibility Among Hispanic Workers.',
+    abstract: 'BACKGROUND: The Family and Medical Leave Act (FMLA) is the sole U.S. policy protecting job security during medical or parental leave. We extend prior work by analyzing overall FMLA eligibility by citizenship and gender among Hispanic workers. We examine which criteria-employer size, job tenure, and minimum work hours-drive citizenship disparities. We also investigate the factors predicting FMLA eligibility and examine the population-level characteristics contributing to FMLA citizenship disparities.\n' +
+      'METHODS: We used the 2018 Current Population Survey (n = 5632) to compare FMLA eligibility by citizenship status among Hispanic foreign-born workers by sex. We used multivariate linear regressions and Blinder-Oaxaca decompositions to investigate citizenship inequities in FMLA eligibility.\n' +
+      'RESULTS: Findings showed eligibility disparities: 38.9% of noncitizen men and 42.2% of noncitizen women met FMLA criteria compared to over half of their citizen counterparts. For men, this disparity stemmed primarily from differences in employer size, with less than half of non-citizens working for eligible employers. For women, both employer size and job tenure contributed to the ineligibility. Decomposition analyses showed that educational and occupational differences explained roughly half the employer-size citizenship disparity among men. Among women, occupation, full-time status, and education accounted for 85% of the employer size disparity. Age, residency duration, and full-time status explained nearly 75% of the job tenure citizen gap.\n' +
+      "CONCLUSIONS: The FMLA's design excludes Hispanic non-citizens during critical life events. Addressing occupational segregation and educational barriers and modifying eligibility criteria are crucial to mitigating these disparities. A national paid family and medical leave policy is urgently needed.",
+    published: '2025-Aug-10',
+    authors: [ 'Quirós Susana', 'Yu Mansoo' ],
+    journal: 'American journal of industrial medicine',
+    doi: '10.1002/ajim.70011',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783802/'
+  },
+  {
+    id: '40783788',
+    title: 'Investigating the Role of Neighborhood Socioeconomic Status and Germline Genetics on Prostate Cancer Risk.',
+    abstract: 'Genetic factors play an important role in prostate cancer (PCa) development with polygenic risk scores (PRS) predicting disease risk across genetic ancestries. However, there are few convincing modifiable factors for PCa and little is known about their potential interaction with genetic risk. Our study explores the role of neighborhood socioeconomic status (nSES)-and how it may interact with PRS-on PCa risk. We analyzed incident PCa cases and controls of European (cases=5,960; controls=93,990) and African (cases=109; controls=1,226) ancestry from the UK Biobank (UKB) cohort. Using the English Indices of Deprivation, a set of validated metrics that quantify lack of resources within geographical areas, we performed logistic regression to investigate the main effects and interactions between nSES deprivation and genetic susceptibility to PCa, represented by a multi-ancestry PRS comprised of 269 genetic variants. The PRS was associated with PCa in the European (OR=2.04; 95%CI=2.00-2.09; P=5.34x10) and African (OR=1.35; 95%CI=1.16-1.58; P=1.05x10) ancestries. Additionally, nSES deprivation indices were inversely associated with PCa: employment, education, health, and income. From this, we suspect that PRS, through biological mechanisms, and nSES deprivation, likely through differences in screening, are associated with PCa, but act independently of each other. Our findings suggest that genetic factors and social determinants of health measured by neighborhood socioeconomic status do not synergistically increase risk of PCa.',
     published: '2025-Aug-08',
     authors: [
-      'Yang Eunice',
-      'Schonfeld Elan',
-      'Boyett Deborah',
-      'Mummaneni Praveen V',
-      'Chou Dean',
-      'Bydon Mohamad',
-      'Bisson Erica F',
-      'Shaffrey Christopher I',
-      'Glassman Steven D',
-      'Foley Kevin T',
-      'Potts Eric A',
-      'Yen Chun-Po',
-      'Coric Domagoj',
-      'Knightly John J',
-      'Park Paul',
-      'Wang Michael Y',
-      'Fu Kai-Ming',
-      'Slotkin Jonathan R',
-      'Asher Anthony L',
-      'Virk Michael S',
-      'Haid Regis W',
-      'Chan Andrew K'
+      'Judd Jonathan',
+      'Spence Jeffrey P',
+      'Pritchard Jonathan K',
+      'Kachuri Linda',
+      'Witte John S'
     ],
-    journal: 'Journal of neurosurgery. Spine',
-    doi: '10.3171/2025.5.SPINE25310',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779803/'
+    journal: 'HGG advances',
+    doi: '10.1016/j.xhgg.2025.100492',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783788/'
   },
   {
-    id: '40779763',
-    title: 'Optimizing Cardiovascular Risk Management in Primary Care Using a Personalized eCoach Solution Enhanced by an Artificial Intelligence-Driven Clinical Prediction Model: Protocol from the Coronary Artery Disease Risk Estimation and Early Detection Consortium.',
-    abstract: "BACKGROUND: Atherosclerotic cardiovascular disease poses a heavy burden on the population's health and health care costs. Identifying apparently healthy individuals at risk of developing cardiovascular diseases using clinical prediction models raises awareness, facilitates shared decision-making, and supports tailored management of disease prevention. In the CARRIER project, a personalized cardiovascular risk management (CVRM) eCoach approach is cocreated, in which identified individuals receive education, guidance, and monitoring to prevent atherosclerotic cardiovascular disease through existing interventions. In this approach, an artificial intelligence-driven clinical prediction model calculates the 10-year risk for atherosclerotic cardiovascular disease, which supports informed decision-making.\n" +
-      'OBJECTIVE: This study aims to assess the effectiveness of our CVRM eCoach approach through a 10-year risk calculation of atherosclerotic cardiovascular disease, including risk factors contributing to this risk.\n' +
-      'METHODS: This pretest-posttest interventional study provides the CVRM eCoach approach for 6 months to 100 apparently healthy individuals eligible for CVRM. The CVRM eCoach approach is a multicomponent eHealth solution, including a clinical prediction under intervention model that not only calculates the 10-year risk of cardiovascular disease through conventional risk factors (smoking, blood pressure, and lipid profile) and individual characteristics (age, gender, socioeconomic status, physical activity, and diet) but also calculates how the risk changes after hypothetical lifestyle or medical interventions. The CVRM eCoach approach includes features that encourage behavior change. Most of these features include goal setting, decision cards to help decide on an intervention, intervention monitoring, remote communication, and education, all accessible from one dashboard. A practice nurse or physician consults the individuals after risk calculation with the clinical prediction model and uses behavior change features, such as the decision cards, to support shared decision-making. Data are primarily collected via the eCoach, after which the 10-year risk for atherosclerotic cardiovascular disease and its components are analyzed using paired-sample analyses.\n' +
-      'RESULTS: Recruitment began in March 2024 and will continue until 100 participants have been recruited, which is expected in 2025.\n' +
-      'CONCLUSIONS: We anticipate that our CVRM eCoach approach will be valuable in the primary prevention setting. During the crucial initial first months of habit formation, factors such as education, regular check-ups via the eCoach, and clear risk communication could support individuals in sustaining their medical or lifestyle interventions. We hypothesize that there will be a slight to moderate reduction in the 10-year risk of atherosclerotic cardiovascular disease, which over time will lead to significant health improvements on a larger scale.\n' +
-      'TRIAL REGISTRATION: CCMO NL84584.096.23; https://onderzoekmetmensen.nl/nl/trial/56578.',
-    published: '2025-Aug-08',
+    id: '40783737',
+    title: 'Evaluating short-term air pollution-related mental health resilience using a directional network.',
+    abstract: 'BACKGROUND: Recent studies have shown that air pollution is among the most important triggers of mental health risks. However, little is known about the resilience strategies that reduce mental health risks among individuals exposed to pollution. The interconnections of protective and risk factors further complicate the understanding of mental health resilience. Therefore, this study developed a resilience assessment framework accounting for factor interconnections to evaluate the short-term air pollution-related mental health resilience.\n' +
+      'METHODS: Aligned with mental health resilience theory, a Bayesian network model and network analysis were applied to construct a quantitative network of factor interconnections, analyzing 2019-2020 data for 24,261 older adults from the Shandong Aging and Mental Health Survey. On the basis of the network, mental health resilience was assessed via multiple-criteria decision-making method. The most influential pollutants, vulnerable populations and strategies to increase mental health resilience were then proposed.\n' +
+      'RESULTS: Air pollution exposure directly and indirectly affected mental health outcomes, defining a directional network where fine particulate matter emerged as the most influential pollutant. The mean index for short-term air pollution-associated mental health resilience was 0.52 ± 0.18. Resilience was significantly lower among females, adults aged 65-75, and less-educated individuals (mean index: 0.518 (95% CI: 0.515-0.521), 0.517 (95% CI: 0.515-0.520), and 0.516 (95% CI: 0.513-0.519), respectively). Memory lapses for sex/education disparities, irritability and feeling afraid for age disparities demonstrated the steepest disparities across demographic subgroups and bridge nodes-critical junctures that mediate resilience dynamics between populations. In terms of conditional probability, adjusting resilience factors proved more effective than merely reducing exposure.\n' +
+      'CONCLUSIONS: This study has illuminated a directional network linking air pollution to mental health, with a specific focus on fine particulate matter. Thus, enhancing mental health resilience against air pollution requires a coordinated yet targeted approach, prioritizing interventions for fine particular matter exposure. Furthermore, policymakers should address resilience disparities by tailoring interventions to mitigate memory lapses (which exhibit sex/education gaps) and irritability and feeling afraid (associated with age-related vulnerabilities).',
+    published: '2025-Aug-09',
     authors: [
-      'van Mierlo Rutger',
-      'Scheenstra Bart',
-      'Verbeek Joost',
-      'Bruninx Anke',
-      'Kalendralis Petros',
-      'Bermejo Inigo',
-      'Dekker Andre',
-      "van 't Hof Arnoud",
-      'Spreeuwenberg Marieke',
-      'Hochstenbach Laura'
+      'Song Mengwei',
+      'Liu Quanjun',
+      'Huang Qiulin',
+      'Zhang Yuxin',
+      'Wang Qing'
     ],
-    journal: 'JMIR research protocols',
-    doi: '10.2196/66068',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779763/'
+    journal: 'BMC public health',
+    doi: '10.1186/s12889-025-24052-w',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783737/'
   },
   {
-    id: '40779753',
-    title: 'Technology Integration in Syrian Medical Education From the Perspective of Students and Faculty: A Cross-Sectional Evaluation.',
-    abstract: 'BACKGROUND: Technology-enhanced learning (TEL) has become increasingly vital in global medical education, offering significant advantages in knowledge acquisition, communication, motivation, and student engagement. In Syria, a country facing prolonged crises, there is an urgent need to evaluate the integration of technology within medical education to address institutional limitations and support student learning.\n' +
-      'OBJECTIVE: The aim of this study is to evaluate the awareness, perceived challenges, and needs regarding the integration of technology in medical education from the perspectives of students and faculty at Syrian medical colleges.\n' +
-      'METHODS: A cross-sectional survey was conducted during the 2023-2024 academic year across Syrian universities. Stratified random sampling was used to recruit 500 medical students and 200 faculty members. Two tailored, self-administered questionnaires were used, covering motivation, perceived benefits, challenges, and suggestions for technology integration. Validity was assessed through expert review and pilot testing (n=30), and internal consistency was confirmed (Cronbach α=0.6-0.7). Quantitative data were analyzed using descriptive statistics, t tests, ANOVA, and Kruskal-Wallis tests.\n' +
-      'RESULTS: Among medical students, 94% (470\\500) agreed that integrating technology into medical education is essential, with similar agreement from 93.5% (187\\200) of faculty. No significant differences were found in student responses based on specialization (P=.32) or university type (P=.11). Likewise, faculty perspectives did not significantly differ by academic qualification or years of experience (P>.05). There were several perceived benefits; for instance, 93.2% (n=466) of students reported that technology kept them up to date with new developments, 88% stated it enhanced research skills, and 86.8% found TEL more enjoyable than traditional learning methods. Most respondents (95% n=475) said TEL created a flexible, interactive environment. Among faculty, 77% (n=154) agreed TEL improves clinical skill development. Respondents noted there were some challenges; specifically, 57% (n=285) of students cited poor internet service, 33% (n=165) noted the financial burden, and 82.2% (n=411) called for behavioral guidelines. Among faculty, 85.5% (n=171) cited lack of institutional support and 90% (n=180) emphasized the need for training. Both groups supported the development of communication platforms, curriculum revisions, and faculty development programs.\n' +
-      'CONCLUSIONS: There is a strong consensus among Syrian medical students and faculty on the value and necessity of integrating technology in medical education. Despite infrastructure and administrative challenges, both groups recognize TEL as a powerful tool for improving clinical competencies, student motivation, and academic engagement. Institutional commitment, curricular reform, and tailored training are essential to achieving sustainable, effective technology integration.',
-    published: '2025-Aug-08',
-    authors: [ 'Hassoun Subhiya', 'Dashash Mayssoon', 'Baddour Adnan' ],
-    journal: 'JMIR formative research',
-    doi: '10.2196/76958',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779753/'
-  },
-  {
-    id: '40779743',
-    title: 'Effects of a Theory- and Evidence-Based, Motivational Interviewing-Oriented Artificial Intelligence Digital Assistant on Vaccine Attitudes: A Randomized Controlled Trial.',
-    abstract: 'BACKGROUND: Attitude-targeted interventions are important approaches for promoting vaccination. Educational approaches alone cannot effectively cultivate positive vaccine attitudes. Artificial intelligence (AI)-driven chatbots and motivational interviewing (MI) techniques show high promise in improving vaccine attitudes and facilitating readiness for vaccination.\n' +
-      'OBJECTIVE: This study aimed to evaluate the effectiveness of a theory and evidence-based, MI-oriented AI digital assistant in improving COVID-19 vaccine attitudes among adults in Hong Kong.\n' +
-      'METHODS: This 2 parallel-armed randomized controlled trial was conducted from October 2022 to June 2024. Hong Kong adults (N=177) who were vaccine-hesitant were randomly assigned into 2 study groups. The intervention group (n=91) interacted with the AI digital assistant over 5 weeks, including receiving a web-based education program comprising 5 educational modules and communicating with an AI-driven chatbot equipped with MI techniques. The control group (n=86) received WhatsApp (Meta) messages directing them to government websites for COVID-19 vaccine information and knowledge, with the same dosage as the intervention group. Primary outcomes included vaccine hesitancy. Secondary outcomes included vaccine readiness, confidence, trust in government, and health literacy. Outcomes were measured at baseline, postintervention, 3-month, and 6-month follow-up. Focus group interviews were conducted postintervention. Intervention effects were analyzed using the generalized estimating equation model. Interview data were content analyzed.\n' +
-      'RESULTS: Decreases in vaccine hesitancy were observed while no statistically significant time-by-group interaction effects were found. The intervention showed significant time-by-group interaction effects on vaccine readiness (P=.04), confidence (P=.02), and trust in government (P=.04). Significant between-group differences with medium effect sizes were identified for vaccine readiness (Cohen d=0.52) and trust in government (Cohen d=0.54) postintervention, respectively. Increases in vaccine-related health literacy were observed, and a significant time effect was found (P=.01). In total, three categories were summarized from interview data: (1) improved vaccine literacy, confidence, and trust in government; (2) hesitancy varied while readiness improved; and (3) facilitators, barriers, and recommendations of modifications on the intervention.\n' +
-      "CONCLUSIONS: The intervention indicated promising yet significant effects on vaccine readiness while the effects on vaccine hesitancy require further confirmation. The qualitative findings; however, further consolidate the significant effects on participants' attitudes toward vaccines. The findings provide novel evidence to encourage the adoption and refinement of a MI-oriented AI digital assistant in vaccine promotion.",
-    published: '2025-Aug-08',
+    id: '40783719',
+    title: 'Household wealth and its association with non-adherence, quality of life, anxiety and depression amongst hemodialysis patients in two centers in Cameroon.',
+    abstract: 'BACKGROUND: Low socioeconomic status (SES) has been linked to poorer outcomes among patients with advanced chronic kidney disease, including those undergoing maintenance hemodialysis. Limited data are available from Sub-Saharan Africa. In this region, traditional SES indicators like education and income can be challenging to measure. Household wealth may serve as a more reliable SES indicator. Our aim was to evaluate SES using household wealth, its association with non-adherence, quality of life, anxiety and depression among hemodialysis patients in Cameroon.\n' +
+      "METHODS: A cross-sectional study was conducted over four months in one urban and one semi-urban hemodialysis facilities in Cameroon. Consenting adult patients on maintenance hemodialysis for at least three months were included. Patients with cognitive impairment or language barriers (English or French) were excluded. Household wealth was assessed using the World Bank's household wealth index adapted for Cameroon. Non-adherence was defined as missing ≥ 2 hemodialysis sessions within a six-week period. Quality of life was evaluated using the Kidney Disease Quality of Life-36 (KDQOL-36) questionnaire. Anxiety and depression risk were assessed using the Hospital Anxiety and Depression Scale (HADS); p-values < 0.05 were considered statistically significant.\n" +
+      'RESULTS: A total of 199 participants were included, with 52.8% (n = 109) males and a median age of 46 [IQR 36-56] years. Poverty affected 47.7% (n = 95) of participants, urban dwellers being more susceptible (52.5% n = 73 vs. 36.7% n = 22, p = 0.039). Poor participants had a greater percentage of patients < 46 years (56.8% n = 58 vs. 49% n = 40, p = 0.001) and unmarried status (43.1% n = 41 vs. 28.9% n = 30, p = 0.014). Non-adherence frequency was higher among poorer participants (42% n = 40 vs. 25% n = 26, p = 0.01). Globally, the quality of life was low across all household wealth groups. However, poorer participants experienced less physical function impairment (39% n = 37 vs. 52.9% n = 55, p = 0.04), fewer emotional role limitations (9.5% n = 9 vs. 19.2% n = 20, p = 0.048), and less depression (13.7% n = 13 vs. 26% n = 27, p = 0.04). In multivariate analysis, poverty increased the risk of non-adherence by 4.3 (95%CI 2.063-8.969, p < 0.001) and decrease the risk of depression by 0.7 (95%CI 0.063-0,963, p = 0.045).\n' +
+      'CONCLUSION: Poverty, as assessed by household wealth, is common among hemodialysis patients, particularly the younger patients and urban dwellers. It is associated with increased risk of non-adherence but a lesser risk of depression.',
+    published: '2025-Aug-09',
     authors: [
-      'Li Yan',
-      'Li Mengqi',
-      'Yorke Janelle',
-      'Bressington Daniel',
-      'Chung Joyce',
-      'Xie Yao-Jie',
-      'Yang Lin',
-      'He Mengting',
-      'Sun Tsz-Ching',
-      'Leung Angela Y M'
+      'Fouda Hermine Danielle Epse Ebana Menye',
+      'Mouaffo Franck Niverd Mefeya',
+      'Nzana Victorine Bandolo',
+      'Tumchou Pamela',
+      'Elimby Lionel',
+      'Teuwafeu Denis',
+      'Gobina Ronald',
+      'Halle Marie-Patrice'
     ],
-    journal: 'Journal of medical Internet research',
-    doi: '10.2196/72637',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779743/'
+    journal: 'BMC nephrology',
+    doi: '10.1186/s12882-025-04380-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783719/'
   },
   {
-    id: '40779716',
-    title: 'Embedding Social-Emotional Learning in Elementary School-Based Speech-Language Therapy: A Pilot Randomized Controlled Trial.',
-    abstract: 'PURPOSE: Many students with communication disorders have unique social-emotional needs, yet school speech-language pathologists (SLPs) are not typically trained in how to address those needs. We developed a new training (STIRS [SLP Training to Increase Resilience in Students]) to equip elementary school SLPs to embed social-emotional learning (SEL) practices within their routine speech-language sessions with K-3 students with communication disorders. The primary objective of this pilot trial was to evaluate the preliminary effects and feasibility of STIRS.\n' +
-      "METHOD: This was a single-blind, parallel two-arm pilot randomized controlled trial with elementary school SLPs within a local education agency in Iowa. At a scheduled professional development meeting, the SLPs were randomly assigned to either the STIRS condition or active control condition (speech assessment of bilingual students). Both conditions involved a one-time 3-hr training. SLPs' attitudes, knowledge, and self-efficacy in addressing SEL with their K-3 students were measured immediately before and after the training. After the training, we also collected data on acceptability, appropriateness, and feasibility to inform a future definitive trial.\n" +
-      "RESULTS: Twenty SLPs who attended the professional development meeting consented to participate, were randomized by remote web-based allocation, and completed both pretraining and posttraining measures (12 SLPs in the STIRS condition and eight in the active control condition). Compared to the control group, there was a small positive main effect of the STIRS training on SLPs' openness, knowledge, and self-efficacy immediately posttraining. The SLPs in the STIRS condition also reported adequate levels of acceptability, appropriateness, and feasibility of the training.\n" +
-      "CONCLUSIONS: The one-time STIRS training has the potential to increase SLPs' willingness and confidence to support SEL of K-3 students with communication disorders. In a future definitive trial, engagement could be enhanced through more clinical application training. Enrollment challenges may be mitigated by using a different design (e.g., team-based coaching, waitlist control).",
-    published: '2025-Aug-08',
+    id: '40783717',
+    title: 'Gender-based distribution of depression and anxiety following acute coronary syndrome in the Turkish population: are women at higher risk?',
+    abstract: 'BACKGROUND: Depression and anxiety are common psychological disorders following acute coronary syndrome (ACS), potentially affecting patient outcomes. Sex-based disparities in the prevalence of these disorders may significantly impact recovery and rehabilitation post-ACS.\n' +
+      'AIMS: To evaluate gender-based differences in depression and anxiety prevalence among Turkish patients following (ACS), and to identify sociodemographic and clinical factors associated with psychological distress.\n' +
+      'METHODS: In this cross-sectional observational study, 604 patients (144 women and 460 men) diagnosed with ACS were enrolled at their initial outpatient follow-up (4-8 weeks post-discharge). Data collection included demographic and clinical surveys along with the Hospital Anxiety and Depression Scale (HADS).\n' +
+      'RESULTS: Depression and anxiety were significantly more prevalent in women than men (61.1% vs. 37.4% for depression, p < 0.001; 30.6% vs. 20.0% for anxiety, p = 0.008). Moderate-to-severe symptoms were also more common among women for both conditions (p < 0.001). Lower education levels and income below expenses were associated with higher anxiety and depression scores (p < 0.025). Among women, married individuals reported higher anxiety than widowed/divorced women (p < 0.001). Hypertension significantly increased distress, particularly in men (p < 0.001), while chronic kidney disease had a stronger impact among women (p < 0.018).\n' +
+      'CONCLUSION: There are marked gender disparities in depression and anxiety prevalence post-ACS, with women being significantly more affected. Socioeconomic disadvantages and comorbid conditions contribute to psychological distress. Routine psychological screening and sex-sensitive interventions, especially for vulnerable groups, are crucial for improving outcomes after ACS. Significant gender disparities exist in post-ACS depression and anxiety, with women disproportionately affected. Socioeconomic disadvantage and comorbidities further compound psychological distress. Integrating routine mental health screening and sex-sensitive interventions into post-ACS care is essential, particularly for high-risk populations, to improve long-term outcomes.',
+    published: '2025-Aug-09',
     authors: [
-      'Rodgers Naomi H',
-      'Zhang Yanchen',
-      'Combiths Philip',
-      'Walker Elizabeth A'
+      'Kertmen Ömer',
+      'Çoksevim Metin',
+      'Çakmak Abdülkadir',
+      'Kertmen Tuğba',
+      'İliş Doğan'
     ],
-    journal: 'Language, speech, and hearing services in schools',
-    doi: '10.1044/2025_LSHSS-25-00001',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779716/'
+    journal: 'BMC cardiovascular disorders',
+    doi: '10.1186/s12872-025-05073-0',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783717/'
   },
   {
-    id: '40779714',
-    title: 'The Perceived Value of Interprofessional Practice According to Classroom Teachers, Special Education Teachers, and Speech-Language Pathologists.',
-    abstract: 'PURPOSE: When working with students with speech, language, and communication needs, classroom teachers (CLTs), special education teachers (SETs), and speech-language pathologists (SLPs) must engage in interprofessional practice (IPP). According to the expectancy-value model, IPP adoption is partially contingent on its perceived value. The objective of this study was to analyze whether and how the perceived value of IPP differs across four domains (interest, costs, benefits for the specialist, and benefits for the students) among the three professional groups and the extent to which various factors affect this perception. This study focuses on school-based professionals in the Canton of Bern, Switzerland, working under the same administrative authority and in accordance with the same guidelines.\n' +
-      'METHOD: A total of 317 staff members from mainstream schools in Bern, Switzerland (142 CLTs, 89 SETs, and 86 SLPs), completed an IPP questionnaire. Confirmatory factor analysis was used to compare the four domains of perceived values between groups, and structural equation modeling was used to assess the impact of various factors.\n' +
-      'RESULTS: SETs showed the most positive perception of IPP across all domains, whereas CLTs and SLPs were less positive. Self-reported competencies in IPP positively influenced the perceived value of CLTs and SLPs; however, perceptions were more negative at the secondary school level for CLTs and SLPs.\n' +
-      'CONCLUSION: Since CLTs, SETs, and SLPs in the Canton of Bern, Switzerland, operate under the same administrative guidelines, the differences in perceived value of IPP are attributed to their distinct professional backgrounds and work environments.\n' +
-      'SUPPLEMENTAL MATERIAL: https://doi.org/10.23641/asha.29637284.',
-    published: '2025-Aug-08',
-    authors: [ 'Till Christoph' ],
-    journal: 'Language, speech, and hearing services in schools',
-    doi: '10.1044/2025_LSHSS-24-00154',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779714/'
-  },
-  {
-    id: '40779688',
-    title: 'Building Capacity in Public Health: Effects of the Pacific Public Health Fellowship Program in the US-Affiliated Islands.',
-    abstract: 'CONTEXT: Public health agencies require a competent, well-trained workforce to protect health and meet the specific needs of the communities served. In the US-Affiliated Pacific Islands (USAPI), geographic and educational barriers, and limited availability of culturally and linguistically appropriate training programs are unique challenges that contribute to public health workforce shortages.\n' +
-      'PROGRAM AND IMPLEMENTATION: The Pacific Public Health Fellowship Program (PPHFP) was introduced through a partnership between the Centers for Diseases Control and Prevention and the Pacific Island Health Officers Association. It was designed to address barriers to public health workforce development and capacity in USAPI. Established in 2019, PPHFP is a 2-year, full-time training program designed for USAPI residents who are recent college graduates with interests in pursuing careers in public health. The program includes a competency-based training curriculum and field-based projects at participating host sites to address local public health challenges. PPHFP has expanded from 2 fellows in 2021 to 43 fellows in 2024, with each USAPI having hosted fellows.\n' +
-      'EVALUATION: All 2021-2023 cohort respondents to the PPHFP exit survey have reported satisfaction with the program, increased knowledge and skills in public health, and readiness to enter the public health workforce. In addition, respondents reported that they have contributed to public health workforce capacity at their local host sites. In total, 16 of 17 graduates from these cohorts have been employed or continued their education in the public health field.\n' +
-      'DISCUSSION: PPHFP is a successful approach to addressing unique public health workforce challenges in USAPI through recruitment, training, and placement of residents at local host sites. This fellowship program can serve as a model for enhancing public health workforce capacity in other regions and globally.',
-    published: '2025-Aug-05',
+    id: '40783693',
+    title: 'Adherence to benzathine penicillin prophylaxis and associated factors in patients with rheumatic heart disease attending two public hospitals in Bahir dar, Ethiopia.',
+    abstract: 'BACKGROUND: Regular intramuscular injection of benzathine penicillin every two to four weeks is a critical and cost-effective secondary prevention strategy for reducing morbidity and mortality from rheumatic heart disease (RHD), particularly in resource-limited settings like Ethiopia. However, there is limited evidence of adherence to this prophylaxis. Therefore, this study aimed to assess adherence to benzathine penicillin prophylaxis used for secondary prevention and its associated factors among patients with RHD attending follow-up clinics at two public referral hospitals in Bahir Dar, Ethiopia.\n' +
+      'METHODS: A hospital-based cross-sectional study was conducted among 346 patients with RHD attending the follow-up clinic at Tibebe Ghion and Felege Hiwot specialized hospitals from October 1st, 2023 to January 20, 2024. Data was collected through questionnaire-based face-to-face interviews and a review of medical records. The data was entered into EpiData version 3.1 and exported to SPSS version 27 for analysis. Binary logistic regression analysis was performed to identify factors associated with good adherence to benzathine penicillin prophylaxis. Adjusted odds ratio at a p-value of less than 0.05 was used to assess the strength of the statistical association.\n' +
+      'RESULTS: Among 346 patients with RHD (97% response rate), the study found an overall adherence rate of 63.6% (95% CI, 58.6-68.8) to benzathine penicillin G (BPG) prophylaxis. Factors associated with good adherence included mild to moderate pain at the injection site (AOR = 2.44; 95% CI 1.45-4.09), good awareness of the purpose of BPG (AOR = 1.99; 95% CI, 1.11-3.59), urban residence of patients (AOR = 3.58, 95% CI 1.99-6.41), prophylaxis duration of ≤ 5 years (AOR = 4.15, 95% CI 1.58-10.88), prophylaxis duration 5-10 years (AOR = 3.83, 95% CI 1.32-11.13), and no history of admission in the last year (AOR = 3.05; 95% CI 1.67-5.54).\n' +
+      'CONCLUSIONS: The level of good adherence in this study is sub-optimal. Factors positively associated with adherence included urban residence, mild to moderate injection site pain, awareness of BPG purpose, shorter prophylaxis duration, and absence of recent hospital admissions. To improve adherence, healthcare providers should implement targeted patient education programs and adopt effective pain management strategies as part of routine follow-up care.',
+    published: '2025-Aug-09',
     authors: [
-      'Frazier Cassandra Martin',
-      'Concepción Acevedo Jeniffer',
-      'Holmes Gayle',
-      'Argotsinger Brittany',
-      'Irizarry-Ramos Jessica',
-      'Rostami Soulmaz',
-      'Colman Laura',
-      'Dean Hazel D',
-      'Dauphin Leslie A'
+      'Kelemu Gubaynew Getie',
+      'Yihun Yohannes Tekleab',
+      'Endeshaw Destaw',
+      'Bogale Eyob Ketema'
     ],
-    journal: 'Journal of public health management and practice : JPHMP',
-    doi: '10.1097/PHH.0000000000002204',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779688/'
+    journal: 'BMC cardiovascular disorders',
+    doi: '10.1186/s12872-025-05069-w',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783693/'
   },
   {
-    id: '40779687',
-    title: 'Diagnostic validity of the Persian version of Montreal Cognitive Assessment - basic for cognitive screening.',
-    abstract: 'BACKGROUND: The growing number of older people with Mild Cognitive Impairment (MCI) highlights the need for suitable and effective neuropsychological assessments. The Montreal Cognitive Assessment Basic (MoCA-B) is designed to identify MCI in individuals with lower literacy and education levels. This study seeks to validate the use of MoCA-B in the Persian-speaking population.\n' +
-      "METHODS: In this cross-sectional study, the original English version of the MoCA-B test was translated into Persian using the forward-backward method. The study involved 60 cognitively healthy aging individuals, 30 with Alzheimer's disease, and 30 MCI patients. All participants met the MMSE, MoCA-B, DSM-5, and Albert's criteria.\n" +
-      'RESULTS: MoCA-B scores in patients with AD were significantly lower than in the patients with MCI and healthy individuals (P < 0.001). They were significantly lower in MCI than individuals without cognitive impairment (P < 0.001). The cutoff score for discriminating between patients with AD/MCI and individuals without cognitive impairment was 20.5 (sensitivity = 95.0%, specificity = 88.3%, AUC = 0.972).\n' +
-      'CONCLUSION: This study shows that the MoCA-B is a suitable screening tool for distinguishing persons with cognitive impairment (MCI and AD) in the Persian-speaking population.',
-    published: '2025-Aug-08',
-    authors: [
-      'Khatoonabadi Ahmad R',
-      'Jafari Shirin',
-      'Modarres Zadeh Amin',
-      'Maroufizadeh Saman'
-    ],
-    journal: 'Applied neuropsychology. Adult',
-    doi: '10.1080/23279095.2025.2541812',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779687/'
+    id: '40783649',
+    title: 'Premarital intervention based on attachment and differentiation improves communication and conflict management in Iranian couples.',
+    abstract: 'This study examined the effectiveness of a premarital intervention based on the Attachment-Differentiation Premarital Model (ADPM) in enhancing communication patterns and conflict management skills among Iranian engaged couples. The engagement period is a pivotal stage for future marital quality, yet many couples-particularly in collectivist societies like Iran-lack access to structured relational education. In this quasi-experimental study using a pretest-posttest control group design, 40 participants (20 couples) were selected from a university-affiliated counseling center and randomly assigned to either the experimental group (10 couples) or control group (10 couples). All participating couples resided in a married student dormitory and represented various cultural regions of Iran. The experimental group received 8-10 structured ADPM-based sessions, while the control group received no intervention during the study period. Communication patterns were measured using the Couples Communication Patterns Questionnaire (CPQ), and conflict management styles were assessed using the Rahim Organizational Conflict Inventory-II (ROCI-II). Multivariate analysis of covariance (MANCOVA) revealed significant post-intervention improvements in integrating (F = 21.90, p < 0.001), obliging (F = 19.49, p < 0.001), compromising (F = 8.73, p < 0.01), and dominating (F = 9.53, p < 0.01) communication styles, alongside a significant reduction in avoidance (F = 42.16, p < 0.001). Improvements were also found in constructive conflict communication (F = 8.13, p < 0.01), and reductions were observed in avoidance (F = 13.21, p < 0.001) and demand/withdrawal styles (F = 9.28, p < 0.01). These findings suggest that the ADPM offers a theoretically grounded and culturally responsive framework for premarital education, particularly in contexts where relational autonomy and emotional expression are constrained by traditional norms.',
+    published: '2025-Aug-09',
+    authors: [ 'Asadpour Esmail', 'Sharei Aysan', 'Salmani Ali' ],
+    journal: 'Scientific reports',
+    doi: '10.1038/s41598-025-15051-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783649/'
   },
   {
-    id: '40779669',
-    title: 'Integrating Planetary Health Into Residencies: A Vital Step for Medical Education.',
-    abstract: "The escalating climate crisis necessitates that health care and medical education adapt to the increasing health impacts of extreme weather events, rising temperatures, and shifting ecosystems. Patients and medical trainees are already confronting the health consequences of climate change, pollution, and environmental degradation, while health care systems grapple with effects on service delivery. These environmental challenges underscore the need for health care and medical education that is resilient and proactive in addressing emerging threats.Planetary health is a field inclusive of the effects of climate change and environmental degradation on human health and the broader systems that sustain life. Many U.S. medical schools have begun integrating planetary health into their curricula. However, without deliberate and scaffolded inclusion of planetary health education throughout graduate medical education, trainees may lack the ability to translate environmental determinants of health into actionable clinical strategies that improve patient outcomes and health care system resilience, as graduate medical education plays a pivotal role in shaping physicians' practice patterns. The Accreditation Council for Graduate Medical Education (ACGME), which sets the standard for routine graduate medical education, has the opportunity to help prepare trainees to meet societal needs and equip them for the challenges they will encounter in their medical practice.Incorporating planetary health into the Common Program Requirements would establish a training standard for planetary health, now widely recognized as fundamental to human health. Existing ACGME priorities, such as health equity, quality improvement, systems-based practice, and interdisciplinary collaboration, align with planetary health approaches. The ACGME's endorsement of planetary health education would ensure all residents acquire the skills and knowledge necessary to address the health consequences of climate change and are prepared to practice sustainable health care, thus fostering a health care workforce capable of meeting the needs of patients and delivering resilient, sustainable, and equitable care.",
-    published: '2025-Aug-08',
+    id: '40783642',
+    title: 'Psychological distress and its association with gender, socioeconomic status, education and health conditions.',
+    abstract: 'Psychological distress represents a growing concern in contemporary society, with its prevalence often exacerbated by various demographic and health-related factors. Understanding the interplay of gender, socioeconomic status, education, and health conditions is crucial for developing effective mental health interventions. This original cohort-based study investigates the impact of gender, socioeconomic status (SES), education, and existing health conditions on psychological distress levels. This study utilized cross-sectional data from the Ravanser Non-Communicable Disease (RaNCD) cohort, focusing on Kurdish individuals aged 35 to 65 in the Ravanser district of Kermanshah, Iran. Psychological distress was evaluated seven years post-recruitment using a validated scale, involving 3,015 randomly selected participants from the original cohort. Descriptive statistics summarized psychological distress distributions, while multivariable linear regression models, adjusted for various covariates, explored associations between SES, education, and psychological distress, with significance set at p < 0.05. Significant findings include higher psychological distress levels in females (20.56 ± 8.58) compared to males (17.41 ± 7.22) and a strong association with socioeconomic status, where poorer individuals reported greater psychological distress (20.52 ± 8.89) than their wealthier counterparts (16.84 ± 6.79). Education level was also critical, with illiterate individuals experiencing higher psychological distress (19.98 ± 8.42) compared to those with postgraduate education (17.43 ± 7.18). Additionally, individuals with cardiovascular disease (20.92 ± 8.75) and depression (24.82 ± 9.92) exhibited significantly higher psychological distress levels. These findings suggest that targeted interventions addressing mental health should consider demographic factors, socioeconomic status, education, and existing health conditions to effectively reduce psychological distress in vulnerable populations.Overall, these findings underscore the complex interplay of gender, SES, and education in influencing psychological distress, highlighting the need for targeted interventions.',
+    published: '2025-Aug-09',
     authors: [
-      'Cerceo Elizabeth',
-      'Marwah Harleen',
-      'Philipsborn Rebecca Pass'
+      'Mirzaei-Alavijeh Mehdi',
+      'Najafi Farid',
+      'Veis Rasoul Gholami',
+      'Moradinazar Mehdi',
+      'Farasati Farhad',
+      'Jalilian Farzad'
     ],
-    journal: 'Academic medicine : journal of the Association of American Medical Colleges',
-    doi: '10.1097/ACM.0000000000006184',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779669/'
+    journal: 'Scientific reports',
+    doi: '10.1038/s41598-025-14848-6',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783642/'
   },
   {
-    id: '40779650',
-    title: 'Competency Framework Development for Genomics Nurse Educators: Defining a Specialty Role in Academic Nursing Education.',
-    abstract: "BACKGROUND: As genomics becomes increasingly integral to health care, enhancing nurse educators' competence in teaching genomics is vital for sustaining nursing's role in precision health.\n" +
-      'PROBLEM: Many nurses lack confidence in applying genomics in practice, highlighting the need for improved genomics nursing education.\n' +
-      'APPROACH: The International Society for Nurses in Genetics convened a steering committee to develop a competency framework defining the role of Genomics Nurse Educators. We applied the Six-Step Model for Competency Framework Development in Healthcare Professions, drawing on targeted literature review and international stakeholder input to draft the framework.\n' +
-      'OUTCOMES: The resulting framework includes 3 domains and 7 competency areas defining the knowledge, expertise, and leadership required for Genomics Nurse Educators.\n' +
-      'CONCLUSIONS: The framework advances genomic nursing education globally, transitioning it from an emerging to an evolving specialty; provides a structured pathway for faculty development, supports integration of genomics into curricula, and promotes education of genomics-informed nurses.',
-    published: '2025-Aug-04',
+    id: '40783631',
+    title: 'Mental health issues, coping mechanisms, and COVID-19 vaccine acceptance among chronically ill patients in tertiary health facilities in Central Region, Ghana.',
+    abstract: 'BACKGROUND: The COVID-19 pandemic has emphasised the importance of vaccination, particularly for individuals with chronic conditions. However, vaccine acceptancy is influenced by psychological distress and coping mechanisms. This study aimed to examine the influence of mental health issues (anxiety, depression, and stress) and coping strategies on vaccine acceptancy.\n' +
+      'METHOD: A cross-sectional survey was conducted among 457 individuals with diabetes and hypertension attending two healthcare facilities in Ghana. Participants completed validated measures, including the Depression Anxiety Stress Scale (DASS-21), the Africultural Coping System Inventory (ACSI), and the COVID-19 Vaccine Acceptance Scale. Descriptive statistics, correlational analysis and hierarchical regression analysis were used to assess predictors of vaccine acceptancy using Jamovi statistical software version 2.6.63.\n' +
+      'RESULTS: The study found that stress, anxiety, and depression were strongly correlated, with higher levels of psychological distress linked to lower COVID-19 vaccine acceptancy. The multivariate results after adjusting for socio-demographic factors, anxiety (β = - 0.439, p <.001) and depression (β = - 0.455, p <.001) were strong negative predictors of vaccine acceptancy. Cognitive-emotional debriefing (β = 0.129, p =.012) was the only coping strategy significantly associated with higher vaccine acceptancy, while spiritual, collective, and ritual coping strategies had no significant impact after controlling for confounders. Education level (β = - 0.136, p <.001) remained significant predictors indicating that highly educated individuals showed lower vaccine acceptance.\n' +
+      'CONCLUSION: The study suggests that mental health issues significantly influence vaccine acceptance, with cognitive-emotional debriefing playing a crucial role in moderating hesitancy. These findings highlight the need for integrating mental health support into vaccination strategies to enhance vaccine confidence among individuals with chronic conditions.',
+    published: '2025-Aug-09',
     authors: [
-      'Himes Deborah O',
-      'Dungan Jennifer R',
-      'Dewell Sarah',
-      'Davis Sarah H',
-      'Ward Linda D',
-      'Lucas Ruth F'
+      'Ninnoni Jerry Paul K',
+      'Commey Isaac Tetteh',
+      'Harmah Emmanuel Budu',
+      'Amoadu Mustapha'
     ],
-    journal: 'Nurse educator',
-    doi: '10.1097/NNE.0000000000001947',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40779650/'
+    journal: 'Discover mental health',
+    doi: '10.1007/s44192-025-00241-2',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783631/'
+  },
+  {
+    id: '40783624',
+    title: 'Accessibility To Ethnic Food Stores Authorized by the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) in Washington State.',
+    abstract: 'The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) is a U.S. federal nutrition assistance program that provides low-income pregnant, breastfeeding, and postpartum women, infants, and children up to age 5 with supplemental foods, healthcare referrals, and nutrition education. At least 20% of participants of WIC in Washington state are immigrants. Information on how many WIC-authorized stores are ethnic stores, where immigrants could more readily access culturally preferred foods, is unknown. This study aims to assess the availability and distribution of WIC-authorized ethnic stores in Washington state, relative to the location of immigrant WIC-eligible populations. Data on the location of WIC-authorized stores, classified as ethnic or non-ethnic stores, were obtained from the Washington WIC Shopper mobile app. Sociodemographic information for each census tract was obtained from the American Community Survey 2017-2021. We estimated the distribution of, and distance to, WIC-authorized ethnic stores, compared across census tracts with high versus low proportions of foreign-born individuals and WIC-eligible children in Washington state. Almost 1/3 (29%) of census tracts in Washington state had WIC-authorized stores; 1.7% had WIC-authorized ethnic stores. Census tracts with high proportions of both foreign-born individuals and WIC-eligible children, compared with census tracts with low proportions, had more ethnic stores (14.5%) and shorter distances to them (3.0 km). Census tracts in Washington state with higher proportions of foreign-born individuals and WIC-eligible children had better physical access to WIC-authorized ethnic stores, though these stores are rare. Future research should explore barriers and facilitators for ethnic stores becoming WIC-authorized.',
+    published: '2025-Aug-09',
+    authors: [
+      'Ogaki Kana',
+      'Y W Seto Edmund',
+      'L Harris Cristen',
+      'Chaparro M Pia'
+    ],
+    journal: 'Journal of immigrant and minority health',
+    doi: '10.1007/s10903-025-01753-3',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40783624/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
-Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
 Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
@@ -1693,43 +1647,43 @@ Translating paper: The Effect of Using Simulation on Developing Stude...
 Translating paper 21/50
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
 Translating paper 22/50
-Translating paper: Digital University: Building a Flexible, Inclusive...
+Translating paper: The Future of Accounting Education Under the Devel...
 Translating paper 23/50
-Translating paper: Digitalization of Higher Education: Experience of ...
+Translating paper: Digital University: Building a Flexible, Inclusive...
 Translating paper 24/50
-Translating paper: Media Education as AI Education—An Experiential Ap...
+Translating paper: Digitalization of Higher Education: Experience of ...
 Translating paper 25/50
-Translating paper: Integrating Artificial Intelligence in English Lan...
+Translating paper: Media Education as AI Education—An Experiential Ap...
 Translating paper 26/50
-Translating paper: Model-Based STEM Technical and Vocational Educatio...
+Translating paper: Integrating Artificial Intelligence in English Lan...
 Translating paper 27/50
-Translating paper: E-Learning and E-Pedagogy in Uzbekistan, Benefits ...
+Translating paper: Model-Based STEM Technical and Vocational Educatio...
 Translating paper 28/50
-Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
+Translating paper: E-Learning and E-Pedagogy in Uzbekistan, Benefits ...
 Translating paper 29/50
-Translating paper: ChatGPT and University Students: How Family Educat...
+Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 30/50
-Translating paper: Analyzing the User Experience of Virtual Pedagogy ...
+Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 31/50
-Translating paper: Does back pain catastrophizing influence 60-month ...
+Translating paper: Citizenship Status and the Family and Medical Leav...
 Translating paper 32/50
-Translating paper: Optimizing Cardiovascular Risk Management in Prima...
+Translating paper: Investigating the Role of Neighborhood Socioeconom...
 Translating paper 33/50
-Translating paper: Technology Integration in Syrian Medical Education...
+Translating paper: Evaluating short-term air pollution-related mental...
 Translating paper 34/50
-Translating paper: Effects of a Theory- and Evidence-Based, Motivatio...
+Translating paper: Household wealth and its association with non-adhe...
 Translating paper 35/50
-Translating paper: Embedding Social-Emotional Learning in Elementary ...
+Translating paper: Gender-based distribution of depression and anxiet...
 Translating paper 36/50
-Translating paper: The Perceived Value of Interprofessional Practice ...
+Translating paper: Adherence to benzathine penicillin prophylaxis and...
 Translating paper 37/50
-Translating paper: Building Capacity in Public Health: Effects of the...
+Translating paper: Premarital intervention based on attachment and di...
 Translating paper 38/50
-Translating paper: Diagnostic validity of the Persian version of Mont...
+Translating paper: Psychological distress and its association with ge...
 Translating paper 39/50
-Translating paper: Integrating Planetary Health Into Residencies: A V...
+Translating paper: Mental health issues, coping mechanisms, and COVID...
 Translating paper 40/50
-Translating paper: Competency Framework Development for Genomics Nurs...
+Translating paper: Accessibility To Ethnic Food Stores Authorized by ...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1748,75 +1702,29 @@ Translating paper 48/50
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
 Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.464275064118493 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"29s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '29s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.071285040267097 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"10"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"27s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '27s'
-    }
-  ]
-}
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.033255746774153 seconds...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4331198519051185 seconds...
 Translation completed: 50 papers
-Removed duplicates: 873 -> 833
-Total papers after merging: 833 (823 existing + 50 new)
-Saved 833 papers to papers.json
+Removed duplicates: 883 -> 844
+Total papers after merging: 844 (833 existing + 50 new)
+Saved 844 papers to papers.json
 Generating HTML files...
-Generating index.html with 833 papers...
+Generating index.html with 844 papers...
 Successfully generated index.html
-Generating archive.html with 833 papers...
+Generating archive.html with 844 papers...
 Successfully generated archive.html
-Generating journal.html with 833 papers...
+Generating journal.html with 844 papers...
 Successfully generated journal.html
-Generating acquisition.html with 833 papers...
+Generating acquisition.html with 844 papers...
 Successfully generated acquisition.html
-Generating publication.html with 833 papers...
+Generating publication.html with 844 papers...
 Successfully generated publication.html
-Generating registration.html with 833 papers...
+Generating registration.html with 844 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 833
+Total papers in database: 844
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-09T15:38:56.991Z
+Timestamp: 2025-08-10T15:39:03.336Z
