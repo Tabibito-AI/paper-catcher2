@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-10T15:10:22.866Z
+Timestamp: 2025-08-11T15:12:50.770Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 833 existing papers from papers.json
+Loaded 844 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -584,184 +584,194 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40783802',
-    title: 'Citizenship Status and the Family and Medical Leave Act: Examining Inequities in Eligibility Among Hispanic Workers.',
-    abstract: 'BACKGROUND: The Family and Medical Leave Act (FMLA) is the sole U.S. policy protecting job security during medical or parental leave. We extend prior work by analyzing overall FMLA eligibility by citizenship and gender among Hispanic workers. We examine which criteria-employer size, job tenure, and minimum work hours-drive citizenship disparities. We also investigate the factors predicting FMLA eligibility and examine the population-level characteristics contributing to FMLA citizenship disparities.\n' +
-      'METHODS: We used the 2018 Current Population Survey (n = 5632) to compare FMLA eligibility by citizenship status among Hispanic foreign-born workers by sex. We used multivariate linear regressions and Blinder-Oaxaca decompositions to investigate citizenship inequities in FMLA eligibility.\n' +
-      'RESULTS: Findings showed eligibility disparities: 38.9% of noncitizen men and 42.2% of noncitizen women met FMLA criteria compared to over half of their citizen counterparts. For men, this disparity stemmed primarily from differences in employer size, with less than half of non-citizens working for eligible employers. For women, both employer size and job tenure contributed to the ineligibility. Decomposition analyses showed that educational and occupational differences explained roughly half the employer-size citizenship disparity among men. Among women, occupation, full-time status, and education accounted for 85% of the employer size disparity. Age, residency duration, and full-time status explained nearly 75% of the job tenure citizen gap.\n' +
-      "CONCLUSIONS: The FMLA's design excludes Hispanic non-citizens during critical life events. Addressing occupational segregation and educational barriers and modifying eligibility criteria are crucial to mitigating these disparities. A national paid family and medical leave policy is urgently needed.",
-    published: '2025-Aug-10',
-    authors: [ 'Quirós Susana', 'Yu Mansoo' ],
-    journal: 'American journal of industrial medicine',
-    doi: '10.1002/ajim.70011',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783802/'
-  },
-  {
-    id: '40783788',
-    title: 'Investigating the Role of Neighborhood Socioeconomic Status and Germline Genetics on Prostate Cancer Risk.',
-    abstract: 'Genetic factors play an important role in prostate cancer (PCa) development with polygenic risk scores (PRS) predicting disease risk across genetic ancestries. However, there are few convincing modifiable factors for PCa and little is known about their potential interaction with genetic risk. Our study explores the role of neighborhood socioeconomic status (nSES)-and how it may interact with PRS-on PCa risk. We analyzed incident PCa cases and controls of European (cases=5,960; controls=93,990) and African (cases=109; controls=1,226) ancestry from the UK Biobank (UKB) cohort. Using the English Indices of Deprivation, a set of validated metrics that quantify lack of resources within geographical areas, we performed logistic regression to investigate the main effects and interactions between nSES deprivation and genetic susceptibility to PCa, represented by a multi-ancestry PRS comprised of 269 genetic variants. The PRS was associated with PCa in the European (OR=2.04; 95%CI=2.00-2.09; P=5.34x10) and African (OR=1.35; 95%CI=1.16-1.58; P=1.05x10) ancestries. Additionally, nSES deprivation indices were inversely associated with PCa: employment, education, health, and income. From this, we suspect that PRS, through biological mechanisms, and nSES deprivation, likely through differences in screening, are associated with PCa, but act independently of each other. Our findings suggest that genetic factors and social determinants of health measured by neighborhood socioeconomic status do not synergistically increase risk of PCa.',
-    published: '2025-Aug-08',
+    id: '40785657',
+    title: 'Peer coaching in a rural setting: A feasibility study.',
+    abstract: "INTRODUCTION: Peer coaching has gained traction as a method for enhancing practical and personal skills without the hierarchical dynamic sometimes found in mentorship. It creates a collaborative environment, encourages inclusivity and community building, and supports skill development across various disciplines and levels of experience. The objective of our study was to assess the feasibility, satisfaction, and effects of a reciprocal peer coaching pilot program for practising physicians in Northern Ontario's remote and rural regions.\n" +
+      "METHODS: Participants completed 'Peer coaching in practice' micromodules from The Royal College of Physicians and Surgeons of Canada and attended an in-person demonstration. Each participant committed to 2 sessions as both coach and coachee with a self-selected partner. Feedback was gathered at each study interval.\n" +
+      "RESULTS: Our qualitative study found that peer coaching positively impacted physicians' daily habits, wellness, and professional growth. The study emphasised the importance of cohesive partnerships in peer coaching and highlighted substantial benefits for both coaches and coachees. The feasibility of peer coaching was a key finding, demonstrating its potential to build supportive communities, particularly for providers in remote areas. While in-person interaction was preferred, the study also acknowledged the potential of virtual coaching, which could benefit providers isolated by geography, demographics, or practice modality.\n" +
+      'CONCLUSION: Peer coaching is an alternative, novel form of continuing medical education and knowledge exchange. It is particularly relevant in rural communities offering crucial support to local providers, especially those in rural or isolated areas where access to formal continued medical education is limited. Our results suggest that peer coaching can significantly improve the daily practices and overall well-being of physicians.\n' +
+      "INTRODUCTION: Le coaching entre pairs s'est imposé comme une méthode permettant d'améliorer les compétences pratiques et personnelles sans la dynamique hiérarchique que l'on retrouve parfois dans le mentorat. Il crée un environnement collaboratif, favorise l'inclusion et le développement communautaire, tout en soutenant le développement des compétences dans diverses disciplines et à différents niveaux d'expérience. L'objectif de cette étude était d'évaluer la faisabilité, la satisfaction et les effets d'un programme pilote de coaching réciproque entre pairs destiné aux médecins en exercice dans les régions rurales et isolées du nord de l'Ontario.\n" +
+      `MTHODES: Les participants ont suivi les micromodules " Expérience Coaching entre pairs " du Collège royal des médecins et chirurgiens du Canada et ont assisté à une démonstration en personne. Chaque participant s'est engagé à participer à deux séances en tant que coach et aidé (e) avec un partenaire de son choix. Des commentaires ont été recueillis à chaque intervalle de l'étude.\n` +
+      "RSULTATS: Notre étude qualitative a révélé que le coaching entre pairs avait un impact positif sur les habitudes quotidiennes, le bien-être et le développement professionnel des médecins. Elle a souligné l'importance de partenariats solides dans le cadre du coaching entre pairs et a mis en évidence des avantages substantiels tant pour les coachs que pour les aidés. La faisabilité du coaching entre pairs a été une conclusion clé, démontrant son potentiel pour créer des communautés solidaires, en particulier pour les prestataires de soins dans les zones isolées. Bien que les interactions en personne aient été préférées, l'étude a également reconnu le potentiel du coaching virtuel qui pourrait bénéficier aux prestataires isolés par la géographie, la démographie ou leur mode d'exercice.\n" +
+      "CONCLUSION: Le coaching entre pairs est une forme alternative et novatrice de formation médicale continue et d'échange de connaissances. Il est particulièrement pertinent dans les communautés rurales où il offre un soutien crucial aux prestataires locaux, en particulier ceux des zones rurales ou isolées où l'accès à une formation médicale continue formelle est limité. Nos résultats suggèrent que le coaching entre pairs peut améliorer considérablement les pratiques quotidiennes et le bien-être général des médecins.",
+    published: '2025-Jul-01',
     authors: [
-      'Judd Jonathan',
-      'Spence Jeffrey P',
-      'Pritchard Jonathan K',
-      'Kachuri Linda',
-      'Witte John S'
+      'Valanci-Aroesty Sofia',
+      'Juneau Mylene',
+      'Lapp Tim',
+      'Nairn Jessica',
+      'Allen Lisa',
+      'Kirkpatrick Roy'
     ],
-    journal: 'HGG advances',
-    doi: '10.1016/j.xhgg.2025.100492',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783788/'
+    journal: 'Canadian journal of rural medicine : the official journal of the Society of Rural Physicians of Canada = Journal canadien de la medecine rurale : le journal officiel de la Societe de medecine rurale du Canada',
+    doi: '10.4103/cjrm.cjrm_41_24',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785657/'
   },
   {
-    id: '40783737',
-    title: 'Evaluating short-term air pollution-related mental health resilience using a directional network.',
-    abstract: 'BACKGROUND: Recent studies have shown that air pollution is among the most important triggers of mental health risks. However, little is known about the resilience strategies that reduce mental health risks among individuals exposed to pollution. The interconnections of protective and risk factors further complicate the understanding of mental health resilience. Therefore, this study developed a resilience assessment framework accounting for factor interconnections to evaluate the short-term air pollution-related mental health resilience.\n' +
-      'METHODS: Aligned with mental health resilience theory, a Bayesian network model and network analysis were applied to construct a quantitative network of factor interconnections, analyzing 2019-2020 data for 24,261 older adults from the Shandong Aging and Mental Health Survey. On the basis of the network, mental health resilience was assessed via multiple-criteria decision-making method. The most influential pollutants, vulnerable populations and strategies to increase mental health resilience were then proposed.\n' +
-      'RESULTS: Air pollution exposure directly and indirectly affected mental health outcomes, defining a directional network where fine particulate matter emerged as the most influential pollutant. The mean index for short-term air pollution-associated mental health resilience was 0.52 ± 0.18. Resilience was significantly lower among females, adults aged 65-75, and less-educated individuals (mean index: 0.518 (95% CI: 0.515-0.521), 0.517 (95% CI: 0.515-0.520), and 0.516 (95% CI: 0.513-0.519), respectively). Memory lapses for sex/education disparities, irritability and feeling afraid for age disparities demonstrated the steepest disparities across demographic subgroups and bridge nodes-critical junctures that mediate resilience dynamics between populations. In terms of conditional probability, adjusting resilience factors proved more effective than merely reducing exposure.\n' +
-      'CONCLUSIONS: This study has illuminated a directional network linking air pollution to mental health, with a specific focus on fine particulate matter. Thus, enhancing mental health resilience against air pollution requires a coordinated yet targeted approach, prioritizing interventions for fine particular matter exposure. Furthermore, policymakers should address resilience disparities by tailoring interventions to mitigate memory lapses (which exhibit sex/education gaps) and irritability and feeling afraid (associated with age-related vulnerabilities).',
-    published: '2025-Aug-09',
+    id: '40785634',
+    title: 'Promoting a Multidisciplinary Team for Early Mobilisation in Mechanically Ventilated Patients: An Innovation in Health Professional Education-A Quasi-Experimental Pre-Post Study.',
+    abstract: "BACKGROUND: Early mobilisation (EM) in mechanically ventilated (MV) patients is a safe and feasible, evidence-based practice with positive health outcomes. It decreases intensive care unit (ICU)-acquired weakness and delirium, hospital length of stay, duration of mechanical ventilation, readmissions and billings, morbidity and mortality. It improves the physical and mental health of critically ill patients. Healthcare professionals' education and readiness are key in establishing EM for practice. Although it is practised in many high-income countries, it has not yet been introduced as a standard care approach in ICUs of Pakistan, a low/middle-income country.\n" +
+      'AIM: This study aimed to assess the knowledge and attitude of healthcare professionals regarding EM of MV patients at an adult ICU through electronic learning (E-learning).\n' +
+      "STUDY DESIGN: A quasi-experimental pre/posttest design was employed on a sample of 57 multidisciplinary healthcare professionals. The study was conducted in the medical and surgical adult ICU of a tertiary care hospital in Karachi, Pakistan. A total population sampling strategy was deployed. A questionnaire was administered to assess the knowledge and attitude of healthcare professionals regarding the EM of MV patients. After expert review and pilot testing, the study questionnaire was contextually modified. A self-developed E-learning module inspired by Kirkpatrick's framework was utilised as an intervention. The duration of the intervention was 120 min, with the participants completing the module at their convenience. Paired t-test and descriptive statistics from the Statistical Package for the Social Sciences version 21 were used to analyse the results. Knowledge and attitude scores were evaluated.\n" +
+      "RESULTS: Demographic data revealed that the majority of participants were critical care registered nurses (71.9%), having 3-4 years of ICU work experience (38.6%) and working in a surgical ICU (54.4%). Only a few participants received EM training (19.3%). The majority of participants' level of education was Undergraduate Nursing (61.4%), with an average age of 29 years, and female gender (56.1%). A statistically significant change (p value < 0.01) in overall knowledge was identified, specifically for items related to the impact of EM in reducing delirium (p value = 0.01), improving patients' awareness (p value = 0.007), requiring less sedation (p value < 0.01), initiating on patients that can respond to verbal commands (p value = 0.03), promoting feasible (p value = 0.001) and safe practice (p value = 0.004), and requiring a multidisciplinary team approach (p value = 0.03). However, overall attitude (p value = 0.096) was unchanged with E-learning.\n" +
+      'CONCLUSION: The study reflected an increase in knowledge among healthcare professionals. E-learning was seen to be a useful strategy for knowledge improvement. EM in MV patients was a new concept for the participants. Participants became aware of the benefits of the EM process and acknowledged the role of multidisciplinary collaboration. There is evidence to upscale the study to test the intervention and expand to other tertiary care hospitals in Pakistan to attain generalisability of results.\n' +
+      'RELEVANCE TO CLINICAL PRACTICE: The study has assessed and generated knowledge among healthcare professionals, predominantly critical care nurses, and has baseline data for devising institutional policies and protocols, educational interventions and research avenues for EM implementation. It also gave an optimistic approach to using a combination of E-learning and high-fidelity simulation for capacity building. Implementing EM in MV patients is crucial for critical care nurses, promoting proactive and preventive nursing care that improves patient outcomes and reduces immobility-related complications. It would also increase multidisciplinary collaboration while enhancing nursing empowerment and professional satisfaction.',
+    published: '2025-Sep',
     authors: [
-      'Song Mengwei',
-      'Liu Quanjun',
-      'Huang Qiulin',
-      'Zhang Yuxin',
-      'Wang Qing'
+      'Ali Zahira Amir',
+      'Ajani Khairulnissa',
+      'Sohaib Muhammad',
+      'Hasnani Fauzia Basaria',
+      'Ladak Laila'
     ],
-    journal: 'BMC public health',
-    doi: '10.1186/s12889-025-24052-w',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783737/'
+    journal: 'Nursing in critical care',
+    doi: '10.1111/nicc.70132',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785634/'
   },
   {
-    id: '40783719',
-    title: 'Household wealth and its association with non-adherence, quality of life, anxiety and depression amongst hemodialysis patients in two centers in Cameroon.',
-    abstract: 'BACKGROUND: Low socioeconomic status (SES) has been linked to poorer outcomes among patients with advanced chronic kidney disease, including those undergoing maintenance hemodialysis. Limited data are available from Sub-Saharan Africa. In this region, traditional SES indicators like education and income can be challenging to measure. Household wealth may serve as a more reliable SES indicator. Our aim was to evaluate SES using household wealth, its association with non-adherence, quality of life, anxiety and depression among hemodialysis patients in Cameroon.\n' +
-      "METHODS: A cross-sectional study was conducted over four months in one urban and one semi-urban hemodialysis facilities in Cameroon. Consenting adult patients on maintenance hemodialysis for at least three months were included. Patients with cognitive impairment or language barriers (English or French) were excluded. Household wealth was assessed using the World Bank's household wealth index adapted for Cameroon. Non-adherence was defined as missing ≥ 2 hemodialysis sessions within a six-week period. Quality of life was evaluated using the Kidney Disease Quality of Life-36 (KDQOL-36) questionnaire. Anxiety and depression risk were assessed using the Hospital Anxiety and Depression Scale (HADS); p-values < 0.05 were considered statistically significant.\n" +
-      'RESULTS: A total of 199 participants were included, with 52.8% (n = 109) males and a median age of 46 [IQR 36-56] years. Poverty affected 47.7% (n = 95) of participants, urban dwellers being more susceptible (52.5% n = 73 vs. 36.7% n = 22, p = 0.039). Poor participants had a greater percentage of patients < 46 years (56.8% n = 58 vs. 49% n = 40, p = 0.001) and unmarried status (43.1% n = 41 vs. 28.9% n = 30, p = 0.014). Non-adherence frequency was higher among poorer participants (42% n = 40 vs. 25% n = 26, p = 0.01). Globally, the quality of life was low across all household wealth groups. However, poorer participants experienced less physical function impairment (39% n = 37 vs. 52.9% n = 55, p = 0.04), fewer emotional role limitations (9.5% n = 9 vs. 19.2% n = 20, p = 0.048), and less depression (13.7% n = 13 vs. 26% n = 27, p = 0.04). In multivariate analysis, poverty increased the risk of non-adherence by 4.3 (95%CI 2.063-8.969, p < 0.001) and decrease the risk of depression by 0.7 (95%CI 0.063-0,963, p = 0.045).\n' +
-      'CONCLUSION: Poverty, as assessed by household wealth, is common among hemodialysis patients, particularly the younger patients and urban dwellers. It is associated with increased risk of non-adherence but a lesser risk of depression.',
-    published: '2025-Aug-09',
+    id: '40785622',
+    title: 'Risk Factors and Outcomes of Catheter-Associated Urinary Tract Infections in the Intensive Care Unit of a Tertiary University Hospital: A Prospective Study.',
+    abstract: 'BACKGROUND: Catheter-associated urinary tract infections (CAUTIs) are common among patients admitted to the intensive care unit (ICU). ICU-related CAUTI is associated with longer hospital stays, greater financial burden, greater antibiotic use and impact on mortality.\n' +
+      'AIM: This study aimed to address the incidence and risk factors, causative pathogens and outcomes of CAUTI among patients admitted to the ICU of a tertiary University Hospital.\n' +
+      'STUDY DESIGN: This is a prospective study. All adult patients admitted to the ICU of a University Hospital who had indwelling urinary catheters (IUCs) at admission were included. Based on the occurrence of CAUTI, the study cohorts were divided into two groups: those with CAUTI and those without CAUTI. The incidence, risk factors, causative pathogens and the outcomes of patients with CAUTI were addressed.\n' +
+      'RESULTS: One hundred and forty patients were enrolled, with a mean age of 43.84 ± 13.86 years, and 69/140 (49.3%) were male. The incidence of CAUTI was 43.5. CAUTI were significantly related to older age, female sex, smoking, post-surgery, diabetes mellitus (DM), obstructive uropathy, immobility, faecal incontinence and the duration of urinary catheterisation. Cox regression analysis revealed that the most significant risk factors for CAUTI were the duration of urinary catheterisation, DM and post-surgery, with hazard ratio of 7.14, 95% confidence interval (CI) 3.78-14.63, p < 0.001, 6.25, 95% CI 3.13-11.47, p < 0.001 and 2.34, 95% CI 1.23-4.45, p = 0.010, respectively.\n' +
+      'CONCLUSIONS: The current study shows that the incidence of CAUTI among ICU patients is high. Numerous risk factors for CAUTI were identified and included older age, female sex, longer duration of catheterisation, smoking, post-surgery, DM, obstructive uropathy and immobility. The most significant risk factors for CAUTI were the duration of urinary catheterisation, DM and post-surgery. Special precautions are needed to prevent CAUTI among ICU patients with those risk factors.\n' +
+      'RELEVANCE TO CLINICAL PRACTICE: The results of this study will have implications for daily ICU practice. It is important to identify high-risk patients and consider targeted preventive measures. Ongoing education for healthcare workers on CAUTI prevention and management should be taken into account.',
+    published: '2025-Sep',
     authors: [
-      'Fouda Hermine Danielle Epse Ebana Menye',
-      'Mouaffo Franck Niverd Mefeya',
-      'Nzana Victorine Bandolo',
-      'Tumchou Pamela',
-      'Elimby Lionel',
-      'Teuwafeu Denis',
-      'Gobina Ronald',
-      'Halle Marie-Patrice'
+      'Mahran Ghada S K',
+      'Jarelnape Ahmed A',
+      'Dwairi Tamer A T',
+      'Ali Mostafa M A',
+      'Abdelwahab Omar',
+      'Mohamed Sherif',
+      'Tolba Asmaa A'
     ],
-    journal: 'BMC nephrology',
-    doi: '10.1186/s12882-025-04380-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783719/'
+    journal: 'Nursing in critical care',
+    doi: '10.1111/nicc.70135',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785622/'
   },
   {
-    id: '40783717',
-    title: 'Gender-based distribution of depression and anxiety following acute coronary syndrome in the Turkish population: are women at higher risk?',
-    abstract: 'BACKGROUND: Depression and anxiety are common psychological disorders following acute coronary syndrome (ACS), potentially affecting patient outcomes. Sex-based disparities in the prevalence of these disorders may significantly impact recovery and rehabilitation post-ACS.\n' +
-      'AIMS: To evaluate gender-based differences in depression and anxiety prevalence among Turkish patients following (ACS), and to identify sociodemographic and clinical factors associated with psychological distress.\n' +
-      'METHODS: In this cross-sectional observational study, 604 patients (144 women and 460 men) diagnosed with ACS were enrolled at their initial outpatient follow-up (4-8 weeks post-discharge). Data collection included demographic and clinical surveys along with the Hospital Anxiety and Depression Scale (HADS).\n' +
-      'RESULTS: Depression and anxiety were significantly more prevalent in women than men (61.1% vs. 37.4% for depression, p < 0.001; 30.6% vs. 20.0% for anxiety, p = 0.008). Moderate-to-severe symptoms were also more common among women for both conditions (p < 0.001). Lower education levels and income below expenses were associated with higher anxiety and depression scores (p < 0.025). Among women, married individuals reported higher anxiety than widowed/divorced women (p < 0.001). Hypertension significantly increased distress, particularly in men (p < 0.001), while chronic kidney disease had a stronger impact among women (p < 0.018).\n' +
-      'CONCLUSION: There are marked gender disparities in depression and anxiety prevalence post-ACS, with women being significantly more affected. Socioeconomic disadvantages and comorbid conditions contribute to psychological distress. Routine psychological screening and sex-sensitive interventions, especially for vulnerable groups, are crucial for improving outcomes after ACS. Significant gender disparities exist in post-ACS depression and anxiety, with women disproportionately affected. Socioeconomic disadvantage and comorbidities further compound psychological distress. Integrating routine mental health screening and sex-sensitive interventions into post-ACS care is essential, particularly for high-risk populations, to improve long-term outcomes.',
-    published: '2025-Aug-09',
+    id: '40785618',
+    title: 'Nutrition Education Interventions for the d/Deaf and Hard-of-Hearing: A Systematic Scoping Review.',
+    abstract: 'The d/Deaf and hard-of-hearing (DHH) population, of all ages, is at increased risk for poor dietary habits that may lead to health complications, given the lack of accessible and inclusive nutrition education from a range of providers. Given these challenges and the urgent need for inclusive health education, this systematic scoping review critically assessed the nature, scope, effectiveness, and best practices of nutrition-focused interventions tailored for the general DHH population. Using the PICOS search method of 16 bibliographic databases for articles between 2000 and 2024 focusing on nutrition-related interventions tailored to the DHH population, eight studies were identified. Studies employed various intervention approaches, focus areas of nutrition, location, and participants. One study used a theoretical framework. Most interventions addressed multiple aspects of dietary behavior, while others focused on specific concerns such as healthy food choices and exercise. Interventions were delivered through in-person educational sessions by public health professionals and nutritionists. Only one of the eight studies reviewed did not report statistically significant improvements in dietary behavior or health outcomes following the intervention. Future research should integrate established behavior change theories to strengthen the design, implementation, and longer-term follow-up and evaluation of nutrition interventions for DHH populations. There is a surprising lack of research in this area, exacerbated by additional challenges in reaching the DHH population. Improving nutrition education for DHH individuals requires interventions that address communication barriers, cultural inclusivity, and accessibility by all types of providers, and reaching such groups in a range of places.',
+    published: '2025-Aug-11',
     authors: [
-      'Kertmen Ömer',
-      'Çoksevim Metin',
-      'Çakmak Abdülkadir',
-      'Kertmen Tuğba',
-      'İliş Doğan'
+      'Cote Meghan',
+      'Aboul-Enein Basil H',
+      'Gambescia Stephen',
+      'Dodge Elizabeth',
+      'Kelly Patricia J'
     ],
-    journal: 'BMC cardiovascular disorders',
-    doi: '10.1186/s12872-025-05073-0',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783717/'
+    journal: 'Health communication',
+    doi: '10.1080/10410236.2025.2544239',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785618/'
   },
   {
-    id: '40783693',
-    title: 'Adherence to benzathine penicillin prophylaxis and associated factors in patients with rheumatic heart disease attending two public hospitals in Bahir dar, Ethiopia.',
-    abstract: 'BACKGROUND: Regular intramuscular injection of benzathine penicillin every two to four weeks is a critical and cost-effective secondary prevention strategy for reducing morbidity and mortality from rheumatic heart disease (RHD), particularly in resource-limited settings like Ethiopia. However, there is limited evidence of adherence to this prophylaxis. Therefore, this study aimed to assess adherence to benzathine penicillin prophylaxis used for secondary prevention and its associated factors among patients with RHD attending follow-up clinics at two public referral hospitals in Bahir Dar, Ethiopia.\n' +
-      'METHODS: A hospital-based cross-sectional study was conducted among 346 patients with RHD attending the follow-up clinic at Tibebe Ghion and Felege Hiwot specialized hospitals from October 1st, 2023 to January 20, 2024. Data was collected through questionnaire-based face-to-face interviews and a review of medical records. The data was entered into EpiData version 3.1 and exported to SPSS version 27 for analysis. Binary logistic regression analysis was performed to identify factors associated with good adherence to benzathine penicillin prophylaxis. Adjusted odds ratio at a p-value of less than 0.05 was used to assess the strength of the statistical association.\n' +
-      'RESULTS: Among 346 patients with RHD (97% response rate), the study found an overall adherence rate of 63.6% (95% CI, 58.6-68.8) to benzathine penicillin G (BPG) prophylaxis. Factors associated with good adherence included mild to moderate pain at the injection site (AOR = 2.44; 95% CI 1.45-4.09), good awareness of the purpose of BPG (AOR = 1.99; 95% CI, 1.11-3.59), urban residence of patients (AOR = 3.58, 95% CI 1.99-6.41), prophylaxis duration of ≤ 5 years (AOR = 4.15, 95% CI 1.58-10.88), prophylaxis duration 5-10 years (AOR = 3.83, 95% CI 1.32-11.13), and no history of admission in the last year (AOR = 3.05; 95% CI 1.67-5.54).\n' +
-      'CONCLUSIONS: The level of good adherence in this study is sub-optimal. Factors positively associated with adherence included urban residence, mild to moderate injection site pain, awareness of BPG purpose, shorter prophylaxis duration, and absence of recent hospital admissions. To improve adherence, healthcare providers should implement targeted patient education programs and adopt effective pain management strategies as part of routine follow-up care.',
-    published: '2025-Aug-09',
+    id: '40785594',
+    title: 'Early Mobility for Post-Cardiac Surgery Patients on Vasoactive Medication: A Nurse-Led Quality Improvement Project.',
+    abstract: "BACKGROUND: Early mobilisation (EM) is critical for faster recovery in critically ill patients; it leads to improved outcomes, such as reduced length of stay (LOS), decreased muscle atrophy and minimal functional decline. However, implementing EM in the cardiovascular intensive care unit (CVICU), particularly for patients on vasopressors, poses challenges due to concerns regarding haemodynamic instability and adverse events. Success depends on nurses' knowledge and confidence; however, barriers exist in high-acuity settings.\n" +
+      'AIM: This study aimed to enhance the knowledge and perspectives of CVICU nurses regarding EM among patients receiving vasopressors and to assess its impact on patient outcomes.\n' +
+      'STUDY DESIGN: A quality improvement initiative was conducted in the adult CVICU of a tertiary hospital in Riyadh, Saudi Arabia. An educational programme was delivered to CVICU nurses to improve their understanding and use of the Banner Mobility Assessment Tool in daily practice, forming the basis for implementing EM protocols.\n' +
+      "RESULTS: A total of 40 nurses received education, of which 25 (62.5%) responded to the questionnaire before implementation and 30 (75%) responded afterwards. The intervention significantly improved the nurses' knowledge of ICU-acquired weakness in patients receiving vasopressors (p = 0.005). Confidence in initiating EM (p = 0.002), starting without a physician's request (p = 0.006) and staying updated on mobility practices (p = 0.001) also increased. The pre-implementation group had 27 patients, while the post-implementation group had 45 patients; 24 in the EM group and 21 in the late mobilisation group. ICU mobility scores significantly increased between pre- and post-implementation groups (p < 0.001). The mean ICU mobility score at CVICU discharge was higher in the EM group (8.9 ± 0.9) than in the pre-implementation group (7.8 ± 0.6) (p < 0.001).\n" +
+      'CONCLUSION: Nurse-driven early mobility for post-cardiac surgery patients taking vasoactive medication is safe and feasible and facilitates improved patient mobility before discharge while reducing the LOS.\n' +
+      'RELEVANCE TO CLINICAL PRACTICE: This study highlights the potential of early mobilisation to enhance patient outcomes in critical care settings, emphasising the importance of nurse-led interventions.',
+    published: '2025-Sep',
     authors: [
-      'Kelemu Gubaynew Getie',
-      'Yihun Yohannes Tekleab',
-      'Endeshaw Destaw',
-      'Bogale Eyob Ketema'
+      'AlSaeed Safanah',
+      'AlJohi Amani A',
+      'Alohali Ahmad',
+      'Almojel Abdulaziz A',
+      'Bagazi Abdullah A',
+      'Solis Rhodora Mae'
     ],
-    journal: 'BMC cardiovascular disorders',
-    doi: '10.1186/s12872-025-05069-w',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783693/'
+    journal: 'Nursing in critical care',
+    doi: '10.1111/nicc.70133',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785594/'
   },
   {
-    id: '40783649',
-    title: 'Premarital intervention based on attachment and differentiation improves communication and conflict management in Iranian couples.',
-    abstract: 'This study examined the effectiveness of a premarital intervention based on the Attachment-Differentiation Premarital Model (ADPM) in enhancing communication patterns and conflict management skills among Iranian engaged couples. The engagement period is a pivotal stage for future marital quality, yet many couples-particularly in collectivist societies like Iran-lack access to structured relational education. In this quasi-experimental study using a pretest-posttest control group design, 40 participants (20 couples) were selected from a university-affiliated counseling center and randomly assigned to either the experimental group (10 couples) or control group (10 couples). All participating couples resided in a married student dormitory and represented various cultural regions of Iran. The experimental group received 8-10 structured ADPM-based sessions, while the control group received no intervention during the study period. Communication patterns were measured using the Couples Communication Patterns Questionnaire (CPQ), and conflict management styles were assessed using the Rahim Organizational Conflict Inventory-II (ROCI-II). Multivariate analysis of covariance (MANCOVA) revealed significant post-intervention improvements in integrating (F = 21.90, p < 0.001), obliging (F = 19.49, p < 0.001), compromising (F = 8.73, p < 0.01), and dominating (F = 9.53, p < 0.01) communication styles, alongside a significant reduction in avoidance (F = 42.16, p < 0.001). Improvements were also found in constructive conflict communication (F = 8.13, p < 0.01), and reductions were observed in avoidance (F = 13.21, p < 0.001) and demand/withdrawal styles (F = 9.28, p < 0.01). These findings suggest that the ADPM offers a theoretically grounded and culturally responsive framework for premarital education, particularly in contexts where relational autonomy and emotional expression are constrained by traditional norms.',
-    published: '2025-Aug-09',
-    authors: [ 'Asadpour Esmail', 'Sharei Aysan', 'Salmani Ali' ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-15051-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783649/'
+    id: '40785511',
+    title: 'Telehealth use in home health care in the US: A literature review.',
+    abstract: 'ObjectiveThe rapid shift toward home- and community-based care in the US has intensified the demand for home health care, particularly as the population continues to age. Amid challenges such as workforce shortages and increasing patient needs, telehealth has emerged as a potential strategy to enhance care delivery and patient outcomes in home health settings. This literature review examines empirical studies published between January 2020 and April 2024 to investigate the status of telehealth use within the US in home health care settings.MethodsA systematic search was conducted in PubMed and CINAHL for peer-reviewed studies published in English between January 2020 and April 2024. Quality of reviewed studies was assessed independently by reviewers using quality assessment checklists.ResultsSix quasi-experimental studies were included, examining various telehealth modalities in home health care. Tele-video, tele-calls, and remote monitoring were commonly used for patient education, symptom management, and interdisciplinary collaboration. Telehealth interventions were generally associated with high patient satisfaction, reduced acute care utilization, and improved communication between providers and caregivers. Study quality varied, with limitations in sample size, methodology, and outcome measurement affecting generalizability. Further research is needed to optimize telehealth integration in home health care.ConclusionsThese findings highlight the effectiveness of telehealth in delivering home health care and its potential to address current challenges. These findings also call for policy changes for expanded reimbursement models as well as large-scale pragmatic studies to enhance telehealth integration in home health care to support aging in place.',
+    published: '2025-Aug-11',
+    authors: [ 'Chen Xiaohe', 'Li Ruisong', 'Ma Chenjuan' ],
+    journal: 'Journal of telemedicine and telecare',
+    doi: '10.1177/1357633X251364065',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785511/'
   },
   {
-    id: '40783642',
-    title: 'Psychological distress and its association with gender, socioeconomic status, education and health conditions.',
-    abstract: 'Psychological distress represents a growing concern in contemporary society, with its prevalence often exacerbated by various demographic and health-related factors. Understanding the interplay of gender, socioeconomic status, education, and health conditions is crucial for developing effective mental health interventions. This original cohort-based study investigates the impact of gender, socioeconomic status (SES), education, and existing health conditions on psychological distress levels. This study utilized cross-sectional data from the Ravanser Non-Communicable Disease (RaNCD) cohort, focusing on Kurdish individuals aged 35 to 65 in the Ravanser district of Kermanshah, Iran. Psychological distress was evaluated seven years post-recruitment using a validated scale, involving 3,015 randomly selected participants from the original cohort. Descriptive statistics summarized psychological distress distributions, while multivariable linear regression models, adjusted for various covariates, explored associations between SES, education, and psychological distress, with significance set at p < 0.05. Significant findings include higher psychological distress levels in females (20.56 ± 8.58) compared to males (17.41 ± 7.22) and a strong association with socioeconomic status, where poorer individuals reported greater psychological distress (20.52 ± 8.89) than their wealthier counterparts (16.84 ± 6.79). Education level was also critical, with illiterate individuals experiencing higher psychological distress (19.98 ± 8.42) compared to those with postgraduate education (17.43 ± 7.18). Additionally, individuals with cardiovascular disease (20.92 ± 8.75) and depression (24.82 ± 9.92) exhibited significantly higher psychological distress levels. These findings suggest that targeted interventions addressing mental health should consider demographic factors, socioeconomic status, education, and existing health conditions to effectively reduce psychological distress in vulnerable populations.Overall, these findings underscore the complex interplay of gender, SES, and education in influencing psychological distress, highlighting the need for targeted interventions.',
-    published: '2025-Aug-09',
+    id: '40785505',
+    title: "Women's Empowerment in India: Measurement, Regional Disparities, and the Threat of Intimate Partner Violence.",
+    abstract: "This study examines women's empowerment in India using a multidimensional disempowerment index constructed from National Family Health Survey unit-level data. Focusing on decision-making, mobility, and awareness, it highlights significant regional disparities and explores the association between intimate partner violence (IPV) and disempowerment. While overall disempowerment declined over time, women facing IPV, especially in central and eastern regions, remain disproportionately affected. The findings emphasize that regional context and IPV are critical factors influencing empowerment. Efforts focused solely on education and employment may fall short unless IPV is addressed, underscoring the need for region-sensitive, violence-informed policy interventions.",
+    published: '2025-Aug-11',
+    authors: [ 'Firdaush Shama', 'Das Pinaki' ],
+    journal: 'Violence against women',
+    doi: '10.1177/10778012251366231',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785505/'
+  },
+  {
+    id: '40785414',
+    title: 'Determining associations between prenatal maternal mental health and social determinants of health with outcomes in children with critical CHD.',
+    abstract: "Prenatal maternal mental health and social determinants of health may influence pregnancy, child hospitalisation, and child neurodevelopmental outcomes in critical congential heart disease (CHD). We examined 189 mother-child dyads of children born with CHD who underwent neonatal cardiac surgery and completed neurodevelopmental assessment between the ages 13 and 29 months. We used latent profile analysis to identify distinct maternal groups based on prenatal maternal mental health screening scores and individual- and neighbourhood-level social determinants of health factors. We examined the association between maternal groups with their child's gestational age, birth weight, hospital length of stay (HLOS), and neurodevelopment. Latent profile analysis identified two distinct groups: high-risk ( = 46) and low-risk ( = 143). Mothers in the high-risk group had higher mental health screening scores, lower age, higher social vulnerability, lower education, and were more likely to have Medicaid insurance and represent a minority group than mothers in the low-risk group. The high-risk group had children with lower gestational age and weight at birth, longer HLOS, and lower cognitive, language, and motor scales than children in the low-risk group ( < 0.05). Sensitivity analysis in mother-infant dyads without foetal extracardiac conditions found that significant relationships persisted in the high-risk group, with lower gestational age and lower language scale scores than the low-risk group  < 0.05). Children of mothers with adverse prenatal maternal mental health and social determinants of health risks had significantly worse pregnancy and child outcomes. Interventions are critically needed to address maternal mental health and social determinants of health risks beginning in the prenatal period.",
+    published: '2025-Aug-11',
     authors: [
-      'Mirzaei-Alavijeh Mehdi',
-      'Najafi Farid',
-      'Veis Rasoul Gholami',
-      'Moradinazar Mehdi',
-      'Farasati Farhad',
-      'Jalilian Farzad'
+      'Lisanti Amy Jo',
+      'Min Jungwon',
+      'Hampton Lyla',
+      'Cole Joanna',
+      'Budney Alexandria',
+      'Burnham Alisa',
+      'Zimmerman Lauren',
+      'Quarshie William',
+      'Shillingford Amanda J',
+      'Gaynor J William'
     ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-14848-6',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783642/'
+    journal: 'Cardiology in the young',
+    doi: '10.1017/S1047951125100772',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785414/'
   },
   {
-    id: '40783631',
-    title: 'Mental health issues, coping mechanisms, and COVID-19 vaccine acceptance among chronically ill patients in tertiary health facilities in Central Region, Ghana.',
-    abstract: 'BACKGROUND: The COVID-19 pandemic has emphasised the importance of vaccination, particularly for individuals with chronic conditions. However, vaccine acceptancy is influenced by psychological distress and coping mechanisms. This study aimed to examine the influence of mental health issues (anxiety, depression, and stress) and coping strategies on vaccine acceptancy.\n' +
-      'METHOD: A cross-sectional survey was conducted among 457 individuals with diabetes and hypertension attending two healthcare facilities in Ghana. Participants completed validated measures, including the Depression Anxiety Stress Scale (DASS-21), the Africultural Coping System Inventory (ACSI), and the COVID-19 Vaccine Acceptance Scale. Descriptive statistics, correlational analysis and hierarchical regression analysis were used to assess predictors of vaccine acceptancy using Jamovi statistical software version 2.6.63.\n' +
-      'RESULTS: The study found that stress, anxiety, and depression were strongly correlated, with higher levels of psychological distress linked to lower COVID-19 vaccine acceptancy. The multivariate results after adjusting for socio-demographic factors, anxiety (β = - 0.439, p <.001) and depression (β = - 0.455, p <.001) were strong negative predictors of vaccine acceptancy. Cognitive-emotional debriefing (β = 0.129, p =.012) was the only coping strategy significantly associated with higher vaccine acceptancy, while spiritual, collective, and ritual coping strategies had no significant impact after controlling for confounders. Education level (β = - 0.136, p <.001) remained significant predictors indicating that highly educated individuals showed lower vaccine acceptance.\n' +
-      'CONCLUSION: The study suggests that mental health issues significantly influence vaccine acceptance, with cognitive-emotional debriefing playing a crucial role in moderating hesitancy. These findings highlight the need for integrating mental health support into vaccination strategies to enhance vaccine confidence among individuals with chronic conditions.',
-    published: '2025-Aug-09',
-    authors: [
-      'Ninnoni Jerry Paul K',
-      'Commey Isaac Tetteh',
-      'Harmah Emmanuel Budu',
-      'Amoadu Mustapha'
-    ],
-    journal: 'Discover mental health',
-    doi: '10.1007/s44192-025-00241-2',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783631/'
+    id: '40785413',
+    title: 'Damp and mould: improving the health and homes of children with asthma through NHS and local authority collaboration.',
+    abstract: "The death of two-year-old Awaab Ishak in 2020 because of prolonged exposure to mould in his family's social housing flat in Rochdale, England, resulted in Awaab's Law, which mandates timely housing repairs by social housing providers from October 2025. This article explores a collaborative initiative between Frimley Health and Care Integrated Care System and Slough Borough Council to improve the respiratory health of children and young people by addressing the effect of suboptimal housing conditions, particularly damp and mould. Geospatial data and shared records helped to identify high-risk households, ensuring efficient, equitable outreach. The project integrated healthcare and housing services through community-based clinics, roadshows and family hubs, providing targeted asthma interventions, personalised education and environmental remediation. The initiative resulted in improved asthma control for many children and young people, and it highlighted the crucial role of children's nurses in delivering interdisciplinary care, advocating for systemic change and supporting vulnerable families. This model presents a promising approach to reducing health inequalities through integrated, community-led healthcare and housing support.",
+    published: '2025-Aug-11',
+    authors: [ 'Hannant Katherine' ],
+    journal: 'Nursing children and young people',
+    doi: '10.7748/ncyp.2025.e1552',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785413/'
   },
   {
-    id: '40783624',
-    title: 'Accessibility To Ethnic Food Stores Authorized by the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) in Washington State.',
-    abstract: 'The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) is a U.S. federal nutrition assistance program that provides low-income pregnant, breastfeeding, and postpartum women, infants, and children up to age 5 with supplemental foods, healthcare referrals, and nutrition education. At least 20% of participants of WIC in Washington state are immigrants. Information on how many WIC-authorized stores are ethnic stores, where immigrants could more readily access culturally preferred foods, is unknown. This study aims to assess the availability and distribution of WIC-authorized ethnic stores in Washington state, relative to the location of immigrant WIC-eligible populations. Data on the location of WIC-authorized stores, classified as ethnic or non-ethnic stores, were obtained from the Washington WIC Shopper mobile app. Sociodemographic information for each census tract was obtained from the American Community Survey 2017-2021. We estimated the distribution of, and distance to, WIC-authorized ethnic stores, compared across census tracts with high versus low proportions of foreign-born individuals and WIC-eligible children in Washington state. Almost 1/3 (29%) of census tracts in Washington state had WIC-authorized stores; 1.7% had WIC-authorized ethnic stores. Census tracts with high proportions of both foreign-born individuals and WIC-eligible children, compared with census tracts with low proportions, had more ethnic stores (14.5%) and shorter distances to them (3.0 km). Census tracts in Washington state with higher proportions of foreign-born individuals and WIC-eligible children had better physical access to WIC-authorized ethnic stores, though these stores are rare. Future research should explore barriers and facilitators for ethnic stores becoming WIC-authorized.',
-    published: '2025-Aug-09',
+    id: '40785407',
+    title: 'Strengthening Rabies Protection Behaviors Among Thai Children: The Role of Health Literacy and Protection Motivation.',
+    abstract: 'BACKGROUND: Rabies remains a life-threatening yet preventable disease, particularly among school-aged children in Thailand. Understanding how health literacy (HL) and protection motivation theory (PMT) influence rabies protective behaviors (RPB) is vital for school health interventions.\n' +
+      'METHODS: Using validated questionnaires, a cross-sectional study was conducted among 1751 Grade 4-6 students in Chonburi Province. HL, PMT constructs, and RPB were measured. Structural equation modeling was used to examine predictive relationships.\n' +
+      'RESULTS: HL was a strong predictor of RPB (β = 0.439, p < 0.001), especially in accessing, appraising, and applying health information. PMT constructs, particularly response efficacy and self-efficacy, also significantly predicted RPB (β = 0.200, p < 0.001). HL levels were higher among older students, private school attendees, and those with stronger academic performance.\n' +
+      'IMPLICATIONS FOR SCHOOL HEALTH POLICY, PRACTICE, AND EQUITY: Integrating HL and PMT frameworks into rabies education curricula may improve behavioral outcomes. Programs should be developmentally appropriate and address disparities across school types and student performance levels.\n' +
+      'CONCLUSIONS: Strengthening HL and motivational factors through school-based education and multisectoral collaboration is critical to achieving rabies prevention goals and advancing child health equity in endemic settings.',
+    published: '2025-Aug-11',
     authors: [
-      'Ogaki Kana',
-      'Y W Seto Edmund',
-      'L Harris Cristen',
-      'Chaparro M Pia'
+      'Laorujisawat Mayurin',
+      'Nakpan Worrawit',
+      'Prasertchai Araya',
+      'Thammakun Theerawut',
+      'Punsombut Vuttajug',
+      'Suwannahong Kowit'
     ],
-    journal: 'Journal of immigrant and minority health',
-    doi: '10.1007/s10903-025-01753-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40783624/'
+    journal: 'The Journal of school health',
+    doi: '10.1111/josh.70059',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40785407/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
@@ -1136,183 +1146,19 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
     at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at runNextTicks (node:internal/process/task_queues:60:5)
-    at listOnTimeout (node:internal/timers:545:9)
-    at process.processTimers (node:internal/timers:519:7)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34) {
-  code: 'ECONNABORTED',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: [HTTPParser],
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  }
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: timeout of 10000ms exceeded
-    at RedirectableRequest.handleRequestTimeout (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:657:16)
-    at RedirectableRequest.emit (node:events:524:28)
-    at Timeout.<anonymous> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:221:12)
-    at listOnTimeout (node:internal/timers:581:17)
-    at process.processTimers (node:internal/timers:519:7)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
@@ -1321,7 +1167,11 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  code: 'ECONNABORTED',
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1451,7 +1301,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
       aborted: false,
       timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
-      parser: [HTTPParser],
+      parser: null,
       maxHeadersCount: null,
       reusedSocket: false,
       host: 'www.ijsim.net',
@@ -1473,6 +1323,201 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
   }
 }
 Fetched papers from CrossRef: [
@@ -1665,25 +1710,25 @@ Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 30/50
 Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 31/50
-Translating paper: Citizenship Status and the Family and Medical Leav...
+Translating paper: Peer coaching in a rural setting: A feasibility st...
 Translating paper 32/50
-Translating paper: Investigating the Role of Neighborhood Socioeconom...
+Translating paper: Promoting a Multidisciplinary Team for Early Mobil...
 Translating paper 33/50
-Translating paper: Evaluating short-term air pollution-related mental...
+Translating paper: Risk Factors and Outcomes of Catheter-Associated U...
 Translating paper 34/50
-Translating paper: Household wealth and its association with non-adhe...
+Translating paper: Nutrition Education Interventions for the d/Deaf a...
 Translating paper 35/50
-Translating paper: Gender-based distribution of depression and anxiet...
+Translating paper: Early Mobility for Post-Cardiac Surgery Patients o...
 Translating paper 36/50
-Translating paper: Adherence to benzathine penicillin prophylaxis and...
+Translating paper: Telehealth use in home health care in the US: A li...
 Translating paper 37/50
-Translating paper: Premarital intervention based on attachment and di...
+Translating paper: Women's Empowerment in India: Measurement, Regiona...
 Translating paper 38/50
-Translating paper: Psychological distress and its association with ge...
+Translating paper: Determining associations between prenatal maternal...
 Translating paper 39/50
-Translating paper: Mental health issues, coping mechanisms, and COVID...
+Translating paper: Damp and mould: improving the health and homes of ...
 Translating paper 40/50
-Translating paper: Accessibility To Ethnic Food Stores Authorized by ...
+Translating paper: Strengthening Rabies Protection Behaviors Among Th...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1704,27 +1749,26 @@ Translating paper 49/50
 Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.4331198519051185 seconds...
 Translation completed: 50 papers
-Removed duplicates: 883 -> 844
-Total papers after merging: 844 (833 existing + 50 new)
-Saved 844 papers to papers.json
+Removed duplicates: 894 -> 854
+Total papers after merging: 854 (844 existing + 50 new)
+Saved 854 papers to papers.json
 Generating HTML files...
-Generating index.html with 844 papers...
+Generating index.html with 854 papers...
 Successfully generated index.html
-Generating archive.html with 844 papers...
+Generating archive.html with 854 papers...
 Successfully generated archive.html
-Generating journal.html with 844 papers...
+Generating journal.html with 854 papers...
 Successfully generated journal.html
-Generating acquisition.html with 844 papers...
+Generating acquisition.html with 854 papers...
 Successfully generated acquisition.html
-Generating publication.html with 844 papers...
+Generating publication.html with 854 papers...
 Successfully generated publication.html
-Generating registration.html with 844 papers...
+Generating registration.html with 854 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 844
+Total papers in database: 854
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-10T15:39:03.336Z
+Timestamp: 2025-08-11T15:41:38.479Z
