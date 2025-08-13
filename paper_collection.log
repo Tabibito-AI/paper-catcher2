@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-12T15:12:08.736Z
+Timestamp: 2025-08-13T15:10:10.753Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 854 existing papers from papers.json
+Loaded 865 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,7 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
 Fetched papers from Semantic Scholar: [
   {
     id: '220861296c6034a194f9c62612c12973a35b5c05',
@@ -590,304 +591,1181 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40792426',
-    title: 'Predicting Performance in a Military Hand-to-Hand Combat Course From Salivary Hormones, Psychological State, and Academic Performance.',
-    abstract: "There are limited opportunities to study physiological and psychological factors that predict success in real world high stress environments where individuals must engage in controlled aggressive behaviour. All cadets attending the United States Military Academy must take a combatives course where they are taught to compete in hand-to-hand combat with peers and graded on performance. This study assessed, in this highly competitive environment, the physiological, psychological, and academic predictors of success in the course's final exam, a final hand-to-hand combat match. Male (n = 109) and female (n = 23) cadets completed self-report assessments of resilience (Connor-Davidson Resilience Scale; CD-RISC), mental toughness (Mental Toughness Questionnaire; MTQ-10), and aggression (Buss-Perry Aggression Questionnaire; BPAQ) upon enrolment in Combatives. Immediately preceding the final match, cadets provided saliva samples and completed mood state (Profile of Mood States; POMS), self-confidence and competitive state anxiety (Competitive State Anxiety Inventory; CSAI-2) questionnaires. Cortisol, testosterone, and secretory immunoglobulin A (SIgA) in saliva were assessed. Instructors provided match outcome, win versus loss, and each cadet's grade point averages (GPA; academic, military, and physical). Logistic regression analyses determined if physiological, psychological, or academic variables predicted match outcome. Sex, time of day, prior combatives experience, and midterm combatives performance were included as covariates. Greater self-confidence (OR [95% CI]; 1.13 [1.03, 1.25]) and a better physical GPA (4.51 [1.52, 13.42]) were associated with increased odds of winning the final match, with an overall classification accuracy of 68.9% and explained 31% of the variance in match outcome. Greater cognitive anxiety independently decreased the odds of winning (0.93 [0.87, 0.99]), but not when combined with self-confidence and physical GPA. No other factors significantly impacted odds of winning. Self-confidence and physical performance are key contributors to success in hand-to-hand combat and may mediate the influence of anxiety on performance.",
-    published: '2025-Aug',
+    id: '40800433',
+    title: 'Brain morphometry and chronic inflammation in Bangladeshi children growing up in extreme poverty.',
+    abstract: 'Over three hundred million children live in environments of extreme poverty, and the biological and psychosocial hazards endemic to these environments often expose these children to infection, disease, and inflammatory responses. Chronic inflammation in early childhood has been associated with diminished cognitive outcomes, and despite this established relationship, the mechanisms explaining how inflammation affects brain development are not well known. Importantly, the prevalence of chronic inflammation in areas of extreme poverty raises the possibility that it may also serve as a mechanism explaining the known relationship between low socioeconomic status (SES) and altered brain development. To examine these potential pathways, seventy-nine children growing up in an extremely poor, urban area of Bangladesh underwent MRI scanning at 6 years of age. Structural brain images were submitted to Mindboggle software, a Docker-compliant and high-reproducibility tool for regional estimations of volume, surface area, cortical thickness, sulcal depth, and mean curvature. C-reactive protein was assayed at eight time points between infancy and 5 years of age, and the frequency with which children had elevated concentrations of inflammatory marker represented the measure of chronic inflammation. Childhood SES was measured with maternal education and income-to-needs (i.e., monthly household income divided by the number of household members). Chronic inflammation predicted volume in bilateral basal ganglia structures and mediated the link between maternal education and bilateral putamen volumes. These findings suggest that chronic inflammation is associated with brain morphometry in the basal ganglia, predominantly the putamen, and further offers inflammation as a potential mechanism linking SES to brain development.',
+    published: '2024',
     authors: [
-      'Beckner Meaghan E',
-      'Stein Jesse A',
-      'Van Dam Drew',
-      'Barringer Nicholas',
-      'Smith Tracey J',
-      'Larsen Matthew C',
-      'Knapik Joseph J',
-      'Lieberman Harris R'
+      'Turesky Ted K',
+      'Pirazzoli Laura',
+      'Shama Talat',
+      'Kakon Shahria Hafiz',
+      'Haque Rashidul',
+      'Islam Nazrul',
+      'Someshwar Amala',
+      'Gagoski Borjan',
+      'Petri William A',
+      'Nelson Charles A',
+      'Gaab Nadine'
     ],
-    journal: 'Stress and health : journal of the International Society for the Investigation of Stress',
-    doi: '10.1002/smi.70096',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792426/'
+    journal: 'Imaging neuroscience (Cambridge, Mass.)',
+    doi: '10.1162/imag_a_00319',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800433/'
   },
   {
-    id: '40792408',
-    title: `Evaluating Ontario's High Priority Communities Strategy: Integrating Care, Redressing Health Inequities and Improving Population Health "From the Ground Up".`,
-    abstract: 'The COVID-19 pandemic revealed profound inequities in the health of Canadians: racially diverse, newcomer and low-income communities were most likely to experience illness and death. In December 2020, Ontario announced the High Priority Communities Strategy (HPCS) that funded "lead agencies" in 17 marginalized communities to support scores of community partners who in turn devised culturally appropriate "micro-strategies" to provide education, tests, vaccinations and wrap-around care. We draw on evaluations conducted over three years to assess the HPCS and synthesize lessons learned for integrating care, reducing health inequities and improving population health from the "ground up." These lessons are all the more important post the COVID-19 pandemic as health inequities worsen and the healthcare system faces intersecting crises.',
-    published: '2025-May',
+    id: '40800240',
+    title: 'Robotic-assisted technique in plastic and reconstructive surgery: Experience in Taiwan.',
+    abstract: "BACKGROUND: Robotic-assisted surgery (RAS) has increasingly been applied in the field of plastic and reconstructive surgery, offering enhanced precision, reduced invasiveness, and improved patient outcomes. This review summarizes Taiwan's pioneering experience with robotic-assisted techniques in this specialty, with an emphasis on clinical applications, educational models, and future directions.\n" +
+      'METHODS: A narrative literature review was conducted focusing on robotic-assisted plastic and reconstructive surgery with relevance to Taiwanese clinical practice. Articles published between January 2000 and April 2024 were considered. Searches were performed in PubMed, Google Scholar, and Cochrane Library using the keywords: "robotic surgery," "plastic surgery," "reconstructive surgery," "Taiwan," and "microsurgery." Inclusion criteria were: (1) studies involving robotic-assisted surgical techniques, (2) relevance to plastic and reconstructive surgery, (3) Taiwanese institutional or clinical context, and (4) availability of clinical or technical outcome data. Articles not published in English, lacking original data, or unrelated to the Taiwan context were excluded.\n' +
+      "RESULTS: Robotic-assisted techniques were successfully applied in various reconstructive domains, notably in microsurgical anastomosis for free flap procedures, nerve transfers, and minimally invasive mastectomies. These approaches demonstrated favorable outcomes in terms of operative precision, reduced complications, and patient satisfaction. Taiwan's major medical centers, including Chang Gung Memorial Hospital and Taichung Veterans General Hospital, have been instrumental in driving these innovations. Furthermore, robotic training models facilitated the learning curve for microsurgeons and supported the integration of robotic platforms into surgical education.\n" +
+      "CONCLUSIONS: Taiwan's experience underscores the feasibility and clinical value of robotic-assisted techniques in plastic and reconstructive surgery. Robotic platforms not only improve surgical outcomes but also expand the scope of reconstructive options. Ongoing research and educational efforts are crucial to optimizing technique standardization and surgeon training in this rapidly evolving field.",
+    published: '2025-Nov',
     authors: [
-      'Williams A Paul',
-      'Hu Sherlyn',
-      'Lum Janet',
-      'Leung Helen',
-      'Chavez Freida',
-      'Sule Suleman Deen',
-      'Ashraf Nasma'
+      'Chen Yi-Chia',
+      'Chung Ming-Hsien',
+      'Chang Chieh-Kai',
+      'Wu Cheng-Yeu',
+      'Lin Yi-Ling',
+      'Tsai Yueh-Chi',
+      'Lu Chen-Te',
+      'Chen I-Chen',
+      'Lai Chih-Sheng'
     ],
-    journal: 'Healthcare quarterly (Toronto, Ont.)',
-    doi: '10.12927/hcq.2025.27629',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792408/'
+    journal: 'Journal of hand and microsurgery',
+    doi: '10.1016/j.jham.2025.100332',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800240/'
   },
   {
-    id: '40792396',
-    title: 'Undergraduate Medical Education Addressing Stigmatizing Language Surrounding Mental Health and Addiction: A Systematic Review.',
-    abstract: 'BACKGROUND: Stigma continues to be a barrier to accessing quality care for many patients with mental health conditions and/or substance use disorder (SUD), commonly referred to as addiction. This paper aims to evaluate the impact that undergraduate medical education (UME) has in reducing stigmatizing language use and potentially mitigating this barrier to care.\n' +
-      'METHODS: A systematic review conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analysis guidelines identified 2017 articles across 7 databases. Search terms related to stigma surrounding mental health, addiction, and suicide were incorporated into medical education. Blinded, double-reviewed papers meeting the inclusion criteria were further evaluated at full length to obtain information including sample size, variables, and outcomes.\n' +
-      "RESULTS: Three studies met the review's selection criteria: 1 pretest/posttest case series, 1 survey evaluating language stigma, and 1 qualitative essay review to discover common themes in medical students' experience with patients with SUD. Statistically significant results included changes in characteristic association, attitudes based on language, and the effects of an educational intervention.\n" +
-      'CONCLUSIONS: These results reinforce the importance of language and educational exposure in addressing stigma toward patients with mental health diagnoses. Although the results of all studies indicated some level of stigma associated with patients with a mental health diagnosis, there was limited consensus surrounding methods to reduce it in UME. Additional research on the implementation of medical school-focused mental health awareness programs is needed, preferably using rigorous randomized controlled trial study designs, longitudinal follow-up, and critical appraisal of texts to better understand effective interventions on persistent mental health stigma among medical students.',
-    published: '2025-Aug-12',
-    authors: [
-      'Butler Rakesha L',
-      'Darga Elizabeth P',
-      'Ellenson Sadie A',
-      'Johnson Thomas J',
-      'Cascio M Ariel',
-      'Perzhinsky Juliette'
-    ],
-    journal: 'Substance use & addiction journal',
-    doi: '10.1177/29767342251351751',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792396/'
+    id: '40800238',
+    title: 'Factors associated with influenza vaccine adherence among health care workers in Abu Dhabi.',
+    abstract: 'BACKGROUND: Influenza outbreaks rapidly threaten public health, making vaccination a critical tool in reducing transmission. Health care workers (HCWs), especially those in direct patient care roles within all health care settings, are encouraged to receive annual influenza vaccinations to enhance their immunity and ensure patient safety.\n' +
+      "OBJECTIVES: This study aimed to identify and describe the factors associated with HCWs' adherence to annual influenza vaccination within a United Arab Emirates (UAE) hospital and provide recommendations to improve adherence rates.\n" +
+      'METHOD: Using a quantitative approach, a questionnaire based on the Health Belief Model and existing literature was administered to all 2,080 staff members of the UAE hospital under study. Of these, 1018 participants completed the questionnaire.\n' +
+      "RESULTS: The study uncovered several key factors influencing HCWs' influenza vaccine uptake. Notably, social influence from colleagues emerged as a significant factor, alongside barriers, such as inconvenient vaccination times, limited awareness of hospital policies, an absence of follow-up by the hospital administration, a lack of prior influenza cases and fear of injections. Motivational factors included the desire to protect friends and family, employer recommendations, mandatory policies and HCWs' intrinsic motivation to safeguard patients.\n" +
+      'CONCLUSION: The findings of the study informed recommendations to enhance vaccination rates. These recommendations include health education materials, social media awareness campaigns, mandatory vaccination policies, on-duty vaccination services, free vaccination, flexible post-vaccination recovery time, special sick leave policies and vaccine benefit awareness.\n' +
+      'CONTRIBUTION: These suggestions enable health care organisations to boost employee influenza vaccination rates, aiding public health efforts to cope with seasonal influenza outbreaks.',
+    published: '2025',
+    authors: [ 'Keerthy Premilla', 'Roets Lizeth' ],
+    journal: 'Southern African journal of infectious diseases',
+    doi: '10.4102/sajid.v40i1.696',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800238/'
   },
   {
-    id: '40792349',
-    title: 'A Pilot Study of Orthopedic Applicants Regarding Sub-internship Number, Cost, and Preferences.',
-    abstract: 'Background and objective This pilot study surveyed orthopedic applicants regarding their experience with sub-internship (sub-I) rotations (number, cost, and selection criteria), seeking to identify potential barriers, and their implications for residency selection for future study. Methods Applicants to two orthopedic residencies in the Philadelphia area received surveys regarding the number/cost of sub-Is, factors affecting rotation site selection, and the influence of people/experiences on the rank list. Surveys were available between the rank list certification deadline and the match week. Results One hundred ninety out of 936 (20.3%) applicants completed the survey. One hundred thirty-three (70%) respondents completed ≥4 rotations (inclusive of home rotations). Osteopathic applicants completed more rotations than allopathic applicants (mean {M}=5.1 versus 3.8, p<0.001). Fifty-seven (30.0%) respondents stated that their rotation time was limited by cost, with 116 (61.1%) reporting a monthly cost of >$1600. Factors that were most important to applicants when selecting a rotation site were geographic location (4.8), program reputation (3.9), and word of mouth (3.8), while factors that were less important to applicants included social media presence (1.9), scholarship opportunities (2.1), and program website (2.5). Women valued program diversity more than men (3.6 versus 2.5, p<0.001). Residents (4.8) were the most influential people when determining rank order. Conclusions Current orthopedic applicants may be completing more sub-Is at a greater cost. Larger, nationally representative samples should seek to confirm these findings and determine whether sub-Is represent a barrier to entry in orthopedics. Our findings also highlight applicant preferences when selecting sub-Is and determining rank order. This should help programs better direct recruitment efforts and provide a more applicant-focused rotation experience.',
-    published: '2025-Jul',
-    authors: [
-      'Schultz Matthew J',
-      'Riebesell Samantha',
-      'Lutz Rex W',
-      'McCahon Joseph',
-      'Suarez Joyce D',
-      'Purtill James',
-      'Daniel Joseph'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87785',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792349/'
+    id: '40800233',
+    title: 'German veterinarians asked: a cross-sectional study on microbiological examination and antimicrobial use in canine reproductive medicine.',
+    abstract: 'Despite the growing global threat of antimicrobial resistance, many dog breeders still request antimicrobial treatment prior to mating, often based on vaginal bacterial culture examinations. However, several previous studies failed to identify differences in the vaginal microbiota between healthy dogs and those with reproductive tract disorders; thus, treating healthy bitches with antimicrobials regardless of the bacterial findings is contraindicated. To investigate current practices of German small animal veterinarians regarding microbiological sampling and antimicrobial treatment in canine reproductive medicine, we conducted an online survey using LimeSurvey®. The questionnaire included questions (single/multiple choice) about procedures of microbiological swab sampling and handling in general and in canine reproductive medicine specifically, as well as on antimicrobial use in the respective field. The objective was to identify educational and research needs regarding vaginal bacterial culture interpretation and antimicrobial treatment in canine breeding. We found that treating clinically healthy breeding bitches remains common practice among both breeders and veterinarians. Our findings highlight the importance of continuous education and improved communication to reduce inappropriate antimicrobial use in canine reproduction. Furthermore, research on the reproductive microbiome in relation to fertility is essential for evidence-based treatment decisions.',
+    published: '2025',
+    authors: [ 'Rojahn Alicia', 'Leps Anna Sophia', 'Goericke-Pesch Sandra' ],
+    journal: 'Frontiers in veterinary science',
+    doi: '10.3389/fvets.2025.1645496',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800233/'
   },
   {
-    id: '40792343',
-    title: 'Ultrasound Evaluation of Cosmetic Changes in Nails: A Case Series and Literature Review.',
-    abstract: 'BACKGROUND: The use of semi-permanent nail polishes and acrylic nails is rising due to cosmetic appeal, but may lead to underrecognized complications. High-frequency ultrasound (HFUS) offers a non-invasive method for assessing nail structural changes beyond clinical examination.\n' +
-      'OBJECTIVES: To describe ultrasound findings in patients with complications from semi-permanent polishes and acrylic nails and correlate them with clinical presentations.\n' +
-      'METHODS: This descriptive study included 13 women over six months who used semi-permanent polishes or acrylic nails and presented with nail alterations. HFUS was performed using 8-22 MHz probes to assess nail structures in grayscale and Doppler. Defined criteria identified brittle nails, onychomadesis, ventral pterygium, and onychocryptosis. Data were analyzed descriptively.\n' +
-      'RESULTS: Among 13 patients, 69.2% used semi-permanent polishes and 30.8% used acrylic nails. Brittle nails were most common overall (30.8%), primarily in semi-permanent polish users (44.4%), while ventral pterygium predominated among acrylic nail users (50%). HFUS revealed methacrylate deposits within the intermediate plate in 55.6% of semi-permanent polish users. Increased vascularization on Doppler was seen in all cases, suggesting chronic inflammatory processes. Multiple structural alterations were frequently observed in individual patients.\n' +
-      'CONCLUSION: HFUS effectively identified structural and vascular complications linked to cosmetic nail procedures, often detecting subclinical changes. Methacrylate incorporation into the nail plate may underlie many findings in semi-permanent polish users, while matrix atrophy and ventral pterygium were more typical of acrylic nails. These results highlight the importance of patient education and dermatologic monitoring. Larger studies are warranted to confirm these associations.',
-    published: '2025-Jul',
-    authors: [
-      'Gonzalez Claudia',
-      'Bocanegra-Oyola Natalia',
-      'Duque-Clavijo Valeria',
-      'Cruz Garnica Adriana Patricia',
-      'Mahecha-Carvajal Mario'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87752',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792343/'
-  },
-  {
-    id: '40792330',
-    title: 'Keeping Lectures Alive in Undergraduate Medical Education: Current Status, Evolution, and Future Goals.',
-    abstract: 'Lectures have been the cornerstone of education for centuries. As society has modernized, science has elucidated multiple key aspects required for effective learning and retention of knowledge. In the last several decades, undergraduate medical education (UME) has changed with the incorporation of mandatory active small group learning and self-directed study in pre-clerkship education. Lectures have become non-mandatory school activities with poor attendance by students and a sore subject by the UME community. In addition, the use of standardized national exams throughout medical school has paved the way for the use of third-party commercial resources focused on "high-yield" materials that are widely supported by students and schools. Consequently, medical students have begun to forego traditional didactics in favor of commercial resources and self-study time. Hence, there is a growing frustration among faculty over poor attendance and engagement. However, lectures and seminars have continued to thrive in clerkships, graduate medical education, and continuing medical education despite the downfall in pre-clerkship education. Lectures in pre-clerkship education may need to be restructured and delivered in a style that fits the growing educational needs of advanced adult learners. This article critically reviews the historical role and current status of lecture in UME, while providing recommendations for future actionable changes.',
-    published: '2025-Jul',
-    authors: [
-      'Thomas Beatrice C',
-      'Tiarks Georgina C',
-      'Al-Eyd Ghaith',
-      'Rajput Vijay'
-    ],
-    journal: 'Cureus',
-    doi: '10.7759/cureus.87784',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792330/'
-  },
-  {
-    id: '40792296',
-    title: 'Enhancing emotional intelligence in medical education: a systematic review of interventions.',
-    abstract: "INTRODUCTION: Emotional intelligence (EI) is a crucial competency for medical professionals, facilitating effective interpersonal relationships between physicians and patients. The ability to evaluate, regulate, and apply emotional understanding plays a significant role in fostering empathy, communication, and stress management. This systematic review aimed to determine the impact of various interventions on medical students' EI development, academic performance, and overall patient care.\n" +
-      'METHODS: A comprehensive literature search was conducted for studies published from 2021 until 2024, inclusion criteria focused on studies on medical students, employed validated EI assessment tools, and utilized appropriate research designs.\n' +
-      "RESULTS: 44 articles met the inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist was applied to assess the quality of included studies. Although a meta-analysis was initially planned, substantial heterogeneity across the studies limited the pooling of quantitative data. Using an inductive coding approach, eight major themes were identified: Narrative and Storytelling Interventions, Reflective Practices and Writing, Communication Skills Training, Emotional Intelligence Enhancement, Experiential Learning and Patient Exposure, Stress, Burnout, and Coping Interventions, Assessment Tools and Structural Interventions, and Personalized Interventions and Diversity Considerations. These themes were subsequently mapped onto Daniel Goleman's model of Emotional Intelligence to provide a structured theoretical framework.\n" +
-      'DISCUSSION: The findings of this review highlight that various interventions hold promise in enhancing EI among medical students, leading to improvements in personal well-being, communication skills, and professional development. The most effective approach appears to be a multifaceted, longitudinal integration of EI-focused strategies throughout medical training, incorporating repeated practice, guided reflection, faculty mentorship, and structured debriefing. The broader implications extend to improved doctor-patient relationships, reduced burnout, and enhanced clinical decision-making, ultimately contributing to higher patient satisfaction and more compassionate healthcare delivery. Future research should focus on refining intervention methodologies and assessing their long-term impact on medical education and practice.',
+    id: '40800219',
+    title: '"Service" versus "Education" in Anesthesiology: Domain Classification of Activities Based on Perceptions from Learners and Teachers.',
+    abstract: 'PURPOSE: In the US, ACGME (Accreditation Council for Graduate Medical Education) mandates a balance between education and service for the quality of graduate medical education. However, the scope of "education" and "service" in Anesthesiology remains undefined.\n' +
+      'METHODS: A cross-sectional survey was designed, validated, and distributed in a major academic Anesthesiology training program to assess the perceived educational value associated with routine anesthesia training activities. Using the latent variable exploratory factor analysis, domains of activities were identified according to perceived educational values. These domains along with learning climate were then compared among teachers and learners.\n' +
+      'RESULTS: Three domains of activities were identified with a completion rate of 52.5%: 1) Mandatory training-related obligations (patient transport, call duties, medical record and ACGME record documentation, etc) were associated with the least educational value, 2) Procedural responsibilities (arterial line placement, epidural analgesia, etc) and 3) Classroom activities (simulation, mock oral exam, etc) were associated with higher educational value. Learning climate factors (fatigue, excessive caseload, etc) adversely affects the perception of educational value in learners more significantly than in teachers.\n' +
+      'CONCLUSION: There is disparity in the perception of educational value for various training activities between learners and teachers. Learners perceive lower educational value in anesthesia training activities compared to teachers, especially in mandatory tasks. Modifiable elements of the learning climate should be addressed to enhance the educational experience for learners.',
     published: '2025',
     authors: [
-      'Maity Sabyasachi',
-      'De Filippis Samantha Michelle',
-      'Aldanese Alexander',
-      'McCulloch Melissa A',
-      'Sandor Alexis P',
-      'Perez Cajigas Jan E',
-      'Antoniadis Yiorgos',
-      'Rochester Te-Keila D T',
-      'Carter Lauren Elizabeth',
-      'Preisig Alexander M',
-      'Kobeissi Julia Ali',
-      'Nayak Narendra',
-      'Mendoza Jaime E',
-      'Nauhria Samal'
+      'Li Jinlei',
+      'Lin Hung-Mo',
+      'Yanez N David',
+      'He Zili',
+      'Treggiari Miriam M',
+      'Kurup Viji'
     ],
-    journal: 'Frontiers in medicine',
-    doi: '10.3389/fmed.2025.1587090',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792296/'
+    journal: 'Advances in medical education and practice',
+    doi: '10.2147/AMEP.S527329',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800219/'
   },
   {
-    id: '40792285',
-    title: "Undergraduate nursing students' experiences during international clinical placement: A scoping review.",
-    abstract: "BACKGROUND: Immigration, combined with the growth of multicultural societies, has increased patient diversity, highlighting the need for cultural competence in healthcare to prepare nurses to understand the nature of global health. Nurses should have knowledge to understand and respect how culture influences patients' health needs, access to healthcare services, and the health-related decision-making process. Offering international clinical placement to nursing students is one way to increase this cultural competence. No scoping review has mapped undergraduate nursing students' experiences during international clinical placement.\n" +
-      "OBJECTIVES: To provide an overview of published studies on undergraduate nursing students' experiences during international clinical placement.\n" +
-      'DESIGN: A scoping review.\n' +
-      "METHODS: A systematic search was performed in three databases (CINAHL, Medline, PubMed). The inclusion criteria were: 1) studies with quantitative, qualitative or mixed methods design, 2) studies reporting undergraduate nursing students' experiences of international clinical placement and 3) studies published in peer-reviewed journals in the English language between January 2008 and February 2023. Pairs of authors independently assessed eligibility and extracted data. Data were thematically grouped.\n" +
-      'RESULTS: 42 papers were included, 39 studies employed a qualitive design, while 3 studies employed a quantitative design. All studies included students from Western countries with international clinical placement in non-Western countries. Most students had international clinical placement in hospitals, with a wide range of length of exchange. Four thematic groupings were identified: 1) developing cultural competence through culture shock, 2) a novel way of practicing nursing due to a different nursing role, 3) the essential role of the supervisor in learning outcomes and 4) the impact of language barriers on learning outcomes.\n' +
-      'CONCLUSIONS: Students developed cultural competence by experiencing culture shock when exposed to an unfamiliar cultural environment. While they often reacted negatively to these differences, they often adjusted their prejudices and biases over time. Language skills were the greatest barrier to achieving learning outcomes, creating more frustration than cultural barriers. There is a need to investigate how non-Western students experience studying in a Western country.',
-    published: '2025-Dec',
+    id: '40800188',
+    title: 'Effects of genetic factors and visual behaviors on interventions for myopia prevention and control in children: a systematic review and meta-analysis.',
+    abstract: 'BACKGROUND: Childhood myopia has become a global public health problem and is growing rapidly in incidence, especially in East Asia. This study examined the prevention and control of myopia in children by systematically evaluating the interaction between genetic factors and visual behaviors to optimize prevention strategies.\n' +
+      'METHODS: Relevant articles were screened from PubMed and Web of Science. The search period was from January 2000 to January 2024. Inclusion criteria were children aged 6-18 years with clear stratification into intervention groups (receiving specific measures: health education, ≥1 hour daily outdoor activity, optical correction, or 0.01% atropine) and control groups (receiving routine care or no intervention). Both groups were matched for age (±1 year), baseline refractive error (within 0.50 D), and family history of myopia. Including health education, behavior adjustment, outdoor activities, clinically and research-proven interventions for myopia progression delay (including optical interventions such as frame glasses and orthokeratology, and pharmacological interventions such as low-concentration atropine). Outcome indicators included incidence of myopia, change in refractive power (D), and change in axial length (mm). Data were analyzed via RevMan 5.4 (Cochrane) and Stata 16 (StataCorp), and the effects of interventions were assessed using a random-effects model. This article defines the terms randomized controlled trials (RCTs), standardized mean difference (SMD), relative risk (RR), and confidence interval (CI).\n' +
+      'RESULTS: Twelve high-quality studies that examined the intervention effects of multiple genetic factors and visual behavior were ultimately included, with a total sample of 6,342 cases. The results showed that interventions significantly slowed myopia progression in the genetic high-risk group compared to its control, though the absolute effect remained weaker than in the general population, especially in terms of changes in refractive power (diopters, D) and axial length (millimeters, mm) (SMD =-0.32; 95% CI: -0.5 to -0.13). Among the interventions, health education and outdoor activities were the most effective for myopia prevention and control, with a reduction in the incidence of myopia of approximately 12% (myopia incidence rate =0.88; 95% CI: 0.81-0.96). Adherence to intervention was closely related to the effect of intervention, and the group with higher adherence experienced better control of myopia progression.\n' +
+      'CONCLUSIONS: Genetic factors and visual behavior have significant effects on the prevention and control of myopia in children. The prevention and control of myopia among genetic high-risk population are significantly improved after the application of health education and outdoor activity plan interventions. Improving the compliance of intervention is the key factor to enhancing the effect of childhood intervention. This meta-analysis provides a scientific basis for the optimization of childhood intervention strategies for the prevention and control of myopia in children.',
+    published: '2025-Jul-31',
+    authors: [ 'Xie Sisi', 'He Linzhi', 'Xie Xingyu', 'Xu Xiaoyan' ],
+    journal: 'Translational pediatrics',
+    doi: '10.21037/tp-2025-409',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800188/'
+  },
+  {
+    id: '40800187',
+    title: 'Epidemiological and clinical characteristics of pediatric patients with extremely severe burns: a retrospective study of 101 cases.',
+    abstract: 'BACKGROUND: Burn injuries represent a critical global public health issue, significantly threatening human life and well-being, particularly among children. This study aims to systematically summarize the epidemiological and clinical characteristics of pediatric patients with extremely severe burns in northern China.\n' +
+      "METHODS: This study retrospectively collected clinical data from 101 pediatric patients with extremely severe burns treated at Beijing Children's Hospital between 2013 and 2023. The data collected included gender, age, cause of injury, location of the incident, length of stay (LOS), total burn surface area (TBSA) and mortality.\n" +
+      'RESULTS: A total of 101 pediatric patients with extremely severe burns (51.49% male) were included in this study, representing 5.7% of all burn-related hospitalizations at our hospital over an 11-year period. The annual number of admissions for extremely severe burns exhibited an overall declining trend. The highest proportion of cases occurred in children aged 1 to 3 years (61.4%). Two causes of injury were identified, with scalds constituting the majority (81.2%). Notably, flame burns (18.8%) were associated with a high wound infection rate (89.5%), and wound infection emerged as a significant factor influencing the LOS. More than half of the patients presented with extensive burns to the head and neck regions. Additionally, there were 8 fatalities among the 101 patients.\n' +
+      'CONCLUSIONS: In Northern China, scalding is the predominant cause of extremely severe burns in children. Children aged 1 to 3 years should be the primary target group for prevention efforts. It is essential to enhance safety education at both family and society levels.',
+    published: '2025-Jul-31',
     authors: [
-      'Andreassen Lasse',
-      'Steindal Simen A',
-      'Sarin Jyoti',
-      'Strøm Benedicte Sørensen'
+      'Zhao Xitong',
+      'Liu Jing',
+      'Liu Xiaohui',
+      'Zhuang Zhaohan',
+      'Wang Yanni',
+      'Wang Yining',
+      'Qi Hongyan',
+      'Ni Xin',
+      'Chen Kun'
     ],
-    journal: 'International journal of nursing studies advances',
-    doi: '10.1016/j.ijnsa.2025.100378',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792285/'
+    journal: 'Translational pediatrics',
+    doi: '10.21037/tp-2025-156',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800187/'
   },
   {
-    id: '40792241',
-    title: 'Standardization and professionalization of simulated and standardized patient-based education in Qatar: A call for action.',
-    abstract: "Simulation, in its various forms, is widely used in all stages of education, training, and assessment of healthcare students and professionals. There is, however, a lot of variation in practice regarding the way in which institutions implement simulation, and in particular how educators work with simulated participants (SPs). This short article makes a case for bringing together all of Qatar's healthcare educators and SPs at the 2025 Qatar Simulation Symposium in order to enhance simulation-based educational practices and raise awareness of standards of best practice. It could play a significant role in improving learners' experiences and eventually positively impact on patient care.",
-    published: '2025',
-    authors: [ 'Alinier Nandini', 'Alinier Guillaume' ],
-    journal: 'Qatar medical journal',
-    doi: '10.5339/qmj.2025.33',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792241/'
+    id: '40800186',
+    title: 'Paediatric Fournier gangrene: comprehensive insights into diagnosis, management, and outcomes-a narrative review.',
+    abstract: 'BACKGROUND AND OBJECTIVE: Fournier gangrene (FG) is an uncommon, severe condition characterized by the onset of severe tissue infection in the perineal area, with significant implications for the pediatric population. The current review has been drafted to shed light on the various aspects of pediatric FG, including its etiology, risk factors, clinical presentation, diagnostic approach, management strategies, and outcomes.\n' +
+      'METHODS: A comprehensive review of pediatric FG was conducted on the existing data on its strategies, clinical features, complications, treatments, and outcomes. A detailed literature search was done on databases using PubMed, Scopus, and Web of Science with keywords such as "Fournier gangrene", "Pediatric Fournier gangrene", "Fournier gangrene in children", and "necrotizing soft tissue infections (NSTI)". Due to the limited pediatric data, adult FG data were used to explain the diagnostic scoring system, treatment strategies.\n' +
+      'KEY CONTENT AND FINDINGS: The review highlights the prevalence of FG in pediatric populations and reinforces the requirement for early diagnosis with prompt medical intervention to manage pediatric FG. The etiology and pathophysiology of pediatric FG are also discussed, along with the underlying causes and specific risk factors such as existing congenital abnormalities of the genitourinary and gastrointestinal systems. The management of pediatric FG requires the implementation of a multidisciplinary approach, which should begin with immediate clinical intervention, proper surgical procedures, implementation of pharmacological therapies, and antibiotic regimens to avoid potential complications. Preventive strategies should focus on public health education, hygiene, and vaccination to boost immunity and prevent pediatric FG. The current review suggests future directions to ameliorate clinical practices and achieve favourable outcomes in managing pediatric FG.\n' +
+      'CONCLUSIONS: FG, despite its rare occurrence in the pediatric population, poses a humongous challenge to the healthcare community owing to its rapid onset, complex diagnosis, and high morbidity and mortality rates. Early diagnosis, combined with prompt medical and surgical intervention, with a coordinated multidisciplinary approach, is essential in the management of FG in children. The review provides a glimpse of the shortcomings of the healthcare system and emphasizes the need to improve treatment protocols while also evaluating the long-term impacts of the disease.',
+    published: '2025-Jul-31',
+    authors: [ 'Alzahrani Khalid A' ],
+    journal: 'Translational pediatrics',
+    doi: '10.21037/tp-2025-112',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800186/'
   },
   {
-    id: '40792089',
-    title: 'Enhancing well-being in higher education: the role of job satisfaction and resilience among ELT instructors.',
-    abstract: 'INTRODUCTION: As academic demands intensify and institutional pressures increase, university-level English Language Teaching (ELT) instructors face growing risks to their psychological well-being. Understanding the factors that contribute to their well-being is essential for ensuring sustainable professional engagement. This study investigates the role of job satisfaction and teacher resilience in promoting psychological well-being among ELT instructors in higher education settings.\n' +
-      'METHODS: A quantitative research design was employed, involving 173 ELT instructors working at universities in Türkiye. Data were collected through three validated instruments: the Teacher Job Satisfaction Scale, the Teacher Resilience Scale, and the Psychological Well-Being Scale. Multiple regression analyses were used to explore the predictive relationships among the variables.\n' +
-      'RESULTS: Findings revealed that both job satisfaction and resilience significantly and positively predicted psychological well-being. Among the two, job satisfaction emerged as the strongest predictor. In addition, teacher resilience was found to partially mediate the relationship between job satisfaction and psychological well-being.\n' +
-      'DISCUSSION: The results highlight the importance of fostering emotionally resilient and professionally satisfied ELT instructors. Institutional policies that enhance autonomy, promote professional development, and support well-being are critical for sustaining mental health and effective teaching performance in demanding higher education contexts.',
+    id: '40800170',
+    title: 'Trends and Disparities in Broadband Internet Access in the United States, 2013 to 2023.',
+    abstract: "Since the turn of the century, sociologists and other scholars concerned about digital inequality have most often been concerned about disparities in the quality of internet use, not necessarily the availability of internet access itself. However, the COVID-19 pandemic laid bare the fact that the internet's potential benefits to mitigating the spread of the virus were only available to those with internet access. In this visualization, I use household-level data from the American Community Survey from 2013 - 2023 (N = 10,713,204 households) to estimate a linear probability model predicting internet access by race/ethnicity, household educational attainment, and poverty status. Results suggest that household internet access has increased over the past decade, but disparities still exist on all three dimensions.",
     published: '2025',
-    authors: [ 'Zaimoğlu Senem', 'Dağtaş Aysun' ],
-    journal: 'Frontiers in psychology',
-    doi: '10.3389/fpsyg.2025.1629498',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40792089/'
+    authors: [ 'Allen Spencer' ],
+    journal: 'Socius : sociological research for a dynamic world',
+    doi: '10.1177/23780231251363238',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800170/'
+  },
+  {
+    id: '40800159',
+    title: 'A scoping review of the factors affecting work-life balance among nurse educators.',
+    abstract: 'BACKGROUND: There is a dearth of research on the factors that contribute to a lack of work-life balance (WLB) among nurse educators because most studies focused on nurses or academics in general rather than nurse educators. Thus, more studies are needed to explore the factors that contribute to the lack of WLB among nurse educators.\n' +
+      'AIM: To explore and investigate the scope and quantity of literature on the factors affecting the WLB among nurse educators.\n' +
+      "METHOD: This scoping review followed Arksey and O'Malley's framework, using the Joanna Briggs Institute (JBI) Manual for Evidence Synthesis to extract and chart sources. Seventeen articles (2014-2024) were analyzed using descriptive analysis, PRISMA-ScR, and thematic analysis.\n" +
+      'RESULTS: The scoping review identifies factors and strategies impacting WLB among nurse educators, highlighting occupational stress, understaffing, and heavy workloads as key contributors to imbalance. It also explores the role of technology in improving WLB.\n' +
+      'CONCLUSION: The scoping review identified factors that contribute to work-life imbalance among nurse educators and proposed strategies to address these issues. Studies suggest that WLB programmes can also lower employee stress levels. Furthermore, the review highlights a significant gap in the literature concerning the factors contributing to the lack of WLB among nurse educators in the sub-Saharan region.\n' +
+      'CONTRIBUTION: The findings of this scoping review might assist in the development of strategies that could help nurse educators deal with the factors that contribute to the lack of WLB among nurse educators in nursing education institutions.',
+    published: '2025',
+    authors: [
+      'Mathebula Letta',
+      'Mathevula Rirhandzu F',
+      'Ramalepa Tshiamo N'
+    ],
+    journal: 'Health SA = SA Gesondheid',
+    doi: '10.4102/hsag.v30i0.2910',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40800159/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Error fetching CrossRef papers: Error: CrossRef API request failed with status 500
-    at CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:603:23)
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
+Found abstract in meta tag: meta[name="description"]
+Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 6)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from crossref: Error: CrossRef API request failed with status 500
-    at CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:603:23)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'kahualike.manoa.hawaii.edu',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.31372/20190403.1059',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/apin/vol4/iss3/2/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'kahualike.manoa.hawaii.edu',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/apin/vol4/iss3/2/',
+      href: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /apin/vol4/iss3/2/ HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: kahualike.manoa.hawaii.edu\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/apin/vol4/iss3/2/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'kahualike.manoa.hawaii.edu',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://kahualike.manoa.hawaii.edu/apin/vol4/iss3/2/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'kahualike.manoa.hawaii.edu'
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Total papers collected: 40
-Removed duplicates: 40 -> 40
-Starting translation of 40 papers...
-Translating paper 1/40
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      href: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
+  }
+}
+Fetched papers from CrossRef: [
+  {
+    id: '10.22452/jier.vol7sp2021.4',
+    title: 'PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DALAM ERA PANDEMIK COVID-19 VIRTUAL TEACHING OF INNOVATIVE ISLAMIC EDUCATION TEACHERS IN THE COVID-19 PANDEMIC ERA',
+    summary: 'No abstract available from web scraping',
+    published: '2121-12-6',
+    authors: [
+      'Zhaffar, Nursafra Mohd',
+      'Wan Abdullah, Wan Ali Akbar',
+      'Abdul Razak, Khadijah',
+      '(Author), Mohd Isa Hamzah'
+    ],
+    journal: 'Journal of Islamic Education',
+    link: 'https://doi.org/10.22452/jier.vol7sp2021.4'
+  },
+  {
+    id: '10.32598/jccnc.7.1.33.14',
+    title: 'The Effects of Relaxing Music on Life Distress and Maternal-fetal Attachment in Pregnant Women',
+    summary: 'Background: Although pregnancy and motherhood are enjoyable experiences, they are associated with numerous biopsychological changes requiring adaptation. The present study aimed to assess the effects of relaxing music on life distress and Maternal-Fetal Attachment (MFA) in pregnant women. Methods: This was a quasi-experimental study with a pre-test, post-test and a control group design. ...',
+    published: '2121-2-1',
+    authors: [
+      '',
+      'Shokri Shams, Mona',
+      'Khodabakhshi-Koolaee, Anahita',
+      '',
+      'Falsafinejad, Mohammad Reza',
+      ''
+    ],
+    journal: 'Journal of Client-Centered Nursing Care',
+    link: 'https://doi.org/10.32598/jccnc.7.1.33.14'
+  },
+  {
+    id: '10.32598/jccnc.7.1.350.1',
+    title: 'The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce',
+    summary: 'Background: Emotional divorce refers to a situation in which the emotional relationship, support, passion, warmth, attention, love, and intimacy between couples (husband & wife) decline or diminish. Such conditions lead to an unaffectionate marital life to the point that the couples are only together under one roof. Accordingly, the present study ...',
+    published: '2121-2-1',
+    authors: [
+      '',
+      'Shirzadi, Zahra',
+      'Khakpour, Reza',
+      '',
+      'Khodabakhshi-Koolaee, Anahita',
+      ''
+    ],
+    journal: 'Journal of Client-Centered Nursing Care',
+    link: 'https://doi.org/10.32598/jccnc.7.1.350.1'
+  },
+  {
+    id: '10.15556/ijsim.02.03.002',
+    title: 'Barriers to the Teaching of Skills in the Greek Higher Education Accounting Courses: Insight from Accounting Teachers',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2115-10-1',
+    authors: [ 'Asonitou, Sofia' ],
+    journal: 'International Journal of Strategic Innovative Marketing',
+    link: 'https://doi.org/10.15556/ijsim.02.03.002'
+  },
+  {
+    id: '10.15556/ijsim.02.02.002',
+    title: 'A criticism of the paradigm of rational choice in uncertain conditions through the lens of behavioral economics',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2115-7-1',
+    authors: [ 'Dachel, Jaroslav', 'Duchácková, Eva', 'Radová, Jarmila' ],
+    journal: 'International Journal of Strategic Innovative Marketing',
+    link: 'https://doi.org/10.15556/ijsim.02.02.002'
+  },
+  {
+    id: '10.15556/ijiim.02.01.004',
+    title: 'Modeling and Transformation of the Evaluation Mechanism of Greek Higher Education Institutes using Balanced Scorecard Technique',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2115-3-5',
+    authors: [
+      'Chalaris, Manolis',
+      'Chalaris, Ioannis',
+      'Gritzalis, Stefanos',
+      'Tsolakidis, Anastasios'
+    ],
+    journal: 'International Journal on Integrated Information Management',
+    link: 'https://doi.org/10.15556/ijiim.02.01.004'
+  },
+  {
+    id: '10.31372/20190403.1059',
+    title: 'Impact of lactation support program on Initiation of Breastfeeding in Term Infants',
+    summary: 'No abstract available from web scraping - Error occurred',
+    published: '2109-9-16',
+    authors: [
+      '',
+      'Ninan, Binu',
+      'Balakrishnan, Umamaheswari',
+      'Mohamed, Asiff',
+      'Manjula, Munusamy',
+      'Abiramalatha, Thangaraj',
+      'Chandrasekaran, Ashok',
+      'Amboiram, Prakash'
+    ],
+    journal: 'Asian/Pacific Island Nursing Journal',
+    link: 'https://doi.org/10.31372/20190403.1059'
+  },
+  {
+    id: '10.20431/2349-0381.0303010',
+    title: 'Influence of Personal Teacher Efficacy on Selection of Teaching Methods in Secondary Schools in Kwale County, Kenya',
+    summary: 'No abstract available from web scraping',
+    published: '2106',
+    authors: [],
+    journal: 'International Journal of Humanities, Social Sciences and Education',
+    link: 'https://doi.org/10.20431/2349-0381.0303010'
+  },
+  {
+    id: '10.20431/2349-0381.0303002',
+    title: 'Availability and Utilization of Tools and Equipment for Teaching and Learning Garment Making Trade in the Senior Secondary Schools in Edo State',
+    summary: 'No abstract available from web scraping',
+    published: '2106',
+    authors: [],
+    journal: 'International Journal of Humanities, Social Sciences and Education',
+    link: 'https://doi.org/10.20431/2349-0381.0303002'
+  },
+  {
+    id: '10.20431/2349-0381.0303005',
+    title: 'Assessing the Technical Efficiency of Public Hospitals in Cameroon: An Application of Data Envelopment Analysis (DEA)',
+    summary: 'No abstract available from web scraping',
+    published: '2106',
+    authors: [],
+    journal: 'International Journal of Humanities, Social Sciences and Education',
+    link: 'https://doi.org/10.20431/2349-0381.0303005'
+  }
+]
+Collected 10 papers from crossref
+Total papers collected: 50
+Removed duplicates: 50 -> 50
+Starting translation of 50 papers...
+Translating paper 1/50
 Translating paper: Big data in economics...
-Translating paper 2/40
+Translating paper 2/50
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/40
+Translating paper 3/50
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/40
+Translating paper 4/50
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/40
+Translating paper 5/50
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/40
+Translating paper 6/50
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/40
+Translating paper 7/50
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/40
+Translating paper 8/50
 Translating paper: A physical theory of economic growth...
-Translating paper 9/40
+Translating paper 9/50
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/40
+Translating paper 10/50
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/40
+Translating paper 11/50
 Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/40
+Translating paper 12/50
 Translating paper: Economics students’ behavioural intention and usag...
-Translating paper 13/40
+Translating paper 13/50
 Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
-Translating paper 14/40
+Translating paper 14/50
 Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 15/40
+Translating paper 15/50
 Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 16/40
+Translating paper 16/50
 Translating paper: Experience and education...
-Translating paper 17/40
+Translating paper 17/50
 Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 18/40
+Translating paper 18/50
 Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 19/40
+Translating paper 19/50
 Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 20/40
+Translating paper 20/50
 Translating paper: The Impact of Education for Sustainable Developmen...
-Translating paper 21/40
+Translating paper 21/50
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
-Translating paper 22/40
+Translating paper 22/50
 Translating paper: The Future of Accounting Education Under the Devel...
-Translating paper 23/40
+Translating paper 23/50
 Translating paper: Digital University: Building a Flexible, Inclusive...
-Translating paper 24/40
+Translating paper 24/50
 Translating paper: Digitalization of Higher Education: Experience of ...
-Translating paper 25/40
+Translating paper 25/50
 Translating paper: Media Education as AI Education—An Experiential Ap...
-Translating paper 26/40
+Translating paper 26/50
 Translating paper: Integrating Artificial Intelligence in English Lan...
-Translating paper 27/40
+Translating paper 27/50
 Translating paper: Model-Based STEM Technical and Vocational Educatio...
-Translating paper 28/40
+Translating paper 28/50
 Translating paper: E-Learning and E-Pedagogy in Uzbekistan, Benefits ...
-Translating paper 29/40
+Translating paper 29/50
 Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
-Translating paper 30/40
+Translating paper 30/50
 Translating paper: ChatGPT and University Students: How Family Educat...
-Translating paper 31/40
-Translating paper: Predicting Performance in a Military Hand-to-Hand ...
-Translating paper 32/40
-Translating paper: Evaluating Ontario's High Priority Communities Str...
-Translating paper 33/40
-Translating paper: Undergraduate Medical Education Addressing Stigmat...
-Translating paper 34/40
-Translating paper: A Pilot Study of Orthopedic Applicants Regarding S...
-Translating paper 35/40
-Translating paper: Ultrasound Evaluation of Cosmetic Changes in Nails...
-Translating paper 36/40
-Translating paper: Keeping Lectures Alive in Undergraduate Medical Ed...
-Translating paper 37/40
-Translating paper: Enhancing emotional intelligence in medical educat...
-Translating paper 38/40
-Translating paper: Undergraduate nursing students' experiences during...
-Translating paper 39/40
-Translating paper: Standardization and professionalization of simulat...
-Translating paper 40/40
-Translating paper: Enhancing well-being in higher education: the role...
-Translation completed: 40 papers
-Removed duplicates: 894 -> 865
-Total papers after merging: 865 (854 existing + 40 new)
-Saved 865 papers to papers.json
+Translating paper 31/50
+Translating paper: Brain morphometry and chronic inflammation in Bang...
+Translating paper 32/50
+Translating paper: Robotic-assisted technique in plastic and reconstr...
+Translating paper 33/50
+Translating paper: Factors associated with influenza vaccine adherenc...
+Translating paper 34/50
+Translating paper: German veterinarians asked: a cross-sectional stud...
+Translating paper 35/50
+Translating paper: "Service" versus "Education" in Anesthesiology: Do...
+Translating paper 36/50
+Translating paper: Effects of genetic factors and visual behaviors on...
+Translating paper 37/50
+Translating paper: Epidemiological and clinical characteristics of pe...
+Translating paper 38/50
+Translating paper: Paediatric Fournier gangrene: comprehensive insigh...
+Translating paper 39/50
+Translating paper: Trends and Disparities in Broadband Internet Acces...
+Translating paper 40/50
+Translating paper: A scoping review of the factors affecting work-lif...
+Translating paper 41/50
+Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
+Translating paper 42/50
+Translating paper: The Effects of Relaxing Music on Life Distress and...
+Translating paper 43/50
+Translating paper: The Role of Attachment Styles and Spiritual Intell...
+Translating paper 44/50
+Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
+Translating paper 45/50
+Translating paper: A criticism of the paradigm of rational choice in ...
+Translating paper 46/50
+Translating paper: Modeling and Transformation of the Evaluation Mech...
+Translating paper 47/50
+Translating paper: Impact of lactation support program on Initiation ...
+Translating paper 48/50
+Translating paper: Influence of Personal Teacher Efficacy on Selectio...
+Translating paper 49/50
+Translating paper: Availability and Utilization of Tools and Equipmen...
+Translating paper 50/50
+Translating paper: Assessing the Technical Efficiency of Public Hospi...
+Translation completed: 50 papers
+Removed duplicates: 915 -> 875
+Total papers after merging: 875 (865 existing + 50 new)
+Saved 875 papers to papers.json
 Generating HTML files...
-Generating index.html with 865 papers...
+Generating index.html with 875 papers...
 Successfully generated index.html
-Generating archive.html with 865 papers...
+Generating archive.html with 875 papers...
 Successfully generated archive.html
-Generating journal.html with 865 papers...
+Generating journal.html with 875 papers...
 Successfully generated journal.html
-Generating acquisition.html with 865 papers...
+Generating acquisition.html with 875 papers...
 Successfully generated acquisition.html
-Generating publication.html with 865 papers...
+Generating publication.html with 875 papers...
 Successfully generated publication.html
-Generating registration.html with 865 papers...
+Generating registration.html with 875 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 865
-New papers processed: 40
+Total papers in database: 875
+New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-12T15:36:17.864Z
+Timestamp: 2025-08-13T15:39:12.682Z
