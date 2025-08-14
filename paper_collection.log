@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-13T15:10:10.753Z
+Timestamp: 2025-08-14T15:12:05.394Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 865 existing papers from papers.json
+Loaded 875 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -591,188 +591,380 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40800433',
-    title: 'Brain morphometry and chronic inflammation in Bangladeshi children growing up in extreme poverty.',
-    abstract: 'Over three hundred million children live in environments of extreme poverty, and the biological and psychosocial hazards endemic to these environments often expose these children to infection, disease, and inflammatory responses. Chronic inflammation in early childhood has been associated with diminished cognitive outcomes, and despite this established relationship, the mechanisms explaining how inflammation affects brain development are not well known. Importantly, the prevalence of chronic inflammation in areas of extreme poverty raises the possibility that it may also serve as a mechanism explaining the known relationship between low socioeconomic status (SES) and altered brain development. To examine these potential pathways, seventy-nine children growing up in an extremely poor, urban area of Bangladesh underwent MRI scanning at 6 years of age. Structural brain images were submitted to Mindboggle software, a Docker-compliant and high-reproducibility tool for regional estimations of volume, surface area, cortical thickness, sulcal depth, and mean curvature. C-reactive protein was assayed at eight time points between infancy and 5 years of age, and the frequency with which children had elevated concentrations of inflammatory marker represented the measure of chronic inflammation. Childhood SES was measured with maternal education and income-to-needs (i.e., monthly household income divided by the number of household members). Chronic inflammation predicted volume in bilateral basal ganglia structures and mediated the link between maternal education and bilateral putamen volumes. These findings suggest that chronic inflammation is associated with brain morphometry in the basal ganglia, predominantly the putamen, and further offers inflammation as a potential mechanism linking SES to brain development.',
-    published: '2024',
+    id: '40810242',
+    title: 'Characteristics of interventions for siblings of children and youth with disabilities and chronic conditions: a scoping review.',
+    abstract: 'PURPOSE: Interventions to support siblings of youth with disabilities and chronic conditions have shown promising outcomes, yet there is limited synthesized literature and guidelines to support their design and development. This scoping review aims to synthesize: (1) study, participant, and intervention characteristics of sibling-focused interventions; and (2) intervention outcomes.\n' +
+      "METHODS: Scoping review guidelines were aligned with Arksey and O'Malley, with considerations from Levac et al. and adhered to the PRISMA-ScR checklist. Four databases: (1) Ovid MEDLINE, (2) EMBASE, (3) CINAHL, and (4) PsycInfo were searched through November 2024. Data were extracted on study, participant, and intervention characteristics, and outcomes. The TIDieR checklist structured the reporting of intervention characteristics.\n" +
+      'RESULTS: After screening the title and abstracts of 16,654 articles, 173 studies were eligible for full-text review, with 48 included. Most interventions were group-based and delivered in-person ( = 36; 75.0%) and only nine interventions (18.8%) utilized remote or virtual components. Interventions commonly included educational topics, activities, and social components. Intervention outcomes were focused on mental health, knowledge, self-esteem, social functioning and connectedness, family dynamics, and other.\n' +
+      "CONCLUSIONS: This scoping review synthesizes sibling-focused interventions, highlighting key characteristics and outcomes. Findings can guide meaningful and inclusive, evidence-based rehabilitation practices addressing siblings' unique needs.",
+    published: '2025-Aug-14',
     authors: [
-      'Turesky Ted K',
-      'Pirazzoli Laura',
-      'Shama Talat',
-      'Kakon Shahria Hafiz',
-      'Haque Rashidul',
-      'Islam Nazrul',
-      'Someshwar Amala',
-      'Gagoski Borjan',
-      'Petri William A',
-      'Nelson Charles A',
-      'Gaab Nadine'
+      'Al-Hakeem Hiba',
+      'Mallory Kylie D',
+      'El-Sabbagh Jana',
+      'Barton Willow',
+      'Kiriakidis Anna',
+      'Hooper Marie',
+      'Scratch Shannon E'
     ],
-    journal: 'Imaging neuroscience (Cambridge, Mass.)',
-    doi: '10.1162/imag_a_00319',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800433/'
+    journal: 'Disability and rehabilitation',
+    doi: '10.1080/09638288.2025.2543941',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810242/'
   },
   {
-    id: '40800240',
-    title: 'Robotic-assisted technique in plastic and reconstructive surgery: Experience in Taiwan.',
-    abstract: "BACKGROUND: Robotic-assisted surgery (RAS) has increasingly been applied in the field of plastic and reconstructive surgery, offering enhanced precision, reduced invasiveness, and improved patient outcomes. This review summarizes Taiwan's pioneering experience with robotic-assisted techniques in this specialty, with an emphasis on clinical applications, educational models, and future directions.\n" +
-      'METHODS: A narrative literature review was conducted focusing on robotic-assisted plastic and reconstructive surgery with relevance to Taiwanese clinical practice. Articles published between January 2000 and April 2024 were considered. Searches were performed in PubMed, Google Scholar, and Cochrane Library using the keywords: "robotic surgery," "plastic surgery," "reconstructive surgery," "Taiwan," and "microsurgery." Inclusion criteria were: (1) studies involving robotic-assisted surgical techniques, (2) relevance to plastic and reconstructive surgery, (3) Taiwanese institutional or clinical context, and (4) availability of clinical or technical outcome data. Articles not published in English, lacking original data, or unrelated to the Taiwan context were excluded.\n' +
-      "RESULTS: Robotic-assisted techniques were successfully applied in various reconstructive domains, notably in microsurgical anastomosis for free flap procedures, nerve transfers, and minimally invasive mastectomies. These approaches demonstrated favorable outcomes in terms of operative precision, reduced complications, and patient satisfaction. Taiwan's major medical centers, including Chang Gung Memorial Hospital and Taichung Veterans General Hospital, have been instrumental in driving these innovations. Furthermore, robotic training models facilitated the learning curve for microsurgeons and supported the integration of robotic platforms into surgical education.\n" +
-      "CONCLUSIONS: Taiwan's experience underscores the feasibility and clinical value of robotic-assisted techniques in plastic and reconstructive surgery. Robotic platforms not only improve surgical outcomes but also expand the scope of reconstructive options. Ongoing research and educational efforts are crucial to optimizing technique standardization and surgeon training in this rapidly evolving field.",
-    published: '2025-Nov',
+    id: '40810241',
+    title: 'Do Generic Skills Achieved During Undergraduate Dental Education Meet the Need in Clinical Practice?',
+    abstract: 'OBJECTIVES: To evaluate the importance of generic skills in clinical dental practice and how well these skills were achieved during undergraduate dental education.\n' +
+      "MATERIALS AND METHODS: The data were based on a national online questionnaire survey called 'Young Dentist', which was hosted by the Finnish Dental Association. The questionnaire was sent via an email link in May 2021 to dentists who had graduated in Finland during 2018-2020. Altogether 221/505 recently graduated dentists (response rate 44%) answered the questionnaire. At the same time, the questionnaire was also sent to more experienced colleagues, who were selected by random sampling from the member register of the Finnish Dental Association (response rate 82/778, 14%).\n" +
+      'RESULTS: Recently graduated dentists stated that patient encounter skills were the most important generic skill in clinical dental practice, and this skill was well achieved during undergraduate studies. Other important skills in clinical dental practice reported by young dentists were aseptic techniques and patient safety and risk management skills, which were also well or very well achieved during undergraduate studies. The opinions of recently graduated dentists and more experienced colleagues were quite similar.\n' +
+      'CONCLUSION: According to the opinions of the dentists, undergraduate dental education develops most generic competencies in clinical dental practice, but evolving practices, advancing technologies and health system challenges highlight the growing importance of diverse generic skills in the dental profession.',
+    published: '2025-Aug-14',
     authors: [
-      'Chen Yi-Chia',
-      'Chung Ming-Hsien',
-      'Chang Chieh-Kai',
-      'Wu Cheng-Yeu',
-      'Lin Yi-Ling',
-      'Tsai Yueh-Chi',
-      'Lu Chen-Te',
-      'Chen I-Chen',
-      'Lai Chih-Sheng'
+      'Näpänkangas Ritva',
+      'Lappalainen Olli-Pekka',
+      'Jämsä Hannaleena',
+      'Laitala Marja-Liisa',
+      'Koivumäki Jaakko',
+      'Karaharju-Suvanto Terhi'
     ],
-    journal: 'Journal of hand and microsurgery',
-    doi: '10.1016/j.jham.2025.100332',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800240/'
+    journal: 'European journal of dental education : official journal of the Association for Dental Education in Europe',
+    doi: '10.1111/eje.70037',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810241/'
   },
   {
-    id: '40800238',
-    title: 'Factors associated with influenza vaccine adherence among health care workers in Abu Dhabi.',
-    abstract: 'BACKGROUND: Influenza outbreaks rapidly threaten public health, making vaccination a critical tool in reducing transmission. Health care workers (HCWs), especially those in direct patient care roles within all health care settings, are encouraged to receive annual influenza vaccinations to enhance their immunity and ensure patient safety.\n' +
-      "OBJECTIVES: This study aimed to identify and describe the factors associated with HCWs' adherence to annual influenza vaccination within a United Arab Emirates (UAE) hospital and provide recommendations to improve adherence rates.\n" +
-      'METHOD: Using a quantitative approach, a questionnaire based on the Health Belief Model and existing literature was administered to all 2,080 staff members of the UAE hospital under study. Of these, 1018 participants completed the questionnaire.\n' +
-      "RESULTS: The study uncovered several key factors influencing HCWs' influenza vaccine uptake. Notably, social influence from colleagues emerged as a significant factor, alongside barriers, such as inconvenient vaccination times, limited awareness of hospital policies, an absence of follow-up by the hospital administration, a lack of prior influenza cases and fear of injections. Motivational factors included the desire to protect friends and family, employer recommendations, mandatory policies and HCWs' intrinsic motivation to safeguard patients.\n" +
-      'CONCLUSION: The findings of the study informed recommendations to enhance vaccination rates. These recommendations include health education materials, social media awareness campaigns, mandatory vaccination policies, on-duty vaccination services, free vaccination, flexible post-vaccination recovery time, special sick leave policies and vaccine benefit awareness.\n' +
-      'CONTRIBUTION: These suggestions enable health care organisations to boost employee influenza vaccination rates, aiding public health efforts to cope with seasonal influenza outbreaks.',
-    published: '2025',
-    authors: [ 'Keerthy Premilla', 'Roets Lizeth' ],
-    journal: 'Southern African journal of infectious diseases',
-    doi: '10.4102/sajid.v40i1.696',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800238/'
-  },
-  {
-    id: '40800233',
-    title: 'German veterinarians asked: a cross-sectional study on microbiological examination and antimicrobial use in canine reproductive medicine.',
-    abstract: 'Despite the growing global threat of antimicrobial resistance, many dog breeders still request antimicrobial treatment prior to mating, often based on vaginal bacterial culture examinations. However, several previous studies failed to identify differences in the vaginal microbiota between healthy dogs and those with reproductive tract disorders; thus, treating healthy bitches with antimicrobials regardless of the bacterial findings is contraindicated. To investigate current practices of German small animal veterinarians regarding microbiological sampling and antimicrobial treatment in canine reproductive medicine, we conducted an online survey using LimeSurvey®. The questionnaire included questions (single/multiple choice) about procedures of microbiological swab sampling and handling in general and in canine reproductive medicine specifically, as well as on antimicrobial use in the respective field. The objective was to identify educational and research needs regarding vaginal bacterial culture interpretation and antimicrobial treatment in canine breeding. We found that treating clinically healthy breeding bitches remains common practice among both breeders and veterinarians. Our findings highlight the importance of continuous education and improved communication to reduce inappropriate antimicrobial use in canine reproduction. Furthermore, research on the reproductive microbiome in relation to fertility is essential for evidence-based treatment decisions.',
-    published: '2025',
-    authors: [ 'Rojahn Alicia', 'Leps Anna Sophia', 'Goericke-Pesch Sandra' ],
-    journal: 'Frontiers in veterinary science',
-    doi: '10.3389/fvets.2025.1645496',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800233/'
-  },
-  {
-    id: '40800219',
-    title: '"Service" versus "Education" in Anesthesiology: Domain Classification of Activities Based on Perceptions from Learners and Teachers.',
-    abstract: 'PURPOSE: In the US, ACGME (Accreditation Council for Graduate Medical Education) mandates a balance between education and service for the quality of graduate medical education. However, the scope of "education" and "service" in Anesthesiology remains undefined.\n' +
-      'METHODS: A cross-sectional survey was designed, validated, and distributed in a major academic Anesthesiology training program to assess the perceived educational value associated with routine anesthesia training activities. Using the latent variable exploratory factor analysis, domains of activities were identified according to perceived educational values. These domains along with learning climate were then compared among teachers and learners.\n' +
-      'RESULTS: Three domains of activities were identified with a completion rate of 52.5%: 1) Mandatory training-related obligations (patient transport, call duties, medical record and ACGME record documentation, etc) were associated with the least educational value, 2) Procedural responsibilities (arterial line placement, epidural analgesia, etc) and 3) Classroom activities (simulation, mock oral exam, etc) were associated with higher educational value. Learning climate factors (fatigue, excessive caseload, etc) adversely affects the perception of educational value in learners more significantly than in teachers.\n' +
-      'CONCLUSION: There is disparity in the perception of educational value for various training activities between learners and teachers. Learners perceive lower educational value in anesthesia training activities compared to teachers, especially in mandatory tasks. Modifiable elements of the learning climate should be addressed to enhance the educational experience for learners.',
-    published: '2025',
+    id: '40810240',
+    title: 'The burden of cognitive impairment.',
+    abstract: "INTRODUCTION: Over 10% of older American adults (age ≥ 65) experience cognitive impairment (CI) from Alzheimer's disease and related dementias (ADRD). An additional 15%-22% experience mild cognitive impairment (MCI), often preceding ADRD and in earlier life. However, CI burden estimates including MCI and early-onset CI (age < 65), remain limited.\n" +
+      'METHODS: Using microsimulation, we estimated CI burden (ADRD and/or MCI) over remaining life-years for Americans (aged 51/52) who developed CI overall, by disease progression, onset age, and sociodemographic subgroups. Burden equaled the difference in quality-adjusted life-years (QALY valued at $150K/year) and economic outcomes between a hypothetical intervention preventing CI and status quo.\n' +
+      'RESULTS: Per capita lifetime CI burden was $124K, driven by lost QALYs. Aggregate CI burden was $627B, 59% from ADRD, 41% from MCI. Early-onset CI carried the largest per capita burden ($376K), ∼50% from MCI. Individuals with less education, progression to ADRD, or from minoritized racial/ethnic subgroups also carried disproportionate burden.\n' +
+      'DISCUSSION: MCI constitutes 41% of CI burden, disproportionately impacting individuals with early-onset.\n' +
+      "HIGHLIGHTS: The lifetime burden of cognitive impairment (CI) was estimated at $124,000 per capita, totaling $627 billion in aggregate-with 59% attributed to Alzheimer's disease and related dementias (ADRD) and 41% to mild cognitive impairment (MCI). Early-onset CI (before age 65) carried the highest per capita burden at $376,000, with these individuals living with MCI for about 13 years-over 7 years longer than those with late-onset CI. Significant disparities exist in CI burden, with racial/ethnic minorities and those without a high school degree experiencing disproportionately higher burden. Despite representing just 36% of the CI population, non-White individuals accounted for 47% of the aggregate CI burden.",
+    published: '2025-Aug',
     authors: [
-      'Li Jinlei',
-      'Lin Hung-Mo',
-      'Yanez N David',
-      'He Zili',
-      'Treggiari Miriam M',
-      'Kurup Viji'
+      'Gracner Tadeja',
+      'Chaturvedi Ritika',
+      'Nguyen PhuongGiang',
+      'Heun-Johnson Hanke',
+      'Tysinger Bryan',
+      'Goldman Dana',
+      'Lakdawalla Darius'
     ],
-    journal: 'Advances in medical education and practice',
-    doi: '10.2147/AMEP.S527329',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800219/'
+    journal: "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+    doi: '10.1002/alz.70436',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810240/'
   },
   {
-    id: '40800188',
-    title: 'Effects of genetic factors and visual behaviors on interventions for myopia prevention and control in children: a systematic review and meta-analysis.',
-    abstract: 'BACKGROUND: Childhood myopia has become a global public health problem and is growing rapidly in incidence, especially in East Asia. This study examined the prevention and control of myopia in children by systematically evaluating the interaction between genetic factors and visual behaviors to optimize prevention strategies.\n' +
-      'METHODS: Relevant articles were screened from PubMed and Web of Science. The search period was from January 2000 to January 2024. Inclusion criteria were children aged 6-18 years with clear stratification into intervention groups (receiving specific measures: health education, ≥1 hour daily outdoor activity, optical correction, or 0.01% atropine) and control groups (receiving routine care or no intervention). Both groups were matched for age (±1 year), baseline refractive error (within 0.50 D), and family history of myopia. Including health education, behavior adjustment, outdoor activities, clinically and research-proven interventions for myopia progression delay (including optical interventions such as frame glasses and orthokeratology, and pharmacological interventions such as low-concentration atropine). Outcome indicators included incidence of myopia, change in refractive power (D), and change in axial length (mm). Data were analyzed via RevMan 5.4 (Cochrane) and Stata 16 (StataCorp), and the effects of interventions were assessed using a random-effects model. This article defines the terms randomized controlled trials (RCTs), standardized mean difference (SMD), relative risk (RR), and confidence interval (CI).\n' +
-      'RESULTS: Twelve high-quality studies that examined the intervention effects of multiple genetic factors and visual behavior were ultimately included, with a total sample of 6,342 cases. The results showed that interventions significantly slowed myopia progression in the genetic high-risk group compared to its control, though the absolute effect remained weaker than in the general population, especially in terms of changes in refractive power (diopters, D) and axial length (millimeters, mm) (SMD =-0.32; 95% CI: -0.5 to -0.13). Among the interventions, health education and outdoor activities were the most effective for myopia prevention and control, with a reduction in the incidence of myopia of approximately 12% (myopia incidence rate =0.88; 95% CI: 0.81-0.96). Adherence to intervention was closely related to the effect of intervention, and the group with higher adherence experienced better control of myopia progression.\n' +
-      'CONCLUSIONS: Genetic factors and visual behavior have significant effects on the prevention and control of myopia in children. The prevention and control of myopia among genetic high-risk population are significantly improved after the application of health education and outdoor activity plan interventions. Improving the compliance of intervention is the key factor to enhancing the effect of childhood intervention. This meta-analysis provides a scientific basis for the optimization of childhood intervention strategies for the prevention and control of myopia in children.',
-    published: '2025-Jul-31',
-    authors: [ 'Xie Sisi', 'He Linzhi', 'Xie Xingyu', 'Xu Xiaoyan' ],
-    journal: 'Translational pediatrics',
-    doi: '10.21037/tp-2025-409',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800188/'
+    id: '40810209',
+    title: 'Artificial intelligence across the cancer care continuum.',
+    abstract: 'Artificial intelligence (AI) holds significant potential to enhance various aspects of oncology, spanning the cancer care continuum. This review provides an overview of current and emerging AI applications, from risk assessment and early detection to treatment and supportive care. AI-driven tools are being developed to integrate diverse data sources, including multi-omics and electronic health records, to improve cancer risk stratification and personalize prevention strategies. In screening and diagnosis, AI algorithms show promise in augmenting the accuracy and efficiency of medical image analysis and histopathology interpretation. AI also offers opportunities to refine treatment planning, optimize radiation therapy, and personalize systemic therapy selection. Furthermore, AI is explored for its potential to improve survivorship care by tailoring interventions and to enhance end-of-life care through improved symptom management and prognostic modeling. Beyond care delivery, AI augments clinical workflows, streamlines the dissemination of up-to-date evidence, and captures critical patient-reported outcomes for clinical decision support and outcomes assessment. However, the successful integration of AI into clinical practice requires addressing key challenges, including rigorous validation of algorithms, ensuring data privacy and security, and mitigating potential biases. Effective implementation necessitates interdisciplinary collaboration and comprehensive education for health care professionals. The synergistic interaction between AI and clinical expertise is crucial for realizing the potential of AI to contribute to personalized and effective cancer care. This review highlights the current state of AI in oncology and underscores the importance of responsible development and implementation.',
+    published: '2025-Aug-15',
+    authors: [ 'Riaz Irbaz Bin', 'Khan Muhammad Ali', 'Osterman Travis J' ],
+    journal: 'Cancer',
+    doi: '10.1002/cncr.70050',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810209/'
   },
   {
-    id: '40800187',
-    title: 'Epidemiological and clinical characteristics of pediatric patients with extremely severe burns: a retrospective study of 101 cases.',
-    abstract: 'BACKGROUND: Burn injuries represent a critical global public health issue, significantly threatening human life and well-being, particularly among children. This study aims to systematically summarize the epidemiological and clinical characteristics of pediatric patients with extremely severe burns in northern China.\n' +
-      "METHODS: This study retrospectively collected clinical data from 101 pediatric patients with extremely severe burns treated at Beijing Children's Hospital between 2013 and 2023. The data collected included gender, age, cause of injury, location of the incident, length of stay (LOS), total burn surface area (TBSA) and mortality.\n" +
-      'RESULTS: A total of 101 pediatric patients with extremely severe burns (51.49% male) were included in this study, representing 5.7% of all burn-related hospitalizations at our hospital over an 11-year period. The annual number of admissions for extremely severe burns exhibited an overall declining trend. The highest proportion of cases occurred in children aged 1 to 3 years (61.4%). Two causes of injury were identified, with scalds constituting the majority (81.2%). Notably, flame burns (18.8%) were associated with a high wound infection rate (89.5%), and wound infection emerged as a significant factor influencing the LOS. More than half of the patients presented with extensive burns to the head and neck regions. Additionally, there were 8 fatalities among the 101 patients.\n' +
-      'CONCLUSIONS: In Northern China, scalding is the predominant cause of extremely severe burns in children. Children aged 1 to 3 years should be the primary target group for prevention efforts. It is essential to enhance safety education at both family and society levels.',
-    published: '2025-Jul-31',
+    id: '40810202',
+    title: '[Expert Initiative for the Prevention and Control of Human Papillomavirus Infection and Related Diseases Among Chinese Male].',
+    abstract: 'Human papillomavirus (HPV) infection not only causes cervical cancer in women but also leads to HPV-related cancers and genital warts in men. Globally, 82 countries have adopted a gender-neutral HPV vaccination strategy to prevent and control related diseases. In China, HPV vaccination for men has now been implemented. Based on the global and domestic burden of male HPV-related diseases, evidence on the safety and efficacy of HPV vaccines in males, and lessons from international male HPV prevention efforts, a panel of experts has developed the Expert Initiative for the Prevention and Control of HPV Infection and related diseases among Chinese males after multi-round discussions. The initiative proposes: Develop comprehensive strategies for the prevention and control of male HPV infection and related diseases; prioritize and enhance public education and awareness campaigns; promote joint prevention for both men and women and advance gender-inclusive vaccination; innovate financing mechanisms to reduce the economic burden; strengthen research on male HPV infection and vaccination to facilitate the development of new vaccines; and adopt innovative immunization models to improve the quality of vaccination services.',
+    published: '2025-Aug-14',
+    authors: [ '', '' ],
+    journal: 'Zhonghua yu fang yi xue za zhi [Chinese journal of preventive medicine]',
+    doi: '10.3760/cma.j.cn112150-20250724-00712',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810202/'
+  },
+  {
+    id: '40810186',
+    title: 'Beyond the 1%: Advocating for Comprehensive Data on Perinatal Substance Use in Canada.',
+    abstract: 'This paper addresses the critical issue of perinatal substance use (PSU) in Canada and highlights the urgent need for relevant and current prevalence data. PSU poses significant risks to perinatal and infant health, highlighting the need for targeted interventions that are grounded in comprehensive data and research. Comprehensive data collection must include disaggregated information by province and differentiate between various substances. Nurse leaders are uniquely positioned to advocate for these initiatives, enhance healthcare provider education and support ongoing research. A coordinated approach is essential for improving health outcomes for perinatal individuals and their families across Canada.',
+    published: '2025-Jul',
     authors: [
-      'Zhao Xitong',
-      'Liu Jing',
-      'Liu Xiaohui',
-      'Zhuang Zhaohan',
-      'Wang Yanni',
-      'Wang Yining',
-      'Qi Hongyan',
-      'Ni Xin',
-      'Chen Kun'
+      'Bigalky Jodie',
+      'Mackey April',
+      'Serrano Oluwafemi',
+      'Petrucka Pammla'
     ],
-    journal: 'Translational pediatrics',
-    doi: '10.21037/tp-2025-156',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800187/'
+    journal: 'Nursing leadership (Toronto, Ont.)',
+    doi: '10.12927/cjnl.2025.27657',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810186/'
   },
   {
-    id: '40800186',
-    title: 'Paediatric Fournier gangrene: comprehensive insights into diagnosis, management, and outcomes-a narrative review.',
-    abstract: 'BACKGROUND AND OBJECTIVE: Fournier gangrene (FG) is an uncommon, severe condition characterized by the onset of severe tissue infection in the perineal area, with significant implications for the pediatric population. The current review has been drafted to shed light on the various aspects of pediatric FG, including its etiology, risk factors, clinical presentation, diagnostic approach, management strategies, and outcomes.\n' +
-      'METHODS: A comprehensive review of pediatric FG was conducted on the existing data on its strategies, clinical features, complications, treatments, and outcomes. A detailed literature search was done on databases using PubMed, Scopus, and Web of Science with keywords such as "Fournier gangrene", "Pediatric Fournier gangrene", "Fournier gangrene in children", and "necrotizing soft tissue infections (NSTI)". Due to the limited pediatric data, adult FG data were used to explain the diagnostic scoring system, treatment strategies.\n' +
-      'KEY CONTENT AND FINDINGS: The review highlights the prevalence of FG in pediatric populations and reinforces the requirement for early diagnosis with prompt medical intervention to manage pediatric FG. The etiology and pathophysiology of pediatric FG are also discussed, along with the underlying causes and specific risk factors such as existing congenital abnormalities of the genitourinary and gastrointestinal systems. The management of pediatric FG requires the implementation of a multidisciplinary approach, which should begin with immediate clinical intervention, proper surgical procedures, implementation of pharmacological therapies, and antibiotic regimens to avoid potential complications. Preventive strategies should focus on public health education, hygiene, and vaccination to boost immunity and prevent pediatric FG. The current review suggests future directions to ameliorate clinical practices and achieve favourable outcomes in managing pediatric FG.\n' +
-      'CONCLUSIONS: FG, despite its rare occurrence in the pediatric population, poses a humongous challenge to the healthcare community owing to its rapid onset, complex diagnosis, and high morbidity and mortality rates. Early diagnosis, combined with prompt medical and surgical intervention, with a coordinated multidisciplinary approach, is essential in the management of FG in children. The review provides a glimpse of the shortcomings of the healthcare system and emphasizes the need to improve treatment protocols while also evaluating the long-term impacts of the disease.',
-    published: '2025-Jul-31',
-    authors: [ 'Alzahrani Khalid A' ],
-    journal: 'Translational pediatrics',
-    doi: '10.21037/tp-2025-112',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800186/'
-  },
-  {
-    id: '40800170',
-    title: 'Trends and Disparities in Broadband Internet Access in the United States, 2013 to 2023.',
-    abstract: "Since the turn of the century, sociologists and other scholars concerned about digital inequality have most often been concerned about disparities in the quality of internet use, not necessarily the availability of internet access itself. However, the COVID-19 pandemic laid bare the fact that the internet's potential benefits to mitigating the spread of the virus were only available to those with internet access. In this visualization, I use household-level data from the American Community Survey from 2013 - 2023 (N = 10,713,204 households) to estimate a linear probability model predicting internet access by race/ethnicity, household educational attainment, and poverty status. Results suggest that household internet access has increased over the past decade, but disparities still exist on all three dimensions.",
-    published: '2025',
-    authors: [ 'Allen Spencer' ],
-    journal: 'Socius : sociological research for a dynamic world',
-    doi: '10.1177/23780231251363238',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800170/'
-  },
-  {
-    id: '40800159',
-    title: 'A scoping review of the factors affecting work-life balance among nurse educators.',
-    abstract: 'BACKGROUND: There is a dearth of research on the factors that contribute to a lack of work-life balance (WLB) among nurse educators because most studies focused on nurses or academics in general rather than nurse educators. Thus, more studies are needed to explore the factors that contribute to the lack of WLB among nurse educators.\n' +
-      'AIM: To explore and investigate the scope and quantity of literature on the factors affecting the WLB among nurse educators.\n' +
-      "METHOD: This scoping review followed Arksey and O'Malley's framework, using the Joanna Briggs Institute (JBI) Manual for Evidence Synthesis to extract and chart sources. Seventeen articles (2014-2024) were analyzed using descriptive analysis, PRISMA-ScR, and thematic analysis.\n" +
-      'RESULTS: The scoping review identifies factors and strategies impacting WLB among nurse educators, highlighting occupational stress, understaffing, and heavy workloads as key contributors to imbalance. It also explores the role of technology in improving WLB.\n' +
-      'CONCLUSION: The scoping review identified factors that contribute to work-life imbalance among nurse educators and proposed strategies to address these issues. Studies suggest that WLB programmes can also lower employee stress levels. Furthermore, the review highlights a significant gap in the literature concerning the factors contributing to the lack of WLB among nurse educators in the sub-Saharan region.\n' +
-      'CONTRIBUTION: The findings of this scoping review might assist in the development of strategies that could help nurse educators deal with the factors that contribute to the lack of WLB among nurse educators in nursing education institutions.',
-    published: '2025',
+    id: '40810185',
+    title: 'Relational Coaching for Leadership and Team Development in Long-Term Care: An Appreciative Inquiry Approach.',
+    abstract: "INTRODUCTION: A relational coaching intervention in long-term care (LTC) studied leaders' self-perceptions and behaviours as champions of applying learning in team practice.\n" +
+      'METHODOLOGY: A developmental evaluation design incorporated an appreciative inquiry framework with 29 leaders from 10 LTC homes using  education.\n' +
+      'RESULTS: A positive influence on confidence and commitment indicators was found, and key leader behaviours were identified.\n' +
+      'DISCUSSION: Goal-directed, relational leadership coaching in LTC supports team practice improvement and is accelerated by the implementation of relational leadership practices.\n' +
+      "IMPLICATIONS FOR NURSING LEADERSHIP: Using relational coaching can improve teams' experiences and outcomes of applying learning in practice.",
+    published: '2025-Jul',
     authors: [
-      'Mathebula Letta',
-      'Mathevula Rirhandzu F',
-      'Ramalepa Tshiamo N'
+      'Helfenbaum Shoshana M',
+      'Galessiere Daniel',
+      'Gallucci Christina E',
+      'Meyer Raquel M'
     ],
-    journal: 'Health SA = SA Gesondheid',
-    doi: '10.4102/hsag.v30i0.2910',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40800159/'
+    journal: 'Nursing leadership (Toronto, Ont.)',
+    doi: '10.12927/cjnl.2025.27658',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810185/'
+  },
+  {
+    id: '40810111',
+    title: 'Design, Development, and Impact of Educational Modules to Broaden Academic Research Cultures (EMBARC) for STEMM Career Development: A Pilot Project.',
+    abstract: "Though historically marginalized and first-generation college students aspire to attend college, educational equity gaps remain in transfer and pursuit of graduate degrees of science, technology, engineering, math, and medicine (STEMM). The purpose of this paper is to describe the process and impact of the Educational Modules to Broaden Academic Research Cultures (EMBARC) to leverage students' community cultural wealth (CCW) and address cultural mismatch (CM) - the misalignment between the interdependent values shaped by one's family or culture and the independent values emphasized in Western post-secondary institutions and STEMM fields. Findings from evaluation of the program suggests that leveraging CCW and CM in developing educational modules can contribute to historically marginalized students' education, career and persistence in STEMM. Findings also illustrated that the modules connect students to resources as well as their cultural wealth and ancestral strength.",
+    published: '2025-Feb',
+    authors: [
+      'Guan Shu-Sha Angie',
+      'Vasquez-Salgado Yolanda',
+      'Saetermoe Carrie L',
+      'Lin Judith C P',
+      'Bui Amber Kim Anh',
+      'Villaseñor Veronica',
+      'Boyns David',
+      'Ashcroft Jared',
+      'Haynes-Mendez Kelley',
+      "Swales-Jefferson La'rhonda"
+    ],
+    journal: 'Journal of advanced technological education',
+    doi: '10.5281/zenodo.15587802',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810111/'
+  },
+  {
+    id: '40810088',
+    title: 'Association of Low Educational Attainment and Higher Colorectal Cancer Risk: Mediatory Effect of Lifestyle-Associated Factors Within Local Context.',
+    abstract: 'BACKGROUND: Educational attainment may influence colorectal cancer (CRC) risks, though the association remains inconclusive. The association might be mediated by health behaviors. This study aimed to explore the association of education on risks of CRC and to elucidate the mediatory effects of lifestyle-associated factors.\n' +
+      "METHODS: This case-control study included 174 cases and 296 healthy controls. We used a semi-structured questionnaire to collect information on participants' sociodemographic factors (age, sex, marital status, monthly income, and family history of CRC) and lifestyle-associated behaviors (smoking status, physical activity, and frequency of red meat, legumes, and vegetables intake). Body mass index (BMI) was calculated using body mass measured at first contact. Participants' education was categorized into those who completed basic education (≥ 12 years) and those who did not complete basic education (< 12 years). Logistic and multiple logistic regression analyses were employed to test the correlation between education and risk of CRC, adjusted by sociodemographic and lifestyle-associated factors. Path analysis was performed to test the mediatory effect of lifestyle-associated behaviors on the correlation.\n" +
+      'RESULTS: Participants with lower educational attainment had higher odds of CRC (odds ratio (OR) = 4.76, 95% confidence interval (CI) = 3.07 - 7.38), and the association remained consistent when adjusted by sociodemographic factors (adjusted OR (aOR) = 3.06, 95% CI = 1.86 - 5.03) and combined with lifestyle-associated behaviors (aOR = 2.73, 95% CI = 1.43 - 5.22). The association were consistent among men (OR = 6.14, 95% CI = 3.12 - 12.06; aOR = 4.65, 95% CI = 2.19 - 9.87; aOR = 1.05, 95% CI = 1.02 - 1.09), yet no longer significant among women when adjusted with sociodemographic and lifestyle-associated factors (OR = 3.91, 95% CI = 2.19 - 6.97; aOR = 2.02, 95% CI = 1.02 - 4.00; aOR = 1.56, 95% CI = 0.61 - 3.95). Path analysis showed that the association between educational attainment and risk of CRC was mediated by physical activity, BMI, and intake of red meat, legumes, and vegetables.\n' +
+      'CONCLUSION: In our study, educational attainment was inversely correlated with the odds of CRC and might be mediated by physical activity, BMI, and intake of red meat, legumes, and vegetables. Taking other sociodemographic and lifestyle-associated factors into account, the association between lower educational attainment and higher odds of CRC was more substantial among men. These findings highlight the importance of promoting education and healthy lifestyle behaviors, particularly among men, as an essential part of targeted public health strategies in reducing burden of CRC.',
+    published: '2025-Aug',
+    authors: [
+      'Puspitaningtyas Herindita',
+      'Wiranata Juan Adrian',
+      'Wiratama Bayu Satria',
+      'Fachiroh Jajah',
+      'Hutajulu Susanna Hilda'
+    ],
+    journal: 'World journal of oncology',
+    doi: '10.14740/wjon2599',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810088/'
+  },
+  {
+    id: '40810048',
+    title: 'A Pilot Pre-Post Study of an Internet-Based Sleep Education Program for Parents of Children with Autism Spectrum Disorder and Sleep Disturbance in Japan.',
+    abstract: 'BACKGROUND: Children with autism spectrum disorder frequently experience persistent sleep difficulties that persist into adulthood. These issues are linked to adverse outcomes like behavioral issues, poor academic performance, and increased parental stress, highlighting the importance of early interventions. We assessed an internet-based sleep education program for parents of children with autism spectrum disorder and conducted a preliminary examination of its potential to improve sleep quality and behavioral outcomes.\n' +
+      "METHODS: Eighteen parent-child pairs participated in an internet-based sleep education program. Outcomes related to the program were assessed at three time points: baseline, 4 weeks post-intervention, and 10 weeks post-intervention. Key measures analyzed included sleep parameters, sleep habits, children's behavioral problems, parental mental health, and parenting attitudes, using validated assessment tools.\n" +
+      "RESULTS: At 4 weeks post-intervention, the program demonstrated a reduction in the time required for children to fall asleep, an enhancement in sleep efficiency, and an improvement in parental mental health. At 10 weeks post-intervention, improvements were also observed in children's externalizing behavior problems. Parents reported increased confidence in managing their children's sleep issues and noted a positive impact on family dynamics.\n" +
+      'CONCLUSION: The findings suggest that the internet-based sleep education program may be an effective and acceptable intervention for addressing sleep difficulties in children with autism spectrum disorder. This study contributes substantially to the existing literature, highlighting the potential for internet-based interventions to enhance sleep management strategies. This study was retrospectively registered with the jRCT on September 30, 2024 (jRCT1062240058).',
+    published: '2025-Aug',
+    authors: [
+      'Koyama Honami',
+      'Yamanaka Tomohisa',
+      'Maegaki Yoshihiro',
+      'Inoue Masahiko'
+    ],
+    journal: 'Yonago acta medica',
+    doi: '10.33160/yam.2025.08.013',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40810048/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
-Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
+Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
+  }
+}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1332,191 +1524,6 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     port: 80
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1707,25 +1714,25 @@ Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 30/50
 Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 31/50
-Translating paper: Brain morphometry and chronic inflammation in Bang...
+Translating paper: Characteristics of interventions for siblings of c...
 Translating paper 32/50
-Translating paper: Robotic-assisted technique in plastic and reconstr...
+Translating paper: Do Generic Skills Achieved During Undergraduate De...
 Translating paper 33/50
-Translating paper: Factors associated with influenza vaccine adherenc...
+Translating paper: The burden of cognitive impairment....
 Translating paper 34/50
-Translating paper: German veterinarians asked: a cross-sectional stud...
+Translating paper: Artificial intelligence across the cancer care con...
 Translating paper 35/50
-Translating paper: "Service" versus "Education" in Anesthesiology: Do...
+Translating paper: [Expert Initiative for the Prevention and Control ...
 Translating paper 36/50
-Translating paper: Effects of genetic factors and visual behaviors on...
+Translating paper: Beyond the 1%: Advocating for Comprehensive Data o...
 Translating paper 37/50
-Translating paper: Epidemiological and clinical characteristics of pe...
+Translating paper: Relational Coaching for Leadership and Team Develo...
 Translating paper 38/50
-Translating paper: Paediatric Fournier gangrene: comprehensive insigh...
+Translating paper: Design, Development, and Impact of Educational Mod...
 Translating paper 39/50
-Translating paper: Trends and Disparities in Broadband Internet Acces...
+Translating paper: Association of Low Educational Attainment and High...
 Translating paper 40/50
-Translating paper: A scoping review of the factors affecting work-lif...
+Translating paper: A Pilot Pre-Post Study of an Internet-Based Sleep ...
 Translating paper 41/50
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 42/50
@@ -1747,25 +1754,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 50/50
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 50 papers
-Removed duplicates: 915 -> 875
-Total papers after merging: 875 (865 existing + 50 new)
-Saved 875 papers to papers.json
+Removed duplicates: 925 -> 885
+Total papers after merging: 885 (875 existing + 50 new)
+Saved 885 papers to papers.json
 Generating HTML files...
-Generating index.html with 875 papers...
+Generating index.html with 885 papers...
 Successfully generated index.html
-Generating archive.html with 875 papers...
+Generating archive.html with 885 papers...
 Successfully generated archive.html
-Generating journal.html with 875 papers...
+Generating journal.html with 885 papers...
 Successfully generated journal.html
-Generating acquisition.html with 875 papers...
+Generating acquisition.html with 885 papers...
 Successfully generated acquisition.html
-Generating publication.html with 875 papers...
+Generating publication.html with 885 papers...
 Successfully generated publication.html
-Generating registration.html with 875 papers...
+Generating registration.html with 885 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 875
+Total papers in database: 885
 New papers processed: 50
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-13T15:39:12.682Z
+Timestamp: 2025-08-14T15:41:35.068Z
