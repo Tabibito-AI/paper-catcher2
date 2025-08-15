@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-14T15:12:05.394Z
+Timestamp: 2025-08-15T15:11:27.613Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 875 existing papers from papers.json
+Loaded 885 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,123 +297,112 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
-Rate limited. Retrying after 2000ms...
-Fetched papers from Semantic Scholar: [
-  {
-    id: '220861296c6034a194f9c62612c12973a35b5c05',
-    title: 'Economics or Education: The Establishment of American Land-Grant Universities',
-    abstract: `In the United States, institutions of public higher education exist in an environment characterized by constrained resources and shifting interests on the part of students and other clienteles. Parents and politicians are demanding that public universities move away from their emphasis on research and make teaching top priority. Taking the brunt of this outcry are the flagships of American public higher education: land-grant universities. Contemporary demands for change have led policymakers to reexamine the basic mission of these institutions. However, as with many areas of public policy, higher education policymakers tend to overlook historical factors in their deliberations. This is due, in part, to the time constraints of the policy-making process. There is often little time to examine historical origins of contemporary problems. In addition, policy decisions are usually based on input from analysts who are trained as economists or political scientists, or in areas such as operations research or system analysis. These approaches do not customarily incorporate historical analysis. When policymakers do request historical background or explanation, the time pressures force a rapid examination of secondary sources to produce the desired report. The authors of four widely acknowledged works on the history of the land-grant college movement--Edward D. Eddy's Colleges for Our Land and Time: The Land-Grant idea in American Education (1957); Joseph B. Edmond's The Magnificent Charter: The Origin and Role of the Morrill Land-Grant Colleges and Universities (1978); Allan Nevins' The State Universities and Democracy (1962); and Earle D. Ross's Democracy's College: The Land-Grant College in the Formative Stage (1942) -- seem to consider the land-grant college movement as part of the educational evolution of the United States. They view the emergence of these colleges as inevitable because of the educational demands of a growing democracy. For instance, they suggest that the common people, particularly farmers, wanted to have available higher education geared toward their practical interests. These historians identify educational reform as the principle motivation in the passage of the Morrill Act [7, 8, 16, 18].(1) An examination of well-known histories of American higher education such as John S. Brubacher and Willis Rudy's Higher Education in Transition: An American History, 1736-1956 (1958); Richard M. Hofstadler and Wilson Smith's American Higher Education: A Documentary History (1961); Frederick Rudolph's The American College and University: A History (1962); and Laurence R. Veysey's The Emergence of the American University (1965) confirms this focus on education. These historians identify two other critical elements in the development of land-grant universities: the debate over curricular changes away from a classical toward a more science-based curriculum and the emergence of the Morrill Act (1862) as a mechanism for distributing the public lands that initiated the federal practice of grants-in-aid to achieve specific objectives [4, 12, 19, 28]. While these historians agree that educational reform was paramount, they also argue that the Morrill Act was a watermark for federal involvement in higher education.(2) This view is shared by others who have reexamined the conventional interpretation. While Eldon L. Johnson cautions against ascribing too much too early to the institutions that came out of the Morrill Act, he underscores in "Misconceptions about the Early Land-Grant Colleges" (1981) the importance of these institutions as a forerunner of change in American higher education [13]. Lawrence A. Cremin, in American Education: The National Experience, 1783-1876 (1980), takes this interpretation further by arguing that the Morrill Act established a "national network of educational research and development institutions that the federal government would subsequently use for a variety of enterprises" [5, p. …`,
-    published: '1996-01-01T00:00:00.000Z',
-    authors: [ 'Scott Key' ],
-    journal: 'No journal available',
-    doi: '10.1080/00221546.1996.11780256',
-    link: 'https://www.semanticscholar.org/paper/220861296c6034a194f9c62612c12973a35b5c05'
-  },
-  {
-    id: 'ecc7ce15a90eb2558182eb6cbe23bbda9056fe86',
-    title: 'Economics students’ behavioural intention and usage of ChatGPT in higher education: a hybrid structural equation modelling-artificial neural network approach',
-    abstract: 'Abstract The Chat Generative Pre-Trained Transformer, popularly referred to as ChatGPT, is an AI-based technology with the potential to revolutionise conventional teaching and learning in higher education institutions (HEIs). However, it remains unclear which factors influence the behavioural intentions and the actual usage of ChatGPT among economics students in Ghanaian HEIs. In pursuit of this goal, we employed the extended Unified Theory of Acceptance and Use of Technology (UTAUT2) to gain a better understanding of the antecedents influencing the behavioural intentions and actual usage of ChatGPT among economics students. The study surveyed 306 Ghanaian students enrolled in economics at a public university. These students were aware of the existence of ChatGPT applications. We applied a hybrid analytical approach, combining structural equation modelling and artificial neural network (SEM-ANN), to elucidate the causal relationships between variables believed to impact perceived trust, intentions, and actual usage. The results showed that design and interactivity have a significant impact on perceived trust. Similarly, perceived trust, social influence, performance expectancy, hedonic motivation, and habits drive behavioural intentions. Among the various factors influencing behavioural intentions, hedonic motivation emerged as the most dominant. Moreover, behavioural intentions and facilitating conditions significantly drive students’ actual use of the ChatGPT. Nevertheless, ethics is not a significant factor in perceived trust, and effort expectancy does not affect behavioral intention. These findings, however, offer theoretical and practical contributions that can serve as guide for a thoughtful and responsible integration of AI-based tools as a future strategy to enhance education accessibility and inclusivity opportunities',
-    published: '2024-01-01T00:00:00.000Z',
-    authors: [
-      'Iddrisu Salifu',
-      'Francis Arthur',
-      'Valentina Arkorful',
-      'Sharon Abam Nortey',
-      'Richard Solomon Osei-Yaw'
-    ],
-    journal: 'Cogent Social Sciences',
-    doi: '10.1080/23311886.2023.2300177',
-    link: 'https://www.semanticscholar.org/paper/ecc7ce15a90eb2558182eb6cbe23bbda9056fe86'
-  },
-  {
-    id: '60dfd50de8b3b43861ddaa0544a95f9652ea5ee1',
-    title: 'Handbook of THE ECONOMICS OF EDUCATION',
-    abstract: 'A substantial amount of money is spent on technology by schools, families, and policymakers with the hope of improving educational outcomes. This chapter explores the theoretical and empirical literature on the impacts of technology on educational outcomes. The literature focuses on two primary contexts in which technology may be used for educational purposes: (i) classroom use in schools and (ii) home use by students. Theoretically, information and communications technology (ICT) investment and computer-aided instruction (CAI) use by schools and the use of computers at home have ambiguous implications for educational achievement: expenditures devoted to technology necessarily offset inputs that may be more or less efficient, and time allocated to using technology may displace traditional classroom instruction and educational activities at home. However, much of the evidence in the schooling literature is based on interventions that provide supplemental funding for technology or additional class time, and thus favor finding positive effects. Nonetheless, studies of ICT and CAI in schools produce mixed evidence with a pattern of null results. Notable exceptions to this pattern occur in studies of developing countries and CAI interventions that target math rather than language. In the context of home use, early studies based on multivariate and instrumental variables approaches tend to find large positive (and in a few cases negative) effects while recent studies based on randomized con-trol experiments tend to find small or null effects. Early research focused on developed countries while more recently several experiments have been conducted in developing countries.',
-    published: '2016-01-01T00:00:00.000Z',
-    authors: [ 'G. Bulman', 'R. W. Fairlie' ],
-    journal: 'No journal available',
-    doi: null,
-    link: 'https://www.semanticscholar.org/paper/60dfd50de8b3b43861ddaa0544a95f9652ea5ee1'
-  },
-  {
-    id: 'b817f4df2cf48f58f31152929e2bf89926edd679',
-    title: 'The New Economics for Industry, Government, Education',
-    abstract: `A new edition of a book that details the system of transformation underlying the 14 Points for Management presented in Deming's Out of the Crisis. It would be better if everyone would work together as a system, with the aim for everybody to win. What we need is cooperation and transformation to a new style of management." -from The New Economics for Industry, Government, Education In this book, W. Edwards Deming details the system of transformation that underlies the 14 Points for Management presented in Out of the Crisis. The Deming System of Profound Knowledge, as it is called, consists of four parts: appreciation for a system, knowledge about variation, theory of knowledge, and psychology. Describing the prevailing management style as a prison, Deming shows applying the System of Profound Knowledge increases productivity, quality, and people's joy in work and joy in learning. Another outcome is short-term and long-term success in the market. Indicative of Deming's philosophy is his advice to abolish performance reviews on the job, to look deeper than spreadsheets for opportunities, and even to rethink how we teach and manage our schools. Moreover, Deming's method enables organizations to make accurate predictions, which is a valuable tool in today's uncertain economic climate. This third edition features a new chapter (written by business consultant and Deming expert Kelly L. Allan) that explains the relevance of Deming's management method, and case studies from organizations that have adopted Deming's System of Profound Knowledge, and offers guidance on how organizations can effectively "do Deming."`,
-    published: '2018-01-01T00:00:00.000Z',
-    authors: [ 'A. Propst', 'W. Deming' ],
-    journal: 'No journal available',
-    doi: '10.2307/1270625',
-    link: 'https://www.semanticscholar.org/paper/b817f4df2cf48f58f31152929e2bf89926edd679'
-  },
-  {
-    id: '7f1238834e3b52cef793c1492c95dd65d7192ff5',
-    title: 'The effectiveness of the emergency eLearning during COVID-19 pandemic. The case of higher education in economics in Romania',
-    abstract: 'No abstract available',
-    published: '2021-01-01T00:00:00.000Z',
-    authors: [ 'M. Roman', 'A. Plopeanu' ],
-    journal: 'International Review of Economic Education',
-    doi: '10.1016/j.iree.2021.100218',
-    link: 'https://www.semanticscholar.org/paper/7f1238834e3b52cef793c1492c95dd65d7192ff5'
-  },
-  {
-    id: '1d14acd52b03a472eea04bbd1f9d1552bf6c5399',
-    title: 'Experience and education',
-    abstract: "Objective To learn more about Biomedical Engineering and potentially obtain a lab position at the Tan Laboratory. I finished core classes for engineering and biology I took Engineering Calculus, General Chemistry and the Introductory Biology series. I learned a bit about synthetic and metabolic pathways in Bis2A. I also took Statistics and Upper-Division Economics. My professors were focused on using Excel to compute various statistics and spreadsheet calculations in Excel because that was what professionals were doing using the knowledge we learned in class. Thus, I am quite skilled in Excel. I continued on with classes, but my more relevant classes were organic chemistry, biochemistry, linear algebra, and econometrics. In organic chemistry, I learned about synthesis, NMR, IR, and I gained an understanding of how reaction mechanisms and protecting groups. In the last course of the series, the professor focused on bio-organic chemistry, which enabled me to better understand the reactions occurring in the human body. In biochemistry, I learned about the properties of the 20 amino acids, about protein purification, and about catalysts, enzymes, and how proteins function. In econometrics and linear algebra, I learned more about data analysis and how to compute regressions and other basic data analysis. My coursework was supplemented by learning a bit about Matlab and Stata. Over 300 hours of experience and community service from High School at UCI Med Center. I was a distinguished volunteer because I was the first volunteer to receive a thank you letter in all of the volunteer department's history. At UCD Med Center, I volunteered in the SICU. I am learning more about patient interactions, patient care, as well as secretarial work like answering phones and keeping track of multiple calls at once. With the College of Biology, I am currently enrolled in the Peer-Mentorship Program, where I offer advice to a freshman mentee to ease the transition from high school to college. I learned about what it takes to be a good role model and inspiration, and I intend to continue inspiring others in my life.\\",
-    published: '2019-01-01T00:00:00.000Z',
-    authors: [ 'K. John-Alder' ],
-    journal: 'Ian McHarg and the Search for Ideal Order',
-    doi: '10.4324/9781315545639-2',
-    link: 'https://www.semanticscholar.org/paper/1d14acd52b03a472eea04bbd1f9d1552bf6c5399'
-  },
-  {
-    id: '8a661ac8aa829302ca8fea92361ad20f21cf5ddd',
-    title: 'ChatGPT has Aced the Test of Understanding in College Economics: Now What?',
-    abstract: 'The Test of Understanding in College Economics (TUCE) is a standardized test of economics knowledge performed in the United States which primarily targets principles-level understanding. We asked ChatGPT to complete the TUCE. ChatGPT ranked in the 91st percentile for Microeconomics and the 99th percentile for Macroeconomics when compared to students who take the TUCE exam at the end of their principles course. The results show that ChatGPT is capable of providing answers that exceed the mean responses of students across all institutions. The emergence of artificial intelligence presents a significant challenge to traditional assessment methods in higher education. An important implication of this finding is that educators will likely need to redesign their curriculum in at least one of the following three ways: reintroduce proctored, in-person assessments; augment learning with chatbots; and/or increase the prevalence of experiential learning projects that artificial intelligence struggles to replicate well.',
-    published: '2023-01-01T00:00:00.000Z',
-    authors: [
-      'W. Geerling',
-      'G. D. Mateer',
-      'Jadrian Wooten',
-      'Nikhil Damodaran'
-    ],
-    journal: 'The American Economist',
-    doi: '10.1177/05694345231169654',
-    link: 'https://www.semanticscholar.org/paper/8a661ac8aa829302ca8fea92361ad20f21cf5ddd'
-  },
-  {
-    id: '23fefa426cddd7961afb19e33c73c4210f06dae0',
-    title: 'From Theory to Practice of Promoting Student Engagement in Business and Law-Related Disciplines: The Case of Undergraduate Economics Education',
-    abstract: 'Higher education is experiencing a paradigm shift from passive learning towards active learning. The COVID-19 pandemic has further presented an opportunity for education providers to enhance teaching that includes non-campus modes. However, concerns regarding student engagement lie at the heart of the transition to active learning environments in the context of the increased demand for online education. Therefore, promoting student engagement has become an educational priority since greater student engagement translates into valued student experiences, higher academic performance, and increased retention rates. This paper semi-systematically reviews the literature on student engagement in undergraduate economics education. Close emphasis is also paid to the relationships between the direct measures of disengagement such as absenteeism on student performance in economics. The student engagement framework developed by Frederiks, Blumenfeld, and Paris (2004) is used to classify the dimensions of student engagement and the factors that influence the different dimensions of engagement. The literature reviewed is predominately occupied with behavioral aspects of engagement with little attention towards capturing the cognitive and emotional aspects of student engagement. Three key recommendations are noted from the study in order for business school educators and higher education policy makers to promote student engagement in economics education. Future research on student engagement in undergraduate business education should focus more on capturing the cognitive and emotional aspects of student engagement to inform policymaking in promoting student engagement.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'Rabindra Nepal', 'A. Rogerson' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci10080205',
-    link: 'https://www.semanticscholar.org/paper/23fefa426cddd7961afb19e33c73c4210f06dae0'
-  },
-  {
-    id: '2c1d7e6f485da3b7189012227fed0a1839af353e',
-    title: 'What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature',
-    abstract: 'An artificial intelligence-based chatbot, ChatGPT, was launched in November 2022 and is capable of generating cohesive and informative human-like responses to user input. This rapid review of the literature aims to enrich our understanding of ChatGPT’s capabilities across subject domains, how it can be used in education, and potential issues raised by researchers during the first three months of its release (i.e., December 2022 to February 2023). A search of the relevant databases and Google Scholar yielded 50 articles for content analysis (i.e., open coding, axial coding, and selective coding). The findings of this review suggest that ChatGPT’s performance varied across subject domains, ranging from outstanding (e.g., economics) and satisfactory (e.g., programming) to unsatisfactory (e.g., mathematics). Although ChatGPT has the potential to serve as an assistant for instructors (e.g., to generate course materials and provide suggestions) and a virtual tutor for students (e.g., to answer questions and facilitate collaboration), there were challenges associated with its use (e.g., generating incorrect or fake information and bypassing plagiarism detectors). Immediate action should be taken to update the assessment methods and institutional policies in schools and universities. Instructor training and student education are also essential to respond to the impact of ChatGPT on the educational environment.',
-    published: '2023-01-01T00:00:00.000Z',
-    authors: [ 'C. Lo' ],
-    journal: 'Education sciences',
-    doi: '10.3390/educsci13040410',
-    link: 'https://www.semanticscholar.org/paper/2c1d7e6f485da3b7189012227fed0a1839af353e'
-  },
-  {
-    id: 'cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b',
-    title: 'The Impact of Education for Sustainable Development on Romanian Economics and Business Students’ Behavior',
-    abstract: 'Education for sustainable development (ESD) has presented long-lasting interest for researchers and policy makers. Despite a significant body of research, more in depth empirical studies are required for a better understanding of how sustainable development goals are applied in higher education and how sustainable behavior could be shaped via ESD. The need for this kind of research arises from, first, the scarceness of existing studies that explore economic and business higher education, and, second, the necessity to properly assess the connection between ESD principles and students’ behavior. Following this rationale, the present paper aims to provide an overview of how students’ sustainable behaviors are shaped via their perception of sustainable campus initiatives, teaching staff involvement and curricula. Statistical and econometric analysis applied on data collected via a survey on students from Bucharest University of Economic Studies (N = 1253) provides findings on the extent to which the awareness of sustainable development-specific issues acquired through education leads to sustainable behavior among students. According to the results, we argue that an increasing share of sustainable development topics combined with teaching staff involvement to raise awareness of sustainability issues are crucial to students’ sustainable behavior. However, on-campus actions are unlikely to change behavior unless they are optional rather than compulsory. Our findings ratify that, since education is one of the main drivers of sustainable development, there is an urgent need for coherence in shaping higher education according to sustainability issues.',
-    published: '2020-01-01T00:00:00.000Z',
-    authors: [ 'L. Badea', 'G. Șerban-Oprescu', 'S. Dedu', 'G. Piroșcă' ],
-    journal: 'Sustainability',
-    doi: '10.3390/SU12198169',
-    link: 'https://www.semanticscholar.org/paper/cf1b74a2a2f2fe7a0f3b395c00412521f165aa8b'
-  }
-]
-Collected 10 papers from semanticScholar
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 2000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Request failed. Retrying after 4000ms...
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 1)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 1)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
+Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 1)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 6)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 5)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 0)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 7)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 2)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 3)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 9)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 4)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 8)
 Fetched papers from Springer: [
   {
     id: '10.1007/978-3-031-98185-2_9',
@@ -591,183 +580,227 @@ Collected 10 papers from springer
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40810242',
-    title: 'Characteristics of interventions for siblings of children and youth with disabilities and chronic conditions: a scoping review.',
-    abstract: 'PURPOSE: Interventions to support siblings of youth with disabilities and chronic conditions have shown promising outcomes, yet there is limited synthesized literature and guidelines to support their design and development. This scoping review aims to synthesize: (1) study, participant, and intervention characteristics of sibling-focused interventions; and (2) intervention outcomes.\n' +
-      "METHODS: Scoping review guidelines were aligned with Arksey and O'Malley, with considerations from Levac et al. and adhered to the PRISMA-ScR checklist. Four databases: (1) Ovid MEDLINE, (2) EMBASE, (3) CINAHL, and (4) PsycInfo were searched through November 2024. Data were extracted on study, participant, and intervention characteristics, and outcomes. The TIDieR checklist structured the reporting of intervention characteristics.\n" +
-      'RESULTS: After screening the title and abstracts of 16,654 articles, 173 studies were eligible for full-text review, with 48 included. Most interventions were group-based and delivered in-person ( = 36; 75.0%) and only nine interventions (18.8%) utilized remote or virtual components. Interventions commonly included educational topics, activities, and social components. Intervention outcomes were focused on mental health, knowledge, self-esteem, social functioning and connectedness, family dynamics, and other.\n' +
-      "CONCLUSIONS: This scoping review synthesizes sibling-focused interventions, highlighting key characteristics and outcomes. Findings can guide meaningful and inclusive, evidence-based rehabilitation practices addressing siblings' unique needs.",
+    id: '40813172',
+    title: 'Climate-related challenges to brain health: A European perspective review.',
+    abstract: 'In this paper, we provide a brief overview on the assessment of the numerous effects of climate change on human health, with particular emphasis on brain health. After reviewing the epidemiological data concerning neuro-psychiatric mortality and morbidity, we will examine the known effects of global warming in a European context. We will consider respectively, neurological diseases (epilepsy, migraine, stroke, sleep, neurodegenerative and neuroinfectious disorders), neurological involvement of climate-change induced health conditions, neuro-psychological aspects (post-traumatic stress and sleep disorders, eco-anxiety) and emerging risks for the brain (toxins and infections). We suggest some underlying mechanisms impacting the brain health. Given the paucity of available data, we call for increased research attention to the adverse effects of climate change. This perspective is intended to support a higher degree of preparedness, the development of improved preventive measures, and the promotion of targeted education for health professionals.',
+    published: '2025-Aug-13',
+    authors: [
+      'Reis J',
+      'Buguet A',
+      'Tulek Z',
+      'Landtblom A-M',
+      'Radomski M W',
+      'Öztürk Ş',
+      'Pugliatti M',
+      'Kallweit U',
+      'Spencer P S'
+    ],
+    journal: 'Revue neurologique',
+    doi: '10.1016/j.neurol.2025.07.010',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813172/'
+  },
+  {
+    id: '40813171',
+    title: 'Training in movement disorders during neurology residency in France: A national survey on educational gaps and future perspectives.',
+    abstract: "Movement disorders (MDs) subspecialty is a key discipline in neurology, requiring dedicated expertise and training for accurate diagnosis and management. However, structured data on neurology residency training in this field in France are lacking. This study aims to evaluate the accessibility, quality, and consistency of MDs education among French neurology residents and to identify areas for improvement. A national online survey was conducted from August to November 2024 among neurology residents across France. The questionnaire assessed theoretical and practical exposure to MDs, procedural training, self-reported confidence in managing MDs, and residents' expectations regarding training. Responses were analyzed descriptively, with comparisons across residency years and hospital types. Data were obtained from 151 neurology residents at 24 university hospitals. MDs training was highly heterogeneous: 47.3% reported receiving ≤5h of theoretical MDs education, while only 2.7% exceeded 20h. Practical exposure was limited, with 25.2% of residents having attended MD consultations under supervision, and only 4% having performed botulinum toxin injections under supervision. Confidence in managing MDs was generally low, particularly for dystonia (60.9% felt unprepared) and Tourette syndrome/tics (79.5% felt unprepared). Residents identified major gaps in structured education, procedural training, and access to mentorship. They advocated for a standardized MDs curriculum, increased supervised practical training, and the development of innovative educational tools. In conclusion, MD training during neurology residency in France is inconsistent, with significant gaps in both theoretical and practical exposure. Standardizing MD education, expanding supervised procedural training, and fostering mentorship programs are essential steps to improve resident skills.",
+    published: '2025-Aug-13',
+    authors: [
+      'Aubignat M', 'Potel S',
+      'Carey G',    'Schneider V',
+      'Mira V',     'Ollivier T',
+      'Grimaldi S', 'Wirth T',
+      'Roze E',     'Desjardins C',
+      ''
+    ],
+    journal: 'Revue neurologique',
+    doi: '10.1016/j.neurol.2025.07.014',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813171/'
+  },
+  {
+    id: '40813151',
+    title: 'Kidney failure risk equation (KFRE), A risk-based triage for nephrology referrals: A mixed-methods study at pre-implementation phase among healthcare providers.',
+    abstract: "BACKGROUND: Chronic kidney disease (CKD) poses a significant health challenge globally. There is limited understanding of the challenges and opportunities to enhance CKD management from the perspectives of healthcare providers (HCPs) involved in the direct care of patients with CKD. To integrate a risk-based triage for nephrology referrals, namely the kidney failure risk equation (KFRE), we explored HCPs' perspectives on the facilitators and barriers to CKD management before the implementation of KFRE.\n" +
+      "METHODS: We used a mixed methods approach to explore HCPs' perspectives on the 1) facilitators and barriers to CKD management and 2) perceived benefits and challenges of implementing KFRE, a risk-based triage to guide nephrology referrals at the Universiti Malaya Medical Centre (UMMC), Kuala Lumpur, Malaysia. Interviews were audio recorded, transcribed verbatim, and thematically analyzed. Quantitatively, provider job satisfaction surveys were performed.\n" +
+      "RESULTS: Overall, 111 HCPs completed the surveys, with the majority being mostly satisfied with the physical surroundings, co-workers, and supervision received. Mixed responses were expressed about the amount of work and equipment provided. Interviews were conducted among 27 HCPs from the three main CKD care provider groups (primary care medicine, nephrology, and endocrinology). The facilitators' and barriers' themes were identified. The top three barriers to CKD management were suboptimal patients' insights, gaps in practices and confidences, and shortfalls in the healthcare system. By contrast, a good interdisciplinary network and accessibility to specialist resources were the key facilitators. They underscored the importance of human resources empowerment, continuous patient education, and structured interdisciplinary collaboration. HCPs perceived risk-based triage using the KFRE as potentially useful for more targeted care.\n" +
+      'CONCLUSION: We identified several modifiable barriers and facilitators warranting attention to improve the health outcomes of people with CKD. A risk-based triage approach using the KFRE appears promising in facilitating targeted nephrology referrals for better care and resource allocations.',
+    published: '2025-Aug-13',
+    authors: [
+      'Rozi Nur Raziana',
+      'Selvaraj Christine Shamala',
+      'Tan Jia-Kai',
+      'Lim Zhan-Foong',
+      'Nordin Noor Wahidah',
+      'Mazhar Nuqman Hakimi',
+      'Hafizal Haris',
+      'Beh Hooi-Chin',
+      'Lim Quan-Hziung',
+      'Ooi Ying-Guat',
+      'Abdullah Adina',
+      'Wan Md Adnan Wan Ahmad Hafiz',
+      'Sthaneswar Pavai',
+      'Lim Soo-Kun',
+      'Lim Lee-Ling'
+    ],
+    journal: 'Primary care diabetes',
+    doi: '10.1016/j.pcd.2025.08.001',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813151/'
+  },
+  {
+    id: '40813147',
+    title: 'Gloves off!: Environmental and financial impacts of an educational intervention to improve hand hygiene. A quality improvement study.',
+    abstract: 'BACKGROUND: Non-sterile gloves are often used inappropriately in clinical care, with associated poorer hand hygiene, and financial and environmental waste.\n' +
+      "METHODS: This before and after study assessed the impact of an educational intervention on non-sterile glove use, hand hygiene compliance, knowledge and attitudes, and environmental and financial metrics. Participants were clinical staff working in two acute surgical wards of an adult tertiary referral hospital from May 2023 to March 2024. The intervention, 'Gloves Off!', was a multi-modal education intervention delivered during July-August 2023. The main outcome measures were: glove purchase numbers and associated carbon footprint, waste to landfill, financial cost; hand hygiene compliance and unnecessary glove use; staff hand hygiene knowledge and attitudes. Measures were taken at baseline, post-intervention, and seven-month follow-up.\n" +
+      'RESULTS: Glove purchase numbers fell by an average of 6.9 gloves per occupied bed day after the intervention. The estimated monthly reduction of 13,020 gloves for two wards equates to reductions in carbon footprint of 443kgCOe, waste 44.8 kg and cost AUD$651. Hand hygiene compliance improved from 59 % (151/254) at baseline to 83 % (125/150) at follow-up and unnecessary use glove use fell from 60 % (152/252) at baseline to 23 % (13/56) at follow-up. Survey results showed that after education, staff demonstrated significant improvements in aspects of hand hygiene and glove use knowledge.\n' +
+      "CONCLUSION: A 'Gloves Off!' intervention was successful in improving glove use behaviour and staff hand hygiene, knowledge and attitudes as measured by observational audits, staff surveys, and glove purchase data. Significant cost, waste and carbon footprint reductions were achieved.",
+    published: '2025-Aug-13',
+    authors: [
+      'Wilkie-Miskin Tina',
+      'Acosta Mya Abigail',
+      'Browning Sarah',
+      'Pickles Kristen',
+      'Munnoch Sally',
+      'Knight Patricia',
+      'Bernotas Amy',
+      'Chen Stanley',
+      'Ng Rachel',
+      'Mathieu Erin',
+      ''
+    ],
+    journal: 'Infection, disease & health',
+    doi: '10.1016/j.idh.2025.07.003',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813147/'
+  },
+  {
+    id: '40813141',
+    title: 'Leveraging large language models to inform paediatric chronic condition care: a cross-sectional study.',
+    abstract: 'This study assessed how ChatGPT 3.5, ChatGPT 4.0 and Google Gemini perform in providing educational content about coeliac disease and type 1 diabetes mellitus. We analysed 76 frequently asked questions for accuracy, comprehensiveness, readability and consistency. The models delivered highly accurate and comprehensive responses across the board. While ChatGPT 4.0 offered the most readable content, all models struggled with overall readability. Each model maintained consistent performance throughout testing. These results indicate that large language models show promise as supplementary tools for patient education in chronic paediatric conditions, though improvements in readability are needed to enhance accessibility.',
     published: '2025-Aug-14',
     authors: [
-      'Al-Hakeem Hiba',
-      'Mallory Kylie D',
-      'El-Sabbagh Jana',
-      'Barton Willow',
-      'Kiriakidis Anna',
-      'Hooper Marie',
-      'Scratch Shannon E'
+      'Jamil Syed Furrukh',
+      'Alshathri Nada N',
+      'Alsalamah Seham S',
+      'Almansour Nura A',
+      'Alsalamah Faris S',
+      'Hameed Tahir K',
+      'Alqanatish Jubran T'
     ],
-    journal: 'Disability and rehabilitation',
-    doi: '10.1080/09638288.2025.2543941',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810242/'
+    journal: 'BMJ paediatrics open',
+    doi: '10.1136/bmjpo-2025-003742',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813141/'
   },
   {
-    id: '40810241',
-    title: 'Do Generic Skills Achieved During Undergraduate Dental Education Meet the Need in Clinical Practice?',
-    abstract: 'OBJECTIVES: To evaluate the importance of generic skills in clinical dental practice and how well these skills were achieved during undergraduate dental education.\n' +
-      "MATERIALS AND METHODS: The data were based on a national online questionnaire survey called 'Young Dentist', which was hosted by the Finnish Dental Association. The questionnaire was sent via an email link in May 2021 to dentists who had graduated in Finland during 2018-2020. Altogether 221/505 recently graduated dentists (response rate 44%) answered the questionnaire. At the same time, the questionnaire was also sent to more experienced colleagues, who were selected by random sampling from the member register of the Finnish Dental Association (response rate 82/778, 14%).\n" +
-      'RESULTS: Recently graduated dentists stated that patient encounter skills were the most important generic skill in clinical dental practice, and this skill was well achieved during undergraduate studies. Other important skills in clinical dental practice reported by young dentists were aseptic techniques and patient safety and risk management skills, which were also well or very well achieved during undergraduate studies. The opinions of recently graduated dentists and more experienced colleagues were quite similar.\n' +
-      'CONCLUSION: According to the opinions of the dentists, undergraduate dental education develops most generic competencies in clinical dental practice, but evolving practices, advancing technologies and health system challenges highlight the growing importance of diverse generic skills in the dental profession.',
+    id: '40813139',
+    title: 'Risk factors for hospital admission and length of stay for children with and without congenital anomalies: a EUROlinkCAT cohort study.',
+    abstract: 'OBJECTIVE: To evaluate risk factors for hospital admission and length of stay (LOS) among children with and without congenital anomalies (CAs).\n' +
+      'DESIGN: A population-based linkage cohort study including 50 353 children with major CAs and 1 259 925 children without CAs from four EUROCAT registry areas in three countries. Data on children born 1995-2014 were linked to hospital discharge databases 1995-2015. HRs and incidence rate ratios estimated risk of admission and LOS for children aged <1 and 1-4 years by birth cohort, gestational age, sex, maternal age, multiple births and maternal education. Estimates were pooled using random effects meta-analysis.\n' +
+      'RESULTS: In children <1 year, twins/triplets with CAs were 34% more likely to be admitted and had over two times the LOS compared with singletons, while twins/triplets without CAs were over two and a half times as likely to be admitted and had six times longer stays. Despite this, a higher proportion of twins/triplets with CAs were admitted compared to those without CAs (91% vs 65%) and had longer LOS (20 days vs 10). Smaller increases in risk of admission or LOS were found in boys, young mothers and low maternal education. Preterm birth was a major risk factor for admission and LOS.\n' +
+      "CONCLUSIONS: While the impact of risk factors on hospital admission and LOS was generally greater in children without CAs, a higher proportion of children with CAs were admitted and had longer stays. These findings have implications for health care planning and for counselling parents regarding their child's future healthcare needs.",
     published: '2025-Aug-14',
     authors: [
-      'Näpänkangas Ritva',
-      'Lappalainen Olli-Pekka',
-      'Jämsä Hannaleena',
-      'Laitala Marja-Liisa',
-      'Koivumäki Jaakko',
-      'Karaharju-Suvanto Terhi'
+      'Given Joanne',
+      'Garne Ester',
+      'Morris Joan K',
+      'Baldacci Silvia',
+      'Ballardini Elisa',
+      'Gissler Mika',
+      'Gorini Francesca',
+      'Kiuru-Kuhlefelt Sonja',
+      'Urhoj Stine Kjaer',
+      'Manfrini Marco',
+      'Tan Joachim',
+      'Loane Maria'
     ],
-    journal: 'European journal of dental education : official journal of the Association for Dental Education in Europe',
-    doi: '10.1111/eje.70037',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810241/'
+    journal: 'BMJ paediatrics open',
+    doi: '10.1136/bmjpo-2025-003586',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813139/'
   },
   {
-    id: '40810240',
-    title: 'The burden of cognitive impairment.',
-    abstract: "INTRODUCTION: Over 10% of older American adults (age ≥ 65) experience cognitive impairment (CI) from Alzheimer's disease and related dementias (ADRD). An additional 15%-22% experience mild cognitive impairment (MCI), often preceding ADRD and in earlier life. However, CI burden estimates including MCI and early-onset CI (age < 65), remain limited.\n" +
-      'METHODS: Using microsimulation, we estimated CI burden (ADRD and/or MCI) over remaining life-years for Americans (aged 51/52) who developed CI overall, by disease progression, onset age, and sociodemographic subgroups. Burden equaled the difference in quality-adjusted life-years (QALY valued at $150K/year) and economic outcomes between a hypothetical intervention preventing CI and status quo.\n' +
-      'RESULTS: Per capita lifetime CI burden was $124K, driven by lost QALYs. Aggregate CI burden was $627B, 59% from ADRD, 41% from MCI. Early-onset CI carried the largest per capita burden ($376K), ∼50% from MCI. Individuals with less education, progression to ADRD, or from minoritized racial/ethnic subgroups also carried disproportionate burden.\n' +
-      'DISCUSSION: MCI constitutes 41% of CI burden, disproportionately impacting individuals with early-onset.\n' +
-      "HIGHLIGHTS: The lifetime burden of cognitive impairment (CI) was estimated at $124,000 per capita, totaling $627 billion in aggregate-with 59% attributed to Alzheimer's disease and related dementias (ADRD) and 41% to mild cognitive impairment (MCI). Early-onset CI (before age 65) carried the highest per capita burden at $376,000, with these individuals living with MCI for about 13 years-over 7 years longer than those with late-onset CI. Significant disparities exist in CI burden, with racial/ethnic minorities and those without a high school degree experiencing disproportionately higher burden. Despite representing just 36% of the CI population, non-White individuals accounted for 47% of the aggregate CI burden.",
-    published: '2025-Aug',
-    authors: [
-      'Gracner Tadeja',
-      'Chaturvedi Ritika',
-      'Nguyen PhuongGiang',
-      'Heun-Johnson Hanke',
-      'Tysinger Bryan',
-      'Goldman Dana',
-      'Lakdawalla Darius'
-    ],
-    journal: "Alzheimer's & dementia : the journal of the Alzheimer's Association",
-    doi: '10.1002/alz.70436',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810240/'
-  },
-  {
-    id: '40810209',
-    title: 'Artificial intelligence across the cancer care continuum.',
-    abstract: 'Artificial intelligence (AI) holds significant potential to enhance various aspects of oncology, spanning the cancer care continuum. This review provides an overview of current and emerging AI applications, from risk assessment and early detection to treatment and supportive care. AI-driven tools are being developed to integrate diverse data sources, including multi-omics and electronic health records, to improve cancer risk stratification and personalize prevention strategies. In screening and diagnosis, AI algorithms show promise in augmenting the accuracy and efficiency of medical image analysis and histopathology interpretation. AI also offers opportunities to refine treatment planning, optimize radiation therapy, and personalize systemic therapy selection. Furthermore, AI is explored for its potential to improve survivorship care by tailoring interventions and to enhance end-of-life care through improved symptom management and prognostic modeling. Beyond care delivery, AI augments clinical workflows, streamlines the dissemination of up-to-date evidence, and captures critical patient-reported outcomes for clinical decision support and outcomes assessment. However, the successful integration of AI into clinical practice requires addressing key challenges, including rigorous validation of algorithms, ensuring data privacy and security, and mitigating potential biases. Effective implementation necessitates interdisciplinary collaboration and comprehensive education for health care professionals. The synergistic interaction between AI and clinical expertise is crucial for realizing the potential of AI to contribute to personalized and effective cancer care. This review highlights the current state of AI in oncology and underscores the importance of responsible development and implementation.',
-    published: '2025-Aug-15',
-    authors: [ 'Riaz Irbaz Bin', 'Khan Muhammad Ali', 'Osterman Travis J' ],
-    journal: 'Cancer',
-    doi: '10.1002/cncr.70050',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810209/'
-  },
-  {
-    id: '40810202',
-    title: '[Expert Initiative for the Prevention and Control of Human Papillomavirus Infection and Related Diseases Among Chinese Male].',
-    abstract: 'Human papillomavirus (HPV) infection not only causes cervical cancer in women but also leads to HPV-related cancers and genital warts in men. Globally, 82 countries have adopted a gender-neutral HPV vaccination strategy to prevent and control related diseases. In China, HPV vaccination for men has now been implemented. Based on the global and domestic burden of male HPV-related diseases, evidence on the safety and efficacy of HPV vaccines in males, and lessons from international male HPV prevention efforts, a panel of experts has developed the Expert Initiative for the Prevention and Control of HPV Infection and related diseases among Chinese males after multi-round discussions. The initiative proposes: Develop comprehensive strategies for the prevention and control of male HPV infection and related diseases; prioritize and enhance public education and awareness campaigns; promote joint prevention for both men and women and advance gender-inclusive vaccination; innovate financing mechanisms to reduce the economic burden; strengthen research on male HPV infection and vaccination to facilitate the development of new vaccines; and adopt innovative immunization models to improve the quality of vaccination services.',
+    id: '40813107',
+    title: 'Disease activity trajectories in paediatric lupus and associations with socioeconomic factors and patient-reported pain.',
+    abstract: 'OBJECTIVE: Using data from participants with paediatric SLE (pSLE) in the Childhood Arthritis and Rheumatology Research Alliance Registry, we aimed to: (1) describe 2-year disease activity trajectories, measured by the SLE Disease Activity Index 2000 (SLEDAI 2K); (2) identify characteristics associated with each trajectory and (3) assess achievement of lupus low disease activity state (LLDAS) and associated baseline characteristics.\n' +
+      'METHODS: Participants were diagnosed with pSLE within 12 months of baseline visit. Baseline sociodemographic, clinical and treatment characteristics were included in latent trajectory analyses. Associations between patient characteristics with trajectory groups and LLDAS were analysed with multinomial generalised logistic regression modelling.\n' +
+      'RESULTS: 1002 patients were screened; 553 were included for SLEDAI 2K and 269 for LLDAS analyses. SLEDAI 2K trajectories included (T1) low and stable, (T2) high and decreasing, (T3) intermediate and stable. In multinomial generalised logistic regression, baseline SLEDAI 2K score and insurance type were significantly associated with trajectories. 51% (136/269) of patients achieved LLDAS at least once in 24 months as compared with 17% (47/269) at first assessment. LLDAS attainment at both time points was predicted by lower pain interference scores; LLDAS attainment over 24 months was also associated with baseline American College of Rheumatology classification criteria, rituximab use at baseline and highest completed level of parent/guardian education.\n' +
+      'CONCLUSIONS: Disease activity trajectories in a pSLE cohort were predicted by baseline SLEDAI 2K and insurance. Only half of the patients achieved LLDAS during the 2-year study period, which was predicted by baseline characteristics including pain interference. The relationship between disease activity and socioeconomic factors and pain warrants further investigation to identify modifiable factors to reduce pSLE disease activity.',
     published: '2025-Aug-14',
-    authors: [ '', '' ],
-    journal: 'Zhonghua yu fang yi xue za zhi [Chinese journal of preventive medicine]',
-    doi: '10.3760/cma.j.cn112150-20250724-00712',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810202/'
+    authors: [
+      'Case Siobhan',
+      'Hill C Larry',
+      'Shrader Peter',
+      'Dennos Anne',
+      'Phillips Thomas',
+      'Schanberg Laura Eve',
+      'von Scheven Emily',
+      'Barbour Kamil',
+      'Knight Andrea M',
+      'Hersh Aimee',
+      'Son MaryBeth',
+      ''
+    ],
+    journal: 'Lupus science & medicine',
+    doi: '10.1136/lupus-2025-001521',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813107/'
   },
   {
-    id: '40810186',
-    title: 'Beyond the 1%: Advocating for Comprehensive Data on Perinatal Substance Use in Canada.',
-    abstract: 'This paper addresses the critical issue of perinatal substance use (PSU) in Canada and highlights the urgent need for relevant and current prevalence data. PSU poses significant risks to perinatal and infant health, highlighting the need for targeted interventions that are grounded in comprehensive data and research. Comprehensive data collection must include disaggregated information by province and differentiate between various substances. Nurse leaders are uniquely positioned to advocate for these initiatives, enhance healthcare provider education and support ongoing research. A coordinated approach is essential for improving health outcomes for perinatal individuals and their families across Canada.',
-    published: '2025-Jul',
+    id: '40813099',
+    title: 'From poverty to health: intraurban inequalities in child health indicators in low-income and middle-income countries during the SDG era.',
+    abstract: 'INTRODUCTION: Urban areas are generally associated with better health outcomes. However, in many low-income and middle-income countries (LMICs), rapid urbanisation has led to significant health disparities. These inequalities, especially those affecting the urban poor, are often overlooked in studies focused solely on rural-urban differences. This study aimed to assess the overall and country-specific intraurban inequalities in under-5 and neonatal mortality rates, immunisation coverage, care-seeking for acute respiratory infections (ARIs), coverage of diarrhoea treatment, and stunting, wasting and overweight in children under 5.\n' +
+      'METHODS: Demographic and Health Survey datasets collected since 2015 from 48 LMICs were analysed. We constructed an urban poor cluster using the United Nations Human Settlements Programme definition for slums and categorised them as urban poor and urban non-poor clusters. The Wagstaff normalised concentration index (WCI) and concentration curve were used to assess urban poverty-related inequalities in child health indicators.\n' +
+      'RESULTS: In LMICs, 13.7% (95% CI: 13.6% to 13.9%) of urban children lived in poor clusters, with over 65% of urban clusters classified as poor in Chad, Ethiopia and Afghanistan. All child health indicators, except neonatal mortality, exhibited significant inequality between the urban poor and non-poor. Despite some inconsistencies across countries, there were pro-urban poor inequalities in under-5 mortality (WCI=-0.069), stunting (WCI=-0.121) and wasting (WCI=-0.088). Full vaccination coverage (WCI=0.078), overweight (WCI=0.087), care-seeking for children with acute respiratory infections (WCI=0.131) and receiving oral rehydration salts and zinc for diarrhoea (WCI=0.127) showed pro-urban non-poor inequality in LMICs.\n' +
+      'CONCLUSIONS: Substantial intraurban inequalities were observed in child health indicators. Under-5 mortality, stunting and wasting were concentrated among urban poor children, while health service utilisation and overweight were concentrated among urban non-poor children. Improving access to clean water, sanitation, quality healthcare and education in underserved urban areas, along with combating urban poverty and promoting healthy lifestyles, is essential for achieving better health outcomes.',
+    published: '2025-Aug-14',
     authors: [
-      'Bigalky Jodie',
-      'Mackey April',
-      'Serrano Oluwafemi',
-      'Petrucka Pammla'
+      'Tebeje Tsion Mulat',
+      'Aregu Mekonnen Birhanie',
+      'Asgedom Yordanos Sisay',
+      'Gebrekidan Amanuel Yosef',
+      'Abebe Mesfin'
     ],
-    journal: 'Nursing leadership (Toronto, Ont.)',
-    doi: '10.12927/cjnl.2025.27657',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810186/'
+    journal: 'BMJ global health',
+    doi: '10.1136/bmjgh-2025-019134',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813099/'
   },
   {
-    id: '40810185',
-    title: 'Relational Coaching for Leadership and Team Development in Long-Term Care: An Appreciative Inquiry Approach.',
-    abstract: "INTRODUCTION: A relational coaching intervention in long-term care (LTC) studied leaders' self-perceptions and behaviours as champions of applying learning in team practice.\n" +
-      'METHODOLOGY: A developmental evaluation design incorporated an appreciative inquiry framework with 29 leaders from 10 LTC homes using  education.\n' +
-      'RESULTS: A positive influence on confidence and commitment indicators was found, and key leader behaviours were identified.\n' +
-      'DISCUSSION: Goal-directed, relational leadership coaching in LTC supports team practice improvement and is accelerated by the implementation of relational leadership practices.\n' +
-      "IMPLICATIONS FOR NURSING LEADERSHIP: Using relational coaching can improve teams' experiences and outcomes of applying learning in practice.",
-    published: '2025-Jul',
+    id: '40813056',
+    title: 'Autonomous ground vehicles for MEDEVAC: capability assessment based on agent-based modelling.',
+    abstract: "INTRODUCTION: Medical evacuation (MEDEVAC) is a crucial component of military healthcare, and the time during which evacuation of the wounded, injured and ill individuals happens is one of the most critical factors. The article focuses on the initial phase of ground evacuation from the Point of Injury to the casualty collection point (CCP). Casualty transport is the combat unit's task, triggered by a 9-liner MEDEVAC request. Two variants are considered: evacuation by means of one armoured vehicle per CCP according to the actual doctrine and potential evacuation using a fleet of autonomous unmanned vehicles.\n" +
+      'METHODS: The analysis and comparison are based on data (injury time and position) obtained from computer-assisted exercises, and a simulation combining agent-based modelling and discrete events simulation methods is applied to compare two approaches.\n' +
+      'RESULTS: The simulation results show that using distributed transport capability, represented by unmanned ground vehicles (UGVs), is more effective because it allows for prioritising casualties based on the injury category. The evacuation effectiveness is quantified in relation to the number of UGVs used.\n' +
+      'CONCLUSIONS: The use of UGVs can improve the care of the wounded, assuming the involvement of advanced technologies, including artificial intelligence. Information about the time and place of casualties is the key for decision makers to achieve the benefit, which should be ensured through potential monitoring of the physical condition of the wounded (body sensors and data transmission in case of injury).',
+    published: '2025-Aug-14',
     authors: [
-      'Helfenbaum Shoshana M',
-      'Galessiere Daniel',
-      'Gallucci Christina E',
-      'Meyer Raquel M'
+      'Procházka Dalibor',
+      'Šedivcová V',
+      'Melichar J',
+      'Tesař A',
+      'Schvach H'
     ],
-    journal: 'Nursing leadership (Toronto, Ont.)',
-    doi: '10.12927/cjnl.2025.27658',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810185/'
+    journal: 'BMJ military health',
+    doi: '10.1136/military-2024-002885',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40813056/'
   },
   {
-    id: '40810111',
-    title: 'Design, Development, and Impact of Educational Modules to Broaden Academic Research Cultures (EMBARC) for STEMM Career Development: A Pilot Project.',
-    abstract: "Though historically marginalized and first-generation college students aspire to attend college, educational equity gaps remain in transfer and pursuit of graduate degrees of science, technology, engineering, math, and medicine (STEMM). The purpose of this paper is to describe the process and impact of the Educational Modules to Broaden Academic Research Cultures (EMBARC) to leverage students' community cultural wealth (CCW) and address cultural mismatch (CM) - the misalignment between the interdependent values shaped by one's family or culture and the independent values emphasized in Western post-secondary institutions and STEMM fields. Findings from evaluation of the program suggests that leveraging CCW and CM in developing educational modules can contribute to historically marginalized students' education, career and persistence in STEMM. Findings also illustrated that the modules connect students to resources as well as their cultural wealth and ancestral strength.",
-    published: '2025-Feb',
+    id: '40812981',
+    title: 'The importance of diversity within surgical education.',
+    abstract: 'No abstract available',
+    published: '2025-Sep',
     authors: [
-      'Guan Shu-Sha Angie',
-      'Vasquez-Salgado Yolanda',
-      'Saetermoe Carrie L',
-      'Lin Judith C P',
-      'Bui Amber Kim Anh',
-      'Villaseñor Veronica',
-      'Boyns David',
-      'Ashcroft Jared',
-      'Haynes-Mendez Kelley',
-      "Swales-Jefferson La'rhonda"
+      'Medina Cathlyn K',
+      'Camarena Adrian',
+      'Kang Lillian',
+      'Kanu Elishama',
+      'Fernandez-Moure Joseph',
+      'Quinones Patricia Martinez',
+      'Vatsaas Cory J'
     ],
-    journal: 'Journal of advanced technological education',
-    doi: '10.5281/zenodo.15587802',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810111/'
-  },
-  {
-    id: '40810088',
-    title: 'Association of Low Educational Attainment and Higher Colorectal Cancer Risk: Mediatory Effect of Lifestyle-Associated Factors Within Local Context.',
-    abstract: 'BACKGROUND: Educational attainment may influence colorectal cancer (CRC) risks, though the association remains inconclusive. The association might be mediated by health behaviors. This study aimed to explore the association of education on risks of CRC and to elucidate the mediatory effects of lifestyle-associated factors.\n' +
-      "METHODS: This case-control study included 174 cases and 296 healthy controls. We used a semi-structured questionnaire to collect information on participants' sociodemographic factors (age, sex, marital status, monthly income, and family history of CRC) and lifestyle-associated behaviors (smoking status, physical activity, and frequency of red meat, legumes, and vegetables intake). Body mass index (BMI) was calculated using body mass measured at first contact. Participants' education was categorized into those who completed basic education (≥ 12 years) and those who did not complete basic education (< 12 years). Logistic and multiple logistic regression analyses were employed to test the correlation between education and risk of CRC, adjusted by sociodemographic and lifestyle-associated factors. Path analysis was performed to test the mediatory effect of lifestyle-associated behaviors on the correlation.\n" +
-      'RESULTS: Participants with lower educational attainment had higher odds of CRC (odds ratio (OR) = 4.76, 95% confidence interval (CI) = 3.07 - 7.38), and the association remained consistent when adjusted by sociodemographic factors (adjusted OR (aOR) = 3.06, 95% CI = 1.86 - 5.03) and combined with lifestyle-associated behaviors (aOR = 2.73, 95% CI = 1.43 - 5.22). The association were consistent among men (OR = 6.14, 95% CI = 3.12 - 12.06; aOR = 4.65, 95% CI = 2.19 - 9.87; aOR = 1.05, 95% CI = 1.02 - 1.09), yet no longer significant among women when adjusted with sociodemographic and lifestyle-associated factors (OR = 3.91, 95% CI = 2.19 - 6.97; aOR = 2.02, 95% CI = 1.02 - 4.00; aOR = 1.56, 95% CI = 0.61 - 3.95). Path analysis showed that the association between educational attainment and risk of CRC was mediated by physical activity, BMI, and intake of red meat, legumes, and vegetables.\n' +
-      'CONCLUSION: In our study, educational attainment was inversely correlated with the odds of CRC and might be mediated by physical activity, BMI, and intake of red meat, legumes, and vegetables. Taking other sociodemographic and lifestyle-associated factors into account, the association between lower educational attainment and higher odds of CRC was more substantial among men. These findings highlight the importance of promoting education and healthy lifestyle behaviors, particularly among men, as an essential part of targeted public health strategies in reducing burden of CRC.',
-    published: '2025-Aug',
-    authors: [
-      'Puspitaningtyas Herindita',
-      'Wiranata Juan Adrian',
-      'Wiratama Bayu Satria',
-      'Fachiroh Jajah',
-      'Hutajulu Susanna Hilda'
-    ],
-    journal: 'World journal of oncology',
-    doi: '10.14740/wjon2599',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810088/'
-  },
-  {
-    id: '40810048',
-    title: 'A Pilot Pre-Post Study of an Internet-Based Sleep Education Program for Parents of Children with Autism Spectrum Disorder and Sleep Disturbance in Japan.',
-    abstract: 'BACKGROUND: Children with autism spectrum disorder frequently experience persistent sleep difficulties that persist into adulthood. These issues are linked to adverse outcomes like behavioral issues, poor academic performance, and increased parental stress, highlighting the importance of early interventions. We assessed an internet-based sleep education program for parents of children with autism spectrum disorder and conducted a preliminary examination of its potential to improve sleep quality and behavioral outcomes.\n' +
-      "METHODS: Eighteen parent-child pairs participated in an internet-based sleep education program. Outcomes related to the program were assessed at three time points: baseline, 4 weeks post-intervention, and 10 weeks post-intervention. Key measures analyzed included sleep parameters, sleep habits, children's behavioral problems, parental mental health, and parenting attitudes, using validated assessment tools.\n" +
-      "RESULTS: At 4 weeks post-intervention, the program demonstrated a reduction in the time required for children to fall asleep, an enhancement in sleep efficiency, and an improvement in parental mental health. At 10 weeks post-intervention, improvements were also observed in children's externalizing behavior problems. Parents reported increased confidence in managing their children's sleep issues and noted a positive impact on family dynamics.\n" +
-      'CONCLUSION: The findings suggest that the internet-based sleep education program may be an effective and acceptable intervention for addressing sleep difficulties in children with autism spectrum disorder. This study contributes substantially to the existing literature, highlighting the potential for internet-based interventions to enhance sleep management strategies. This study was retrospectively registered with the jRCT on September 30, 2024 (jRCT1062240058).',
-    published: '2025-Aug',
-    authors: [
-      'Koyama Honami',
-      'Yamanaka Tomohisa',
-      'Maegaki Yoshihiro',
-      'Inoue Masahiko'
-    ],
-    journal: 'Yonago acta medica',
-    doi: '10.33160/yam.2025.08.013',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40810048/'
+    journal: 'Current problems in surgery',
+    doi: '10.1016/j.cpsurg.2025.101856',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40812981/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
@@ -778,193 +811,6 @@ Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1148,193 +994,6 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     code: 'ENOTFOUND',
     syscall: 'getaddrinfo',
     hostname: 'kahualike.manoa.hawaii.edu'
-  }
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
@@ -1524,6 +1183,378 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     port: 80
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
+  }
+}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1650,129 +1681,109 @@ Fetched papers from CrossRef: [
   }
 ]
 Collected 10 papers from crossref
-Total papers collected: 50
-Removed duplicates: 50 -> 50
-Starting translation of 50 papers...
-Translating paper 1/50
+Total papers collected: 40
+Removed duplicates: 40 -> 40
+Starting translation of 40 papers...
+Translating paper 1/40
 Translating paper: Big data in economics...
-Translating paper 2/50
+Translating paper 2/40
 Translating paper: Learning from Physics Education Research: Lessons ...
-Translating paper 3/50
+Translating paper 3/40
 Translating paper: Enhancing Economic Literacy through Causal Diagram...
-Translating paper 4/50
+Translating paper 4/40
 Translating paper: Molecular genetics and mid-career economic mobilit...
-Translating paper 5/50
+Translating paper 5/40
 Translating paper: Quantifier Elimination for Reasoning in Economics...
-Translating paper 6/50
+Translating paper 6/40
 Translating paper: A New Index of Human Capital to Predict Economic G...
-Translating paper 7/50
+Translating paper 7/40
 Translating paper: Teaching Economics with Interactive Browser-Based ...
-Translating paper 8/50
+Translating paper 8/40
 Translating paper: A physical theory of economic growth...
-Translating paper 9/50
+Translating paper 9/40
 Translating paper: Applications of a constrained mechanics methodolog...
-Translating paper 10/50
+Translating paper 10/40
 Translating paper: IP Geolocation Underestimates Regressive Economic ...
-Translating paper 11/50
-Translating paper: Economics or Education: The Establishment of Ameri...
-Translating paper 12/50
-Translating paper: Economics students’ behavioural intention and usag...
-Translating paper 13/50
-Translating paper: Handbook of THE ECONOMICS OF EDUCATION...
-Translating paper 14/50
-Translating paper: The New Economics for Industry, Government, Educat...
-Translating paper 15/50
-Translating paper: The effectiveness of the emergency eLearning durin...
-Translating paper 16/50
-Translating paper: Experience and education...
-Translating paper 17/50
-Translating paper: ChatGPT has Aced the Test of Understanding in Coll...
-Translating paper 18/50
-Translating paper: From Theory to Practice of Promoting Student Engag...
-Translating paper 19/50
-Translating paper: What Is the Impact of ChatGPT on Education? A Rapi...
-Translating paper 20/50
-Translating paper: The Impact of Education for Sustainable Developmen...
-Translating paper 21/50
+Translating paper 11/40
 Translating paper: Lesson Plan Designing in the Digital Age: A Multim...
-Translating paper 22/50
+Translating paper 12/40
 Translating paper: The Future of Accounting Education Under the Devel...
-Translating paper 23/50
+Translating paper 13/40
 Translating paper: Digital University: Building a Flexible, Inclusive...
-Translating paper 24/50
+Translating paper 14/40
 Translating paper: Digitalization of Higher Education: Experience of ...
-Translating paper 25/50
+Translating paper 15/40
 Translating paper: Media Education as AI Education—An Experiential Ap...
-Translating paper 26/50
+Translating paper 16/40
 Translating paper: Integrating Artificial Intelligence in English Lan...
-Translating paper 27/50
+Translating paper 17/40
 Translating paper: Model-Based STEM Technical and Vocational Educatio...
-Translating paper 28/50
+Translating paper 18/40
 Translating paper: E-Learning and E-Pedagogy in Uzbekistan, Benefits ...
-Translating paper 29/50
+Translating paper 19/40
 Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
-Translating paper 30/50
+Translating paper 20/40
 Translating paper: ChatGPT and University Students: How Family Educat...
-Translating paper 31/50
-Translating paper: Characteristics of interventions for siblings of c...
-Translating paper 32/50
-Translating paper: Do Generic Skills Achieved During Undergraduate De...
-Translating paper 33/50
-Translating paper: The burden of cognitive impairment....
-Translating paper 34/50
-Translating paper: Artificial intelligence across the cancer care con...
-Translating paper 35/50
-Translating paper: [Expert Initiative for the Prevention and Control ...
-Translating paper 36/50
-Translating paper: Beyond the 1%: Advocating for Comprehensive Data o...
-Translating paper 37/50
-Translating paper: Relational Coaching for Leadership and Team Develo...
-Translating paper 38/50
-Translating paper: Design, Development, and Impact of Educational Mod...
-Translating paper 39/50
-Translating paper: Association of Low Educational Attainment and High...
-Translating paper 40/50
-Translating paper: A Pilot Pre-Post Study of an Internet-Based Sleep ...
-Translating paper 41/50
+Translating paper 21/40
+Translating paper: Climate-related challenges to brain health: A Euro...
+Translating paper 22/40
+Translating paper: Training in movement disorders during neurology re...
+Translating paper 23/40
+Translating paper: Kidney failure risk equation (KFRE), A risk-based ...
+Translating paper 24/40
+Translating paper: Gloves off!: Environmental and financial impacts o...
+Translating paper 25/40
+Translating paper: Leveraging large language models to inform paediat...
+Translating paper 26/40
+Translating paper: Risk factors for hospital admission and length of ...
+Translating paper 27/40
+Translating paper: Disease activity trajectories in paediatric lupus ...
+Translating paper 28/40
+Translating paper: From poverty to health: intraurban inequalities in...
+Translating paper 29/40
+Translating paper: Autonomous ground vehicles for MEDEVAC: capability...
+Translating paper 30/40
+Translating paper: The importance of diversity within surgical educat...
+Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
-Translating paper 42/50
+Translating paper 32/40
 Translating paper: The Effects of Relaxing Music on Life Distress and...
-Translating paper 43/50
+Translating paper 33/40
 Translating paper: The Role of Attachment Styles and Spiritual Intell...
-Translating paper 44/50
+Translating paper 34/40
 Translating paper: Barriers to the Teaching of Skills in the Greek Hi...
-Translating paper 45/50
+Translating paper 35/40
 Translating paper: A criticism of the paradigm of rational choice in ...
-Translating paper 46/50
+Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
-Translating paper 47/50
+Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-Translating paper 48/50
+Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-Translating paper 49/50
+Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-Translating paper 50/50
+Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-Translation completed: 50 papers
-Removed duplicates: 925 -> 885
-Total papers after merging: 885 (875 existing + 50 new)
-Saved 885 papers to papers.json
+Translation completed: 40 papers
+Removed duplicates: 925 -> 895
+Total papers after merging: 895 (885 existing + 40 new)
+Saved 895 papers to papers.json
 Generating HTML files...
-Generating index.html with 885 papers...
+Generating index.html with 895 papers...
 Successfully generated index.html
-Generating archive.html with 885 papers...
+Generating archive.html with 895 papers...
 Successfully generated archive.html
-Generating journal.html with 885 papers...
+Generating journal.html with 895 papers...
 Successfully generated journal.html
-Generating acquisition.html with 885 papers...
+Generating acquisition.html with 895 papers...
 Successfully generated acquisition.html
-Generating publication.html with 885 papers...
+Generating publication.html with 895 papers...
 Successfully generated publication.html
-Generating registration.html with 885 papers...
+Generating registration.html with 895 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 885
-New papers processed: 50
+Total papers in database: 895
+New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-14T15:41:35.068Z
+Timestamp: 2025-08-15T15:34:05.176Z
