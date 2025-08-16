@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-15T15:11:27.613Z
+Timestamp: 2025-08-16T15:09:48.864Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 885 existing papers from papers.json
+Loaded 895 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -354,25 +354,13 @@ Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API 
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 9)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
     at async Promise.all (index 6)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 5)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 0)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 7)
 Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
@@ -384,25 +372,31 @@ Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API 
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 5)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
     at async Promise.all (index 3)
 Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 9)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 4)
+    at async Promise.all (index 7)
 Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
     at async Promise.all (index 8)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 4)
 Fetched papers from Springer: [
   {
     id: '10.1007/978-3-031-98185-2_9',
@@ -577,240 +571,398 @@ Fetched papers from Springer: [
   }
 ]
 Collected 10 papers from springer
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 0)
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40813172',
-    title: 'Climate-related challenges to brain health: A European perspective review.',
-    abstract: 'In this paper, we provide a brief overview on the assessment of the numerous effects of climate change on human health, with particular emphasis on brain health. After reviewing the epidemiological data concerning neuro-psychiatric mortality and morbidity, we will examine the known effects of global warming in a European context. We will consider respectively, neurological diseases (epilepsy, migraine, stroke, sleep, neurodegenerative and neuroinfectious disorders), neurological involvement of climate-change induced health conditions, neuro-psychological aspects (post-traumatic stress and sleep disorders, eco-anxiety) and emerging risks for the brain (toxins and infections). We suggest some underlying mechanisms impacting the brain health. Given the paucity of available data, we call for increased research attention to the adverse effects of climate change. This perspective is intended to support a higher degree of preparedness, the development of improved preventive measures, and the promotion of targeted education for health professionals.',
-    published: '2025-Aug-13',
+    id: '40817790',
+    title: 'Chores Participation, Self-Efficacy, and Transition Readiness in Youths With Diabetes: Preliminary Results.',
+    abstract: 'This study investigated the relationship of chores participation, diabetes management self-efficacy and transition readiness among adolescents with diabetes. Fifty-four youths participated (average age 13.5 years). The CHORES survey evaluated chore participation, the STARx questionnaire assessed health care transition readiness, and the Perceived Diabetes Self-Management Scale (PDSMS) assessed self-efficacy. Results showed that involvement in chores was positively correlated with transition readiness scores ( = .404,  < .05) and important subdomains of transition, namely self-management and provider communication. Mediation analysis found that self-efficacy significantly influenced the link between chores and transition readiness. This suggests that when adolescents assume more household responsibilities, they may develop greater confidence in managing their diabetes, which in turn enhances their readiness for the health care transition. Encouraging chores participation can improve transition readiness directly and indirectly, through self-efficacy. Understanding these mechanisms is key in designing patient education programs, or psychosocial interventions to support transition. Implications for health care providers and parents are discussed.',
+    published: '2025-Aug-16',
     authors: [
-      'Reis J',
-      'Buguet A',
-      'Tulek Z',
-      'Landtblom A-M',
-      'Radomski M W',
-      'Öztürk Ş',
-      'Pugliatti M',
-      'Kallweit U',
-      'Spencer P S'
+      'Rak Eniko',
+      'Burford Sydney',
+      'Wheat Drew',
+      'Budd Maggie',
+      'Jain Nina'
     ],
-    journal: 'Revue neurologique',
-    doi: '10.1016/j.neurol.2025.07.010',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813172/'
+    journal: 'OTJR : occupation, participation and health',
+    doi: '10.1177/15394492251360236',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817790/'
   },
   {
-    id: '40813171',
-    title: 'Training in movement disorders during neurology residency in France: A national survey on educational gaps and future perspectives.',
-    abstract: "Movement disorders (MDs) subspecialty is a key discipline in neurology, requiring dedicated expertise and training for accurate diagnosis and management. However, structured data on neurology residency training in this field in France are lacking. This study aims to evaluate the accessibility, quality, and consistency of MDs education among French neurology residents and to identify areas for improvement. A national online survey was conducted from August to November 2024 among neurology residents across France. The questionnaire assessed theoretical and practical exposure to MDs, procedural training, self-reported confidence in managing MDs, and residents' expectations regarding training. Responses were analyzed descriptively, with comparisons across residency years and hospital types. Data were obtained from 151 neurology residents at 24 university hospitals. MDs training was highly heterogeneous: 47.3% reported receiving ≤5h of theoretical MDs education, while only 2.7% exceeded 20h. Practical exposure was limited, with 25.2% of residents having attended MD consultations under supervision, and only 4% having performed botulinum toxin injections under supervision. Confidence in managing MDs was generally low, particularly for dystonia (60.9% felt unprepared) and Tourette syndrome/tics (79.5% felt unprepared). Residents identified major gaps in structured education, procedural training, and access to mentorship. They advocated for a standardized MDs curriculum, increased supervised practical training, and the development of innovative educational tools. In conclusion, MD training during neurology residency in France is inconsistent, with significant gaps in both theoretical and practical exposure. Standardizing MD education, expanding supervised procedural training, and fostering mentorship programs are essential steps to improve resident skills.",
-    published: '2025-Aug-13',
-    authors: [
-      'Aubignat M', 'Potel S',
-      'Carey G',    'Schneider V',
-      'Mira V',     'Ollivier T',
-      'Grimaldi S', 'Wirth T',
-      'Roze E',     'Desjardins C',
-      ''
-    ],
-    journal: 'Revue neurologique',
-    doi: '10.1016/j.neurol.2025.07.014',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813171/'
+    id: '40817760',
+    title: 'Neural Mechanisms of Decision Making Under Risk of Punishment: Insights From Rodent Models.',
+    abstract: 'There are few cognitive functions more essential than decision making, as better decisions improve our chances of survival. Cost-benefit decisions as they apply to most scenarios in the developed world can range from relatively mundane to reasonably important; however, particularly risky choices such as speeding on our way to work or consuming suspicious foods can pose a genuine risk of significant harm or illness. How is it that our brains learn and evaluate these risks and rewards to arrive at decisions? Additionally, what drives some of us to continue despite, or avoid because of, potential adverse consequences? This review explores neural mechanisms underlying cost-benefit decision making, focusing on paradigms used in human and particularly rodent studies to model decision making under the risk of explicit punishments, such as pain, discomfort, or loss. The review focuses on several key brain regions (the prefrontal cortex, basolateral amygdala, and striatum), and their roles in the assessment of rewards, punishments (or risk thereof), and motivated behaviors. It also discusses pertinent literature on the role of dopamine arising from the ventral tegmental area, as a neuromodulator critical for learning and reinforcement in the context of risky decision making. This article is categorized under: Neuroscience > Behavior Economics > Individual Decision-Making Psychology > Reasoning and Decision Making.',
+    published: '2025',
+    authors: [ 'Pyon Wonn S', 'Bizon Jennifer L', 'Setlow Barry' ],
+    journal: 'Wiley interdisciplinary reviews. Cognitive science',
+    doi: '10.1002/wcs.70012',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817760/'
   },
   {
-    id: '40813151',
-    title: 'Kidney failure risk equation (KFRE), A risk-based triage for nephrology referrals: A mixed-methods study at pre-implementation phase among healthcare providers.',
-    abstract: "BACKGROUND: Chronic kidney disease (CKD) poses a significant health challenge globally. There is limited understanding of the challenges and opportunities to enhance CKD management from the perspectives of healthcare providers (HCPs) involved in the direct care of patients with CKD. To integrate a risk-based triage for nephrology referrals, namely the kidney failure risk equation (KFRE), we explored HCPs' perspectives on the facilitators and barriers to CKD management before the implementation of KFRE.\n" +
-      "METHODS: We used a mixed methods approach to explore HCPs' perspectives on the 1) facilitators and barriers to CKD management and 2) perceived benefits and challenges of implementing KFRE, a risk-based triage to guide nephrology referrals at the Universiti Malaya Medical Centre (UMMC), Kuala Lumpur, Malaysia. Interviews were audio recorded, transcribed verbatim, and thematically analyzed. Quantitatively, provider job satisfaction surveys were performed.\n" +
-      "RESULTS: Overall, 111 HCPs completed the surveys, with the majority being mostly satisfied with the physical surroundings, co-workers, and supervision received. Mixed responses were expressed about the amount of work and equipment provided. Interviews were conducted among 27 HCPs from the three main CKD care provider groups (primary care medicine, nephrology, and endocrinology). The facilitators' and barriers' themes were identified. The top three barriers to CKD management were suboptimal patients' insights, gaps in practices and confidences, and shortfalls in the healthcare system. By contrast, a good interdisciplinary network and accessibility to specialist resources were the key facilitators. They underscored the importance of human resources empowerment, continuous patient education, and structured interdisciplinary collaboration. HCPs perceived risk-based triage using the KFRE as potentially useful for more targeted care.\n" +
-      'CONCLUSION: We identified several modifiable barriers and facilitators warranting attention to improve the health outcomes of people with CKD. A risk-based triage approach using the KFRE appears promising in facilitating targeted nephrology referrals for better care and resource allocations.',
-    published: '2025-Aug-13',
+    id: '40817712',
+    title: "Assessment of Rheumatologists' Perspectives on Uveitis Management: A Cross-Sectional Nationwide Survey.",
+    abstract: 'PURPOSE: This study aimed to evaluate the clinical approaches, decision-making processes, and interdisciplinary collaboration patterns of rheumatologists in Turkiye in the context of uveitis management.\n' +
+      'METHODS: A cross-sectional, descriptive study was conducted using a structured 24-item online questionnaire developed based on current literature and expert consensus. A total of 113 rheumatologists from various institutions across Turkiye completed the survey. Participants were divided into two groups based on clinical experience (≤5 years vs.  >5 years). The survey explored topics such as clinical exposure to uveitis, referral practices, diagnostic and treatment approaches, collaboration with ophthalmologists, and perceived need for further education.\n' +
+      "RESULTS: Rheumatologists with greater clinical experience reported more frequent uveitis cases and were more likely to initiate biological therapy. Immediate referral to ophthalmologists was the predominant approach across both groups; however, communication difficulties were cited as a major barrier to effective interdisciplinary collaboration. Adalimumab emerged as the most commonly prescribed biological agent, particularly in Behçet's disease. Financial barriers, such as the cost of medications and reimbursement issues, were frequently reported as limiting factors. A strong demand for further education on uveitis was noted, especially among early-career rheumatologists, with multidisciplinary meetings and online modules being the most preferred formats.\n" +
+      'CONCLUSION: The findings highlight variability in clinical practices and underline the need for enhanced coordination between rheumatologists and ophthalmologists. Addressing communication barriers and implementing standardized treatment protocols, supported by targeted educational initiatives, may improve collaborative care and patient outcomes in uveitis management.',
+    published: '2025-Aug-16',
     authors: [
-      'Rozi Nur Raziana',
-      'Selvaraj Christine Shamala',
-      'Tan Jia-Kai',
-      'Lim Zhan-Foong',
-      'Nordin Noor Wahidah',
-      'Mazhar Nuqman Hakimi',
-      'Hafizal Haris',
-      'Beh Hooi-Chin',
-      'Lim Quan-Hziung',
-      'Ooi Ying-Guat',
-      'Abdullah Adina',
-      'Wan Md Adnan Wan Ahmad Hafiz',
-      'Sthaneswar Pavai',
-      'Lim Soo-Kun',
-      'Lim Lee-Ling'
+      'Erdağ Murat',
+      'Balbaba Mehmet',
+      'Koca Süleyman Serdar',
+      'Canleblebici Mehmet',
+      'Dal Ali',
+      'Yıldırım Hakan'
     ],
-    journal: 'Primary care diabetes',
-    doi: '10.1016/j.pcd.2025.08.001',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813151/'
+    journal: 'Ocular immunology and inflammation',
+    doi: '10.1080/09273948.2025.2547919',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817712/'
   },
   {
-    id: '40813147',
-    title: 'Gloves off!: Environmental and financial impacts of an educational intervention to improve hand hygiene. A quality improvement study.',
-    abstract: 'BACKGROUND: Non-sterile gloves are often used inappropriately in clinical care, with associated poorer hand hygiene, and financial and environmental waste.\n' +
-      "METHODS: This before and after study assessed the impact of an educational intervention on non-sterile glove use, hand hygiene compliance, knowledge and attitudes, and environmental and financial metrics. Participants were clinical staff working in two acute surgical wards of an adult tertiary referral hospital from May 2023 to March 2024. The intervention, 'Gloves Off!', was a multi-modal education intervention delivered during July-August 2023. The main outcome measures were: glove purchase numbers and associated carbon footprint, waste to landfill, financial cost; hand hygiene compliance and unnecessary glove use; staff hand hygiene knowledge and attitudes. Measures were taken at baseline, post-intervention, and seven-month follow-up.\n" +
-      'RESULTS: Glove purchase numbers fell by an average of 6.9 gloves per occupied bed day after the intervention. The estimated monthly reduction of 13,020 gloves for two wards equates to reductions in carbon footprint of 443kgCOe, waste 44.8 kg and cost AUD$651. Hand hygiene compliance improved from 59 % (151/254) at baseline to 83 % (125/150) at follow-up and unnecessary use glove use fell from 60 % (152/252) at baseline to 23 % (13/56) at follow-up. Survey results showed that after education, staff demonstrated significant improvements in aspects of hand hygiene and glove use knowledge.\n' +
-      "CONCLUSION: A 'Gloves Off!' intervention was successful in improving glove use behaviour and staff hand hygiene, knowledge and attitudes as measured by observational audits, staff surveys, and glove purchase data. Significant cost, waste and carbon footprint reductions were achieved.",
-    published: '2025-Aug-13',
+    id: '40817701',
+    title: 'A Survey Study on the Roles, Responsibilities and Workforce Characteristics of Radiation Oncology Nurses in Australia.',
+    abstract: 'INTRODUCTION: Radiation Oncology Nurses (RONs) are key members of the radiation oncology team; however, the role of the RON is not always clear. The aims of this study were to provide an overview of the RON workforce in Australia, to describe the roles and responsibilities of RONs, and to identify challenges and job satisfaction of RONs.\n' +
+      'METHODS: This was a two-part multi-methods survey study. Two self-reported questionnaires were distributed online using purposive and snowball sampling: Radiation Oncology Facility Survey (ROFS) and RON Workforce Survey (RONWS). The surveys used tick boxes, Likert scale and open and closed-ended questions. Frequencies and percentages were calculated for categorical variables; mean/standard deviation for continuous variables.\n' +
+      'RESULTS: A total of 42 responses were received for the ROFS and 139 for the RONWS, representing all States and Territories in Australia except the Australian Capital Territory (ACT): 52% were metropolitan and 50% were public facilities. Only 17% reported radiation oncology specific training, but 58% had plans to further their education. 80% reported being satisfied with their career and position, believing their role was recognised and generally respected among colleagues and patients. Areas of dissatisfaction included salary, staffing resources and opportunities for advancement.\n' +
+      'CONCLUSION: This is the largest study of RONs in Australia, revealing that RON is a satisfying oncology specialty. Data from this study can be used to identify opportunities for improvement in staffing, engagement and retention of RONs, possibly leading to the development of national guidelines for radiation oncology nursing in Australia.',
+    published: '2025-Aug-16',
     authors: [
-      'Wilkie-Miskin Tina',
-      'Acosta Mya Abigail',
-      'Browning Sarah',
-      'Pickles Kristen',
-      'Munnoch Sally',
-      'Knight Patricia',
-      'Bernotas Amy',
-      'Chen Stanley',
-      'Ng Rachel',
-      'Mathieu Erin',
-      ''
+      'Roach Michelle',
+      'Rose Pauline',
+      'Ngo Diana',
+      'Pradhan Anisha',
+      'Bailey Eliza',
+      'Barker Sylvia',
+      'Buxton Stacey',
+      'Hughes Meg',
+      'Jones Karen',
+      'Macleod Paula',
+      'Oataway Kirsten',
+      'Vigar Gabrielle',
+      'McErlean Gemma'
     ],
-    journal: 'Infection, disease & health',
-    doi: '10.1016/j.idh.2025.07.003',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813147/'
+    journal: 'Journal of medical imaging and radiation oncology',
+    doi: '10.1111/1754-9485.70002',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817701/'
   },
   {
-    id: '40813141',
-    title: 'Leveraging large language models to inform paediatric chronic condition care: a cross-sectional study.',
-    abstract: 'This study assessed how ChatGPT 3.5, ChatGPT 4.0 and Google Gemini perform in providing educational content about coeliac disease and type 1 diabetes mellitus. We analysed 76 frequently asked questions for accuracy, comprehensiveness, readability and consistency. The models delivered highly accurate and comprehensive responses across the board. While ChatGPT 4.0 offered the most readable content, all models struggled with overall readability. Each model maintained consistent performance throughout testing. These results indicate that large language models show promise as supplementary tools for patient education in chronic paediatric conditions, though improvements in readability are needed to enhance accessibility.',
-    published: '2025-Aug-14',
+    id: '40817697',
+    title: 'Expectations, Experiences and Contexts of European Midwives Pursuing a Doctoral Degree: A Twenty-Three-Country Exploratory Survey.',
+    abstract: 'BACKGROUND: Despite the increasing number of doctorally prepared midwives in Europe, particularly after the Bologna Declaration 1999, little is known about the context and experiences of their doctoral education.\n' +
+      "AIM: To explore European initially qualified midwives' experiences with doctoral education; and the context of their education through their professional associations.\n" +
+      'DESIGN: An exploratory descriptive observational survey.\n' +
+      'METHODS: An ethically approved web-based survey was used to collect data from midwifery associations and midwives in 33 European countries between October and December 2024. Descriptive statistics and inductive thematic analysis were used to analyse the responses.\n' +
+      'RESULTS: Twenty-two midwifery associations from 19 European countries and 207 midwives from 23 European countries participated. Over the last two decades, there has been an increase in the number of doctorally prepared midwives. Common reasons to gain doctoral qualifications included an interest in research, career progression, in particular in education, and improving healthcare. Midwives reported growing availability of European-wide opportunities for doctoral programmes, alongside an increase in the number of doctoral midwifery programmes and supervisors with midwifery expertise. Although many barriers were reported, effectively combining study with their personal life and support from family, friends and colleagues was highlighted as crucial factors in completing their doctoral studies.\n' +
+      "CONCLUSION: This is the first study exploring the experiences of European midwives pursuing a doctoral degree. The findings highlight a need for universities to improve the collaboration with midwives' supportive networks as well as for the profession to reduce intraprofessional hostilities to enhance doctoral midwifery students' well-being. Implications for the profession: Acknowledging challenges faced by these midwives is necessary to improve professional and institutional support in academia and midwifery.\n" +
+      'IMPACT: Findings of this study inform strategies to improve doctoral education for midwives and, in this way, strengthen the contributions of midwives to maternal evidenced-based care development and healthcare innovations.\n' +
+      'REPORTING METHOD: The Consensus-Based Checklist for Reporting of Survey Studies (CROSS) was used to guide reporting.\n' +
+      'PATIENT OR PUBLIC CONTRIBUTION: This study did not include patient or public involvement in its design, conduct or reporting.',
+    published: '2025-Aug-16',
     authors: [
-      'Jamil Syed Furrukh',
-      'Alshathri Nada N',
-      'Alsalamah Seham S',
-      'Almansour Nura A',
-      'Alsalamah Faris S',
-      'Hameed Tahir K',
-      'Alqanatish Jubran T'
+      'Vermeulen Joeri',
+      'Luyben Ans',
+      "O'Connell Rhona",
+      "O'Connell Maeve",
+      'Vivilaki Victoria',
+      'McNeill Liz',
+      'Sinclair Marlene',
+      'Fleming Valerie',
+      'Fobelets Maaike'
     ],
-    journal: 'BMJ paediatrics open',
-    doi: '10.1136/bmjpo-2025-003742',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813141/'
+    journal: 'Journal of advanced nursing',
+    doi: '10.1111/jan.70144',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817697/'
   },
   {
-    id: '40813139',
-    title: 'Risk factors for hospital admission and length of stay for children with and without congenital anomalies: a EUROlinkCAT cohort study.',
-    abstract: 'OBJECTIVE: To evaluate risk factors for hospital admission and length of stay (LOS) among children with and without congenital anomalies (CAs).\n' +
-      'DESIGN: A population-based linkage cohort study including 50 353 children with major CAs and 1 259 925 children without CAs from four EUROCAT registry areas in three countries. Data on children born 1995-2014 were linked to hospital discharge databases 1995-2015. HRs and incidence rate ratios estimated risk of admission and LOS for children aged <1 and 1-4 years by birth cohort, gestational age, sex, maternal age, multiple births and maternal education. Estimates were pooled using random effects meta-analysis.\n' +
-      'RESULTS: In children <1 year, twins/triplets with CAs were 34% more likely to be admitted and had over two times the LOS compared with singletons, while twins/triplets without CAs were over two and a half times as likely to be admitted and had six times longer stays. Despite this, a higher proportion of twins/triplets with CAs were admitted compared to those without CAs (91% vs 65%) and had longer LOS (20 days vs 10). Smaller increases in risk of admission or LOS were found in boys, young mothers and low maternal education. Preterm birth was a major risk factor for admission and LOS.\n' +
-      "CONCLUSIONS: While the impact of risk factors on hospital admission and LOS was generally greater in children without CAs, a higher proportion of children with CAs were admitted and had longer stays. These findings have implications for health care planning and for counselling parents regarding their child's future healthcare needs.",
-    published: '2025-Aug-14',
+    id: '40817672',
+    title: 'A Multidisciplinary Analysis for Clinical Implications of Denture Use in Patients Presenting With Deep Neck Infections.',
+    abstract: 'BACKGROUND: Deep neck infection (DNI) is a potentially life-threatening condition, most commonly arising from odontogenic sources. Dentures frequently act as reservoirs for polymicrobial biofilms, facilitating the persistence and potential transmission of oral pathogens. Despite their widespread use, the role of dentures in predisposing individuals to DNI has not been thoroughly investigated. This study seeks to elucidate the possible association between denture use and the incidence of DNI, thereby addressing a gap in the current understanding of orodental risk factors in DNIs.\n' +
+      'METHODS: A total of 337 patients diagnosed with DNI between August 2018 and July 2024 were retrospectively enrolled in this study. Among them, 29 individuals were identified as denture wearers. Relevant clinical parameters, including demographic data, comorbidities, infection characteristics, and treatment outcomes, were systematically analyzed to assess potential associations with denture use.\n' +
+      'RESULTS: Involvement of the parapharyngeal ( = .0172), submandibular ( = .0190), and parotid ( = .0213) spaces in DNI was significantly more frequent in patients with dentures compared to those without. Univariate analysis identified age ≥60 years (odds ratio [OR] 27.000; 95% confidence interval [CI], 2.5034-291.19;  = .0010), C-reactive protein (CRP) level ≥220 mg/L (OR 8.5000; 95% CI, 1.2471-57.933;  = .0201), and involvement of ≥3 deep neck spaces (OR 8.4444; 95% CI, 1.2261-58.159;  = .0258) as significant risk factors for prolonged hospitalization. However, in multivariate logistic regression analysis, only age ≥60 years remained a significant independent predictor of prolonged hospitalization (OR 18.494; 95% CI, 1.5789-216.63;  = .0201).\n' +
+      'CONCLUSION: In patients with DNI who wore dentures, univariate analysis identified age 60 years or older, CRP levels of 220 mg/L or higher, and involvement of three or more deep neck spaces as significant predictors of prolonged hospitalization. However, multivariate analysis demonstrated that only age 60 years or older remained an independent risk factor for extended hospital stay. These findings highlight the need for targeted health education and preventive measures in elderly denture users to reduce the risk of severe DNI and its complications.',
+    published: '2025-Aug-16',
     authors: [
-      'Given Joanne',
-      'Garne Ester',
-      'Morris Joan K',
-      'Baldacci Silvia',
-      'Ballardini Elisa',
-      'Gissler Mika',
-      'Gorini Francesca',
-      'Kiuru-Kuhlefelt Sonja',
-      'Urhoj Stine Kjaer',
-      'Manfrini Marco',
-      'Tan Joachim',
-      'Loane Maria'
+      'Lee Tsai-Fu',
+      'Ho Chia-Ying',
+      'Wang Yu-Chien',
+      'Chin Shy-Chyi',
+      'Chan Kai-Chieh',
+      'Chen Shih-Lung'
     ],
-    journal: 'BMJ paediatrics open',
-    doi: '10.1136/bmjpo-2025-003586',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813139/'
+    journal: 'Ear, nose, & throat journal',
+    doi: '10.1177/01455613251366041',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817672/'
   },
   {
-    id: '40813107',
-    title: 'Disease activity trajectories in paediatric lupus and associations with socioeconomic factors and patient-reported pain.',
-    abstract: 'OBJECTIVE: Using data from participants with paediatric SLE (pSLE) in the Childhood Arthritis and Rheumatology Research Alliance Registry, we aimed to: (1) describe 2-year disease activity trajectories, measured by the SLE Disease Activity Index 2000 (SLEDAI 2K); (2) identify characteristics associated with each trajectory and (3) assess achievement of lupus low disease activity state (LLDAS) and associated baseline characteristics.\n' +
-      'METHODS: Participants were diagnosed with pSLE within 12 months of baseline visit. Baseline sociodemographic, clinical and treatment characteristics were included in latent trajectory analyses. Associations between patient characteristics with trajectory groups and LLDAS were analysed with multinomial generalised logistic regression modelling.\n' +
-      'RESULTS: 1002 patients were screened; 553 were included for SLEDAI 2K and 269 for LLDAS analyses. SLEDAI 2K trajectories included (T1) low and stable, (T2) high and decreasing, (T3) intermediate and stable. In multinomial generalised logistic regression, baseline SLEDAI 2K score and insurance type were significantly associated with trajectories. 51% (136/269) of patients achieved LLDAS at least once in 24 months as compared with 17% (47/269) at first assessment. LLDAS attainment at both time points was predicted by lower pain interference scores; LLDAS attainment over 24 months was also associated with baseline American College of Rheumatology classification criteria, rituximab use at baseline and highest completed level of parent/guardian education.\n' +
-      'CONCLUSIONS: Disease activity trajectories in a pSLE cohort were predicted by baseline SLEDAI 2K and insurance. Only half of the patients achieved LLDAS during the 2-year study period, which was predicted by baseline characteristics including pain interference. The relationship between disease activity and socioeconomic factors and pain warrants further investigation to identify modifiable factors to reduce pSLE disease activity.',
-    published: '2025-Aug-14',
-    authors: [
-      'Case Siobhan',
-      'Hill C Larry',
-      'Shrader Peter',
-      'Dennos Anne',
-      'Phillips Thomas',
-      'Schanberg Laura Eve',
-      'von Scheven Emily',
-      'Barbour Kamil',
-      'Knight Andrea M',
-      'Hersh Aimee',
-      'Son MaryBeth',
-      ''
-    ],
-    journal: 'Lupus science & medicine',
-    doi: '10.1136/lupus-2025-001521',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813107/'
+    id: '40817619',
+    title: "Students' Perceptions of Social Media Use as a Learning Tool in Dental Education: A Cross-Sectional Survey.",
+    abstract: 'PURPOSE: This survey study aims to investigate the extent and purposes of using social media as a learning tool by dental students during their education process and to raise awareness among educators in this field. It is of interest whether social media platforms, such as YouTube, which are rich in theoretical and practical visuals in various professional fields, support the learning process in dental education as well, and what the attitudes of our students are toward this subject.\n' +
+      'MATERIALS AND METHODS: In order to conduct the study, a survey consisting of Likert-type and multiple-choice questions was prepared to be administered to first-, second-, third-, fourth-, and fifth-year students of Faculty of Dentistry Muğla Sıtkı Kocman University. Printed survey forms were distributed to the faculty students who were invited through an announcement poster, collected by an independent assistant unrelated to the research, and delivered to the responsible researcher.\n' +
+      "RESULTS: The responses to the fully and accurately completed survey questions were analyzed using the SPSS 20 program, and the results were compared through Pearson's chi-square analysis based on N and % values.\n" +
+      "CONCLUSIONS: Despite students expressing a clear need for formal academic education and perceiving social media as a supplementary resource, academic level, gender, and clinical phase play a critical role in shaping students' perceptions of social media as a learning tool. Also, prosthetic and restorative dentistry are the most preferred specialties for watching videos.",
+    published: '2025-Aug-15',
+    authors: [ 'Kısakürek Seniha', 'Bayırlı Ali Batuhan', 'Halıcı Saniye Eren' ],
+    journal: 'Journal of dental education',
+    doi: '10.1002/jdd.70011',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817619/'
   },
   {
-    id: '40813099',
-    title: 'From poverty to health: intraurban inequalities in child health indicators in low-income and middle-income countries during the SDG era.',
-    abstract: 'INTRODUCTION: Urban areas are generally associated with better health outcomes. However, in many low-income and middle-income countries (LMICs), rapid urbanisation has led to significant health disparities. These inequalities, especially those affecting the urban poor, are often overlooked in studies focused solely on rural-urban differences. This study aimed to assess the overall and country-specific intraurban inequalities in under-5 and neonatal mortality rates, immunisation coverage, care-seeking for acute respiratory infections (ARIs), coverage of diarrhoea treatment, and stunting, wasting and overweight in children under 5.\n' +
-      'METHODS: Demographic and Health Survey datasets collected since 2015 from 48 LMICs were analysed. We constructed an urban poor cluster using the United Nations Human Settlements Programme definition for slums and categorised them as urban poor and urban non-poor clusters. The Wagstaff normalised concentration index (WCI) and concentration curve were used to assess urban poverty-related inequalities in child health indicators.\n' +
-      'RESULTS: In LMICs, 13.7% (95% CI: 13.6% to 13.9%) of urban children lived in poor clusters, with over 65% of urban clusters classified as poor in Chad, Ethiopia and Afghanistan. All child health indicators, except neonatal mortality, exhibited significant inequality between the urban poor and non-poor. Despite some inconsistencies across countries, there were pro-urban poor inequalities in under-5 mortality (WCI=-0.069), stunting (WCI=-0.121) and wasting (WCI=-0.088). Full vaccination coverage (WCI=0.078), overweight (WCI=0.087), care-seeking for children with acute respiratory infections (WCI=0.131) and receiving oral rehydration salts and zinc for diarrhoea (WCI=0.127) showed pro-urban non-poor inequality in LMICs.\n' +
-      'CONCLUSIONS: Substantial intraurban inequalities were observed in child health indicators. Under-5 mortality, stunting and wasting were concentrated among urban poor children, while health service utilisation and overweight were concentrated among urban non-poor children. Improving access to clean water, sanitation, quality healthcare and education in underserved urban areas, along with combating urban poverty and promoting healthy lifestyles, is essential for achieving better health outcomes.',
-    published: '2025-Aug-14',
+    id: '40817618',
+    title: 'The evolving role of genetic counselors in South Africa: A decade of growth.',
+    abstract: 'Genetic counseling has evolved from focusing solely on congenital anomaly prevention to incorporating psychological counseling. Traditionally, its goal has been to enhance patient care by providing clinical information and facilitating psychological adjustment. However, with the rise of genomics and complex testing technologies, genetic counselors now engage in education, research, clinical practice, and laboratory roles. A previous study from 2013 described the role of genetic counselors in South Africa. This current study provides an updated perspective on these findings and how these roles have diversified. Registered independent genetic counselors were invited via email to complete an electronic survey adapted from the previous study conducted in 2013. The survey collected data on information pertaining to (1) demographics, (2) genetic counseling experience and employment, and (3) work/clinical practice. Data were analyzed using descriptive statistics. Of 44 contacted genetic counselors, 29 responded. Most were female (97%), under 40 years old (60%), and had practiced for less than 10 years (59%). Although many genetic counselors took on multiple responsibilitiessuch as clinical, administrative, research, and teaching-the proportion primarily working in clinical roles declined from 75% (12/16) in 2013 to 45% (10/22) in 2023. Notably, genetic counselors involved in teaching and training had significantly fewer years in practice (p = 0.0396; CI 95%), suggesting a loss of expertise in academic centers. A new trend observed since 2013 is laboratory-based responsibilities, with 68% of participants reporting duties in this area. The role of genetic counselors in South Africa has expanded substantially over the past decade, with a shift away from predominantly clinical roles. These findings highlight the need for adaptation of training programs and strategic workforce planning to retain expertise in academic centers and ensure the continued growth of the profession.',
+    published: '2025-Aug',
     authors: [
-      'Tebeje Tsion Mulat',
-      'Aregu Mekonnen Birhanie',
-      'Asgedom Yordanos Sisay',
-      'Gebrekidan Amanuel Yosef',
-      'Abebe Mesfin'
+      'Gilfillan Elzette',
+      'Araujo Monica',
+      'Kromberg Jennifer',
+      'Wessels Tina-Marie',
+      'Fourie Katryn'
     ],
-    journal: 'BMJ global health',
-    doi: '10.1136/bmjgh-2025-019134',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813099/'
+    journal: 'Journal of genetic counseling',
+    doi: '10.1002/jgc4.70097',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817618/'
   },
   {
-    id: '40813056',
-    title: 'Autonomous ground vehicles for MEDEVAC: capability assessment based on agent-based modelling.',
-    abstract: "INTRODUCTION: Medical evacuation (MEDEVAC) is a crucial component of military healthcare, and the time during which evacuation of the wounded, injured and ill individuals happens is one of the most critical factors. The article focuses on the initial phase of ground evacuation from the Point of Injury to the casualty collection point (CCP). Casualty transport is the combat unit's task, triggered by a 9-liner MEDEVAC request. Two variants are considered: evacuation by means of one armoured vehicle per CCP according to the actual doctrine and potential evacuation using a fleet of autonomous unmanned vehicles.\n" +
-      'METHODS: The analysis and comparison are based on data (injury time and position) obtained from computer-assisted exercises, and a simulation combining agent-based modelling and discrete events simulation methods is applied to compare two approaches.\n' +
-      'RESULTS: The simulation results show that using distributed transport capability, represented by unmanned ground vehicles (UGVs), is more effective because it allows for prioritising casualties based on the injury category. The evacuation effectiveness is quantified in relation to the number of UGVs used.\n' +
-      'CONCLUSIONS: The use of UGVs can improve the care of the wounded, assuming the involvement of advanced technologies, including artificial intelligence. Information about the time and place of casualties is the key for decision makers to achieve the benefit, which should be ensured through potential monitoring of the physical condition of the wounded (body sensors and data transmission in case of injury).',
-    published: '2025-Aug-14',
+    id: '40817452',
+    title: 'What Community Members With Chronic Illness Teach Future Healthcare Professionals in a Longitudinal Interprofessional Education Program: A Focus Group Study.',
+    abstract: "INTRODUCTION: Nearly 50% of Americans have at least one chronic illness. Preparing future healthcare providers for interprofessional collaborative practice (IPCP) and person-centred care through community-based interprofessional education (IPE) can improve outcomes for this growing population. Partial programme theories predict that patients' participation as teachers in health professions education contributes to students' development of patient-centredness. Role theory asserts that behaviours are shaped by assigned roles; therefore, community members with chronic illness who assume roles of health mentors in an IPE curriculum are predicted to teach students about their patient experiences. Yet, this teaching outcome and the lessons health mentors teach in semi-structured student-led meetings are underexplored.\n" +
+      'GOALS: This project explored what community members with chronic conditions teach future healthcare professionals about their conditions/disabilities and healthcare access and quality in a health mentors IPE programme.\n' +
+      'METHODS: Thirty-eight health mentors participated in focus groups and were surveyed for demographic information. Directed content analysis was performed, drawing on prior research, programme theory and core competencies in IPCP and disability.\n' +
+      "RESULTS: Four themes were identified related to barriers in accessing healthcare: environmental factors, insurance, cost and time. Themes regarding chronic conditions, disabilities or healthcare quality included education about the patient journey, communication, person-centred care, team collaboration, advocacy, empathy, impact of providers' words and shared decision-making.\n" +
+      'CONCLUSION: Partial programme theories suggest these lessons are especially impactful when delivered by patients. Aligned with role theory, our findings suggest that clinical teachers can rely on health mentors to share key lessons with students within a semistructured student-led context.',
+    published: '2025-Oct',
     authors: [
-      'Procházka Dalibor',
-      'Šedivcová V',
-      'Melichar J',
-      'Tesař A',
-      'Schvach H'
+      'White Rachel',
+      'Brucato Maria',
+      'King Amber',
+      'Mitchell Anne B',
+      'Ankam Nethra S'
     ],
-    journal: 'BMJ military health',
-    doi: '10.1136/military-2024-002885',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40813056/'
+    journal: 'The clinical teacher',
+    doi: '10.1111/tct.70181',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817452/'
   },
   {
-    id: '40812981',
-    title: 'The importance of diversity within surgical education.',
-    abstract: 'No abstract available',
-    published: '2025-Sep',
-    authors: [
-      'Medina Cathlyn K',
-      'Camarena Adrian',
-      'Kang Lillian',
-      'Kanu Elishama',
-      'Fernandez-Moure Joseph',
-      'Quinones Patricia Martinez',
-      'Vatsaas Cory J'
-    ],
-    journal: 'Current problems in surgery',
-    doi: '10.1016/j.cpsurg.2025.101856',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40812981/'
+    id: '40817427',
+    title: 'Trends in the Acquisition of Clinical Reasoning in the Assessment of Speech Sound Disorders: Using the Script Concordance Test.',
+    abstract: 'PURPOSE: Clinical reasoning is essential for speech-language pathologists (SLPs) when addressing ill-defined questions in various clinical settings. This study focuses on the acquisition of clinical reasoning skills in SLP students, particularly their evolution with clinical experience. To achieve this, the study developed and validated the first cloud-based script concordance test (SCT) tailored for assessing clinical reasoning skills in SSD diagnosis.\n' +
+      'METHODS: An expert panel of 15 SLPs (average experience of 20.3 years) helped develop and score the SCT, which was administered to 51 undergraduate students (22 sophomores, 18 juniors, and 11 seniors). Statistical analyses examined the predictive role and trend of clinical experience in three dimensions (utility, interpretation, and diagnosis).\n' +
+      'RESULTS: A significant difference in mean SCT scores was found between the expert panel and student groups (p < 0.05). Trend analysis showed a significant impact of clinical experience on SCT performance across all dimensions (all Fs > 9.91, p < 0.001), with greater experience linked to better reasoning skills. Low-scoring items highlighted challenges with stimulability testing, indicating a lack of clinical consensus.\n' +
+      'CONCLUSIONS: This study demonstrates that clinical reasoning skills in SSD assessment become more refined with accumulated experience. The SCT developed effectively differentiates reasoning abilities between experts and students, offering a valuable tool for advancing clinical decision-making in speech-language pathology. These findings have practical implications, empowering SLP educators to design effective training programs and preparing students for the challenges they may face in clinical practice.\n' +
+      "WHAT THIS PAPER ADDS: What is already known on this subject? The knowledge base of clinical practitioners includes both content and its organization. Clinical reasoning is the cognitive ability to integrate, organize, and interpret information as a key aspect of expertise in evidence-based practice. Recently, script concordance tests, which use case-based scenarios to reflect clinical decision-making processes, have become a popular method for assessing these reasoning skills. What this paper adds to existing knowledge? This study is the first to empirically show that clinical reasoning skills in speech-language pathology, particularly in assessing speech sound disorders, are progressively refined through clinical experience. It highlights that students' reasoning skills during internships appear to be influenced by supervisory clinical approaches, potentially affecting diagnostic abilities. These reasoning skills may improve with further clinical experience or targeted continuing education. Additionally, the study developed the first SCT focused on SSD evaluation, demonstrating its effectiveness in distinguishing between expert and student clinical reasoning and decision-making abilities. What are the potential or actual clinical implications of this work? A recent goal in clinical education is to make clinical reasoning processes more explicit and structured during training. Creating comprehensive case assessment scripts and designing concrete clinical thinking guidance programs integrated with effective measurement, such as the SCT developed in this study, could serve as teaching objectives for the clinical diagnosis of SSD.",
+    published: '2025',
+    authors: [ 'Chan Ting-Fang', 'Yeh Li-Li' ],
+    journal: 'International journal of language & communication disorders',
+    doi: '10.1111/1460-6984.70105',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40817427/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
-No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 5)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijiim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijiim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijiim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
+  }
+}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1370,191 +1522,6 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     port: 80
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1725,25 +1692,25 @@ Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 20/40
 Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 21/40
-Translating paper: Climate-related challenges to brain health: A Euro...
+Translating paper: Chores Participation, Self-Efficacy, and Transitio...
 Translating paper 22/40
-Translating paper: Training in movement disorders during neurology re...
+Translating paper: Neural Mechanisms of Decision Making Under Risk of...
 Translating paper 23/40
-Translating paper: Kidney failure risk equation (KFRE), A risk-based ...
+Translating paper: Assessment of Rheumatologists' Perspectives on Uve...
 Translating paper 24/40
-Translating paper: Gloves off!: Environmental and financial impacts o...
+Translating paper: A Survey Study on the Roles, Responsibilities and ...
 Translating paper 25/40
-Translating paper: Leveraging large language models to inform paediat...
+Translating paper: Expectations, Experiences and Contexts of European...
 Translating paper 26/40
-Translating paper: Risk factors for hospital admission and length of ...
+Translating paper: A Multidisciplinary Analysis for Clinical Implicat...
 Translating paper 27/40
-Translating paper: Disease activity trajectories in paediatric lupus ...
+Translating paper: Students' Perceptions of Social Media Use as a Lea...
 Translating paper 28/40
-Translating paper: From poverty to health: intraurban inequalities in...
+Translating paper: The evolving role of genetic counselors in South A...
 Translating paper 29/40
-Translating paper: Autonomous ground vehicles for MEDEVAC: capability...
+Translating paper: What Community Members With Chronic Illness Teach ...
 Translating paper 30/40
-Translating paper: The importance of diversity within surgical educat...
+Translating paper: Trends in the Acquisition of Clinical Reasoning in...
 Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 32/40
@@ -1765,25 +1732,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 40 papers
-Removed duplicates: 925 -> 895
-Total papers after merging: 895 (885 existing + 40 new)
-Saved 895 papers to papers.json
+Removed duplicates: 935 -> 905
+Total papers after merging: 905 (895 existing + 40 new)
+Saved 905 papers to papers.json
 Generating HTML files...
-Generating index.html with 895 papers...
+Generating index.html with 905 papers...
 Successfully generated index.html
-Generating archive.html with 895 papers...
+Generating archive.html with 905 papers...
 Successfully generated archive.html
-Generating journal.html with 895 papers...
+Generating journal.html with 905 papers...
 Successfully generated journal.html
-Generating acquisition.html with 895 papers...
+Generating acquisition.html with 905 papers...
 Successfully generated acquisition.html
-Generating publication.html with 895 papers...
+Generating publication.html with 905 papers...
 Successfully generated publication.html
-Generating registration.html with 895 papers...
+Generating registration.html with 905 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 895
+Total papers in database: 905
 New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-15T15:34:05.176Z
+Timestamp: 2025-08-16T15:32:10.976Z
