@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-17T15:09:56.463Z
+Timestamp: 2025-08-18T15:12:29.776Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 905 existing papers from papers.json
+Loaded 915 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -297,6 +297,8 @@ Fetched papers from arXiv: [
 ]
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
+Rate limited. Retrying after 2000ms...
+Rate limited. Retrying after 4000ms...
 Request failed. Retrying after 2000ms...
 Request failed. Retrying after 2000ms...
 Request failed. Retrying after 2000ms...
@@ -322,7 +324,7 @@ Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API 
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 1)
+    at async Promise.all (index 2)
     at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -332,7 +334,7 @@ Error fetching Semantic Scholar papers: Error: Semantic Scholar API request fail
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 1)
+    at async Promise.all (index 2)
     at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -342,7 +344,7 @@ Error collecting papers from semanticScholar: Error: Semantic Scholar API reques
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 1)
+    at async Promise.all (index 2)
     at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
@@ -354,7 +356,19 @@ Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API 
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 0)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
     at async Promise.all (index 4)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 7)
 Fetched papers from Springer: [
   {
     id: '10.1007/978-3-031-98185-2_9',
@@ -534,8 +548,13 @@ Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API 
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 2)
-Fetching papers from pubmed...
+    at async Promise.all (index 9)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 1)
 Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
@@ -547,518 +566,208 @@ Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API 
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
+    at async Promise.all (index 5)
+Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
     at async Promise.all (index 8)
 Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 9)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 5)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 7)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
     at async Promise.all (index 3)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 0)
+Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40819228',
-    title: 'Leveraging State-Supported Continuing Education for Health Care Professionals to Address Public Health Priorities: A 5-Year Retrospective Case Study on the District of Columbia Program.',
-    abstract: "This case study explores the development, implementation, and outcomes of an innovative public health continuing education program designed by the District of Columbia Department of Health to align health care professionals' education with public health priorities. The District of Columbia Center for Rational Prescribing program released high-quality accessible education to health care professionals from October 2020 through July 2024. With 15 504 enrollments and a 71.9% completion rate, the program demonstrated substantial engagement of health care professionals. Additionally, of the 10 824 participants who completed a postcourse survey, 90.8% agreed or strongly agreed that the courses enabled them to make key decisions in their practice. These findings indicate not only that the program attracted many participants but also that state-supported topics were highly relevant and applicable to the professionals' practices, equipping them with tools to tackle public health issues in their communities.",
-    published: '2025-Aug-17',
+    id: '40820885',
+    title: "Factors influencing healthcare workers' vaccine recommendations: A cross-sectional study in Zhejiang Province, China.",
+    abstract: "To investigate factors influencing vaccine recommendations by healthcare workers (HCWs) in Zhejiang Province, China. A cross-sectional survey was conducted among 569 HCWs to assess their beliefs and attitudes toward vaccines, vaccine recommendations and barriers to recommending vaccinations. Logistic regression was utilized to analyze influencing factors. Most participants (89.4%) believed that vaccines can effectively protect children's health. Higher professional titles (aOR = 1.24, 95% CI: 1.03-1.50) and increased vaccine confidence (aOR = 1.10, 95% CI: 1.05-1.16) were positively associated with vaccine recommendation behaviors, while increased vaccine risk perception significantly reduced recommendations (aOR = 0.84, 95% CI: 0.78-0.90). Moreover, vaccine hesitancy among HCWs was primarily driven by two main factors: safety concerns regarding immunization (60.8%) and cognitive biases related to vaccine necessity and efficacy (25.8%). This study elucidates professional title advancement and vaccine confidence as critical determinants of vaccine recommendation behaviors among HCWs in Zhejiang Province, China. To improve vaccine acceptance and achieve higher immunization coverage, targeted vaccine education and confidence-building programs should be integrated into HCWs' professional training.",
+    published: '2025-Dec',
     authors: [
-      'Downing Gregory',
-      'Mayewski Zarah',
-      'Tramontozzi Lucas M',
-      'Plotke Melanie',
-      'Ortique Justin'
+      'Zhao Jing',
+      'Li Mingyan',
+      'Zeng Yan',
+      'Xu Yuyang',
+      'Yao Dan',
+      'Wang Xia',
+      'Ji Chai'
     ],
-    journal: 'Public health reports (Washington, D.C. : 1974)',
-    doi: '10.1177/00333549251358663',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819228/'
+    journal: 'Human vaccines & immunotherapeutics',
+    doi: '10.1080/21645515.2025.2543166',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820885/'
   },
   {
-    id: '40819204',
-    title: 'Ethnic Influence in Breast Reconstruction: A Comparative Study in the Bedouin Population.',
-    abstract: 'BACKGROUND: Breast reconstruction following oncological resection offers psychosocial benefits. Various factors influence patient reconstruction decisions, including ethnicity, socioeconomic status, and education. We investigated disparities in breast reconstruction among Bedouin and non-Bedouin women in the Negev region.\n' +
-      'OBJECTIVES: To investigate the influence of ethnicity in breast reconstruction decisions between Bedouin and non-Bedouin women in Israel and to identify factors influencing the choice of reconstruction following oncological breast surgery.\n' +
-      'METHODS: In this retrospective cohort study, we examined women undergoing breast cancer surgery, with or without reconstruction, between 2015 and 2021 in a breast cancer referral center. Demographics and detailed medical data were collected from electronic health records. We analyzed the factors that influenced decisions regarding breast reconstruction.\n' +
-      'RESULTS: The study included 1415 patients who underwent breast resection. Age was a significant factor in breast reconstruction choices, with younger patients being more likely to choose reconstruction. Marital status and education level influenced the decision, whereas socioeconomic status and number of children did not. Ethnicity analysis highlighted distinct demographic and socioeconomic differences between Bedouin and non-Bedouin women. Despite these disparities, surgical choices did not differ significantly between ethnicities.\n' +
-      'CONCLUSIONS: Significant disparities exist between Bedouin and non-Bedouin women in terms of sociodemographic factors. However, these disparities did not affect their breast reconstruction decisions. Age, marital status, and education level influenced the decision to reconstruct the breast.',
-    published: '2025-Aug',
+    id: '40820882',
+    title: 'Comparing Approaches to Teaching Patients How to Use an App-Based Home Spirometer: Randomized Controlled Trial.',
+    abstract: 'BACKGROUND: Bluetooth-enabled, app-based home spirometry has been validated for use in the diagnosis and monitoring of respiratory disease. Remote teaching (virtual or self-directed) of patients on how to use an app-based home spirometry offers the opportunity to deliver diagnostics safely and at scale. However, the most appropriate method of teaching home spirometry to patients is unknown.\n' +
+      'OBJECTIVE: The aim of this pragmatic study undertaken during the COVID-19 pandemic was to determine whether virtual or self-directed teaching were valid methods for deploying home spirometry to patients referred for outpatient lung physiology testing.\n' +
+      "METHODS: REACH-SPIRO is a single-center, unblinded, randomized controlled trial of adults referred for spirometry. Participants were randomized (1:1:1) to be taught to use a Bluetooth, app-based spirometer either (A) face-to-face, (B) virtually (live video conferencing), or (C) self-directed. Forced vital capacity (FVC) and forced expiratory volume in 1 second (FEV1) were recorded. Home spirometry (Spirobank Smart Spirometer) readings for each training modality were compared with gold standard hospital measurements (Vyaire Medical) using Bland-Altman Limits of Agreement (LoA). Patients' feedback questionnaires on acceptability and adherence were also collected, and common themes were described using content analysis.\n" +
+      'RESULTS: A total of 106 participants were randomized. Bland-Altman analysis between hospital and home FEV1 measurements for group A showed a mean difference of 0.108L, LoA -0.331L to 0.548L, group B 0.152L, LoA -0.358L to 0.661L, and group C 0.153L, LoA -0.358L to 0.661L. FVC measurements in group A showed a mean difference of 0.123L, LoA -0.402L to 0.648L, group B 0.249L, LoA -0.297L to 0.795L, and group C 0.340L, LoA -0.556L to 1.235L. There was no significant difference between randomized arms for either mean FEV1 (P=.41) or FVC (P=.84). Patient feedback was similar across all groups, with more positive feedback for face-to-face and virtual teaching methods.\n' +
+      "CONCLUSIONS: There is no meaningful difference in spirometry measurement between patients taught to use a home spirometer remotely (virtual or self-directed) versus traditional face-to-face treatment. Patients' feedback was favorable to all three methods of teaching. This study supports the use of either virtual or self-directed teaching of home spirometry for the monitoring of respiratory disease. In doing so, we can improve access to spirometry in communities facing barriers to health care and clinically vulnerable populations.",
+    published: '2025-Aug-14',
     authors: [
-      'Retchkiman Meir',
-      'Marciano Dor',
-      'Farber Idan',
-      'Sheffer Lihie',
-      'Krieger Yuval',
-      'Shoham Yaron',
-      'Silberstein Eldad'
+      'Morgan Caitlin',
+      'Higbee Daniel',
+      'Dixon Catherine',
+      'Buckroyd Emma',
+      'Adamali Huzaifa',
+      'Barratt Shaney',
+      'Shrimanker Rahul',
+      'Hyams Catherine',
+      'White Paul',
+      'Dodd James William'
     ],
-    journal: 'The Israel Medical Association journal : IMAJ',
-    doi: null,
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819204/'
+    journal: 'JMIR formative research',
+    doi: '10.2196/74125',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820882/'
   },
   {
-    id: '40819184',
-    title: 'Preferences for implementing pharmacogenomics in pediatric primary care: a discrete choice experiment.',
-    abstract: "BACKGROUND: Pharmacogenomics services are primarily implemented in adult specialty practices, with limited focus on pediatrics, particularly in primary care. This study aimed to assess primary care providers' preferences for implementing pharmacogenomics services in their practice.\n" +
-      'METHODS: A discrete choice experiment using best-worst scaling was designed based on constructs from the Consolidated Framework for Implementation Research (CFIR) domains: Intervention Characteristics, Outer Setting, Inner Setting, Characteristics of Individuals, and Process. Questions and scenarios were developed as a survey to primary care providers at a multistate pediatric health system, to evaluate factors influencing pharmacogenomics service integration.\n' +
-      'RESULTS: Of 165 providers sent the survey, complete responses were received from 68 (41%). The most important constructs from the five CFIR domains were: Evidence Strength and Quality, Patient Needs and Resources, Access to Knowledge and Information, Knowledge and Beliefs, and Engaging and Champions. Least important constructs from the five domains were: Adaptability, Peer Pressure, Culture and Tension for Change, Individual Identification with Organization, and Opinion Leaders and External Change Agents.\n' +
-      'CONCLUSION: Primary care providers from this pediatric institution identified specific features essential for implementation of a pharmacogenomics service including engaging practitioners/champions, providing education, and establishing access to pharmacogenomic evidence and resources for providers and patients.\n' +
-      "IMPACT: Understanding pediatric providers' needs in implementing pharmacogenomics services, including education, resources, and organizational culture, is an underexplored area. The findings support informed strategies to integrate pharmacogenomics into pediatric care, enhancing its adoption into pediatric primary care. This study offers new insights into the pediatric primary care perspective on pharmacogenomics service implementation, highlighting essential priorities such as practitioner champions, targeted education, evidence access, and resource adequacy across a multistate pediatric institution.",
-    published: '2025-Aug-16',
+    id: '40820837',
+    title: 'Barriers to Early Hospital Presentation in Acute Stroke: Findings from a Cohort Study.',
+    abstract: 'BACKGROUND AND OBJECTIVES: The time taken to transport patients for thrombolytic therapy in stroke cases remains alarmingly high, compromising potential positive outcomes. Addressing these delays can enhance prehospital care and improve patient prognoses.\n' +
+      'AIM: This study aimed to identify factors causing delays in treating acute stroke patients at a tertiary care hospital in southern India, to inform better practices and expedite care.\n' +
+      'METHODS: Caregivers of ischemic stroke patients were interviewed about delays. Patients were divided into two groups: those who arrived within the critical four-and-a-half-hour window (Group A) and those who arrived later (Group B). Data collected included distance from home to hospital, transportation options, and mode of transport. A comparative analysis was performed between patients from stroke-ready facilities versus others, with data analyzed using SPSS software.\n' +
+      'RESULTS: The study included 594 patients, with 73.4% arriving outside the recommended window. Women represented one-third of the population overall and 20% in Group A. Younger patients arrived sooner (P < 0.0001). The main reason for delays was a lack of awareness of stroke symptoms (53.2%), followed by initial care sought at non-stroke-ready hospitals (23%). Use of ambulances and vehicle ownership significantly correlated with faster arrivals (P < 0.0001), while distance to the hospital did not significantly affect timeliness. Though most of the variables showed statistical significance between those coming to the hospital within and outside the four-and-a-half hour window with univariate analysis, none of the variables showed a significant association when subjected to logistic regression.\n' +
+      'CONCLUSIONS: Delays in stroke treatment are a major concern, linked to factors like age, gender, and transportation issues. No single factor independently predicted early hospital arrival. To improve outcomes, we need strategies that enhance public education, symptom recognition, and transportation-especially for vulnerable groups like women and the elderly.',
+    published: '2025-Jul-01',
+    authors: [ 'Menon Bindu', 'Conjeevaram Jyoti', 'Amavarapu Sudarsana' ],
+    journal: 'Annals of Indian Academy of Neurology',
+    doi: '10.4103/aian.aian_225_25',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820837/'
+  },
+  {
+    id: '40820830',
+    title: 'Association of Poverty Income Ratio with Metabolic Dysfunction-Associated Steatotic Liver Disease and Liver Fibrosis Among US Population.',
+    abstract: 'Background/Aims: Metabolic dysfunction-associated steatotic liver disease (MASLD) represents a recent update in defining fatty liver disease, emphasizing its strong connection to metabolic factors and reflecting a shift in understanding its causes and progression. The principal aim of this investigation was to scrutinize the conceivable association between the poverty income ratio (PIR) and the incidence of MASLD, specifically focusing on liver fibrosis. Materials and Methods: In this study, a cross-sectional analysis was carried out utilizing data obtained from the National Health and Nutrition Examination Survey dataset covering the period from 2017 to 2020. To explore the relationship between the PIR and the prevalence of MASLD as well as liver fibrosis, a robust multivariable analytical method was adopted. This approach integrated a wide range of variables, such as sociodemographic characteristics, lifestyle habits, and individual health conditions. Results: In this study, a comprehensive analysis was conducted using logistic regression models and found a significant decline in the likelihood of MASLD in the highest PIR quartile (Q4) (odds ratio [OR] = 0.634, 95% CI: 0.446-0.903, P = .012) as well as liver fibrosis (OR = 0.682, 95% CI: 0.503-0.925, P = .014). Conclusion: The findings obtained from this research strongly demonstrate that higher PIR levels are significantly associated with a reduced prevalence of both MASLD and liver fibrosis, suggesting that higher socioeconomic shighertatus, as reflected by higher PIR, may decrease the risk of these conditions. These findings underscore the need for targeted interventions, such as better nutrition education, lifestyle support, and healthcare access to reduce the MASLD burden in low-income populations.',
+    published: '2025-Jun-23',
+    authors: [ 'Guo Wenying', 'Weng Ting', 'Song Yufei' ],
+    journal: 'Turkish archives of pediatrics',
+    doi: '10.5152/tjg.2025.25021',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820830/'
+  },
+  {
+    id: '40820829',
+    title: 'Intensifying early diabetes education in youths with newly diagnosed type 1 diabetes for sustained glycemic outcomes.',
+    abstract: 'No abstract available',
+    published: '2025-Aug-18',
+    authors: [ 'Basu Arpita' ],
+    journal: 'The Journal of clinical endocrinology and metabolism',
+    doi: '10.1210/clinem/dgaf470',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820829/'
+  },
+  {
+    id: '40820793',
+    title: 'Combating Human Trafficking Through Education and Training: The Creation of an Outpatient Elective Experience in a Psychiatry Residency Program.',
+    abstract: "An outpatient elective module within a psychiatry residency program was established to train psychiatry trainees on caring for patients who have experienced human trafficking. A description of the year-long elective module and results of the residents' feedback on their experience in the elective are discussed.",
+    published: '2025',
     authors: [
-      'Duong Benjamin Q',
-      'Seligson Nathan D',
-      'Cook Kelsey J',
-      'Lemke Lauren',
-      'Arn Pamela',
-      'Pluta Kathryn',
-      'Funanage Vicky L',
-      'Salloum Ramzi G',
-      'Blake Kathryn V'
+      'Alhajji Lujain',
+      'Hadjikyriakou Maria',
+      'Martinez-Sosa Natalie',
+      'Abraham Omar Munoz',
+      'Potter JoNell'
     ],
-    journal: 'Pediatric research',
-    doi: '10.1038/s41390-025-04057-2',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819184/'
+    journal: 'Journal of health care for the poor and underserved',
+    doi: '10.1353/hpu.2025.a967350',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820793/'
   },
   {
-    id: '40819181',
-    title: 'Integrating circular fuzzy approach with an interval valued EDAS approach to evaluate teaching effectiveness in virtual and augmented reality classrooms.',
-    abstract: "Virtual reality (VR) and augmented reality (AR) technologies have created new possibilities that redefine the scope of modern education, allowing for the creation of entirely immersive and engaging learning environments. With the rapid adoption of these technologies to enhance educational environments, the importance of having methods to measure the effectiveness of teaching performance in such immersive settings has become increasingly crucial. This study introduces a new framework that integrates the circular interval-valued intuitionistic fuzzy (CIVIF) framework and the evaluation based on the distance from average solution (EDAS) method to assess teaching effectiveness in VR and AR classrooms. The proposed framework assesses various pedagogical strategies, learner engagement levels, and technological efficacy in VR/AR classrooms, taking into account the uncertainties inherent in these evaluations. The proposed framework is validated through experimental case studies in VR/AR classrooms, which demonstrate that collaborative AR projects are the most effective approach, followed by gamified learning and storytelling. The findings confirm that this hybrid approach provides greater objectivity and scalability, offering actionable insights for educators and administrators to identify strengths, weaknesses, and areas for improvement within a given methodology. These results demonstrate the model's ability to provide insight into enhanced teaching methodologies in immersive learning contexts. This research presents a transformative tool for education stakeholders, leading to data-driven increases in teaching effectiveness specific to the needs of next-generation classrooms.",
-    published: '2025-Aug-16',
-    authors: [ 'Xu Liguang' ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-14457-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819181/'
-  },
-  {
-    id: '40819172',
-    title: 'The impact of CNN MHAM-enhanced WRF and BPNN models for user behavior prediction.',
-    abstract: "To address the challenge of user behavior prediction on artificial intelligence (AI)-based online education platforms, this study proposes a novel ensemble model. The model combines the strengths of Convolutional Neural Network (CNN), Multi-Head Attention Mechanism (MHAM), Weighted Random Forest (WRF), and Back Propagation Neural Network (BPNN), forming an integrated architecture that enhances WRF and BPNN with CNN and MHAM. Experimental results demonstrate that the improved BPNN model, when combined with WRF, outperforms individual models in predicting user behavior. Specifically, the integrated model achieves a prediction accuracy of 92.3% on the test dataset-approximately 5% higher than that of the traditional BPNN. For imbalanced datasets, it attains a recall rate of 89.7%, significantly surpassing the unweighted random forest's 82.4%. The model also achieves an F1-score of 90.8%, reflecting strong overall performance in terms of both precision and recall. Overall, the proposed method effectively leverages the classification capabilities of WRF and the nonlinear fitting power of BPNN, substantially enhancing the accuracy and reliability of user behavior prediction, and offering valuable support for optimizing AI-driven online education platforms.",
-    published: '2025-Aug-16',
-    authors: [ 'Zheng Kaixin', 'Liang Zhensen' ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-15424-8',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819172/'
-  },
-  {
-    id: '40819152',
-    title: 'Education and training of surgical residents in upper gastrointestinal surgery: a European survey.',
-    abstract: "Educating and training young surgeons is a complex challenge that requires a structured pathway. Upper gastrointestinal (UGI) surgery is becoming a highly attractive subspecialty, yet it is not universally recognized. Currently, there are no standardized guidelines or curricula for UGI surgical training across Europe and a wide disparity among countries remains. This study aims to focus on the current European landscape from the perspective of both trainees and trainers, and to provide a foundation for developing effective guidelines for education and training of surgical residents. We conducted a cross-sectional survey study with targeted questions about various aspects of managing patients with UGI diseases, including preoperative investigations, surgical interventions, interventional endoscopy, and postoperative follow-up. We also assessed the availability of training resources and extracurricular activities. Distinct questionnaires were distributed independently to trainees and trainers. The overall response rate was 35.6%. Most trainees and trainers recognized the need for dedicated courses in UGI surgery and emphasized the importance of learning through video materials. The survey revealed that surgeons are often unfamiliar with UGI endoscopy and functional esophageal function studies. We analyzed residents' direct involvement in three surgical procedures: anti-reflux surgery, gastrectomy, and esophagectomy. Residents expressed a lack of confidence in executing certain surgical steps. Both trainers and residents expressed preference for extracurricular, hands-on courses focused on UGI surgery but reported insufficient opportunities for such training. This survey highlights significant gaps and limitations of UGI training for surgical residents in Europe. Efforts toward standardization and development of specific guidelines and recommendations are required to enhance education in UGI surgery.",
-    published: '2025-Aug-16',
+    id: '40820791',
+    title: 'Improving AI/AN Access to Care at a Specialty Academic Center in the American Southwest: Lessons Learned from a Practice Evaluation Initiative.',
+    abstract: 'This report describes a practice evaluation initiative aimed at improving access to tertiary referral care for American Indian and Alaska Native patients. It outlines challenges related to insurance coverage, electronic systems, and related logistical issues. Conversations with local tribal health leaders yielded future education and service collaboration opportunities.',
+    published: '2025',
     authors: [
-      'Popa Călin',
-      'Schlanger Diana',
-      'Aiolfi Alberto',
-      'Elshafei Moustafa',
-      'Theodorou Dimitrios',
-      'Skrobic Ognjan',
-      'Simic Aleksandar',
-      'Gisberz Suzanne',
-      'Bona Davide',
-      'Bonavina Luigi',
-      '',
-      'Abate Emanuele',
-      'Abdelsamad Ahmed',
-      'Achim Florin',
-      'Alfieri Rita',
-      'Balla Andrea',
-      'Borbely Yves',
-      'Boyle Nicholas',
-      'Brisinda Giuseppe',
-      'Bruni Piero Giovanni',
-      'Butt Waqas T',
-      'Calì Matteo',
-      'Calini Giacomo',
-      'Calu Valentin',
-      'Cammarata Francesco',
-      'Campanelli Giampiero',
-      'Castoro Carlo',
-      'Cavalli Marta',
-      'Chamzin Alexandros',
-      'Chirica Mircea',
-      'Chooklin Serge',
-      'Cillara Nicola',
-      'de Cillia Michael',
-      'Cristina Sandra',
-      "D'Acapito Fabrizio",
-      'Van Daele Elke',
-      'Dalmonte Giorgio',
-      'Daunia Verdi',
-      'De Bernardi Sara',
-      'Dejeu Viorel',
-      'Depypere Lieven',
-      'Enciu Octavian',
-      'Ferraz Félix',
-      'Figueiredo Gilberto Martinho Santos',
-      'Forcignanó Edoardo',
-      'Freire José',
-      'Fumagalli Uberto',
-      'Gatti Francesca',
-      'Gheorghe Mircea',
-      'Ghioldiş Andrei Cristian',
-      'Giuffrida Mario',
-      'Gockel Ines',
-      'Griffiths Ewen A',
-      'Grimminger Peter',
-      'Gronnier Caroline',
-      'Gutschow Christian',
-      'Hasnaoui Anis',
-      'Heidsiek Till',
-      'van Berge Henegouwen Mark Ivo',
-      'Hilário Sandra',
-      'Hoara Petre',
-      'Ioannidis Argyrios',
-      'Ioannidis Orestis',
-      'Kapiris Stylianos',
-      'Kelty Clive',
-      'Kollmann Dagmar',
-      'Korkolis Dimitris',
-      'Kristo Ivan',
-      'Kykalos Stylianos',
-      'Lázaro André',
-      'Lehmann Thorsten',
-      'Levy Jonathan',
-      'Lipham John',
-      'Lombardo Francesca',
-      'Manara Michele',
-      'Marano Luigi',
-      'Markar Sheraz',
-      'Mega Manuel',
-      'Monig Stefan',
-      'Morandi Emanuele',
-      'Mulita Francesk',
-      'Muller Beat Peter',
-      'Novia Martina',
-      'Oddi Fabio Massimo',
-      'Paireder Matthias',
-      'Peltrini Roberto',
-      'Pinotti Enrico',
-      'Podda Mauro',
-      'Popescu Razvan',
-      'Predescu Dragos',
-      'Reitano Elisa',
-      'Riegler Martin',
-      'Rosati Riccardo',
-      'Schizas Dimitrios',
-      'Schlottmann Francisco',
-      'Schoppmann Sebastian',
-      'Shabat Galyna',
-      'Sipitco Natalia',
-      'Sotiropoulou Maria',
-      'Tebala Giovanni Domenico',
-      ... 8 more items
+      'Tilburt Jon',      'Fasolino John',
+      'Jain Atul',        'Delafield Nathan',
+      'Thomley Barb',     'Anderson Justin',
+      'Burden Elizabeth', 'Heus Cynthia',
+      'Leybeck Jamie',    'Jones Janice',
+      'Hyfte Adam Van',   'Northfelt Don',
+      'Scarberry Paola',  'Ressler Steven'
     ],
-    journal: 'Updates in surgery',
-    doi: '10.1007/s13304-025-02362-3',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819152/'
+    journal: 'Journal of health care for the poor and underserved',
+    doi: '10.1353/hpu.2025.a967348',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820791/'
   },
   {
-    id: '40819142',
-    title: 'Semantic web ontology for structured knowledge representation and clinical decision support in eye diseases.',
-    abstract: 'Vision is a vital sense that allows people to interact with their surroundings and carry out tasks efficiently while maintaining safety and independence. At least 2.2 billion people globally suffer from blindness or vision impairment, of which more than 1 billion cases are avoidable or untreated because they lack access to eye care services. In ophthalmology, there are numerous challenges in knowledge organization and management, mainly due to the complexity of eye diseases. Ontologies are used as excellent tools for organizing and managing complicated information due to their structured representations of domain knowledge and to make data more findable, accessible, interoperable, and reusable. We have developed an ontology, that is, Eye Disease Ontology (EDO), for the most common eye diseases as a resource that helps in data extraction and analysis for the general public and medical professionals. EDO is a comprehensive and systematic knowledge representation system that categorizes and organizes information about commonly occurring eye diseases such as cataracts, glaucoma, age-related macular degeneration, etc, and connects it to vital details such as symptoms, causes, risk factors, diagnostic tests, and treatment options. The significant metrics of EDO include 566 classes, 16 object properties, 12 data properties, and 119 instances. In this study, the ontology of eye diseases has the potential to improve clinical diagnosis, advance research, and enrich medical education, while improving patient care. This ontology was created using the NeOn technique in the Protégé/OWL environment. Several competency questions were created to meet the demands of various stakeholders, and the ontology was validated using SPARQL queries, the Hermit Reasoner, and the OOPS Pitfalls Scanner. In addition, we develop comprehensive documentation for EDO to promote reuse and emphasise the importance of reuse in future applications.',
-    published: '2025-Aug-16',
+    id: '40820790',
+    title: 'The Landscape of Physician Residency Training in the Indian Health System.',
+    abstract: "The Indian Health System, which includes the Indian Health Service, Tribal health systems, and the Urban Indian Health Program, trains fewer resident physicians than would be expected based on its user population. Investment in equitable graduate medical education could address the Indian Health System's shortage of physicians, which could in turn strengthen health operations and improve health outcomes. Several federal and grassroots initiatives offer opportunities for residency program development and implementation, but substantial barriers limit widespread growth of residencies. To inform leaders and educators, the authors review the relevant context of the Indian Health System, outline the key facilitators of the physician residencies currently based there, and describe the considerations relevant to future expansion.",
+    published: '2025',
     authors: [
-      'Anjum Fatima',
-      'Maqbool Fahad',
-      'Razzaq Muhammad Saad',
-      'Shehzad Hafiz Muhammad Faisal',
-      'Ali Shujaat',
-      'Shah Dilawar',
-      'Tahir Muhammad',
-      'Ilyas Muhammad'
+      'Tobey Matthew',
+      'Toedt Michael',
+      'Hawes Emily',
+      'Maresca Terry',
+      'Teachout Maria',
+      'Lin Vincent',
+      'Christensen Loretta',
+      'Bray Natasha',
+      'Waldman Dan',
+      'Hill Jason',
+      'Whitehair Lance',
+      'Kannan Vijay',
+      'Owen Mary'
     ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-15885-x',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819142/'
+    journal: 'Journal of health care for the poor and underserved',
+    doi: '10.1353/hpu.2025.a967347',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820790/'
   },
   {
-    id: '40819129',
-    title: 'Cross-modal gated feature enhancement for multimodal emotion recognition in conversations.',
-    abstract: 'Emotion recognition in conversations (ERC), which involves identifying the emotional state of each utterance within a dialogue, plays a vital role in developing empathetic artificial intelligence systems. In practical applications, such as video-based recruitment interviews, customer service, health monitoring, intelligent personal assistants, and online education, ERC can facilitate the analysis of emotional cues, improve decision-making processes, and enhance user interaction and satisfaction. Current multimodal emotion recognition research faces several challenges, such as ineffective emotional information extraction from single modalities, underused complementary features, and inter-modal redundancy. To tackle these issues, this paper introduces a cross-modal gated attention mechanism for emotion recognition. The method extracts and fuses visual, textual, and auditory features to enhance accuracy and stability. A cross-modal guided gating mechanism is designed to strengthen single-modality features and utilize a third modality to improve bimodal feature fusion, boosting multimodal feature representation. Furthermore, a cross-modal distillation loss function is proposed to reduce redundancy and improve feature discrimination. This function employs a dual-supervision mechanism with teacher and student models, ensuring consistency in single-modal, bimodal, and trimodal feature representations. Experimental results on the IEMOCAP and MELD datasets indicate that the proposed method achieves higher accuracy and comparable F1 scores than existing approaches, highlighting its effectiveness in capturing multimodal dependencies and balancing modality contributions.',
-    published: '2025-Aug-16',
-    authors: [ 'Zhao Shiyun', 'Ren Jinchang', 'Zhou Xiaojuan' ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-11989-6',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819129/'
-  },
-  {
-    id: '40819118',
-    title: 'Achieving inclusive healthcare through integrating education and research with AI and personalized curricula.',
-    abstract: 'BACKGROUND: Precision medicine promises significant health benefits but faces challenges such as complex data management and analytics, interdisciplinary collaboration, and education of researchers, healthcare professionals, and participants. Addressing these needs requires the integration of computational experts, engineers, designers, and healthcare professionals to develop user-friendly systems and shared terminologies. The widespread adoption of large language models (LLMs) such as Generative Pretrained Transformer (GPT) and Claude highlights the importance of making complex data accessible to non-specialists.\n' +
-      "METHODS: We evaluated the Stanford Data Ocean (SDO) precision medicine training program's learning outcomes, AI Tutor performance, and learner satisfaction by assessing self-rated competency on key learning objectives through pre- and post-learning surveys, along with formative and summative assessment completion rates. We also analyzed AI Tutor accuracy and learners' self-reported satisfaction, and post-program academic and career impacts. Additionally, we demonstrated the capabilities of the AI Data Visualization tool.\n" +
-      'RESULTS: SDO demonstrates the ability to improve learning outcomes for learners from broad educational and socioeconomic backgrounds with the support of the AI Tutor. The AI Data Visualization tool enables learners to interpret multi-omics and wearable data and replicate research findings.\n' +
-      'CONCLUSIONS: SDO strives to mitigate challenges in precision medicine through a scalable, cloud-based platform that supports data management for various data types, advanced research, and personalized learning. SDO provides AI Tutors and AI-powered data visualization tools to enhance educational and research outcomes and make data analysis accessible to users from broad educational backgrounds. By extending engagement and cutting-edge research capabilities globally, SDO particularly benefits economically disadvantaged and historically marginalized communities, fostering interdisciplinary biomedical research and bridging the gap between education and practical application in the biomedical field.',
-    published: '2025-Aug-16',
+    id: '40820786',
+    title: 'Educational Activity with Guatemalan Lay Midwives about Helping Babies Breath.',
+    abstract: "Reason. Guatemala's Infant Mortality Rate (IMR) of 18 deaths per 100,000 live births was 17th highest in the world in 2020. One contributor is lay midwives, who attend most births at home and often lack education about helping babies breathe (HBB). An educational activity that incorporated cultural humility was provided orally in the native language of participants about HBB. The educational activity was provided in the most remote department with some of the worst health outcomes in the country. Demographic and quality improvement data were collected. A pretest posttest was used to evaluate if the educational activity changed participants' knowledge. Findings. A t test showed a statistically significant change in knowledge from pretest (n=195, M=2.64, SD=1.27) to posttest (n=195, M=4.22, SD=1.37), 95% Confidence Interval, p=.0001. Conclusion. Educational activities for vulnerable populations with low literacy should be provided orally in the native language of participants and should be designed with cultural humility to maximize knowledge improvement.",
+    published: '2025',
     authors: [
-      'Bahmani Amir',
-      'Cha Kexin',
-      'Alavi Arash',
-      'Dixit Amit',
-      'Ross Antony',
-      'Park Ryan',
-      'Goncalves Francesca',
-      'Ma Shirley',
-      'Saxman Paul',
-      'Nair Ramesh',
-      'Akhavan-Sarraf Ramin',
-      'Zhou Xin',
-      'Wang Meng',
-      'Contrepois Kévin',
-      'Li-Pook-Than Jennifer',
-      'Monte Emma',
-      'Rodriguez David Jose Florez',
-      'Lai Jaslene',
-      'Babu Mohan',
-      'Tondar Abtin',
-      'Schüssler-Fiorenza Rose Sophia Miryam',
-      'Akbari Ilya',
-      'Zhang Xinyue',
-      'Yegnashankaran Kritika',
-      'Yracheta Joseph',
-      'Dale Kali',
-      'Miller Alison Derbenwick',
-      'Edmiston Scott',
-      'McGhee Eva M',
-      'Nebeker Camille',
-      'Wu Joseph C',
-      'Kundaje Anshul',
-      'Snyder Michael'
+      'Garcia Kimberly',
+      'Armstrong Cheryl',
+      'Flynn Emily',
+      'Rodriguez Argelia',
+      'Taylor Buffy',
+      'Iacob Eli',
+      'Gonzalez Zoila'
     ],
-    journal: 'Communications medicine',
-    doi: '10.1038/s43856-025-01034-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819118/'
+    journal: 'Journal of health care for the poor and underserved',
+    doi: '10.1353/hpu.2025.a967343',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820786/'
   },
   {
-    id: '40819097',
-    title: 'The relationship between liver stiffness, fat content measured by liver elastography, and coronary artery disease: a study based on the NHANES database.',
-    abstract: 'This study aimed to investigate the relationship between liver stiffness measurements (LSM), controlled attenuation parameter (CAP), and coronary heart disease (CHD) using data from the National Health and Nutrition Examination Survey (NHANES). A total of 12,684 American populations who underwent health examinations were included from the NHANES database spanning 2017-2020 (pre-pandemic) and 2021-2023. Logistic regression was employed to analyze the associations between LSM, CAP, and CHD. Restricted cubic spline (RCS) regression was used to evaluate the dose-response relationship between LSM, CAP, and CHD. Stratified analyses were performed according to age, sex, race, education level, income, BMI, blood pressure, hepatitis B surface antibody, and cholesterol to explore potential interactions and identify specific subpopulations at risk. Finally, predictive models were developed using logistic regression, decision trees, XGBoost classifiers, and neural networks to assess the predictive value of LSM and CAP for CHD risk. During the study period, 12,684 participants were included, of whom 539 (4.24%) were diagnosed with CHD. After adjusting for confounders, both LSM and CAP were found to be significantly positively associated with CHD risk in U.S. adults. Subgroup analyses revealed a significant positive association between LSM and CHD incidence in participants stratified by race and blood parameters (interaction P-value < 0.050). Additionally, sex, age, and lipid profiles showed a significant positive correlation between CAP and CHD risk. Predictive models also indicated a positive relationship between LSM, CAP, and CHD risk. Both LSM and CAP were nonlinearly and positively associated with CHD risk, highlighting the importance of maintaining lower levels of liver stiffness and fat as a potential preventive strategy for CHD.',
-    published: '2025-Aug-16',
-    authors: [ 'Li Shengnan', 'Li Xiaoxue', 'Xiao Hua', 'Dou Jingjing' ],
-    journal: 'Scientific reports',
-    doi: '10.1038/s41598-025-15709-y',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40819097/'
+    id: '40820777',
+    title: 'Health Service Utilization by Adults Impacted by the Justice System at a Large Federally Qualified Health Care Clinic Network.',
+    abstract: 'This study examines health care service utilization of adults impacted by the justice system (n=3380) and general patient population (n=226,970) receiving care at one federally qualified health center (FQHC; n=62 service sites) in California between 2020-2022. A hybrid manual review of the electronic medical record was conducted. The top five departments used by adults impacted by the justice system, based on total number of encounters, were general medicine, case management, mental health services, specialty services, and substance use disorder services. Patients demonstrated vulnerabilities in education, employment, and housing and extensive use of clinical services. Adults impacted by the justice system can benefit from targeted and coordinated case management to support health care utilization. Findings may inform funding initiatives, staffing, and service delivery models to optimize care and support services for individuals who have experienced contact with the justice system.',
+    published: '2025',
+    authors: [
+      'Ojeda Victoria D',
+      'Celis Deisy',
+      'Northrup Adam',
+      'Lewis Sydney',
+      "D'Alonzo Sandra",
+      'Sanchez Freddy',
+      'Groneman Arthur',
+      'Godino Job'
+    ],
+    journal: 'Journal of health care for the poor and underserved',
+    doi: '10.1353/hpu.2025.a967334',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40820777/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
-Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 5)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  hostname: 'www.ijiim.net',
-  syscall: 'getaddrinfo',
-  code: 'ENOTFOUND',
-  errno: -3008,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijiim.02.01.004',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijiim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijiim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijiim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
-      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
-    errno: -3008,
-    code: 'ENOTFOUND',
-    syscall: 'getaddrinfo',
-    hostname: 'www.ijiim.net'
-  }
-}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1244,7 +953,7 @@ Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: h
     hostname: 'kahualike.manoa.hawaii.edu'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original: https://doi.org/10.15556/ijiim.02.01.004): AxiosError: getaddrinfo ENOTFOUND www.ijiim.net
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
     at RedirectableRequest.emit (node:events:536:35)
@@ -1260,16 +969,15 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
     at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
     at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
+    at async Promise.all (index 5)
     at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
+  hostname: 'www.ijiim.net',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3008,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -1294,7 +1002,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
     },
     maxRedirects: 5,
     method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    url: 'https://doi.org/10.15556/ijiim.02.01.004',
     allowAbsoluteUrls: true,
     data: undefined
   },
@@ -1326,7 +1034,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxRedirects: 5,
       maxBodyLength: Infinity,
       protocol: 'http:',
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
       method: 'GET',
       headers: [Object: null prototype],
       agents: [Object],
@@ -1334,12 +1042,12 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       family: undefined,
       beforeRedirect: [Function: dispatchBeforeRedirect],
       beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
+      hostname: 'www.ijiim.net',
       port: '',
       agent: undefined,
       nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      pathname: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
+      href: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
       query: undefined,
       search: '',
       hash: ''
@@ -1378,11 +1086,11 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       _headerSent: true,
       _closed: false,
       socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+      _header: 'GET /index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique HTTP/1.1\r\n' +
         'Accept: application/json, text/plain, */*\r\n' +
         'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
+        'Host: www.ijiim.net\r\n' +
         'Connection: keep-alive\r\n' +
         '\r\n',
       _keepAliveTimeout: 0,
@@ -1393,7 +1101,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      path: '/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
       _ended: false,
       res: null,
       aborted: false,
@@ -1402,7 +1110,7 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       parser: null,
       maxHeadersCount: null,
       reusedSocket: false,
-      host: 'www.ijsim.net',
+      host: 'www.ijiim.net',
       protocol: 'http:',
       _redirectable: [Circular *1],
       [Symbol(shapeMode)]: false,
@@ -1416,19 +1124,18 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original:
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _currentUrl: 'http://www.ijiim.net/index.php/papers2/item/19-modeling-and-transformation-of-the-evaluation-mechanism-of-greek-higher-education-institutes-using-balanced-scorecard-technique',
     _timeout: null,
     _isRedirect: true,
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
   },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
+  cause: Error: getaddrinfo ENOTFOUND www.ijiim.net
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'www.ijiim.net'
   }
 }
 Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
@@ -1618,6 +1325,193 @@ Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original:
     port: 80
   }
 }
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1788,26 +1682,25 @@ Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 20/40
 Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 21/40
-Translating paper: Leveraging State-Supported Continuing Education fo...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.850146878008047 seconds...
+Translating paper: Factors influencing healthcare workers' vaccine re...
 Translating paper 22/40
-Translating paper: Ethnic Influence in Breast Reconstruction: A Compa...
+Translating paper: Comparing Approaches to Teaching Patients How to U...
 Translating paper 23/40
-Translating paper: Preferences for implementing pharmacogenomics in p...
+Translating paper: Barriers to Early Hospital Presentation in Acute S...
 Translating paper 24/40
-Translating paper: Integrating circular fuzzy approach with an interv...
+Translating paper: Association of Poverty Income Ratio with Metabolic...
 Translating paper 25/40
-Translating paper: The impact of CNN MHAM-enhanced WRF and BPNN model...
+Translating paper: Intensifying early diabetes education in youths wi...
 Translating paper 26/40
-Translating paper: Education and training of surgical residents in up...
+Translating paper: Combating Human Trafficking Through Education and ...
 Translating paper 27/40
-Translating paper: Semantic web ontology for structured knowledge rep...
+Translating paper: Improving AI/AN Access to Care at a Specialty Acad...
 Translating paper 28/40
-Translating paper: Cross-modal gated feature enhancement for multimod...
+Translating paper: The Landscape of Physician Residency Training in t...
 Translating paper 29/40
-Translating paper: Achieving inclusive healthcare through integrating...
+Translating paper: Educational Activity with Guatemalan Lay Midwives ...
 Translating paper 30/40
-Translating paper: The relationship between liver stiffness, fat cont...
+Translating paper: Health Service Utilization by Adults Impacted by t...
 Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 32/40
@@ -1822,193 +1715,32 @@ Translating paper 36/40
 Translating paper: Modeling and Transformation of the Evaluation Mech...
 Translating paper 37/40
 Translating paper: Impact of lactation support program on Initiation ...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.597068598585817 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '43s'
-    }
-  ]
-}
 Translating paper 38/40
 Translating paper: Influence of Personal Teacher Efficacy on Selectio...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.8452308890908333 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"38s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '38s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.7433431143652633 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '35s'
-    }
-  ]
-}
 Translating paper 39/40
 Translating paper: Availability and Utilization of Tools and Equipmen...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.889954390932935 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"30s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '30s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.908038820101207 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '26s'
-    }
-  ]
-}
 Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.9055918364136795 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"21s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '21s'
-    }
-  ]
-}
-API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 429. Retrying in 2.6407795751797494 seconds...
-Translation error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"250"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"19s"}]
-    at handleResponseNotOk (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:412:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async makeRequest (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:385:9)
-    at async generateContent (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/@google/generative-ai/dist/index.mjs:830:22)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:730:24
-    at async RateLimiter.executeWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:142:28)
-    at async RateLimiter.processQueue (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:128:28) {
-  status: 429,
-  statusText: 'Too Many Requests',
-  errorDetails: [
-    {
-      '@type': 'type.googleapis.com/google.rpc.QuotaFailure',
-      violations: [Array]
-    },
-    { '@type': 'type.googleapis.com/google.rpc.Help', links: [Array] },
-    {
-      '@type': 'type.googleapis.com/google.rpc.RetryInfo',
-      retryDelay: '19s'
-    }
-  ]
-}
 Translation completed: 40 papers
-Removed duplicates: 945 -> 915
-Total papers after merging: 915 (905 existing + 40 new)
-Saved 915 papers to papers.json
+Removed duplicates: 955 -> 925
+Total papers after merging: 925 (915 existing + 40 new)
+Saved 925 papers to papers.json
 Generating HTML files...
-Generating index.html with 915 papers...
+Generating index.html with 925 papers...
 Successfully generated index.html
-Generating archive.html with 915 papers...
+Generating archive.html with 925 papers...
 Successfully generated archive.html
-Generating journal.html with 915 papers...
+Generating journal.html with 925 papers...
 Successfully generated journal.html
-Generating acquisition.html with 915 papers...
+Generating acquisition.html with 925 papers...
 Successfully generated acquisition.html
-Generating publication.html with 915 papers...
+Generating publication.html with 925 papers...
 Successfully generated publication.html
-Generating registration.html with 915 papers...
+Generating registration.html with 925 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 915
+Total papers in database: 925
 New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-17T15:31:43.446Z
+Timestamp: 2025-08-18T15:35:46.327Z
