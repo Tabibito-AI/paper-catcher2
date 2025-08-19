@@ -31,13 +31,13 @@ CrossRef initialized with query: "Economics" OR "Education"
 Using KEYWORD1 from .env file: Economics
 Using KEYWORD2 from .env file: Education
 Keywords: "Economics" OR "Education"
-Timestamp: 2025-08-18T15:12:29.776Z
+Timestamp: 2025-08-19T15:11:56.044Z
 Translation enabled: true
 Environment variables check:
 - GEMINI_API_KEY: Set
 - KEYWORD1: Not set
 - KEYWORD2: Not set
-Loaded 915 existing papers from papers.json
+Loaded 925 existing papers from papers.json
 Starting paper collection...
 Fetching papers from arxiv...
 Fetched papers from arXiv: [
@@ -298,77 +298,23 @@ Fetched papers from arXiv: [
 Collected 10 papers from arxiv
 Fetching papers from semanticScholar...
 Rate limited. Retrying after 2000ms...
-Rate limited. Retrying after 4000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
-Request failed. Retrying after 2000ms...
 Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Request failed. Retrying after 4000ms...
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
+Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 504
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 2)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error fetching Semantic Scholar papers: Error: Semantic Scholar API request failed with status 404
+Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 504
     at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 2)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
-Error collecting papers from semanticScholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 2)
-    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:359:36)
+    at async SemanticScholarClient.fetchSemanticScholarPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:355:30)
     at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1072:34)
     at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
     at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9)
 Fetching papers from springer...
 Request URL: https://api.springernature.com/metadata/json?api_key=6dbd920cb122716d66ddd9f3025657dc&q=(keyword%3A%22Economics%22%20OR%20keyword%3A%22Education%22)&p=10&s=1
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 0)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 4)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 7)
 Fetched papers from Springer: [
   {
     id: '10.1007/978-3-031-98185-2_9',
@@ -543,231 +489,572 @@ Fetched papers from Springer: [
   }
 ]
 Collected 10 papers from springer
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 9)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 1)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 6)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 5)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 8)
-Error fetching paper details from Semantic Scholar: Error: Semantic Scholar API request failed with status 404
-    at SemanticScholarClient.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:337:23)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async SemanticScholarClient.fetchPaperDetails (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:400:30)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:360:38
-    at async Promise.all (index 3)
 Fetching papers from pubmed...
 Fetched papers from PubMed: [
   {
-    id: '40820885',
-    title: "Factors influencing healthcare workers' vaccine recommendations: A cross-sectional study in Zhejiang Province, China.",
-    abstract: "To investigate factors influencing vaccine recommendations by healthcare workers (HCWs) in Zhejiang Province, China. A cross-sectional survey was conducted among 569 HCWs to assess their beliefs and attitudes toward vaccines, vaccine recommendations and barriers to recommending vaccinations. Logistic regression was utilized to analyze influencing factors. Most participants (89.4%) believed that vaccines can effectively protect children's health. Higher professional titles (aOR = 1.24, 95% CI: 1.03-1.50) and increased vaccine confidence (aOR = 1.10, 95% CI: 1.05-1.16) were positively associated with vaccine recommendation behaviors, while increased vaccine risk perception significantly reduced recommendations (aOR = 0.84, 95% CI: 0.78-0.90). Moreover, vaccine hesitancy among HCWs was primarily driven by two main factors: safety concerns regarding immunization (60.8%) and cognitive biases related to vaccine necessity and efficacy (25.8%). This study elucidates professional title advancement and vaccine confidence as critical determinants of vaccine recommendation behaviors among HCWs in Zhejiang Province, China. To improve vaccine acceptance and achieve higher immunization coverage, targeted vaccine education and confidence-building programs should be integrated into HCWs' professional training.",
-    published: '2025-Dec',
+    id: '40827506',
+    title: "Epigenetic Mediating Mechanisms in Parkinson's Disease: The Impact of Educational Attainment on SETD1A Expression.",
+    abstract: "BACKGROUND: This study investigated the interplay between environmental, genetic, and epigenetic factors in Parkinson's disease (PD) etiology, aiming to identify key factors and their impact on disease progression.\n" +
+      'METHODS: Leveraging genome-wide association study data of PD and environmental-related factors, in conjunction with blood expression quantitative trait loci (QTLs) and methylation QTLs data, we used two-sample Mendelian randomization (MR), summary data-based MR (SMR), and colocalization analysis to explore the association between environmental, epigenetic, and genetic factors and PD risk. We also conducted transcriptomic analysis of the targeted gene and investigated its functional mechanism in PD with mouse datasets. A meta-analysis of relevant prospective cohort studies was also conducted to validate the links between the identified environmental factor and PD risk.\n' +
+      'RESULTS: Five modifiable factors were identified as associated with PD, including educational attainment. SMR and colocalization analysis demonstrated 14 methylation sites linked to the expression of eight genes and PD risk. Among them, six methylation sites might affect the expression of SET Domain Containing 1A (SETD1A). Furthermore, prolonged educational attainment was found to be causally associated with hypermethylation of cg09162137, which downregulated SETD1A and impacted PD risk. Transcriptomic analysis indicated lower expression of SETD1A in PD cases. Pathway enrichment and protein-protein interaction analysis suggested that SETD1A might influence mitochondrial function and α-synuclein pathogenesis. Finally, a meta-analysis indicated that higher education levels increased PD risk (hazard ratio = 1.15) but did not affect other PD progression phenotypes except cognition.\n' +
+      'CONCLUSIONS: We identified five modifiable factors associated with PD. Higher education attainment might increase PD risk by affecting the expression of SETD1A. © 2025 International Parkinson and Movement Disorder Society.',
+    published: '2025-Aug-19',
     authors: [
-      'Zhao Jing',
-      'Li Mingyan',
-      'Zeng Yan',
-      'Xu Yuyang',
-      'Yao Dan',
-      'Wang Xia',
-      'Ji Chai'
+      'Yin Kang-Fu',    'Gu Xiao-Jing',
+      'Yu Jing-Mei',    'Su Wei-Ming',
+      'Yang Wen-Jie',   'Duan Qing-Qing',
+      'He Sheng-Yi',    'Shen Cong',
+      'Lu Si-Jia',      'Chi Li-Yi',
+      'Wang Yi',        'Cao Bei',
+      'Chen Yong-Ping'
     ],
-    journal: 'Human vaccines & immunotherapeutics',
-    doi: '10.1080/21645515.2025.2543166',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820885/'
+    journal: 'Movement disorders : official journal of the Movement Disorder Society',
+    doi: '10.1002/mds.70010',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827506/'
   },
   {
-    id: '40820882',
-    title: 'Comparing Approaches to Teaching Patients How to Use an App-Based Home Spirometer: Randomized Controlled Trial.',
-    abstract: 'BACKGROUND: Bluetooth-enabled, app-based home spirometry has been validated for use in the diagnosis and monitoring of respiratory disease. Remote teaching (virtual or self-directed) of patients on how to use an app-based home spirometry offers the opportunity to deliver diagnostics safely and at scale. However, the most appropriate method of teaching home spirometry to patients is unknown.\n' +
-      'OBJECTIVE: The aim of this pragmatic study undertaken during the COVID-19 pandemic was to determine whether virtual or self-directed teaching were valid methods for deploying home spirometry to patients referred for outpatient lung physiology testing.\n' +
-      "METHODS: REACH-SPIRO is a single-center, unblinded, randomized controlled trial of adults referred for spirometry. Participants were randomized (1:1:1) to be taught to use a Bluetooth, app-based spirometer either (A) face-to-face, (B) virtually (live video conferencing), or (C) self-directed. Forced vital capacity (FVC) and forced expiratory volume in 1 second (FEV1) were recorded. Home spirometry (Spirobank Smart Spirometer) readings for each training modality were compared with gold standard hospital measurements (Vyaire Medical) using Bland-Altman Limits of Agreement (LoA). Patients' feedback questionnaires on acceptability and adherence were also collected, and common themes were described using content analysis.\n" +
-      'RESULTS: A total of 106 participants were randomized. Bland-Altman analysis between hospital and home FEV1 measurements for group A showed a mean difference of 0.108L, LoA -0.331L to 0.548L, group B 0.152L, LoA -0.358L to 0.661L, and group C 0.153L, LoA -0.358L to 0.661L. FVC measurements in group A showed a mean difference of 0.123L, LoA -0.402L to 0.648L, group B 0.249L, LoA -0.297L to 0.795L, and group C 0.340L, LoA -0.556L to 1.235L. There was no significant difference between randomized arms for either mean FEV1 (P=.41) or FVC (P=.84). Patient feedback was similar across all groups, with more positive feedback for face-to-face and virtual teaching methods.\n' +
-      "CONCLUSIONS: There is no meaningful difference in spirometry measurement between patients taught to use a home spirometer remotely (virtual or self-directed) versus traditional face-to-face treatment. Patients' feedback was favorable to all three methods of teaching. This study supports the use of either virtual or self-directed teaching of home spirometry for the monitoring of respiratory disease. In doing so, we can improve access to spirometry in communities facing barriers to health care and clinically vulnerable populations.",
-    published: '2025-Aug-14',
+    id: '40827414',
+    title: 'National Patterns of Remote Patient Monitoring Service Availability at US Hospitals.',
+    abstract: 'BACKGROUND: Digital remote patient monitoring (RPM), such as home-based blood pressure, heart rate, or weight monitoring, enables longitudinal care outside traditional health care settings, especially in the vulnerable period after hospitalizations, with broad coverage of the service by payers. We sought to evaluate patterns of RPM service availability at US hospitals and the characteristics of hospitals and the counties they serve that are associated with the availability of these services.\n' +
+      'METHODS: We used national data from the American Hospital Association Annual Survey from 2018 to 2022 to ascertain US hospitals offering RPM services for postdischarge or chronic care. We linked hospitals with their census-based county-level data to define the characteristics of the counties they serve, including sociodemographic features such as age distribution, racial/ethnic composition, median household income, education level, and disability status. We used multivariable logistic regression to assess associations between hospital- and county-level characteristics and RPM availability, adjusting for hospital size, region, teaching status, and ownership.\n' +
+      'RESULTS: The study included 5644 hospitals. Over 5 years of study, there was a 40.3% increase in the number of hospitals offering RPM services, rising from 1364 (33.0%) hospitals in 2018 to 1797 (46.3%) in 2022. In 2022, hospitals with >300 beds had 3.7-fold odds of offering RPM compared with those with <100 beds (adjusted odds ratio, 3.71 [95% CI, 2.90-4.74]). Nonteaching hospitals had lower odds of RPM availability than teaching hospitals (adjusted odds ratio, 0.29 [95% CI, 0.19-0.44]), and rural hospitals had lower odds than urban hospitals (adjusted odds ratio, 0.49 [95% CI, 0.32-0.77]).\n' +
+      'CONCLUSIONS: In this national study of US hospitals, there has been a large increase in the availability of RPM services but with large variation among hospitals, with lower availability in hospitals serving low-income and rural counties.',
+    published: '2025-Aug-19',
     authors: [
-      'Morgan Caitlin',
-      'Higbee Daniel',
-      'Dixon Catherine',
-      'Buckroyd Emma',
-      'Adamali Huzaifa',
-      'Barratt Shaney',
-      'Shrimanker Rahul',
-      'Hyams Catherine',
-      'White Paul',
-      'Dodd James William'
+      'Pedroso Aline F',
+      'Lin Zhenqiu',
+      'Ross Joseph S',
+      'Khera Rohan'
     ],
-    journal: 'JMIR formative research',
-    doi: '10.2196/74125',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820882/'
+    journal: 'Circulation. Cardiovascular quality and outcomes',
+    doi: '10.1161/CIRCOUTCOMES.125.012034',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827414/'
   },
   {
-    id: '40820837',
-    title: 'Barriers to Early Hospital Presentation in Acute Stroke: Findings from a Cohort Study.',
-    abstract: 'BACKGROUND AND OBJECTIVES: The time taken to transport patients for thrombolytic therapy in stroke cases remains alarmingly high, compromising potential positive outcomes. Addressing these delays can enhance prehospital care and improve patient prognoses.\n' +
-      'AIM: This study aimed to identify factors causing delays in treating acute stroke patients at a tertiary care hospital in southern India, to inform better practices and expedite care.\n' +
-      'METHODS: Caregivers of ischemic stroke patients were interviewed about delays. Patients were divided into two groups: those who arrived within the critical four-and-a-half-hour window (Group A) and those who arrived later (Group B). Data collected included distance from home to hospital, transportation options, and mode of transport. A comparative analysis was performed between patients from stroke-ready facilities versus others, with data analyzed using SPSS software.\n' +
-      'RESULTS: The study included 594 patients, with 73.4% arriving outside the recommended window. Women represented one-third of the population overall and 20% in Group A. Younger patients arrived sooner (P < 0.0001). The main reason for delays was a lack of awareness of stroke symptoms (53.2%), followed by initial care sought at non-stroke-ready hospitals (23%). Use of ambulances and vehicle ownership significantly correlated with faster arrivals (P < 0.0001), while distance to the hospital did not significantly affect timeliness. Though most of the variables showed statistical significance between those coming to the hospital within and outside the four-and-a-half hour window with univariate analysis, none of the variables showed a significant association when subjected to logistic regression.\n' +
-      'CONCLUSIONS: Delays in stroke treatment are a major concern, linked to factors like age, gender, and transportation issues. No single factor independently predicted early hospital arrival. To improve outcomes, we need strategies that enhance public education, symptom recognition, and transportation-especially for vulnerable groups like women and the elderly.',
-    published: '2025-Jul-01',
-    authors: [ 'Menon Bindu', 'Conjeevaram Jyoti', 'Amavarapu Sudarsana' ],
-    journal: 'Annals of Indian Academy of Neurology',
-    doi: '10.4103/aian.aian_225_25',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820837/'
+    id: '40827365',
+    title: "'Tayloring' botanical education to student experience: an editor's perspective on 'Dance with plants: Taylor Swift's music videos as advanced organizers for meaningful learning in Botany'.",
+    abstract: 'No abstract available',
+    published: '2025-Aug-19',
+    authors: [ 'Baker Lauren' ],
+    journal: 'Annals of botany',
+    doi: '10.1093/aob/mcaf194',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827365/'
   },
   {
-    id: '40820830',
-    title: 'Association of Poverty Income Ratio with Metabolic Dysfunction-Associated Steatotic Liver Disease and Liver Fibrosis Among US Population.',
-    abstract: 'Background/Aims: Metabolic dysfunction-associated steatotic liver disease (MASLD) represents a recent update in defining fatty liver disease, emphasizing its strong connection to metabolic factors and reflecting a shift in understanding its causes and progression. The principal aim of this investigation was to scrutinize the conceivable association between the poverty income ratio (PIR) and the incidence of MASLD, specifically focusing on liver fibrosis. Materials and Methods: In this study, a cross-sectional analysis was carried out utilizing data obtained from the National Health and Nutrition Examination Survey dataset covering the period from 2017 to 2020. To explore the relationship between the PIR and the prevalence of MASLD as well as liver fibrosis, a robust multivariable analytical method was adopted. This approach integrated a wide range of variables, such as sociodemographic characteristics, lifestyle habits, and individual health conditions. Results: In this study, a comprehensive analysis was conducted using logistic regression models and found a significant decline in the likelihood of MASLD in the highest PIR quartile (Q4) (odds ratio [OR] = 0.634, 95% CI: 0.446-0.903, P = .012) as well as liver fibrosis (OR = 0.682, 95% CI: 0.503-0.925, P = .014). Conclusion: The findings obtained from this research strongly demonstrate that higher PIR levels are significantly associated with a reduced prevalence of both MASLD and liver fibrosis, suggesting that higher socioeconomic shighertatus, as reflected by higher PIR, may decrease the risk of these conditions. These findings underscore the need for targeted interventions, such as better nutrition education, lifestyle support, and healthcare access to reduce the MASLD burden in low-income populations.',
-    published: '2025-Jun-23',
-    authors: [ 'Guo Wenying', 'Weng Ting', 'Song Yufei' ],
-    journal: 'Turkish archives of pediatrics',
-    doi: '10.5152/tjg.2025.25021',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820830/'
-  },
-  {
-    id: '40820829',
-    title: 'Intensifying early diabetes education in youths with newly diagnosed type 1 diabetes for sustained glycemic outcomes.',
+    id: '40827324',
+    title: 'A Medical Error of Saints Cosmas and Damian: Reflections on Fallibility and Medical Education From a Medieval Miracle.',
     abstract: 'No abstract available',
     published: '2025-Aug-18',
-    authors: [ 'Basu Arpita' ],
-    journal: 'The Journal of clinical endocrinology and metabolism',
-    doi: '10.1210/clinem/dgaf470',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820829/'
+    authors: [ 'Kim Minso', 'Jeon Ju-Hong' ],
+    journal: 'Journal of Korean medical science',
+    doi: '10.3346/jkms.2025.40.e229',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827324/'
   },
   {
-    id: '40820793',
-    title: 'Combating Human Trafficking Through Education and Training: The Creation of an Outpatient Elective Experience in a Psychiatry Residency Program.',
-    abstract: "An outpatient elective module within a psychiatry residency program was established to train psychiatry trainees on caring for patients who have experienced human trafficking. A description of the year-long elective module and results of the residents' feedback on their experience in the elective are discussed.",
-    published: '2025',
+    id: '40827272',
+    title: 'Organizational mediators of sustainability in a randomized controlled trial.',
+    abstract: 'BACKGROUND: Prior systematic reviews and research have suggested that certain organizational characteristics and training methods may support the sustainability of new practices, yet these factors have not been adequately studied in behavioral health.\n' +
+      'OBJECTIVE: The objective of this study was to test the indirect effects of training design (e.g., training condition and consultation call attendance) on clinician-reported sustainability through post-training organizational resources, training exposure and utilization, and organizational climate.\n' +
+      'METHOD: Fifty licensed outpatient clinics, including 100 clinicians, 50 supervisors, and 50 administrators were randomized to one of three training conditions: 1) Learning Collaborative (LC), 2) Cascading Model (CM) or 3) Distance Education (DE). All were trained to provide Parent Child Interaction Therapy (PCIT). Data to assess training and implementation outcomes were collected at 4 time points coinciding with the training period: baseline, 6- (mid), 12- (post), and 24-months (1-year follow-up). Multi-level path analysis was utilized to examine the role of organizational barriers and training approaches on sustainability of PCIT (caseload, protocol use, number of families seen).\n' +
+      'RESULTS: Clinician-reported resources, training exposure and utilization, and organizational climate varied among study conditions, with the most favorable conditions reported in the CM condition and the least favorable conditions reported in the LC condition. The CM condition was associated with greater PCIT caseload, more families served by the PCIT program, and less use of the full PCIT protocol as compared to the DE condition, while the LC condition was associated with fewer families served and more use of the full PCIT protocol.\n' +
+      'CONCLUSIONS: Organizational factors such as available resources, organizational climate, and training exposure and utilization indirectly influence the effect of training approach and consultation on PCIT sustainability two years after baseline and vary based on condition. A possible mechanism of the cascading training model on sustainability, through increased organizational resources, was also identified.',
+    published: '2024-Aug-17',
     authors: [
-      'Alhajji Lujain',
-      'Hadjikyriakou Maria',
-      'Martinez-Sosa Natalie',
-      'Abraham Omar Munoz',
-      'Potter JoNell'
+      'Jackson Carrie B',
+      'Herschell A D',
+      'Taber-Thomas S M',
+      'Scudder A T',
+      'Hart J A',
+      'Schaffner K F',
+      'Kolko D J',
+      'Mrozowski S J',
+      'Snider M D H'
     ],
-    journal: 'Journal of health care for the poor and underserved',
-    doi: '10.1353/hpu.2025.a967350',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820793/'
+    journal: 'Evidence-based practice in child and adolescent mental health',
+    doi: '10.1080/23794925.2024.2392230',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827272/'
   },
   {
-    id: '40820791',
-    title: 'Improving AI/AN Access to Care at a Specialty Academic Center in the American Southwest: Lessons Learned from a Practice Evaluation Initiative.',
-    abstract: 'This report describes a practice evaluation initiative aimed at improving access to tertiary referral care for American Indian and Alaska Native patients. It outlines challenges related to insurance coverage, electronic systems, and related logistical issues. Conversations with local tribal health leaders yielded future education and service collaboration opportunities.',
+    id: '40827259',
+    title: "Exploring Pain Clinical Specialists' Perspectives on Opioid Optimization for Chronic Non-Malignant Pain in England.",
+    abstract: 'BACKGROUND: The use of opioids for chronic non-malignant pain (CNMP) offers limited efficacy and carries the potential for addiction. Healthcare professionals in both primary and secondary care settings face challenges when attempting to optimise opioid medications. There are limited studies that investigated the barriers and enablers to opioid reduction, cessation, and optimisation, specifically from a pain clinical specialist perspective.\n' +
+      "OBJECTIVE: This study explores pain clinical specialists' views on challenges in opioid prescription management-including optimization and tapering-and their interactions with patients and prescribers.\n" +
+      'METHODS: Participants were recruited through pain clinic, webinars Email outreach, and professional networks. Semi-structured interviews were conducted using a guide based on the Theoretical Domains Framework (TDF) with 11 pain clinical specialists (8 consultants and 3 pharmacists) from NHS England, out of 15 participants who initially expressed interest, recruited via professional networks. Thematic analysis employed Framework Approach with dual coding.\n' +
+      'KEY FINDINGS: Eleven participants, comprising eight pain doctors and three clinical pharmacists, provided insights. Analysis revealed four key findings: (1) A paradigm shift away from long-term opioid therapy due to concerns about dependency and inadequate pain relief; (2) Strong preference for multidisciplinary, personalized treatment approaches; (3) Significant system-level barriers including care fragmentation and inadequate consultation time; (4) Critical need for enhanced clinician training and patient education programs.\n' +
+      'CONCLUSION: Optimizing opioid use for CNMP requires fundamental changes to current practice, including implementation of integrated care pathways, extended consultation times, and comprehensive education initiatives. These findings provide evidence-based recommendations for improving pain management while reducing inappropriate opioid prescribing.',
     published: '2025',
-    authors: [
-      'Tilburt Jon',      'Fasolino John',
-      'Jain Atul',        'Delafield Nathan',
-      'Thomley Barb',     'Anderson Justin',
-      'Burden Elizabeth', 'Heus Cynthia',
-      'Leybeck Jamie',    'Jones Janice',
-      'Hyfte Adam Van',   'Northfelt Don',
-      'Scarberry Paola',  'Ressler Steven'
-    ],
-    journal: 'Journal of health care for the poor and underserved',
-    doi: '10.1353/hpu.2025.a967348',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820791/'
+    authors: [ 'Alenezi Aziza', 'Paudyal Vibhu', 'Yahyouche Asma' ],
+    journal: 'Journal of pain research',
+    doi: '10.2147/JPR.S512418',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827259/'
   },
   {
-    id: '40820790',
-    title: 'The Landscape of Physician Residency Training in the Indian Health System.',
-    abstract: "The Indian Health System, which includes the Indian Health Service, Tribal health systems, and the Urban Indian Health Program, trains fewer resident physicians than would be expected based on its user population. Investment in equitable graduate medical education could address the Indian Health System's shortage of physicians, which could in turn strengthen health operations and improve health outcomes. Several federal and grassroots initiatives offer opportunities for residency program development and implementation, but substantial barriers limit widespread growth of residencies. To inform leaders and educators, the authors review the relevant context of the Indian Health System, outline the key facilitators of the physician residencies currently based there, and describe the considerations relevant to future expansion.",
+    id: '40827225',
+    title: 'Exploring the Landscape of Operating Room Scheduling: A Bibliometric Analysis of Recent Advancements and Future Prospects.',
+    abstract: 'BACKGROUND: Operating Room Scheduling (ORS) is vital in healthcare management, impacting patient outcomes, economics, and the shift to value-based care. The academic literature offers various solutions with distinct pros and cons.\n' +
+      "AIM: This study aims to (i) outline ORS challenges across surgical specialties; (ii) examine ORS's impact on healthcare goals, focusing on patient outcomes, value-based care, and economics; (iii) assess academic solutions' real-world applicability; and (iv) conduct a bibliometric analysis to track ORS research progression, pivotal works, and future directions.\n" +
+      'METHODS: We performed a comprehensive bibliometric analysis using Scopus data. Biblioshiny from Bibliometrix aided data mining and analysis, spanning 2000 to 2023, tracking publication trends, themes, co-occurrence, and co-citation networks.\n' +
+      'RESULTS: ORS publications steadily rose, notably post-2013, led by developed nations like the UK, Australia, the US, France, and Germany. Key themes included operating rooms, surgery, and humans. Seven primary research routes emerged, covering Surgery Duration, Allocation, Advanced Scheduling Integration, and Patient Flow Optimization. Citation analysis highlighted heuristic algorithms and integer programing as central ORS themes.\n' +
+      'CONCLUSION: This study offers a panoramic ORS overview, advocating an integrated approach aligning patient outcomes, economics, and value-based care. Bibliometric analysis charts ORS research evolution guides future research, and holds significance for practitioners, policymakers, and academics, enhancing ORS paradigms and healthcare delivery.',
     published: '2025',
     authors: [
-      'Tobey Matthew',
-      'Toedt Michael',
-      'Hawes Emily',
-      'Maresca Terry',
-      'Teachout Maria',
-      'Lin Vincent',
-      'Christensen Loretta',
-      'Bray Natasha',
-      'Waldman Dan',
-      'Hill Jason',
-      'Whitehair Lance',
-      'Kannan Vijay',
-      'Owen Mary'
+      'Amin Md Al',
+      'Hadid Majed',
+      'Elomri Adel',
+      'Ismaen Rabah',
+      'Dergaa Ismail',
+      'Alashi Hind',
+      'Jobran Al-Hajaji Amal',
+      'Alkhalil Moustafa',
+      'Aboumarzouk Omar M',
+      'Omri Abdelfatteh El'
     ],
-    journal: 'Journal of health care for the poor and underserved',
-    doi: '10.1353/hpu.2025.a967347',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820790/'
+    journal: 'Biomedical engineering and computational biology',
+    doi: '10.1177/11795972241271549',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827225/'
   },
   {
-    id: '40820786',
-    title: 'Educational Activity with Guatemalan Lay Midwives about Helping Babies Breath.',
-    abstract: "Reason. Guatemala's Infant Mortality Rate (IMR) of 18 deaths per 100,000 live births was 17th highest in the world in 2020. One contributor is lay midwives, who attend most births at home and often lack education about helping babies breathe (HBB). An educational activity that incorporated cultural humility was provided orally in the native language of participants about HBB. The educational activity was provided in the most remote department with some of the worst health outcomes in the country. Demographic and quality improvement data were collected. A pretest posttest was used to evaluate if the educational activity changed participants' knowledge. Findings. A t test showed a statistically significant change in knowledge from pretest (n=195, M=2.64, SD=1.27) to posttest (n=195, M=4.22, SD=1.37), 95% Confidence Interval, p=.0001. Conclusion. Educational activities for vulnerable populations with low literacy should be provided orally in the native language of participants and should be designed with cultural humility to maximize knowledge improvement.",
+    id: '40827199',
+    title: 'Intensified Multifaceted Education Improves the Implementation of Standard Atrial Fibrillation Care in Elderly Patients with Atrial Fibrillation in Rural China.',
+    abstract: 'BACKGROUND: Exploring an integrated care management model to effectively deliver the standardized management to atrial fibrillation (AF) elderlies in rural China.\n' +
+      'PURPOSE: The objective of this study was to assess whether intensified multifaceted education (IME) targeting AF elderlies, their family members, and the village doctors (VD) can increase compliance for rural AF elderlies with integrated care based on the AF Better Care (ABC) pathway. Additionally, the capacity of VD to deliver integrated AF care was investigated.\n' +
+      'PATIENTS AND METHODS: This is a self-controlled cohort study before and after IME, including AF patients aged ≥65 years identified in phase-I of The Jiangsu Province Rural Community AF Project. The IME model was defined as 12 months of continuous knowledge education on integrated care management of AF based on the ABC pathway, delivered to AF patients, their family members and the village doctors. AF knowledge evaluation from VD and compliance with the ABC pathway before and after the IME model were evaluated.\n' +
+      'RESULTS: A total of 810 AF patients (mean age 76.1 ± 5.9 years; 51.4% women) were enrolled. After 12 months, the AF knowledge score of VD was significantly improved [(65.0 ± 13.0) scores vs (53.1 ± 9.8) scores,  < 0.001]. Although the compliance of AF patients with the ABC pathway was improved statistically (4.3% vs 1.7%,  = 0.003), the absolute increase was small.\n' +
+      'CONCLUSION: Although VD have the potential to serve as AF integrated care management providers, the impact of the IME model used to improve the standard AF care in rural elderly AF population was small.',
     published: '2025',
     authors: [
-      'Garcia Kimberly',
-      'Armstrong Cheryl',
-      'Flynn Emily',
-      'Rodriguez Argelia',
-      'Taylor Buffy',
-      'Iacob Eli',
-      'Gonzalez Zoila'
+      'Zhang Shimeng',
+      'Chu Ming',
+      'Lu Dechuan',
+      'Shen Youmei',
+      'Sun Xingxing',
+      'Xia Yaodongqin',
+      'Yang Shu',
+      'Gong Jinlong',
+      'Hong Li',
+      'Li Mingfang',
+      'Lip Gregory Y H',
+      'Chen Minglong'
     ],
-    journal: 'Journal of health care for the poor and underserved',
-    doi: '10.1353/hpu.2025.a967343',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820786/'
+    journal: 'Vascular health and risk management',
+    doi: '10.2147/VHRM.S535313',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827199/'
   },
   {
-    id: '40820777',
-    title: 'Health Service Utilization by Adults Impacted by the Justice System at a Large Federally Qualified Health Care Clinic Network.',
-    abstract: 'This study examines health care service utilization of adults impacted by the justice system (n=3380) and general patient population (n=226,970) receiving care at one federally qualified health center (FQHC; n=62 service sites) in California between 2020-2022. A hybrid manual review of the electronic medical record was conducted. The top five departments used by adults impacted by the justice system, based on total number of encounters, were general medicine, case management, mental health services, specialty services, and substance use disorder services. Patients demonstrated vulnerabilities in education, employment, and housing and extensive use of clinical services. Adults impacted by the justice system can benefit from targeted and coordinated case management to support health care utilization. Findings may inform funding initiatives, staffing, and service delivery models to optimize care and support services for individuals who have experienced contact with the justice system.',
-    published: '2025',
+    id: '40827191',
+    title: "Effectiveness of Local Mother's Kitchen Recipe Talks in Reducing the Burden of Anemia Among Children Under Five, Adolescents, Pregnant Women, and Lactating Mothers in Guntur District, India: A Community-Based Intervention Trial.",
+    abstract: "Background Iron deficiency anemia remains a significant public health concern, particularly among vulnerable groups such as children under five, adolescents, pregnant women, and lactating mothers in low- and middle-income countries. Sustainable, community-driven dietary interventions leveraging locally available foods could provide a culturally acceptable alternative. Objective This study assesses the effectiveness of a community-based intervention that incorporates local mother's kitchen recipes and nutrition education talks in enhancing hemoglobin and dietary iron intake levels among targeted groups in the Guntur District, India. Materials and methods A one-year community-based intervention trial was conducted in two randomly selected villages, with one village as the intervention arm and the other as the control. A total of 504 participants were enrolled, including children under five, primary school children, and adolescents. The intervention included hands-on cooking sessions that promoted iron-rich, locally available recipes, as well as structured educational talks. Hemoglobin, dietary iron levels, and anthropometric measurements were assessed at baseline and at the post-intervention time point. Data analysis involved difference-in-difference analysis and McNemar tests to assess changes in key parameters. Results Participants who attended more than six sessions demonstrated an increase in hemoglobin levels, particularly among children under five (β = 0.70, 95% CI: -0.24 to 1.60) and primary school children (β = 0.40, 95% CI: -0.74 to 1.54). Significant reductions in stunting (92% to 7.7%), underweight, and wasting were observed in children under five. While some reproductive-age women showed declining dietary iron levels, hemoglobin levels improved. Conclusion The mother's kitchen model fosters sustainable dietary modifications, improving anemia status and nutritional outcomes beyond pharmacological supplementation.",
+    published: '2025-Jul',
     authors: [
-      'Ojeda Victoria D',
-      'Celis Deisy',
-      'Northrup Adam',
-      'Lewis Sydney',
-      "D'Alonzo Sandra",
-      'Sanchez Freddy',
-      'Groneman Arthur',
-      'Godino Job'
+      'Gupta Arti',
+      'Rajan Vishnu',
+      'B Venkatashiva Reddy',
+      'Kollimarla Mounika',
+      'Aravindakshan Rajeev'
     ],
-    journal: 'Journal of health care for the poor and underserved',
-    doi: '10.1353/hpu.2025.a967334',
-    link: 'https://pubmed.ncbi.nlm.nih.gov/40820777/'
+    journal: 'Cureus',
+    doi: '10.7759/cureus.88215',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827191/'
+  },
+  {
+    id: '40827172',
+    title: 'The Impact of Socioeconomic Factors on Mental Health: A Conceptual Framework.',
+    abstract: 'Income, education, occupation, and social position are all examples of socioeconomic factors that shape mental health outcomes significantly. This review carries a conceptual framework to describe the complex interaction between mental health and these socioeconomic determinants. It integrates existing theoretical models and empirical evidence while highlighting the pathways through which socioeconomic disparities affect psychological well-being. Access to resources, exposure to stressors, neighborhood environment, and social support networks are key mechanisms of change. Further, it considers how race, gender, and age intersect with these variables. The overall objective of this review is to offer an inclusive approach that can be used as a basis for policy formulation aimed at addressing mental health disparities and promoting resilience among different population groups. It highlights a need for a multi-disciplinary approach to political interventions that tackles socioeconomic origins of mental health issues by indicating the requirement for system transformation leading to fairer conditions for persons with mental illness, since it is the only solution that can address the behaviors of individuals in any society equally, regardless of their economic or social background.',
+    published: '2025-Jul',
+    authors: [ 'Salem Mohamed', 'Robenson James' ],
+    journal: 'Cureus',
+    doi: '10.7759/cureus.88244',
+    link: 'https://pubmed.ncbi.nlm.nih.gov/40827172/'
   }
 ]
 Collected 10 papers from pubmed
 Fetching papers from crossref...
 Scraping abstract from final URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
 No abstract found for URL: https://jier.um.edu.my/index.php/JIER/article/view/29085
+Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
+No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/10.pdf
 Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/5.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-277-en.html
 Found abstract in meta tag: meta[name="description"]
-Scraping abstract from final URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
-No abstract found for URL: https://www.arcjournals.org/pdfs/ijhsse/v3-i3/2.pdf
 Scraping abstract from final URL: https://jccnc.iums.ac.ir/article-1-294-en.html
 Found abstract in meta tag: meta[name="description"]
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 3)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.03.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
+Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
+    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:536:35)
+    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:524:28)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:524:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
+    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
+    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
+    at async Promise.all (index 4)
+    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
+    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
+    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
+    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
+  port: 80,
+  address: '152.42.161.229',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 10000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    maxRedirects: 5,
+    method: 'get',
+    url: 'https://doi.org/10.15556/ijsim.02.02.002',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 5,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'www.ijsim.net',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      href: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.ijsim.net\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.ijsim.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 152.42.161.229:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '152.42.161.229',
+    port: 80
+  }
+}
 Error scraping abstract from https://doi.org/10.31372/20190403.1059 (original: https://doi.org/10.31372/20190403.1059): AxiosError: getaddrinfo ENOTFOUND kahualike.manoa.hawaii.edu
     at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
     at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
@@ -1138,380 +1425,6 @@ Error scraping abstract from https://doi.org/10.15556/ijiim.02.01.004 (original:
     hostname: 'www.ijiim.net'
   }
 }
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.02.002 (original: https://doi.org/10.15556/ijsim.02.02.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 4)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.02.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      href: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/35-a-criticism-of-the-paradigm-of-rational-choice-in-uncertain-conditions-through-the-lens-of-behavioral-economics',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
-  }
-}
-Error scraping abstract from https://doi.org/10.15556/ijsim.02.03.002 (original: https://doi.org/10.15556/ijsim.02.03.002): AxiosError: connect ECONNREFUSED 152.42.161.229:80
-    at AxiosError.from (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/AxiosError.js:92:14)
-    at RedirectableRequest.handleRequestError (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/adapters/http.js:620:25)
-    at RedirectableRequest.emit (node:events:536:35)
-    at eventHandlers.<computed> (/home/runner/work/paper-catcher2/paper-catcher2/node_modules/follow-redirects/index.js:49:24)
-    at ClientRequest.emit (node:events:524:28)
-    at emitErrorEvent (node:_http_client:101:11)
-    at Socket.socketErrorListener (node:_http_client:504:5)
-    at Socket.emit (node:events:524:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at Axios.request (file:///home/runner/work/paper-catcher2/paper-catcher2/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async WebScraper.fetchWithRetry (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:13:30)
-    at async WebScraper.scrapeAbstractFromUrl (file:///home/runner/work/paper-catcher2/paper-catcher2/webScraper.js:37:46)
-    at async file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:621:37
-    at async Promise.all (index 3)
-    at async CrossRefClient.fetchCrossRefPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:608:28)
-    at async PaperCatcher.collectPapers (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1078:34)
-    at async PaperCatcher.run (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1225:31)
-    at async main (file:///home/runner/work/paper-catcher2/paper-catcher2/app.mjs:1285:9) {
-  port: 80,
-  address: '152.42.161.229',
-  syscall: 'connect',
-  code: 'ECONNREFUSED',
-  errno: -111,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http', 'fetch' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 10000,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json, text/plain, */*',
-      'Content-Type': undefined,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    maxRedirects: 5,
-    method: 'get',
-    url: 'https://doi.org/10.15556/ijsim.02.03.002',
-    allowAbsoluteUrls: true,
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Array],
-      timeout: undefined,
-      abort: undefined
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 5,
-      maxBodyLength: Infinity,
-      protocol: 'http:',
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'www.ijsim.net',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      href: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      query: undefined,
-      search: '',
-      hash: ''
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 1,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [Socket],
-      _header: 'GET /index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: www.ijsim.net\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'www.ijsim.net',
-      protocol: 'http:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'http://www.ijsim.net/index.php/papers/item/41-barriers-to-the-teaching-of-skills-in-the-greek-higher-education-accounting-courses-insight-from-accounting-teachers',
-    _timeout: null,
-    _isRedirect: true,
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: connect ECONNREFUSED 152.42.161.229:80
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
-    errno: -111,
-    code: 'ECONNREFUSED',
-    syscall: 'connect',
-    address: '152.42.161.229',
-    port: 80
-  }
-}
 Fetched papers from CrossRef: [
   {
     id: '10.22452/jier.vol7sp2021.4',
@@ -1653,6 +1566,7 @@ Translating paper 5/40
 Translating paper: Quantifier Elimination for Reasoning in Economics...
 Translating paper 6/40
 Translating paper: A New Index of Human Capital to Predict Economic G...
+API error for AIzaSyCD-e7WwATPRFUHMC0Z2wDfwo39F_UijY8. Status: 503. Retrying in 2.728167102691961 seconds...
 Translating paper 7/40
 Translating paper: Teaching Economics with Interactive Browser-Based ...
 Translating paper 8/40
@@ -1682,25 +1596,25 @@ Translating paper: AI and Pre-service Teachers: Attitudes to and the ...
 Translating paper 20/40
 Translating paper: ChatGPT and University Students: How Family Educat...
 Translating paper 21/40
-Translating paper: Factors influencing healthcare workers' vaccine re...
+Translating paper: Epigenetic Mediating Mechanisms in Parkinson's Dis...
 Translating paper 22/40
-Translating paper: Comparing Approaches to Teaching Patients How to U...
+Translating paper: National Patterns of Remote Patient Monitoring Ser...
 Translating paper 23/40
-Translating paper: Barriers to Early Hospital Presentation in Acute S...
+Translating paper: 'Tayloring' botanical education to student experie...
 Translating paper 24/40
-Translating paper: Association of Poverty Income Ratio with Metabolic...
+Translating paper: A Medical Error of Saints Cosmas and Damian: Refle...
 Translating paper 25/40
-Translating paper: Intensifying early diabetes education in youths wi...
+Translating paper: Organizational mediators of sustainability in a ra...
 Translating paper 26/40
-Translating paper: Combating Human Trafficking Through Education and ...
+Translating paper: Exploring Pain Clinical Specialists' Perspectives ...
 Translating paper 27/40
-Translating paper: Improving AI/AN Access to Care at a Specialty Acad...
+Translating paper: Exploring the Landscape of Operating Room Scheduli...
 Translating paper 28/40
-Translating paper: The Landscape of Physician Residency Training in t...
+Translating paper: Intensified Multifaceted Education Improves the Im...
 Translating paper 29/40
-Translating paper: Educational Activity with Guatemalan Lay Midwives ...
+Translating paper: Effectiveness of Local Mother's Kitchen Recipe Tal...
 Translating paper 30/40
-Translating paper: Health Service Utilization by Adults Impacted by t...
+Translating paper: The Impact of Socioeconomic Factors on Mental Heal...
 Translating paper 31/40
 Translating paper: PENGAJARAN MAYA GURU INOVATIF PENDIDIKAN ISLAM DAL...
 Translating paper 32/40
@@ -1722,25 +1636,25 @@ Translating paper: Availability and Utilization of Tools and Equipmen...
 Translating paper 40/40
 Translating paper: Assessing the Technical Efficiency of Public Hospi...
 Translation completed: 40 papers
-Removed duplicates: 955 -> 925
-Total papers after merging: 925 (915 existing + 40 new)
-Saved 925 papers to papers.json
+Removed duplicates: 965 -> 935
+Total papers after merging: 935 (925 existing + 40 new)
+Saved 935 papers to papers.json
 Generating HTML files...
-Generating index.html with 925 papers...
+Generating index.html with 935 papers...
 Successfully generated index.html
-Generating archive.html with 925 papers...
+Generating archive.html with 935 papers...
 Successfully generated archive.html
-Generating journal.html with 925 papers...
+Generating journal.html with 935 papers...
 Successfully generated journal.html
-Generating acquisition.html with 925 papers...
+Generating acquisition.html with 935 papers...
 Successfully generated acquisition.html
-Generating publication.html with 925 papers...
+Generating publication.html with 935 papers...
 Successfully generated publication.html
-Generating registration.html with 925 papers...
+Generating registration.html with 935 papers...
 Successfully generated registration.html
 Generated 6 HTML files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
 === Paper Catcher Completed Successfully ===
-Total papers in database: 925
+Total papers in database: 935
 New papers processed: 40
 Generated files: index.html, archive.html, journal.html, acquisition.html, publication.html, registration.html
-Timestamp: 2025-08-18T15:35:46.327Z
+Timestamp: 2025-08-19T15:36:06.585Z
