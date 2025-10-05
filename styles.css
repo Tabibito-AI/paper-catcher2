@@ -13,10 +13,15 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px; /* 画面いっぱいに広がるように最大幅を拡大 */
     margin: 0 auto;
     padding: 0 20px;
 }
+
+/* Main content */
+
+
+
 
 /* Header */
 .header {
@@ -68,13 +73,7 @@ body {
     background-color: #e6f3ff;
 }
 
-/* Main content */
-.main-content {
-    margin-bottom: 60px;
-}
-
-/* Date sections */
-.date-section {
+/* Date sections */date-section {
     margin-bottom: 50px;
 }
 
@@ -362,3 +361,25 @@ body {
         width: 100%;
     }
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* レスポンシブなグリッドレイアウト */
+    gap: 20px; /* カード間のスペース */
+    margin-bottom: 60px;
+}
+
+.paper-item {
+    height: 100%; /* グリッドアイテムの高さを揃える */
+    display: flex;
+    flex-direction: column;
+}
+
+.paper-translation {
+    flex-grow: 1; /* 翻訳部分が残りのスペースを埋める */
+}
+
+.paper-meta {
+    margin-top: auto; /* メタ情報を下部に配置 */
+}
+

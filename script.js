@@ -199,8 +199,20 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('modal-title').textContent = displayTitle;
         document.getElementById('modal-authors').textContent = authors || 'Unknown';
         document.getElementById('modal-journal').textContent = journal || 'Unknown';
-        document.getElementById('modal-date').textContent = date || 'Unknown';
-        document.getElementById('modal-abstract-text').textContent = abstract || 'No abstract available';
+             // Format the date for display. If the date is in the future, display '本日'.
+        const displayDate = (dateString) => {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const pubDate = new Date(dateString);
+            pubDate.setHours(0, 0, 0, 0);
+
+            if (pubDate > today) {
+                return '本日';
+            } else {
+                return new Date(dateString).toLocaleDateString('ja-JP', { year: 'numeric', month: 'numeric', day: 'numeric' });
+            }
+        };
+        document.getElementById('modal-date').textContent = displayDate(date) || 'Unknown';        document.getElementById('modal-abstract-text').textContent = abstract || 'No abstract available';
         document.getElementById('modal-translation-text').textContent = translatedAbstract || 'No translation available';
 
         // Set paper link URL
