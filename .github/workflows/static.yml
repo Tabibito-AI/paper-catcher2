@@ -2,7 +2,7 @@
 name: Deploy static content to Pages
 
 on:
-  schedule:
+  # schedule:
    # - cron: '0 15 * * *' # JSTの午前0時に実行
    # - cron: '0 */3 * * *' # 3時間ごとに実行
   workflow_dispatch: # 手動でのワークフロー実行を許可
