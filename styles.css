@@ -91,10 +91,13 @@ body {
     background: white;
     border-radius: 8px;
     padding: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* This will be overridden by the grid gap, but good for fallback */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     border: 1px solid #e0e0e0;
     transition: box-shadow 0.2s ease;
+    display: flex; /* Add flex properties for alignment */
+    flex-direction: column;
+    height: 100%; /* Ensure items in a grid row have the same height */
 }
 
 .paper-item:hover {
@@ -365,7 +368,7 @@ body {
 .main-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* レスポンシブなグリッドレイアウト */
-    gap: 20px; /* カード間のスペース */
+    gap: 30px; /* カード間のスペースを拡大 */
     margin-bottom: 60px;
 }
 

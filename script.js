@@ -68,6 +68,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    // Helper function to format date, displaying '本日' for future dates
+    const formatDisplayDate = (dateString) => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const pubDate = new Date(dateString);
+        pubDate.setHours(0, 0, 0, 0);
+
+        if (!dateString || pubDate > today) {
+            return '本日';
+        } else {
+            return new Date(dateString).toLocaleDateString('ja-JP', { year: 'numeric', month: 'numeric', day: 'numeric' });
+        }
+    };
+
     function loadPapersData() {
         return new Promise((resolve) => {
             // Extract papers data from current page
@@ -75,11 +89,19 @@ document.addEventListener('DOMContentLoaded', function() {
             const papers = [];
 
             paperItems.forEach(item => {
-                const titleElement = item.querySelector('.paper-title');
-                const authorElement = item.querySelector('.paper-author');
-                const journalElement = item.querySelector('.paper-journal');
                 const dateElement = item.querySelector('.publication-date');
                 const detailsBtn = item.querySelector('.details-btn');
+
+                // Apply date formatting to the main card's displayed date
+                if (dateElement && detailsBtn) {
+                    const rawDate = detailsBtn.getAttribute('data-date') || '';
+                    dateElement.textContent = formatDisplayDate(rawDate);
+                }
+
+                const titleElement = item.querySelector(".paper-title");
+                const authorElement = item.querySelector(".paper-author");
+                const journalElement = item.querySelector(".paper-journal");
+                // dateElementとdetailsBtnは既に上で取得・処理済みなので、ここでは再取得しない
 
                 if (titleElement && detailsBtn) {
                     papers.push({
@@ -200,19 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('modal-authors').textContent = authors || 'Unknown';
         document.getElementById('modal-journal').textContent = journal || 'Unknown';
              // Format the date for display. If the date is in the future, display '本日'.
-        const displayDate = (dateString) => {
-            const today = new Date();
-            today.setHours(0, 0, 0, 0);
-            const pubDate = new Date(dateString);
-            pubDate.setHours(0, 0, 0, 0);
-
-            if (pubDate > today) {
-                return '本日';
-            } else {
-                return new Date(dateString).toLocaleDateString('ja-JP', { year: 'numeric', month: 'numeric', day: 'numeric' });
-            }
-        };
-        document.getElementById('modal-date').textContent = displayDate(date) || 'Unknown';        document.getElementById('modal-abstract-text').textContent = abstract || 'No abstract available';
+        document.getElementById('modal-date').textContent = formatDisplayDate(date) || 'Unknown';        document.getElementById('modal-abstract-text').textContent = abstract || 'No abstract available';
         document.getElementById('modal-translation-text').textContent = translatedAbstract || 'No translation available';
 
         // Set paper link URL
