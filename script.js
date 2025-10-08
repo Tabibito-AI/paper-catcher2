@@ -104,13 +104,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 // dateElementとdetailsBtnは既に上で取得・処理済みなので、ここでは再取得しない
 
                 if (titleElement && detailsBtn) {
+                    const abstractText = detailsBtn.getAttribute('data-abstract') || '';
+                    const translatedAbstractText = detailsBtn.getAttribute('data-translated-abstract') || '';
+
+                    // 「ウェブスクレイピングで要旨を取得できませんでした。」という論文を除外
+                    if (abstractText === 'ウェブスクレイピングで要旨を取得できませんでした。' || translatedAbstractText === 'ウェブスクレイピングで要旨を取得できませんでした。') {
+                        // この論文カードはスキップ
+                        return;
+                    }
+
                     papers.push({
                         title: titleElement.textContent.trim(),
                         author: authorElement ? authorElement.textContent.trim() : 'Unknown',
                         journal: detailsBtn.getAttribute('data-journal') || 'Unknown',
                         publicationDate: detailsBtn.getAttribute('data-date') || '1900-01-01',
-                        abstract: detailsBtn.getAttribute('data-abstract') || '',
-                        translatedAbstract: detailsBtn.getAttribute('data-translated-abstract') || '',
+                        abstract: abstractText,
+                        translatedAbstract: translatedAbstractText,
                         translatedTitle: detailsBtn.getAttribute('data-translated-title') || '',
                         url: detailsBtn.getAttribute('data-url') || '#',
                         element: item
