@@ -50,7 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Initialize papers data on page load
-    loadPapersData();
+    loadPapersData().then(() => {
+        // Default to 'registration' view on initial load
+        handleViewChange('registration');
+    });
 
     // Store papers data globally
     window.papersData = [];
