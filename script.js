@@ -116,15 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         return;
                     }
 
-                    // 2025年9月より後の日付の論文カードを除外
-                    const publicationDate = detailsBtn.getAttribute('data-date') || '1900-01-01';
-                    const cutoffDate = new Date('2025-10-01'); // 2025年9月より後
-                    const paperDate = new Date(publicationDate);
 
-                    if (paperDate >= cutoffDate) {
-                        // この論文カードはスキップ
-                        return;
-                    }
 
                     papers.push({
                         title: titleElement.textContent.trim(),
