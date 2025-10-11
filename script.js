@@ -86,55 +86,62 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     function loadPapersData() {
-        return new Promise((resolve) => {
-            // Extract papers data from current page
-            const paperItems = document.querySelectorAll('.paper-item');
-            const papers = [];
+        return fetch("papers.json")
+            .then(response => response.json())
+            .then(data => {
+                const papers = [];
+                const mainContent = document.querySelector(".main-content");
+                mainContent.innerHTML = ""; // Clear existing content
 
-            paperItems.forEach(item => {
-                const dateElement = item.querySelector('.publication-date');
-                const detailsBtn = item.querySelector('.details-btn');
-
-                // Apply date formatting to the main card's displayed date
-                if (dateElement && detailsBtn) {
-                    const rawDate = detailsBtn.getAttribute('data-date') || '';
-                    dateElement.textContent = formatDisplayDate(rawDate);
-                }
-
-                const titleElement = item.querySelector(".paper-title");
-                const authorElement = item.querySelector(".paper-author");
-                const journalElement = item.querySelector(".paper-journal");
-                // dateElementとdetailsBtnは既に上で取得・処理済みなので、ここでは再取得しない
-
-                if (titleElement && detailsBtn) {
-                    const abstractText = detailsBtn.getAttribute('data-abstract') || '';
-                    const translatedAbstractText = detailsBtn.getAttribute('data-translated-abstract') || '';
+                data.forEach(paper => {
+                    const abstractText = paper.abstract || "";
+                    const translatedAbstractText = paper.translatedAbstract || "";
 
                     // 「ウェブスクレイピングで要旨を取得できませんでした。」という論文を除外
-                    if (abstractText === 'ウェブスクレイピングで要旨を取得できませんでした。' || translatedAbstractText === 'ウェブスクレイピングで要旨を取得できませんでした。') {
-                        // この論文カードはスキップ
-                        return;
+                    if (abstractText === "ウェブスクレイピングで要旨を取得できませんでした。" || translatedAbstractText === "ウェブスクレイピングで要旨を取得できませんでした。") {
+                        return; // この論文はスキップ
                     }
 
+                    // 2025年10月1日以降の論文を除外
+                    const pubDate = new Date(paper.publicationDate);
+                    const cutoffDate = new Date("2025-10-01T00:00:00Z");
+                    if (pubDate >= cutoffDate) {
+                        return; // この論文はスキップ
+                    }
 
-
+                    // 論文カード要素を動的に作成
+                    const paperItem = document.createElement("div");
+                    paperItem.classList.add("paper-item");
+                    paperItem.innerHTML = `
+                        <h3 class="paper-title">${paper.title}</h3>
+                        <p class="paper-author">${paper.author}</p>
+                        <p class="paper-journal">${paper.journal}</p>
+                        <p class="paper-meta">
+                            <span class="publication-date">${formatDisplayDate(paper.publicationDate)}</span>
+                            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(paper.title)}&url=${encodeURIComponent(paper.link)}" target="_blank" class="twitter-link">[Xへの投稿]</a>
+                            <a href="${paper.link}" target="_blank" class="paper-link">[論文を開く]</a>
+                            <button class="details-btn" 
+                                data-title="${paper.title}" 
+                                data-translated-title="${paper.translatedTitle || ''}" 
+                                data-authors="${paper.author}" 
+                                data-journal="${paper.journal}" 
+                                data-date="${paper.publicationDate}" 
+                                data-abstract="${paper.abstract}" 
+                                data-translated-abstract="${paper.translatedAbstract || ''}" 
+                                data-url="${paper.link}">
+                                詳細
+                            </button>
+                        </p>
+                    `;
+                    mainContent.appendChild(paperItem);
                     papers.push({
-                        title: titleElement.textContent.trim(),
-                        author: authorElement ? authorElement.textContent.trim() : 'Unknown',
-                        journal: detailsBtn.getAttribute('data-journal') || 'Unknown',
-                        publicationDate: detailsBtn.getAttribute('data-date') || '1900-01-01',
-                        abstract: abstractText,
-                        translatedAbstract: translatedAbstractText,
-                        translatedTitle: detailsBtn.getAttribute('data-translated-title') || '',
-                        url: detailsBtn.getAttribute('data-url') || '#',
-                        element: item
+                        ...paper,
+                        element: paperItem
                     });
-                }
+                });
+                window.papersData = papers;
+                return papers;
             });
-
-            window.papersData = papers;
-            resolve();
-        });
     }
 
     function sortAndDisplayPapers(viewType) {
