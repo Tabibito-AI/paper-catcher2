@@ -112,10 +112,17 @@ document.addEventListener('DOMContentLoaded', function() {
                     // 論文カード要素を動的に作成
                     const paperItem = document.createElement("div");
                     paperItem.classList.add("paper-item");
+                    const getAbstractPreview = (abstract, lines = 3) => {
+                        if (!abstract) return '';
+                        const sentences = abstract.split(/\n|\./).filter(s => s.trim() !== '');
+                        return sentences.slice(0, lines).join('. ') + (sentences.length > lines ? '...' : '');
+                    };
+
                     paperItem.innerHTML = `
                         <h3 class="paper-title">${paper.title}</h3>
                         <p class="paper-author">${paper.author}</p>
                         <p class="paper-journal">${paper.journal}</p>
+                        <p class="paper-abstract-preview">${getAbstractPreview(translatedAbstractText || abstractText)}</p>
                         <p class="paper-meta">
                             <span class="publication-date">${formatDisplayDate(paper.publicationDate)}</span>
                             <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(paper.title)}&url=${encodeURIComponent(paper.link)}" target="_blank" class="twitter-link">[Xへの投稿]</a>

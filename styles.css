@@ -122,6 +122,18 @@ body {
     font-size: 0.95rem;
 }
 
+.paper-abstract-preview {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 3行で切り詰める */
+    -webkit-box-orient: vertical;
+}
+
 .paper-meta {
     display: flex;
     gap: 16px;
